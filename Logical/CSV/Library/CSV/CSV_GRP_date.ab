@@ -1,0 +1,51 @@
+;====================================================================
+;        Eingangswerte Tag, Monat, Jahr in einen formatierten String für 
+;              Grübl-Reporting (GRP) Format: "jjjj-MM-dd" umwandeln
+;
+;   !!  Achtung: mindestens String[10] od. USINT[0..10] am Ausgang anhängen !!
+;
+;       (Auffüllung Tage < 10, Monat < 10, Jahr < 1000 mit vorangestellten "0")
+;        zB.: "2011-01-01"
+;
+; 	Author:		Ing. Schmid Herwig
+;	Version:	1.0
+;	Datum:		25.02.2011
+;	geprüft:	25.02.2011 OK
+;
+;====================================================================
+; Aufruf: CSV_GRP_date(Eing_Tag, Eing_Monat, Eing_Jahr, adr(Ausg_date), sizeof(Ausg_date), Ausg_Fehler) 
+;
+; EA:    		Eing_Tag  		  E.. Byte     Tageswert 1..31
+;              	Eing_Monat	  	  E.. Byte     Monatswert 1..12
+;              	Eing_Jahr         E.. UINT     Jahreswert 0..9999
+;              	adr(Ausg_date)	  E.. UDINT    Ausgangsvariable - Adresse String[>=10] od. USINT[>=0..10]
+;               sizeof(Ausg_date) E.. UDINT    Ausgangsvariable - Länge String[>=10] od. USINT[>=0..10]
+;               Ausg_Fehler       A.. BOOL     (= 1 wenn Ausgangsvariable zu klein definiert) 
+;====================================================================
+
+FUNCTION_BLOCK CSV_GRP_date
+
+  memset(adr(M_DATE), 0, sizeof(M_DATE))
+
+  if Ausg_date_len >= sizeof(M_DATE) then
+  
+     CSV_itoa(Eing_Tag  , 2, 0, 0, 0, adr(Str_Tag) , sizeof(Str_Tag) , M_Fehler) 
+     CSV_itoa(Eing_Monat, 2, 0, 0, 0, adr(Str_Mon) , sizeof(Str_Mon) , M_Fehler) 
+     CSV_itoa(Eing_Jahr , 4, 0, 0, 0, adr(Str_Jahr), sizeof(Str_Jahr), M_Fehler) 
+
+     strcpy(adr(M_DATE), adr(Str_Jahr))
+     strcat(adr(M_DATE), "-")
+     strcat(adr(M_DATE), adr(Str_Mon))
+     strcat(adr(M_DATE), "-")
+     strcat(adr(M_DATE), adr(Str_Tag))
+
+     memcpy(Ausg_date_adr, adr(M_DATE), Ausg_date_len)
+  
+  else
+  
+    memcpy(Ausg_date_adr, adr(M_DATE), sizeof(M_DATE))
+  	Ausg_Fehler = 1
+  
+  endif	
+
+END_FUNCTION_BLOCK

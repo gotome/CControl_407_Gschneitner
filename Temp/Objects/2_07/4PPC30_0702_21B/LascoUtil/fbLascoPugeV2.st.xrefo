@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.LascoUtil" AppMod="">
+	<Vars>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="TON" Lib="standard">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoUtil\fbLascoPugeV2.st">
+				<Pos L="19" C="5" PS="Ln:19, Col:5"/>
+				<Pos L="45" C="5" PS="Ln:45, Col:5"/>
+				<Pos L="52" C="4" PS="Ln:52, Col:4"/>
+				<Pos L="73" C="5" PS="Ln:73, Col:5"/>
+				<Pos L="79" C="4" PS="Ln:79, Col:4"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="SrvcUhrzeit">
+  <Property Name="BackColor" Value="9"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="800"/>
+  <TextGroup>
+    <TextLayer LanguageId="en">
+      <Text ID="232736" Value="Please check date and time (see user manual)."/>
+      <Text ID="232737" Value="Later"/>
+      <Text ID="232738" Value="Check now"/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="232736" Value="Bitte kontrollieren Sie die Einstellung von Datum und Uhrzeit (siehe Betriebsanleitung)."/>
+      <Text ID="232737" Value="Später"/>
+      <Text ID="232738" Value="Jetzt kontrollieren"/>
+    </TextLayer>
+    <TextLayer LanguageId="fr">
+      <Text ID="232736" Value="SVP vérifiez la date et l'heure (voir manuel d'utilisation)."/>
+      <Text ID="232737" Value="Plus tard"/>
+      <Text ID="232738" Value="Vérifier maintenant"/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-BE">
+      <Text ID="232736" Value="Controleer datum en tijd aub (zie gebruiksaanwijzing)"/>
+      <Text ID="232737" Value="Later"/>
+      <Text ID="232738" Value="Nu controleren"/>
+    </TextLayer>
+    <TextLayer LanguageId="es">
+      <Text ID="232736" Value=""/>
+      <Text ID="232737" Value=""/>
+      <Text ID="232738" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sl">
+      <Text ID="232736" Value="Preverite nastavitve datuma in časa (glejte navodila za uporabo)."/>
+      <Text ID="232737" Value="Kasneje"/>
+      <Text ID="232738" Value="Preveri zdaj"/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="232736" Value="1"/>
+      <Index ID="232737" Value="2"/>
+      <Index ID="232738" Value="4"/>
+    </IndexMap>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001005" Name="Bitmap_1">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[PNG_HintergrundGedimmt]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="Width" Value="800"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_2">
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[FrameGelb35Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="246"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="10"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="105"/>
+      <Property Name="Width" Value="780"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_2">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial18pxBold]"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="Height" Value="100"/>
+      <Property Name="Left" Value="50"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="1"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="124"/>
+      <Property Name="Width" Value="700"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_1">
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="None"/>
+      <Property Name="Border" Value="Source[local].Border[FrameHellgr35Dklgr]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Font" Value="Source[local].Font[Arial16pxBold]"/>
+      <Property Name="Height" Value="80"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="27"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedBorder" Value="Source[embedded].Property[Border]"/>
+      <Property Name="PressedForeColor" Value="243"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndex" Value="2"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="254"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[cmdMsgKontrDatumAckn]"/>
+      <Property Name="Width" Value="200"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_2">
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="None"/>
+      <Property Name="Border" Value="Source[local].Border[FrameHellgr35Dklgr]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Font" Value="Source[local].Font[Arial16pxBold]"/>
+      <Property Name="Height" Value="80"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="575"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedBorder" Value="Source[embedded].Property[Border]"/>
+      <Property Name="PressedForeColor" Value="243"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndex" Value="4"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="254"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[cmdResetKontrDatum]"/>
+      <Property Name="Width" Value="200"/>
+    </Control>
+  </Controls>
+  <KeyMapping>
+    <VirtualKey Name="cmdMsgKontrDatumAckn">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="None"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="cmdResetKontrDatum">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="None"/>
+        </KeyAction>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_1"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="None"/>
+        </KeyAction>
+        <KeyAction ClassId="0x00000160">
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_2"/>
+          <Property Name="Page" Value="Source[local].Page[_650_SET_DisplayUhrzeit]"/>
+          <Property Name="Target" Value="Page"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+  </KeyMapping>
+</Layer>

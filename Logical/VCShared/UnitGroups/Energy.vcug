@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Energy">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[KilowattHours]"/>
+  <Property Name="DefaultLimit" Value="None"/>
+  <Property Name="DefaultPLCUnit" Value="Source[embedded].Unit[PLCUnit]"/>
+  <Property Name="Description" Value="Unit group for power"/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="None"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="None"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65536"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en">
+      <Text ID="216355" Value="watt hours"/>
+      <Text ID="216356" Value="Wh"/>
+      <Text ID="216357" Value="kilowatt hours"/>
+      <Text ID="216358" Value="kWh"/>
+      <Text ID="216359" Value=""/>
+      <Text ID="216360" Value=""/>
+      <Text ID="216361" Value="watt"/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="216355" Value="Watt"/>
+      <Text ID="216356" Value="W"/>
+      <Text ID="216357" Value="Kilowatt"/>
+      <Text ID="216358" Value="kW"/>
+      <Text ID="216359" Value=""/>
+      <Text ID="216360" Value=""/>
+      <Text ID="216361" Value="Watt"/>
+    </TextLayer>
+    <TextLayer LanguageId="fr">
+      <Text ID="216355" Value="watt heure"/>
+      <Text ID="216356" Value="Wh"/>
+      <Text ID="216357" Value="kilowatt heure"/>
+      <Text ID="216358" Value="kWh"/>
+      <Text ID="216359" Value=""/>
+      <Text ID="216360" Value=""/>
+      <Text ID="216361" Value="watt"/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-BE">
+      <Text ID="216355" Value=""/>
+      <Text ID="216356" Value=""/>
+      <Text ID="216357" Value=""/>
+      <Text ID="216358" Value=""/>
+      <Text ID="216359" Value=""/>
+      <Text ID="216360" Value=""/>
+      <Text ID="216361" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es">
+      <Text ID="216355" Value=""/>
+      <Text ID="216356" Value=""/>
+      <Text ID="216357" Value=""/>
+      <Text ID="216358" Value=""/>
+      <Text ID="216359" Value=""/>
+      <Text ID="216360" Value=""/>
+      <Text ID="216361" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sl">
+      <Text ID="216355" Value="vat"/>
+      <Text ID="216356" Value="W"/>
+      <Text ID="216357" Value="kilovat"/>
+      <Text ID="216358" Value="kW"/>
+      <Text ID="216359" Value=""/>
+      <Text ID="216360" Value=""/>
+      <Text ID="216361" Value="vat"/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="216355" Value="1"/>
+      <Index ID="216356" Value="2"/>
+      <Index ID="216357" Value="3"/>
+      <Index ID="216358" Value="4"/>
+      <Index ID="216359" Value="5"/>
+      <Index ID="216360" Value="6"/>
+      <Index ID="216361" Value="0"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000602" Name="WattHours">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="1"/>
+      <Property Name="Index" Value="1"/>
+      <Property Name="Offset" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="2"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="1"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+    </Unit>
+    <Unit ClassId="0x00000602" Name="KilowattHours">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="0.001"/>
+      <Property Name="Index" Value="2"/>
+      <Property Name="Offset" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="4"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="3"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="3"/>
+    </Unit>
+    <Unit ClassId="0x00000603" Name="PLCUnit">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="6"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="5"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+  </Units>
+  <Limits/>
+</UnitGroup>

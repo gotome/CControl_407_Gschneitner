@@ -1,0 +1,71 @@
+(*==========================================================================================================================================================*)
+(*============================================ LOKALE VARIABLEN ============================================================================================*)
+VAR
+	sekTick : {REDUND_UNREPLICABLE} BOOL;
+	loc_OeltempModul01 : {REDUND_UNREPLICABLE} REAL;
+	loc_OeltempModul02 : {REDUND_UNREPLICABLE} REAL;
+END_VAR
+(*==========================================================================================================================================================*)
+(*============================================ MODULE ======================================================================================================*)
+VAR
+	diModul02 : modDIF371;
+	doModul03 : modDO9322;
+	aiModul04 : modAI8321;
+	cmModul05 : modCM8281;
+	cmModul06 : modCM8281;
+	cmModul07 : modCM8281;
+	atModul08 : modAT2222;
+	cmModul10 : modCM8281;
+	brModul01 : modBR7300;
+	cmModul12 : modCM8281;
+	cmModul11 : modCM8281;
+END_VAR
+(*==========================================================================================================================================================*)
+(*============================================ FUNKTIONSBAUSTEINE =========================================================================================*)
+VAR
+	fbLascoZdxx_0 : fbLascoZdxx;
+	LCRMovAvgFlt_0 : LCRMovAvgFlt;
+	LCRMovAvgFlt_1 : LCRMovAvgFlt;
+	LCRMovAvgFlt_2 : LCRMovAvgFlt;
+	LCRMovAvgFlt_3 : LCRMovAvgFlt;
+	LCRMovAvgFlt_4 : LCRMovAvgFlt;
+	LCRMovAvgFlt_5 : LCRMovAvgFlt;
+	LCRMovAvgFlt_6 : LCRMovAvgFlt;
+	LCRMovAvgFlt_7 : LCRMovAvgFlt;
+	LCRMovAvgFlt_8 : LCRMovAvgFlt;
+	LCRMovAvgFlt_9 : LCRMovAvgFlt;
+	LCRMovAvgFlt_10 : LCRMovAvgFlt;
+	LCRMovAvgFlt_11 : LCRMovAvgFlt;
+	LCRMovAvgFlt_12 : LCRMovAvgFlt;
+	LCRMovAvgFlt_13 : LCRMovAvgFlt;
+	LCRLimScal_0 : LCRLimScal;
+	LCRLimScal_1 : LCRLimScal;
+	LCRLimScal_2 : LCRLimScal;
+	LCRLimScal_3 : LCRLimScal;
+	LCRLimScal_4 : LCRLimScal;
+	LCRLimScal_5 : LCRLimScal;
+	LCRLimScal_6 : LCRLimScal;
+	LCRLimScal_7 : LCRLimScal;
+	LCRLimScal_8 : LCRLimScal;
+	LCRLimScal_9 : LCRLimScal;
+	LCRLimScal_10 : LCRLimScal;
+	LCRLimScal_11 : LCRLimScal;
+	LCRLimScal_12 : LCRLimScal;
+	LCRLimScal_13 : LCRLimScal;
+	LCRLimScal_14 : LCRLimScal;
+	LCRLimScal_15 : LCRLimScal;
+	LCRLimScal_16 : LCRLimScal;
+	LCRLimScal_17 : LCRLimScal;
+	loc_Erforderl_Mod1 : BOOL;
+	loc_Erforderl_Mod2 : BOOL;
+	loc_Erforderl_Mod3 : BOOL;
+	loc_Erforderl_Mod4 : BOOL;
+	loc_Erforderl_Mod5 : BOOL;
+	loc_Erforderl_Mod6 : BOOL;
+	loc_Erforderl_Mod7 : BOOL;
+	loc_Erforderl_Mod8 : BOOL;
+	loc_Erforderl_Mod9 : BOOL;
+	loc_Erforderl_Mod10 : BOOL;
+	loc_Erforderl_Mod11 : BOOL;
+	fbLascoFehl_0 : {REDUND_UNREPLICABLE} fbLascoFehl;
+END_VAR

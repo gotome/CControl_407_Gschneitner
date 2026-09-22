@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="UG_Memory">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[PLCUnit]"/>
+  <Property Name="DefaultLimit" Value="None"/>
+  <Property Name="DefaultPLCUnit" Value="None"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="None"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="None"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65536"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en">
+      <Text ID="122443" Value=""/>
+      <Text ID="122444" Value=""/>
+      <Text ID="122445" Value=""/>
+      <Text ID="122446" Value="byte"/>
+      <Text ID="122447" Value="B"/>
+      <Text ID="122448" Value="KiloByte"/>
+      <Text ID="122449" Value="kB"/>
+      <Text ID="122450" Value="megabyte"/>
+      <Text ID="122451" Value="MB"/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="122443" Value=""/>
+      <Text ID="122444" Value=""/>
+      <Text ID="122445" Value=""/>
+      <Text ID="122446" Value="Byte"/>
+      <Text ID="122447" Value="B"/>
+      <Text ID="122448" Value="KiloByte"/>
+      <Text ID="122449" Value="kB"/>
+      <Text ID="122450" Value="MegaByte"/>
+      <Text ID="122451" Value="MB"/>
+    </TextLayer>
+    <TextLayer LanguageId="fr">
+      <Text ID="122443" Value=""/>
+      <Text ID="122444" Value=""/>
+      <Text ID="122445" Value=""/>
+      <Text ID="122446" Value="byte"/>
+      <Text ID="122447" Value="B"/>
+      <Text ID="122448" Value="KiloByte"/>
+      <Text ID="122449" Value="kB"/>
+      <Text ID="122450" Value="megabyte"/>
+      <Text ID="122451" Value="MB"/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-BE">
+      <Text ID="122443" Value=""/>
+      <Text ID="122444" Value=""/>
+      <Text ID="122445" Value=""/>
+      <Text ID="122446" Value="byte"/>
+      <Text ID="122447" Value="B"/>
+      <Text ID="122448" Value="kilobyte"/>
+      <Text ID="122449" Value="kB"/>
+      <Text ID="122450" Value="megabyte"/>
+      <Text ID="122451" Value="MB"/>
+    </TextLayer>
+    <TextLayer LanguageId="es">
+      <Text ID="122443" Value=""/>
+      <Text ID="122444" Value=""/>
+      <Text ID="122445" Value=""/>
+      <Text ID="122446" Value=""/>
+      <Text ID="122447" Value=""/>
+      <Text ID="122448" Value=""/>
+      <Text ID="122449" Value=""/>
+      <Text ID="122450" Value=""/>
+      <Text ID="122451" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sl">
+      <Text ID="122443" Value=""/>
+      <Text ID="122444" Value=""/>
+      <Text ID="122445" Value=""/>
+      <Text ID="122446" Value="bajt"/>
+      <Text ID="122447" Value="B"/>
+      <Text ID="122448" Value="kilobajt"/>
+      <Text ID="122449" Value="kB"/>
+      <Text ID="122450" Value="megabajt"/>
+      <Text ID="122451" Value="MB"/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="122443" Value="0"/>
+      <Index ID="122444" Value="1"/>
+      <Index ID="122445" Value="2"/>
+      <Index ID="122446" Value="3"/>
+      <Index ID="122447" Value="4"/>
+      <Index ID="122448" Value="5"/>
+      <Index ID="122449" Value="6"/>
+      <Index ID="122450" Value="7"/>
+      <Index ID="122451" Value="8"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000603" Name="PLCUnit">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="2"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="1"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="1"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+    <Unit ClassId="0x00000602" Name="Byte">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="1"/>
+      <Property Name="Index" Value="1"/>
+      <Property Name="Offset" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="4"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="3"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="2"/>
+    </Unit>
+    <Unit ClassId="0x00000602" Name="KByte">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="10249765625"/>
+      <Property Name="Index" Value="2"/>
+      <Property Name="Offset" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="6"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="5"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="5"/>
+    </Unit>
+    <Unit ClassId="0x00000602" Name="MByte">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Factor" Value="1048576"/>
+      <Property Name="Index" Value="3"/>
+      <Property Name="Offset" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="8"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="7"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="8"/>
+    </Unit>
+  </Units>
+  <Limits/>
+</UnitGroup>

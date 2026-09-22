@@ -1,0 +1,64 @@
+;====================================================================
+;                  ASCII-Wert wird in LREAL gewandelt
+;
+;     im ASCII-Wert kann sowohl "," als auch "." als Komma verwendet werden
+;   !!  Achtung: Maximal String[40] od. USINT[0..40] am Einggang anhängen !!
+;
+; 	Author:		Ing. Schmid Herwig
+;	Version:	1.0
+;	Datum:		07.03.2011
+;	geprüft:	07.03.2011 OK
+;
+;====================================================================
+; Aufruf: CSV_atoLREAL(adr(Eing_ASCII), sizeof(Eing_ASCII), Ausg_Fehler, Ausg_LREAL) 
+;
+; EA:    		adr(Eing_ASCII)	  E.. Adresse von USINT[<=0..40] od. STRING[<=40]
+;               adr(Eing_ASCII)	  E.. Länge von USINT[<=0..40] od. STRING[<=40]
+;              	Ausg_Fehler       A.. BOOL 			(= 1 wenn String od. USINT zu groß definiert) 
+;               Ausg_LREAL 		  A.. LREAL 		Ausgangswert 
+;====================================================================
+
+FUNCTION_BLOCK CSV_atoLREAL
+
+   if Eing_ASCII_len <= sizeof(M_ASCII) then
+      
+	  memcpy(adr(M_ASCII), Eing_ASCII_adr, Eing_ASCII_len)
+
+      Ausg_LREAL = 0
+      M_Stellen  = 0
+      M_Vorkomma = 0
+      M_Komma    = 0
+      loop ii = (sizeof(M_ASCII) - 2) downto 0 do
+		   if (M_ASCII[ii] <> 32) and (M_ASCII[ii] <> 0) and ((M_ASCII[ii] < 43) or (M_ASCII[ii] > 57) or (M_ASCII[ii] = 47)) then
+	    	  Ausg_Fehler = 1
+		      exitif 1 = 1
+		   endif		
+		   if (M_ASCII[ii] >= 48) and (M_ASCII[ii] <= 57) then
+			  Ausg_LREAL = Ausg_LREAL + LREAL(M_ASCII[ii] - 48) * (EXPT(10, M_Stellen))
+			  inc(M_Stellen)
+		      if M_Komma = 1 then
+		         inc(M_Vorkomma)
+		      endif   
+		   endif	
+		   if (M_ASCII[ii] = 44) or (M_ASCII[ii] = 46) then
+		 	  M_ASCII[ii] = 44	   ; "." durch "," ersetzen
+			  M_Komma = 1
+		   endif	
+		   if M_ASCII[ii] = 45 then   ; "-"
+		      Ausg_LREAL = - Ausg_LREAL
+		   endif
+           if ((ii = 0) or (M_ASCII[ii] = 32) or (M_ASCII[ii] = 0)) and (M_Vorkomma > 0) then
+		      Ausg_LREAL = Ausg_LREAL * EXPT(10, -(M_Stellen - M_Vorkomma))
+		      exitif 1 = 1
+		   endif   	
+     endloop	 
+
+   else 
+
+      Ausg_LREAL  = 0
+   	  Ausg_Fehler = 1
+
+   endif
+
+
+END_FUNCTION_BLOCK

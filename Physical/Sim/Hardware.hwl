@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BR.AS.HardwareTopology Version="0.0.0.1">
+  <TimeStamps>
+    <TimeStamp LogicalPath="Test.Hardware.hw" LastWriteTime="05/04/2022 11:22:29" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="PC" Type="PC_any" X="100" Y="100" />
+  </Modules>
+  <Links />
+  <InfoElements />
+</BR.AS.HardwareTopology>

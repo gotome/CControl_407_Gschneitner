@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<Crossref Scope="Util.System" AppMod="">
+	<Vars>
+		<Var Name="System.fbLascoZdxx_0" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="17" C="2" PS="Ln:17, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="System.fbLascoZdxx_0.Q" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="18" C="16" PS="Ln:18, Col:16" A="R"/>
+			</File>
+		</Var>
+		<Var Name="System.fbLascoZdxx_1" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="19" C="2" PS="Ln:19, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="System.fbLascoZdxx_1.Q" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="20" C="16" PS="Ln:20, Col:16" A="R"/>
+			</File>
+		</Var>
+		<Var Name="System.bildTick" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="18" C="2" PS="Ln:18, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="System.sekTick" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="20" C="2" PS="Ln:20, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="System.Device" Scope="Local" Type="STRING[16]">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="23" C="13" PS="Ln:23, Col:13" A="R"/>
+				<Pos L="44" C="51" PS="Ln:44, Col:51" A="R"/>
+				<Pos L="50" C="55" PS="Ln:50, Col:55" A="R"/>
+				<Pos L="56" C="59" PS="Ln:56, Col:59" A="R"/>
+			</File>
+		</Var>
+		<Var Name="System.CfgSetIPAddr_status" Scope="Local" Type="UINT">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="31" C="3" PS="Ln:31, Col:3" A="W"/>
+				<Pos L="43" C="7" PS="Ln:43, Col:7" A="R"/>
+				<Pos L="45" C="4" PS="Ln:45, Col:4" A="W"/>
+				<Pos L="49" C="7" PS="Ln:49, Col:7" A="R"/>
+				<Pos L="55" C="7" PS="Ln:55, Col:7" A="R"/>
+				<Pos L="67" C="7" PS="Ln:67, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="System.CfgSetDefaultGateway_status" Scope="Local" Type="UINT">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="32" C="3" PS="Ln:32, Col:3" A="W"/>
+				<Pos L="55" C="71" PS="Ln:55, Col:71" A="R"/>
+				<Pos L="57" C="4" PS="Ln:57, Col:4" A="W"/>
+				<Pos L="67" C="37" PS="Ln:67, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="System.CfgSetSubnetMask_status" Scope="Local" Type="UINT">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="33" C="3" PS="Ln:33, Col:3" A="W"/>
+				<Pos L="49" C="37" PS="Ln:49, Col:37" A="R"/>
+				<Pos L="51" C="4" PS="Ln:51, Col:4" A="W"/>
+				<Pos L="55" C="37" PS="Ln:55, Col:37" A="R"/>
+				<Pos L="67" C="75" PS="Ln:67, Col:75" A="R"/>
+				<Pos L="67" C="109" PS="Ln:67, Col:109" A="R"/>
+			</File>
+		</Var>
+		<Var Name="System.CfgSetHostName_status" Scope="Local" Type="UINT">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="34" C="3" PS="Ln:34, Col:3" A="W"/>
+				<Pos L="61" C="7" PS="Ln:61, Col:7" A="R"/>
+				<Pos L="63" C="4" PS="Ln:63, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="System.CfgSetIPAddr_0" Scope="Local" Type="CfgSetIPAddr">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="44" C="4" PS="Ln:44, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="System.CfgSetIPAddr_0.status" Scope="Local" Type="CfgSetIPAddr">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="45" C="28" PS="Ln:45, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="System.CfgSetSubnetMask_0" Scope="Local" Type="CfgSetSubnetMask">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="50" C="4" PS="Ln:50, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="System.CfgSetSubnetMask_0.status" Scope="Local" Type="CfgSetSubnetMask">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="51" C="32" PS="Ln:51, Col:32" A="R"/>
+			</File>
+		</Var>
+		<Var Name="System.CfgSetDefaultGateway_0" Scope="Local" Type="CfgSetDefaultGateway">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="56" C="4" PS="Ln:56, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="System.CfgSetDefaultGateway_0.status" Scope="Local" Type="CfgSetDefaultGateway">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="57" C="36" PS="Ln:57, Col:36" A="R"/>
+			</File>
+		</Var>
+		<Var Name="System.CfgSetHostName_0" Scope="Local" Type="CfgSetHostName">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="62" C="4" PS="Ln:62, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="System.CfgSetHostName_0.status" Scope="Local" Type="CfgSetHostName">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="63" C="29" PS="Ln:63, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Allgemein.IPAdresse" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="44" C="75" PS="Ln:44, Col:75" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Allgemein.SubnetMask" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="50" C="83" PS="Ln:50, Col:83" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Allgemein.DefaultGateway" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="56" C="84" PS="Ln:56, Col:84" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Allgemein.HostName" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="62" C="54" PS="Ln:62, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzungsdaten.Allgemein.SetEthernetOk" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="30" C="3" PS="Ln:30, Col:3" A="W"/>
+				<Pos L="69" C="4" PS="Ln:69, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Echtzeit.Sekunde" Scope="Global" Type="typEchtzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="19" C="22" PS="Ln:19, Col:22" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiStatus.CurPage" Scope="Global" Type="typHmiStatus">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="17" C="23" PS="Ln:17, Col:23" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiButtons.IpParameterSetzen" Scope="Global" Type="typHmiButtons">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="29" C="14" PS="Ln:29, Col:14" A="R"/>
+				<Pos L="40" C="6" PS="Ln:40, Col:6" A="R"/>
+				<Pos L="68" C="4" PS="Ln:68, Col:4" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+		<Const Name="ERR_FUB_BUSY" Scope="Global" Type="UINT">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="31" C="35" PS="Ln:31, Col:35" A="R"/>
+				<Pos L="32" C="35" PS="Ln:32, Col:35" A="R"/>
+				<Pos L="33" C="35" PS="Ln:33, Col:35" A="R"/>
+				<Pos L="34" C="35" PS="Ln:34, Col:35" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="fbLascoZdxx" Lib="LascoUtil">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="17" C="2" PS="Ln:17, Col:2"/>
+				<Pos L="19" C="2" PS="Ln:19, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="strcpy" Lib="asstring">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="23" C="2" PS="Ln:23, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="CfgSetIPAddr" Lib="AsARCfg">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="44" C="4" PS="Ln:44, Col:4"/>
+			</File>
+		</Func>
+		<Func Name="CfgSetSubnetMask" Lib="AsARCfg">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="50" C="4" PS="Ln:50, Col:4"/>
+			</File>
+		</Func>
+		<Func Name="CfgSetDefaultGateway" Lib="AsARCfg">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="56" C="4" PS="Ln:56, Col:4"/>
+			</File>
+		</Func>
+		<Func Name="CfgSetHostName" Lib="AsARCfg">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\System\System.st">
+				<Pos L="62" C="4" PS="Ln:62, Col:4"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

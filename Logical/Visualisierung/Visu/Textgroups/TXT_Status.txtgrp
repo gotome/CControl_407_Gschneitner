@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXT_Status">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="59"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="232451" Value="Not available"/>
+    <Text ID="232452" Value="Standstill"/>
+    <Text ID="232453" Value="Test operation"/>
+    <Text ID="232454" Value="Automatic"/>
+    <Text ID="232455" Value="Interval mode run"/>
+    <Text ID="232456" Value="Re-drying pause"/>
+    <Text ID="232459" Value="Ready"/>
+    <Text ID="232464" Value="Failure"/>
+    <Text ID="232472" Value="Active"/>
+    <Text ID="232473" Value="Not active"/>
+    <Text ID="232474" Value="Open"/>
+    <Text ID="232475" Value="Closed"/>
+    <Text ID="232478" Value="No clearance"/>
+    <Text ID="232480" Value="Unknown"/>
+    <Text ID="232484" Value="In motion"/>
+    <Text ID="232485" Value="Interval mode pause"/>
+    <Text ID="232486" Value="Re-drying run"/>
+    <Text ID="240575" Value="Defrosting"/>
+    <Text ID="240576" Value="In operation"/>
+    <Text ID="240577" Value="Cooldown phase"/>
+    <Text ID="240578" Value="Standby"/>
+    <Text ID="241929" Value="Fresh-air"/>
+    <Text ID="241930" Value="Roof-air"/>
+    <Text ID="241931" Value="Recirculation"/>
+    <Text ID="271757" Value="Automatic (paused)"/>
+    <Text ID="312237" Value="Adverse weather RUN"/>
+    <Text ID="312238" Value="Adverse weather PAUSE"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="232451" Value="Nicht verfügbar"/>
+    <Text ID="232452" Value="Stillstand"/>
+    <Text ID="232453" Value="Testbetrieb"/>
+    <Text ID="232454" Value="Automatik"/>
+    <Text ID="232455" Value="Intervallbetrieb Lauf"/>
+    <Text ID="232456" Value="Nachtrocknung Pause"/>
+    <Text ID="232459" Value="Bereit"/>
+    <Text ID="232464" Value="Störung"/>
+    <Text ID="232472" Value="Aktiv"/>
+    <Text ID="232473" Value="Nicht aktiv"/>
+    <Text ID="232474" Value="Offen"/>
+    <Text ID="232475" Value="Geschlossen"/>
+    <Text ID="232478" Value="Nicht freigegeben"/>
+    <Text ID="232480" Value="Unbekannt"/>
+    <Text ID="232484" Value="In Bewegung"/>
+    <Text ID="232485" Value="Intervallbetrieb Pause"/>
+    <Text ID="232486" Value="Nachtrocknung Lauf"/>
+    <Text ID="240575" Value="Abtauung"/>
+    <Text ID="240576" Value="Anlage in Betrieb"/>
+    <Text ID="240577" Value="Auskühlphase"/>
+    <Text ID="240578" Value="Standby"/>
+    <Text ID="241929" Value="Frischluft"/>
+    <Text ID="241930" Value="Dachluft"/>
+    <Text ID="241931" Value="Umluft"/>
+    <Text ID="271757" Value="Automatik (pausiert)"/>
+    <Text ID="312237" Value="Schlechtwetter LAUF"/>
+    <Text ID="312238" Value="Schlechtwetter PAUSE"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="232451" Value="Non disponible"/>
+    <Text ID="232452" Value="Au repos"/>
+    <Text ID="232453" Value="Marche de test"/>
+    <Text ID="232454" Value="Marche continue"/>
+    <Text ID="232455" Value="Intervalle\n(en marche)"/>
+    <Text ID="232456" Value="Post-séchage\n(en pause)"/>
+    <Text ID="232459" Value="Prêt"/>
+    <Text ID="232464" Value="Défaut"/>
+    <Text ID="232472" Value="Activé"/>
+    <Text ID="232473" Value="Inactif"/>
+    <Text ID="232474" Value="Ouvert"/>
+    <Text ID="232475" Value="Fermé"/>
+    <Text ID="232478" Value="Pas d'autorisation"/>
+    <Text ID="232480" Value="Inconnu"/>
+    <Text ID="232484" Value="En mouvement"/>
+    <Text ID="232485" Value="Intervalle\n(en pause)"/>
+    <Text ID="232486" Value="Post-séchage\n(en marche)"/>
+    <Text ID="240575" Value="Dégivrage"/>
+    <Text ID="240576" Value="En marche"/>
+    <Text ID="240577" Value="Phase refroidissement"/>
+    <Text ID="240578" Value="Au repos"/>
+    <Text ID="241929" Value="Air neuf"/>
+    <Text ID="241930" Value="Air toiture"/>
+    <Text ID="241931" Value="Air recyclé"/>
+    <Text ID="271757" Value="Marche continu\n(en pause)"/>
+    <Text ID="312237" Value=""/>
+    <Text ID="312238" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-BE">
+    <Text ID="232451" Value="Niet beschikbaar"/>
+    <Text ID="232452" Value="Stilstand"/>
+    <Text ID="232453" Value="Test werking"/>
+    <Text ID="232454" Value=""/>
+    <Text ID="232455" Value=""/>
+    <Text ID="232456" Value=""/>
+    <Text ID="232459" Value="Klaar"/>
+    <Text ID="232464" Value="Storing"/>
+    <Text ID="232472" Value="Actief"/>
+    <Text ID="232473" Value="Niet actief"/>
+    <Text ID="232474" Value="Open"/>
+    <Text ID="232475" Value="Gesloten"/>
+    <Text ID="232478" Value="Geen toestemming"/>
+    <Text ID="232480" Value="Onbekend"/>
+    <Text ID="232484" Value="In beweging"/>
+    <Text ID="232485" Value=""/>
+    <Text ID="232486" Value=""/>
+    <Text ID="240575" Value=""/>
+    <Text ID="240576" Value=""/>
+    <Text ID="240577" Value=""/>
+    <Text ID="240578" Value=""/>
+    <Text ID="241929" Value=""/>
+    <Text ID="241930" Value=""/>
+    <Text ID="241931" Value=""/>
+    <Text ID="271757" Value=""/>
+    <Text ID="312237" Value=""/>
+    <Text ID="312238" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="232451" Value=""/>
+    <Text ID="232452" Value=""/>
+    <Text ID="232453" Value=""/>
+    <Text ID="232454" Value=""/>
+    <Text ID="232455" Value=""/>
+    <Text ID="232456" Value=""/>
+    <Text ID="232459" Value=""/>
+    <Text ID="232464" Value=""/>
+    <Text ID="232472" Value=""/>
+    <Text ID="232473" Value=""/>
+    <Text ID="232474" Value=""/>
+    <Text ID="232475" Value=""/>
+    <Text ID="232478" Value=""/>
+    <Text ID="232480" Value=""/>
+    <Text ID="232484" Value=""/>
+    <Text ID="232485" Value=""/>
+    <Text ID="232486" Value=""/>
+    <Text ID="240575" Value=""/>
+    <Text ID="240576" Value=""/>
+    <Text ID="240577" Value=""/>
+    <Text ID="240578" Value=""/>
+    <Text ID="241929" Value=""/>
+    <Text ID="241930" Value=""/>
+    <Text ID="241931" Value=""/>
+    <Text ID="271757" Value=""/>
+    <Text ID="312237" Value=""/>
+    <Text ID="312238" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sl">
+    <Text ID="232451" Value="Ni na voljo"/>
+    <Text ID="232452" Value="Mirovanje"/>
+    <Text ID="232453" Value="Testi delovanje"/>
+    <Text ID="232454" Value="Neprekinjeno delovanje"/>
+    <Text ID="232455" Value="Intervalno delovanje – v teku"/>
+    <Text ID="232456" Value="Naknadno sušenje – premor"/>
+    <Text ID="232459" Value="Pripravljeno"/>
+    <Text ID="232464" Value="Motnja"/>
+    <Text ID="232472" Value="Aktivno"/>
+    <Text ID="232473" Value="Neaktivno"/>
+    <Text ID="232474" Value="Odprto"/>
+    <Text ID="232475" Value="Zaprto"/>
+    <Text ID="232478" Value="Ni dovoljenja"/>
+    <Text ID="232480" Value="Neznano"/>
+    <Text ID="232484" Value="Se premika"/>
+    <Text ID="232485" Value="Intervalno delovanje – premor"/>
+    <Text ID="232486" Value="Naknadno sušenje – v teku"/>
+    <Text ID="240575" Value="Odmrzovanje"/>
+    <Text ID="240576" Value="Naprava obratuje"/>
+    <Text ID="240577" Value="Faza ohlajenja"/>
+    <Text ID="240578" Value="V pripravljenosti"/>
+    <Text ID="241929" Value="Sveži zrak"/>
+    <Text ID="241930" Value="Zrak s strehe"/>
+    <Text ID="241931" Value="Cirkulacijski zrak"/>
+    <Text ID="271757" Value="Neprekinjeno delovanje (začasno ustavljeno)"/>
+    <Text ID="312237" Value=""/>
+    <Text ID="312238" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="232451" Value="0"/>
+    <Index ID="232452" Value="1"/>
+    <Index ID="232453" Value="2"/>
+    <Index ID="232454" Value="3"/>
+    <Index ID="232455" Value="4"/>
+    <Index ID="232456" Value="7"/>
+    <Index ID="232459" Value="8"/>
+    <Index ID="232464" Value="9"/>
+    <Index ID="232472" Value="10"/>
+    <Index ID="232473" Value="11"/>
+    <Index ID="232474" Value="12"/>
+    <Index ID="232475" Value="13"/>
+    <Index ID="232478" Value="14"/>
+    <Index ID="232480" Value="15"/>
+    <Index ID="232484" Value="16"/>
+    <Index ID="232485" Value="5"/>
+    <Index ID="232486" Value="6"/>
+    <Index ID="240575" Value="17"/>
+    <Index ID="240576" Value="18"/>
+    <Index ID="240577" Value="19"/>
+    <Index ID="240578" Value="20"/>
+    <Index ID="241929" Value="21"/>
+    <Index ID="241930" Value="22"/>
+    <Index ID="241931" Value="23"/>
+    <Index ID="271757" Value="24"/>
+    <Index ID="312237" Value="25"/>
+    <Index ID="312238" Value="26"/>
+  </IndexMap>
+</TextGroup>

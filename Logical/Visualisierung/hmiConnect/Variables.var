@@ -1,0 +1,24 @@
+VAR
+	fbLascoZdxx_0 : {REDUND_UNREPLICABLE} fbLascoZdxx;
+	hmilliTick : {REDUND_UNREPLICABLE} BOOL;
+	fbLascoZdxx_1 : {REDUND_UNREPLICABLE} fbLascoZdxx;
+	sekTick : {REDUND_UNREPLICABLE} BOOL;
+	fbLascoZdxx_2 : {REDUND_UNREPLICABLE} fbLascoZdxx;
+	stdTick : {REDUND_UNREPLICABLE} BOOL;
+	fbLascoZdxx_3 : {REDUND_UNREPLICABLE} fbLascoZdxx;
+	tagTick : {REDUND_UNREPLICABLE} BOOL;
+	fbLascoZdxx_5 : {REDUND_UNREPLICABLE} fbLascoZdxx;
+	jahrTick : {REDUND_UNREPLICABLE} BOOL;
+	fbLascoPuge_0 : {REDUND_UNREPLICABLE} fbLascoPuge;
+	hmiBlink : {REDUND_UNREPLICABLE} BOOL;
+	fbLascoPuge_1 : {REDUND_UNREPLICABLE} fbLascoPuge;
+	hmiBlink2 : {REDUND_UNREPLICABLE} BOOL;
+	loc_Box1Beendet : {REDUND_UNREPLICABLE} BOOL;
+	loc_Box2Beendet : {REDUND_UNREPLICABLE} BOOL;
+	loc_Box6Beendet : {REDUND_UNREPLICABLE} BOOL;
+	loc_Box5Beendet : {REDUND_UNREPLICABLE} BOOL;
+	loc_Box4Beendet : {REDUND_UNREPLICABLE} BOOL;
+	loc_Box3Beendet : {REDUND_UNREPLICABLE} BOOL;
+	warmluft1_button_color : USINT;
+	warmluft2_button_color : USINT;
+END_VAR

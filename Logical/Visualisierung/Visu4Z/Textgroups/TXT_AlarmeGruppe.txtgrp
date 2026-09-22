@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXT_AlarmeGruppe">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="51"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="288873" Value="All"/>
+    <Text ID="288874" Value="System"/>
+    <Text ID="288875" Value="Error"/>
+    <Text ID="288876" Value="Warning"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="288873" Value="Alle"/>
+    <Text ID="288874" Value="System"/>
+    <Text ID="288875" Value="Fehler"/>
+    <Text ID="288876" Value="Warnung"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="288873" Value="Tout"/>
+    <Text ID="288874" Value="Système"/>
+    <Text ID="288875" Value="Défaut"/>
+    <Text ID="288876" Value="Alarme"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-BE">
+    <Text ID="288873" Value="Alles"/>
+    <Text ID="288874" Value="Systeem"/>
+    <Text ID="288875" Value="Storing"/>
+    <Text ID="288876" Value="Alarm  "/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="288873" Value=""/>
+    <Text ID="288874" Value=""/>
+    <Text ID="288875" Value=""/>
+    <Text ID="288876" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sl">
+    <Text ID="288873" Value="Vse"/>
+    <Text ID="288874" Value="Sistem"/>
+    <Text ID="288875" Value="Napaka"/>
+    <Text ID="288876" Value="Opozorilo"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="288873" Value="0"/>
+    <Index ID="288874" Value="1"/>
+    <Index ID="288875" Value="2"/>
+    <Index ID="288876" Value="3"/>
+  </IndexMap>
+</TextGroup>

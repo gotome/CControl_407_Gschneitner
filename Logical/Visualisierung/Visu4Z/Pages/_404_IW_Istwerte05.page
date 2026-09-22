@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="_404_IW_Istwerte05">
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="272"/>
+  <Property Name="Index" Value="404"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+  <Property Name="Width" Value="480"/>
+  <Layers>
+    <LayerRef Source="Source[local].Layer[NavigationIstwerte]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="NavigationIstwerte"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="0"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[HintergrundAuf]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="HintergrundAuf"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="1"/>
+    </LayerRef>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="272"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="480"/>
+      <Property Name="Z-Order" Value="2"/>
+      <TextGroup>
+        <TextLayer LanguageId="en">
+          <Text ID="284111" Value="Energy measurement"/>
+          <Text ID="284112" Value="Power consumption total"/>
+          <Text ID="284113" Value="Day counter"/>
+          <Text ID="284114" Value="Current power drain"/>
+          <Text ID="284115" Value="Reset"/>
+        </TextLayer>
+        <TextLayer LanguageId="de">
+          <Text ID="284111" Value="Energiemessung"/>
+          <Text ID="284112" Value="Energieverbrauch Gesamt"/>
+          <Text ID="284113" Value="Tageszähler"/>
+          <Text ID="284114" Value="Leistungsaufnahme Aktuell"/>
+          <Text ID="284115" Value="Reset"/>
+        </TextLayer>
+        <TextLayer LanguageId="fr">
+          <Text ID="284111" Value="Mesure d'énergie"/>
+          <Text ID="284112" Value="Total énergie consommée"/>
+          <Text ID="284113" Value="Compteur journalier"/>
+          <Text ID="284114" Value="Consommation actuelle"/>
+          <Text ID="284115" Value="Reset"/>
+        </TextLayer>
+        <TextLayer LanguageId="nl-BE">
+          <Text ID="284111" Value=""/>
+          <Text ID="284112" Value=""/>
+          <Text ID="284113" Value=""/>
+          <Text ID="284114" Value=""/>
+          <Text ID="284115" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="es">
+          <Text ID="284111" Value=""/>
+          <Text ID="284112" Value=""/>
+          <Text ID="284113" Value=""/>
+          <Text ID="284114" Value=""/>
+          <Text ID="284115" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="sl">
+          <Text ID="284111" Value="Meritev energije"/>
+          <Text ID="284112" Value="Skupna poraba energije"/>
+          <Text ID="284113" Value="Dnevni števec"/>
+          <Text ID="284114" Value="Trenutna poraba moči"/>
+          <Text ID="284115" Value="Ponast."/>
+        </TextLayer>
+        <IndexMap>
+          <Index ID="284111" Value="51"/>
+          <Index ID="284112" Value="60"/>
+          <Index ID="284113" Value="61"/>
+          <Index ID="284114" Value="62"/>
+          <Index ID="284115" Value="63"/>
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001011" Name="Trend_1">
+          <Property Name="BackColor" Value="242"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="140"/>
+          <Property Name="Left" Value="12"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Trend]"/>
+          <Property Name="Top" Value="123"/>
+          <Property Name="TrendConfig" Value="Source[local].Trend[TrendLeistung]"/>
+          <Property Name="Width" Value="317"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_2">
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="240"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="0"/>
+          <Property Name="Width" Value="320"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_8">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="325"/>
+          <Property Name="EndY" Value="30"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="StartX" Value="18"/>
+          <Property Name="StartY" Value="30"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial12pxBold]"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="9"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="51"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="8"/>
+          <Property Name="Width" Value="327"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_53]"/>
+          <Property Name="Height" Value="60"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="341"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="8"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_53]"/>
+          <Property Name="Width" Value="60"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_22">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="16"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="60"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="37"/>
+          <Property Name="Width" Value="210"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_27">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="16"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="61"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="66"/>
+          <Property Name="Width" Value="210"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_28">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="16"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="62"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="95"/>
+          <Property Name="Width" Value="210"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BackColor" Value="242"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="226"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="999999"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="37"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiNutzungsdaten.Energiemessung.EnergieGesamt]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_2">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BackColor" Value="242"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="226"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="999999"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="65"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiNutzungsdaten.Energiemessung.EnergieTag]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_3">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BackColor" Value="242"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="226"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="500"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="94"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiNutzungsdaten.Energiemessung.LeistungAktuell]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_3">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="325"/>
+          <Property Name="EndY" Value="64"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="StartX" Value="18"/>
+          <Property Name="StartY" Value="64"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_4">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="325"/>
+          <Property Name="EndY" Value="93"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="StartX" Value="18"/>
+          <Property Name="StartY" Value="93"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_5">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="325"/>
+          <Property Name="EndY" Value="122"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="StartX" Value="18"/>
+          <Property Name="StartY" Value="122"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_1">
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_46]"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="128"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndex" Value="63"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="66"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_46]"/>
+          <Property Name="Width" Value="100"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="%embVirtualKey_46">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiButtons.ResetEnergieverbrTag]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_53">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000160">
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Page" Value="Source[local].Page[_403_IW_Istwerte04]"/>
+              <Property Name="Target" Value="Page"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+  </Layers>
+  <MovementOrder/>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+    <TabSeqItem Index="1" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
+    <TabSeqItem Index="2" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
+    <TabSeqItem Index="3" Value="Source[embedded].Layer[Default].Control[Trend_1]"/>
+  </TabSequence>
+</Page>

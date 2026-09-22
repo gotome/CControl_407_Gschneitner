@@ -1,0 +1,42 @@
+(*==========================================================================================================================================================*)
+(*============================================ LOKALE VARIABLEN ============================================================================================*)
+VAR
+	sekTick : {REDUND_UNREPLICABLE} BOOL;
+END_VAR
+(*==========================================================================================================================================================*)
+(*============================================ MODULE ======================================================================================================*)
+VAR
+	brModul01 : modBR7300;
+	diModul02 : modDI9371;
+	doModul03 : modDO9322;
+	aiModul05 : modAI4622;
+	aiModul04 : modAI4622;
+	aoModul06 : modAO2622;
+	csModul07 : BOOL;
+END_VAR
+(*==========================================================================================================================================================*)
+(*============================================ FUNKTIONSBAUSTEINE =========================================================================================*)
+VAR
+	fbLascoZdxx_0 : fbLascoZdxx;
+	LCRMovAvgFlt_0 : LCRMovAvgFlt;
+	LCRMovAvgFlt_1 : LCRMovAvgFlt;
+	LCRMovAvgFlt_2 : LCRMovAvgFlt;
+	LCRMovAvgFlt_3 : LCRMovAvgFlt;
+	LCRMovAvgFlt_4 : LCRMovAvgFlt;
+	LCRMovAvgFlt_5 : LCRMovAvgFlt;
+	LCRMovAvgFlt_6 : LCRMovAvgFlt;
+	LCRMovAvgFlt_7 : LCRMovAvgFlt;
+	LCRLimScal_0 : LCRLimScal;
+	loc_Erforderl_Mod1 : BOOL;
+	CONST_VENT_DRZ_MIN : REAL := 30.0; (*Minimale Drehzahl der Ventilatoren [%]*)
+	CONST_VENT_DRZ_MAX : REAL := 120.0; (*Maximale Drehzahl der Ventilatoren [%]*)
+	loc_Erforderl_Mod2 : BOOL;
+	loc_Erforderl_Mod3 : BOOL;
+	loc_Erforderl_Mod4 : BOOL;
+	loc_Erforderl_Mod5 : BOOL;
+	loc_Erforderl_Mod6 : BOOL;
+	loc_Erforderl_Mod7 : BOOL;
+	loc_Erforderl_Mod8 : BOOL;
+	loc_Erforderl_Mod9 : BOOL;
+	fbLascoFehl_0 : {REDUND_UNREPLICABLE} fbLascoFehl;
+END_VAR

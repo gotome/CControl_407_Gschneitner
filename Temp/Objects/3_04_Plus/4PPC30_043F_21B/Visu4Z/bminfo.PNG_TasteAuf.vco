@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="PNG_TasteAuf" ClsId="0x306" Version="1" TargetIndex="98" Type="GFX" RefString="Source[local].Bitmap[PNG_TasteAuf]">
+        <UInt16 Name="Width">60</UInt16>
+        <UInt16 Name="Height">60</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOPSURBVGhD7ZtLT9RQFIBnpf4FYQYGkIdIgCCiQSKIQVBQMWggURbMQkhmVESDEsEooPKIPIeOgIIEZFoUaWPC1p2PDRp/irrtVE/lMHJvCNDedjLXNvkW7Zye3i/ndtLXcbnWl9nZD/tCknxTEJUvgiT/CkmKFs+AgyApnwVJvjG6uroXPfVlIrziEUTlO7kTLwiS/G1qedm9UVmU7Rmb1MpOn414Uw+o+xPccQ04lFVWR8BJFxeVr0tLS3tcMI1RNoUDURJvWrraOz6lSz8XlesuOGdhBSpLBvPCyarqyN/pLX9yhUTlJ6zwMI23Atz0c1lUfrjwxCaDeAM9HWFecYTJAN5whMkA3oipcGZ2jg653UpiKuy/2xXxt3fZemUXM+EjxSdUQZQ14GhJKfW7VcREOCHRo3YOjunHAx48G9dgGxlnBTERPnPx8vpFfJSq2ku2TG3bheECfmB6fpMsMPhiwZbbUtuFG5sDVHWRxmt+y6tsq3B2br4afL1MiSLBxXfaobwCaj+W2Crc2tWzZXWR1s5uS6tsm3Bx6altZZGS8grLpG0RTnQnqQ9HQpTYVnSPTmpudxKVhwW2CF+ov7rj6iLn669YUmXLhVPSMtShmUVKaDuGX4W11PRMKp9ZLBf2Bdp2XV2kKXCLeZUxtyXCuQWFajC8QonslInwipZ/uIjKawbMbYnwnUd9hquLtPcOMK0y5mUuDK83yMEbheXLAczJVNjtSVYfB6epgRvlycRLzZ3kpY5jBMzJVLiu0cesukjd1SYmVcZ8zITTMw+qw3MSNWCzjMxJWkZWNnW83YL5mAm33O5gXl2kue2e6SpjLibCBUXF+mMbcqCsgNyFx45Tx90NmMu0MDyi6Xg6RA2SNff7h009DsI8poUrztVaNpVJKmpqDU9tzGFK2JOcovaFZqiBWUX/5JyW7E2jxrETMIcp4QZfi23VRRp8zYaqjPsbFoY3B2Pzb6gBWc34wlstKyePGs924P6GheEKCG4BY4GRqy/TwvGGI0wG8IYjTAbwhiNMBvCGI0wG8IYjTAbwhiNMBvBGVPg/+EAcviEBR/0D8Y0WgMpqQzfW8UB5VU20BQD6emAFmjygIYIMjnfg/rk3+jYk4IImJujrgQ3Q/QENETxMb3CAyv4ju6a38cACTUzQ14MnNoeshaT3iZu608AeSg7zHP/I4hn4gxJE+aMgyf6Nyv5ZfgORJ7p2lwql7QAAAABJRU5ErkJggg==</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

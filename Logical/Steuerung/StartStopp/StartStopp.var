@@ -1,0 +1,6 @@
+VAR
+	fbLascoZdxx_0 : {REDUND_UNREPLICABLE} fbLascoZdxx;
+	hmilliTick : {REDUND_UNREPLICABLE} BOOL;
+	fbLascoPuge_0 : {REDUND_UNREPLICABLE} fbLascoPuge;
+	hmiBlink : {REDUND_UNREPLICABLE} BOOL;
+END_VAR

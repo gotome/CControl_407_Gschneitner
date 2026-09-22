@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXT_UeberschriftWloSho">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="1"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="288938" Value="Hot-air generator"/>
+    <Text ID="288939" Value="Split-log heater"/>
+    <Text ID="288940" Value="Hot-air generator &amp; split-log heater"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="288938" Value="Warmlufofen"/>
+    <Text ID="288939" Value="Scheitholzofen"/>
+    <Text ID="288940" Value="Warmluftofen &amp; Scheitholzofen"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="288938" Value="Générateur d'air chaud"/>
+    <Text ID="288939" Value="GAC bois bûche"/>
+    <Text ID="288940" Value="GAC &amp; GAC bois Bûche"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-BE">
+    <Text ID="288938" Value=""/>
+    <Text ID="288939" Value=""/>
+    <Text ID="288940" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="288938" Value=""/>
+    <Text ID="288939" Value=""/>
+    <Text ID="288940" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sl">
+    <Text ID="288938" Value="Kotel na vroči zrak"/>
+    <Text ID="288939" Value="Kotel na polena"/>
+    <Text ID="288940" Value="Kotel na vroči zrak in kotel na polena"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="288938" Value="0"/>
+    <Index ID="288939" Value="1"/>
+    <Index ID="288940" Value="2"/>
+  </IndexMap>
+</TextGroup>

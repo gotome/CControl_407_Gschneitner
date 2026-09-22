@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.5.60 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">CSV_Global.typ</Object>
+    <Object Type="File">CSV_Global.var</Object>
+    <Object Type="Package">Library</Object>
+    <Object Type="Program" Language="IEC" Description="Usb- Device dynamisch erstellen">UsbLink</Object>
+    <Object Type="Program" Language="IEC" Description="Externe Steuervariablen">CSV01_EXT</Object>
+    <Object Type="Program" Language="IEC" Description="Hauptprogramm">CSV01_PRG</Object>
+    <Object Type="DataObject" Language="Simple" Description="Tag Configuration">CSV01_CFG</Object>
+  </Objects>
+</Package>

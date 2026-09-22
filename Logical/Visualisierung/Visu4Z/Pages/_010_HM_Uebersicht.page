@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="_010_HM_Uebersicht">
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="272"/>
+  <Property Name="Index" Value="10"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+  <Property Name="Width" Value="480"/>
+  <Layers>
+    <LayerRef Source="Source[local].Layer[NavigationHome]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="NavigationHome"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="0"/>
+    </LayerRef>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="272"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="480"/>
+      <Property Name="Z-Order" Value="1"/>
+      <TextGroup>
+        <TextLayer LanguageId="en">
+          <Text ID="283938" Value="Dehumidifier"/>
+          <Text ID="283939" Value="Flaps"/>
+          <Text ID="283940" Value="Sensors"/>
+        </TextLayer>
+        <TextLayer LanguageId="de">
+          <Text ID="283938" Value="Luftentfeuchter"/>
+          <Text ID="283939" Value="Klappen"/>
+          <Text ID="283940" Value="Sensoren"/>
+        </TextLayer>
+        <TextLayer LanguageId="fr">
+          <Text ID="283938" Value="Déshumidificateur"/>
+          <Text ID="283939" Value="Clapets"/>
+          <Text ID="283940" Value="Sondes"/>
+        </TextLayer>
+        <TextLayer LanguageId="nl-BE">
+          <Text ID="283938" Value=""/>
+          <Text ID="283939" Value=""/>
+          <Text ID="283940" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="es">
+          <Text ID="283938" Value=""/>
+          <Text ID="283939" Value=""/>
+          <Text ID="283940" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="sl">
+          <Text ID="283938" Value="Razvlaževalnik"/>
+          <Text ID="283939" Value="Lopute"/>
+          <Text ID="283940" Value="Senzorji"/>
+        </TextLayer>
+        <IndexMap>
+          <Index ID="283938" Value="0"/>
+          <Index ID="283939" Value="1"/>
+          <Index ID="283940" Value="2"/>
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001005" Name="Bitmap_3">
+          <Property Name="BackColor" Value="8"/>
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="Border" Value="Source[local].Border[FrameHellgr2Schwarz]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Height" Value="70"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="248"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.UebersichtTrocknungsger]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="79"/>
+          <Property Name="Width" Value="154"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_4">
+          <Property Name="BackColor" Value="8"/>
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="Border" Value="Source[local].Border[FrameHellgr2Schwarz]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Height" Value="70"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="247"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.UebersichtKlappen]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="152"/>
+          <Property Name="Width" Value="75"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_5">
+          <Property Name="BackColor" Value="8"/>
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="Border" Value="Source[local].Border[FrameHellgr2Schwarz]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Height" Value="70"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="327"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="152"/>
+          <Property Name="Width" Value="75"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="Height" Value="17"/>
+          <Property Name="Left" Value="248"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.UebersichtTrocknungsger]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="81"/>
+          <Property Name="Width" Value="154"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="391"/>
+          <Property Name="EndY" Value="99"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="StartX" Value="257"/>
+          <Property Name="StartY" Value="99"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.UebersichtTrocknungsger]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_2">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[BMG_Entfeuchter]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="GroupID" Value="21"/>
+          <Property Name="Height" Value="41"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Entfeuchter.FarbeIcon]"/>
+          <Property Name="Left" Value="310"/>
+          <Property Name="SimulationValue" Value="2"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.SymbolEntfeuchterUebersicht]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="103"/>
+          <Property Name="Width" Value="30"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="Shape_1">
+          <Property Name="BackColor" Value="241"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="241"/>
+          <Property Name="GroupID" Value="21"/>
+          <Property Name="Height" Value="17"/>
+          <Property Name="Left" Value="318"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Entfeuchter.IconAbtauung]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="107"/>
+          <Property Name="Width" Value="15"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_8">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[PNG_IconAbtauung]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="GroupID" Value="21"/>
+          <Property Name="Height" Value="17"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="318"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Entfeuchter.IconAbtauung]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="108"/>
+          <Property Name="Width" Value="15"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_9">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[PNG_IconsSensoren]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="29"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="333"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="184"/>
+          <Property Name="Width" Value="60"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_10">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[PNG_IconsKlappen]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="33"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="254"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.UebersichtKlappen]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="182"/>
+          <Property Name="Width" Value="60"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_2">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="Height" Value="17"/>
+          <Property Name="Left" Value="247"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.UebersichtKlappen]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="1"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="155"/>
+          <Property Name="Width" Value="75"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="311"/>
+          <Property Name="EndY" Value="173"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="StartX" Value="256"/>
+          <Property Name="StartY" Value="173"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.UebersichtKlappen]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_3">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="Height" Value="17"/>
+          <Property Name="Left" Value="327"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="2"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="155"/>
+          <Property Name="Width" Value="75"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_3">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="391"/>
+          <Property Name="EndY" Value="173"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="StartX" Value="336"/>
+          <Property Name="StartY" Value="173"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_4">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_357]"/>
+          <Property Name="Height" Value="70"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="247"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.UebersichtKlappen]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="152"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_357]"/>
+          <Property Name="Width" Value="75"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_5">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_358]"/>
+          <Property Name="Height" Value="70"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="327"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="152"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_358]"/>
+          <Property Name="Width" Value="75"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_4">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial8px]"/>
+          <Property Name="ForeColor" Value="241"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Zusatzmeldungen.Statustext]"/>
+          <Property Name="Left" Value="69"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[TXT_Zusatzmeldungen]"/>
+          <Property Name="TextIndexOffset" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="226"/>
+          <Property Name="Width" Value="257"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="Shape_2">
+          <Property Name="BackColor" Value="47"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="47"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="318"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Zusatzmeldungen.AusgabefeldRestzeit]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="226"/>
+          <Property Name="Width" Value="88"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="BackColor" Value="47"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="241"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="351"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="999000"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Zusatzmeldungen.AusgabefeldRestzeit]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="226"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Zusatzmeldungen.RestzeitSchrittAktuell]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="45"/>
+        </Control>
+        <Control ClassId="0x0000100A" Name="DateTime_1">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="BackColor" Value="242"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial7px]"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="Height" Value="14"/>
+          <Property Name="Left" Value="285"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[DateTime]"/>
+          <Property Name="TextGroup" Value="Source[global].TextGroup[DateTimeFormats]"/>
+          <Property Name="TextIndex" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="253"/>
+          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="Width" Value="115"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_11">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[PNG_Sanduhr_2]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="23"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Zusatzmeldungen.IconSanduhr]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="235"/>
+          <Property Name="Width" Value="18"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_265]"/>
+          <Property Name="Height" Value="70"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="248"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.SymbolEntfeuchterUebersicht]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="79"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_265]"/>
+          <Property Name="Width" Value="154"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="%embVirtualKey_265">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiButtons.showEntfeuchter]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_357">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiButtons.showKlappen]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_358">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000161">
+              <Property Name="CompletionDatapoint" Value="None"/>
+              <Property Name="CompletionValue" Value="0"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="SetValue" Value="1"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiButtons.showSensoren]"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+    <LayerRef Source="Source[local].Layer[gEineBox]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="gEineBox"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="2"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[gZweiBoxen]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="gZweiBoxen"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="3"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[gEinVentilator]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="gEinVentilator"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="4"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[gDreiBoxen]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="gDreiBoxen"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="5"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[gInselbetrieb]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="gInselbetrieb"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="6"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[gDetailsSensoren]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="gDetailsSensoren"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="7"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[gDetailsKlappen]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="gDetailsKlappen"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="8"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[gDetailsEntfeuchter]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="gDetailsEntfeuchter"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="9"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[gDetailsBox]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="gDetailsBox"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="10"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[gZeitfenster]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="gZeitfenster"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="11"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[gDetailsVentilatoren]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="gDetailsVentilatoren"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="12"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[gTrocknungsbilanz]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="gTrocknungsbilanz"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="13"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[gMldgStockkontrolle]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="gMldgStockkontrolle"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="14"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[MessageDatumFalsch]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="MessageDatumFalsch"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="15"/>
+    </LayerRef>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[local].Layer[gDetailsKlappen].Control[Numeric_14]">
+      <Property Name="Down" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_15]"/>
+      <Property Name="Left" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_15]"/>
+      <Property Name="Right" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_15]"/>
+      <Property Name="Up" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_15]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[gDetailsKlappen].Control[Numeric_15]">
+      <Property Name="Down" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_5]"/>
+      <Property Name="Left" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_17]"/>
+      <Property Name="Right" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_4]"/>
+      <Property Name="Up" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_4]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[gDetailsKlappen].Control[Numeric_16]">
+      <Property Name="Down" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_18]"/>
+      <Property Name="Left" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_18]"/>
+      <Property Name="Right" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_18]"/>
+      <Property Name="Up" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_18]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[gDetailsKlappen].Control[Numeric_17]">
+      <Property Name="Down" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_16]"/>
+      <Property Name="Left" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_5]"/>
+      <Property Name="Right" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_5]"/>
+      <Property Name="Up" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_5]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[gDetailsKlappen].Control[Numeric_18]">
+      <Property Name="Down" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_12]"/>
+      <Property Name="Left" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_17]"/>
+      <Property Name="Right" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_16]"/>
+      <Property Name="Up" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_5]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_12]">
+      <Property Name="Down" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_13]"/>
+      <Property Name="Left" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_17]"/>
+      <Property Name="Right" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_13]"/>
+      <Property Name="Up" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_16]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_13]">
+      <Property Name="Down" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_4]"/>
+      <Property Name="Left" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_17]"/>
+      <Property Name="Right" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_17]"/>
+      <Property Name="Up" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_12]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_4]">
+      <Property Name="Down" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_6]"/>
+      <Property Name="Left" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_6]"/>
+      <Property Name="Right" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_6]"/>
+      <Property Name="Up" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_6]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_5]">
+      <Property Name="Down" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_7]"/>
+      <Property Name="Left" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_7]"/>
+      <Property Name="Right" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_7]"/>
+      <Property Name="Up" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_7]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_6]">
+      <Property Name="Down" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_14]"/>
+      <Property Name="Left" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_14]"/>
+      <Property Name="Right" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_14]"/>
+      <Property Name="Up" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_13]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_7]">
+      <Property Name="Down" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_16]"/>
+      <Property Name="Left" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_17]"/>
+      <Property Name="Right" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_17]"/>
+      <Property Name="Up" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_14]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[local].Layer[gDetailsBox].Control[String_1]"/>
+    <TabSeqItem Index="1" Value="Source[local].Layer[gDetailsBox].Control[Numeric_1]"/>
+    <TabSeqItem Index="2" Value="Source[local].Layer[gDetailsBox].Control[Numeric_2]"/>
+    <TabSeqItem Index="3" Value="Source[local].Layer[gDetailsBox].Control[Numeric_3]"/>
+    <TabSeqItem Index="4" Value="Source[local].Layer[gZweiBoxen].Control[Numeric_6]"/>
+    <TabSeqItem Index="5" Value="Source[local].Layer[gZweiBoxen].Control[Numeric_3]"/>
+    <TabSeqItem Index="6" Value="Source[local].Layer[gZweiBoxen].Control[String_2]"/>
+    <TabSeqItem Index="7" Value="Source[local].Layer[gZweiBoxen].Control[Numeric_1]"/>
+    <TabSeqItem Index="8" Value="Source[local].Layer[gZweiBoxen].Control[Numeric_2]"/>
+    <TabSeqItem Index="9" Value="Source[local].Layer[gZweiBoxen].Control[String_1]"/>
+    <TabSeqItem Index="10" Value="Source[local].Layer[gDetailsBox].Control[Numeric_6]"/>
+    <TabSeqItem Index="11" Value="Source[local].Layer[gEinVentilator].Control[Numeric_1]"/>
+    <TabSeqItem Index="12" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_1]"/>
+    <TabSeqItem Index="13" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_2]"/>
+    <TabSeqItem Index="14" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_3]"/>
+    <TabSeqItem Index="15" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_4]"/>
+    <TabSeqItem Index="16" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_5]"/>
+    <TabSeqItem Index="17" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_6]"/>
+    <TabSeqItem Index="18" Value="Source[local].Layer[gDetailsVentilatoren].Control[Numeric_7]"/>
+    <TabSeqItem Index="19" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_1]"/>
+    <TabSeqItem Index="20" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_2]"/>
+    <TabSeqItem Index="21" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_3]"/>
+    <TabSeqItem Index="22" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_4]"/>
+    <TabSeqItem Index="23" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_5]"/>
+    <TabSeqItem Index="24" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_6]"/>
+    <TabSeqItem Index="25" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_7]"/>
+    <TabSeqItem Index="26" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_8]"/>
+    <TabSeqItem Index="27" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_9]"/>
+    <TabSeqItem Index="28" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_10]"/>
+    <TabSeqItem Index="29" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_11]"/>
+    <TabSeqItem Index="30" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_12]"/>
+    <TabSeqItem Index="31" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_13]"/>
+    <TabSeqItem Index="32" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_14]"/>
+    <TabSeqItem Index="33" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_15]"/>
+    <TabSeqItem Index="34" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_16]"/>
+    <TabSeqItem Index="35" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_17]"/>
+    <TabSeqItem Index="36" Value="Source[local].Layer[gDetailsKlappen].Control[Numeric_18]"/>
+    <TabSeqItem Index="37" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_14]"/>
+    <TabSeqItem Index="38" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_15]"/>
+    <TabSeqItem Index="39" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_16]"/>
+    <TabSeqItem Index="40" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_17]"/>
+    <TabSeqItem Index="41" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_18]"/>
+    <TabSeqItem Index="42" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_19]"/>
+    <TabSeqItem Index="43" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_20]"/>
+    <TabSeqItem Index="44" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_21]"/>
+    <TabSeqItem Index="45" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_22]"/>
+    <TabSeqItem Index="46" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_23]"/>
+    <TabSeqItem Index="47" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_24]"/>
+    <TabSeqItem Index="48" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_26]"/>
+    <TabSeqItem Index="49" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_27]"/>
+    <TabSeqItem Index="50" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_28]"/>
+    <TabSeqItem Index="51" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_29]"/>
+    <TabSeqItem Index="52" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_30]"/>
+    <TabSeqItem Index="53" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_1]"/>
+    <TabSeqItem Index="54" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_2]"/>
+    <TabSeqItem Index="55" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_4]"/>
+    <TabSeqItem Index="56" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_5]"/>
+    <TabSeqItem Index="57" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_6]"/>
+    <TabSeqItem Index="58" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_7]"/>
+    <TabSeqItem Index="59" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_8]"/>
+    <TabSeqItem Index="60" Value="Source[local].Layer[gDetailsSensoren].Control[Numeric_9]"/>
+    <TabSeqItem Index="61" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+    <TabSeqItem Index="62" Value="Source[local].Layer[gZweiBoxen].Control[Numeric_4]"/>
+    <TabSeqItem Index="63" Value="Source[local].Layer[gZweiBoxen].Control[Numeric_5]"/>
+    <TabSeqItem Index="64" Value="Source[local].Layer[gZweiBoxen].Control[Numeric_9]"/>
+    <TabSeqItem Index="65" Value="Source[local].Layer[gZweiBoxen].Control[Numeric_10]"/>
+    <TabSeqItem Index="66" Value="Source[local].Layer[gDetailsBox].Control[Numeric_7]"/>
+    <TabSeqItem Index="67" Value="Source[local].Layer[gDetailsBox].Control[Numeric_8]"/>
+    <TabSeqItem Index="68" Value="Source[local].Layer[gDetailsEntfeuchter].Control[Numeric_14]"/>
+    <TabSeqItem Index="69" Value="Source[local].Layer[gDreiBoxen].Control[String_2]"/>
+    <TabSeqItem Index="70" Value="Source[local].Layer[gDreiBoxen].Control[Numeric_3]"/>
+    <TabSeqItem Index="71" Value="Source[local].Layer[gDreiBoxen].Control[Numeric_6]"/>
+    <TabSeqItem Index="72" Value="Source[local].Layer[gDreiBoxen].Control[Numeric_7]"/>
+    <TabSeqItem Index="73" Value="Source[local].Layer[gDreiBoxen].Control[Numeric_8]"/>
+    <TabSeqItem Index="74" Value="Source[local].Layer[gDreiBoxen].Control[String_1]"/>
+    <TabSeqItem Index="75" Value="Source[local].Layer[gDreiBoxen].Control[Numeric_1]"/>
+    <TabSeqItem Index="76" Value="Source[local].Layer[gDreiBoxen].Control[Numeric_2]"/>
+    <TabSeqItem Index="77" Value="Source[local].Layer[gDreiBoxen].Control[Numeric_4]"/>
+    <TabSeqItem Index="78" Value="Source[local].Layer[gDreiBoxen].Control[Numeric_5]"/>
+    <TabSeqItem Index="79" Value="Source[local].Layer[gDreiBoxen].Control[String_3]"/>
+    <TabSeqItem Index="80" Value="Source[local].Layer[gDreiBoxen].Control[Numeric_9]"/>
+    <TabSeqItem Index="81" Value="Source[local].Layer[gDreiBoxen].Control[Numeric_10]"/>
+    <TabSeqItem Index="82" Value="Source[local].Layer[gDreiBoxen].Control[Numeric_11]"/>
+    <TabSeqItem Index="83" Value="Source[local].Layer[gDreiBoxen].Control[Numeric_12]"/>
+    <TabSeqItem Index="84" Value="Source[local].Layer[gTrocknungsbilanz].Control[String_1]"/>
+    <TabSeqItem Index="85" Value="Source[local].Layer[gTrocknungsbilanz].Control[Numeric_1]"/>
+    <TabSeqItem Index="86" Value="Source[local].Layer[gTrocknungsbilanz].Control[Numeric_2]"/>
+    <TabSeqItem Index="87" Value="Source[local].Layer[gTrocknungsbilanz].Control[Numeric_3]"/>
+    <TabSeqItem Index="88" Value="Source[local].Layer[gEineBox].Control[String_1]"/>
+    <TabSeqItem Index="89" Value="Source[local].Layer[gEineBox].Control[Numeric_1]"/>
+    <TabSeqItem Index="90" Value="Source[local].Layer[gEineBox].Control[Numeric_2]"/>
+    <TabSeqItem Index="91" Value="Source[local].Layer[gEineBox].Control[Numeric_4]"/>
+    <TabSeqItem Index="92" Value="Source[local].Layer[gEineBox].Control[Numeric_5]"/>
+    <TabSeqItem Index="93" Value="Source[local].Layer[gInselbetrieb].Control[Numeric_1]"/>
+    <TabSeqItem Index="94" Value="Source[local].Layer[gInselbetrieb].Control[Numeric_2]"/>
+    <TabSeqItem Index="95" Value="Source[local].Layer[gInselbetrieb].Control[Numeric_3]"/>
+    <TabSeqItem Index="96" Value="Source[local].Layer[gInselbetrieb].Control[Numeric_4]"/>
+    <TabSeqItem Index="97" Value="Source[local].Layer[gInselbetrieb].Control[Numeric_5]"/>
+    <TabSeqItem Index="98" Value="Source[local].Layer[gInselbetrieb].Control[Numeric_6]"/>
+    <TabSeqItem Index="99" Value="Source[local].Layer[gInselbetrieb].Control[Numeric_7]"/>
+    <TabSeqItem Index="100" Value="Source[local].Layer[gInselbetrieb].Control[Numeric_8]"/>
+    <TabSeqItem Index="101" Value="Source[local].Layer[gInselbetrieb].Control[Numeric_9]"/>
+    <TabSeqItem Index="102" Value="Source[local].Layer[gInselbetrieb].Control[Numeric_10]"/>
+    <TabSeqItem Index="103" Value="Source[local].Layer[gInselbetrieb].Control[Numeric_11]"/>
+    <TabSeqItem Index="104" Value="Source[local].Layer[gInselbetrieb].Control[Numeric_14]"/>
+  </TabSequence>
+</Page>

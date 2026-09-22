@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="gDetailsVentilatoren">
+  <Property Name="BackColor" Value="9"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="480"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Layers.DetailansichtVentilatoren]"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="800"/>
+  <TextGroup>
+    <TextLayer LanguageId="en">
+      <Text ID="240429" Value="Fixed speed"/>
+      <Text ID="240430" Value="Air-mass control"/>
+      <Text ID="240437" Value="Actual values"/>
+      <Text ID="240443" Value="Fan"/>
+      <Text ID="240446" Value="1"/>
+      <Text ID="240452" Value="Fixed speed"/>
+      <Text ID="240453" Value="Air-mass control"/>
+      <Text ID="240454" Value="1"/>
+      <Text ID="240458" Value="Recirculation"/>
+      <Text ID="240459" Value="Fans"/>
+      <Text ID="240467" Value="Fixed speed"/>
+      <Text ID="240468" Value="Air-mass control"/>
+      <Text ID="240469" Value="Actual values"/>
+      <Text ID="240470" Value="2"/>
+      <Text ID="240471" Value="Fixed speed"/>
+      <Text ID="240472" Value="Air-mass control"/>
+      <Text ID="240473" Value="2"/>
+      <Text ID="240475" Value="Recirculation"/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="240429" Value="Fixdrehzahl"/>
+      <Text ID="240430" Value="Luftmengen-\nregelung"/>
+      <Text ID="240437" Value="Istwerte"/>
+      <Text ID="240443" Value="Ventilator"/>
+      <Text ID="240446" Value="1"/>
+      <Text ID="240452" Value="Fixdrehzahl"/>
+      <Text ID="240453" Value="Luftmengen-\nregelung"/>
+      <Text ID="240454" Value="1"/>
+      <Text ID="240458" Value="Umluftbetrieb"/>
+      <Text ID="240459" Value="Ventilatoren"/>
+      <Text ID="240467" Value="Fixdrehzahl"/>
+      <Text ID="240468" Value="Luftmengen-\nregelung"/>
+      <Text ID="240469" Value="Istwerte"/>
+      <Text ID="240470" Value="2"/>
+      <Text ID="240471" Value="Fixdrehzahl"/>
+      <Text ID="240472" Value="Luftmengen-\nregelung"/>
+      <Text ID="240473" Value="2"/>
+      <Text ID="240475" Value="Umluftbetrieb"/>
+    </TextLayer>
+    <TextLayer LanguageId="fr">
+      <Text ID="240429" Value="Vitesse fixe"/>
+      <Text ID="240430" Value="Régul débit d'air"/>
+      <Text ID="240437" Value="Mesures"/>
+      <Text ID="240443" Value="Ventilateur"/>
+      <Text ID="240446" Value="1"/>
+      <Text ID="240452" Value="Vitesse fixe"/>
+      <Text ID="240453" Value="Régul débit d'air"/>
+      <Text ID="240454" Value="1"/>
+      <Text ID="240458" Value="Marche air recyclé"/>
+      <Text ID="240459" Value="Ventilateurs"/>
+      <Text ID="240467" Value="Vitesse fixe"/>
+      <Text ID="240468" Value="Régul débit d'air"/>
+      <Text ID="240469" Value="Mesures"/>
+      <Text ID="240470" Value="2"/>
+      <Text ID="240471" Value="Vitesse fixe"/>
+      <Text ID="240472" Value="Régul débit d'air"/>
+      <Text ID="240473" Value="2"/>
+      <Text ID="240475" Value="Marche air recyclé"/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-BE">
+      <Text ID="240429" Value=""/>
+      <Text ID="240430" Value=""/>
+      <Text ID="240437" Value=""/>
+      <Text ID="240443" Value=""/>
+      <Text ID="240446" Value="1"/>
+      <Text ID="240452" Value=""/>
+      <Text ID="240453" Value=""/>
+      <Text ID="240454" Value="1"/>
+      <Text ID="240458" Value=""/>
+      <Text ID="240459" Value=""/>
+      <Text ID="240467" Value=""/>
+      <Text ID="240468" Value=""/>
+      <Text ID="240469" Value=""/>
+      <Text ID="240470" Value="2"/>
+      <Text ID="240471" Value=""/>
+      <Text ID="240472" Value=""/>
+      <Text ID="240473" Value="2"/>
+      <Text ID="240475" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es">
+      <Text ID="240429" Value=""/>
+      <Text ID="240430" Value=""/>
+      <Text ID="240437" Value=""/>
+      <Text ID="240443" Value=""/>
+      <Text ID="240446" Value="1"/>
+      <Text ID="240452" Value=""/>
+      <Text ID="240453" Value=""/>
+      <Text ID="240454" Value="1"/>
+      <Text ID="240458" Value=""/>
+      <Text ID="240459" Value=""/>
+      <Text ID="240467" Value=""/>
+      <Text ID="240468" Value=""/>
+      <Text ID="240469" Value=""/>
+      <Text ID="240470" Value="2"/>
+      <Text ID="240471" Value=""/>
+      <Text ID="240472" Value=""/>
+      <Text ID="240473" Value="2"/>
+      <Text ID="240475" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sl">
+      <Text ID="240429" Value="Fiksno št. vrtljajev"/>
+      <Text ID="240430" Value="Upravljanje pretoka zraka"/>
+      <Text ID="240437" Value="Dejanske vrednosti"/>
+      <Text ID="240443" Value="Ventilator"/>
+      <Text ID="240446" Value="1"/>
+      <Text ID="240452" Value="Fiksno št. vrtljajev"/>
+      <Text ID="240453" Value="Upravljanje pretoka zraka"/>
+      <Text ID="240454" Value="1"/>
+      <Text ID="240458" Value="Delovanje s cirkulacijskim zrakom"/>
+      <Text ID="240459" Value="Ventilatorji"/>
+      <Text ID="240467" Value="Fiksno št. vrtljajev"/>
+      <Text ID="240468" Value="Upravljanje pretoka zraka"/>
+      <Text ID="240469" Value="Dejanske vrednosti"/>
+      <Text ID="240470" Value="2"/>
+      <Text ID="240471" Value="Fiksno št. vrtljajev"/>
+      <Text ID="240472" Value="Upravljanje pretoka zraka"/>
+      <Text ID="240473" Value="2"/>
+      <Text ID="240475" Value="Delovanje s cirkulacijskim zrakom"/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="240429" Value="5"/>
+      <Index ID="240430" Value="7"/>
+      <Index ID="240437" Value="17"/>
+      <Index ID="240443" Value="28"/>
+      <Index ID="240446" Value="29"/>
+      <Index ID="240452" Value="32"/>
+      <Index ID="240453" Value="33"/>
+      <Index ID="240454" Value="34"/>
+      <Index ID="240458" Value="36"/>
+      <Index ID="240459" Value="37"/>
+      <Index ID="240467" Value="38"/>
+      <Index ID="240468" Value="39"/>
+      <Index ID="240469" Value="40"/>
+      <Index ID="240470" Value="41"/>
+      <Index ID="240471" Value="42"/>
+      <Index ID="240472" Value="44"/>
+      <Index ID="240473" Value="45"/>
+      <Index ID="240475" Value="47"/>
+    </IndexMap>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001005" Name="Bitmap_13">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[PNG_HintergrundGedimmt]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="Width" Value="800"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="HotSpot_3">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_334]"/>
+      <Property Name="Height" Value="480"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_334]"/>
+      <Property Name="Width" Value="800"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_5">
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[FrameHellgr2Dklgr]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Height" Value="225"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="22"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="26"/>
+      <Property Name="Width" Value="650"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_1">
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[FrameHellgr2Dklgr]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Height" Value="420"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="22"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Layers.UebersichtZweiVentilatoren]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="26"/>
+      <Property Name="Width" Value="650"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_1">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="661"/>
+      <Property Name="EndY" Value="70"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="StartX" Value="31"/>
+      <Property Name="StartY" Value="70"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_2">
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_335]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial12pxBold]"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="228"/>
+      <Property Name="Locking" Value="Datapoint &gt;= Level"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator1.LuftmengenregFrischlSperre]"/>
+      <Property Name="LockingLevel" Value="1"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedBorder" Value="Source[local].Border[FrameHellgr2Schwarz]"/>
+      <Property Name="PressedForeColor" Value="243"/>
+      <Property Name="PressedTextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="PressedTextIndex" Value="7"/>
+      <Property Name="PressedTextSource" Value="SingleText"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndex" Value="5"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="95"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_335]"/>
+      <Property Name="Width" Value="120"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_2">
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[FrameHellgr1]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Height" Value="120"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="484"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="97"/>
+      <Property Name="Width" Value="180"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_2">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="653"/>
+      <Property Name="EndY" Value="124"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="StartX" Value="493"/>
+      <Property Name="StartY" Value="124"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_3">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="562"/>
+      <Property Name="EndY" Value="132"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="StartX" Value="562"/>
+      <Property Name="StartY" Value="208"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_1">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial12pxBold]"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="484"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="17"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="100"/>
+      <Property Name="Width" Value="180"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_1">
+      <Property Name="AlignmentHorizontal" Value="Left"/>
+      <Property Name="BackColor" Value="242"/>
+      <Property Name="Border" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="584"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="21"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Luftgeschwindigkeit]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="167"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiSensoren.Luftgeschwindigkeit]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="55"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_2">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="BackColor" Value="242"/>
+      <Property Name="Border" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="499"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="100"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="172"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator1.IstDrehzahl]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="40"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_3">
+      <Property Name="AlignmentHorizontal" Value="Left"/>
+      <Property Name="BackColor" Value="242"/>
+      <Property Name="Border" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="584"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="100000"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Luftgeschwindigkeit]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="187"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiSensoren.LuftmengeAktuell]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="74"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_3">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[PNG_Tacho]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="23"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="499"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="145"/>
+      <Property Name="Width" Value="40"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_4">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[PNG_IconLuftmenge]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="29"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="594"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Luftgeschwindigkeit]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="132"/>
+      <Property Name="Width" Value="40"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_5">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial16pxBold]"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="Height" Value="30"/>
+      <Property Name="Left" Value="166"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="28"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="34"/>
+      <Property Name="Width" Value="361"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_2">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="Border" Value="Source[local].Border[FrameHellgr2Dklgr]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial22pxBold]"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="Height" Value="161"/>
+      <Property Name="Left" Value="35"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator1.BargraphInaktiv]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="29"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="82"/>
+      <Property Name="Width" Value="41"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_4">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="Border" Value="Source[local].Border[FrameGelb2Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial14px]"/>
+      <Property Name="ForeColor" Value="47"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="Input" Value="True"/>
+      <Property Name="InputCancel" Value="Lost Focus"/>
+      <Property Name="InputComma" Value="Explicit"/>
+      <Property Name="InputConfirm" Value="Enter"/>
+      <Property Name="InputMinus" Value="Normal"/>
+      <Property Name="InputNext" Value="Enter"/>
+      <Property Name="InputStart" Value="Any Key"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPadC307Zoll]"/>
+      <Property Name="InputUpDown" Value="Disabled"/>
+      <Property Name="Left" Value="352"/>
+      <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator1.DrehzahlMax]"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator1.DrehzahlMin]"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="100"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator1.EingabefeldFixdrehzFrischl]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="95"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator1.DrehzahlFixFrischluft]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="120"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_5">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="Border" Value="Source[local].Border[FrameGelb2Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial14px]"/>
+      <Property Name="ForeColor" Value="47"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="Input" Value="True"/>
+      <Property Name="InputCancel" Value="Lost Focus"/>
+      <Property Name="InputComma" Value="Explicit"/>
+      <Property Name="InputConfirm" Value="Enter"/>
+      <Property Name="InputMinus" Value="Normal"/>
+      <Property Name="InputNext" Value="Enter"/>
+      <Property Name="InputStart" Value="Any Key"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPadC307Zoll]"/>
+      <Property Name="InputUpDown" Value="Disabled"/>
+      <Property Name="Left" Value="352"/>
+      <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator1.DrehzahlMax]"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator1.DrehzahlMin]"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="80"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator1.EingabefeldFixdrehzUmluft]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="164"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator1.DrehzahlFixUmluft]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="120"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_6">
+      <Property Name="Border" Value="Source[local].Border[FrameGelb2Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial12pxBold]"/>
+      <Property Name="ForeColor" Value="47"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="Input" Value="True"/>
+      <Property Name="InputCancel" Value="Lost Focus"/>
+      <Property Name="InputComma" Value="Explicit"/>
+      <Property Name="InputConfirm" Value="Enter"/>
+      <Property Name="InputMinus" Value="Normal"/>
+      <Property Name="InputNext" Value="Enter"/>
+      <Property Name="InputStart" Value="Any Key"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPadC307Zoll]"/>
+      <Property Name="InputUpDown" Value="Disabled"/>
+      <Property Name="Left" Value="352"/>
+      <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator1.LuftmengeBoxMax]"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator1.LuftmengeBoxMin]"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="400"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator1.EingabefeldLuftmengeFrischl]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="95"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator1.LuftmengeSollFrischluft]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="120"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_7">
+      <Property Name="Border" Value="Source[local].Border[FrameGelb2Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial12pxBold]"/>
+      <Property Name="ForeColor" Value="47"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="Input" Value="True"/>
+      <Property Name="InputCancel" Value="Lost Focus"/>
+      <Property Name="InputComma" Value="Explicit"/>
+      <Property Name="InputConfirm" Value="Enter"/>
+      <Property Name="InputMinus" Value="Normal"/>
+      <Property Name="InputNext" Value="Enter"/>
+      <Property Name="InputStart" Value="Any Key"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPadC307Zoll]"/>
+      <Property Name="InputUpDown" Value="Disabled"/>
+      <Property Name="Left" Value="352"/>
+      <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator1.LuftmengeBoxMax]"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator1.LuftmengeBoxMin]"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="400"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator1.EingabefeldLuftmengeUmluft]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="164"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator1.LuftmengeSollUmluft]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="120"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_3">
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_336]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial12pxBold]"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="228"/>
+      <Property Name="Locking" Value="Datapoint &gt;= Level"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator1.LuftmengenregUmluftSperre]"/>
+      <Property Name="LockingLevel" Value="1"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedBorder" Value="Source[local].Border[FrameHellgr2Schwarz]"/>
+      <Property Name="PressedForeColor" Value="243"/>
+      <Property Name="PressedTextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="PressedTextIndex" Value="33"/>
+      <Property Name="PressedTextSource" Value="SingleText"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator1.Umluftbetrieb]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndex" Value="32"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="164"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_336]"/>
+      <Property Name="Width" Value="120"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_3">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="Border" Value="Source[local].Border[FrameGelb2Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial22pxBold]"/>
+      <Property Name="ForeColor" Value="47"/>
+      <Property Name="Height" Value="161"/>
+      <Property Name="Left" Value="35"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator1.BargraphAktiv]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="34"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="82"/>
+      <Property Name="Width" Value="41"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_4">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="476"/>
+      <Property Name="EndY" Value="159"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="StartX" Value="89"/>
+      <Property Name="StartY" Value="159"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_5">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="476"/>
+      <Property Name="EndY" Value="229"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="StartX" Value="476"/>
+      <Property Name="StartY" Value="91"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator1.Umluftbetrieb]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_6">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="223"/>
+      <Property Name="EndY" Value="229"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="StartX" Value="223"/>
+      <Property Name="StartY" Value="91"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator1.Umluftbetrieb]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_4">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial11pxBold]"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator1.TextFrischluftDachluft]"/>
+      <Property Name="Left" Value="93"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[TXT_FrischlDachluft]"/>
+      <Property Name="TextIndexOffset" Value="0"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="95"/>
+      <Property Name="Width" Value="130"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_6">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial11pxBold]"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="Left" Value="93"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator1.Umluftbetrieb]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="36"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="164"/>
+      <Property Name="Width" Value="130"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_7">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="BackColor" Value="242"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Arial16pxBold]"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="Height" Value="30"/>
+      <Property Name="Left" Value="166"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Layers.UebersichtZweiVentilatoren]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="37"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="34"/>
+      <Property Name="Width" Value="361"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_4">
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_337]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial12pxBold]"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="228"/>
+      <Property Name="Locking" Value="Datapoint &gt;= Level"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator2.LuftmengenregFrischlSperre]"/>
+      <Property Name="LockingLevel" Value="1"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedBorder" Value="Source[local].Border[FrameHellgr2Schwarz]"/>
+      <Property Name="PressedForeColor" Value="243"/>
+      <Property Name="PressedTextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="PressedTextIndex" Value="39"/>
+      <Property Name="PressedTextSource" Value="SingleText"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Ventilator2]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndex" Value="38"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="283"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_337]"/>
+      <Property Name="Width" Value="120"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_6">
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[FrameHellgr1]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Height" Value="120"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="484"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Layers.UebersichtZweiVentilatoren]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="285"/>
+      <Property Name="Width" Value="180"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_7">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="653"/>
+      <Property Name="EndY" Value="312"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="StartX" Value="493"/>
+      <Property Name="StartY" Value="312"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Layers.UebersichtZweiVentilatoren]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_8">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="562"/>
+      <Property Name="EndY" Value="320"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="StartX" Value="562"/>
+      <Property Name="StartY" Value="396"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Layers.UebersichtZweiVentilatoren]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_8">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial12pxBold]"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="Height" Value="25"/>
+      <Property Name="Left" Value="484"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Layers.UebersichtZweiVentilatoren]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="40"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="287"/>
+      <Property Name="Width" Value="180"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_8">
+      <Property Name="AlignmentHorizontal" Value="Left"/>
+      <Property Name="BackColor" Value="242"/>
+      <Property Name="Border" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="584"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="21"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator2.Luftmenge]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="355"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiSensoren.Luftgeschwindigkeit]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="55"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_9">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="BackColor" Value="242"/>
+      <Property Name="Border" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="499"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="100"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Layers.UebersichtZweiVentilatoren]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="360"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator2.IstDrehzahl]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="40"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_10">
+      <Property Name="AlignmentHorizontal" Value="Left"/>
+      <Property Name="BackColor" Value="242"/>
+      <Property Name="Border" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="20"/>
+      <Property Name="Left" Value="584"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="100000"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator2.Luftmenge]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="375"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiSensoren.LuftmengeAktuell]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="74"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_7">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[PNG_Tacho]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="23"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="499"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Layers.UebersichtZweiVentilatoren]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="333"/>
+      <Property Name="Width" Value="40"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_8">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[PNG_IconLuftmenge]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="29"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="594"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator2.Luftmenge]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="320"/>
+      <Property Name="Width" Value="40"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_9">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="Border" Value="Source[local].Border[FrameHellgr2Dklgr]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial22pxBold]"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="Height" Value="161"/>
+      <Property Name="Left" Value="35"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator2.BargraphInaktiv]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="41"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="270"/>
+      <Property Name="Width" Value="41"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_11">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="Border" Value="Source[local].Border[FrameGelb2Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial14px]"/>
+      <Property Name="ForeColor" Value="47"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="Input" Value="True"/>
+      <Property Name="InputCancel" Value="Lost Focus"/>
+      <Property Name="InputComma" Value="Explicit"/>
+      <Property Name="InputConfirm" Value="Enter"/>
+      <Property Name="InputMinus" Value="Normal"/>
+      <Property Name="InputNext" Value="Enter"/>
+      <Property Name="InputStart" Value="Any Key"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPadC307Zoll]"/>
+      <Property Name="InputUpDown" Value="Disabled"/>
+      <Property Name="Left" Value="352"/>
+      <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator2.DrehzahlMax]"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator2.DrehzahlMin]"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="100"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator2.EingabefeldFixdrehzFrischl]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="283"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator2.DrehzahlFixFrischluft]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="120"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_12">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="Border" Value="Source[local].Border[FrameGelb2Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial14px]"/>
+      <Property Name="ForeColor" Value="47"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="Input" Value="True"/>
+      <Property Name="InputCancel" Value="Lost Focus"/>
+      <Property Name="InputComma" Value="Explicit"/>
+      <Property Name="InputConfirm" Value="Enter"/>
+      <Property Name="InputMinus" Value="Normal"/>
+      <Property Name="InputNext" Value="Enter"/>
+      <Property Name="InputStart" Value="Any Key"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPadC307Zoll]"/>
+      <Property Name="InputUpDown" Value="Disabled"/>
+      <Property Name="Left" Value="352"/>
+      <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator2.DrehzahlMax]"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator2.DrehzahlMin]"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="80"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator2.EingabefeldFixdrehzUmluft]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="352"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator2.DrehzahlFixUmluft]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="120"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_13">
+      <Property Name="Border" Value="Source[local].Border[FrameGelb2Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial12pxBold]"/>
+      <Property Name="ForeColor" Value="47"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="Input" Value="True"/>
+      <Property Name="InputCancel" Value="Lost Focus"/>
+      <Property Name="InputComma" Value="Explicit"/>
+      <Property Name="InputConfirm" Value="Enter"/>
+      <Property Name="InputMinus" Value="Normal"/>
+      <Property Name="InputNext" Value="Enter"/>
+      <Property Name="InputStart" Value="Any Key"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPadC307Zoll]"/>
+      <Property Name="InputUpDown" Value="Disabled"/>
+      <Property Name="Left" Value="352"/>
+      <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator1.LuftmengeBoxMax]"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator1.LuftmengeBoxMin]"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="400"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator2.EingabefeldLuftmengeFrischl]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="283"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator2.LuftmengeSollFrischluft]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="120"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_14">
+      <Property Name="Border" Value="Source[local].Border[FrameGelb2Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial12pxBold]"/>
+      <Property Name="ForeColor" Value="47"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="Input" Value="True"/>
+      <Property Name="InputCancel" Value="Lost Focus"/>
+      <Property Name="InputComma" Value="Explicit"/>
+      <Property Name="InputConfirm" Value="Enter"/>
+      <Property Name="InputMinus" Value="Normal"/>
+      <Property Name="InputNext" Value="Enter"/>
+      <Property Name="InputStart" Value="Any Key"/>
+      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPadC307Zoll]"/>
+      <Property Name="InputUpDown" Value="Disabled"/>
+      <Property Name="Left" Value="352"/>
+      <Property Name="MaxDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator1.LuftmengeBoxMax]"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator1.LuftmengeBoxMin]"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="400"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator2.EingabefeldLuftmengeUmluft]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="352"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator2.LuftmengeSollUmluft]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="120"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_5">
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_338]"/>
+      <Property Name="Font" Value="Source[local].Font[Arial12pxBold]"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="228"/>
+      <Property Name="Locking" Value="Datapoint &gt;= Level"/>
+      <Property Name="LockingDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator2.LuftmengenregUmluftSperre]"/>
+      <Property Name="LockingLevel" Value="1"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedBorder" Value="Source[local].Border[FrameHellgr2Schwarz]"/>
+      <Property Name="PressedForeColor" Value="243"/>
+      <Property Name="PressedTextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="PressedTextIndex" Value="44"/>
+      <Property Name="PressedTextSource" Value="SingleText"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator2.Umluftbetrieb]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndex" Value="42"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="352"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_338]"/>
+      <Property Name="Width" Value="120"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_10">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="Border" Value="Source[local].Border[FrameGelb2Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial22pxBold]"/>
+      <Property Name="ForeColor" Value="47"/>
+      <Property Name="Height" Value="161"/>
+      <Property Name="Left" Value="35"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator2.BargraphAktiv]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="45"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="270"/>
+      <Property Name="Width" Value="41"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_9">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="476"/>
+      <Property Name="EndY" Value="347"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="StartX" Value="89"/>
+      <Property Name="StartY" Value="347"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Ventilator2]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_10">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="476"/>
+      <Property Name="EndY" Value="417"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="StartX" Value="476"/>
+      <Property Name="StartY" Value="279"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator2.Umluftbetrieb]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_11">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="223"/>
+      <Property Name="EndY" Value="417"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="StartX" Value="223"/>
+      <Property Name="StartY" Value="279"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator2.Umluftbetrieb]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_11">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial11pxBold]"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator2.TextFrischluftDachluft]"/>
+      <Property Name="Left" Value="93"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Ventilator2]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[TXT_FrischlDachluft]"/>
+      <Property Name="TextIndexOffset" Value="0"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="283"/>
+      <Property Name="Width" Value="130"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_12">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial11pxBold]"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="Height" Value="60"/>
+      <Property Name="Left" Value="93"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Ventilator2.Umluftbetrieb]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="47"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="352"/>
+      <Property Name="Width" Value="130"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_12">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="661"/>
+      <Property Name="EndY" Value="255"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="StartX" Value="31"/>
+      <Property Name="StartY" Value="255"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Layers.UebersichtZweiVentilatoren]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+  </Controls>
+  <KeyMapping>
+    <VirtualKey Name="%embVirtualKey_334">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiButtons.showVentilatoren]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_335">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016A">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="ResetValue" Value="0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator1.LuftmengenregFrischluftEin]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_336">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016A">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="ResetValue" Value="0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator1.LuftmengenregUmluftEin]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_337">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016A">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="ResetValue" Value="0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator2.LuftmengenregFrischluftEin]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_338">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x0000016A">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="ResetValue" Value="0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Ventilator2.LuftmengenregUmluftEin]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+  </KeyMapping>
+</Layer>

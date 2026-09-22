@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="_851_TEST_Sensorik02">
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="272"/>
+  <Property Name="Index" Value="851"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+  <Property Name="Width" Value="480"/>
+  <Layers>
+    <LayerRef Source="Source[local].Layer[NavigationSettings]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="NavigationSettings"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="0"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[HintergrundAufAb]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="HintergrundAufAb"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="1"/>
+    </LayerRef>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="272"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="480"/>
+      <Property Name="Z-Order" Value="2"/>
+      <TextGroup>
+        <TextLayer LanguageId="en">
+          <Text ID="285640" Value="Analog signals"/>
+          <Text ID="285641" Value="Dehumidifier inlet"/>
+          <Text ID="285642" Value="°C min"/>
+          <Text ID="285643" Value="°C max"/>
+          <Text ID="285644" Value="% min"/>
+          <Text ID="285645" Value="% max"/>
+          <Text ID="285646" Value="Dehumidifier outlet"/>
+          <Text ID="285647" Value="°C min"/>
+          <Text ID="285648" Value="°C max"/>
+          <Text ID="285649" Value="% min"/>
+          <Text ID="285650" Value="% max"/>
+          <Text ID="285651" Value="Air speed"/>
+          <Text ID="285652" Value="min"/>
+          <Text ID="285653" Value="max"/>
+          <Text ID="285654" Value="DB"/>
+          <Text ID="285655" Value="Channel pressure sensor"/>
+          <Text ID="285656" Value="min"/>
+          <Text ID="285657" Value="max"/>
+        </TextLayer>
+        <TextLayer LanguageId="de">
+          <Text ID="285640" Value="Analoge Signale"/>
+          <Text ID="285641" Value="Entfeuchter Eintritt"/>
+          <Text ID="285642" Value="°C min"/>
+          <Text ID="285643" Value="°C max"/>
+          <Text ID="285644" Value="% min"/>
+          <Text ID="285645" Value="% max"/>
+          <Text ID="285646" Value="Entfeuchter Austritt"/>
+          <Text ID="285647" Value="°C min"/>
+          <Text ID="285648" Value="°C max"/>
+          <Text ID="285649" Value="% min"/>
+          <Text ID="285650" Value="% max"/>
+          <Text ID="285651" Value="Luftgeschwindigkeit"/>
+          <Text ID="285652" Value="min"/>
+          <Text ID="285653" Value="max"/>
+          <Text ID="285654" Value="DB"/>
+          <Text ID="285655" Value="Kanaldruck"/>
+          <Text ID="285656" Value="min"/>
+          <Text ID="285657" Value="max"/>
+        </TextLayer>
+        <TextLayer LanguageId="fr">
+          <Text ID="285640" Value="Signaux analogiques"/>
+          <Text ID="285641" Value="Entrée déshumidificateur"/>
+          <Text ID="285642" Value="°C min"/>
+          <Text ID="285643" Value="°C max"/>
+          <Text ID="285644" Value="% min"/>
+          <Text ID="285645" Value="% max"/>
+          <Text ID="285646" Value="Sortie déshumidificateur"/>
+          <Text ID="285647" Value="°C min"/>
+          <Text ID="285648" Value="°C max"/>
+          <Text ID="285649" Value="% min"/>
+          <Text ID="285650" Value="% max"/>
+          <Text ID="285651" Value="Vitesse d'air"/>
+          <Text ID="285652" Value="min"/>
+          <Text ID="285653" Value="max"/>
+          <Text ID="285654" Value="DB"/>
+          <Text ID="285655" Value="Pression canal"/>
+          <Text ID="285656" Value="min"/>
+          <Text ID="285657" Value="max"/>
+        </TextLayer>
+        <TextLayer LanguageId="nl-BE">
+          <Text ID="285640" Value="Analoge signalen"/>
+          <Text ID="285641" Value=""/>
+          <Text ID="285642" Value=""/>
+          <Text ID="285643" Value=""/>
+          <Text ID="285644" Value=""/>
+          <Text ID="285645" Value=""/>
+          <Text ID="285646" Value=""/>
+          <Text ID="285647" Value=""/>
+          <Text ID="285648" Value=""/>
+          <Text ID="285649" Value=""/>
+          <Text ID="285650" Value=""/>
+          <Text ID="285651" Value=""/>
+          <Text ID="285652" Value=""/>
+          <Text ID="285653" Value=""/>
+          <Text ID="285654" Value=""/>
+          <Text ID="285655" Value=""/>
+          <Text ID="285656" Value=""/>
+          <Text ID="285657" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="es">
+          <Text ID="285640" Value=""/>
+          <Text ID="285641" Value=""/>
+          <Text ID="285642" Value=""/>
+          <Text ID="285643" Value=""/>
+          <Text ID="285644" Value=""/>
+          <Text ID="285645" Value=""/>
+          <Text ID="285646" Value=""/>
+          <Text ID="285647" Value=""/>
+          <Text ID="285648" Value=""/>
+          <Text ID="285649" Value=""/>
+          <Text ID="285650" Value=""/>
+          <Text ID="285651" Value=""/>
+          <Text ID="285652" Value=""/>
+          <Text ID="285653" Value=""/>
+          <Text ID="285654" Value=""/>
+          <Text ID="285655" Value=""/>
+          <Text ID="285656" Value=""/>
+          <Text ID="285657" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="sl">
+          <Text ID="285640" Value="Analogni signali"/>
+          <Text ID="285641" Value="Razvlaževalnik – vhod"/>
+          <Text ID="285642" Value="°C naj."/>
+          <Text ID="285643" Value="°C najv."/>
+          <Text ID="285644" Value="% najm."/>
+          <Text ID="285645" Value="% najv."/>
+          <Text ID="285646" Value="Razvlaževalnik – izhod"/>
+          <Text ID="285647" Value="°C naj."/>
+          <Text ID="285648" Value="°C najv."/>
+          <Text ID="285649" Value="% najm."/>
+          <Text ID="285650" Value="% najv."/>
+          <Text ID="285651" Value="Hitrost zraka"/>
+          <Text ID="285652" Value="najm."/>
+          <Text ID="285653" Value="najv."/>
+          <Text ID="285654" Value="DB"/>
+          <Text ID="285655" Value="Tlak kanala"/>
+          <Text ID="285656" Value="najm."/>
+          <Text ID="285657" Value="najv."/>
+        </TextLayer>
+        <IndexMap>
+          <Index ID="285640" Value="33"/>
+          <Index ID="285641" Value="34"/>
+          <Index ID="285642" Value="35"/>
+          <Index ID="285643" Value="36"/>
+          <Index ID="285644" Value="37"/>
+          <Index ID="285645" Value="38"/>
+          <Index ID="285646" Value="41"/>
+          <Index ID="285647" Value="42"/>
+          <Index ID="285648" Value="43"/>
+          <Index ID="285649" Value="44"/>
+          <Index ID="285650" Value="45"/>
+          <Index ID="285651" Value="48"/>
+          <Index ID="285652" Value="51"/>
+          <Index ID="285653" Value="52"/>
+          <Index ID="285654" Value="53"/>
+          <Index ID="285655" Value="55"/>
+          <Index ID="285656" Value="58"/>
+          <Index ID="285657" Value="59"/>
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001004" Name="Text_2">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial12pxBold]"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="Height" Value="22"/>
+          <Property Name="Left" Value="9"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="33"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="8"/>
+          <Property Name="Width" Value="327"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_24">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial11pxBold]"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="Left" Value="17"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="34"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="34"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="Height" Value="31"/>
+          <Property Name="Left" Value="164"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="999"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="39"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.AnalogIn.aiEintrittTemperatur]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="80"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_286]"/>
+          <Property Name="Height" Value="60"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="341"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="8"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_286]"/>
+          <Property Name="Width" Value="60"/>
+        </Control>
+        <Control ClassId="0x00001003" Name="HotSpot_3">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_287]"/>
+          <Property Name="Height" Value="60"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="341"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+          <Property Name="Top" Value="205"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_287]"/>
+          <Property Name="Width" Value="60"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="327"/>
+          <Property Name="EndY" Value="31"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="StartX" Value="18"/>
+          <Property Name="StartY" Value="31"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="327"/>
+          <Property Name="EndY" Value="101"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="StartX" Value="18"/>
+          <Property Name="StartY" Value="101"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_2">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="Height" Value="31"/>
+          <Property Name="Left" Value="251"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="999"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="39"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.AnalogIn.aiEintrittFeuchte]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="80"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_8">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[FrameHellgr2Dklgr]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.StatusIn.diStatusEintrittTempMin]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[GrauGruen]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="17"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="35"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="74"/>
+          <Property Name="Width" Value="70"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_9">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[FrameHellgr2Dklgr]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.StatusIn.diStatusEintrittTempMax]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[GrauGruen]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="98"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="36"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="74"/>
+          <Property Name="Width" Value="70"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_10">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[FrameHellgr2Dklgr]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.StatusIn.diStatusEintrittFeuchteMin]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[GrauGruen]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="179"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="37"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="74"/>
+          <Property Name="Width" Value="70"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_11">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[FrameHellgr2Dklgr]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.StatusIn.diStatusEintrittFeuchteMax]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[GrauGruen]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="261"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="38"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="74"/>
+          <Property Name="Width" Value="70"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_25">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial11pxBold]"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="Left" Value="17"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="41"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="104"/>
+          <Property Name="Width" Value="150"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_3">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="Height" Value="31"/>
+          <Property Name="Left" Value="164"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="999"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="109"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.AnalogIn.aiAustrittTemperatur]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="80"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_3">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="327"/>
+          <Property Name="EndY" Value="171"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="StartX" Value="18"/>
+          <Property Name="StartY" Value="171"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_4">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="Height" Value="31"/>
+          <Property Name="Left" Value="251"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="999"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="109"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.AnalogIn.aiAustrittFeuchte]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="80"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_14">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[FrameHellgr2Dklgr]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.StatusIn.diStatusAustrittTempMin]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[GrauGruen]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="17"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="42"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="144"/>
+          <Property Name="Width" Value="70"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_15">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[FrameHellgr2Dklgr]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.StatusIn.diStatusAustrittTempMax]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[GrauGruen]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="98"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="43"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="144"/>
+          <Property Name="Width" Value="70"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_16">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[FrameHellgr2Dklgr]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.StatusIn.diStatusAustrittFeuchteMin]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[GrauGruen]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="179"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="44"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="144"/>
+          <Property Name="Width" Value="70"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_17">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[FrameHellgr2Dklgr]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.StatusIn.diStatusAustrittFeuchteMax]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[GrauGruen]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="261"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="45"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="144"/>
+          <Property Name="Width" Value="70"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_26">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial11pxBold]"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="Left" Value="17"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="48"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="174"/>
+          <Property Name="Width" Value="103"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_6">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="Height" Value="31"/>
+          <Property Name="Left" Value="261"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="99"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="179"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.AnalogIn.aiLuftgeschwindigkeit]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="70"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_22">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[FrameHellgr2Dklgr]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.StatusIn.diStatusLuftgeschwMin]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[GrauGruen]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="169"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="51"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="181"/>
+          <Property Name="Width" Value="45"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_23">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[FrameHellgr2Dklgr]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.StatusIn.diStatusLuftgeschwMax]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[GrauGruen]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="215"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="52"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="181"/>
+          <Property Name="Width" Value="45"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_27">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[FrameHellgr2Dklgr]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.StatusIn.diStatusLuftgeschwDrahtbruch]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[GrauGruen]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="123"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="53"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="181"/>
+          <Property Name="Width" Value="45"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_29">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial11pxBold]"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="Left" Value="17"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="55"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="217"/>
+          <Property Name="Width" Value="146"/>
+        </Control>
+        <Control ClassId="0x0000100D" Name="Line_5">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EndX" Value="327"/>
+          <Property Name="EndY" Value="215"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="StartX" Value="18"/>
+          <Property Name="StartY" Value="215"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_8">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="Height" Value="31"/>
+          <Property Name="Left" Value="261"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="5000"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="222"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.AnalogIn.aiDifferenzdruck]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="70"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_32">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[FrameHellgr2Dklgr]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.StatusIn.diStatusDifferenzdruckMin]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[GrauGruen]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="169"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="58"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="224"/>
+          <Property Name="Width" Value="45"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_33">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Border" Value="Source[local].Border[FrameHellgr2Dklgr]"/>
+          <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.hmiIoTest.StatusIn.diStatusDifferenzdruckMax]"/>
+          <Property Name="ColorMap" Value="Source[local].ColorMap[GrauGruen]"/>
+          <Property Name="ColorMapIndexOffset" Value="0"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="26"/>
+          <Property Name="Left" Value="215"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="59"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="224"/>
+          <Property Name="Width" Value="45"/>
+        </Control>
+      </Controls>
+      <KeyMapping>
+        <VirtualKey Name="%embVirtualKey_286">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000160">
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Page" Value="Source[local].Page[_850_TEST_Sensorik01]"/>
+              <Property Name="Target" Value="Page"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+        <VirtualKey Name="%embVirtualKey_287">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000160">
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Page" Value="Source[local].Page[_852_TEST_Sensorik03]"/>
+              <Property Name="Target" Value="Page"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
+    </Layer>
+  </Layers>
+  <MovementOrder/>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+    <TabSeqItem Index="1" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
+    <TabSeqItem Index="2" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
+    <TabSeqItem Index="3" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
+    <TabSeqItem Index="4" Value="Source[embedded].Layer[Default].Control[Numeric_6]"/>
+    <TabSeqItem Index="5" Value="Source[embedded].Layer[Default].Control[Numeric_8]"/>
+  </TabSequence>
+</Page>

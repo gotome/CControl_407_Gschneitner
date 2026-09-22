@@ -1,0 +1,21 @@
+VAR
+	hmiDatenaufzeichnung : {REDUND_UNREPLICABLE} typHmiDatenaufzeichnung;
+	hmiStatus : {REDUND_UNREPLICABLE} typHmiStatus;
+END_VAR
+VAR RETAIN
+	hmiBoxAktuell : {REDUND_UNREPLICABLE} typHmiBoxAktuell;
+END_VAR
+VAR
+	hmiTrocknungsbilanz : {REDUND_UNREPLICABLE} typHmiTrocknungsbilanz;
+END_VAR
+VAR RETAIN
+	hmiActions : {REDUND_UNREPLICABLE} typHmiActions;
+END_VAR
+VAR
+	hmiIoTest : {REDUND_UNREPLICABLE} typIoTest;
+	hmiParameter : {REDUND_UNREPLICABLE} parAnlage;
+	hmiNutzungsdaten : {REDUND_UNREPLICABLE} typNutzungsdaten;
+	hmiSensoren : {REDUND_UNREPLICABLE} typHmiSensoren;
+	hmiVisibility : {REDUND_UNREPLICABLE} typHmiVisibility;
+	hmiButtons : {REDUND_UNREPLICABLE} typHmiButtons;
+END_VAR

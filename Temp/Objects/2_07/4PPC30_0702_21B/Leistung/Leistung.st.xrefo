@@ -1,0 +1,1895 @@
+<?xml version="1.0"?>
+<Crossref Scope="Regelung.Leistung" AppMod="">
+	<Vars>
+		<Var Name="Leistung.fbLascoZdxx_0" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="37" C="2" PS="Ln:37, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbLascoZdxx_0.Q" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="38" C="16" PS="Ln:38, Col:16" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbLascoZdxx_1" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="39" C="2" PS="Ln:39, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbLascoZdxx_1.Q" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="40" C="16" PS="Ln:40, Col:16" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.sekTick" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="40" C="2" PS="Ln:40, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.minTick" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="38" C="2" PS="Ln:38, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.loc_LuftgeschwSollVent1" Scope="Local" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="110" C="4" PS="Ln:110, Col:4" A="W"/>
+				<Pos L="115" C="4" PS="Ln:115, Col:4" A="W"/>
+				<Pos L="136" C="38" PS="Ln:136, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.loc_LuftgeschwSollVent2" Scope="Local" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="122" C="4" PS="Ln:122, Col:4" A="W"/>
+				<Pos L="127" C="4" PS="Ln:127, Col:4" A="W"/>
+				<Pos L="167" C="38" PS="Ln:167, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.EntfeuchterInBetrieb" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="47" C="2" PS="Ln:47, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.FrischluftbetriebAktiv" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="49" C="2" PS="Ln:49, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.UmluftbetriebAktiv" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="50" C="2" PS="Ln:50, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.LuftgeschwEntfeuchterMin" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="51" C="2" PS="Ln:51, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.LuftgeschwEntfeuchterMax" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="52" C="2" PS="Ln:52, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.LuftmengeSollProM2FrischlVent1" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="53" C="2" PS="Ln:53, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.LuftmengeSollProM2UmluftVent1" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="54" C="2" PS="Ln:54, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.LuftmengeSollProM2FrischlVent2" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="55" C="2" PS="Ln:55, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.LuftmengeSollProM2UmluftVent2" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="56" C="2" PS="Ln:56, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.RegisterflaecheEntfeuchter" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="58" C="3" PS="Ln:58, Col:3" A="W"/>
+				<Pos L="60" C="3" PS="Ln:60, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box1.BoxIstAktiv" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="64" C="2" PS="Ln:64, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box1.GrundflaecheBox" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="65" C="2" PS="Ln:65, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box1.Ventilator1" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="66" C="2" PS="Ln:66, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box1.Ventilator2" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="67" C="2" PS="Ln:67, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box2.BoxIstAktiv" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="69" C="2" PS="Ln:69, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box2.GrundflaecheBox" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="70" C="2" PS="Ln:70, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box2.Ventilator1" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="71" C="2" PS="Ln:71, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box2.Ventilator2" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="72" C="2" PS="Ln:72, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box3.BoxIstAktiv" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="74" C="2" PS="Ln:74, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box3.GrundflaecheBox" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="75" C="2" PS="Ln:75, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box3.Ventilator1" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="76" C="2" PS="Ln:76, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box3.Ventilator2" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="77" C="2" PS="Ln:77, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box4.BoxIstAktiv" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="79" C="2" PS="Ln:79, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box4.GrundflaecheBox" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="80" C="2" PS="Ln:80, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box4.Ventilator1" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="81" C="2" PS="Ln:81, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box4.Ventilator2" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="82" C="2" PS="Ln:82, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box5.BoxIstAktiv" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="84" C="2" PS="Ln:84, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box5.GrundflaecheBox" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="85" C="2" PS="Ln:85, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box5.Ventilator1" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="86" C="2" PS="Ln:86, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box5.Ventilator2" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="87" C="2" PS="Ln:87, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box6.BoxIstAktiv" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="89" C="2" PS="Ln:89, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box6.GrundflaecheBox" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="90" C="2" PS="Ln:90, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box6.Ventilator1" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="91" C="2" PS="Ln:91, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.Box6.Ventilator2" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="92" C="2" PS="Ln:92, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="94" C="2" PS="Ln:94, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.LuftmengeSollVent1Out" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="110" C="31" PS="Ln:110, Col:31" A="R"/>
+				<Pos L="115" C="31" PS="Ln:115, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.fbBoxenLuftmengen_0.LuftmengeSollVent2Out" Scope="Local" Type="fbBoxenLuftmengen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="122" C="31" PS="Ln:122, Col:31" A="R"/>
+				<Pos L="127" C="31" PS="Ln:127, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Leistung.loc_Ansaugflaeche" Scope="Local" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="102" C="3" PS="Ln:102, Col:3" A="W"/>
+				<Pos L="104" C="3" PS="Ln:104, Col:3" A="W"/>
+				<Pos L="109" C="6" PS="Ln:109, Col:6" A="R"/>
+				<Pos L="110" C="75" PS="Ln:110, Col:75" A="R"/>
+				<Pos L="114" C="6" PS="Ln:114, Col:6" A="R"/>
+				<Pos L="115" C="75" PS="Ln:115, Col:75" A="R"/>
+				<Pos L="121" C="6" PS="Ln:121, Col:6" A="R"/>
+				<Pos L="122" C="75" PS="Ln:122, Col:75" A="R"/>
+				<Pos L="126" C="6" PS="Ln:126, Col:6" A="R"/>
+				<Pos L="127" C="75" PS="Ln:127, Col:75" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box1Out.BoxAktiv" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="64" C="43" PS="Ln:64, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box2Out.BoxAktiv" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="69" C="43" PS="Ln:69, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box3Out.BoxAktiv" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="74" C="43" PS="Ln:74, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box4Out.BoxAktiv" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="79" C="43" PS="Ln:79, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box5Out.BoxAktiv" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="84" C="43" PS="Ln:84, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box6Out.BoxAktiv" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="89" C="43" PS="Ln:89, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.NotbetriebVentilator1" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="436" C="10" PS="Ln:436, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.FreigabeVentilator1" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="436" C="46" PS="Ln:436, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.NotbetriebVentilator2" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="496" C="10" PS="Ln:496, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.FreigabeVentilator2" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="496" C="46" PS="Ln:496, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.FreigabeKompressorOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="47" C="48" PS="Ln:47, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.FreigabeKompressorOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="47" C="98" PS="Ln:47, Col:98" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.AnforderungVentilator1" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="328" C="4" PS="Ln:328, Col:4" A="R"/>
+				<Pos L="331" C="6" PS="Ln:331, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.AnforderungVentilator2" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="328" C="53" PS="Ln:328, Col:53" A="R"/>
+				<Pos L="337" C="6" PS="Ln:337, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Heizregister.FreigabeHeizregisterOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="552" C="33" PS="Ln:552, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Strombegrenzung.StrombegrenzungEin" Scope="Global" Type="fbTrockStrombegr">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="415" C="9" PS="Ln:415, Col:9" A="R"/>
+				<Pos L="475" C="9" PS="Ln:475, Col:9" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Entfeuchter.LuftgeschwEntfeuchterMin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="51" C="51" PS="Ln:51, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Entfeuchter.LuftgeschwEntfeuchterMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="52" C="51" PS="Ln:52, Col:51" A="R"/>
+				<Pos L="153" C="43" PS="Ln:153, Col:43" A="R"/>
+				<Pos L="184" C="43" PS="Ln:184, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.LuftmengeSollFrischluft" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="53" C="56" PS="Ln:53, Col:56" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.LuftmengeSollUmluft" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="54" C="55" PS="Ln:54, Col:55" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.LuftmengeSollFrischluft" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="55" C="56" PS="Ln:55, Col:56" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.LuftmengeSollUmluft" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="56" C="55" PS="Ln:56, Col:55" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.EntfeuchterFremd" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="57" C="5" PS="Ln:57, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Allgemein.AnsaugflaecheVent" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="58" C="54" PS="Ln:58, Col:54" A="R"/>
+				<Pos L="104" C="24" PS="Ln:104, Col:24" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Entfeuchter.IndexType" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="60" C="100" PS="Ln:60, Col:100" A="R"/>
+				<Pos L="102" C="70" PS="Ln:102, Col:70" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Entfeuchter.Registerflaeche" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="60" C="54" PS="Ln:60, Col:54" A="R"/>
+				<Pos L="102" C="24" PS="Ln:102, Col:24" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.Grundflaeche" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="65" C="46" PS="Ln:65, Col:46" A="R"/>
+				<Pos L="70" C="46" PS="Ln:70, Col:46" A="R"/>
+				<Pos L="75" C="46" PS="Ln:75, Col:46" A="R"/>
+				<Pos L="80" C="46" PS="Ln:80, Col:46" A="R"/>
+				<Pos L="85" C="46" PS="Ln:85, Col:46" A="R"/>
+				<Pos L="90" C="46" PS="Ln:90, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.Ventilator1" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="66" C="43" PS="Ln:66, Col:43" A="R"/>
+				<Pos L="71" C="43" PS="Ln:71, Col:43" A="R"/>
+				<Pos L="76" C="43" PS="Ln:76, Col:43" A="R"/>
+				<Pos L="81" C="43" PS="Ln:81, Col:43" A="R"/>
+				<Pos L="86" C="43" PS="Ln:86, Col:43" A="R"/>
+				<Pos L="91" C="43" PS="Ln:91, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.Ventilator2" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="67" C="43" PS="Ln:67, Col:43" A="R"/>
+				<Pos L="72" C="43" PS="Ln:72, Col:43" A="R"/>
+				<Pos L="77" C="43" PS="Ln:77, Col:43" A="R"/>
+				<Pos L="82" C="43" PS="Ln:82, Col:43" A="R"/>
+				<Pos L="87" C="43" PS="Ln:87, Col:43" A="R"/>
+				<Pos L="92" C="43" PS="Ln:92, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.Entfeuchter" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="101" C="5" PS="Ln:101, Col:5" A="R"/>
+				<Pos L="152" C="5" PS="Ln:152, Col:5" A="R"/>
+				<Pos L="183" C="5" PS="Ln:183, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.LuftmengenregFrischluftEin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="108" C="46" PS="Ln:108, Col:46" A="R"/>
+				<Pos L="365" C="47" PS="Ln:365, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.LuftmengenregUmluftEin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="113" C="45" PS="Ln:113, Col:45" A="R"/>
+				<Pos L="367" C="46" PS="Ln:367, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.LuftmengenregFrischluftEin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="120" C="46" PS="Ln:120, Col:46" A="R"/>
+				<Pos L="373" C="47" PS="Ln:373, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.LuftmengenregUmluftEin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="125" C="45" PS="Ln:125, Col:45" A="R"/>
+				<Pos L="375" C="46" PS="Ln:375, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.D" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="146" C="37" PS="Ln:146, Col:37" A="R"/>
+				<Pos L="147" C="40" PS="Ln:147, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.I" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="148" C="37" PS="Ln:148, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.P" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="149" C="37" PS="Ln:149, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Sensoren.LuftgeschwMessberMin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="151" C="43" PS="Ln:151, Col:43" A="R"/>
+				<Pos L="182" C="43" PS="Ln:182, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Sensoren.LuftgeschwMessberMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="155" C="43" PS="Ln:155, Col:43" A="R"/>
+				<Pos L="186" C="43" PS="Ln:186, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.DrehzahlMin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="158" C="43" PS="Ln:158, Col:43" A="R"/>
+				<Pos L="334" C="47" PS="Ln:334, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.DrehzahlMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="159" C="43" PS="Ln:159, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.D" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="177" C="37" PS="Ln:177, Col:37" A="R"/>
+				<Pos L="178" C="40" PS="Ln:178, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.I" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="179" C="37" PS="Ln:179, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.P" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="180" C="37" PS="Ln:180, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.DrehzahlMin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="189" C="43" PS="Ln:189, Col:43" A="R"/>
+				<Pos L="340" C="47" PS="Ln:340, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.DrehzahlMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="190" C="43" PS="Ln:190, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.NiederdruckSoll" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="198" C="35" PS="Ln:198, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.Hysterese" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="206" C="35" PS="Ln:206, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.D" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="208" C="34" PS="Ln:208, Col:34" A="R"/>
+				<Pos L="209" C="37" PS="Ln:209, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.I" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="210" C="34" PS="Ln:210, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.P" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="211" C="34" PS="Ln:211, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Sensoren.NiederdruckMessberMin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="213" C="39" PS="Ln:213, Col:39" A="R"/>
+				<Pos L="240" C="39" PS="Ln:240, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Sensoren.NiederdruckMessberMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="214" C="39" PS="Ln:214, Col:39" A="R"/>
+				<Pos L="241" C="39" PS="Ln:241, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.DrehzahlMin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="216" C="39" PS="Ln:216, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.DrehzahlMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="217" C="39" PS="Ln:217, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor2.NiederdruckSoll" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="225" C="35" PS="Ln:225, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor2.Hysterese" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="233" C="35" PS="Ln:233, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor2.D" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="235" C="34" PS="Ln:235, Col:34" A="R"/>
+				<Pos L="236" C="37" PS="Ln:236, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor2.I" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="237" C="34" PS="Ln:237, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor2.P" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="238" C="34" PS="Ln:238, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor2.DrehzahlMin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="243" C="39" PS="Ln:243, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor2.DrehzahlMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="244" C="39" PS="Ln:244, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Heizregister.TrockenluftTempSoll" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="252" C="37" PS="Ln:252, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Heizregister.Hysterese" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="260" C="37" PS="Ln:260, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Heizregister.D" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="262" C="36" PS="Ln:262, Col:36" A="R"/>
+				<Pos L="263" C="39" PS="Ln:263, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Heizregister.I" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="264" C="36" PS="Ln:264, Col:36" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Heizregister.P" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="265" C="36" PS="Ln:265, Col:36" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Heizregister.DrehzahlVorgabeMin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="270" C="41" PS="Ln:270, Col:41" A="R"/>
+				<Pos L="555" C="49" PS="Ln:555, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Heizregister.DrehzahlVorgabeMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="271" C="41" PS="Ln:271, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Abluftventilator.AbluftfeuchteMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="280" C="37" PS="Ln:280, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Abluftventilator.Hysterese" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="288" C="37" PS="Ln:288, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Abluftventilator.D" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="290" C="36" PS="Ln:290, Col:36" A="R"/>
+				<Pos L="291" C="39" PS="Ln:291, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Abluftventilator.I" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="292" C="36" PS="Ln:292, Col:36" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Abluftventilator.P" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="293" C="36" PS="Ln:293, Col:36" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Abluftventilator.DrehzahlMin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="298" C="41" PS="Ln:298, Col:41" A="R"/>
+				<Pos L="354" C="52" PS="Ln:354, Col:52" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Abluftventilator.DrehzahlMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="299" C="41" PS="Ln:299, Col:41" A="R"/>
+				<Pos L="561" C="52" PS="Ln:561, Col:52" A="R"/>
+				<Pos L="565" C="52" PS="Ln:565, Col:52" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Abluftventilator.Automatik" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="327" C="29" PS="Ln:327, Col:29" A="R"/>
+				<Pos L="389" C="29" PS="Ln:389, Col:29" A="R"/>
+				<Pos L="562" C="36" PS="Ln:562, Col:36" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.DrehzahlBeiAuskuehlphase" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="332" C="47" PS="Ln:332, Col:47" A="R"/>
+				<Pos L="437" C="47" PS="Ln:437, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.DrehzahlBeiAuskuehlphase" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="338" C="47" PS="Ln:338, Col:47" A="R"/>
+				<Pos L="497" C="47" PS="Ln:497, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.DrehzahlregelungEin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="382" C="28" PS="Ln:382, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor2.DrehzahlregelungEin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="383" C="28" PS="Ln:383, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.Heizregister" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="386" C="29" PS="Ln:386, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.DrehzahlLeistungsreduz" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="396" C="44" PS="Ln:396, Col:44" A="R"/>
+				<Pos L="397" C="49" PS="Ln:397, Col:49" A="R"/>
+				<Pos L="402" C="63" PS="Ln:402, Col:63" A="R"/>
+				<Pos L="403" C="49" PS="Ln:403, Col:49" A="R"/>
+				<Pos L="408" C="59" PS="Ln:408, Col:59" A="R"/>
+				<Pos L="409" C="49" PS="Ln:409, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.DrehzahlFixFrischluft" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="402" C="9" PS="Ln:402, Col:9" A="R"/>
+				<Pos L="405" C="49" PS="Ln:405, Col:49" A="R"/>
+				<Pos L="423" C="9" PS="Ln:423, Col:9" A="R"/>
+				<Pos L="426" C="49" PS="Ln:426, Col:49" A="R"/>
+				<Pos L="444" C="48" PS="Ln:444, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.DrehzahlFixUmluft" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="408" C="9" PS="Ln:408, Col:9" A="R"/>
+				<Pos L="411" C="49" PS="Ln:411, Col:49" A="R"/>
+				<Pos L="429" C="9" PS="Ln:429, Col:9" A="R"/>
+				<Pos L="432" C="49" PS="Ln:432, Col:49" A="R"/>
+				<Pos L="446" C="48" PS="Ln:446, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.DrehzahlStrombegrenzung" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="417" C="44" PS="Ln:417, Col:44" A="R"/>
+				<Pos L="418" C="49" PS="Ln:418, Col:49" A="R"/>
+				<Pos L="423" C="63" PS="Ln:423, Col:63" A="R"/>
+				<Pos L="424" C="49" PS="Ln:424, Col:49" A="R"/>
+				<Pos L="429" C="59" PS="Ln:429, Col:59" A="R"/>
+				<Pos L="430" C="49" PS="Ln:430, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.DrehzahlLeistungsreduz" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="456" C="44" PS="Ln:456, Col:44" A="R"/>
+				<Pos L="457" C="49" PS="Ln:457, Col:49" A="R"/>
+				<Pos L="462" C="63" PS="Ln:462, Col:63" A="R"/>
+				<Pos L="463" C="49" PS="Ln:463, Col:49" A="R"/>
+				<Pos L="468" C="59" PS="Ln:468, Col:59" A="R"/>
+				<Pos L="469" C="49" PS="Ln:469, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.DrehzahlFixFrischluft" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="462" C="9" PS="Ln:462, Col:9" A="R"/>
+				<Pos L="465" C="49" PS="Ln:465, Col:49" A="R"/>
+				<Pos L="483" C="9" PS="Ln:483, Col:9" A="R"/>
+				<Pos L="486" C="49" PS="Ln:486, Col:49" A="R"/>
+				<Pos L="504" C="48" PS="Ln:504, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.DrehzahlFixUmluft" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="468" C="9" PS="Ln:468, Col:9" A="R"/>
+				<Pos L="471" C="49" PS="Ln:471, Col:49" A="R"/>
+				<Pos L="489" C="9" PS="Ln:489, Col:9" A="R"/>
+				<Pos L="492" C="49" PS="Ln:492, Col:49" A="R"/>
+				<Pos L="506" C="48" PS="Ln:506, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.DrehzahlStrombegrenzung" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="477" C="44" PS="Ln:477, Col:44" A="R"/>
+				<Pos L="478" C="49" PS="Ln:478, Col:49" A="R"/>
+				<Pos L="483" C="63" PS="Ln:483, Col:63" A="R"/>
+				<Pos L="484" C="49" PS="Ln:484, Col:49" A="R"/>
+				<Pos L="489" C="59" PS="Ln:489, Col:59" A="R"/>
+				<Pos L="490" C="49" PS="Ln:490, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.DrehzahlReduzierung" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="516" C="40" PS="Ln:516, Col:40" A="R"/>
+				<Pos L="517" C="54" PS="Ln:517, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.DrehzahlFix" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="527" C="52" PS="Ln:527, Col:52" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor2.DrehzahlReduzierung" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="536" C="40" PS="Ln:536, Col:40" A="R"/>
+				<Pos L="537" C="54" PS="Ln:537, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor2.DrehzahlFix" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="547" C="52" PS="Ln:547, Col:52" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.AbluftklImFrischlbetrImmerOffen" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="560" C="47" PS="Ln:560, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gAktModus" Scope="Global" Type="enumBetriebsmodus">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="312" C="5" PS="Ln:312, Col:5" A="R"/>
+				<Pos L="361" C="8" PS="Ln:361, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.FrischluftbetriebAktiv" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="49" C="50" PS="Ln:49, Col:50" A="R"/>
+				<Pos L="108" C="5" PS="Ln:108, Col:5" A="R"/>
+				<Pos L="120" C="5" PS="Ln:120, Col:5" A="R"/>
+				<Pos L="365" C="6" PS="Ln:365, Col:6" A="R"/>
+				<Pos L="373" C="6" PS="Ln:373, Col:6" A="R"/>
+				<Pos L="401" C="10" PS="Ln:401, Col:10" A="R"/>
+				<Pos L="422" C="10" PS="Ln:422, Col:10" A="R"/>
+				<Pos L="443" C="7" PS="Ln:443, Col:7" A="R"/>
+				<Pos L="461" C="10" PS="Ln:461, Col:10" A="R"/>
+				<Pos L="482" C="10" PS="Ln:482, Col:10" A="R"/>
+				<Pos L="503" C="7" PS="Ln:503, Col:7" A="R"/>
+				<Pos L="560" C="6" PS="Ln:560, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.UmluftbetriebAktiv" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="50" C="47" PS="Ln:50, Col:47" A="R"/>
+				<Pos L="113" C="8" PS="Ln:113, Col:8" A="R"/>
+				<Pos L="125" C="8" PS="Ln:125, Col:8" A="R"/>
+				<Pos L="367" C="9" PS="Ln:367, Col:9" A="R"/>
+				<Pos L="375" C="9" PS="Ln:375, Col:9" A="R"/>
+				<Pos L="407" C="10" PS="Ln:407, Col:10" A="R"/>
+				<Pos L="428" C="10" PS="Ln:428, Col:10" A="R"/>
+				<Pos L="467" C="10" PS="Ln:467, Col:10" A="R"/>
+				<Pos L="488" C="10" PS="Ln:488, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.Luftgeschwindigkeit" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="139" C="37" PS="Ln:139, Col:37" A="R"/>
+				<Pos L="170" C="37" PS="Ln:170, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.NiederdruckModul1" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="201" C="33" PS="Ln:201, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.NiederdruckModul2" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="228" C="33" PS="Ln:228, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.TrockenluftTemperatur" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="255" C="35" PS="Ln:255, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.AbluftFeuchte" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="283" C="35" PS="Ln:283, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCmdAnlage.Leistung.DrehzahlVentilator1" Scope="Global" Type="cmdAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="332" C="4" PS="Ln:332, Col:4" A="W"/>
+				<Pos L="334" C="4" PS="Ln:334, Col:4" A="W"/>
+				<Pos L="397" C="6" PS="Ln:397, Col:6" A="W"/>
+				<Pos L="399" C="6" PS="Ln:399, Col:6" A="W"/>
+				<Pos L="403" C="6" PS="Ln:403, Col:6" A="W"/>
+				<Pos L="405" C="6" PS="Ln:405, Col:6" A="W"/>
+				<Pos L="409" C="6" PS="Ln:409, Col:6" A="W"/>
+				<Pos L="411" C="6" PS="Ln:411, Col:6" A="W"/>
+				<Pos L="418" C="6" PS="Ln:418, Col:6" A="W"/>
+				<Pos L="420" C="6" PS="Ln:420, Col:6" A="W"/>
+				<Pos L="424" C="6" PS="Ln:424, Col:6" A="W"/>
+				<Pos L="426" C="6" PS="Ln:426, Col:6" A="W"/>
+				<Pos L="430" C="6" PS="Ln:430, Col:6" A="W"/>
+				<Pos L="432" C="6" PS="Ln:432, Col:6" A="W"/>
+				<Pos L="437" C="4" PS="Ln:437, Col:4" A="W"/>
+				<Pos L="440" C="4" PS="Ln:440, Col:4" A="W"/>
+				<Pos L="444" C="5" PS="Ln:444, Col:5" A="W"/>
+				<Pos L="446" C="5" PS="Ln:446, Col:5" A="W"/>
+				<Pos L="587" C="3" PS="Ln:587, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gCmdAnlage.Leistung.DrehzahlVentilator2" Scope="Global" Type="cmdAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="338" C="4" PS="Ln:338, Col:4" A="W"/>
+				<Pos L="340" C="4" PS="Ln:340, Col:4" A="W"/>
+				<Pos L="457" C="6" PS="Ln:457, Col:6" A="W"/>
+				<Pos L="459" C="6" PS="Ln:459, Col:6" A="W"/>
+				<Pos L="463" C="6" PS="Ln:463, Col:6" A="W"/>
+				<Pos L="465" C="6" PS="Ln:465, Col:6" A="W"/>
+				<Pos L="469" C="6" PS="Ln:469, Col:6" A="W"/>
+				<Pos L="471" C="6" PS="Ln:471, Col:6" A="W"/>
+				<Pos L="478" C="6" PS="Ln:478, Col:6" A="W"/>
+				<Pos L="480" C="6" PS="Ln:480, Col:6" A="W"/>
+				<Pos L="484" C="6" PS="Ln:484, Col:6" A="W"/>
+				<Pos L="486" C="6" PS="Ln:486, Col:6" A="W"/>
+				<Pos L="490" C="6" PS="Ln:490, Col:6" A="W"/>
+				<Pos L="492" C="6" PS="Ln:492, Col:6" A="W"/>
+				<Pos L="497" C="4" PS="Ln:497, Col:4" A="W"/>
+				<Pos L="500" C="4" PS="Ln:500, Col:4" A="W"/>
+				<Pos L="504" C="5" PS="Ln:504, Col:5" A="W"/>
+				<Pos L="506" C="5" PS="Ln:506, Col:5" A="W"/>
+				<Pos L="588" C="3" PS="Ln:588, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gCmdAnlage.Leistung.DrehzahlKompressorModul1" Scope="Global" Type="cmdAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="344" C="3" PS="Ln:344, Col:3" A="W"/>
+				<Pos L="517" C="6" PS="Ln:517, Col:6" A="W"/>
+				<Pos L="519" C="6" PS="Ln:519, Col:6" A="W"/>
+				<Pos L="524" C="4" PS="Ln:524, Col:4" A="W"/>
+				<Pos L="527" C="4" PS="Ln:527, Col:4" A="W"/>
+				<Pos L="591" C="3" PS="Ln:591, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gCmdAnlage.Leistung.DrehzahlKompressorModul2" Scope="Global" Type="cmdAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="345" C="3" PS="Ln:345, Col:3" A="W"/>
+				<Pos L="537" C="6" PS="Ln:537, Col:6" A="W"/>
+				<Pos L="539" C="6" PS="Ln:539, Col:6" A="W"/>
+				<Pos L="544" C="4" PS="Ln:544, Col:4" A="W"/>
+				<Pos L="547" C="4" PS="Ln:547, Col:4" A="W"/>
+				<Pos L="592" C="3" PS="Ln:592, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gCmdAnlage.Leistung.DrehzahlHeizregister" Scope="Global" Type="cmdAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="348" C="3" PS="Ln:348, Col:3" A="W"/>
+				<Pos L="553" C="4" PS="Ln:553, Col:4" A="W"/>
+				<Pos L="555" C="4" PS="Ln:555, Col:4" A="W"/>
+				<Pos L="595" C="3" PS="Ln:595, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gCmdAnlage.Leistung.DrehzahlAbluftventilator" Scope="Global" Type="cmdAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="352" C="4" PS="Ln:352, Col:4" A="W"/>
+				<Pos L="354" C="4" PS="Ln:354, Col:4" A="W"/>
+				<Pos L="561" C="4" PS="Ln:561, Col:4" A="W"/>
+				<Pos L="563" C="4" PS="Ln:563, Col:4" A="W"/>
+				<Pos L="565" C="4" PS="Ln:565, Col:4" A="W"/>
+				<Pos L="598" C="3" PS="Ln:598, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Echtzeit.Minute" Scope="Global" Type="typEchtzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="37" C="23" PS="Ln:37, Col:23" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Echtzeit.Sekunde" Scope="Global" Type="typEchtzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="39" C="22" PS="Ln:39, Col:22" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diEntfeuchterFremdInBetrieb" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="48" C="2" PS="Ln:48, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diDrehzahlbegrVentilator1" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="394" C="6" PS="Ln:394, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diDrehzahlbegrVentilator2" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="454" C="6" PS="Ln:454, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diLeistungsvorgKompressorExtMod1" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="514" C="6" PS="Ln:514, Col:6" A="R"/>
+				<Pos L="534" C="6" PS="Ln:534, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diHeizregisterFrostschutz" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="386" C="80" PS="Ln:386, Col:80" A="R"/>
+			</File>
+		</Var>
+		<Var Name="PidLuftmengeVent1.Sollgroesse" Scope="Global" Type="typ_PidControl">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="136" C="2" PS="Ln:136, Col:2" A="W"/>
+				<Pos L="138" C="37" PS="Ln:138, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="PidLuftmengeVent1.Enable" Scope="Global" Type="typ_PidControl">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="137" C="37" PS="Ln:137, Col:37" A="R"/>
+				<Pos L="316" C="3" PS="Ln:316, Col:3" A="W"/>
+				<Pos L="366" C="4" PS="Ln:366, Col:4" A="W"/>
+				<Pos L="368" C="4" PS="Ln:368, Col:4" A="W"/>
+				<Pos L="370" C="4" PS="Ln:370, Col:4" A="W"/>
+				<Pos L="395" C="7" PS="Ln:395, Col:7" A="R"/>
+				<Pos L="416" C="7" PS="Ln:416, Col:7" A="R"/>
+				<Pos L="439" C="9" PS="Ln:439, Col:9" A="R"/>
+				<Pos L="573" C="3" PS="Ln:573, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="PidLuftmengeVent2.Sollgroesse" Scope="Global" Type="typ_PidControl">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="167" C="2" PS="Ln:167, Col:2" A="W"/>
+				<Pos L="169" C="37" PS="Ln:169, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="PidLuftmengeVent2.Enable" Scope="Global" Type="typ_PidControl">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="168" C="37" PS="Ln:168, Col:37" A="R"/>
+				<Pos L="317" C="3" PS="Ln:317, Col:3" A="W"/>
+				<Pos L="374" C="4" PS="Ln:374, Col:4" A="W"/>
+				<Pos L="376" C="4" PS="Ln:376, Col:4" A="W"/>
+				<Pos L="378" C="4" PS="Ln:378, Col:4" A="W"/>
+				<Pos L="455" C="7" PS="Ln:455, Col:7" A="R"/>
+				<Pos L="476" C="7" PS="Ln:476, Col:7" A="R"/>
+				<Pos L="499" C="9" PS="Ln:499, Col:9" A="R"/>
+				<Pos L="574" C="3" PS="Ln:574, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="PidKompressor1.Sollgroesse" Scope="Global" Type="typ_PidControl">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="198" C="2" PS="Ln:198, Col:2" A="W"/>
+				<Pos L="200" C="34" PS="Ln:200, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="PidKompressor1.Enable" Scope="Global" Type="typ_PidControl">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="199" C="34" PS="Ln:199, Col:34" A="R"/>
+				<Pos L="320" C="3" PS="Ln:320, Col:3" A="W"/>
+				<Pos L="382" C="3" PS="Ln:382, Col:3" A="W"/>
+				<Pos L="515" C="7" PS="Ln:515, Col:7" A="R"/>
+				<Pos L="523" C="9" PS="Ln:523, Col:9" A="R"/>
+				<Pos L="577" C="3" PS="Ln:577, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="PidKompressor2.Sollgroesse" Scope="Global" Type="typ_PidControl">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="225" C="2" PS="Ln:225, Col:2" A="W"/>
+				<Pos L="227" C="34" PS="Ln:227, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="PidKompressor2.Enable" Scope="Global" Type="typ_PidControl">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="226" C="34" PS="Ln:226, Col:34" A="R"/>
+				<Pos L="321" C="3" PS="Ln:321, Col:3" A="W"/>
+				<Pos L="383" C="3" PS="Ln:383, Col:3" A="W"/>
+				<Pos L="535" C="7" PS="Ln:535, Col:7" A="R"/>
+				<Pos L="543" C="9" PS="Ln:543, Col:9" A="R"/>
+				<Pos L="578" C="3" PS="Ln:578, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="PidHeizregister.Sollgroesse" Scope="Global" Type="typ_PidControl">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="252" C="2" PS="Ln:252, Col:2" A="W"/>
+				<Pos L="254" C="36" PS="Ln:254, Col:36" A="R"/>
+			</File>
+		</Var>
+		<Var Name="PidHeizregister.Enable" Scope="Global" Type="typ_PidControl">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="253" C="36" PS="Ln:253, Col:36" A="R"/>
+				<Pos L="324" C="3" PS="Ln:324, Col:3" A="W"/>
+				<Pos L="386" C="3" PS="Ln:386, Col:3" A="W"/>
+				<Pos L="552" C="6" PS="Ln:552, Col:6" A="R"/>
+				<Pos L="581" C="3" PS="Ln:581, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="PidAbluftregler.Sollgroesse" Scope="Global" Type="typ_PidControl">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="280" C="2" PS="Ln:280, Col:2" A="W"/>
+				<Pos L="282" C="36" PS="Ln:282, Col:36" A="R"/>
+			</File>
+		</Var>
+		<Var Name="PidAbluftregler.Enable" Scope="Global" Type="typ_PidControl">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="281" C="36" PS="Ln:281, Col:36" A="R"/>
+				<Pos L="327" C="3" PS="Ln:327, Col:3" A="W"/>
+				<Pos L="351" C="6" PS="Ln:351, Col:6" A="R"/>
+				<Pos L="389" C="3" PS="Ln:389, Col:3" A="W"/>
+				<Pos L="562" C="9" PS="Ln:562, Col:9" A="R"/>
+				<Pos L="584" C="3" PS="Ln:584, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.Mode" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="7" C="2" PS="Ln:7, Col:2" A="W"/>
+				<Pos L="609" C="3" PS="Ln:609, Col:3" A="W"/>
+				<Pos L="611" C="3" PS="Ln:611, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="8" C="2" PS="Ln:8, Col:2" A="RW"/>
+				<Pos L="613" C="2" PS="Ln:613, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.Freigabe" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="137" C="2" PS="Ln:137, Col:2" A="W"/>
+				<Pos L="608" C="5" PS="Ln:608, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.Sollwert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="138" C="2" PS="Ln:138, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.Istwert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="139" C="2" PS="Ln:139, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.AbschwaechungSollwert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="140" C="2" PS="Ln:140, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.Aufschaltgroesse" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="141" C="2" PS="Ln:141, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.Fehlerverzoegerung" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="142" C="2" PS="Ln:142, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.Hold_I" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="143" C="2" PS="Ln:143, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.Hysterese" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="144" C="2" PS="Ln:144, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.Invert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="145" C="2" PS="Ln:145, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.D_Anteil" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="146" C="2" PS="Ln:146, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.D_Filterzeit" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="147" C="2" PS="Ln:147, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.I_Anteil" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="148" C="2" PS="Ln:148, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.P_Anteil" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="149" C="2" PS="Ln:149, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.RampeMax" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="150" C="2" PS="Ln:150, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.RegelbereichMin" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="151" C="2" PS="Ln:151, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.RegelbereichMax" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="153" C="3" PS="Ln:153, Col:3" A="W"/>
+				<Pos L="155" C="3" PS="Ln:155, Col:3" A="W"/>
+				<Pos L="184" C="3" PS="Ln:184, Col:3" A="W"/>
+				<Pos L="186" C="3" PS="Ln:186, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.StellgroesseManuell" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="157" C="2" PS="Ln:157, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.StellgroesseMin" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="158" C="2" PS="Ln:158, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.StellgroesseMax" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="159" C="2" PS="Ln:159, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.WindupDaempfung" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="160" C="2" PS="Ln:160, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent1.Stellgroesse" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="396" C="9" PS="Ln:396, Col:9" A="R"/>
+				<Pos L="399" C="49" PS="Ln:399, Col:49" A="R"/>
+				<Pos L="417" C="9" PS="Ln:417, Col:9" A="R"/>
+				<Pos L="420" C="49" PS="Ln:420, Col:49" A="R"/>
+				<Pos L="440" C="47" PS="Ln:440, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.Mode" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="11" C="2" PS="Ln:11, Col:2" A="W"/>
+				<Pos L="617" C="3" PS="Ln:617, Col:3" A="W"/>
+				<Pos L="619" C="3" PS="Ln:619, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="12" C="2" PS="Ln:12, Col:2" A="RW"/>
+				<Pos L="621" C="2" PS="Ln:621, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.Freigabe" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="168" C="2" PS="Ln:168, Col:2" A="W"/>
+				<Pos L="616" C="5" PS="Ln:616, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.Sollwert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="169" C="2" PS="Ln:169, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.Istwert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="170" C="2" PS="Ln:170, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.AbschwaechungSollwert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="171" C="2" PS="Ln:171, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.Aufschaltgroesse" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="172" C="2" PS="Ln:172, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.Fehlerverzoegerung" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="173" C="2" PS="Ln:173, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.Hold_I" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="174" C="2" PS="Ln:174, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.Hysterese" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="175" C="2" PS="Ln:175, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.Invert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="176" C="2" PS="Ln:176, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.D_Anteil" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="177" C="2" PS="Ln:177, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.D_Filterzeit" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="178" C="2" PS="Ln:178, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.I_Anteil" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="179" C="2" PS="Ln:179, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.P_Anteil" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="180" C="2" PS="Ln:180, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.RampeMax" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="181" C="2" PS="Ln:181, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.RegelbereichMin" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="182" C="2" PS="Ln:182, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.StellgroesseManuell" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="188" C="2" PS="Ln:188, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.StellgroesseMin" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="189" C="2" PS="Ln:189, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.StellgroesseMax" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="190" C="2" PS="Ln:190, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.WindupDaempfung" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="191" C="2" PS="Ln:191, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidLuftmengeVent2.Stellgroesse" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="456" C="9" PS="Ln:456, Col:9" A="R"/>
+				<Pos L="459" C="49" PS="Ln:459, Col:49" A="R"/>
+				<Pos L="477" C="9" PS="Ln:477, Col:9" A="R"/>
+				<Pos L="480" C="49" PS="Ln:480, Col:49" A="R"/>
+				<Pos L="500" C="47" PS="Ln:500, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.Mode" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="15" C="2" PS="Ln:15, Col:2" A="W"/>
+				<Pos L="633" C="3" PS="Ln:633, Col:3" A="W"/>
+				<Pos L="635" C="3" PS="Ln:635, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="16" C="2" PS="Ln:16, Col:2" A="RW"/>
+				<Pos L="637" C="2" PS="Ln:637, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.Freigabe" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="199" C="2" PS="Ln:199, Col:2" A="W"/>
+				<Pos L="632" C="5" PS="Ln:632, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.Sollwert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="200" C="2" PS="Ln:200, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.Istwert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="201" C="2" PS="Ln:201, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.AbschwaechungSollwert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="202" C="2" PS="Ln:202, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.Aufschaltgroesse" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="203" C="2" PS="Ln:203, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.Fehlerverzoegerung" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="204" C="2" PS="Ln:204, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.Hold_I" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="205" C="2" PS="Ln:205, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.Hysterese" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="206" C="2" PS="Ln:206, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.Invert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="207" C="2" PS="Ln:207, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.D_Anteil" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="208" C="2" PS="Ln:208, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.D_Filterzeit" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="209" C="2" PS="Ln:209, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.I_Anteil" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="210" C="2" PS="Ln:210, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.P_Anteil" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="211" C="2" PS="Ln:211, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.RampeMax" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="212" C="2" PS="Ln:212, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.RegelbereichMin" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="213" C="2" PS="Ln:213, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.RegelbereichMax" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="214" C="2" PS="Ln:214, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.StellgroesseManuell" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="215" C="2" PS="Ln:215, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.StellgroesseMin" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="216" C="2" PS="Ln:216, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.StellgroesseMax" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="217" C="2" PS="Ln:217, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.WindupDaempfung" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="218" C="2" PS="Ln:218, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor1.Stellgroesse" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="516" C="8" PS="Ln:516, Col:8" A="R"/>
+				<Pos L="519" C="54" PS="Ln:519, Col:54" A="R"/>
+				<Pos L="524" C="52" PS="Ln:524, Col:52" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.Mode" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="19" C="2" PS="Ln:19, Col:2" A="W"/>
+				<Pos L="641" C="3" PS="Ln:641, Col:3" A="W"/>
+				<Pos L="643" C="3" PS="Ln:643, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="20" C="2" PS="Ln:20, Col:2" A="RW"/>
+				<Pos L="645" C="2" PS="Ln:645, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.Freigabe" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="226" C="2" PS="Ln:226, Col:2" A="W"/>
+				<Pos L="640" C="5" PS="Ln:640, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.Sollwert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="227" C="2" PS="Ln:227, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.Istwert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="228" C="2" PS="Ln:228, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.AbschwaechungSollwert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="229" C="2" PS="Ln:229, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.Aufschaltgroesse" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="230" C="2" PS="Ln:230, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.Fehlerverzoegerung" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="231" C="2" PS="Ln:231, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.Hold_I" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="232" C="2" PS="Ln:232, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.Hysterese" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="233" C="2" PS="Ln:233, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.Invert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="234" C="2" PS="Ln:234, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.D_Anteil" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="235" C="2" PS="Ln:235, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.D_Filterzeit" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="236" C="2" PS="Ln:236, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.I_Anteil" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="237" C="2" PS="Ln:237, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.P_Anteil" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="238" C="2" PS="Ln:238, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.RampeMax" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="239" C="2" PS="Ln:239, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.RegelbereichMin" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="240" C="2" PS="Ln:240, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.RegelbereichMax" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="241" C="2" PS="Ln:241, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.StellgroesseManuell" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="242" C="2" PS="Ln:242, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.StellgroesseMin" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="243" C="2" PS="Ln:243, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.StellgroesseMax" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="244" C="2" PS="Ln:244, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.WindupDaempfung" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="245" C="2" PS="Ln:245, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidKompressor2.Stellgroesse" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="536" C="8" PS="Ln:536, Col:8" A="R"/>
+				<Pos L="539" C="54" PS="Ln:539, Col:54" A="R"/>
+				<Pos L="544" C="52" PS="Ln:544, Col:52" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.Mode" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="23" C="2" PS="Ln:23, Col:2" A="W"/>
+				<Pos L="625" C="3" PS="Ln:625, Col:3" A="W"/>
+				<Pos L="627" C="3" PS="Ln:627, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="24" C="2" PS="Ln:24, Col:2" A="RW"/>
+				<Pos L="629" C="2" PS="Ln:629, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.Freigabe" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="253" C="2" PS="Ln:253, Col:2" A="W"/>
+				<Pos L="624" C="5" PS="Ln:624, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.Sollwert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="254" C="2" PS="Ln:254, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.Istwert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="255" C="2" PS="Ln:255, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.AbschwaechungSollwert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="256" C="2" PS="Ln:256, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.Aufschaltgroesse" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="257" C="2" PS="Ln:257, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.Fehlerverzoegerung" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="258" C="2" PS="Ln:258, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.Hold_I" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="259" C="2" PS="Ln:259, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.Hysterese" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="260" C="2" PS="Ln:260, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.Invert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="261" C="2" PS="Ln:261, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.D_Anteil" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="262" C="2" PS="Ln:262, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.D_Filterzeit" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="263" C="2" PS="Ln:263, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.I_Anteil" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="264" C="2" PS="Ln:264, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.P_Anteil" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="265" C="2" PS="Ln:265, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.RampeMax" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="266" C="2" PS="Ln:266, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.RegelbereichMin" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="267" C="2" PS="Ln:267, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.RegelbereichMax" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="268" C="2" PS="Ln:268, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.StellgroesseManuell" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="269" C="2" PS="Ln:269, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.StellgroesseMin" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="270" C="2" PS="Ln:270, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.StellgroesseMax" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="271" C="2" PS="Ln:271, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.WindupDaempfung" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="272" C="2" PS="Ln:272, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidHeizregister.Stellgroesse" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="553" C="49" PS="Ln:553, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.Mode" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="27" C="2" PS="Ln:27, Col:2" A="W"/>
+				<Pos L="649" C="3" PS="Ln:649, Col:3" A="W"/>
+				<Pos L="651" C="3" PS="Ln:651, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="28" C="2" PS="Ln:28, Col:2" A="RW"/>
+				<Pos L="653" C="2" PS="Ln:653, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.Freigabe" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="281" C="2" PS="Ln:281, Col:2" A="W"/>
+				<Pos L="648" C="5" PS="Ln:648, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.Sollwert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="282" C="2" PS="Ln:282, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.Istwert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="283" C="2" PS="Ln:283, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.AbschwaechungSollwert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="284" C="2" PS="Ln:284, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.Aufschaltgroesse" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="285" C="2" PS="Ln:285, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.Fehlerverzoegerung" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="286" C="2" PS="Ln:286, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.Hold_I" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="287" C="2" PS="Ln:287, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.Hysterese" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="288" C="2" PS="Ln:288, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.Invert" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="289" C="2" PS="Ln:289, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.D_Anteil" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="290" C="2" PS="Ln:290, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.D_Filterzeit" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="291" C="2" PS="Ln:291, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.I_Anteil" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="292" C="2" PS="Ln:292, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.P_Anteil" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="293" C="2" PS="Ln:293, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.RampeMax" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="294" C="2" PS="Ln:294, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.RegelbereichMin" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="295" C="2" PS="Ln:295, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.RegelbereichMax" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="296" C="2" PS="Ln:296, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.StellgroesseManuell" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="297" C="2" PS="Ln:297, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.StellgroesseMin" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="298" C="2" PS="Ln:298, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.StellgroesseMax" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="299" C="2" PS="Ln:299, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.WindupDaempfung" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="300" C="2" PS="Ln:300, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbPidAbluftregler.Stellgroesse" Scope="Global" Type="fbRegPidReglerAllg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="352" C="52" PS="Ln:352, Col:52" A="R"/>
+				<Pos L="563" C="52" PS="Ln:563, Col:52" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+		<Const Name="FBREG_MODUS_AUS" Scope="Global" Type="USINT">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="7" C="30" PS="Ln:7, Col:30" A="R"/>
+				<Pos L="11" C="30" PS="Ln:11, Col:30" A="R"/>
+				<Pos L="15" C="27" PS="Ln:15, Col:27" A="R"/>
+				<Pos L="19" C="27" PS="Ln:19, Col:27" A="R"/>
+				<Pos L="23" C="28" PS="Ln:23, Col:28" A="R"/>
+				<Pos L="27" C="29" PS="Ln:27, Col:29" A="R"/>
+			</File>
+		</Const>
+		<Const Name="FBREG_MODUS_AUTO" Scope="Global" Type="USINT">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="609" C="31" PS="Ln:609, Col:31" A="R"/>
+				<Pos L="617" C="31" PS="Ln:617, Col:31" A="R"/>
+				<Pos L="625" C="29" PS="Ln:625, Col:29" A="R"/>
+				<Pos L="633" C="28" PS="Ln:633, Col:28" A="R"/>
+				<Pos L="641" C="28" PS="Ln:641, Col:28" A="R"/>
+				<Pos L="649" C="29" PS="Ln:649, Col:29" A="R"/>
+			</File>
+		</Const>
+		<Const Name="FBREG_MODUS_FREEZE" Scope="Global" Type="USINT">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="611" C="31" PS="Ln:611, Col:31" A="R"/>
+				<Pos L="619" C="31" PS="Ln:619, Col:31" A="R"/>
+				<Pos L="627" C="29" PS="Ln:627, Col:29" A="R"/>
+				<Pos L="635" C="28" PS="Ln:635, Col:28" A="R"/>
+				<Pos L="643" C="28" PS="Ln:643, Col:28" A="R"/>
+				<Pos L="651" C="29" PS="Ln:651, Col:29" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+		<Enum Name="STILLSTAND" Scope="Global" Type="enumBetriebsmodus">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="312" C="17" PS="Ln:312, Col:17" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="BETRIEB" Scope="Global" Type="enumBetriebsmodus">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="361" C="20" PS="Ln:361, Col:20" A="R"/>
+			</File>
+		</Enum>
+	</Enums>
+	<Funcs>
+		<Func Name="fbRegPidReglerAllg" Lib="LascoReg">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="8" C="2" PS="Ln:8, Col:2"/>
+				<Pos L="12" C="2" PS="Ln:12, Col:2"/>
+				<Pos L="16" C="2" PS="Ln:16, Col:2"/>
+				<Pos L="20" C="2" PS="Ln:20, Col:2"/>
+				<Pos L="24" C="2" PS="Ln:24, Col:2"/>
+				<Pos L="28" C="2" PS="Ln:28, Col:2"/>
+				<Pos L="613" C="2" PS="Ln:613, Col:2"/>
+				<Pos L="621" C="2" PS="Ln:621, Col:2"/>
+				<Pos L="629" C="2" PS="Ln:629, Col:2"/>
+				<Pos L="637" C="2" PS="Ln:637, Col:2"/>
+				<Pos L="645" C="2" PS="Ln:645, Col:2"/>
+				<Pos L="653" C="2" PS="Ln:653, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="fbLascoZdxx" Lib="LascoUtil">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="37" C="2" PS="Ln:37, Col:2"/>
+				<Pos L="39" C="2" PS="Ln:39, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="fbBoxenLuftmengen" Lib="LascoBoxen">
+			<File Name="C:\SharedFolder\CControl\Logical\Regelung\Leistung\Leistung.st">
+				<Pos L="94" C="2" PS="Ln:94, Col:2"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

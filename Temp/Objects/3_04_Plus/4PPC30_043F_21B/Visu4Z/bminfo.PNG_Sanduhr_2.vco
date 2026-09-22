@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="PNG_Sanduhr_2" ClsId="0x306" Version="1" TargetIndex="131" Type="GFX" RefString="Source[local].Bitmap[PNG_Sanduhr_2]">
+        <UInt16 Name="Width">18</UInt16>
+        <UInt16 Name="Height">26</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAABIAAAAaCAYAAAC6nQw6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJvSURBVEhLpVVNiE5hFL4GkVLy1XfPc85z56JvY+Xno2QjC/krkvyUv4X8jIgdGzZiSJKSYjULGykLC2nK31JI7CxslGRjagzGT0Pnfve7c+91+2bGPHXqvs97znPf9z3vOW8A8BGUQ1D++U8bgtqTQJRXBPY5Jd5NxDwuMeXVwCHKXgHvJYMJQNQuuuUIngH4sOA1DgB2TZQX8sRBqL0oeI0DonZXlKczIjTbCLWPyaRwnZht62RAtMZ9/eeiui8TiuN4DmA/ge4mYJcqMlMwX4WIxB6jqlEm5BC1W37gtVpttoBvy8GZCPgawCzPNpT3CyKOMIznJVcA3B+G3fMFfF8W8ZTX690LgGizwL6LyMKyTgLVaIfAfqhGm3zJAr7KRGDPwjCsh2aroRwUsUPl+AJEbI8ov4pGPb5NgHcAux7H8cxQdbuvBLCT5bhKAFwL5RfALgdBMKXF2Qnfuip3lv07QlUXe6CIba2brUhWKdGyst+YALDUgwFucYGWEJeX/TpCzDYkq/Hr32xOD4JgGsBjaVZ3lf0rMXrYetjHgB13S+b8Znva82VRBf+bwIZFbH2O7kotgQhXefoBHs35jIJkQ2DfxGxvnhflEd9Wnksv5LCZLcrz6SRvezWX+UajMcPvUJlPGqJaf4EkORfKX6q6pM2p6kqAfYC9adUX+5xrz6cl9dtLJhPyNiKwD+0xYGehHPm31jgiyvNtP1G+FLHdmVDa2J6n3wcqBIodIK0zPwrATmVCuVbbBfBxscnzU8sKjf9pEART01Z7Li80iebP3nTAmwIbmMRzNCDKG67an75rVYc7lg223jV78Be+JQ2verNT0QAAAABJRU5ErkJggg==</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

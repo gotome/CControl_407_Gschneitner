@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <gDetailsOfen ReferenceString="Source[local].Layer[gDetailsOfen]">
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Layers.DetailansichtOfen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].VirtualKey[%embVirtualKey_346].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Warmluftofen.AutomatikbetriebEin]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].VirtualKey[%embVirtualKey_345].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Warmluftofen.DauerbetriebEin]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].VirtualKey[%embVirtualKey_344].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Warmluftofen.Aus]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].VirtualKey[%embVirtualKey_343].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiButtons.showOfen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Shape_1].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.HB4000]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Text_7].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.WarmluftScheitholzofen.TextindexUeberschrift]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Text_7].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Warmluftofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Button_2].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Warmluftofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Line_1].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Warmluftofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Bitmap_1].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Warmluftofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Button_3].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Warmluftofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Button_4].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Warmluftofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Text_2].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Warmluftofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Bitmap_9].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Warmluftofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Text_3].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.TemperaturvorgWarmluftofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Bitmap_14].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.TemperaturvorgWarmluftofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Numeric_12].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Warmluftofen.SaettigungFrischlEin]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Numeric_12].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Warmluftofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Numeric_12].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.WarmluftScheitholzofen.EingabeSattDefizitSperre]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Text_9].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.WarmluftScheitholzofen.StatusWarmluftofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Text_9].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Warmluftofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Text_9].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.WarmluftScheitholzofen.FarbeStatustextWlo]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Bitmap_2].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Warmluftofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Numeric_13].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Warmluftofen.WarmlufttempVorgabeSoll]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Numeric_13].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.TemperaturvorgWarmluftofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Bitmap_19].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.WarmluftScheitholzofen.StatusfeldWloInaktiv]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Bitmap_18].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.WarmluftScheitholzofen.StatusfeldWloAktiv]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Text_5].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Warmluftofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Text_10].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.Brandschutzklappe.Status]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Text_10].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Brandschutzklappe]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Text_10].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.Brandschutzklappe.FarbeStatustext]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Bitmap_3].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Brandschutzklappe]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Bitmap_20].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.Brandschutzklappe.StatusfeldInaktiv]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Bitmap_21].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.Brandschutzklappe.StatusfeldAktiv]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Text_6].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Brandschutzklappe]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Text_11].Property[IndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.WarmluftScheitholzofen.StatusScheitholzofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Text_11].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Scheitholzofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Text_11].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.WarmluftScheitholzofen.FarbeStatustextSho]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Bitmap_4].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Scheitholzofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Bitmap_22].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.WarmluftScheitholzofen.StatusfeldShoInaktiv]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Bitmap_23].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.WarmluftScheitholzofen.StatusfeldShoAktiv]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gDetailsOfen].Control[Text_8].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Scheitholzofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </gDetailsOfen>
+</VCXReferenceList>

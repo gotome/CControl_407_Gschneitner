@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <_712_SET_Ausstattung03 ReferenceString="Source[local].Page[_712_SET_Ausstattung03]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_712_SET_Ausstattung03].Layer[Default].VirtualKey[%embVirtualKey_181].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Ausstattung.SensorFrischluft]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_712_SET_Ausstattung03].Layer[Default].VirtualKey[%embVirtualKey_179].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Ausstattung.SensorDachluft]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_712_SET_Ausstattung03].Layer[Default].VirtualKey[%embVirtualKey_155].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Ausstattung.Box3]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_712_SET_Ausstattung03].Layer[Default].VirtualKey[%embVirtualKey_148].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Ausstattung.Box2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_712_SET_Ausstattung03].Layer[Default].VirtualKey[%embVirtualKey_141].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Ausstattung.SensorKanaldruck]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_712_SET_Ausstattung03].Layer[Default].VirtualKey[%embVirtualKey_104].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Ausstattung.SensorLuftgeschwindigkeit]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_712_SET_Ausstattung03].Layer[Default].VirtualKey[%embVirtualKey_81].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Ausstattung.SensorTrockenluft]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_712_SET_Ausstattung03].Layer[Default].VirtualKey[%embVirtualKey_80].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Ausstattung.SensorAbluft]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_712_SET_Ausstattung03].Layer[Default].Control[Button_2].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.CurUserLevel]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_712_SET_Ausstattung03].Layer[Default].Control[Button_3].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.CurUserLevel]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_712_SET_Ausstattung03].Layer[Default].Control[Button_4].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.CurUserLevel]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_712_SET_Ausstattung03].Layer[Default].Control[Button_5].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.CurUserLevel]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_712_SET_Ausstattung03].Layer[Default].Control[Button_6].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.CurUserLevel]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_712_SET_Ausstattung03].Layer[Default].Control[Button_7].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.CurUserLevel]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_712_SET_Ausstattung03].Layer[Default].Control[Button_9].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.CurUserLevel]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_712_SET_Ausstattung03].Layer[Default].Control[Button_10].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.CurUserLevel]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </_712_SET_Ausstattung03>
+</VCXReferenceList>

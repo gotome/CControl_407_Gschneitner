@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.3.3.196?>
+<Library Version="1.00.0" Description="Funktionsblöcke für Trocknungsanlagen" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exportierte Datentypen">LascoTrock.typ</File>
+    <File Description="Exportierte Konstanten">LascoTrock.var</File>
+    <File Description="Exportierte Funktionen und Funktionsblöcke">LascoTrock.fun</File>
+    <File Description="Generierung von Start- und Stoppsignalen aus Zeitprogramm">fbTrockZeitprogramm.st</File>
+    <File Description="Lauf- und Pausenprogramm">fbTrockLaufPause.st</File>
+    <File Description="Funktionsbaustein Nachtrocknung">fbTrockNachtrock.st</File>
+    <File Description="Funktionsbaustein Tarifabschaltung">fbTrockTarifabsch.st</File>
+    <File Description="Strombegrenzung in bestimmten Zeitfenstern">fbTrockStrombegr.st</File>
+    <File Description="Trocknung im Automatikbetrieb">fbTrockAutomatik.st</File>
+    <File Description="Umschaltung der Trockenstufen">fbTrockStufen.st</File>
+    <File Description="Ansteuerung, Ventilatoren, Luftentfeuchter und Klappen">fbTrockVent.st</File>
+    <File Description="Auswertung der Anlagenkonfiguration mit Ausgabe einer Nummer und eines Textes">fbTrockVariante.st</File>
+  </Files>
+</Library>

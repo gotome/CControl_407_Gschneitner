@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <_000_HM_Init ReferenceString="Source[local].Page[_000_HM_Init]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_000_HM_Init].Layer[Default].VirtualKey[cmdSicherheitshinweisOk].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiButtons.SicherheitshinweisOk]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </_000_HM_Init>
+</VCXReferenceList>

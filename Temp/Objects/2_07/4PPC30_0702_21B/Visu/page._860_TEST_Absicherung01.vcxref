@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <_860_TEST_Absicherung01 ReferenceString="Source[local].Page[_860_TEST_Absicherung01]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_860_TEST_Absicherung01].Layer[Default].VirtualKey[%embVirtualKey_289].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalOut.doTrocknungStoerung]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_860_TEST_Absicherung01].Layer[Default].VirtualKey[%embVirtualKey_288].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalOut.doTrocknungInBetrieb]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_860_TEST_Absicherung01].Layer[Default].VirtualKey[%embVirtualKey_216].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalOut.doNotstromaggregatEin]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_860_TEST_Absicherung01].Layer[Default].Control[Text_7].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalIn.di24VDCinternIstOk]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_860_TEST_Absicherung01].Layer[Default].Control[Text_9].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalIn.diLeistungsvorgKompressorExtMod1]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_860_TEST_Absicherung01].Layer[Default].Control[Text_11].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalIn.diNotstromaggregatInBetrieb]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+   </_860_TEST_Absicherung01>
+</VCXReferenceList>

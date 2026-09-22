@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0?>
+<Crossref Scope="" Desc="" AppMod="" xmlns="http://br-automation.co.at/AS/Crossreference">
+	<Vars>
+		<Var Name="::io207.cmModul11.di03" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="96" PS=" Ln:96" A="W" O="%IX.&quot;X20CM8281i&quot;.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul10.StatusInput01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="92" PS=" Ln:92" A="W" O="%IB.&quot;X20CM8281h&quot;.StatusInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul10.di03" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="86" PS=" Ln:86" A="W" O="%IX.&quot;X20CM8281h&quot;.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul11.do02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="99" PS=" Ln:99" A="R" O="%QX.&quot;X20CM8281i&quot;.DigitalOutput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul11.di02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="95" PS=" Ln:95" A="W" O="%IX.&quot;X20CM8281i&quot;.DigitalInput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul11.ModulOk" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="93" PS=" Ln:93" A="W" O="%IX.&quot;X20CM8281i&quot;.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul10.do02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="89" PS=" Ln:89" A="R" O="%QX.&quot;X20CM8281h&quot;.DigitalOutput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul10.di02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="85" PS=" Ln:85" A="W" O="%IX.&quot;X20CM8281h&quot;.DigitalInput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul10.ModulOk" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="83" PS=" Ln:83" A="W" O="%IX.&quot;X20CM8281h&quot;.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul08.StatusInput01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="72" PS=" Ln:72" A="W" O="%IB.&quot;X20CM8281f&quot;.StatusInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul11.di04" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="97" PS=" Ln:97" A="W" O="%IX.&quot;X20CM8281i&quot;.DigitalInput04"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul10.di04" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="87" PS=" Ln:87" A="W" O="%IX.&quot;X20CM8281h&quot;.DigitalInput04"/>
+			</File>
+		</Var>
+		<Var Name="::Energiemes.apModulEnergie.AenergyT" Scope="Local" Type="modAP3131" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="108" PS=" Ln:108" A="W" O="%ID.&quot;X20AP3131&quot;.AenergyT"/>
+			</File>
+		</Var>
+		<Var Name="::Energiemes.apModulEnergie.QmeanT" Scope="Local" Type="modAP3131" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="105" PS=" Ln:105" A="W" O="%IW.&quot;X20AP3131&quot;.QmeanT"/>
+			</File>
+		</Var>
+		<Var Name="::Energiemes.apModulEnergie.SmeanT" Scope="Local" Type="modAP3131" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="106" PS=" Ln:106" A="W" O="%IW.&quot;X20AP3131&quot;.SmeanT"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul03.StatusInput01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="22" PS=" Ln:22" A="W" O="%IB.&quot;X20CM8281a&quot;.StatusInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul09.ao01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="81" PS=" Ln:81" A="R" O="%QW.&quot;X20CM8281g&quot;.AnalogOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul09.ai01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="80" PS=" Ln:80" A="W" O="%IW.&quot;X20CM8281g&quot;.AnalogInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul08.ao01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="71" PS=" Ln:71" A="R" O="%QW.&quot;X20CM8281f&quot;.AnalogOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul08.ai01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="70" PS=" Ln:70" A="W" O="%IW.&quot;X20CM8281f&quot;.AnalogInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul07.StatusInput01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="62" PS=" Ln:62" A="W" O="%IB.&quot;X20CM8281e&quot;.StatusInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul07.ao01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="61" PS=" Ln:61" A="R" O="%QW.&quot;X20CM8281e&quot;.AnalogOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul07.ai01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="60" PS=" Ln:60" A="W" O="%IW.&quot;X20CM8281e&quot;.AnalogInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul06.ao01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="51" PS=" Ln:51" A="R" O="%QW.&quot;X20CM8281d&quot;.AnalogOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul06.ai01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="50" PS=" Ln:50" A="W" O="%IW.&quot;X20CM8281d&quot;.AnalogInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul05.ao01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="41" PS=" Ln:41" A="R" O="%QW.&quot;X20CM8281c&quot;.AnalogOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul05.ai01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="40" PS=" Ln:40" A="W" O="%IW.&quot;X20CM8281c&quot;.AnalogInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul04.ao01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="31" PS=" Ln:31" A="R" O="%QW.&quot;X20CM8281b&quot;.AnalogOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul04.ai01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="30" PS=" Ln:30" A="W" O="%IW.&quot;X20CM8281b&quot;.AnalogInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul03.ao01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="21" PS=" Ln:21" A="R" O="%QW.&quot;X20CM8281a&quot;.AnalogOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul03.ai01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="20" PS=" Ln:20" A="W" O="%IW.&quot;X20CM8281a&quot;.AnalogInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul02.ao01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="11" PS=" Ln:11" A="R" O="%QW.&quot;X20CM8281&quot;.AnalogOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul02.ai01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="10" PS=" Ln:10" A="W" O="%IW.&quot;X20CM8281&quot;.AnalogInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul09.do01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="78" PS=" Ln:78" A="R" O="%QX.&quot;X20CM8281g&quot;.DigitalOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul09.di01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="74" PS=" Ln:74" A="W" O="%IX.&quot;X20CM8281g&quot;.DigitalInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul08.do01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="68" PS=" Ln:68" A="R" O="%QX.&quot;X20CM8281f&quot;.DigitalOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul08.di01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="64" PS=" Ln:64" A="W" O="%IX.&quot;X20CM8281f&quot;.DigitalInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul07.do01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="58" PS=" Ln:58" A="R" O="%QX.&quot;X20CM8281e&quot;.DigitalOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul07.di01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="54" PS=" Ln:54" A="W" O="%IX.&quot;X20CM8281e&quot;.DigitalInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul06.StatusInput01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="52" PS=" Ln:52" A="W" O="%IB.&quot;X20CM8281d&quot;.StatusInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul06.do01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="48" PS=" Ln:48" A="R" O="%QX.&quot;X20CM8281d&quot;.DigitalOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul06.di01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="44" PS=" Ln:44" A="W" O="%IX.&quot;X20CM8281d&quot;.DigitalInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul05.do01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="38" PS=" Ln:38" A="R" O="%QX.&quot;X20CM8281c&quot;.DigitalOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul05.di01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="34" PS=" Ln:34" A="W" O="%IX.&quot;X20CM8281c&quot;.DigitalInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul04.do01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="28" PS=" Ln:28" A="R" O="%QX.&quot;X20CM8281b&quot;.DigitalOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul04.di01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="24" PS=" Ln:24" A="W" O="%IX.&quot;X20CM8281b&quot;.DigitalInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul03.do01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="18" PS=" Ln:18" A="R" O="%QX.&quot;X20CM8281a&quot;.DigitalOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul03.di01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="14" PS=" Ln:14" A="W" O="%IX.&quot;X20CM8281a&quot;.DigitalInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul02.do01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="8" PS=" Ln:8" A="R" O="%QX.&quot;X20CM8281&quot;.DigitalOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul02.di01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="4" PS=" Ln:4" A="W" O="%IX.&quot;X20CM8281&quot;.DigitalInput01"/>
+			</File>
+		</Var>
+		<Var Name="::Energiemes.apModulEnergie.SAenergyT" Scope="Local" Type="modAP3131" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="110" PS=" Ln:110" A="W" O="%ID.&quot;X20AP3131&quot;.SAenergyT"/>
+			</File>
+		</Var>
+		<Var Name="::Energiemes.apModulEnergie.PFmeanT" Scope="Local" Type="modAP3131" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="107" PS=" Ln:107" A="W" O="%IW.&quot;X20AP3131&quot;.PFmeanT"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul09.do02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="79" PS=" Ln:79" A="R" O="%QX.&quot;X20CM8281g&quot;.DigitalOutput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul09.di02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="75" PS=" Ln:75" A="W" O="%IX.&quot;X20CM8281g&quot;.DigitalInput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul08.do02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="69" PS=" Ln:69" A="R" O="%QX.&quot;X20CM8281f&quot;.DigitalOutput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul08.di02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="65" PS=" Ln:65" A="W" O="%IX.&quot;X20CM8281f&quot;.DigitalInput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul07.do02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="59" PS=" Ln:59" A="R" O="%QX.&quot;X20CM8281e&quot;.DigitalOutput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul07.di02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="55" PS=" Ln:55" A="W" O="%IX.&quot;X20CM8281e&quot;.DigitalInput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul06.do02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="49" PS=" Ln:49" A="R" O="%QX.&quot;X20CM8281d&quot;.DigitalOutput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul06.di02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="45" PS=" Ln:45" A="W" O="%IX.&quot;X20CM8281d&quot;.DigitalInput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul05.do02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="39" PS=" Ln:39" A="R" O="%QX.&quot;X20CM8281c&quot;.DigitalOutput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul05.di02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="35" PS=" Ln:35" A="W" O="%IX.&quot;X20CM8281c&quot;.DigitalInput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul04.do02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="29" PS=" Ln:29" A="R" O="%QX.&quot;X20CM8281b&quot;.DigitalOutput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul04.di02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="25" PS=" Ln:25" A="W" O="%IX.&quot;X20CM8281b&quot;.DigitalInput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul03.do02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="19" PS=" Ln:19" A="R" O="%QX.&quot;X20CM8281a&quot;.DigitalOutput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul03.di02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="15" PS=" Ln:15" A="W" O="%IX.&quot;X20CM8281a&quot;.DigitalInput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul02.do02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="9" PS=" Ln:9" A="R" O="%QX.&quot;X20CM8281&quot;.DigitalOutput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul02.di02" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="5" PS=" Ln:5" A="W" O="%IX.&quot;X20CM8281&quot;.DigitalInput02"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul09.StatusInput01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="82" PS=" Ln:82" A="W" O="%IB.&quot;X20CM8281g&quot;.StatusInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul09.di03" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="76" PS=" Ln:76" A="W" O="%IX.&quot;X20CM8281g&quot;.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul08.di03" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="66" PS=" Ln:66" A="W" O="%IX.&quot;X20CM8281f&quot;.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul07.di03" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="56" PS=" Ln:56" A="W" O="%IX.&quot;X20CM8281e&quot;.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul06.di03" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="46" PS=" Ln:46" A="W" O="%IX.&quot;X20CM8281d&quot;.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul05.di03" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="36" PS=" Ln:36" A="W" O="%IX.&quot;X20CM8281c&quot;.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul04.di03" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="26" PS=" Ln:26" A="W" O="%IX.&quot;X20CM8281b&quot;.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul03.di03" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="16" PS=" Ln:16" A="W" O="%IX.&quot;X20CM8281a&quot;.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul02.di03" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="6" PS=" Ln:6" A="W" O="%IX.&quot;X20CM8281&quot;.DigitalInput03"/>
+			</File>
+		</Var>
+		<Var Name="::Energiemes.apModulEnergie.TrigDFT" Scope="Local" Type="modAP3131" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="112" PS=" Ln:112" A="R" O="%QX.&quot;X20AP3131&quot;.TrigDFT"/>
+			</File>
+		</Var>
+		<Var Name="::Energiemes.apModulEnergie.PmeanT" Scope="Local" Type="modAP3131" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="104" PS=" Ln:104" A="W" O="%IW.&quot;X20AP3131&quot;.PmeanT"/>
+			</File>
+		</Var>
+		<Var Name="::Energiemes.apModulEnergie.ModulOk" Scope="Local" Type="modAP3131" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="103" PS=" Ln:103" A="W" O="%IX.&quot;X20AP3131&quot;.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul11.StatusInput01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="102" PS=" Ln:102" A="W" O="%IB.&quot;X20CM8281i&quot;.StatusInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul09.di04" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="77" PS=" Ln:77" A="W" O="%IX.&quot;X20CM8281g&quot;.DigitalInput04"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul09.ModulOk" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="73" PS=" Ln:73" A="W" O="%IX.&quot;X20CM8281g&quot;.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul08.di04" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="67" PS=" Ln:67" A="W" O="%IX.&quot;X20CM8281f&quot;.DigitalInput04"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul08.ModulOk" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="63" PS=" Ln:63" A="W" O="%IX.&quot;X20CM8281f&quot;.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul07.di04" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="57" PS=" Ln:57" A="W" O="%IX.&quot;X20CM8281e&quot;.DigitalInput04"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul07.ModulOk" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="53" PS=" Ln:53" A="W" O="%IX.&quot;X20CM8281e&quot;.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul06.di04" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="47" PS=" Ln:47" A="W" O="%IX.&quot;X20CM8281d&quot;.DigitalInput04"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul06.ModulOk" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="43" PS=" Ln:43" A="W" O="%IX.&quot;X20CM8281d&quot;.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul05.di04" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="37" PS=" Ln:37" A="W" O="%IX.&quot;X20CM8281c&quot;.DigitalInput04"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul05.ModulOk" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="33" PS=" Ln:33" A="W" O="%IX.&quot;X20CM8281c&quot;.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul04.StatusInput01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="32" PS=" Ln:32" A="W" O="%IB.&quot;X20CM8281b&quot;.StatusInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul04.di04" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="27" PS=" Ln:27" A="W" O="%IX.&quot;X20CM8281b&quot;.DigitalInput04"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul04.ModulOk" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="23" PS=" Ln:23" A="W" O="%IX.&quot;X20CM8281b&quot;.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul03.di04" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="17" PS=" Ln:17" A="W" O="%IX.&quot;X20CM8281a&quot;.DigitalInput04"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul03.ModulOk" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="13" PS=" Ln:13" A="W" O="%IX.&quot;X20CM8281a&quot;.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul02.di04" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="7" PS=" Ln:7" A="W" O="%IX.&quot;X20CM8281&quot;.DigitalInput04"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul02.ModulOk" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="3" PS=" Ln:3" A="W" O="%IX.&quot;X20CM8281&quot;.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul11.ao01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="101" PS=" Ln:101" A="R" O="%QW.&quot;X20CM8281i&quot;.AnalogOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul11.ai01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="100" PS=" Ln:100" A="W" O="%IW.&quot;X20CM8281i&quot;.AnalogInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul10.ao01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="91" PS=" Ln:91" A="R" O="%QW.&quot;X20CM8281h&quot;.AnalogOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul10.ai01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="90" PS=" Ln:90" A="W" O="%IW.&quot;X20CM8281h&quot;.AnalogInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul05.StatusInput01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="42" PS=" Ln:42" A="W" O="%IB.&quot;X20CM8281c&quot;.StatusInput01"/>
+			</File>
+		</Var>
+		<Var Name="::Energiemes.apModulEnergie.ClearEnergy" Scope="Local" Type="modAP3131" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="114" PS=" Ln:114" A="R" O="%QX.&quot;X20AP3131&quot;.ClearEnergy"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul02.StatusInput01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="12" PS=" Ln:12" A="W" O="%IB.&quot;X20CM8281&quot;.StatusInput01"/>
+			</File>
+		</Var>
+		<Var Name="::Energiemes.apModulEnergie.ForceEnergy" Scope="Local" Type="modAP3131" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="115" PS=" Ln:115" A="R" O="%QX.&quot;X20AP3131&quot;.ForceEnergy"/>
+			</File>
+		</Var>
+		<Var Name="::Energiemes.apModulEnergie.RenergyT" Scope="Local" Type="modAP3131" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="109" PS=" Ln:109" A="W" O="%ID.&quot;X20AP3131&quot;.RenergyT"/>
+			</File>
+		</Var>
+		<Var Name="::Energiemes.apModulEnergie.RBClearEnergy" Scope="Local" Type="modAP3131" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="111" PS=" Ln:111" A="W" O="%IX.&quot;X20AP3131&quot;.RBClearEnergy"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul11.do01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="98" PS=" Ln:98" A="R" O="%QX.&quot;X20CM8281i&quot;.DigitalOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul11.di01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="94" PS=" Ln:94" A="W" O="%IX.&quot;X20CM8281i&quot;.DigitalInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul10.do01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="88" PS=" Ln:88" A="R" O="%QX.&quot;X20CM8281h&quot;.DigitalOutput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.cmModul10.di01" Scope="Local" Type="modCM8281" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="84" PS=" Ln:84" A="W" O="%IX.&quot;X20CM8281h&quot;.DigitalInput01"/>
+			</File>
+		</Var>
+		<Var Name="::io207.brModul01.ModulOk" Scope="Local" Type="modBR7300" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="2" PS=" Ln:2" A="W" O="%IX.&quot;X20BR7300&quot;.IF1.ST1.ModuleOk"/>
+			</File>
+		</Var>
+		<Var Name="::Energiemes.apModulEnergie.EnabEnergy" Scope="Local" Type="modAP3131" Desc="">
+			<File Name="C:\SharedFolder\CControl\Physical\2_07\4PPC30_0702_21B\IoMap.iom" Desc="">
+				<Pos L="113" PS=" Ln:113" A="R" O="%QX.&quot;X20AP3131&quot;.EnabEnergy"/>
+			</File>
+		</Var>
+	</Vars>
+</Crossref>

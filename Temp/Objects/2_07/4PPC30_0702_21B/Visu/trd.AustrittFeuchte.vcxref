@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <AustrittFeuchte ReferenceString="Source[local].TrendData[AustrittFeuchte]">
+      <Connection>
+         <Property ReferenceString="Source[local].TrendData[AustrittFeuchte].Property[TrendValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.Trendkurven.AustrittFeuchte]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </AustrittFeuchte>
+</VCXReferenceList>

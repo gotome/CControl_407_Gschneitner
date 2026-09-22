@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.LascoBoxen" AppMod="">
+	<Vars>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="TON" Lib="standard">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenKlappenanst.st">
+				<Pos L="26" C="6" PS="Ln:26, Col:6"/>
+				<Pos L="27" C="6" PS="Ln:27, Col:6"/>
+				<Pos L="72" C="6" PS="Ln:72, Col:6"/>
+				<Pos L="73" C="6" PS="Ln:73, Col:6"/>
+				<Pos L="82" C="5" PS="Ln:82, Col:5"/>
+				<Pos L="83" C="5" PS="Ln:83, Col:5"/>
+				<Pos L="104" C="6" PS="Ln:104, Col:6"/>
+				<Pos L="105" C="6" PS="Ln:105, Col:6"/>
+				<Pos L="114" C="5" PS="Ln:114, Col:5"/>
+				<Pos L="115" C="5" PS="Ln:115, Col:5"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

@@ -1,0 +1,9 @@
+VAR
+	device_param : STRING[80] := '';
+	device_name : STRING[80];
+END_VAR
+VAR RETAIN
+	CSV01 : CSV_typ;
+	CSV_Uhr : DTStructure;
+	CSV_Uhr_Sp : DTStructure;
+END_VAR

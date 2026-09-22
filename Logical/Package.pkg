@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.7.74 SP?>
+<Package Version="1.00.0" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Parameter.typ</Object>
+    <Object Type="File">Enumeration.typ</Object>
+    <Object Type="File" Description="Local data types">VisuIO.typ</Object>
+    <Object Type="File" Description="Globale Datentypen">Global.typ</Object>
+    <Object Type="File" Description="Globale Variablen">Global.var</Object>
+    <Object Type="File" Description="Local variables">VisuIO.var</Object>
+    <Object Type="Package" Description="Globale Bibliotheken">Libraries</Object>
+    <Object Type="Package" Description="System, Uhr, Datensicherung">Util</Object>
+    <Object Type="Package">IO</Object>
+    <Object Type="Package" Description="Berechnung">Berechnung</Object>
+    <Object Type="Package" Description="Fehler- und Warnungsgenerierung">Alarmsystem</Object>
+    <Object Type="Package" Description="Ablaufsteuerung, Schrittkette">Ablaufsteuerung</Object>
+    <Object Type="Package" Description="Generierung der Start- und Stoppsignale">Steuerung</Object>
+    <Object Type="Package" Description="Luftmengen- und Druckregler">Regelung</Object>
+    <Object Type="Package">Visualisierung</Object>
+    <Object Type="Package" Description="Paket Datenaufzeichnung">CSV</Object>
+    <Object Type="Package">Sitemanager</Object>
+    <Object Type="Package">Parametersaetze</Object>
+    <Object Type="File">versionsinfo.txt</Object>
+  </Objects>
+</Package>

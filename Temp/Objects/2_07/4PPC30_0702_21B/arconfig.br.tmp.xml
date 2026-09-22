@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<?AutomationRuntimeIOSystem Version = 1.0?>
+<IOCFG xmlns="http://www.br-automation.com/AR/IO" Version="2.0">
+  <Module ID="$root" Hardware="4PPC30.0702-21B">
+    <Parameter ID="HardwareModuleName" Value="4PPC30_0702_21B" />
+    <Parameter ID="SimulationIPAddress" Value="127.0.0.1" />
+    <Parameter ID="SimulationInaPort" Value="11160" Type="UDINT" />
+    <Parameter ID="SimulationInaNodeNumber" Value="1" Type="UDINT" />
+    <Parameter ID="SimulationModeOpcUa" Value="on" />
+    <Parameter ID="ActivateDtmServer" Value="0" Type="UDINT" />
+  </Module>
+  <Module ID="IF3" Hardware="4PPC30.0702-21B">
+    <Parameter ID="ActivateOSAFT" Value="0" />
+  </Module>
+  <Module ID="IF3.OPCUA" Hardware="OPCUA">
+    <Parameter ID="ActivateOpcUa" Value="1" Type="INT" />
+  </Module>
+  <Module ID="IF3.SITEMAN" Hardware="SITEMAN">
+    <Parameter ID="ActivateSiteMan" Value="1" Type="INT" />
+  </Module>
+  <Module ID="IF4.CANIO" Hardware="CANIO">
+    <Parameter ID="Timeout" Value="1000" Type="UDINT" />
+    <Parameter ID="Retries" Value="3" Type="UDINT" />
+    <Parameter ID="Mode" Value="CANIO" />
+  </Module>
+  <Module ID="IF4.ST1" Hardware="X20BR7300">
+    <Parameter ID="HardwareModuleName" Value="X20BR7300" />
+    <Parameter ID="IdleTimeDI" Value="640" Type="UINT" />
+    <Parameter ID="InhibitTimeDI" Value="5" Type="UINT" />
+    <Parameter ID="IdleTimeDO" Value="640" Type="UINT" />
+    <Parameter ID="IdleTimeAI" Value="640" Type="UINT" />
+    <Parameter ID="InhibitTimeAI" Value="20" Type="UINT" />
+    <Parameter ID="IdleTimeAO" Value="640" Type="UINT" />
+    <Parameter ID="Multiplier" Value="1" Type="USINT" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST1" Hardware="X20BR7300io" />
+  <Module ID="IF4.ST1.IF1.ST1.IO" Hardware="X20BR7300io">
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+    <Parameter ID="Supervision" Value="off" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST2" Hardware="X20CM8281">
+    <Parameter ID="HardwareModuleName" Value="X20CM8281" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST2.IO" Hardware="X20CM8281">
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="10" Type="USINT" />
+    <Parameter ID="InputLatch" Value="off" />
+    <Parameter ID="Counter01Mode" Value="event counter" />
+    <Parameter ID="Counter01Reset" Value="cyclic" />
+    <Parameter ID="Counter02Mode" Value="event counter" />
+    <Parameter ID="StatusInfo" Value="on" />
+    <Parameter ID="ChannelType01AI" Value="4 to 20mA" />
+    <Parameter ID="InputFilterAI" Value="off" />
+    <Parameter ID="UpperLimitAI" Value="32767" Type="INT" />
+    <Parameter ID="LowerLimitAI" Value="0" Type="INT" />
+    <Parameter ID="ChannelType01AO" Value="0 to 20mA" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST3" Hardware="X20CM8281">
+    <Parameter ID="HardwareModuleName" Value="X20CM8281a" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST3.IO" Hardware="X20CM8281">
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="10" Type="USINT" />
+    <Parameter ID="InputLatch" Value="off" />
+    <Parameter ID="Counter01Mode" Value="event counter" />
+    <Parameter ID="Counter01Reset" Value="cyclic" />
+    <Parameter ID="Counter02Mode" Value="event counter" />
+    <Parameter ID="StatusInfo" Value="on" />
+    <Parameter ID="ChannelType01AI" Value="4 to 20mA" />
+    <Parameter ID="InputFilterAI" Value="off" />
+    <Parameter ID="UpperLimitAI" Value="32767" Type="INT" />
+    <Parameter ID="LowerLimitAI" Value="0" Type="INT" />
+    <Parameter ID="ChannelType01AO" Value="0 to 20mA" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST4" Hardware="X20CM8281">
+    <Parameter ID="HardwareModuleName" Value="X20CM8281b" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST4.IO" Hardware="X20CM8281">
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="10" Type="USINT" />
+    <Parameter ID="InputLatch" Value="off" />
+    <Parameter ID="Counter01Mode" Value="event counter" />
+    <Parameter ID="Counter01Reset" Value="cyclic" />
+    <Parameter ID="Counter02Mode" Value="event counter" />
+    <Parameter ID="StatusInfo" Value="on" />
+    <Parameter ID="ChannelType01AI" Value="4 to 20mA" />
+    <Parameter ID="InputFilterAI" Value="off" />
+    <Parameter ID="UpperLimitAI" Value="32767" Type="INT" />
+    <Parameter ID="LowerLimitAI" Value="0" Type="INT" />
+    <Parameter ID="ChannelType01AO" Value="0 to 20mA" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST5" Hardware="X20CM8281">
+    <Parameter ID="HardwareModuleName" Value="X20CM8281c" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST5.IO" Hardware="X20CM8281">
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="10" Type="USINT" />
+    <Parameter ID="InputLatch" Value="off" />
+    <Parameter ID="Counter01Mode" Value="event counter" />
+    <Parameter ID="Counter01Reset" Value="cyclic" />
+    <Parameter ID="Counter02Mode" Value="event counter" />
+    <Parameter ID="StatusInfo" Value="on" />
+    <Parameter ID="ChannelType01AI" Value="4 to 20mA" />
+    <Parameter ID="InputFilterAI" Value="off" />
+    <Parameter ID="UpperLimitAI" Value="32767" Type="INT" />
+    <Parameter ID="LowerLimitAI" Value="0" Type="INT" />
+    <Parameter ID="ChannelType01AO" Value="-10V to +10V" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST6" Hardware="X20CM8281">
+    <Parameter ID="HardwareModuleName" Value="X20CM8281d" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST6.IO" Hardware="X20CM8281">
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="10" Type="USINT" />
+    <Parameter ID="InputLatch" Value="off" />
+    <Parameter ID="Counter01Mode" Value="event counter" />
+    <Parameter ID="Counter01Reset" Value="cyclic" />
+    <Parameter ID="Counter02Mode" Value="event counter" />
+    <Parameter ID="StatusInfo" Value="on" />
+    <Parameter ID="ChannelType01AI" Value="4 to 20mA" />
+    <Parameter ID="InputFilterAI" Value="off" />
+    <Parameter ID="UpperLimitAI" Value="32767" Type="INT" />
+    <Parameter ID="LowerLimitAI" Value="0" Type="INT" />
+    <Parameter ID="ChannelType01AO" Value="-10V to +10V" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST7" Hardware="X20CM8281">
+    <Parameter ID="HardwareModuleName" Value="X20CM8281e" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST7.IO" Hardware="X20CM8281">
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="10" Type="USINT" />
+    <Parameter ID="InputLatch" Value="off" />
+    <Parameter ID="Counter01Mode" Value="event counter" />
+    <Parameter ID="Counter01Reset" Value="cyclic" />
+    <Parameter ID="Counter02Mode" Value="event counter" />
+    <Parameter ID="StatusInfo" Value="on" />
+    <Parameter ID="ChannelType01AI" Value="4 to 20mA" />
+    <Parameter ID="InputFilterAI" Value="off" />
+    <Parameter ID="UpperLimitAI" Value="32767" Type="INT" />
+    <Parameter ID="LowerLimitAI" Value="0" Type="INT" />
+    <Parameter ID="ChannelType01AO" Value="-10V to +10V" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST8" Hardware="X20CM8281">
+    <Parameter ID="HardwareModuleName" Value="X20CM8281f" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST8.IO" Hardware="X20CM8281">
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="10" Type="USINT" />
+    <Parameter ID="InputLatch" Value="off" />
+    <Parameter ID="Counter01Mode" Value="event counter" />
+    <Parameter ID="Counter01Reset" Value="cyclic" />
+    <Parameter ID="Counter02Mode" Value="event counter" />
+    <Parameter ID="StatusInfo" Value="on" />
+    <Parameter ID="ChannelType01AI" Value="4 to 20mA" />
+    <Parameter ID="InputFilterAI" Value="off" />
+    <Parameter ID="UpperLimitAI" Value="32767" Type="INT" />
+    <Parameter ID="LowerLimitAI" Value="0" Type="INT" />
+    <Parameter ID="ChannelType01AO" Value="0 to 20mA" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST9" Hardware="X20CM8281">
+    <Parameter ID="HardwareModuleName" Value="X20CM8281g" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST9.IO" Hardware="X20CM8281">
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="10" Type="USINT" />
+    <Parameter ID="InputLatch" Value="off" />
+    <Parameter ID="Counter01Mode" Value="event counter" />
+    <Parameter ID="Counter01Reset" Value="cyclic" />
+    <Parameter ID="Counter02Mode" Value="event counter" />
+    <Parameter ID="StatusInfo" Value="on" />
+    <Parameter ID="ChannelType01AI" Value="4 to 20mA" />
+    <Parameter ID="InputFilterAI" Value="off" />
+    <Parameter ID="UpperLimitAI" Value="32767" Type="INT" />
+    <Parameter ID="LowerLimitAI" Value="0" Type="INT" />
+    <Parameter ID="ChannelType01AO" Value="-10V to +10V" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST10" Hardware="X20CM8281">
+    <Parameter ID="HardwareModuleName" Value="X20CM8281h" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST10.IO" Hardware="X20CM8281">
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="10" Type="USINT" />
+    <Parameter ID="InputLatch" Value="off" />
+    <Parameter ID="Counter01Mode" Value="event counter" />
+    <Parameter ID="Counter01Reset" Value="cyclic" />
+    <Parameter ID="Counter02Mode" Value="event counter" />
+    <Parameter ID="StatusInfo" Value="on" />
+    <Parameter ID="ChannelType01AI" Value="-10V to +10V" />
+    <Parameter ID="InputFilterAI" Value="off" />
+    <Parameter ID="UpperLimitAI" Value="32767" Type="INT" />
+    <Parameter ID="LowerLimitAI" Value="-32767" Type="INT" />
+    <Parameter ID="ChannelType01AO" Value="-10V to +10V" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST11" Hardware="X20CM8281">
+    <Parameter ID="HardwareModuleName" Value="X20CM8281i" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST11.IO" Hardware="X20CM8281">
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="10" Type="USINT" />
+    <Parameter ID="InputLatch" Value="off" />
+    <Parameter ID="Counter01Mode" Value="event counter" />
+    <Parameter ID="Counter01Reset" Value="cyclic" />
+    <Parameter ID="Counter02Mode" Value="event counter" />
+    <Parameter ID="StatusInfo" Value="on" />
+    <Parameter ID="ChannelType01AI" Value="4 to 20mA" />
+    <Parameter ID="InputFilterAI" Value="off" />
+    <Parameter ID="UpperLimitAI" Value="32767" Type="INT" />
+    <Parameter ID="LowerLimitAI" Value="-32767" Type="INT" />
+    <Parameter ID="ChannelType01AO" Value="-10V to +10V" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST12" Hardware="X20AP3131">
+    <Parameter ID="HardwareModuleName" Value="X20AP3131" />
+  </Module>
+  <Module ID="IF4.ST1.IF1.ST12.IO" Hardware="X20AP3131">
+    <Parameter ID="MaxInSize" Value="30" Type="UDINT" />
+    <Parameter ID="MaxOutSize" Value="30" Type="UDINT" />
+    <Parameter ID="FunctionModel" Value="CANIOBusController" />
+    <Parameter ID="FunctionModelNumber" Value="254" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="Measure3P4W" Value="3P4W" />
+    <Parameter ID="BaseFrequency" Value="50" />
+    <Parameter ID="EnergyUnit" Value="1kWs" />
+    <Parameter ID="CurrentLedOnLevel" Value="100" Type="UINT" />
+    <Parameter ID="SignalDisplay" Value="bits" />
+    <Parameter ID="ConfigPhaseA" Value="on" />
+    <Parameter ID="CurrentRatioA" Value="50" Type="UINT" />
+    <Parameter ID="EnRegStatA" Value="on" />
+    <Parameter ID="EnablePQA" Value="on" />
+    <Parameter ID="ConfigPhaseB" Value="on" />
+    <Parameter ID="CurrentRatioB" Value="50" Type="UINT" />
+    <Parameter ID="EnRegStatB" Value="on" />
+    <Parameter ID="EnablePQB" Value="on" />
+    <Parameter ID="ConfigPhaseC" Value="on" />
+    <Parameter ID="CurrentRatioC" Value="50" Type="UINT" />
+    <Parameter ID="EnRegStatC" Value="on" />
+    <Parameter ID="EnablePQC" Value="on" />
+    <Parameter ID="ConfigPhaseN" Value="off" />
+    <Parameter ID="EnableTestN" Value="off" />
+    <Parameter ID="VoltageLimit" Value="on" />
+    <Parameter ID="VoltageWarnLim" Value="18000" Type="UINT" />
+    <Parameter ID="VoltageLossLim" Value="2500" Type="UINT" />
+    <Parameter ID="THDVoltageLimit" Value="1000" Type="UINT" />
+    <Parameter ID="THDCurrentLimit" Value="1000" Type="UINT" />
+    <Parameter ID="EnabCurrDisp" Value="off" />
+    <Parameter ID="VoltageLimitDisplay" Value="bits" />
+    <Parameter ID="ZeroCrossing" Value="off" />
+    <Parameter ID="DisplayConfigSel" Value="basic" />
+    <Parameter ID="DisUrmsA" Value="off" />
+    <Parameter ID="DisUrmsB" Value="off" />
+    <Parameter ID="DisUrmsC" Value="off" />
+    <Parameter ID="DisIrmsA" Value="off" />
+    <Parameter ID="DisIrmsB" Value="off" />
+    <Parameter ID="DisIrmsC" Value="off" />
+    <Parameter ID="DisIrmsN" Value="off" />
+    <Parameter ID="DisFreqMeas" Value="off" />
+    <Parameter ID="DisPFmeanT" Value="on" />
+    <Parameter ID="DisPmeanT" Value="on" />
+    <Parameter ID="DisQmeanT" Value="on" />
+    <Parameter ID="DisSmeanT" Value="on" />
+    <Parameter ID="DisAcEnT" Value="on" />
+    <Parameter ID="DisReacEnT" Value="on" />
+    <Parameter ID="DisAppEnT" Value="on" />
+    <Parameter ID="DisAppEnTvec" Value="off" />
+    <Parameter ID="DisSelSysStat" Value="bits" />
+    <Parameter ID="FlatStreamActivate" Value="off" />
+  </Module>
+  <Module ID="IF6.CANIO" Hardware="CANIO">
+    <Parameter ID="Timeout" Value="1000" Type="UDINT" />
+    <Parameter ID="Retries" Value="3" Type="UDINT" />
+    <Parameter ID="Mode" Value="CANIO" />
+  </Module>
+</IOCFG>

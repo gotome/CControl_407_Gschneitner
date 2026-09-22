@@ -1,0 +1,17 @@
+{
+  global:
+    fbBoxenKonfig;
+    fbBoxenVentKlappen;
+    fbBoxenKlappenanst;
+    fbBoxenAbluftkl;
+    fbBoxenAbluftvent;
+    fbBoxenUmschaltung;
+    fbBoxenWLO;
+    fbBoxenHeizreg;
+    fbBoxenNotstrom;
+    fbBoxenSHO;
+    fbBoxenLuftmengen;
+    fbRestzeit;
+  local:
+    *;
+ };

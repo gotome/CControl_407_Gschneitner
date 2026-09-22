@@ -1,0 +1,5 @@
+VAR
+	alarmWarnung : ARRAY[0..29] OF BOOL := [30(FALSE)];
+	alarmFehler : ARRAY[0..49] OF BOOL := [50(FALSE)];
+	alarmSystem : ARRAY[0..4] OF BOOL := [5(FALSE)];
+END_VAR

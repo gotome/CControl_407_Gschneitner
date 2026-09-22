@@ -1,0 +1,31 @@
+PROGRAM _INIT
+
+; Diverse INIT :
+; ==============
+  InitOK = 0
+  CSV01.IW.KOPF_WRITE           = 0
+  CSV01.IW.DATA_WRITE           = 0
+  CSV01.IW.DATA_WRITE_BEREIT    = 0
+  CSV01.IW.RPS_SAVE_STEP_Nr     = 0
+  CSV01.IW.RPS_CPYDEL_STEP_Nr   = 0
+  CSV01.IW.RPS_DirRead_Start_OK = 0  
+  
+  M_DatObj_ChangDate = DT#1970-01-01-00:00:00
+  
+  strcpy(adr(CSV01.IW.PC_Device), "PC_HD_D")		; PC: Speicherdevice 
+  strcpy(adr(DatObjInfo_01_Name), "CSV01_CFG")  
+  
+  CR = $0D			; CR (Enter)
+  LF = $0A			; LF (Linefeed)
+  StrCRLF[0] = CR	; CR+LF
+  StrCRLF[1] = LF	; CR+LF
+  StrCRLF[2] = 0	; CR+LF
+  StrCRLF[3] = 0	; CR+LF
+
+; Task-Zykluszeit auslesen:
+; =========================
+  RTInfo(1, RT_Status, ZyklTime, init_reason, task_class)
+  ZyklTime = ZyklTime/1000  ; [msek]
+ 
+END_PROGRAM
+

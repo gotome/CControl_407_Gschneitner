@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.LascoUtil" AppMod="">
+	<Vars>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="TON" Lib="standard">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoUtil\fbLascoAutoRuecklauf.st">
+				<Pos L="92" C="5" PS="Ln:92, Col:5"/>
+				<Pos L="106" C="6" PS="Ln:106, Col:6"/>
+				<Pos L="115" C="6" PS="Ln:115, Col:6"/>
+				<Pos L="157" C="5" PS="Ln:157, Col:5"/>
+			</File>
+		</Func>
+		<Func Name="TOF" Lib="standard">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoUtil\fbLascoAutoRuecklauf.st">
+				<Pos L="96" C="5" PS="Ln:96, Col:5"/>
+				<Pos L="116" C="6" PS="Ln:116, Col:6"/>
+				<Pos L="160" C="5" PS="Ln:160, Col:5"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

@@ -1,0 +1,10 @@
+VAR
+	fbLascoZdxx_0 : {REDUND_UNREPLICABLE} fbLascoZdxx;
+	fbLascoZdxx_1 : {REDUND_UNREPLICABLE} fbLascoZdxx;
+	sekTick : {REDUND_UNREPLICABLE} BOOL;
+	minTick : {REDUND_UNREPLICABLE} BOOL;
+	loc_LuftgeschwSollVent1 : {REDUND_UNREPLICABLE} REAL;
+	loc_LuftgeschwSollVent2 : {REDUND_UNREPLICABLE} REAL;
+	fbBoxenLuftmengen_0 : {REDUND_UNREPLICABLE} fbBoxenLuftmengen;
+	loc_Ansaugflaeche : {REDUND_UNREPLICABLE} REAL;
+END_VAR

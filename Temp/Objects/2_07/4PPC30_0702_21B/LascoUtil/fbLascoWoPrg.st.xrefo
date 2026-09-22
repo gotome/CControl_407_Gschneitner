@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.LascoUtil" AppMod="">
+	<Vars>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="fbLascoEUhr" Lib="LascoUtil">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoUtil\fbLascoWoPrg.st">
+				<Pos L="17" C="2" PS="Ln:17, Col:2"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

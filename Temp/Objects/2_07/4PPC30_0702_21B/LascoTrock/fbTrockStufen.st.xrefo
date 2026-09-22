@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.LascoTrock" AppMod="">
+	<Vars>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="TON" Lib="standard">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoTrock\fbTrockStufen.st">
+				<Pos L="58" C="4" PS="Ln:58, Col:4"/>
+				<Pos L="145" C="4" PS="Ln:145, Col:4"/>
+			</File>
+		</Func>
+		<Func Name="fbLascoZdxx" Lib="LascoUtil">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoTrock\fbTrockStufen.st">
+				<Pos L="47" C="3" PS="Ln:47, Col:3"/>
+				<Pos L="135" C="3" PS="Ln:135, Col:3"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

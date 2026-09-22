@@ -1,0 +1,3409 @@
+<?xml version="1.0"?>
+<Crossref Scope="Util.Nutzung" AppMod="">
+	<Vars>
+		<Var Name="Nutzung.fbLascoZdxx_0" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="21" C="2" PS="Ln:21, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbLascoZdxx_0.Q" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="22" C="16" PS="Ln:22, Col:16" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbLascoZdxx_1" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="24" C="2" PS="Ln:24, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbLascoZdxx_1.Q" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="25" C="16" PS="Ln:25, Col:16" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbLascoZdxx_2" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="27" C="2" PS="Ln:27, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbLascoZdxx_2.Q" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="28" C="16" PS="Ln:28, Col:16" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbLascoZdxx_3" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="30" C="2" PS="Ln:30, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbLascoZdxx_3.Q" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="31" C="17" PS="Ln:31, Col:17" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbLascoZdxx_4" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="33" C="2" PS="Ln:33, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbLascoZdxx_4.Q" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="34" C="16" PS="Ln:34, Col:16" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.sekTick" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="22" C="2" PS="Ln:22, Col:2" A="W"/>
+				<Pos L="86" C="38" PS="Ln:86, Col:38" A="R"/>
+				<Pos L="97" C="38" PS="Ln:97, Col:38" A="R"/>
+				<Pos L="108" C="36" PS="Ln:108, Col:36" A="R"/>
+				<Pos L="119" C="38" PS="Ln:119, Col:38" A="R"/>
+				<Pos L="130" C="38" PS="Ln:130, Col:38" A="R"/>
+				<Pos L="141" C="38" PS="Ln:141, Col:38" A="R"/>
+				<Pos L="152" C="38" PS="Ln:152, Col:38" A="R"/>
+				<Pos L="163" C="40" PS="Ln:163, Col:40" A="R"/>
+				<Pos L="174" C="36" PS="Ln:174, Col:36" A="R"/>
+				<Pos L="185" C="36" PS="Ln:185, Col:36" A="R"/>
+				<Pos L="196" C="37" PS="Ln:196, Col:37" A="R"/>
+				<Pos L="207" C="41" PS="Ln:207, Col:41" A="R"/>
+				<Pos L="218" C="37" PS="Ln:218, Col:37" A="R"/>
+				<Pos L="229" C="30" PS="Ln:229, Col:30" A="R"/>
+				<Pos L="240" C="30" PS="Ln:240, Col:30" A="R"/>
+				<Pos L="251" C="30" PS="Ln:251, Col:30" A="R"/>
+				<Pos L="262" C="30" PS="Ln:262, Col:30" A="R"/>
+				<Pos L="273" C="30" PS="Ln:273, Col:30" A="R"/>
+				<Pos L="284" C="30" PS="Ln:284, Col:30" A="R"/>
+				<Pos L="300" C="34" PS="Ln:300, Col:34" A="R"/>
+				<Pos L="311" C="34" PS="Ln:311, Col:34" A="R"/>
+				<Pos L="322" C="33" PS="Ln:322, Col:33" A="R"/>
+				<Pos L="333" C="35" PS="Ln:333, Col:35" A="R"/>
+				<Pos L="344" C="35" PS="Ln:344, Col:35" A="R"/>
+				<Pos L="355" C="35" PS="Ln:355, Col:35" A="R"/>
+				<Pos L="366" C="35" PS="Ln:366, Col:35" A="R"/>
+				<Pos L="377" C="37" PS="Ln:377, Col:37" A="R"/>
+				<Pos L="388" C="33" PS="Ln:388, Col:33" A="R"/>
+				<Pos L="399" C="33" PS="Ln:399, Col:33" A="R"/>
+				<Pos L="410" C="34" PS="Ln:410, Col:34" A="R"/>
+				<Pos L="421" C="38" PS="Ln:421, Col:38" A="R"/>
+				<Pos L="432" C="34" PS="Ln:432, Col:34" A="R"/>
+				<Pos L="451" C="27" PS="Ln:451, Col:27" A="R"/>
+				<Pos L="462" C="31" PS="Ln:462, Col:31" A="R"/>
+				<Pos L="474" C="35" PS="Ln:474, Col:35" A="R"/>
+				<Pos L="488" C="27" PS="Ln:488, Col:27" A="R"/>
+				<Pos L="499" C="31" PS="Ln:499, Col:31" A="R"/>
+				<Pos L="511" C="35" PS="Ln:511, Col:35" A="R"/>
+				<Pos L="524" C="27" PS="Ln:524, Col:27" A="R"/>
+				<Pos L="535" C="31" PS="Ln:535, Col:31" A="R"/>
+				<Pos L="547" C="35" PS="Ln:547, Col:35" A="R"/>
+				<Pos L="560" C="27" PS="Ln:560, Col:27" A="R"/>
+				<Pos L="571" C="31" PS="Ln:571, Col:31" A="R"/>
+				<Pos L="583" C="35" PS="Ln:583, Col:35" A="R"/>
+				<Pos L="597" C="27" PS="Ln:597, Col:27" A="R"/>
+				<Pos L="608" C="31" PS="Ln:608, Col:31" A="R"/>
+				<Pos L="620" C="35" PS="Ln:620, Col:35" A="R"/>
+				<Pos L="634" C="27" PS="Ln:634, Col:27" A="R"/>
+				<Pos L="645" C="31" PS="Ln:645, Col:31" A="R"/>
+				<Pos L="657" C="35" PS="Ln:657, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.minTick" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="25" C="2" PS="Ln:25, Col:2" A="W"/>
+				<Pos L="73" C="5" PS="Ln:73, Col:5" A="R"/>
+				<Pos L="765" C="27" PS="Ln:765, Col:27" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.tagTick" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="28" C="2" PS="Ln:28, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.monatTick" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="31" C="2" PS="Ln:31, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.jahrTick" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="34" C="2" PS="Ln:34, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenUmluftbetrGes.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="217" C="2" PS="Ln:217, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenUmluftbetrGes.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="218" C="2" PS="Ln:218, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenUmluftbetrGes.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="219" C="2" PS="Ln:219, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenUmluftbetrGes" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="220" C="2" PS="Ln:220, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenUmluftbetrGes.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="222" C="2" PS="Ln:222, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenUmluftbetrGes.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="223" C="2" PS="Ln:223, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenUmluftbetrGes" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="224" C="2" PS="Ln:224, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenFrischluftbetrGes.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="206" C="2" PS="Ln:206, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenFrischluftbetrGes.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="207" C="2" PS="Ln:207, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenFrischluftbetrGes.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="208" C="2" PS="Ln:208, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenFrischluftbetrGes" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="209" C="2" PS="Ln:209, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenFrischluftbetrGes.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="211" C="2" PS="Ln:211, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenFrischluftbetrGes.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="212" C="2" PS="Ln:212, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenFrischluftbetrGes" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="213" C="2" PS="Ln:213, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbluftventGes.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="195" C="2" PS="Ln:195, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbluftventGes.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="196" C="2" PS="Ln:196, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbluftventGes.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="197" C="2" PS="Ln:197, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbluftventGes" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="198" C="2" PS="Ln:198, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenAbluftventGes.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="200" C="2" PS="Ln:200, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenAbluftventGes.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="201" C="2" PS="Ln:201, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenAbluftventGes" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="202" C="2" PS="Ln:202, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentilator1Ges.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="85" C="2" PS="Ln:85, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentilator1Ges.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="86" C="2" PS="Ln:86, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentilator1Ges.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="87" C="2" PS="Ln:87, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentilator1Ges" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="88" C="2" PS="Ln:88, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentilator1Ges.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="90" C="2" PS="Ln:90, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentilator1Ges.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="91" C="2" PS="Ln:91, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentilator1Ges" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="92" C="2" PS="Ln:92, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentilator2Ges.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="96" C="2" PS="Ln:96, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentilator2Ges.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="97" C="2" PS="Ln:97, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentilator2Ges.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="98" C="2" PS="Ln:98, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentilator2Ges" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="99" C="2" PS="Ln:99, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentilator2Ges.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="101" C="2" PS="Ln:101, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentilator2Ges.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="102" C="2" PS="Ln:102, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentilator2Ges" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="103" C="2" PS="Ln:103, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenOelsumpfhGes.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="107" C="2" PS="Ln:107, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenOelsumpfhGes.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="108" C="2" PS="Ln:108, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenOelsumpfhGes.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="109" C="2" PS="Ln:109, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenOelsumpfhGes" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="110" C="2" PS="Ln:110, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenOelsumpfhGes.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="112" C="2" PS="Ln:112, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenOelsumpfhGes.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="113" C="2" PS="Ln:113, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenOelsumpfhGes" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="114" C="2" PS="Ln:114, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenKompressor1Ges.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="118" C="2" PS="Ln:118, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenKompressor1Ges.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="119" C="2" PS="Ln:119, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenKompressor1Ges.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="120" C="2" PS="Ln:120, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenKompressor1Ges" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="121" C="2" PS="Ln:121, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenKompressor1Ges.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="123" C="2" PS="Ln:123, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenKompressor1Ges.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="124" C="2" PS="Ln:124, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenKompressor1Ges" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="125" C="2" PS="Ln:125, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenKompressor2Ges.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="129" C="2" PS="Ln:129, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenKompressor2Ges.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="130" C="2" PS="Ln:130, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenKompressor2Ges.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="131" C="2" PS="Ln:131, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenKompressor2Ges" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="132" C="2" PS="Ln:132, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenKompressor2Ges.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="134" C="2" PS="Ln:134, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenKompressor2Ges.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="135" C="2" PS="Ln:135, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenKompressor2Ges" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="136" C="2" PS="Ln:136, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbtauung1Ges.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="173" C="2" PS="Ln:173, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbtauung1Ges.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="174" C="2" PS="Ln:174, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbtauung1Ges.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="175" C="2" PS="Ln:175, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbtauung1Ges" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="176" C="2" PS="Ln:176, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenAbtauung1Ges.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="178" C="2" PS="Ln:178, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenAbtauung1Ges.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="179" C="2" PS="Ln:179, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenAbtauung1Ges" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="180" C="2" PS="Ln:180, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbtauung2Ges.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="184" C="2" PS="Ln:184, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbtauung2Ges.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="185" C="2" PS="Ln:185, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbtauung2Ges.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="186" C="2" PS="Ln:186, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbtauung2Ges" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="187" C="2" PS="Ln:187, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenAbtauung2Ges.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="189" C="2" PS="Ln:189, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenAbtauung2Ges.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="190" C="2" PS="Ln:190, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenAbtauung2Ges" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="191" C="2" PS="Ln:191, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenWarmluftofenGes.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="140" C="2" PS="Ln:140, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenWarmluftofenGes.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="141" C="2" PS="Ln:141, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenWarmluftofenGes.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="142" C="2" PS="Ln:142, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenWarmluftofenGes" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="143" C="2" PS="Ln:143, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenWarmluftofenGes.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="145" C="2" PS="Ln:145, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenWarmluftofenGes.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="146" C="2" PS="Ln:146, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenWarmluftofenGes" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="147" C="2" PS="Ln:147, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenScheitholzofenGes.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="162" C="2" PS="Ln:162, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenScheitholzofenGes.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="163" C="2" PS="Ln:163, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenScheitholzofenGes.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="164" C="2" PS="Ln:164, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenScheitholzofenGes" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="165" C="2" PS="Ln:165, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenScheitholzofenGes.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="167" C="2" PS="Ln:167, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenScheitholzofenGes.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="168" C="2" PS="Ln:168, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenScheitholzofenGes" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="169" C="2" PS="Ln:169, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenHeizregisterGes.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="151" C="2" PS="Ln:151, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenHeizregisterGes.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="152" C="2" PS="Ln:152, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenHeizregisterGes.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="153" C="2" PS="Ln:153, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenHeizregisterGes" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="154" C="2" PS="Ln:154, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenHeizregisterGes.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="156" C="2" PS="Ln:156, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenHeizregisterGes.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="157" C="2" PS="Ln:157, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenHeizregisterGes" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="158" C="2" PS="Ln:158, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox1Ges.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="228" C="2" PS="Ln:228, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox1Ges.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="229" C="2" PS="Ln:229, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox1Ges.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="230" C="2" PS="Ln:230, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox1Ges" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="231" C="2" PS="Ln:231, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox1Ges.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="233" C="2" PS="Ln:233, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox1Ges.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="234" C="2" PS="Ln:234, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox1Ges" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="235" C="2" PS="Ln:235, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox2Ges.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="239" C="2" PS="Ln:239, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox2Ges.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="240" C="2" PS="Ln:240, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox2Ges.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="241" C="2" PS="Ln:241, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox2Ges" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="242" C="2" PS="Ln:242, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox2Ges.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="244" C="2" PS="Ln:244, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox2Ges.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="245" C="2" PS="Ln:245, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox2Ges" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="246" C="2" PS="Ln:246, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox3Ges.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="250" C="2" PS="Ln:250, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox3Ges.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="251" C="2" PS="Ln:251, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox3Ges.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="252" C="2" PS="Ln:252, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox3Ges" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="253" C="2" PS="Ln:253, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox3Ges.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="255" C="2" PS="Ln:255, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox3Ges.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="256" C="2" PS="Ln:256, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox3Ges" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="257" C="2" PS="Ln:257, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox4Ges.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="261" C="2" PS="Ln:261, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox4Ges.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="262" C="2" PS="Ln:262, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox4Ges.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="263" C="2" PS="Ln:263, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox4Ges" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="264" C="2" PS="Ln:264, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox4Ges.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="266" C="2" PS="Ln:266, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox4Ges.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="267" C="2" PS="Ln:267, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox4Ges" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="268" C="2" PS="Ln:268, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox5Ges.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="272" C="2" PS="Ln:272, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox5Ges.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="273" C="2" PS="Ln:273, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox5Ges.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="274" C="2" PS="Ln:274, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox5Ges" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="275" C="2" PS="Ln:275, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox5Ges.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="277" C="2" PS="Ln:277, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox5Ges.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="278" C="2" PS="Ln:278, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox5Ges" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="279" C="2" PS="Ln:279, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox6Ges.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="283" C="2" PS="Ln:283, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox6Ges.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="284" C="2" PS="Ln:284, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox6Ges.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="285" C="2" PS="Ln:285, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox6Ges" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="286" C="2" PS="Ln:286, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox6Ges.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="288" C="2" PS="Ln:288, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox6Ges.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="289" C="2" PS="Ln:289, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox6Ges" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="290" C="2" PS="Ln:290, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenUmluftbetr.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="431" C="2" PS="Ln:431, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenUmluftbetr.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="432" C="2" PS="Ln:432, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenUmluftbetr.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="433" C="2" PS="Ln:433, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenUmluftbetr" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="434" C="2" PS="Ln:434, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenUmluftbetr.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="436" C="2" PS="Ln:436, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenUmluftbetr.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="437" C="2" PS="Ln:437, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenUmluftbetr" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="438" C="2" PS="Ln:438, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenFrischluftbetr.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="420" C="2" PS="Ln:420, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenFrischluftbetr.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="421" C="2" PS="Ln:421, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenFrischluftbetr.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="422" C="2" PS="Ln:422, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenFrischluftbetr" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="423" C="2" PS="Ln:423, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenFrischluftbetr.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="425" C="2" PS="Ln:425, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenFrischluftbetr.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="426" C="2" PS="Ln:426, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenFrischluftbetr" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="427" C="2" PS="Ln:427, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbluftvent.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="409" C="2" PS="Ln:409, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbluftvent.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="410" C="2" PS="Ln:410, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbluftvent.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="411" C="2" PS="Ln:411, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbluftvent" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="412" C="2" PS="Ln:412, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenAbluftvent.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="414" C="2" PS="Ln:414, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenAbluftvent.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="415" C="2" PS="Ln:415, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenAbluftvent" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="416" C="2" PS="Ln:416, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentilator1.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="299" C="2" PS="Ln:299, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentilator1.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="300" C="2" PS="Ln:300, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentilator1.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="301" C="2" PS="Ln:301, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentilator1" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="302" C="2" PS="Ln:302, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentilator1.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="304" C="2" PS="Ln:304, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentilator1.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="305" C="2" PS="Ln:305, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentilator1" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="306" C="2" PS="Ln:306, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentilator2.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="310" C="2" PS="Ln:310, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentilator2.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="311" C="2" PS="Ln:311, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentilator2.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="312" C="2" PS="Ln:312, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentilator2" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="313" C="2" PS="Ln:313, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentilator2.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="315" C="2" PS="Ln:315, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentilator2.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="316" C="2" PS="Ln:316, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentilator2" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="317" C="2" PS="Ln:317, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenOelsumpfh.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="321" C="2" PS="Ln:321, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenOelsumpfh.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="322" C="2" PS="Ln:322, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenOelsumpfh.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="323" C="2" PS="Ln:323, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenOelsumpfh" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="324" C="2" PS="Ln:324, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenOelsumpfh.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="326" C="2" PS="Ln:326, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenOelsumpfh.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="327" C="2" PS="Ln:327, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenOelsumpfh" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="328" C="2" PS="Ln:328, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenKompressor1.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="332" C="2" PS="Ln:332, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenKompressor1.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="333" C="2" PS="Ln:333, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenKompressor1.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="334" C="2" PS="Ln:334, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenKompressor1" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="335" C="2" PS="Ln:335, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenKompressor1.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="337" C="2" PS="Ln:337, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenKompressor1.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="338" C="2" PS="Ln:338, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenKompressor1" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="339" C="2" PS="Ln:339, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenKompressor2.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="343" C="2" PS="Ln:343, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenKompressor2.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="344" C="2" PS="Ln:344, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenKompressor2.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="345" C="2" PS="Ln:345, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenKompressor2" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="346" C="2" PS="Ln:346, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenKompressor2.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="348" C="2" PS="Ln:348, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenKompressor2.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="349" C="2" PS="Ln:349, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenKompressor2" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="350" C="2" PS="Ln:350, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbtauung1.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="387" C="2" PS="Ln:387, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbtauung1.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="388" C="2" PS="Ln:388, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbtauung1.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="389" C="2" PS="Ln:389, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbtauung1" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="390" C="2" PS="Ln:390, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenAbtauung1.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="392" C="2" PS="Ln:392, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenAbtauung1.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="393" C="2" PS="Ln:393, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenAbtauung1" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="394" C="2" PS="Ln:394, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbtauung2.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="398" C="2" PS="Ln:398, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbtauung2.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="399" C="2" PS="Ln:399, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbtauung2.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="400" C="2" PS="Ln:400, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenAbtauung2" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="401" C="2" PS="Ln:401, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenAbtauung2.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="403" C="2" PS="Ln:403, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenAbtauung2.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="404" C="2" PS="Ln:404, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenAbtauung2" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="405" C="2" PS="Ln:405, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenWarmluftofen.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="354" C="2" PS="Ln:354, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenWarmluftofen.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="355" C="2" PS="Ln:355, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenWarmluftofen.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="356" C="2" PS="Ln:356, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenWarmluftofen" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="357" C="2" PS="Ln:357, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenWarmluftofen.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="359" C="2" PS="Ln:359, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenWarmluftofen.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="360" C="2" PS="Ln:360, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenWarmluftofen" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="361" C="2" PS="Ln:361, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenScheitholzofen.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="376" C="2" PS="Ln:376, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenScheitholzofen.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="377" C="2" PS="Ln:377, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenScheitholzofen.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="378" C="2" PS="Ln:378, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenScheitholzofen" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="379" C="2" PS="Ln:379, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenScheitholzofen.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="381" C="2" PS="Ln:381, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenScheitholzofen.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="382" C="2" PS="Ln:382, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenScheitholzofen" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="383" C="2" PS="Ln:383, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenHeizregister.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="365" C="2" PS="Ln:365, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenHeizregister.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="366" C="2" PS="Ln:366, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenHeizregister.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="367" C="2" PS="Ln:367, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenHeizregister" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="368" C="2" PS="Ln:368, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenHeizregister.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="370" C="2" PS="Ln:370, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenHeizregister.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="371" C="2" PS="Ln:371, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenHeizregister" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="372" C="2" PS="Ln:372, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox1.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="450" C="2" PS="Ln:450, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox1.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="451" C="2" PS="Ln:451, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox1.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="452" C="2" PS="Ln:452, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox1" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="453" C="2" PS="Ln:453, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox1.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="455" C="2" PS="Ln:455, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox1.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="456" C="2" PS="Ln:456, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox1" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="457" C="2" PS="Ln:457, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox1.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="460" C="2" PS="Ln:460, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox1.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="462" C="2" PS="Ln:462, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox1.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="463" C="2" PS="Ln:463, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox1" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="464" C="2" PS="Ln:464, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentBox1.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="466" C="2" PS="Ln:466, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentBox1.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="467" C="2" PS="Ln:467, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentBox1" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="468" C="2" PS="Ln:468, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox1.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="471" C="2" PS="Ln:471, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox1.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="474" C="2" PS="Ln:474, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox1.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="475" C="2" PS="Ln:475, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox1" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="476" C="2" PS="Ln:476, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenLuftaufbBox1.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="478" C="2" PS="Ln:478, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenLuftaufbBox1.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="479" C="2" PS="Ln:479, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenLuftaufbBox1" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="480" C="2" PS="Ln:480, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox2.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="497" C="2" PS="Ln:497, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox2.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="499" C="2" PS="Ln:499, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox2.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="500" C="2" PS="Ln:500, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox2" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="501" C="2" PS="Ln:501, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentBox2.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="503" C="2" PS="Ln:503, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentBox2.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="504" C="2" PS="Ln:504, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentBox2" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="505" C="2" PS="Ln:505, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox2.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="508" C="2" PS="Ln:508, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox2.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="511" C="2" PS="Ln:511, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox2.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="512" C="2" PS="Ln:512, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox2" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="513" C="2" PS="Ln:513, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenLuftaufbBox2.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="515" C="2" PS="Ln:515, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenLuftaufbBox2.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="516" C="2" PS="Ln:516, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenLuftaufbBox2" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="517" C="2" PS="Ln:517, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox3.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="533" C="2" PS="Ln:533, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox3.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="535" C="2" PS="Ln:535, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox3.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="536" C="2" PS="Ln:536, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox3" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="537" C="2" PS="Ln:537, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentBox3.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="539" C="2" PS="Ln:539, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentBox3.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="540" C="2" PS="Ln:540, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentBox3" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="541" C="2" PS="Ln:541, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox3.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="544" C="2" PS="Ln:544, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox3.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="547" C="2" PS="Ln:547, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox3.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="548" C="2" PS="Ln:548, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox3" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="549" C="2" PS="Ln:549, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenLuftaufbBox3.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="551" C="2" PS="Ln:551, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenLuftaufbBox3.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="552" C="2" PS="Ln:552, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenLuftaufbBox3" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="553" C="2" PS="Ln:553, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox4.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="569" C="2" PS="Ln:569, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox4.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="571" C="2" PS="Ln:571, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox4.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="572" C="2" PS="Ln:572, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox4" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="573" C="2" PS="Ln:573, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentBox4.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="575" C="2" PS="Ln:575, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentBox4.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="576" C="2" PS="Ln:576, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentBox4" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="577" C="2" PS="Ln:577, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox4.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="580" C="2" PS="Ln:580, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox4.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="583" C="2" PS="Ln:583, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox4.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="584" C="2" PS="Ln:584, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox4" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="585" C="2" PS="Ln:585, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenLuftaufbBox4.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="587" C="2" PS="Ln:587, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenLuftaufbBox4.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="588" C="2" PS="Ln:588, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenLuftaufbBox4" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="589" C="2" PS="Ln:589, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox5.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="606" C="2" PS="Ln:606, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox5.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="608" C="2" PS="Ln:608, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox5.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="609" C="2" PS="Ln:609, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox5" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="610" C="2" PS="Ln:610, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentBox5.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="612" C="2" PS="Ln:612, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentBox5.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="613" C="2" PS="Ln:613, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentBox5" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="614" C="2" PS="Ln:614, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox5.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="617" C="2" PS="Ln:617, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox5.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="620" C="2" PS="Ln:620, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox5.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="621" C="2" PS="Ln:621, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox5" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="622" C="2" PS="Ln:622, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenLuftaufbBox5.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="624" C="2" PS="Ln:624, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenLuftaufbBox5.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="625" C="2" PS="Ln:625, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenLuftaufbBox5" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="626" C="2" PS="Ln:626, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox6.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="643" C="2" PS="Ln:643, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox6.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="645" C="2" PS="Ln:645, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox6.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="646" C="2" PS="Ln:646, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenVentBox6" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="647" C="2" PS="Ln:647, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentBox6.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="649" C="2" PS="Ln:649, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentBox6.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="650" C="2" PS="Ln:650, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenVentBox6" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="651" C="2" PS="Ln:651, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox6.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="654" C="2" PS="Ln:654, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox6.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="657" C="2" PS="Ln:657, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox6.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="658" C="2" PS="Ln:658, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenLuftaufbBox6" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="659" C="2" PS="Ln:659, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenLuftaufbBox6.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="661" C="2" PS="Ln:661, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenLuftaufbBox6.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="662" C="2" PS="Ln:662, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenLuftaufbBox6" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="663" C="2" PS="Ln:663, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox2.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="487" C="2" PS="Ln:487, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox2.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="488" C="2" PS="Ln:488, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox2.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="489" C="2" PS="Ln:489, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox2" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="490" C="2" PS="Ln:490, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox2.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="492" C="2" PS="Ln:492, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox2.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="493" C="2" PS="Ln:493, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox2" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="494" C="2" PS="Ln:494, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox3.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="523" C="2" PS="Ln:523, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox3.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="524" C="2" PS="Ln:524, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox3.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="525" C="2" PS="Ln:525, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox3" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="526" C="2" PS="Ln:526, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox3.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="528" C="2" PS="Ln:528, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox3.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="529" C="2" PS="Ln:529, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox3" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="530" C="2" PS="Ln:530, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox4.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="559" C="2" PS="Ln:559, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox4.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="560" C="2" PS="Ln:560, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox4.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="561" C="2" PS="Ln:561, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox4" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="562" C="2" PS="Ln:562, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox4.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="564" C="2" PS="Ln:564, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox4.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="565" C="2" PS="Ln:565, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox4" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="566" C="2" PS="Ln:566, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox5.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="596" C="2" PS="Ln:596, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox5.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="597" C="2" PS="Ln:597, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox5.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="598" C="2" PS="Ln:598, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox5" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="599" C="2" PS="Ln:599, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox5.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="601" C="2" PS="Ln:601, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox5.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="602" C="2" PS="Ln:602, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox5" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="603" C="2" PS="Ln:603, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox6.Aktiv" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="633" C="2" PS="Ln:633, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox6.sekTick" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="634" C="2" PS="Ln:634, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox6.Minuten" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="635" C="2" PS="Ln:635, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbMinutenBox6" Scope="Local" Type="fbLascoBmin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="636" C="2" PS="Ln:636, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox6.Minuten" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="638" C="2" PS="Ln:638, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox6.Stunden" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="639" C="2" PS="Ln:639, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbStundenBox6" Scope="Local" Type="fbLascoStdMin">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="640" C="2" PS="Ln:640, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbSrvcUhrzeit.Aktiv" Scope="Local" Type="fbLascoSrvcInterv">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="764" C="2" PS="Ln:764, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbSrvcUhrzeit.Tick" Scope="Local" Type="fbLascoSrvcInterv">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="765" C="2" PS="Ln:765, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbSrvcUhrzeit.ZeitBisSrvc" Scope="Local" Type="fbLascoSrvcInterv">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="766" C="2" PS="Ln:766, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbSrvcUhrzeit.SrvcIntervall" Scope="Local" Type="fbLascoSrvcInterv">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="767" C="2" PS="Ln:767, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbSrvcUhrzeit.SrvcReset" Scope="Local" Type="fbLascoSrvcInterv">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="768" C="2" PS="Ln:768, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbSrvcUhrzeit" Scope="Local" Type="fbLascoSrvcInterv">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="769" C="2" PS="Ln:769, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbSrvcUhrzeit.SrvcErforderl" Scope="Local" Type="fbLascoSrvcInterv">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="770" C="69" PS="Ln:770, Col:69" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.DTGetTime_0.DT1" Scope="Local" Type="DTGetTime">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="44" C="42" PS="Ln:44, Col:42" A="R"/>
+				<Pos L="74" C="55" PS="Ln:74, Col:55" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.DTGetTime_0" Scope="Local" Type="DTGetTime">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="72" C="2" PS="Ln:72, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.loc_UhrzeitAktuellUdint" Scope="Local" Type="UDINT">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="44" C="3" PS="Ln:44, Col:3" A="W"/>
+				<Pos L="46" C="28" PS="Ln:46, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.TON_MinLaufzeitOelsumpfh" Scope="Local" Type="TON">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="66" C="2" PS="Ln:66, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.TON_MinLaufzeitOelsumpfh.Q" Scope="Local" Type="TON">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="67" C="5" PS="Ln:67, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.TON_MinLaufzeitOelsumpfh.ET" Scope="Local" Type="TON">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="75" C="94" PS="Ln:75, Col:94" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.loc_MinLaufzeitOelsumpf" Scope="Local" Type="UDINT">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="51" C="4" PS="Ln:51, Col:4" A="W"/>
+				<Pos L="56" C="5" PS="Ln:56, Col:5" A="W"/>
+				<Pos L="58" C="5" PS="Ln:58, Col:5" A="W"/>
+				<Pos L="61" C="4" PS="Ln:61, Col:4" A="W"/>
+				<Pos L="66" C="95" PS="Ln:66, Col:95" A="R"/>
+				<Pos L="75" C="54" PS="Ln:75, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.TON_ResetInit" Scope="Local" Type="TON">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="776" C="2" PS="Ln:776, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.TON_ResetInit.Q" Scope="Local" Type="TON">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="777" C="12" PS="Ln:777, Col:12" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.loc_UhrzeitMEM_Udint" Scope="Local" Type="UDINT">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="45" C="3" PS="Ln:45, Col:3" A="W"/>
+				<Pos L="46" C="54" PS="Ln:46, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.initOk" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="5" C="2" PS="Ln:5, Col:2" A="W"/>
+				<Pos L="41" C="5" PS="Ln:41, Col:5" A="R"/>
+				<Pos L="66" C="63" PS="Ln:66, Col:63" A="R"/>
+				<Pos L="73" C="17" PS="Ln:73, Col:17" A="R"/>
+				<Pos L="777" C="2" PS="Ln:777, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.stateEntry" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="6" C="2" PS="Ln:6, Col:2" A="W"/>
+				<Pos L="41" C="16" PS="Ln:41, Col:16" A="R"/>
+				<Pos L="42" C="3" PS="Ln:42, Col:3" A="W"/>
+				<Pos L="66" C="78" PS="Ln:66, Col:78" A="R"/>
+				<Pos L="73" C="32" PS="Ln:73, Col:32" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.loc_ZeitStromausfall" Scope="Local" Type="UDINT">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="46" C="3" PS="Ln:46, Col:3" A="W"/>
+				<Pos L="49" C="6" PS="Ln:49, Col:6" A="R"/>
+				<Pos L="54" C="63" PS="Ln:54, Col:63" A="R"/>
+				<Pos L="56" C="87" PS="Ln:56, Col:87" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox1.AktuelleMinute" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="671" C="2" PS="Ln:671, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox1.AktuelleStunde" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="672" C="2" PS="Ln:672, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox1.Freigabe" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="673" C="2" PS="Ln:673, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox1.ZeitfensterIn" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="675" C="3" PS="Ln:675, Col:3" A="W"/>
+				<Pos L="677" C="3" PS="Ln:677, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox1" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="679" C="2" PS="Ln:679, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox1.RestzeitMinutenOut" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="681" C="51" PS="Ln:681, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox1.RestzeitStundenOut" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="682" C="51" PS="Ln:682, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox2.AktuelleMinute" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="686" C="2" PS="Ln:686, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox2.AktuelleStunde" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="687" C="2" PS="Ln:687, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox2.Freigabe" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="688" C="2" PS="Ln:688, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox2.ZeitfensterIn" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="690" C="3" PS="Ln:690, Col:3" A="W"/>
+				<Pos L="692" C="3" PS="Ln:692, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox2" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="694" C="2" PS="Ln:694, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox2.RestzeitMinutenOut" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="696" C="51" PS="Ln:696, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox2.RestzeitStundenOut" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="697" C="51" PS="Ln:697, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox3.AktuelleMinute" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="701" C="2" PS="Ln:701, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox3.AktuelleStunde" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="702" C="2" PS="Ln:702, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox3.Freigabe" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="703" C="2" PS="Ln:703, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox3.ZeitfensterIn" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="705" C="3" PS="Ln:705, Col:3" A="W"/>
+				<Pos L="707" C="3" PS="Ln:707, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox3" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="709" C="2" PS="Ln:709, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox3.RestzeitMinutenOut" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="711" C="51" PS="Ln:711, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox3.RestzeitStundenOut" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="712" C="51" PS="Ln:712, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox4.AktuelleMinute" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="716" C="2" PS="Ln:716, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox4.AktuelleStunde" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="717" C="2" PS="Ln:717, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox4.Freigabe" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="718" C="2" PS="Ln:718, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox4.ZeitfensterIn" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="720" C="3" PS="Ln:720, Col:3" A="W"/>
+				<Pos L="722" C="3" PS="Ln:722, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox4" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="724" C="2" PS="Ln:724, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox4.RestzeitMinutenOut" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="726" C="51" PS="Ln:726, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox4.RestzeitStundenOut" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="727" C="51" PS="Ln:727, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox5.AktuelleMinute" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="730" C="2" PS="Ln:730, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox5.AktuelleStunde" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="731" C="2" PS="Ln:731, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox5.Freigabe" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="732" C="2" PS="Ln:732, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox5.ZeitfensterIn" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="734" C="3" PS="Ln:734, Col:3" A="W"/>
+				<Pos L="736" C="3" PS="Ln:736, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox5" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="738" C="2" PS="Ln:738, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox5.RestzeitMinutenOut" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="740" C="51" PS="Ln:740, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox5.RestzeitStundenOut" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="741" C="51" PS="Ln:741, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox6.AktuelleMinute" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="745" C="2" PS="Ln:745, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox6.AktuelleStunde" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="746" C="2" PS="Ln:746, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox6.Freigabe" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="747" C="2" PS="Ln:747, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox6.ZeitfensterIn" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="749" C="3" PS="Ln:749, Col:3" A="W"/>
+				<Pos L="751" C="3" PS="Ln:751, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox6" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="753" C="2" PS="Ln:753, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox6.RestzeitMinutenOut" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="755" C="51" PS="Ln:755, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzung.fbRestzeitBox6.RestzeitStundenOut" Scope="Local" Type="fbRestzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="756" C="51" PS="Ln:756, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box1Out.BoxBereit" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="228" C="29" PS="Ln:228, Col:29" A="R"/>
+				<Pos L="450" C="26" PS="Ln:450, Col:26" A="R"/>
+				<Pos L="460" C="29" PS="Ln:460, Col:29" A="R"/>
+				<Pos L="471" C="33" PS="Ln:471, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box2Out.BoxBereit" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="239" C="29" PS="Ln:239, Col:29" A="R"/>
+				<Pos L="487" C="26" PS="Ln:487, Col:26" A="R"/>
+				<Pos L="497" C="29" PS="Ln:497, Col:29" A="R"/>
+				<Pos L="508" C="33" PS="Ln:508, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box3Out.BoxBereit" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="250" C="29" PS="Ln:250, Col:29" A="R"/>
+				<Pos L="523" C="26" PS="Ln:523, Col:26" A="R"/>
+				<Pos L="533" C="29" PS="Ln:533, Col:29" A="R"/>
+				<Pos L="544" C="33" PS="Ln:544, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box4Out.BoxBereit" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="261" C="29" PS="Ln:261, Col:29" A="R"/>
+				<Pos L="559" C="26" PS="Ln:559, Col:26" A="R"/>
+				<Pos L="569" C="29" PS="Ln:569, Col:29" A="R"/>
+				<Pos L="580" C="33" PS="Ln:580, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box5Out.BoxBereit" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="272" C="29" PS="Ln:272, Col:29" A="R"/>
+				<Pos L="596" C="26" PS="Ln:596, Col:26" A="R"/>
+				<Pos L="606" C="29" PS="Ln:606, Col:29" A="R"/>
+				<Pos L="617" C="33" PS="Ln:617, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box6Out.BoxBereit" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="283" C="29" PS="Ln:283, Col:29" A="R"/>
+				<Pos L="633" C="26" PS="Ln:633, Col:26" A="R"/>
+				<Pos L="643" C="29" PS="Ln:643, Col:29" A="R"/>
+				<Pos L="654" C="33" PS="Ln:654, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Warmluftofen.WarmluftofenAktiv" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="140" C="37" PS="Ln:140, Col:37" A="R"/>
+				<Pos L="354" C="34" PS="Ln:354, Col:34" A="R"/>
+				<Pos L="473" C="3" PS="Ln:473, Col:3" A="R"/>
+				<Pos L="510" C="3" PS="Ln:510, Col:3" A="R"/>
+				<Pos L="546" C="3" PS="Ln:546, Col:3" A="R"/>
+				<Pos L="582" C="3" PS="Ln:582, Col:3" A="R"/>
+				<Pos L="619" C="3" PS="Ln:619, Col:3" A="R"/>
+				<Pos L="656" C="3" PS="Ln:656, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Scheitholzofen.ScheitholzofenAktiv" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="162" C="38" PS="Ln:162, Col:38" A="R"/>
+				<Pos L="376" C="35" PS="Ln:376, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.AbtauungAktiv" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="173" C="35" PS="Ln:173, Col:35" A="R"/>
+				<Pos L="387" C="31" PS="Ln:387, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.AbtauungAktiv" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="184" C="35" PS="Ln:184, Col:35" A="R"/>
+				<Pos L="398" C="31" PS="Ln:398, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Entfeuchter.MaxZeitStromlos" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="49" C="29" PS="Ln:49, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Entfeuchter.MindestlaufzeitOelsumpf" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="51" C="31" PS="Ln:51, Col:31" A="R"/>
+				<Pos L="55" C="5" PS="Ln:55, Col:5" A="R"/>
+				<Pos L="58" C="32" PS="Ln:58, Col:32" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Entfeuchter.RestzeitLaufzOelsumpf" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="54" C="8" PS="Ln:54, Col:8" A="R"/>
+				<Pos L="56" C="32" PS="Ln:56, Col:32" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.Abluftventilator" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="195" C="35" PS="Ln:195, Col:35" A="R"/>
+				<Pos L="409" C="32" PS="Ln:409, Col:32" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.Ventilator1" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="460" C="86" PS="Ln:460, Col:86" A="R"/>
+				<Pos L="497" C="86" PS="Ln:497, Col:86" A="R"/>
+				<Pos L="533" C="86" PS="Ln:533, Col:86" A="R"/>
+				<Pos L="569" C="86" PS="Ln:569, Col:86" A="R"/>
+				<Pos L="606" C="86" PS="Ln:606, Col:86" A="R"/>
+				<Pos L="643" C="86" PS="Ln:643, Col:86" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.Ventilator2" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="461" C="30" PS="Ln:461, Col:30" A="R"/>
+				<Pos L="498" C="30" PS="Ln:498, Col:30" A="R"/>
+				<Pos L="534" C="30" PS="Ln:534, Col:30" A="R"/>
+				<Pos L="570" C="30" PS="Ln:570, Col:30" A="R"/>
+				<Pos L="607" C="30" PS="Ln:607, Col:30" A="R"/>
+				<Pos L="644" C="30" PS="Ln:644, Col:30" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.Luftentfeuchter" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="471" C="131" PS="Ln:471, Col:131" A="R"/>
+				<Pos L="508" C="132" PS="Ln:508, Col:132" A="R"/>
+				<Pos L="544" C="132" PS="Ln:544, Col:132" A="R"/>
+				<Pos L="580" C="132" PS="Ln:580, Col:132" A="R"/>
+				<Pos L="617" C="132" PS="Ln:617, Col:132" A="R"/>
+				<Pos L="654" C="132" PS="Ln:654, Col:132" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.Scheitholzofen" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="472" C="33" PS="Ln:472, Col:33" A="R"/>
+				<Pos L="509" C="33" PS="Ln:509, Col:33" A="R"/>
+				<Pos L="545" C="33" PS="Ln:545, Col:33" A="R"/>
+				<Pos L="581" C="33" PS="Ln:581, Col:33" A="R"/>
+				<Pos L="618" C="33" PS="Ln:618, Col:33" A="R"/>
+				<Pos L="655" C="33" PS="Ln:655, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.Heizregister" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="472" C="102" PS="Ln:472, Col:102" A="R"/>
+				<Pos L="509" C="102" PS="Ln:509, Col:102" A="R"/>
+				<Pos L="545" C="102" PS="Ln:545, Col:102" A="R"/>
+				<Pos L="581" C="102" PS="Ln:581, Col:102" A="R"/>
+				<Pos L="618" C="102" PS="Ln:618, Col:102" A="R"/>
+				<Pos L="655" C="102" PS="Ln:655, Col:102" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.Warmluftofen" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="473" C="46" PS="Ln:473, Col:46" A="R"/>
+				<Pos L="510" C="46" PS="Ln:510, Col:46" A="R"/>
+				<Pos L="546" C="46" PS="Ln:546, Col:46" A="R"/>
+				<Pos L="582" C="46" PS="Ln:582, Col:46" A="R"/>
+				<Pos L="619" C="46" PS="Ln:619, Col:46" A="R"/>
+				<Pos L="656" C="46" PS="Ln:656, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.IntervallbetriebEin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="673" C="31" PS="Ln:673, Col:31" A="R"/>
+				<Pos L="674" C="5" PS="Ln:674, Col:5" A="R"/>
+				<Pos L="688" C="31" PS="Ln:688, Col:31" A="R"/>
+				<Pos L="689" C="5" PS="Ln:689, Col:5" A="R"/>
+				<Pos L="703" C="31" PS="Ln:703, Col:31" A="R"/>
+				<Pos L="704" C="5" PS="Ln:704, Col:5" A="R"/>
+				<Pos L="718" C="31" PS="Ln:718, Col:31" A="R"/>
+				<Pos L="719" C="5" PS="Ln:719, Col:5" A="R"/>
+				<Pos L="732" C="31" PS="Ln:732, Col:31" A="R"/>
+				<Pos L="733" C="5" PS="Ln:733, Col:5" A="R"/>
+				<Pos L="747" C="31" PS="Ln:747, Col:31" A="R"/>
+				<Pos L="748" C="5" PS="Ln:748, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.NachtrocknungEin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="673" C="81" PS="Ln:673, Col:81" A="R"/>
+				<Pos L="688" C="81" PS="Ln:688, Col:81" A="R"/>
+				<Pos L="703" C="81" PS="Ln:703, Col:81" A="R"/>
+				<Pos L="718" C="81" PS="Ln:718, Col:81" A="R"/>
+				<Pos L="732" C="81" PS="Ln:732, Col:81" A="R"/>
+				<Pos L="747" C="81" PS="Ln:747, Col:81" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.IntervallbetriebZeiten" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="675" C="39" PS="Ln:675, Col:39" A="R"/>
+				<Pos L="690" C="39" PS="Ln:690, Col:39" A="R"/>
+				<Pos L="705" C="39" PS="Ln:705, Col:39" A="R"/>
+				<Pos L="720" C="39" PS="Ln:720, Col:39" A="R"/>
+				<Pos L="734" C="39" PS="Ln:734, Col:39" A="R"/>
+				<Pos L="749" C="39" PS="Ln:749, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.NachtrocknungZeiten" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="677" C="39" PS="Ln:677, Col:39" A="R"/>
+				<Pos L="692" C="39" PS="Ln:692, Col:39" A="R"/>
+				<Pos L="707" C="39" PS="Ln:707, Col:39" A="R"/>
+				<Pos L="722" C="39" PS="Ln:722, Col:39" A="R"/>
+				<Pos L="736" C="39" PS="Ln:736, Col:39" A="R"/>
+				<Pos L="751" C="39" PS="Ln:751, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Servicebereich.KontrollintervallUhrzeit" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="767" C="34" PS="Ln:767, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gAktModus" Scope="Global" Type="enumBetriebsmodus">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="206" C="81" PS="Ln:206, Col:81" A="R"/>
+				<Pos L="217" C="73" PS="Ln:217, Col:73" A="R"/>
+				<Pos L="420" C="78" PS="Ln:420, Col:78" A="R"/>
+				<Pos L="431" C="70" PS="Ln:431, Col:70" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.FrischluftbetriebAktiv" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="206" C="39" PS="Ln:206, Col:39" A="R"/>
+				<Pos L="420" C="36" PS="Ln:420, Col:36" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.UmluftbetriebAktiv" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="217" C="35" PS="Ln:217, Col:35" A="R"/>
+				<Pos L="431" C="32" PS="Ln:431, Col:32" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.RestlaufzeitenBoxen.Box1Minuten" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="681" C="2" PS="Ln:681, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.RestlaufzeitenBoxen.Box1Stunden" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="682" C="2" PS="Ln:682, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.RestlaufzeitenBoxen.Box2Minuten" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="696" C="2" PS="Ln:696, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.RestlaufzeitenBoxen.Box2Stunden" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="697" C="2" PS="Ln:697, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.RestlaufzeitenBoxen.Box3Minuten" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="711" C="2" PS="Ln:711, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.RestlaufzeitenBoxen.Box3Stunden" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="712" C="2" PS="Ln:712, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.RestlaufzeitenBoxen.Box4Minuten" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="726" C="2" PS="Ln:726, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.RestlaufzeitenBoxen.Box4Stunden" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="727" C="2" PS="Ln:727, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.RestlaufzeitenBoxen.Box5Minuten" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="740" C="2" PS="Ln:740, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.RestlaufzeitenBoxen.Box5Stunden" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="741" C="2" PS="Ln:741, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.RestlaufzeitenBoxen.Box6Minuten" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="755" C="2" PS="Ln:755, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.RestlaufzeitenBoxen.Box6Stunden" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="756" C="2" PS="Ln:756, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Echtzeit.Sekunde" Scope="Global" Type="typEchtzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="21" C="23" PS="Ln:21, Col:23" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Echtzeit.Minute" Scope="Global" Type="typEchtzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="24" C="23" PS="Ln:24, Col:23" A="R"/>
+				<Pos L="671" C="35" PS="Ln:671, Col:35" A="R"/>
+				<Pos L="686" C="35" PS="Ln:686, Col:35" A="R"/>
+				<Pos L="701" C="35" PS="Ln:701, Col:35" A="R"/>
+				<Pos L="716" C="35" PS="Ln:716, Col:35" A="R"/>
+				<Pos L="730" C="35" PS="Ln:730, Col:35" A="R"/>
+				<Pos L="745" C="35" PS="Ln:745, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Echtzeit.Tag" Scope="Global" Type="typEchtzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="27" C="22" PS="Ln:27, Col:22" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Echtzeit.Monat" Scope="Global" Type="typEchtzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="30" C="22" PS="Ln:30, Col:22" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Echtzeit.Jahr" Scope="Global" Type="typEchtzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="33" C="22" PS="Ln:33, Col:22" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Echtzeit.Stunde" Scope="Global" Type="typEchtzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="672" C="35" PS="Ln:672, Col:35" A="R"/>
+				<Pos L="687" C="35" PS="Ln:687, Col:35" A="R"/>
+				<Pos L="702" C="35" PS="Ln:702, Col:35" A="R"/>
+				<Pos L="717" C="35" PS="Ln:717, Col:35" A="R"/>
+				<Pos L="731" C="35" PS="Ln:731, Col:35" A="R"/>
+				<Pos L="746" C="35" PS="Ln:746, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gMindestlaufzOelsumpfOk" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="50" C="4" PS="Ln:50, Col:4" A="W"/>
+				<Pos L="52" C="13" PS="Ln:52, Col:13" A="R"/>
+				<Pos L="68" C="3" PS="Ln:68, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmiParameter.Entfeuchter.RestzeitLaufzOelsumpf" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="75" C="3" PS="Ln:75, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmiParameter.Servicebereich.KontrollintervallUhrzeit" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="762" C="2" PS="Ln:762, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Allgemein.DatumLetzterBetrieb" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="45" C="39" PS="Ln:45, Col:39" A="R"/>
+				<Pos L="74" C="3" PS="Ln:74, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Ventilator1Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="87" C="42" PS="Ln:87, Col:42" A="R"/>
+				<Pos L="90" C="42" PS="Ln:90, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Ventilator1Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="91" C="42" PS="Ln:91, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Ventilator2Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="98" C="42" PS="Ln:98, Col:42" A="R"/>
+				<Pos L="101" C="42" PS="Ln:101, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Ventilator2Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="102" C="42" PS="Ln:102, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.OelsumpfheizungMin" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="109" C="40" PS="Ln:109, Col:40" A="R"/>
+				<Pos L="112" C="40" PS="Ln:112, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.OelsumpfheizungStd" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="113" C="40" PS="Ln:113, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Kompressor1Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="120" C="42" PS="Ln:120, Col:42" A="R"/>
+				<Pos L="123" C="42" PS="Ln:123, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Kompressor1Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="124" C="42" PS="Ln:124, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Kompressor2Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="131" C="42" PS="Ln:131, Col:42" A="R"/>
+				<Pos L="134" C="42" PS="Ln:134, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Kompressor2Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="135" C="42" PS="Ln:135, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.WarmluftofenMin" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="142" C="42" PS="Ln:142, Col:42" A="R"/>
+				<Pos L="145" C="42" PS="Ln:145, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.WarmluftofenStd" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="146" C="42" PS="Ln:146, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.HeizregisterMin" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="153" C="42" PS="Ln:153, Col:42" A="R"/>
+				<Pos L="156" C="42" PS="Ln:156, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.HeizregisterStd" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="157" C="42" PS="Ln:157, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.ScheitholzofenMin" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="164" C="44" PS="Ln:164, Col:44" A="R"/>
+				<Pos L="167" C="44" PS="Ln:167, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.ScheitholzofenStd" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="168" C="44" PS="Ln:168, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Abtauung1Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="175" C="40" PS="Ln:175, Col:40" A="R"/>
+				<Pos L="178" C="40" PS="Ln:178, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Abtauung1Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="179" C="40" PS="Ln:179, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Abtauung2Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="186" C="40" PS="Ln:186, Col:40" A="R"/>
+				<Pos L="189" C="40" PS="Ln:189, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Abtauung2Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="190" C="40" PS="Ln:190, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.AbluftventMin" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="197" C="41" PS="Ln:197, Col:41" A="R"/>
+				<Pos L="200" C="41" PS="Ln:200, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.AbluftventStd" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="201" C="41" PS="Ln:201, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.FrischluftbetrMin" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="208" C="45" PS="Ln:208, Col:45" A="R"/>
+				<Pos L="211" C="45" PS="Ln:211, Col:45" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.FrischluftbetrStd" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="212" C="45" PS="Ln:212, Col:45" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.UmluftbetrMin" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="219" C="41" PS="Ln:219, Col:41" A="R"/>
+				<Pos L="222" C="41" PS="Ln:222, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.UmluftbetrStd" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="223" C="41" PS="Ln:223, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Box1Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="230" C="34" PS="Ln:230, Col:34" A="R"/>
+				<Pos L="233" C="34" PS="Ln:233, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Box1Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="234" C="34" PS="Ln:234, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Box2Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="241" C="34" PS="Ln:241, Col:34" A="R"/>
+				<Pos L="244" C="34" PS="Ln:244, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Box2Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="245" C="34" PS="Ln:245, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Box3Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="252" C="34" PS="Ln:252, Col:34" A="R"/>
+				<Pos L="255" C="34" PS="Ln:255, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Box3Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="256" C="34" PS="Ln:256, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Box4Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="263" C="34" PS="Ln:263, Col:34" A="R"/>
+				<Pos L="266" C="34" PS="Ln:266, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Box4Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="267" C="34" PS="Ln:267, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Box5Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="274" C="34" PS="Ln:274, Col:34" A="R"/>
+				<Pos L="277" C="34" PS="Ln:277, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Box5Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="278" C="34" PS="Ln:278, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Box6Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="285" C="34" PS="Ln:285, Col:34" A="R"/>
+				<Pos L="288" C="34" PS="Ln:288, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.BstGes.Box6Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="289" C="34" PS="Ln:289, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Ventilator1Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="301" C="38" PS="Ln:301, Col:38" A="R"/>
+				<Pos L="304" C="38" PS="Ln:304, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Ventilator1Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="305" C="38" PS="Ln:305, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Ventilator2Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="312" C="38" PS="Ln:312, Col:38" A="R"/>
+				<Pos L="315" C="38" PS="Ln:315, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Ventilator2Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="316" C="38" PS="Ln:316, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.OelsumpfheizungMin" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="323" C="37" PS="Ln:323, Col:37" A="R"/>
+				<Pos L="326" C="37" PS="Ln:326, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.OelsumpfheizungStd" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="327" C="37" PS="Ln:327, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Kompressor1Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="334" C="39" PS="Ln:334, Col:39" A="R"/>
+				<Pos L="337" C="39" PS="Ln:337, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Kompressor1Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="338" C="39" PS="Ln:338, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Kompressor2Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="345" C="39" PS="Ln:345, Col:39" A="R"/>
+				<Pos L="348" C="39" PS="Ln:348, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Kompressor2Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="349" C="39" PS="Ln:349, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.WarmluftofenMin" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="356" C="39" PS="Ln:356, Col:39" A="R"/>
+				<Pos L="359" C="39" PS="Ln:359, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.WarmluftofenStd" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="360" C="39" PS="Ln:360, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.HeizregisterMin" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="367" C="39" PS="Ln:367, Col:39" A="R"/>
+				<Pos L="370" C="39" PS="Ln:370, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.HeizregisterStd" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="371" C="39" PS="Ln:371, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.ScheitholzofenMin" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="378" C="41" PS="Ln:378, Col:41" A="R"/>
+				<Pos L="381" C="41" PS="Ln:381, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.ScheitholzofenStd" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="382" C="41" PS="Ln:382, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Abtauung1Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="389" C="37" PS="Ln:389, Col:37" A="R"/>
+				<Pos L="392" C="37" PS="Ln:392, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Abtauung1Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="393" C="37" PS="Ln:393, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Abtauung2Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="400" C="37" PS="Ln:400, Col:37" A="R"/>
+				<Pos L="403" C="37" PS="Ln:403, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Abtauung2Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="404" C="37" PS="Ln:404, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.AbluftventMin" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="411" C="38" PS="Ln:411, Col:38" A="R"/>
+				<Pos L="414" C="38" PS="Ln:414, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.AbluftventStd" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="415" C="38" PS="Ln:415, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.FrischluftbetrMin" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="422" C="42" PS="Ln:422, Col:42" A="R"/>
+				<Pos L="425" C="42" PS="Ln:425, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.FrischluftbetrStd" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="426" C="42" PS="Ln:426, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.UmluftbetrMin" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="433" C="38" PS="Ln:433, Col:38" A="R"/>
+				<Pos L="436" C="38" PS="Ln:436, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.UmluftbetrStd" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="437" C="38" PS="Ln:437, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Box1Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="452" C="31" PS="Ln:452, Col:31" A="R"/>
+				<Pos L="455" C="31" PS="Ln:455, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Box1Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="456" C="31" PS="Ln:456, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.VentMinutenBox1" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="463" C="35" PS="Ln:463, Col:35" A="R"/>
+				<Pos L="466" C="35" PS="Ln:466, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.VentStundenBox1" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="467" C="35" PS="Ln:467, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.LuftaufbMinutenBox1" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="475" C="39" PS="Ln:475, Col:39" A="R"/>
+				<Pos L="478" C="39" PS="Ln:478, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.LuftaufbStundenBox1" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="479" C="39" PS="Ln:479, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Box2Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="489" C="31" PS="Ln:489, Col:31" A="R"/>
+				<Pos L="492" C="31" PS="Ln:492, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Box2Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="493" C="31" PS="Ln:493, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.VentMinutenBox2" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="500" C="35" PS="Ln:500, Col:35" A="R"/>
+				<Pos L="503" C="35" PS="Ln:503, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.VentStundenBox2" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="504" C="35" PS="Ln:504, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.LuftaufbMinutenBox2" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="512" C="39" PS="Ln:512, Col:39" A="R"/>
+				<Pos L="515" C="39" PS="Ln:515, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.LuftaufbStundenBox2" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="516" C="39" PS="Ln:516, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Box3Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="525" C="31" PS="Ln:525, Col:31" A="R"/>
+				<Pos L="528" C="31" PS="Ln:528, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Box3Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="529" C="31" PS="Ln:529, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.VentMinutenBox3" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="536" C="35" PS="Ln:536, Col:35" A="R"/>
+				<Pos L="539" C="35" PS="Ln:539, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.VentStundenBox3" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="540" C="35" PS="Ln:540, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.LuftaufbMinutenBox3" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="548" C="39" PS="Ln:548, Col:39" A="R"/>
+				<Pos L="551" C="39" PS="Ln:551, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.LuftaufbStundenBox3" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="552" C="39" PS="Ln:552, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Box4Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="561" C="31" PS="Ln:561, Col:31" A="R"/>
+				<Pos L="564" C="31" PS="Ln:564, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Box4Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="565" C="31" PS="Ln:565, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.VentMinutenBox4" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="572" C="35" PS="Ln:572, Col:35" A="R"/>
+				<Pos L="575" C="35" PS="Ln:575, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.VentStundenBox4" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="576" C="35" PS="Ln:576, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.LuftaufbMinutenBox4" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="584" C="39" PS="Ln:584, Col:39" A="R"/>
+				<Pos L="587" C="39" PS="Ln:587, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.LuftaufbStundenBox4" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="588" C="39" PS="Ln:588, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Box5Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="598" C="31" PS="Ln:598, Col:31" A="R"/>
+				<Pos L="601" C="31" PS="Ln:601, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Box5Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="602" C="31" PS="Ln:602, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.VentMinutenBox5" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="609" C="35" PS="Ln:609, Col:35" A="R"/>
+				<Pos L="612" C="35" PS="Ln:612, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.VentStundenBox5" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="613" C="35" PS="Ln:613, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.LuftaufbMinutenBox5" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="621" C="39" PS="Ln:621, Col:39" A="R"/>
+				<Pos L="624" C="39" PS="Ln:624, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.LuftaufbStundenBox5" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="625" C="39" PS="Ln:625, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Box6Min" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="635" C="31" PS="Ln:635, Col:31" A="R"/>
+				<Pos L="638" C="31" PS="Ln:638, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Bst.Box6Std" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="639" C="31" PS="Ln:639, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.VentMinutenBox6" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="646" C="35" PS="Ln:646, Col:35" A="R"/>
+				<Pos L="649" C="35" PS="Ln:649, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.VentStundenBox6" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="650" C="35" PS="Ln:650, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.LuftaufbMinutenBox6" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="658" C="39" PS="Ln:658, Col:39" A="R"/>
+				<Pos L="661" C="39" PS="Ln:661, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Trocknungsbilanz.LuftaufbStundenBox6" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="662" C="39" PS="Ln:662, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Serviceintervalle.RestzeitKontrolleUhrzeit" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="766" C="36" PS="Ln:766, Col:36" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Serviceintervalle.KontrolleUhrzeitErforderlich" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="770" C="2" PS="Ln:770, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmiButtons.ResetServiceUhrzeit" Scope="Global" Type="typHmiButtons">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="768" C="31" PS="Ln:768, Col:31" A="R"/>
+				<Pos L="772" C="6" PS="Ln:772, Col:6" A="R"/>
+				<Pos L="773" C="2" PS="Ln:773, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="doVentilator1Ein" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="85" C="63" PS="Ln:85, Col:63" A="R"/>
+				<Pos L="299" C="60" PS="Ln:299, Col:60" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doVentilator2Ein" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="96" C="63" PS="Ln:96, Col:63" A="R"/>
+				<Pos L="310" C="60" PS="Ln:310, Col:60" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doHeizregisterEin" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="151" C="37" PS="Ln:151, Col:37" A="R"/>
+				<Pos L="365" C="34" PS="Ln:365, Col:34" A="R"/>
+				<Pos L="472" C="80" PS="Ln:472, Col:80" A="R"/>
+				<Pos L="509" C="80" PS="Ln:509, Col:80" A="R"/>
+				<Pos L="545" C="80" PS="Ln:545, Col:80" A="R"/>
+				<Pos L="581" C="80" PS="Ln:581, Col:80" A="R"/>
+				<Pos L="618" C="80" PS="Ln:618, Col:80" A="R"/>
+				<Pos L="655" C="80" PS="Ln:655, Col:80" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doKompressorEinModul1" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="118" C="36" PS="Ln:118, Col:36" A="R"/>
+				<Pos L="332" C="34" PS="Ln:332, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doKompressorEinModul2" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="129" C="36" PS="Ln:129, Col:36" A="R"/>
+				<Pos L="343" C="34" PS="Ln:343, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doOelsumpfheizungEinModul1" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="66" C="32" PS="Ln:66, Col:32" A="R"/>
+				<Pos L="107" C="35" PS="Ln:107, Col:35" A="R"/>
+				<Pos L="321" C="31" PS="Ln:321, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doEntfFremdFreigabe" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="118" C="61" PS="Ln:118, Col:61" A="R"/>
+				<Pos L="332" C="59" PS="Ln:332, Col:59" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diEntfeuchterFremdInBetrieb" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="471" C="98" PS="Ln:471, Col:98" A="R"/>
+				<Pos L="508" C="98" PS="Ln:508, Col:98" A="R"/>
+				<Pos L="544" C="98" PS="Ln:544, Col:98" A="R"/>
+				<Pos L="580" C="98" PS="Ln:580, Col:98" A="R"/>
+				<Pos L="617" C="98" PS="Ln:617, Col:98" A="R"/>
+				<Pos L="654" C="98" PS="Ln:654, Col:98" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diVentilator1InBetrieb" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="85" C="36" PS="Ln:85, Col:36" A="R"/>
+				<Pos L="299" C="33" PS="Ln:299, Col:33" A="R"/>
+				<Pos L="460" C="59" PS="Ln:460, Col:59" A="R"/>
+				<Pos L="497" C="59" PS="Ln:497, Col:59" A="R"/>
+				<Pos L="533" C="59" PS="Ln:533, Col:59" A="R"/>
+				<Pos L="569" C="59" PS="Ln:569, Col:59" A="R"/>
+				<Pos L="606" C="59" PS="Ln:606, Col:59" A="R"/>
+				<Pos L="643" C="59" PS="Ln:643, Col:59" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diVentilator2InBetrieb" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="96" C="36" PS="Ln:96, Col:36" A="R"/>
+				<Pos L="310" C="33" PS="Ln:310, Col:33" A="R"/>
+				<Pos L="461" C="3" PS="Ln:461, Col:3" A="R"/>
+				<Pos L="498" C="3" PS="Ln:498, Col:3" A="R"/>
+				<Pos L="534" C="3" PS="Ln:534, Col:3" A="R"/>
+				<Pos L="570" C="3" PS="Ln:570, Col:3" A="R"/>
+				<Pos L="607" C="3" PS="Ln:607, Col:3" A="R"/>
+				<Pos L="644" C="3" PS="Ln:644, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diScheitholzofenInBetrieb" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="472" C="3" PS="Ln:472, Col:3" A="R"/>
+				<Pos L="509" C="3" PS="Ln:509, Col:3" A="R"/>
+				<Pos L="545" C="3" PS="Ln:545, Col:3" A="R"/>
+				<Pos L="581" C="3" PS="Ln:581, Col:3" A="R"/>
+				<Pos L="618" C="3" PS="Ln:618, Col:3" A="R"/>
+				<Pos L="655" C="3" PS="Ln:655, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diAbluftventInBetrieb" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="195" C="86" PS="Ln:195, Col:86" A="R"/>
+				<Pos L="409" C="83" PS="Ln:409, Col:83" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diBetriebsmldgKompressorModul1" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="471" C="64" PS="Ln:471, Col:64" A="R"/>
+				<Pos L="508" C="64" PS="Ln:508, Col:64" A="R"/>
+				<Pos L="544" C="64" PS="Ln:544, Col:64" A="R"/>
+				<Pos L="580" C="64" PS="Ln:580, Col:64" A="R"/>
+				<Pos L="617" C="64" PS="Ln:617, Col:64" A="R"/>
+				<Pos L="654" C="64" PS="Ln:654, Col:64" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+		<Enum Name="BETRIEB" Scope="Global" Type="enumBetriebsmodus">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="206" C="93" PS="Ln:206, Col:93" A="R"/>
+				<Pos L="217" C="85" PS="Ln:217, Col:85" A="R"/>
+				<Pos L="420" C="90" PS="Ln:420, Col:90" A="R"/>
+				<Pos L="431" C="82" PS="Ln:431, Col:82" A="R"/>
+			</File>
+		</Enum>
+	</Enums>
+	<Funcs>
+		<Func Name="DTGetTime" Lib="astime">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="72" C="2" PS="Ln:72, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="TON" Lib="standard">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="66" C="2" PS="Ln:66, Col:2"/>
+				<Pos L="776" C="2" PS="Ln:776, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="fbLascoZdxx" Lib="LascoUtil">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="21" C="2" PS="Ln:21, Col:2"/>
+				<Pos L="24" C="2" PS="Ln:24, Col:2"/>
+				<Pos L="27" C="2" PS="Ln:27, Col:2"/>
+				<Pos L="30" C="2" PS="Ln:30, Col:2"/>
+				<Pos L="33" C="2" PS="Ln:33, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="fbLascoBmin" Lib="LascoUtil">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="88" C="2" PS="Ln:88, Col:2"/>
+				<Pos L="99" C="2" PS="Ln:99, Col:2"/>
+				<Pos L="110" C="2" PS="Ln:110, Col:2"/>
+				<Pos L="121" C="2" PS="Ln:121, Col:2"/>
+				<Pos L="132" C="2" PS="Ln:132, Col:2"/>
+				<Pos L="143" C="2" PS="Ln:143, Col:2"/>
+				<Pos L="154" C="2" PS="Ln:154, Col:2"/>
+				<Pos L="165" C="2" PS="Ln:165, Col:2"/>
+				<Pos L="176" C="2" PS="Ln:176, Col:2"/>
+				<Pos L="187" C="2" PS="Ln:187, Col:2"/>
+				<Pos L="198" C="2" PS="Ln:198, Col:2"/>
+				<Pos L="209" C="2" PS="Ln:209, Col:2"/>
+				<Pos L="220" C="2" PS="Ln:220, Col:2"/>
+				<Pos L="231" C="2" PS="Ln:231, Col:2"/>
+				<Pos L="242" C="2" PS="Ln:242, Col:2"/>
+				<Pos L="253" C="2" PS="Ln:253, Col:2"/>
+				<Pos L="264" C="2" PS="Ln:264, Col:2"/>
+				<Pos L="275" C="2" PS="Ln:275, Col:2"/>
+				<Pos L="286" C="2" PS="Ln:286, Col:2"/>
+				<Pos L="302" C="2" PS="Ln:302, Col:2"/>
+				<Pos L="313" C="2" PS="Ln:313, Col:2"/>
+				<Pos L="324" C="2" PS="Ln:324, Col:2"/>
+				<Pos L="335" C="2" PS="Ln:335, Col:2"/>
+				<Pos L="346" C="2" PS="Ln:346, Col:2"/>
+				<Pos L="357" C="2" PS="Ln:357, Col:2"/>
+				<Pos L="368" C="2" PS="Ln:368, Col:2"/>
+				<Pos L="379" C="2" PS="Ln:379, Col:2"/>
+				<Pos L="390" C="2" PS="Ln:390, Col:2"/>
+				<Pos L="401" C="2" PS="Ln:401, Col:2"/>
+				<Pos L="412" C="2" PS="Ln:412, Col:2"/>
+				<Pos L="423" C="2" PS="Ln:423, Col:2"/>
+				<Pos L="434" C="2" PS="Ln:434, Col:2"/>
+				<Pos L="453" C="2" PS="Ln:453, Col:2"/>
+				<Pos L="464" C="2" PS="Ln:464, Col:2"/>
+				<Pos L="476" C="2" PS="Ln:476, Col:2"/>
+				<Pos L="490" C="2" PS="Ln:490, Col:2"/>
+				<Pos L="501" C="2" PS="Ln:501, Col:2"/>
+				<Pos L="513" C="2" PS="Ln:513, Col:2"/>
+				<Pos L="526" C="2" PS="Ln:526, Col:2"/>
+				<Pos L="537" C="2" PS="Ln:537, Col:2"/>
+				<Pos L="549" C="2" PS="Ln:549, Col:2"/>
+				<Pos L="562" C="2" PS="Ln:562, Col:2"/>
+				<Pos L="573" C="2" PS="Ln:573, Col:2"/>
+				<Pos L="585" C="2" PS="Ln:585, Col:2"/>
+				<Pos L="599" C="2" PS="Ln:599, Col:2"/>
+				<Pos L="610" C="2" PS="Ln:610, Col:2"/>
+				<Pos L="622" C="2" PS="Ln:622, Col:2"/>
+				<Pos L="636" C="2" PS="Ln:636, Col:2"/>
+				<Pos L="647" C="2" PS="Ln:647, Col:2"/>
+				<Pos L="659" C="2" PS="Ln:659, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="fbLascoStdMin" Lib="LascoUtil">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="92" C="2" PS="Ln:92, Col:2"/>
+				<Pos L="103" C="2" PS="Ln:103, Col:2"/>
+				<Pos L="114" C="2" PS="Ln:114, Col:2"/>
+				<Pos L="125" C="2" PS="Ln:125, Col:2"/>
+				<Pos L="136" C="2" PS="Ln:136, Col:2"/>
+				<Pos L="147" C="2" PS="Ln:147, Col:2"/>
+				<Pos L="158" C="2" PS="Ln:158, Col:2"/>
+				<Pos L="169" C="2" PS="Ln:169, Col:2"/>
+				<Pos L="180" C="2" PS="Ln:180, Col:2"/>
+				<Pos L="191" C="2" PS="Ln:191, Col:2"/>
+				<Pos L="202" C="2" PS="Ln:202, Col:2"/>
+				<Pos L="213" C="2" PS="Ln:213, Col:2"/>
+				<Pos L="224" C="2" PS="Ln:224, Col:2"/>
+				<Pos L="235" C="2" PS="Ln:235, Col:2"/>
+				<Pos L="246" C="2" PS="Ln:246, Col:2"/>
+				<Pos L="257" C="2" PS="Ln:257, Col:2"/>
+				<Pos L="268" C="2" PS="Ln:268, Col:2"/>
+				<Pos L="279" C="2" PS="Ln:279, Col:2"/>
+				<Pos L="290" C="2" PS="Ln:290, Col:2"/>
+				<Pos L="306" C="2" PS="Ln:306, Col:2"/>
+				<Pos L="317" C="2" PS="Ln:317, Col:2"/>
+				<Pos L="328" C="2" PS="Ln:328, Col:2"/>
+				<Pos L="339" C="2" PS="Ln:339, Col:2"/>
+				<Pos L="350" C="2" PS="Ln:350, Col:2"/>
+				<Pos L="361" C="2" PS="Ln:361, Col:2"/>
+				<Pos L="372" C="2" PS="Ln:372, Col:2"/>
+				<Pos L="383" C="2" PS="Ln:383, Col:2"/>
+				<Pos L="394" C="2" PS="Ln:394, Col:2"/>
+				<Pos L="405" C="2" PS="Ln:405, Col:2"/>
+				<Pos L="416" C="2" PS="Ln:416, Col:2"/>
+				<Pos L="427" C="2" PS="Ln:427, Col:2"/>
+				<Pos L="438" C="2" PS="Ln:438, Col:2"/>
+				<Pos L="457" C="2" PS="Ln:457, Col:2"/>
+				<Pos L="468" C="2" PS="Ln:468, Col:2"/>
+				<Pos L="480" C="2" PS="Ln:480, Col:2"/>
+				<Pos L="494" C="2" PS="Ln:494, Col:2"/>
+				<Pos L="505" C="2" PS="Ln:505, Col:2"/>
+				<Pos L="517" C="2" PS="Ln:517, Col:2"/>
+				<Pos L="530" C="2" PS="Ln:530, Col:2"/>
+				<Pos L="541" C="2" PS="Ln:541, Col:2"/>
+				<Pos L="553" C="2" PS="Ln:553, Col:2"/>
+				<Pos L="566" C="2" PS="Ln:566, Col:2"/>
+				<Pos L="577" C="2" PS="Ln:577, Col:2"/>
+				<Pos L="589" C="2" PS="Ln:589, Col:2"/>
+				<Pos L="603" C="2" PS="Ln:603, Col:2"/>
+				<Pos L="614" C="2" PS="Ln:614, Col:2"/>
+				<Pos L="626" C="2" PS="Ln:626, Col:2"/>
+				<Pos L="640" C="2" PS="Ln:640, Col:2"/>
+				<Pos L="651" C="2" PS="Ln:651, Col:2"/>
+				<Pos L="663" C="2" PS="Ln:663, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="fbLascoSrvcInterv" Lib="LascoUtil">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="769" C="2" PS="Ln:769, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="fbRestzeit" Lib="LascoBoxen">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\Nutzung\Nutzung.st">
+				<Pos L="679" C="2" PS="Ln:679, Col:2"/>
+				<Pos L="694" C="2" PS="Ln:694, Col:2"/>
+				<Pos L="709" C="2" PS="Ln:709, Col:2"/>
+				<Pos L="724" C="2" PS="Ln:724, Col:2"/>
+				<Pos L="738" C="2" PS="Ln:738, Col:2"/>
+				<Pos L="753" C="2" PS="Ln:753, Col:2"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

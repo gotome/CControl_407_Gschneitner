@@ -1,0 +1,18 @@
+(********************************************************************
+ * COPYRIGHT -- LASCO Heu- und Forsttechnik GmbH
+ ********************************************************************
+ * Library: LascoReg
+ * Datei: LascoReg.var
+ * Autor: Rudolf Lachner
+ * Erstellt: 16. Juli 2014
+ ********************************************************************
+ * Konstanten der Library LascoReg
+ ********************************************************************)
+VAR CONSTANT
+	FBREG_MODUS_AUS : USINT := 0;
+	FBREG_MODUS_AUTO : USINT := 1;
+	FBREG_MODUS_MANUELL : USINT := 102;
+	FBREG_MODUS_OPEN : USINT := 103;
+	FBREG_MODUS_CLOSE : USINT := 104;
+	FBREG_MODUS_FREEZE : USINT := 105;
+END_VAR

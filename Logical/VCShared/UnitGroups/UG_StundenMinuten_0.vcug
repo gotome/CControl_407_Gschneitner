@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<UnitGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="UG_StundenMinuten_0">
+  <Property Name="DefaultDisplayUnit" Value="Source[embedded].Unit[Stunden]"/>
+  <Property Name="DefaultLimit" Value="None"/>
+  <Property Name="DefaultPLCUnit" Value="None"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="InternalUnitTextIndex" Value="0"/>
+  <Property Name="RuntimeUnitChange" Value="None"/>
+  <Property Name="RuntimeUnitCurrentDatapoint" Value="None"/>
+  <TextGroup Name="TextGroup_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="Index" Value="65536"/>
+    <TextSnippets/>
+    <TextLayer LanguageId="en">
+      <Text ID="122533" Value=""/>
+      <Text ID="122534" Value="h"/>
+      <Text ID="122535" Value="h"/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="122533" Value=""/>
+      <Text ID="122534" Value="h"/>
+      <Text ID="122535" Value="h"/>
+    </TextLayer>
+    <TextLayer LanguageId="fr">
+      <Text ID="122533" Value=""/>
+      <Text ID="122534" Value="h"/>
+      <Text ID="122535" Value="h"/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-BE">
+      <Text ID="122533" Value=""/>
+      <Text ID="122534" Value="h"/>
+      <Text ID="122535" Value="h"/>
+    </TextLayer>
+    <TextLayer LanguageId="es">
+      <Text ID="122533" Value=""/>
+      <Text ID="122534" Value=""/>
+      <Text ID="122535" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sl">
+      <Text ID="122533" Value=""/>
+      <Text ID="122534" Value="h"/>
+      <Text ID="122535" Value="h"/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="122533" Value="0"/>
+      <Index ID="122534" Value="1"/>
+      <Index ID="122535" Value="2"/>
+    </IndexMap>
+  </TextGroup>
+  <Units>
+    <Unit ClassId="0x00000603" Name="Stunden">
+      <Property Name="DefaultPrecisionDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Index" Value="0"/>
+      <Property Name="Text_Abbreviation_TextGroup" Value="None"/>
+      <Property Name="Text_Abbreviation_TextIndex" Value="2"/>
+      <Property Name="Text_Description_TextGroup" Value="None"/>
+      <Property Name="Text_Description_TextIndex" Value="1"/>
+      <Property Name="UnitFraction" Value="False"/>
+      <Property Name="Unit_DefaultPrecision" Value="0"/>
+      <Property Name="Value[0].Internal" Value="0"/>
+      <Property Name="Value[0].Scaled" Value="0"/>
+      <Property Name="Value[1].Internal" Value="60"/>
+      <Property Name="Value[1].Scaled" Value="1"/>
+    </Unit>
+  </Units>
+  <Limits/>
+</UnitGroup>

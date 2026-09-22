@@ -1,0 +1,1740 @@
+
+
+PROGRAM _CYCLIC
+
+	RTC_gettime_Status = RTC_gettime(ADR(CSV_Uhr))        
+
+	;+---------------------------------------------------------------------------+
+	;¦   W                       Warnungen auf Merker                       W    ¦
+	;+---------------------------------------------------------------------------+
+
+	; W01) Älteste Datei wurde autom. gelöscht  (Wenn Speichermanagment aktiv und Speichergrenzwert unterschitten wurde)
+	; ========================================
+	;  CSV01.WA.RPS_Datei_alt_geloescht = 1		; -> wird im Hauptprogramm generiert
+
+
+	; W02) Fehler File not found :  			(Wenn Data-Write ohne Kopf-Write und kein File vorhanden ist !)
+	; ============================
+	; CSV01.WA.File_not_found = 1   			; -> wird im Hauptprogramm generiert
+
+	; SW) Summenwarnung
+	; =================
+	CSV01.IW.SWarnung    = 0
+	CSV01.IW.SWarnung_Nr = 0
+	LOOP i = 0 TO (SIZEOF(CSV01.WA)) - 1 DO
+		P_Warnung ACCESS ADR(CSV01.WA) + i
+		IF P_Warnung = 1 THEN
+			CSV01.IW.SWarnung    = 1
+			CSV01.IW.SWarnung_Nr = USINT(i)
+			EXITIF 1 = 1
+		ENDIF  	
+	ENDLOOP
+   
+	;+---------------------------------------------------------------------------+
+	;¦   F                       Fehler auf Merker                          F    ¦
+	;+---------------------------------------------------------------------------+
+
+	; F01) Fehler Schreibebefehl aber keine Bereit-Meldung :	;(Task braucht ev. eine schnellere Zykluszeit - Datensätze gehen verloren)
+	; ======================================================
+	TON_10ms(InitOK, 3*100, M_InitOK, ET)
+	IF EDGEPOS(CSV01.SW.DATA_WRITE_T AND M_InitOK = 1) THEN
+		IF CSV01.IW.DATA_WRITE_BEREIT = 0 THEN
+			CSV01.FE.Datensatz_Fehler = 1		
+		ENDIF
+	ENDIF
+
+	; F02) Fehler Datenobjekt "CSV1_CFG" :		(Datenobjekt konnte nicht ausgelesen werden)
+	; ====================================
+	IF (DatObjInfo_01.status <> 0) THEN
+		CSV01.FE.DatObj_CFG = 1
+	ELSE
+		CSV01.FE.DatObj_CFG = 0
+	ENDIF
+
+	; F03) Fehler Datenobjekt "CSV1_CFG" : 		(Datenobjekt-Größe stimmt nicht mit Zeilenanzahl überein - Tabulator enthalten oder Spaltenbreite nicht eingehalten)
+	; ====================================
+	; CSV01.FE.DatObj_CFG_length = 1			; -> wird im Hauptprogramm generiert
+
+	; F04) Fehler Datenobjekt "Zeilen MAX" : 	(Wenn im Datenobjeckt mehr als 300 Variableneinträge vorhanden sind - wird auf 300 begrenzt !)
+	; ====================================
+	; CSV01.FE.DatObj_ZeilenMAX = 1				; -> wird im Hauptprogramm generiert
+
+	; F05) Fehler Datenobjekt "Tag-ID" : 		(Wenn eine Tag-ID mehrfach vergeben ist !)
+	; ==================================
+	; CSV01.FE.DatObj_Tag_ID = 1				; -> wird im Hauptprogramm generiert
+
+	; F06) Fehler Datenobjekt "Tag-Variable" : 	(Wenn ein im Datenobjekt angegebener Variablenname nicht existiert !)
+	; ========================================
+	; CSV01.FE.DatObj_Tag_Variable = 1			; -> wird im Hauptprogramm generiert
+
+	; F07) Fehler Datenobjekt "Datentyp" : 		(Wenn der Datentyp einer im Datenobjekt angegebener Datentyp nicht möglich ist !)
+	; ====================================
+	; CSV01.FE.DatObj_Tag_Datentyp = 1			; -> wird im Hauptprogramm generiert
+
+	; F08) Fehler Datenobjekt "MIN" : 			(Wenn im Datenobjeckt MIN-Begrenzung hat keinen gültigen Wert!)
+	; ===============================
+	; CSV01.FE.DatObj_Tag_MIN = 1				; -> wird im Hauptprogramm generiert
+
+	; F09) Fehler Datenobjekt "MAX" : 			(Wenn im Datenobjeckt MIN-Begrenzung hat keinen gültigen Wert!)
+	; ===============================
+	; CSV01.FE.DatObj_Tag_MAX = 1				; -> wird im Hauptprogramm generiert
+
+	; F10) Fehler RPS-zu wenig Speicherplatz :  (Wenn zu wenig Speicher auf RPS vorhanden !)
+	; ========================================
+	; CSV01.FE.RPS_kein_Speicherplatz = 1		; -> wird im Hauptprogramm generiert
+
+	; F11) Fehler RPS-Ebene: FUB "DirCreate"
+	; ======================
+	IF (CSV01.IW.RPS_DirCreate_FehlerNr <> 0) THEN
+		CSV01.FE.RPS_DirCreate = 1
+	ELSE
+		CSV01.FE.RPS_DirCreate = 0  
+	ENDIF	
+  
+	; F12) Fehler RPS-Ebene: FUB "FileCreate" 
+	; ======================
+	IF (CSV01.IW.RPS_FileCreate_FehlerNr <> 0) THEN
+		CSV01.FE.RPS_FileCreate = 1
+	ELSE
+		CSV01.FE.RPS_FileCreate = 0  
+	ENDIF	
+
+	; F13) Fehler RPS-Ebene: FUB "FileOpen" 
+	; ======================
+	IF (CSV01.IW.RPS_FileOpen_FehlerNr <> 0) THEN
+		CSV01.FE.RPS_FileOpen = 1
+	ELSE
+		CSV01.FE.RPS_FileOpen = 0  
+	ENDIF	
+
+	; F14) Fehler RPS-Ebene: FUB "FileWrite" 
+	; ======================
+	IF (CSV01.IW.RPS_FileWrite_FehlerNr <> 0) THEN   
+		CSV01.FE.RPS_FileWrite = 1
+	ELSE
+		CSV01.FE.RPS_FileWrite = 0
+	ENDIF
+
+	; F15) Fehler RPS-Ebene: FUB "FileRead" 
+	; ======================
+	IF (CSV01.IW.RPS_FileRead_FehlerNr <> 0) THEN   
+		CSV01.FE.RPS_FileRead = 1
+	ELSE
+		CSV01.FE.RPS_FileRead = 0
+	ENDIF
+
+	; F16) Fehler RPS-Ebene: FUB "FileClose" 
+	; ======================
+	IF (CSV01.IW.RPS_FileClose_FehlerNr <> 0) THEN
+		CSV01.FE.RPS_FileClose = 1
+	ELSE
+		CSV01.FE.RPS_FileClose = 0  
+	ENDIF	
+
+	; F17) Fehler RPS-Ebene: FUB "MemInfo" 
+	; ======================
+	IF (CSV01.IW.RPS_MemInfo_FehlerNr <> 0) THEN
+		CSV01.FE.RPS_MemInfo = 1
+	ELSE
+		CSV01.FE.RPS_MemInfo = 0  
+	ENDIF	
+
+	; F18) Fehler RPS-Ebene: FUB "DirInfo" 
+	; ======================
+	IF (CSV01.IW.RPS_DirInfo_FehlerNr <> 0) THEN
+		CSV01.FE.RPS_DirInfo = 1
+	ELSE
+		CSV01.FE.RPS_DirInfo = 0  
+	ENDIF	
+
+	; F19) Fehler RPS-Ebene: FUB "DirRead" 
+	; ======================
+	IF (CSV01.IW.RPS_DirRead_FehlerNr <> 0) THEN
+		CSV01.FE.RPS_DirRead = 1
+	ELSE
+		CSV01.FE.RPS_DirRead = 0  
+	ENDIF	
+
+	; F20) Fehler RPS-Ebene: FUB "FileDelete" 
+	; ======================
+	IF (CSV01.IW.RPS_FileDelete_FehlerNr <> 0) THEN
+		CSV01.FE.RPS_FileDelete = 1
+	ELSE
+		CSV01.FE.RPS_FileDelete = 0  
+	ENDIF	
+
+	; F21) Fehler RPS-Ebene: FUB "DirDeleteEx" 
+	; ======================
+	IF (CSV01.IW.RPS_DirDeleteEx_FehlerNr <> 0) THEN
+		CSV01.FE.RPS_DirDeleteEx = 1
+	ELSE
+		CSV01.FE.RPS_DirDeleteEx = 0  
+	ENDIF	
+
+	; F22) Fehler PC-Ebene: FUB "DevLink" 
+	; =====================
+	IF (CSV01.IW.PC_DevLink_FehlerNr <> 0) THEN
+		CSV01.FE.PC_DevLink = 1
+	ELSE
+		CSV01.FE.PC_DevLink = 0
+	ENDIF
+
+	; F23) Fehler PC-Ebene: FUB "DirCreate" 
+	; =====================
+	IF (CSV01.IW.PC_DirCreate_FehlerNr <> 0) THEN
+		CSV01.FE.PC_DirCreate = 1
+	ELSE
+		CSV01.FE.PC_DirCreate = 0
+	ENDIF
+
+	; F24) Fehler PC-Ebene: FUB "FileCopy" 
+	; =====================
+	IF (CSV01.IW.PC_FileCopy_FehlerNr <> 0) THEN
+		CSV01.FE.PC_FileCopy = 1
+	ELSE
+		CSV01.FE.PC_FileCopy = 0
+	ENDIF
+
+	; F25) Fehler PC-Ebene: FUB "DirCopy" 
+	; =====================
+	IF (CSV01.IW.PC_DirCopy_FehlerNr <> 0) THEN
+		CSV01.FE.PC_DirCopy = 1
+	ELSE
+		CSV01.FE.PC_DirCopy = 0  
+	ENDIF	
+
+	; F26) Fehler EXT-Device: FUB "DirCreate" 
+	; =======================
+	IF (CSV01.IW.EXT_DirCreate_FehlerNr <> 0) THEN
+		CSV01.FE.EXT_DirCreate = 1
+	ELSE
+		CSV01.FE.EXT_DirCreate = 0
+	ENDIF
+
+	; F27) Fehler EXT-Device: FUB "FileCopy" 
+	; =======================
+	IF (CSV01.IW.EXT_FileCopy_FehlerNr <> 0) THEN
+		CSV01.FE.EXT_FileCopy = 1
+	ELSE
+		CSV01.FE.EXT_FileCopy = 0
+	ENDIF
+
+	; F28) Fehler EXT-Device: FUB "DirCopy" 
+	; =======================
+	IF (CSV01.IW.EXT_DirCopy_FehlerNr <> 0) THEN
+		CSV01.FE.EXT_DirCopy = 1
+	ELSE
+		CSV01.FE.EXT_DirCopy = 0  
+	ENDIF	
+
+	; SF) Summenfehler
+	; ================
+	CSV01.IW.SFehler    = 0
+	CSV01.IW.SFehler_Nr = 0
+	LOOP i = 0 TO (SIZEOF(CSV01.FE)) - 1 DO
+		P_Fehler ACCESS ADR(CSV01.FE) + i
+		IF P_Fehler = 1 THEN
+			CSV01.IW.SFehler    = 1
+			CSV01.IW.SFehler_Nr = USINT(i)
+			EXITIF 1 = 1
+		ENDIF	  	
+	ENDLOOP
+	   
+	; SF) Fehler-Quittierung
+	; ======================
+	IF CSV01.SW.F_Quitt_T = 1 THEN
+		CSV01.SW.F_Quitt_T = 0
+		memset(ADR(CSV01.FE), 0, SIZEOF(CSV01.FE))
+		memset(ADR(CSV01.WA), 0, SIZEOF(CSV01.WA))
+		CSV01.IW.RPS_DirCreate_FehlerNr      = 0
+		CSV01.IW.RPS_FileCreate_FehlerNr     = 0
+		CSV01.IW.RPS_FileOpen_FehlerNr       = 0
+		CSV01.IW.RPS_FileWrite_FehlerNr      = 0
+		CSV01.IW.RPS_FileRead_FehlerNr	      = 0
+		CSV01.IW.RPS_FileClose_FehlerNr      = 0 
+		CSV01.IW.RPS_MemInfo_FehlerNr        = 0 
+		CSV01.IW.RPS_DirInfo_FehlerNr        = 0 
+		CSV01.IW.RPS_DirRead_FehlerNr        = 0 
+		CSV01.IW.RPS_FileDelete_FehlerNr     = 0 
+		CSV01.IW.RPS_DirCopy_FehlerNr        = 0 
+		CSV01.IW.RPS_DirDeleteEx_FehlerNr    = 0 
+		CSV01.IW.PC_DevLink_FehlerNr         = 0 
+		CSV01.IW.PC_DirCreate_FehlerNr       = 0  
+		CSV01.IW.PC_FileCopy_FehlerNr        = 0 
+		CSV01.IW.DatObj_Tag_ID_ZeileNr       = 0
+		CSV01.IW.DatObj_Tag_Variable_ZeileNr = 0
+		CSV01.IW.DatObj_Tag_Datentyp_ZeileNr = 0
+		CSV01.IW.DatObj_Tag_MIN_ZeileNr      = 0
+		CSV01.IW.DatObj_Tag_MAX_ZeileNr      = 0
+	ENDIF	 
+
+	;+---------------------------------------------------------------------------+
+	;¦   BetrArt            Grübl-Reporting od. QM Heizwerke           BetrArt   |
+	;+---------------------------------------------------------------------------+
+
+	; !! Für Auswertung mit Grübl-Reporting Software sind alle Kopfdaten und langes Datumsformat erforderlich (alles = 1) !!
+	IF CSV01.SW.Gruebl_Reporting_T  = 1 THEN
+		CSV01.SW.Kopf_Version_T      = 1    ; 1.Zeile      : Software-Version aus Datenmodul in CSV-Datei eintragen
+		CSV01.SW.Kopf_Anlagenname_T  = 1    ; nächste Zeile: Anlagennamen aus Datenmodul in CSV-Datei eintragen
+		CSV01.SW.Kopf_ID_T           = 1    ; nächste Zeile: TAG-ID aus Datenmodul in CSV-Datei eintragen
+		CSV01.SW.Kopf_Bezeichnung_T  = 1    ; nächste Zeile: TAG-Bezeichnung aus Datenmodul in CSV-Datei eintragen
+		CSV01.SW.Kopf_Einheit_T      = 1	 ; nächste Zeile: TAG-Einheit aus Datenmodul in CSV-Datei eintragen
+		CSV01.SW.Kopf_Datentyp_T     = 1    ; nächste Zeile: TAG-Datentyp aus Datenmodul in CSV-Datei eintragen
+		CSV01.SW.Kopf_MIN_MAX_T      = 1	 ; nächste Zeile: TAG-MIN/MAX Begrenzung aus Datenmodul in CSV-Datei eintragen
+		CSV01.SW.Zeitstempel_lang_T  = 1    ; 1=Grübl Reporting, 0=QM Heizwerke
+		CSV01.SW.Begrenzung_MINMAX_T = 1    ; 1=Grübl Reporting, 0=QM Heizwerke (ist Variable außerhalb der Grenzwerte wird kein Wert in Zelle eingetragen - nur ";"
+	ELSE IF CSV01.SW.QM_HeizW_T = 1 THEN
+		CSV01.SW.QM_HeizW_BetrJahr_Mon = 3  ; Beginn des Betriebsjahres (Monat) - neue Datei anlegen
+		CSV01.SW.Kopf_Version_T      = 1    ; 1.Zeile      : Software-Version aus Datenmodul in CSV-Datei eintragen
+		CSV01.SW.Kopf_Anlagenname_T  = 1    ; nächste Zeile: Anlagennamen aus Datenmodul in CSV-Datei eintragen
+		CSV01.SW.Kopf_ID_T           = 0    ; nächste Zeile: TAG-ID aus Datenmodul in CSV-Datei eintragen
+		CSV01.SW.Kopf_Bezeichnung_T  = 1    ; nächste Zeile: TAG-Bezeichnung aus Datenmodul in CSV-Datei eintragen
+		CSV01.SW.Kopf_Einheit_T      = 1	 ; nächste Zeile: TAG-Einheit aus Datenmodul in CSV-Datei eintragen
+		CSV01.SW.Kopf_Datentyp_T     = 0    ; nächste Zeile: TAG-Datentyp aus Datenmodul in CSV-Datei eintragen
+		CSV01.SW.Kopf_MIN_MAX_T      = 0	 ; nächste Zeile: TAG-MIN/MAX Begrenzung aus Datenmodul in CSV-Datei eintragen
+		CSV01.SW.Zeitstempel_lang_T  = 0    ; 1=Grübl Reporting, 0=QM Heizwerke
+		CSV01.SW.Begrenzung_MINMAX_T = 0    ; 1=Grübl Reporting, 0=QM Heizwerke (ist Variable außerhalb der Grenzwerte wird kein Wert in Zelle eingetragen - nur ";"
+	ENDIF	
+  
+	;+---------------------------------------------------------------------------+
+	;¦   WRITE                   Befehle + Zykluszeit                  WRITE    ¦
+	;+---------------------------------------------------------------------------+
+
+	; WR_01) Neue Datei anlegen + Kopfdaten schreiben
+	; ----------------------------------------------
+	IF (CSV01.SW.KOPF_WRITE_T AND CSV01.IW.RPS_DirRead_Start_OK = 1) THEN
+		CSV01.SW.KOPF_WRITE_T = 0
+		CSV01.IW.KOPF_WRITE   = 1
+	ENDIF	  
+
+	; WR_02) Datensatz in aktuelle Datei schreiben
+	; --------------------------------------------
+	IF (CSV01.SW.DATA_WRITE_T AND CSV01.IW.RPS_DirRead_Start_OK = 1) THEN
+		CSV01.SW.DATA_WRITE_T = 0
+		CSV01.IW.DATA_WRITE   = 1
+	ENDIF	  
+
+	; WR_03) Zykluszeit jedes Datensatz-Schreibvorganges messen (nur Info)
+	; --------------------------------------------------------------------
+	IF CSV01.IW.RPS_SAVE_STEP_Nr <> 0 THEN
+		CSV01.IW.Zyklus_t_akt = CSV01.IW.Zyklus_t_akt + ZyklTime		;[msek]
+	ELSE IF CSV01.IW.Zyklus_t_akt > 0 THEN
+		CSV01.IW.Zyklus_t_letzt = CSV01.IW.Zyklus_t_akt				;[msek]
+		CSV01.IW.Zyklus_t_akt   = 0
+	ENDIF   
+
+	;+---------------------------------------------------------------------------+
+	;¦   DatObj         Datenobjekt mit Konfiguration auslesen         DatObj    ¦
+	;+---------------------------------------------------------------------------+
+	; - Konfigurationsdaten werden nur bei InitUp bzw. Datenmoduländerung (Zeitstempel) ausgelesen
+
+	DatObjInfo_01.enable = 1
+	DatObjInfo_01.pName  = ADR(DatObjInfo_01_Name)
+	DatObjInfo_01 FUB DatObjInfo()
+
+	DatObj1_Size = SIZEOF(CSV_DatObj1)  	; Struktur für gesamten [ABSCHNITT_CONFIG] aus Datenobjekt
+	DatObj2_Size = SIZEOF(CSV_DatObj2)	; Struktur für 1 Zeile  [ABSCHNITT_DATEN]  aus Datenobjekt
+   
+	IF (DatObjInfo_01.status = 0) AND ((DatObjInfo_01.len - DatObj1_Size) MOD DatObj2_Size <> 0) THEN
+		CSV01.FE.DatObj_CFG_length = 1 	; Die Größe des Datenobjektes abzüglich der Konfigurationsstruktur muß ein Vielfaches der Zeilenstruktur sein 
+		CSV01.IW.RPS_SAVE_STEP_Nr  = 0 	; ansonsten stimmt der Aufbau nicht (Tabulator-Taste verwendet oder Spaltenbreite wurde nicht eingehalten)
+	ENDIF  	  			  	        
+							
+	; 1.1) Datenobjekt "CSV01_CFG" [ABSCHNITT_CONFIG] auslesen und auf Struktur "CSV_DatObj1" legen :
+	; ===============================================================================================
+	; Datenmodul nur auslesen bei Initup od. wenn sich der Zeitstempel (Download) geändert hat :
+  
+	IF (DatObjInfo_01.status = 0) AND (CSV01.FE.DatObj_CFG_length = 0) AND (DiffDT(DatObjInfo_01.ChangeDate, M_DatObj_ChangDate) > 0) THEN  
+		M_DatObj_ChangDate = DatObjInfo_01.ChangeDate
+		memcpy(ADR(CSV_DatObj1), DatObjInfo_01.pDatObjMem, SIZEOF(CSV_DatObj1))
+		LOOP ii = (SIZEOF(CSV_DatObj1.Anlagename) - 1) DOWNTO 0 DO
+			EXITIF (CSV_DatObj1.Anlagename[ii] <> 0) AND (CSV_DatObj1.Anlagename[ii] <> 32)
+			IF CSV_DatObj1.Anlagename[ii] = 32 THEN 	; Alle Leerzeichen am Ende löschen
+				CSV_DatObj1.Anlagename[ii] = 0 
+			ENDIF
+		ENDLOOP	  
+		LOOP ii = (SIZEOF(CSV_DatObj1.Version) - 1) DOWNTO 0 DO
+			EXITIF (CSV_DatObj1.Version[ii] <> 0) AND (CSV_DatObj1.Version[ii] <> 32)
+			IF CSV_DatObj1.Version[ii] = 32 THEN		; Alle Leerzeichen am Ende löschen
+				CSV_DatObj1.Version[ii] = 0 
+			ENDIF
+		ENDLOOP	  
+		LOOP ii = (SIZEOF(CSV_DatObj1.RPS_Device) - 1) DOWNTO 0 DO
+			EXITIF (CSV_DatObj1.RPS_Device[ii] <> 0) AND (CSV_DatObj1.RPS_Device[ii] <> 32)
+			IF CSV_DatObj1.RPS_Device[ii] = 32 THEN	; Alle Leerzeichen am Ende löschen
+				CSV_DatObj1.RPS_Device[ii] = 0 
+			ENDIF
+		ENDLOOP	  
+		LOOP ii = (SIZEOF(CSV_DatObj1.RPS_Zielpfad) - 1) DOWNTO 0 DO
+			EXITIF (CSV_DatObj1.RPS_Zielpfad[ii] <> 0) AND (CSV_DatObj1.RPS_Zielpfad[ii] <> 32)
+			IF CSV_DatObj1.RPS_Zielpfad[ii] = 32 THEN	; Alle Leerzeichen am Ende löschen
+				CSV_DatObj1.RPS_Zielpfad[ii] = 0 
+			ENDIF
+		ENDLOOP	  
+		LOOP ii = (SIZEOF(CSV_DatObj1.EXT_Device) - 1) DOWNTO 0 DO
+			EXITIF (CSV_DatObj1.EXT_Device[ii] <> 0) AND (CSV_DatObj1.EXT_Device[ii] <> 32)
+			IF CSV_DatObj1.EXT_Device[ii] = 32 THEN	; Alle Leerzeichen am Ende löschen
+				CSV_DatObj1.EXT_Device[ii] = 0 
+			ENDIF
+		ENDLOOP	  
+		LOOP ii = (SIZEOF(CSV_DatObj1.EXT_Zielpfad) - 1) DOWNTO 0 DO
+			EXITIF (CSV_DatObj1.EXT_Zielpfad[ii] <> 0) AND (CSV_DatObj1.EXT_Zielpfad[ii] <> 32)
+			IF CSV_DatObj1.EXT_Zielpfad[ii] = 32 THEN	; Alle Leerzeichen am Ende löschen
+				CSV_DatObj1.EXT_Zielpfad[ii] = 0 
+			ENDIF
+		ENDLOOP	  
+		LOOP ii = (SIZEOF(CSV_DatObj1.PC_Zielpfad) - 1) DOWNTO 0 DO
+			EXITIF (CSV_DatObj1.PC_Zielpfad[ii] <> 0) AND (CSV_DatObj1.PC_Zielpfad[ii] <> 32)
+			IF CSV_DatObj1.PC_Zielpfad[ii] = 32 THEN	; Alle Leerzeichen am Ende löschen
+				CSV_DatObj1.PC_Zielpfad[ii] = 0 
+			ENDIF
+		ENDLOOP	  
+		LOOP ii = (SIZEOF(CSV_DatObj1.PC_IP_Adresse) - 1) DOWNTO 0 DO
+			EXITIF (CSV_DatObj1.PC_IP_Adresse[ii] <> 0) AND (CSV_DatObj1.PC_IP_Adresse[ii] <> 32)
+			IF CSV_DatObj1.PC_IP_Adresse[ii] = 32 THEN	; Alle Leerzeichen am Ende löschen
+				CSV_DatObj1.PC_IP_Adresse[ii] = 0 
+			ENDIF
+		ENDLOOP	  
+		LOOP ii = (SIZEOF(CSV_DatObj1.PC_Ordnerfreigabe) - 1) DOWNTO 0 DO
+			EXITIF (CSV_DatObj1.PC_Ordnerfreigabe[ii] <> 0) AND (CSV_DatObj1.PC_Ordnerfreigabe[ii] <> 32)
+			IF CSV_DatObj1.PC_Ordnerfreigabe[ii] = 32 THEN	; Alle Leerzeichen am Ende löschen
+				CSV_DatObj1.PC_Ordnerfreigabe[ii] = 0 
+			ENDIF
+		ENDLOOP	  
+		LOOP ii = (SIZEOF(CSV_DatObj1.PC_Username) - 1) DOWNTO 0 DO
+			EXITIF (CSV_DatObj1.PC_Username[ii] <> 0) AND (CSV_DatObj1.PC_Username[ii] <> 32)
+			IF CSV_DatObj1.PC_Username[ii] = 32 THEN			; Alle Leerzeichen am Ende löschen
+				CSV_DatObj1.PC_Username[ii] = 0 
+			ENDIF
+		ENDLOOP	  
+		LOOP ii = (SIZEOF(CSV_DatObj1.PC_Userpassword) - 1) DOWNTO 0 DO
+			EXITIF (CSV_DatObj1.PC_Userpassword[ii] <> 0) AND (CSV_DatObj1.PC_Userpassword[ii] <> 32)
+			IF CSV_DatObj1.PC_Userpassword[ii] = 32 THEN		; Alle Leerzeichen am Ende löschen
+				CSV_DatObj1.PC_Userpassword[ii] = 0 
+			ENDIF
+		ENDLOOP	  
+ 
+		; 1.2) Datenobjekt "CSV01_CFG" Konfiguration zusammenstellen :
+		; ============================================================
+		strcpy (ADR(CSV01.IW.Version)     , ADR(CSV_DatObj1.Version)) 				; USINT[0..19] CSV-Version	
+		strcpy (ADR(CSV01.IW.Anlagename)  , ADR(CSV_DatObj1.Anlagename))			; USINT[0..19] Anlagenkennung
+		strcpy (ADR(CSV01.IW.RPS_Device)  , ADR(CSV_DatObj1.RPS_Device))			; USINT[0..19] RPS: Speicherdevice
+		strcpy (ADR(CSV01.IW.RPS_Zielpfad), ADR(CSV_DatObj1.RPS_Zielpfad))			; USINT[0..19] RPS: Speicherdevice Ordner
+		strcpy (ADR(CSV01.IW.EXT_Device)  , ADR(CSV_DatObj1.EXT_Device))			; String[20]   EXT: Speicherdevice
+		strcpy (ADR(CSV01.IW.EXT_Zielpfad), ADR(CSV_DatObj1.EXT_Zielpfad))			; String[20]   EXT: Speicherdevice Ordner
+		strcpy (ADR(CSV01.IW.PC_Zielpfad) , ADR(CSV_DatObj1.PC_Zielpfad))		    ; String[200]  PC : Speicherdevice Ordner (die Ordner bis Excel müssen manuell angelegt werden !!!) 
+
+		nxt_adr = strcpy(ADR(CSV01.IW.PC_DevLink_Param),  "/SIP=")					; PC: Link auf PC Laufwerk: Unter share muss der Freigabename des Laufwerkes bzw. Ordners am PC angegeben werden, USER=guest, PASSWORD=guest frei definierbar - hat mit PC nichts zu tun ! 	
+		nxt_adr = strcat(ADR(CSV01.IW.PC_DevLink_Param), ADR(CSV_DatObj1.PC_IP_Adresse))
+		nxt_adr = strcat(ADR(CSV01.IW.PC_DevLink_Param),  " /PROTOCOL=cifs /SHARE=")
+		nxt_adr = strcat(ADR(CSV01.IW.PC_DevLink_Param), ADR(CSV_DatObj1.PC_Ordnerfreigabe))
+		nxt_adr = strcat(ADR(CSV01.IW.PC_DevLink_Param),  " /USER=")
+		nxt_adr = strcat(ADR(CSV01.IW.PC_DevLink_Param), ADR(CSV_DatObj1.PC_Username))
+		nxt_adr = strcat(ADR(CSV01.IW.PC_DevLink_Param),  " /PASSWORD=")
+		nxt_adr = strcat(ADR(CSV01.IW.PC_DevLink_Param), ADR(CSV_DatObj1.PC_Userpassword))
+
+		CSV01.IW.DatObj_Zeilen_Anz  = UINT((DatObjInfo_01.len - DatObj1_Size) / DatObj2_Size)  ; Anzahl der Variableneinträge im Abschnitt [ABSCHNITT_DATEN] des Datenonjektes
+		IF CSV01.IW.DatObj_Zeilen_Anz > 300 THEN											    ; Begrenzung auf 300 Einträge (Zykluszeit)	
+			CSV01.IW.DatObj_Zeilen_Anz = 300
+			CSV01.FE.DatObj_ZeilenMAX = 1
+		ENDIF	 
+		;Tag-ID prüfen (Mehrfachverwendung):
+		memset(ADR(M_Tag_ID), 0, SIZEOF(M_Tag_ID))
+		LOOP i = 1 TO CSV01.IW.DatObj_Zeilen_Anz DO
+			DatObj_Offset = DatObjInfo_01.pDatObjMem + DatObj1_Size + DatObj2_Size * (i-1)
+			memcpy(ADR(CSV_DatObj2),DatObj_Offset, SIZEOF(CSV_DatObj2))
+			status_adr   = PV_xgetadr(ADR(CSV_DatObj2.Tag_Variablenname), ADR(pv_adr)  , ADR(data_len))
+			status_ninfo = PV_ninfo  (ADR(CSV_DatObj2.Tag_Variablenname), ADR(data_typ), ADR(data_len2), ADR(dimension))
+			IF (CSV_DatObj2.Tag_ID > 0) THEN
+				IF (M_Tag_ID[CSV_DatObj2.Tag_ID] = 0) AND (CSV_DatObj2.Tag_ID <= 9999) THEN
+					M_Tag_ID[CSV_DatObj2.Tag_ID] = 1 ; ID Meker "vergeben"
+				ELSE
+					CSV01.FE.DatObj_Tag_ID = 1		 ; ID bereits vergeben od. > 9999	
+					CSV01.IW.DatObj_Tag_ID_ZeileNr = i
+				ENDIF		
+			ENDIF	 
+		ENDLOOP	  	
+
+	ENDIF
+    
+	
+	
+	
+	
+	
+	  
+	 
+	 
+	;=============================================================================
+	;	SSW_1		RPS-Ebene: Files erstellen + Datensätze schreiben 	 SSW_1
+	;=============================================================================
+	; Datei auf lokalem Speicher (z.B.: CF) anlegen und Datensätze bei Befehl 
+	; schreiben
+
+	;	0...	Warten auf Schreib/Lesebefehl bzw. Fehler 
+	;	1...	RPS Device1: Ordner erstellen
+	;	2...	RPS Device1: Datei erstellen
+	;	3...	RPS Device1: Datei öffnen
+	;	4...	RPS Device1: Datei auslesen
+	;	5...	RPS Device1: Daten zusammenstellen
+	;	6...	RPS Device1: Zwischenpuffern während Kopiervorgang
+	;	7...	RPS Device1: Datei beschreiben
+	;   8... 	RPS Device1: Datei schließen
+ 	
+	CASE CSV01.IW.RPS_SAVE_STEP_Nr OF
+
+		;============================================================================
+		ACTION 0: 				; --> Warten auf Schreib/Lesebefehl bzw. Fehler
+		
+ 	
+			IF (DatObjInfo_01.status = 0) AND (CSV01.FE.DatObj_CFG_length = 0) AND (CSV01.IW.RPS_DirRead_Start_OK = 1) AND (CSV01.FE.RPS_kein_Speicherplatz = 0) THEN
+				CSV01.IW.DATA_WRITE_BEREIT = 1
+			ELSE
+				CSV01.IW.DATA_WRITE_BEREIT = 0
+			ENDIF    
+		
+			IF CSV01.IW.DATA_WRITE_BEREIT = 1 THEN
+
+				IF (CSV01.IW.KOPF_WRITE = 0) AND (CSV01.IW.DATA_WRITE = 1) AND (strlen(ADR(CSV01.IW.File_Name)) = 0) THEN   ; ev. nach CPU-Kaltstart
+					IF strlen(ADR(CSV01.IW.DirRead_FileName_neu)) > 0 THEN
+						memcpy(ADR(CSV01.IW.File_Name), ADR(CSV01.IW.DirRead_FileName_neu), SIZEOF(CSV01.IW.File_Name))   		; -> jüngste Datei bei CPU-Hochlauf verwenden und Datensätze anhängen
+						memset(ADR(CSV01.IW.RPS_File_Name), 0, SIZEOF(CSV01.IW.RPS_File_Name))
+						strcpy (ADR(CSV01.IW.RPS_File_Name), ADR(CSV01.IW.RPS_Zielpfad))	
+						strcat (ADR(CSV01.IW.RPS_File_Name), "/")			
+						strcat (ADR(CSV01.IW.RPS_File_Name), ADR(CSV01.IW.File_Name))			
+					ELSE
+						CSV01.WA.File_not_found = 1     ; DATA-Write obwohl kein File vorhanden
+						CSV01.IW.KOPF_WRITE     = 1     ; File vorher erzeugen
+					ENDIF	
+				ENDIF
+           
+				IF (CSV01.IW.KOPF_WRITE = 1) THEN		; Neue Datei anlegen 
+
+					CSV01.IW.RPS_FileWrite_OK_Z = 0
+			  
+					CSV01.IW.KOPF_WRITE = 1 
+					memset(ADR(CSV01.IW.File_Name), 0, SIZEOF(CSV01.IW.File_Name))
+  
+					CSV_GRP_date(CSV_Uhr.day, CSV_Uhr.month, CSV_Uhr.year, ADR(Str_date), SIZEOF(Str_date), M_date_Fehler) 
+              
+					CSV_itoa(CSV_Uhr.hour  , 2, 0, 0, 0, ADR(Str_Std), SIZEOF(Str_Std), M_Fehler)
+					CSV_itoa(CSV_Uhr.minute, 2, 0, 0, 0, ADR(Str_Min), SIZEOF(Str_Min), M_Fehler)
+					CSV_itoa(CSV_Uhr.second, 2, 0, 0, 0, ADR(Str_Sek), SIZEOF(Str_Sek), M_Fehler)           
+
+					strcpy(ADR(CSV01.IW.File_Name), ADR(Str_date))
+					strcat(ADR(CSV01.IW.File_Name), "-")
+					strcat(ADR(CSV01.IW.File_Name), ADR(Str_Std))
+					strcat(ADR(CSV01.IW.File_Name), "-")
+					strcat(ADR(CSV01.IW.File_Name), ADR(Str_Min))
+					strcat(ADR(CSV01.IW.File_Name), "-")
+					strcat(ADR(CSV01.IW.File_Name), ADR(Str_Sek))
+					strcat (ADR(CSV01.IW.File_Name), "_")
+					strcat (ADR(CSV01.IW.File_Name), ADR(CSV01.IW.Anlagename))
+					strcat (ADR(CSV01.IW.File_Name), ".csv")
+
+					memset(ADR(CSV01.IW.RPS_File_Name), 0, SIZEOF(CSV01.IW.RPS_File_Name))
+					strcpy (ADR(CSV01.IW.RPS_File_Name), ADR(CSV01.IW.RPS_Zielpfad))	
+					strcat (ADR(CSV01.IW.RPS_File_Name), "/")			
+					strcat (ADR(CSV01.IW.RPS_File_Name), ADR(CSV01.IW.File_Name))			
+
+					CSV01.IW.RPS_DirCreate_OK_Z  = 0
+					CSV01.IW.RPS_FileCreate_OK_Z = 0
+					CSV01.IW.RPS_FileCreate_OK_Z = 0
+					CSV01.IW.RPS_FileWrite_OK_Z  = 0
+					CSV01.IW.RPS_FileRead_OK_Z   = 0
+					CSV01.IW.RPS_FileClose_OK_Z  = 0
+              
+					CSV01.IW.DATA_WRITE_BEREIT   = 0
+					CSV01.IW.RPS_SAVE_STEP_Nr    = 1
+
+				ELSE IF (CSV01.IW.DATA_WRITE = 1) THEN				; Neuen Datensatz schreiben
+
+					CSV01.IW.RPS_DirCreate_OK  = 0
+					CSV01.IW.RPS_FileCreate_OK = 0
+					CSV01.IW.RPS_FileOpen_OK   = 0
+					CSV01.IW.RPS_FileWrite_OK  = 0
+					CSV01.IW.RPS_FileRead_OK   = 0
+					CSV01.IW.RPS_FileClose_OK  = 0
+
+					CSV01.IW.DATA_WRITE_BEREIT = 0
+					CSV01.IW.RPS_SAVE_STEP_Nr  = 3
+		    
+				ENDIF
+		       
+			ENDIF 
+		
+		ENDACTION
+
+		;============================================================================
+		ACTION 1: 				; --> RPS Device1: Ordner erstellen
+
+			DirCreate_0.enable  = 1
+			DirCreate_0.pDevice = ADR(CSV01.IW.RPS_Device)
+			DirCreate_0.pName   = ADR(CSV01.IW.RPS_Zielpfad)
+			DirCreate_0 FUB DirCreate()
+		
+			IF (DirCreate_0.status = 0) OR (DirCreate_0.status = 20725) THEN		; Ordner erstellt oder vorhanden 
+				CSV01.IW.RPS_DirCreate_OK = 1
+				INC(CSV01.IW.RPS_DirCreate_OK_Z)
+				CSV01.IW.RPS_SAVE_STEP_Nr = 2 										; --> Datei erstellen
+			ELSE IF (DirCreate_0.status <> 65535) THEN								
+				CSV01.IW.RPS_DirCreate_FehlerNr = DirCreate_0.status
+				INC(CSV01.IW.RPS_DirCreate_FEHLER_Z)
+				CSV01.IW.KOPF_WRITE = 0
+				CSV01.IW.DATA_WRITE = 0
+				CSV01.IW.RPS_SAVE_STEP_Nr = 0    									; --> Fehler
+			ENDIF
+	
+		ENDACTION	
+	
+		;============================================================================
+		ACTION 2:				; --> RPS Device1: Datei erstellen 	
+		
+			FileCreate_0.enable  = 1
+			FileCreate_0.pDevice = ADR(CSV01.IW.RPS_Device)
+			FileCreate_0.pFile   = ADR(CSV01.IW.RPS_File_Name)
+			FileCreate_0 FUB FileCreate()
+
+			FileIdent  = FileCreate_0.ident
+			FileLength = 0
+
+			IF (FileCreate_0.status = 0) THEN										; Datei neu erstellt
+				CSV01.IW.RPS_FileCreate_OK = 1
+				INC(CSV01.IW.RPS_FileCreate_OK_Z)
+				FileLength = 0
+				memset(ADR(Datensatz), 0, SIZEOF(Datensatz))
+				CSV01.IW.RPS_SAVE_STEP_Nr = 5 										; File auslesen 
+			ELSE IF (FileCreate_0.status = 20705) THEN								; Datei vorhanden ?
+				CSV01.IW.RPS_FileCreate_FehlerNr = 0
+				CSV01.IW.RPS_FileCreate_OK       = 1
+				INC(CSV01.IW.RPS_FileCreate_OK_Z)
+				CSV01.IW.RPS_SAVE_STEP_Nr = 3										; --> Datei öffnen
+			ELSE IF (FileCreate_0.status <> 65535) THEN
+				CSV01.IW.RPS_FileCreate_FehlerNr = FileCreate_0.status
+				INC(CSV01.IW.RPS_FileCreate_FEHLER_Z)
+				CSV01.IW.KOPF_WRITE = 0
+				CSV01.IW.DATA_WRITE = 0
+				CSV01.IW.RPS_SAVE_STEP_Nr = 0    									; --> Fehler
+			ENDIF
+		
+		ENDACTION
+	
+		;============================================================================
+		ACTION 3: 				; --> RPS Device1: Datei öffnen
+
+			FileOpen_0.enable  = 1
+			FileOpen_0.pDevice = ADR(CSV01.IW.RPS_Device)
+			FileOpen_0.pFile   = ADR(CSV01.IW.RPS_File_Name)
+			FileOpen_0.mode    = fiREAD_WRITE  											; Modus 2: Read/Write
+			FileOpen_0 FUB FileOpen()
+
+			FileIdent  = FileOpen_0.ident
+			FileLength = FileOpen_0.filelen
+		
+			IF (FileOpen_0.status = 0) THEN												; Datei geöffnet ?
+				CSV01.IW.RPS_FileOpen_OK = 1
+				INC(CSV01.IW.RPS_FileOpen_OK_Z)
+				CSV01.IW.RPS_SAVE_STEP_Nr = 4 											; --> Datei Ende auslesen (Zeile abgeschlossen mit CRLF ?)
+			ELSE IF (FileOpen_0.status = 20700) OR (FileOpen_0.status = 20708) THEN	    ; Pfad od. File nicht vorhanden	?
+				CSV01.IW.DATA_WRITE       = 1                                            ; z.B.: Wenn zwischendurch ganzer Ordner gelöscht wird 
+				CSV01.IW.KOPF_WRITE       = 1
+				CSV01.IW.RPS_SAVE_STEP_Nr = 0											; neu anlegen
+			ELSE IF (FileOpen_0.status <> 65535) THEN		
+				CSV01.IW.RPS_FileOpen_FehlerNr = FileOpen_0.status
+				INC(CSV01.IW.RPS_FileOpen_FEHLER_Z)
+				CSV01.IW.KOPF_WRITE       = 0
+				CSV01.IW.DATA_WRITE       = 0
+				CSV01.IW.RPS_SAVE_STEP_Nr = 0										
+			ENDIF
+
+		ENDACTION
+
+		;============================================================================
+		ACTION 4: 			; --> 	RPS Device1: Datei auslesen
+
+			; Daten (Ende) auslesen
+
+			IF FileLength > 2 THEN
+				Offset_Ende = FileLength - 2
+				FileRead_0.enable = 1
+				FileRead_0.ident  = FileIdent
+				FileRead_0.offset = Offset_Ende
+				FileRead_0.pDest  = ADR(Datei_Ende)
+				FileRead_0.len    = SIZEOF(Datei_Ende)
+				FileRead_0 FUB FileRead()
+
+				IF FileRead_0.status = 0 THEN
+					CSV01.IW.RPS_FileRead_OK = 1
+					INC(CSV01.IW.RPS_FileRead_OK_Z)
+					IF (Datei_Ende[0] = CR) AND (Datei_Ende[1] = LF) THEN
+						Zeile_Fertig = 1
+					ELSE
+						Zeile_Fertig = 0
+					ENDIF
+					memset(ADR(Datensatz), 0, SIZEOF(Datensatz))
+					CSV01.IW.RPS_SAVE_STEP_Nr = 5										;--> Datei beschreiben
+				ELSE IF (FileRead_0.status <> 65535) THEN
+					CSV01.IW.RPS_FileRead_OK = 0
+					CSV01.IW.RPS_FileRead_FehlerNr = FileRead_0.status
+					INC(CSV01.IW.RPS_FileRead_FEHLER_Z)
+					CSV01.IW.KOPF_WRITE       = 0
+					CSV01.IW.DATA_WRITE       = 0
+					CSV01.IW.RPS_SAVE_STEP_Nr = 0										;--> Fehler
+				ENDIF	
+			ELSE 
+				Zeile_Fertig = 1
+				CSV01.IW.KOPF_WRITE = 1
+				memset(ADR(Datensatz), 0, SIZEOF(Datensatz))
+				CSV01.IW.RPS_SAVE_STEP_Nr = 5										;--> Kopf schreiben
+			ENDIF
+
+		ENDACTION
+
+		;============================================================================
+		ACTION 5: 				; --> RPS Device1: Daten zusammenstellen
+
+			IF CSV01.IW.KOPF_WRITE = 1 THEN							; neue Datei -> Kopf schreiben
+		   
+				IF CSV01.SW.Kopf_Version_T = 1 THEN
+					strcpy (ADR(Datensatz), ADR(CSV01.IW.Version))
+					strcat (ADR(Datensatz), ADR(StrCRLF))				; nächste Zeile
+				ENDIF   
+				IF CSV01.SW.Kopf_Anlagenname_T = 1 THEN
+					strcat (ADR(Datensatz), ADR(CSV01.IW.Anlagename))
+					strcat (ADR(Datensatz), ADR(StrCRLF))				; nächste Zeile
+				ENDIF
+				IF CSV01.SW.Kopf_ID_T = 1 THEN
+					LOOP i = 1 TO CSV01.IW.DatObj_Zeilen_Anz DO			        
+						DatObj_Offset = DatObjInfo_01.pDatObjMem + DatObj1_Size + DatObj2_Size * (i-1)
+						memcpy(ADR(CSV_DatObj2),DatObj_Offset, SIZEOF(CSV_DatObj2))
+						itoa(DINT(CSV_DatObj2.Tag_ID), ADR(Str_ID))
+						strcat (ADR(Datensatz), ";")
+						IF CSV_DatObj2.Tag_ID > 0 THEN
+							strcat (ADR(Datensatz), ADR(Str_ID))
+						ENDIF   
+					ENDLOOP		
+					strcat (ADR(Datensatz), ADR(StrCRLF))				; nächste Zeile
+				ENDIF	  
+
+				IF CSV01.SW.Kopf_Bezeichnung_T = 1 THEN
+					LOOP i = 1 TO CSV01.IW.DatObj_Zeilen_Anz DO
+						DatObj_Offset = DatObjInfo_01.pDatObjMem + DatObj1_Size + DatObj2_Size * (i-1)
+						memcpy(ADR(CSV_DatObj2),DatObj_Offset, SIZEOF(CSV_DatObj2))
+						LOOP ii = (SIZEOF(CSV_DatObj2.Tag_Bezeichnung) - 1) DOWNTO 0 DO
+							EXITIF (CSV_DatObj2.Tag_Bezeichnung[ii] <> 0) AND (CSV_DatObj2.Tag_Bezeichnung[ii] <> 32) 
+							IF CSV_DatObj2.Tag_Bezeichnung[ii] = 32 THEN
+								CSV_DatObj2.Tag_Bezeichnung[ii] = 0
+							ENDIF
+						ENDLOOP	 
+
+						strcat (ADR(Datensatz), ";")
+						IF CSV_DatObj2.Tag_ID > 0 THEN
+							strcat (ADR(Datensatz), ADR(CSV_DatObj2.Tag_Bezeichnung))
+						ENDIF   
+					ENDLOOP		
+					strcat (ADR(Datensatz), ADR(StrCRLF))				; nächste Zeile
+				ENDIF	  
+
+				IF CSV01.SW.Kopf_Einheit_T = 1 THEN
+					LOOP i = 1 TO CSV01.IW.DatObj_Zeilen_Anz DO
+						DatObj_Offset = DatObjInfo_01.pDatObjMem + DatObj1_Size + DatObj2_Size * (i-1)
+						memcpy(ADR(CSV_DatObj2),DatObj_Offset, SIZEOF(CSV_DatObj2))
+						LOOP ii = (SIZEOF(CSV_DatObj2.Tag_Einheit) - 1) DOWNTO 0 DO
+							EXITIF (CSV_DatObj2.Tag_Einheit[ii] <> 0) AND (CSV_DatObj2.Tag_Einheit[ii] <> 32)
+							IF CSV_DatObj2.Tag_Einheit[ii] = 32 THEN
+								CSV_DatObj2.Tag_Einheit[ii] = 0
+							ENDIF
+						ENDLOOP	 
+
+						strcat (ADR(Datensatz), ";")
+						IF CSV_DatObj2.Tag_ID > 0 THEN
+							strcat (ADR(Datensatz), ADR(CSV_DatObj2.Tag_Einheit))
+						ENDIF   				   
+					ENDLOOP		
+					strcat (ADR(Datensatz), ADR(StrCRLF))				; nächste Zeile
+				ENDIF	  
+
+				IF CSV01.SW.Kopf_Datentyp_T = 1 THEN					; Aus RPS-Datentyp wird der passende Datentyp für Grübl-Reporting eingetragen
+					LOOP i = 1 TO CSV01.IW.DatObj_Zeilen_Anz DO
+						DatObj_Offset = DatObjInfo_01.pDatObjMem + DatObj1_Size + DatObj2_Size * (i-1)
+						memcpy (ADR(CSV_DatObj2),DatObj_Offset, SIZEOF(CSV_DatObj2))	
+						status_adr   = PV_xgetadr(ADR(CSV_DatObj2.Tag_Variablenname), ADR(pv_adr)  , ADR(data_len))
+						status_ninfo = PV_ninfo  (ADR(CSV_DatObj2.Tag_Variablenname), ADR(data_typ), ADR(data_len2), ADR(dimension))
+
+						IF (CSV_DatObj2.Tag_ID = 0) OR (CSV_DatObj2.Tag_Variablenname[0] = 0) OR (CSV_DatObj2.Tag_Variablenname[0] = 32) THEN ; keine Variable angeschlossen
+							strcat (ADR(Datensatz), ";")										; keinen Datentyp oder Variable eintragen
+						ELSE IF (status_adr = 0) AND (status_ninfo = 0) THEN
+							IF (data_typ = 9) OR ((data_typ = 5) AND (data_len > 1)) THEN		; STRING od. USINT-Array ?
+								memcpy(ADR(Wert_STRING), pv_adr, SIZEOF(Wert_STRING))
+								strcat (ADR(Datensatz), ";")
+								IF (Wert_STRING[2] = 58) AND (Wert_STRING[5] = 58) THEN       ; 58=":"
+									strcat (ADR(Datensatz), "time")
+								ELSE IF (Wert_STRING[4] = 45) AND (Wert_STRING[7] = 45) AND (Wert_STRING[13] = 58) AND (Wert_STRING[16] = 58) THEN
+									strcat (ADR(Datensatz), "timestamp")
+								ELSE IF (Wert_STRING[4] = 45) AND (Wert_STRING[7] = 45) THEN	; 45="-"
+									strcat (ADR(Datensatz), "date")
+								ELSE						  	
+									strcat (ADR(Datensatz), "string(512)")
+								ENDIF	  
+							ELSE IF (data_typ = 1) THEN										; BOOL ?
+								strcat (ADR(Datensatz), ";")
+								strcat (ADR(Datensatz), "bool")		; 0..1						
+							ELSE IF (data_typ = 2) THEN										; SINT ?
+								strcat (ADR(Datensatz), ";")
+								strcat (ADR(Datensatz), "tinyint") 	; -128..+128
+							ELSE IF (data_typ = 3) OR (data_typ = 5) THEN						; INT, USINT ?
+								strcat (ADR(Datensatz), ";")
+								strcat (ADR(Datensatz), "smallint")	;-32768..+32767
+							ELSE IF (data_typ = 4) OR (data_typ = 6) THEN						; DINT, UINT ?
+								strcat (ADR(Datensatz), ";")
+								strcat (ADR(Datensatz), "int")		;-2 147 483 648..+2 147 483 647
+							ELSE IF (data_typ = 7) THEN					  		            ; UDINT ?
+								strcat (ADR(Datensatz), ";")
+								strcat (ADR(Datensatz), "bigint")    	;-9 223 372 036 854 775 808..+9 223 372 036 854 775 807
+							ELSE IF (data_typ = 8) THEN										; REAL ?
+								strcat (ADR(Datensatz), ";")
+								; Gesamtstellen+Nachkommatstellen aus MIN/MAX-Grenzwerten des Datenobjektes heranziehen:
+								; Aktuellen Wert auf diese Anzahl der Nachkommastellen beschneiden
+								Tag_MIN_Stellen   = 0
+								Tag_MIN_Nachkomma = 0
+								Tag_MIN_Komma     = 0
+								LOOP ii = 0 TO SIZEOF(CSV_DatObj2.Tag_MIN) - 2 DO     
+									IF (CSV_DatObj2.Tag_MIN[ii] <> 32) AND (CSV_DatObj2.Tag_MIN[ii] <> 43) AND (CSV_DatObj2.Tag_MIN[ii] <> 45) AND (CSV_DatObj2.Tag_MIN[ii] <> 46) THEN  ; " ","+","-","."   
+										INC(Tag_MIN_Stellen)
+										IF Tag_MIN_Komma = 1 THEN
+											INC(Tag_MIN_Nachkomma)
+										ENDIF    
+									ENDIF   	
+									IF CSV_DatObj2.Tag_MIN[ii] = 46 THEN
+										Tag_MIN_Komma = 1  ; Merker "Kommastelle erreicht"
+									ENDIF   	 
+								ENDLOOP		
+								Tag_MAX_Stellen   = 0
+								Tag_MAX_Nachkomma = 0
+								Tag_MAX_Komma     = 0
+								LOOP ii = 0 TO SIZEOF(CSV_DatObj2.Tag_MAX) - 2 DO     
+									IF (CSV_DatObj2.Tag_MAX[ii] <> 32) AND (CSV_DatObj2.Tag_MAX[ii] <> 43) AND (CSV_DatObj2.Tag_MAX[ii] <> 45) AND (CSV_DatObj2.Tag_MAX[ii] <> 46) THEN  ; " ","+","-","."   
+										INC(Tag_MAX_Stellen)
+										IF Tag_MAX_Komma = 1 THEN
+											INC(Tag_MAX_Nachkomma)
+										ENDIF    
+									ENDIF   	
+									IF CSV_DatObj2.Tag_MAX[ii] = 46 THEN
+										Tag_MAX_Komma = 1  ; Merker "Kommastelle erreicht"
+									ENDIF   	 
+								ENDLOOP		
+								memset(ADR(Str_Stellen)  , 0, SIZEOF(Str_Stellen))
+								memset(ADR(Str_Nachkomma), 0, SIZEOF(Str_Nachkomma))
+								IF Tag_MAX_Stellen > Tag_MIN_Stellen THEN			
+									itoa(Tag_MAX_Stellen, ADR(Str_Stellen))   		; größere Anzahl der Stellen nehmen
+								ELSE	  
+									itoa(Tag_MIN_Stellen, ADR(Str_Stellen))
+								ENDIF
+								IF Tag_MAX_Nachkomma > Tag_MIN_Nachkomma THEN		; größere Anzahl der Stellen nehmen
+									itoa(Tag_MAX_Nachkomma, ADR(Str_Nachkomma))
+								ELSE	  
+									itoa(Tag_MIN_Nachkomma, ADR(Str_Nachkomma))
+								ENDIF  
+								IF (Tag_MAX_Stellen = 0) OR (Tag_MIN_Stellen = 0) THEN
+									CSV01.FE.DatObj_Tag_MIN = 1
+									CSV01.FE.DatObj_Tag_MAX = 1
+									CSV01.IW.DatObj_Tag_MAX_ZeileNr = i
+									strcat (ADR(Datensatz), "decimal(10,2)") 			; keine MIN/MAX-Grenzwerte angegeben -> Standard 10,2 angenommen
+								ELSE
+									strcat (ADR(Datensatz), "decimal(") 				; Datentyp für Grübl-Reporting zusammenstellen 
+									strcat (ADR(Datensatz), ADR(Str_Stellen)) 		; z.B.: decimal(5,2) -> 5 Gesamstellen (ohne Komma!), 2 Nachkommstellen
+									strcat (ADR(Datensatz), ",")
+									strcat (ADR(Datensatz), ADR(Str_Nachkomma))
+									strcat (ADR(Datensatz), ")")
+								ENDIF   
+							ELSE
+								CSV01.FE.DatObj_Tag_Datentyp = 1						; Datentyp nicht möglich 
+								CSV01.IW.DatObj_Tag_Datentyp_ZeileNr = i
+								strcat (ADR(Datensatz), ";")									
+							ENDIF
+						ELSE 
+							CSV01.FE.DatObj_Tag_Variable = 1							; angegebener Variablenname existiert nicht
+							strcat (ADR(Datensatz), ";")									
+						ENDIF   
+					ENDLOOP		
+					strcat (ADR(Datensatz), ADR(StrCRLF))								; nächste Zeile
+				ENDIF	  
+
+				IF CSV01.SW.Kopf_MIN_MAX_T = 1 THEN
+					LOOP i = 1 TO CSV01.IW.DatObj_Zeilen_Anz DO			        
+						DatObj_Offset = DatObjInfo_01.pDatObjMem + DatObj1_Size + DatObj2_Size * (i-1)
+						memcpy(ADR(CSV_DatObj2),DatObj_Offset, SIZEOF(CSV_DatObj2))
+						LOOP ii = (SIZEOF(CSV_DatObj2.Tag_MIN) - 1) DOWNTO 0 DO
+							IF CSV_DatObj2.Tag_MIN[ii] = 46 THEN   ; "."
+								CSV_DatObj2.Tag_MIN[ii] = 44 	    ; ","	
+								EXITIF 1 = 1
+							ENDIF
+						ENDLOOP	       
+						strcat (ADR(Datensatz), ";")
+						IF (CSV_DatObj2.Tag_ID > 0) THEN
+							strcat (ADR(Datensatz), ADR(CSV_DatObj2.Tag_MIN))
+						ENDIF   
+					ENDLOOP		
+					strcat (ADR(Datensatz), ADR(StrCRLF))				; nächste Zeile
+				ENDIF
+		   
+				IF CSV01.SW.Kopf_MIN_MAX_T = 1 THEN
+					LOOP i = 1 TO CSV01.IW.DatObj_Zeilen_Anz DO			        
+						DatObj_Offset = DatObjInfo_01.pDatObjMem + DatObj1_Size + DatObj2_Size * (i-1)
+						memcpy(ADR(CSV_DatObj2),DatObj_Offset, SIZEOF(CSV_DatObj2))
+						LOOP ii = (SIZEOF(CSV_DatObj2.Tag_MAX) - 1) DOWNTO 0 DO
+							IF CSV_DatObj2.Tag_MAX[ii] = 46 THEN   ; "."
+								CSV_DatObj2.Tag_MAX[ii] = 44 	    ; ","	
+								EXITIF 1 = 1
+							ENDIF
+						ENDLOOP	       
+						strcat (ADR(Datensatz), ";")
+						IF (CSV_DatObj2.Tag_ID > 0) THEN
+							strcat (ADR(Datensatz), ADR(CSV_DatObj2.Tag_MAX))
+						ENDIF   
+					ENDLOOP		
+					strcat (ADR(Datensatz), ADR(StrCRLF))				; nächste Zeile
+				ENDIF
+	
+				CSV01.IW.Kopf_length = strlen(ADR(Datensatz))
+
+			ELSE 
+
+				; (1) Zeitstempel:
+				memset(ADR(CSV01.IW.Datensatz_TimeStamp), 0, SIZEOF(CSV01.IW.Datensatz_TimeStamp))
+				IF CSV01.SW.Zeitstempel_lang_T = 1 THEN
+					CSV_GRP_timestamp(CSV_Uhr.day, CSV_Uhr.month, CSV_Uhr.year, CSV_Uhr.hour, CSV_Uhr.minute, CSV_Uhr.second, CSV_Uhr.millisec, ADR(Str_timestamp), SIZEOF(Str_timestamp), M_timestamp_Fehler) 
+					strcpy(ADR(CSV01.IW.Datensatz_TimeStamp), ADR(Str_timestamp))
+				ELSE
+					CSV_QM_timestamp(CSV_Uhr.day, CSV_Uhr.month, CSV_Uhr.year-2000, CSV_Uhr.hour, CSV_Uhr.minute, ADR(Str_QM_timestamp), SIZEOF(Str_QM_timestamp), M_timestamp_QM_Fehler) 
+					strcpy(ADR(CSV01.IW.Datensatz_TimeStamp), ADR(Str_QM_timestamp))
+				ENDIF   
+				strcat (ADR(Datensatz), ADR(CSV01.IW.Datensatz_TimeStamp))
+				; (2) Werte 1..n
+				LOOP i = 1 TO CSV01.IW.DatObj_Zeilen_Anz DO							
+					DatObj_Offset = DatObjInfo_01.pDatObjMem + DatObj1_Size + DatObj2_Size * (i-1)
+					memcpy(ADR(CSV_DatObj2),DatObj_Offset, SIZEOF(CSV_DatObj2))	
+					memset (ADR(StrWork), 0, SIZEOF(StrWork))
+					LOOP ii = (SIZEOF(CSV_DatObj2.Tag_Variablenname) - 1) DOWNTO 0 DO	; Leerzeichen nach Variablenname löschen (Null-Terminierung)
+						EXITIF (CSV_DatObj2.Tag_Variablenname[0] = 0) OR (CSV_DatObj2.Tag_Variablenname[0] = 32) ; keine Variable angeschlossen
+						EXITIF (CSV_DatObj2.Tag_Variablenname[ii] <> 0) AND (CSV_DatObj2.Tag_Variablenname[ii] <> 32)
+						IF CSV_DatObj2.Tag_Variablenname[ii] = 32 THEN
+							CSV_DatObj2.Tag_Variablenname[ii] = 0
+						ENDIF
+					ENDLOOP
+					status_adr   = PV_xgetadr(ADR(CSV_DatObj2.Tag_Variablenname), ADR(pv_adr)  , ADR(data_len))
+					status_ninfo = PV_ninfo  (ADR(CSV_DatObj2.Tag_Variablenname), ADR(data_typ), ADR(data_len2), ADR(dimension))
+   	
+					CSV_atoLREAL(ADR(CSV_DatObj2.Tag_MIN), SIZEOF(CSV_DatObj2.Tag_MIN), M_MIN_Fehler, M_Tag_MIN)  	; MIN-Ascii in LREAL konvertieren
+					IF M_MIN_Fehler = 1 THEN
+						CSV01.FE.DatObj_Tag_MIN = 1
+						CSV01.IW.DatObj_Tag_MIN_ZeileNr = i
+					ENDIF	
+					CSV_atoLREAL(ADR(CSV_DatObj2.Tag_MAX), SIZEOF(CSV_DatObj2.Tag_MAX), M_MAX_Fehler, M_Tag_MAX)	; MAX-Ascii in LREAL konvertieren
+					IF M_MAX_Fehler = 1 THEN
+						CSV01.FE.DatObj_Tag_MAX = 1
+						CSV01.IW.DatObj_Tag_MAX_ZeileNr = i
+					ENDIF	
+				
+
+					IF (CSV_DatObj2.Tag_Variablenname[0] = 0) OR (CSV_DatObj2.Tag_Variablenname[0] = 32) THEN ; keine Variable angeschlossen
+						strcat (ADR(Datensatz), ";")
+					ELSE IF (status_adr = 0) AND (status_ninfo = 0) THEN
+						IF (data_typ = 9) OR ((data_typ = 5) AND (data_len > 1)) THEN	; STRING od. USINT-Array ?
+							strcat (ADR(Datensatz), ";")
+							strcat (ADR(Datensatz), pv_adr)
+						ELSE IF (data_typ = 1) THEN										; BOOL ?
+							Wert_BOOL ACCESS pv_adr
+							itoa(Wert_BOOL, ADR(StrWork))   							
+							strcat (ADR(Datensatz), ";")
+							strcat (ADR(Datensatz), ADR(StrWork))
+						ELSE IF (data_typ = 2) THEN										; SINT ?
+							memcpy(ADR(Wert_SINT), pv_adr, SIZEOF(Wert_SINT))
+							IF Wert_SINT < SINT(M_Tag_MIN) THEN
+								IF CSV01.SW.Kopf_MIN_MAX_T = 0 THEN  ; außerhalb gültigem Bereich -> keinen Wert eintragen
+									GOTO Sprung_MINMAX
+								ENDIF	  
+								Wert_SINT = SINT(M_Tag_MIN)	 
+							ELSE IF Wert_SINT > SINT(M_Tag_MAX) THEN
+								IF CSV01.SW.Kopf_MIN_MAX_T = 0 THEN  ; außerhalb gültigem Bereich -> keinen Wert eintragen
+									GOTO Sprung_MINMAX
+								ENDIF	  
+								Wert_SINT = SINT(M_Tag_MAX)	    
+							ENDIF   
+							itoa(Wert_SINT, ADR(StrWork))   							
+							strcat (ADR(Datensatz), ";")
+							strcat (ADR(Datensatz), ADR(StrWork))
+						ELSE IF (data_typ = 3) THEN										; INT ?
+							memcpy(ADR(Wert_INT), pv_adr, SIZEOF(Wert_INT))
+							IF Wert_INT < INT(M_Tag_MIN) THEN
+								IF CSV01.SW.Kopf_MIN_MAX_T = 0 THEN  ; außerhalb gültigem Bereich -> keinen Wert eintragen
+									GOTO Sprung_MINMAX
+								ENDIF	  
+								Wert_INT = INT(M_Tag_MIN)	 
+							ELSE IF Wert_INT > INT(M_Tag_MAX) THEN
+								IF CSV01.SW.Kopf_MIN_MAX_T = 0 THEN  ; außerhalb gültigem Bereich -> keinen Wert eintragen
+									GOTO Sprung_MINMAX
+								ENDIF	  
+								Wert_INT = INT(M_Tag_MAX)	    
+							ENDIF   
+							itoa(Wert_INT, ADR(StrWork))   								
+							strcat (ADR(Datensatz), ";")
+							strcat (ADR(Datensatz), ADR(StrWork))
+						ELSE IF (data_typ = 4) THEN										; DINT ?
+							memcpy(ADR(Wert_DINT), pv_adr, SIZEOF(Wert_DINT))
+							IF Wert_DINT < DINT(M_Tag_MIN) THEN
+								IF CSV01.SW.Kopf_MIN_MAX_T = 0 THEN  ; außerhalb gültigem Bereich -> keinen Wert eintragen
+									GOTO Sprung_MINMAX
+								ENDIF	  
+								Wert_DINT = DINT(M_Tag_MIN)
+							ELSE IF Wert_DINT > DINT(M_Tag_MAX) THEN
+								IF CSV01.SW.Kopf_MIN_MAX_T = 0 THEN  ; außerhalb gültigem Bereich -> keinen Wert eintragen
+									GOTO Sprung_MINMAX
+								ENDIF	  
+								Wert_DINT = DINT(M_Tag_MAX)
+							ENDIF   
+							itoa(Wert_DINT, ADR(StrWork))   							
+							strcat (ADR(Datensatz), ";")
+							strcat (ADR(Datensatz), ADR(StrWork))
+						ELSE IF (data_typ = 5) THEN										; USINT ?
+							memcpy(ADR(Wert_USINT), pv_adr, SIZEOF(Wert_USINT))
+							IF Wert_USINT < USINT(M_Tag_MIN) THEN
+								IF CSV01.SW.Kopf_MIN_MAX_T = 0 THEN  ; außerhalb gültigem Bereich -> keinen Wert eintragen
+									GOTO Sprung_MINMAX
+								ENDIF	  
+								Wert_USINT = USINT(M_Tag_MIN)	 
+							ELSE IF Wert_USINT > USINT(M_Tag_MAX) THEN
+								IF CSV01.SW.Kopf_MIN_MAX_T = 0 THEN  ; außerhalb gültigem Bereich -> keinen Wert eintragen
+									GOTO Sprung_MINMAX
+								ENDIF	  
+								Wert_USINT = USINT(M_Tag_MAX)	    
+							ENDIF   
+							itoa(Wert_USINT, ADR(StrWork))   							
+							strcat (ADR(Datensatz), ";")
+							strcat (ADR(Datensatz), ADR(StrWork))
+						ELSE IF (data_typ = 6) THEN										; UINT ?
+							memcpy(ADR(Wert_UINT), pv_adr, SIZEOF(Wert_UINT))
+							IF Wert_UINT < UINT(M_Tag_MIN) THEN
+								IF CSV01.SW.Kopf_MIN_MAX_T = 0 THEN  ; außerhalb gültigem Bereich -> keinen Wert eintragen
+									GOTO Sprung_MINMAX
+								ENDIF	  
+								Wert_UINT = UINT(M_Tag_MIN)	 
+							ELSE IF Wert_UINT > UINT(M_Tag_MAX) THEN
+								IF CSV01.SW.Kopf_MIN_MAX_T = 0 THEN  ; außerhalb gültigem Bereich -> keinen Wert eintragen
+									GOTO Sprung_MINMAX
+								ENDIF	  
+								Wert_UINT = UINT(M_Tag_MAX)	    
+							ENDIF   
+							itoa(Wert_UINT, ADR(StrWork))   							
+							strcat (ADR(Datensatz), ";")
+							strcat (ADR(Datensatz), ADR(StrWork))
+						ELSE IF (data_typ = 7) THEN										; UDINT ?
+							memcpy(ADR(Wert_UDINT), pv_adr, SIZEOF(Wert_UDINT))
+							IF Wert_UDINT < UDINT(M_Tag_MIN) THEN
+								IF CSV01.SW.Kopf_MIN_MAX_T = 0 THEN  ; außerhalb gültigem Bereich -> keinen Wert eintragen
+									GOTO Sprung_MINMAX
+								ENDIF	  
+								Wert_UDINT = UDINT(M_Tag_MIN)	 
+							ELSE IF Wert_UDINT > UDINT(M_Tag_MAX) THEN
+								IF CSV01.SW.Kopf_MIN_MAX_T = 0 THEN  ; außerhalb gültigem Bereich -> keinen Wert eintragen
+									GOTO Sprung_MINMAX
+								ENDIF	  
+								Wert_UDINT = UDINT(M_Tag_MAX)	    
+							ENDIF    
+							CSV_UDINTtoa(Wert_UDINT, ADR(StrWork), SIZEOF(StrWork), M_UDINT_Fehler)
+							strcat (ADR(Datensatz), ";")
+							strcat (ADR(Datensatz), ADR(StrWork))
+						ELSE IF (data_typ = 8) THEN										; REAL ?
+							memcpy(ADR(Wert_REAL), pv_adr, SIZEOF(Wert_REAL))
+							IF Wert_REAL < REAL(M_Tag_MIN) THEN
+								IF CSV01.SW.Kopf_MIN_MAX_T = 0 THEN  ; außerhalb gültigem Bereich -> keinen Wert eintragen
+									GOTO Sprung_MINMAX
+								ENDIF	  
+								Wert_REAL = REAL(M_Tag_MIN)
+							ELSE IF Wert_REAL > REAL(M_Tag_MAX) THEN
+								IF CSV01.SW.Kopf_MIN_MAX_T = 0 THEN  ; außerhalb gültigem Bereich -> keinen Wert eintragen
+									GOTO Sprung_MINMAX
+								ENDIF	  
+								Wert_REAL = REAL(M_Tag_MAX)
+							ENDIF   
+							Tag_MIN_Nachkomma = 0
+							Tag_MIN_Komma     = 0
+							LOOP ii = 0 TO SIZEOF(CSV_DatObj2.Tag_MIN) - 2 DO    
+								IF Tag_MIN_Komma = 1 THEN
+									INC(Tag_MIN_Nachkomma)
+								ENDIF   	
+								IF (CSV_DatObj2.Tag_MIN[ii] = 46) THEN  ; "."   
+									Tag_MIN_Komma = 1  ; Merker "Kommastelle erreicht"
+								ENDIF	
+							ENDLOOP		
+							Tag_MAX_Nachkomma = 0
+							Tag_MAX_Komma     = 0
+							LOOP ii = 0 TO SIZEOF(CSV_DatObj2.Tag_MAX) - 2 DO
+								IF Tag_MAX_Komma = 1 THEN
+									INC(Tag_MAX_Nachkomma)
+								ENDIF   	
+								IF (CSV_DatObj2.Tag_MAX[ii] = 46) THEN  ; "."   
+									Tag_MAX_Komma = 1  ; Merker "Kommastelle erreicht"
+								ENDIF	
+							ENDLOOP		
+							IF Tag_MAX_Nachkomma > Tag_MIN_Nachkomma THEN  ; größere Nachkommastellen verwenden
+								Tag_Nachkomma = Tag_MAX_Nachkomma
+							ELSE	  
+								Tag_Nachkomma = Tag_MAX_Nachkomma
+							ENDIF
+							Wert_DINT = DINT(Wert_REAL* (EXPT(10, Tag_Nachkomma))) ; mit 10^Nachkommastellen multipl. + danach abschneiden
+							Wert_REAL = REAL(Wert_DINT)/(EXPT(10, Tag_Nachkomma))  ; mit 10^Nachkommastellen divid.
+							ftoa (Wert_REAL, ADR(StrWork))  
+							LOOP ii = 0 TO SIZEOF(StrWork) - 1 DO
+								IF StrWork[ii] = 46 THEN   	; "."
+									StrWork[ii] = 44			; ","  ersetzen für Reporting-Sofware
+									EXITIF 1 = 1
+								ENDIF	
+							ENDLOOP	
+							strcat (ADR(Datensatz), ";")
+							strcat (ADR(Datensatz), ADR(StrWork))   
+
+						ELSE															; Datentyp nicht möglich		
+							CSV01.FE.DatObj_Tag_Datentyp = 1							
+							CSV01.IW.DatObj_Tag_Datentyp_ZeileNr = i
+
+							Sprung_MINMAX: 		    															; od. Option: Variable außerhalb gültigem Bereich -> keinen Wert eintragen
+							strcat (ADR(Datensatz), ";")
+						ENDIF	
+					ELSE												
+						strcat (ADR(Datensatz), ";")
+						CSV01.FE.DatObj_Tag_Variable = 1				; Fehler in Datenmodul - Variable nicht vorhanden
+						CSV01.IW.DatObj_Tag_Variable_ZeileNr = i		; Variablen-Nr (Zeile) in Datenmodul
+					ENDIF		
+
+				ENDLOOP
+				strcat (ADR(Datensatz), ADR(StrCRLF))
+			
+			ENDIF
+
+			CSV01.IW.Datensatz_length = strlen(ADR(Datensatz))
+
+			IF CSV01.IW.KOPF_WRITE = 1 THEN
+				CSV01.IW.RPS_SAVE_STEP_Nr = 7
+			ELSE IF (CSV01.SW.RPS_COPY_AUTO_T = 1) AND (CSV01.IW.RPS_CPYDEL_STEP_Nr >= 4) AND (CSV01.IW.Datensatz_length < 38000) THEN
+				CSV01.IW.DATA_WRITE       = 0
+				CSV01.IW.RPS_SAVE_STEP_Nr = 6
+			ELSE IF (CSV01.SW.PC_FileCopy_neu_HAND_T = 1) AND (CSV01.IW.Datensatz_length < 38000) THEN
+				CSV01.IW.DATA_WRITE       = 0
+				CSV01.IW.RPS_SAVE_STEP_Nr = 6
+			ELSE 
+				CSV01.IW.RPS_SAVE_STEP_Nr = 7
+			ENDIF	
+
+		ENDACTION
+
+		;============================================================================
+		ACTION 6: 			; --> RPS Device1: Datensatz anhängen (Zwischenpuffer während Kopiervorgang)
+
+			CSV01.IW.DATA_WRITE_BEREIT = 1
+		 
+			IF CSV01.IW.DATA_WRITE = 1 THEN
+				CSV01.IW.RPS_SAVE_STEP_Nr  = 5
+				CSV01.IW.DATA_WRITE_BEREIT = 0
+			ELSE IF CSV01.IW.RPS_CPYDEL_STEP_Nr = 0 THEN ; Kopieren fertig
+				CSV01.IW.RPS_SAVE_STEP_Nr = 7
+			ENDIF 	
+
+		ENDACTION
+
+		;============================================================================
+		ACTION 7: 			; --> RPS Device1: Datei schließen
+
+			; Daten (Zeile) in Datei anhängen
+			FileWrite_0.enable = 1
+			FileWrite_0.ident  = FileIdent
+			FileWrite_0.offset = FileLength
+			FileWrite_0.pSrc   = ADR(Datensatz)
+			FileWrite_0.len    = strlen(ADR(Datensatz))
+			FileWrite_0 FUB FileWrite()
+
+			IF FileWrite_0.status = 0 THEN
+				CSV01.IW.RPS_FileWrite_OK = 1
+				INC(CSV01.IW.RPS_FileWrite_OK_Z)
+				IF (CSV01.IW.KOPF_WRITE AND CSV01.IW.DATA_WRITE = 1) THEN	; Kopf+Daten schreiben
+					CSV01.IW.KOPF_WRITE = 0
+					FileLength = FileLength + CSV01.IW.Datensatz_length
+					memset(ADR(Datensatz), 0, SIZEOF(Datensatz))
+					CSV01.IW.RPS_SAVE_STEP_Nr = 5 							; -> gleich Daten anhängen
+				ELSE IF CSV01.IW.DATA_WRITE = 1 THEN							; nur Daten schrieben
+					IF CSV01.SW.RPS_COPY_AUTO_T = 1 THEN
+						CSV01.IW.RPS_COPY_AUTO_Start = 1
+					ENDIF		 
+					CSV01.IW.DATA_WRITE = 0
+					CSV01.IW.RPS_SAVE_STEP_Nr = 8 
+				ELSE 														; nur Kopf schrieben
+					CSV01.IW.KOPF_WRITE = 0
+					CSV01.IW.RPS_SAVE_STEP_Nr = 8 							
+				ENDIF	
+			ELSE IF (FileWrite_0.status = 20710) THEN
+				CSV01.FE.RPS_kein_Speicherplatz = 1
+				CSV01.IW.RPS_SAVE_STEP_Nr       = 0
+			ELSE IF (FileWrite_0.status <> 65535) THEN
+				CSV01.IW.RPS_FileWrite_FehlerNr = FileWrite_0.status
+				CSV01.IW.RPS_FileWrite_OK = 0
+				INC(CSV01.IW.RPS_FileWrite_FEHLER_Z)
+				CSV01.IW.KOPF_WRITE       = 0
+				CSV01.IW.DATA_WRITE       = 0
+				CSV01.IW.RPS_SAVE_STEP_Nr = 8
+			ENDIF
+
+		ENDACTION
+
+		;============================================================================
+		ACTION 8: 			; --> RPS Device1: Datei schließen
+
+			FileClose_0.enable = 1
+			FileClose_0.ident  = FileIdent
+			FileClose_0 FUB FileClose()
+
+			IF FileClose_0.status = 0 THEN
+				CSV01.IW.RPS_FileClose_OK = 1
+				INC(CSV01.IW.RPS_FileClose_OK_Z)
+				CSV01.IW.RPS_SAVE_STEP_Nr = 0 										;--> fertig
+			ELSE IF FileClose_0.status <> 65535 THEN
+				CSV01.IW.RPS_FileClose_FehlerNr = FileClose_0.status 
+				INC(CSV01.IW.RPS_FileClose_FEHLER_Z)
+				CSV01.IW.RPS_SAVE_STEP_Nr = 0											;--> Fehler
+			ENDIF
+
+		ENDACTION
+
+	ENDCASE  
+
+
+
+
+	;=============================================================================
+	;	SSW_2	 RPS: Freien Speicher + älteste Datei kopiern/löschen     SSW_2
+	;=============================================================================
+	; Freien Speicher auf lokalem Device (z.B.: CF) ermitteln und bei Unterschreitung
+	; eines einstellbaren Mindestspeichers älteste Dateien löschen
+
+	;   0...    RPS Device1: Auf Befehl warten
+	;   1...    RPS Device1: Freien Speicherplatz ermiteln
+	;   2...    RPS Device1: Fileanzahl in Ordner ermitteln
+	;   3...    RPS Device1: ältestes+jüngsten File Infos (Namen) auslesen
+	;   4...	PC Device1:  RPS-Device mit anderem Device (Festplatte des PC) verlinken
+	;   5...	PC Device1:  Ordner erstellen
+	;   6... 	PC Device1:  älteste Datei auf Festplatte des PC kopieren
+	;   7... 	PC Device1:  Gesamten Ordner auf Festplatte des PC kopieren
+	;   8...    RPS Device1: ältesten File löschen
+	;   9...    RPS Device1: Gesamten Ordner incl. Files löschen
+
+	;============================================================================
+
+	CASE CSV01.IW.RPS_CPYDEL_STEP_Nr OF
+
+		;============================================================================
+		ACTION 0: 				; --> Warten auf Befehl
+
+			IF CSV01.SW.RPS_DirDeleteEx_HAND_T = 1 THEN
+				CSV01.SW.RPS_FileDelete_alt_HAND_T = 0
+				CSV01.SW.RPS_FileDelete_neu_HAND_T = 0
+				CSV01.IW.RPS_DirDeleteEx_OK        = 0
+				CSV01.IW.RPS_CPYDEL_STEP_Nr        = 9			; gesamten Ordner auf RPS löschen !
+			ELSE
+				CSV01.IW.RPS_MemInfo_OK        = 0
+				CSV01.IW.RPS_DirInfo_OK        = 0
+				CSV01.IW.RPS_DirRead_OK        = 0
+				CSV01.IW.RPS_CPYDEL_STEP_Nr    = 1	   			; Infos von RPS-Speicher ermitteln (Speicherplatz / Fileanzahl)
+			ENDIF	   
+   	  
+			
+			
+		ENDACTION   
+
+		;============================================================================
+		ACTION 1: 			; --> RPS Device: Speicherplatz ermitteln
+
+			DevMemInfo_0.enable  = 1 
+			DevMemInfo_0.pDevice = ADR(CSV01.IW.RPS_Device) 
+			DevMemInfo_0 FUB DevMemInfo()
+		
+			IF (DevMemInfo_0.status = 0) THEN
+				CSV01.IW.RPS_MemInfo_OK = 1
+				CSV01.IW.RPS_Mem_frei   = DevMemInfo_0.freemem 
+				CSV01.IW.RPS_Mem_gesamt = DevMemInfo_0.memsize
+				CSV01.IW.RPS_Mem_frei_prz = 100.0 / REAL(CSV01.IW.RPS_Mem_gesamt) * REAL(CSV01.IW.RPS_Mem_frei)
+				INC(CSV01.IW.RPS_MemInfo_OK_Z)
+				CSV01.IW.RPS_CPYDEL_STEP_Nr = 2											;--> fertig
+			ELSE IF (DevMemInfo_0.status <> 65535) THEN
+				CSV01.IW.RPS_Mem_frei   = 0
+				CSV01.IW.RPS_Mem_gesamt = 0
+				CSV01.IW.RPS_MemInfo_FehlerNr = DevMemInfo_0.status
+				INC(CSV01.IW.RPS_MemInfo_FEHLER_Z)
+				CSV01.SW.RPS_FileDelete_alt_HAND_T = 0
+				CSV01.SW.RPS_FileDelete_neu_HAND_T = 0
+				CSV01.SW.PC_FileCopy_alt_HAND_T    = 0
+				CSV01.SW.PC_FileCopy_neu_HAND_T    = 0
+				CSV01.SW.EXT_FileCopy_alt_HAND_T   = 0
+				CSV01.SW.EXT_FileCopy_neu_HAND_T   = 0
+				CSV01.IW.RPS_CPYDEL_STEP_Nr        = 0									;--> Fehler
+			ENDIF   	
+			IF CSV01.IW.RPS_Mem_frei < 1024*1024 THEN  ; 1MB = 1024Bytes x 1024  
+				CSV01.FE.RPS_kein_Speicherplatz = 1
+			ELSE
+				CSV01.FE.RPS_kein_Speicherplatz = 0
+			ENDIF
+        
+		ENDACTION
+
+		;============================================================================
+		ACTION 2: 			; --> RPS Device: File-Anzahl auslesen
+
+			DirInfo_0.enable  = 1 
+			DirInfo_0.pDevice = ADR(CSV01.IW.RPS_Device) 
+			DirInfo_0.pPath   = ADR(CSV01.IW.RPS_Zielpfad) 
+			DirInfo_0 FUB DirInfo()
+		
+			IF (DirInfo_0.status = 0) THEN
+				CSV01.IW.RPS_DirInfo_OK = 1
+				CSV01.IW.RPS_DirInfo_FileNum = DirInfo_0.filenum 
+				CSV01.IW.RPS_DirInfo_DirNum  = DirInfo_0.dirnum
+				INC(CSV01.IW.RPS_DirInfo_OK_Z)
+				DirRead_entry = 0
+				DirRead_Nr    = 0
+				DirRead_alt_Date = DT#2106-02-07-06:28:15 	; Default-Wert
+				DirRead_neu_Date = DT#1970-01-01-00:00:00    ; Default-Wert
+				CSV01.IW.RPS_CPYDEL_STEP_Nr = 3											;--> fertig
+			ELSE IF (DirInfo_0.status = 20723) THEN   ; Verzeichnis nicht vorhanden -> Verzeichnis + Datei neu anlegen
+				CSV01.IW.RPS_DirInfo_FileNum  = 0
+				CSV01.IW.RPS_DirInfo_DirNum   = 0
+				CSV01.IW.RPS_DirRead_Start_OK = 1
+				memset(ADR(CSV01.IW.File_Name), 0, SIZEOF(CSV01.IW.File_Name))
+				CSV01.IW.RPS_CPYDEL_STEP_Nr   = 0											
+			ELSE IF (DirInfo_0.status <> 65535) THEN
+				CSV01.IW.RPS_DirInfo_FileNum  = 0
+				CSV01.IW.RPS_DirInfo_DirNum   = 0
+				CSV01.IW.RPS_DirInfo_FehlerNr = DirInfo_0.status
+				INC(CSV01.IW.RPS_DirInfo_FEHLER_Z)
+				CSV01.SW.RPS_FileDelete_alt_HAND_T = 0
+				CSV01.SW.RPS_FileDelete_neu_HAND_T = 0
+				CSV01.SW.PC_FileCopy_alt_HAND_T    = 0
+				CSV01.SW.PC_FileCopy_neu_HAND_T    = 0
+				CSV01.SW.EXT_FileCopy_alt_HAND_T   = 0
+				CSV01.SW.EXT_FileCopy_neu_HAND_T   = 0
+				CSV01.IW.RPS_CPYDEL_STEP_Nr        = 0									;--> Fehler
+			ENDIF   	
+
+		ENDACTION
+
+		
+		;============================================================================
+		ACTION 3: 			; --> RPS Device: ältesten/jüngsten File - Infos auslesen
+
+			Schleife:
+		
+			DirRead_0.enable   = 1 
+			DirRead_0.pDevice  = ADR(CSV01.IW.RPS_Device) 
+			DirRead_0.pPath    = ADR(CSV01.IW.RPS_Zielpfad) 
+			DirRead_0.entry    = DirRead_Nr	    ; Eintrag (Filenummer)
+			DirRead_0.option   = fiFILE			; nur File-Infos lesen (keine Directory-Infos)
+			DirRead_0.data_len = 300
+			DirRead_0.pData    = ADR(CSV01.IW.RPS_DirRead_Data) 
+			DirRead_0 FUB DirRead()
+
+			IF (DirRead_0.status = 0) THEN
+				CSV01.IW.RPS_DirRead_OK = 1
+				INC(CSV01.IW.RPS_DirRead_OK_Z)
+				IF DiffDT(CSV01.IW.RPS_DirRead_Data.Date, DirRead_alt_Date) = $FFFFFFFF THEN  ; Datei älter ?
+					DirRead_alt_Date  = CSV01.IW.RPS_DirRead_Data.Date
+					DirRead_alt_entry = DirRead_Nr
+					memset(ADR(CSV01.IW.DirRead_FileName_alt), 0, SIZEOF(CSV01.IW.DirRead_FileName_alt))
+					strcpy(ADR(CSV01.IW.DirRead_FileName_alt), ADR(CSV01.IW.RPS_DirRead_Data.Filename))	; -> älteste Datei
+				ENDIF	
+				IF DiffDT(DirRead_neu_Date, CSV01.IW.RPS_DirRead_Data.Date) = $FFFFFFFF THEN  ; Datei jünger ?
+					DirRead_neu_Date  = CSV01.IW.RPS_DirRead_Data.Date
+					DirRead_neu_entry = DirRead_Nr
+					memset(ADR(CSV01.IW.DirRead_FileName_neu), 0, SIZEOF(CSV01.IW.DirRead_FileName_neu))
+					strcpy(ADR(CSV01.IW.DirRead_FileName_neu), ADR(CSV01.IW.RPS_DirRead_Data.Filename))  ; -> jüngste Datei
+				ENDIF	
+				IF (DirRead_Nr < DirInfo_0.filenum - 1) THEN
+					INC(DirRead_Nr)
+					GOTO Schleife
+				ENDIF	  
+			ELSE IF (DirInfo_0.status = 20723) THEN   ; Verzeichnis nicht vorhanden -> Verzeichnis + Datei neu anlegen
+				CSV01.IW.RPS_DirRead_Start_OK = 1
+				memset(ADR(CSV01.IW.File_Name), 0, SIZEOF(CSV01.IW.File_Name))
+				CSV01.IW.RPS_CPYDEL_STEP_Nr   = 0											
+			ELSE IF (DirRead_0.status <> 65535) THEN
+				IF DirRead_0.status <> 20702 THEN	  				; 20702 tritt auf wenn Dateien von Grübl-Reporting gelöscht werden während DirRead ausgeführt wird
+					CSV01.IW.RPS_DirRead_FehlerNr = DirRead_0.status  ; DirRead kann länger dauern da pro Task-Zyklus nur 1 Datei gelesen wird !
+					INC(CSV01.IW.RPS_DirRead_FEHLER_Z)
+				ENDIF	  
+				CSV01.SW.RPS_FileDelete_alt_HAND_T = 0
+				CSV01.SW.RPS_FileDelete_neu_HAND_T = 0
+				CSV01.SW.PC_FileCopy_alt_HAND_T    = 0
+				CSV01.SW.PC_FileCopy_neu_HAND_T    = 0
+				CSV01.SW.EXT_FileCopy_alt_HAND_T   = 0
+				CSV01.SW.EXT_FileCopy_neu_HAND_T   = 0
+				CSV01.IW.RPS_CPYDEL_STEP_Nr        = 0									;--> Fehler
+			ENDIF   	
+
+			IF (DirRead_0.status = 0) AND (DirInfo_0.filenum <= 1) THEN						; nur 1 Datei = aktuelles File vorhanden ?
+    
+				CSV01.IW.RPS_DirRead_Start_OK = 1
+				IF (CSV01.SW.RPS_COPY_AUTO_T AND CSV01.IW.RPS_COPY_AUTO_Start = 1) THEN	
+					CSV01.IW.RPS_COPY_AUTO_Start = 0
+					CSV01.IW.PC_FileCopy_OK      = 0
+					CSV01.IW.RPS_CPYDEL_STEP_Nr  = 4				; -> aktuelle Datei auf PC kopieren ohne auf CF zu löschen !
+				ELSE IF (CSV01.SW.PC_DirCopy_HAND_T OR CSV01.SW.PC_FileCopy_neu_HAND_T = 1) THEN
+					CSV01.IW.RPS_CPYDEL_STEP_Nr  = 4				; Ordner od. File auf PC kopieren
+				ELSE IF (CSV01.SW.EXT_DirCopy_HAND_T OR CSV01.SW.EXT_FileCopy_neu_HAND_T = 1) THEN
+					CSV01.IW.RPS_CPYDEL_STEP_Nr  = 5				; Ordner od. File auf PC kopieren
+				ELSE IF CSV01.SW.RPS_FileDelete_neu_HAND_T = 1 THEN
+					CSV01.IW.RPS_CPYDEL_STEP_Nr  = 8				; jüngste Datei auf RPS löschen !
+				ELSE
+					CSV01.IW.RPS_CPYDEL_STEP_Nr  = 0													
+				ENDIF
+				CSV01.SW.PC_FileCopy_alt_HAND_T  = 0
+				CSV01.SW.EXT_FileCopy_alt_HAND_T = 0
+		   
+			ELSE IF (DirRead_0.status = 0) AND (DirRead_Nr >= DirInfo_0.filenum - 1) THEN	; Alle Datei-Infos ausgelesen ? 
+	
+				CSV01.IW.RPS_DirRead_Start_OK = 1
+				IF (CSV01.SW.RPS_COPY_AUTO_T = 1) THEN	
+					CSV01.IW.PC_FileCopy_OK     = 0
+					CSV01.IW.RPS_CPYDEL_STEP_Nr = 4				; -> älteste Datei auf PC kopieren und auf CF löschen
+				ELSE IF (CSV01.SW.RPS_MEMORY_AUTO_T = 1) AND (CSV01.IW.RPS_Mem_frei_prz <= CSV01.SW.RPS_Mem_frei_przN) AND (CSV01.SW.RPS_Mem_frei_przN > 0) THEN
+					M_File_neu = 0
+					CSV01.IW.RPS_FileDelete_OK       = 0
+					CSV01.WA.RPS_Datei_alt_geloescht = 1
+					CSV01.IW.RPS_CPYDEL_STEP_Nr      = 8			; -> Speicher MIN: älteste Datei auf RPS löschen
+				ELSE IF (CSV01.SW.PC_DirCopy_HAND_T OR CSV01.SW.PC_FileCopy_alt_HAND_T OR CSV01.SW.PC_FileCopy_neu_HAND_T = 1) THEN
+					CSV01.IW.RPS_CPYDEL_STEP_Nr = 4				; -> Ordner od. Datei auf PC kopieren
+				ELSE IF (CSV01.SW.EXT_DirCopy_HAND_T OR CSV01.SW.EXT_FileCopy_alt_HAND_T OR CSV01.SW.EXT_FileCopy_neu_HAND_T = 1) THEN
+					CSV01.IW.RPS_CPYDEL_STEP_Nr = 5				; -> Ordner od. Datei auf EXT (z.B.: USB) kopieren
+				ELSE IF (CSV01.SW.RPS_FileDelete_alt_HAND_T = 1) THEN
+					M_File_neu = 0
+					CSV01.IW.RPS_FileDelete_OK  = 0
+					CSV01.IW.RPS_CPYDEL_STEP_Nr = 8				; -> älteste od. jüngste Datei auf RPS löschen !
+				ELSE IF (CSV01.SW.RPS_FileDelete_neu_HAND_T = 1) THEN
+					M_File_neu = 1
+					CSV01.IW.RPS_FileDelete_OK  = 0
+					CSV01.IW.RPS_CPYDEL_STEP_Nr = 8				; -> älteste od. jüngste Datei auf RPS löschen !
+				ELSE
+					CSV01.IW.RPS_CPYDEL_STEP_Nr = 0													
+				ENDIF 	  
+	
+			ELSE IF (DirRead_0.status = 0) THEN
+			
+				CSV01.IW.RPS_CPYDEL_STEP_Nr = 0													
+		   
+			ENDIF	
+	
+		ENDACTION
+
+		;============================================================================
+		ACTION 4: 			; --> PC Device1: RPS-CF mit Festplatte des PC verlinken
+
+			DevLink_0.enable  = 1
+			DevLink_0.pDevice = ADR(CSV01.IW.PC_Device)
+			DevLink_0.pParam  = ADR(CSV01.IW.PC_DevLink_Param) 
+			DevLink_0 FUB DevLink()
+
+			IF (DevLink_0.status = 0) OR (DevLink_0.status = 20730) THEN   		; Link erstellt oder vorhanden
+				CSV01.IW.PC_DevLink_OK = 1
+				INC(CSV01.IW.PC_DevLink_OK_Z)
+				CSV01.IW.RPS_CPYDEL_STEP_Nr = 5									;--> Ordner auf PC erstellen
+			ELSE IF (DevLink_0.status <> 65535) THEN
+				CSV01.IW.PC_DevLink_FehlerNr = DevLink_0.status
+				INC(CSV01.IW.PC_DevLink_FEHLER_Z)
+				CSV01.SW.PC_FileCopy_neu_HAND_T = 0
+				CSV01.SW.PC_FileCopy_alt_HAND_T = 0
+				CSV01.SW.PC_DirCopy_HAND_T      = 0
+				CSV01.IW.RPS_CPYDEL_STEP_Nr     = 0								;--> Fehler
+			ENDIF   	
+
+		ENDACTION
+
+		
+		;============================================================================
+		ACTION 5: 				; --> PC Device1: Ordner erstellen
+
+			DirCreate_0.enable  = 1
+			IF (CSV01.SW.RPS_COPY_AUTO_T OR CSV01.SW.PC_DirCopy_HAND_T OR CSV01.SW.PC_FileCopy_alt_HAND_T OR CSV01.SW.PC_FileCopy_neu_HAND_T = 1) THEN
+				DirCreate_0.pDevice = ADR(CSV01.IW.PC_Device)
+				DirCreate_0.pName   = ADR(CSV01.IW.PC_Zielpfad)
+			ELSE IF (CSV01.SW.EXT_DirCopy_HAND_T OR CSV01.SW.EXT_FileCopy_alt_HAND_T OR CSV01.SW.EXT_FileCopy_neu_HAND_T = 1) THEN
+				DirCreate_0.pDevice = ADR(CSV01.IW.EXT_Device)
+				DirCreate_0.pName   = ADR(CSV01.IW.EXT_Zielpfad)
+			ENDIF	
+			DirCreate_0 FUB DirCreate()
+        
+			IF (DirCreate_0.status = 0) OR (DirCreate_0.status = 20725) THEN	; Ordner erstellt oder vorhanden 
+				CSV01.IW.PC_DirCreate_OK = 1
+				INC(CSV01.IW.PC_DirCreate_OK_Z)
+		   
+				IF CSV01.SW.PC_DirCopy_HAND_T = 1 THEN
+					CSV01.SW.PC_FileCopy_alt_HAND_T = 0
+					CSV01.SW.PC_FileCopy_neu_HAND_T = 0
+					CSV01.IW.PC_DirCopy_OK          = 0
+					CSV01.IW.RPS_CPYDEL_STEP_Nr     = 7			; gesamten Ordner auf PC kopieren
+				ELSE IF CSV01.SW.PC_FileCopy_alt_HAND_T = 1 THEN
+					M_File_neu = 0
+					CSV01.IW.PC_FileCopy_OK     = 0
+					CSV01.IW.RPS_CPYDEL_STEP_Nr = 6				; älteste Datei auf PC kopieren
+				ELSE IF CSV01.SW.PC_FileCopy_neu_HAND_T = 1 THEN
+					M_File_neu = 1
+					CSV01.IW.PC_FileCopy_OK     = 0
+					CSV01.IW.RPS_CPYDEL_STEP_Nr = 6				; jüngste Datei auf PC kopieren
+				ELSE IF CSV01.SW.EXT_DirCopy_HAND_T = 1 THEN
+					CSV01.SW.EXT_FileCopy_alt_HAND_T = 0
+					CSV01.SW.EXT_FileCopy_neu_HAND_T = 0
+					CSV01.IW.EXT_DirCopy_OK          = 0
+					CSV01.IW.RPS_CPYDEL_STEP_Nr      = 7			; gesamten Ordner auf EXT kopieren
+				ELSE IF CSV01.SW.EXT_FileCopy_alt_HAND_T = 1 THEN
+					M_File_neu = 0
+					CSV01.IW.EXT_FileCopy_OK    = 0
+					CSV01.IW.RPS_CPYDEL_STEP_Nr = 6				; älteste Datei auf EXT kopieren
+				ELSE IF CSV01.SW.EXT_FileCopy_neu_HAND_T = 1 THEN
+					M_File_neu = 1
+					CSV01.IW.EXT_FileCopy_OK    = 0
+					CSV01.IW.RPS_CPYDEL_STEP_Nr = 6				; jüngste Datei auf EXT kopieren
+				ELSE IF (CSV01.SW.RPS_COPY_AUTO_T = 1) THEN	
+					M_File_neu = 0
+					CSV01.IW.PC_FileCopy_OK     = 0
+					CSV01.IW.RPS_CPYDEL_STEP_Nr = 6				; -> älteste Datei auf PC kopieren und auf CF löschen
+				ELSE
+					CSV01.IW.RPS_CPYDEL_STEP_Nr = 0													
+				ENDIF 	  
+	   
+			ELSE IF (DirCreate_0.status <> 65535) THEN								
+				IF (CSV01.SW.PC_DirCopy_HAND_T OR CSV01.SW.PC_FileCopy_alt_HAND_T OR CSV01.SW.PC_FileCopy_neu_HAND_T = 1) THEN 
+					CSV01.IW.PC_DirCreate_FehlerNr = DirCreate_0.status
+					INC(CSV01.IW.PC_DirCreate_FEHLER_Z)
+					CSV01.SW.PC_FileCopy_alt_HAND_T  = 0
+					CSV01.SW.PC_FileCopy_neu_HAND_T  = 0
+					CSV01.SW.PC_DirCopy_HAND_T       = 0
+				ELSE IF (CSV01.SW.EXT_DirCopy_HAND_T OR CSV01.SW.EXT_FileCopy_alt_HAND_T OR CSV01.SW.EXT_FileCopy_neu_HAND_T = 1) THEN	  
+					CSV01.IW.EXT_DirCreate_FehlerNr = DirCreate_0.status
+					INC(CSV01.IW.EXT_DirCreate_FEHLER_Z)
+					CSV01.SW.EXT_FileCopy_alt_HAND_T = 0
+					CSV01.SW.EXT_FileCopy_neu_HAND_T = 0
+					hmiButtons.DatenaufzeichnungAufUsb = 0
+					CSV01.SW.EXT_DirCopy_HAND_T      = 0
+				ENDIF	  
+				CSV01.IW.RPS_CPYDEL_STEP_Nr      = 0  			; --> Fehler					
+			ENDIF
+
+		ENDACTION	
+
+		;============================================================================
+		ACTION 6: 				; --> PC Device1: älteste/jüngste Datei auf Festplatte des PC kopieren
+
+			IF M_File_neu = 1 THEN
+				memset(ADR(Str_RPS_File_Name), 0, SIZEOF(Str_RPS_File_Name))
+				strcpy(ADR(Str_RPS_File_Name), ADR(CSV01.IW.RPS_Zielpfad))
+				strcat(ADR(Str_RPS_File_Name), "/")
+				strcat(ADR(Str_RPS_File_Name), ADR(CSV01.IW.DirRead_FileName_neu))
+				memset(ADR(Str_Ziel_File_Name), 0, SIZEOF(Str_Ziel_File_Name))
+				IF (CSV01.SW.PC_FileCopy_neu_HAND_T = 1) THEN
+					strcpy(ADR(Str_Ziel_File_Name), ADR(CSV01.IW.PC_Zielpfad))
+					strcat(ADR(Str_Ziel_File_Name), "/")
+					strcat(ADR(Str_Ziel_File_Name), ADR(CSV01.IW.DirRead_FileName_neu))
+				ELSE IF (CSV01.SW.EXT_FileCopy_neu_HAND_T = 1) THEN
+					strcpy(ADR(Str_Ziel_File_Name), ADR(CSV01.IW.EXT_Zielpfad))
+					strcat(ADR(Str_Ziel_File_Name), "/")
+					strcat(ADR(Str_Ziel_File_Name), ADR(CSV01.IW.DirRead_FileName_neu))
+				ENDIF	
+			ELSE
+				memset(ADR(Str_RPS_File_Name), 0, SIZEOF(Str_RPS_File_Name))
+				strcpy(ADR(Str_RPS_File_Name), ADR(CSV01.IW.RPS_Zielpfad))
+				strcat(ADR(Str_RPS_File_Name), "/")
+				strcat(ADR(Str_RPS_File_Name), ADR(CSV01.IW.DirRead_FileName_alt))
+				memset(ADR(Str_Ziel_File_Name), 0, SIZEOF(Str_Ziel_File_Name))
+				IF (CSV01.SW.RPS_COPY_AUTO_T OR CSV01.SW.PC_FileCopy_alt_HAND_T = 1) THEN
+					strcpy(ADR(Str_Ziel_File_Name), ADR(CSV01.IW.PC_Zielpfad))
+					strcat(ADR(Str_Ziel_File_Name), "/")
+					strcat(ADR(Str_Ziel_File_Name), ADR(CSV01.IW.DirRead_FileName_alt))
+				ELSE IF (CSV01.SW.EXT_FileCopy_alt_HAND_T = 1) THEN
+					strcpy(ADR(Str_Ziel_File_Name), ADR(CSV01.IW.EXT_Zielpfad))
+					strcat(ADR(Str_Ziel_File_Name), "/")
+					strcat(ADR(Str_Ziel_File_Name), ADR(CSV01.IW.DirRead_FileName_alt))
+				ENDIF	
+			ENDIF
+
+			FileCopy_0.enable    = 1
+			FileCopy_0.pSrcDev   = ADR(CSV01.IW.RPS_Device)
+			FileCopy_0.pSrc      = ADR(Str_RPS_File_Name)
+			IF (CSV01.SW.RPS_COPY_AUTO_T OR CSV01.SW.PC_FileCopy_neu_HAND_T OR CSV01.SW.PC_FileCopy_alt_HAND_T = 1) THEN
+				FileCopy_0.pDestDev  = ADR(CSV01.IW.PC_Device)
+			ELSE IF (CSV01.SW.EXT_FileCopy_neu_HAND_T OR CSV01.SW.EXT_FileCopy_alt_HAND_T = 1) THEN
+				FileCopy_0.pDestDev  = ADR(CSV01.IW.EXT_Device)
+			ENDIF	
+			FileCopy_0.pDest     = ADR(Str_Ziel_File_Name)
+			FileCopy_0.option    = fiOVERWRITE 
+			FileCopy_0 FUB FileCopy()
+		
+			IF (FileCopy_0.status = 0) THEN
+				CSV01.IW.PC_FileCopy_OK = 1
+				IF (CSV01.SW.PC_FileCopy_neu_HAND_T OR CSV01.SW.PC_FileCopy_alt_HAND_T = 1) THEN       
+					INC(CSV01.IW.PC_FileCopy_OK_Z)
+					CSV01.SW.PC_FileCopy_alt_HAND_T = 0
+					CSV01.SW.PC_FileCopy_neu_HAND_T = 0
+					CSV01.IW.RPS_CPYDEL_STEP_Nr     = 0						;--> fertig kopiert
+				ELSE IF (CSV01.SW.EXT_FileCopy_neu_HAND_T OR CSV01.SW.EXT_FileCopy_alt_HAND_T = 1) THEN       
+					INC(CSV01.IW.EXT_FileCopy_OK_Z)
+					CSV01.SW.EXT_FileCopy_alt_HAND_T = 0
+					CSV01.SW.EXT_FileCopy_neu_HAND_T = 0
+					CSV01.IW.RPS_CPYDEL_STEP_Nr      = 0						;--> fertig kopiert
+				ELSE IF (CSV01.SW.RPS_COPY_AUTO_T = 1) AND (DirInfo_0.filenum > 1) THEN     						; nur wenn mehr als 1 File vorhanden
+					INC(CSV01.IW.PC_FileCopy_OK_Z)
+					CSV01.IW.RPS_CPYDEL_STEP_Nr = 8							;--> löschen
+				ELSE
+					INC(CSV01.IW.PC_FileCopy_OK_Z)
+					CSV01.IW.RPS_CPYDEL_STEP_Nr = 0							;--> fertig kopiert
+				ENDIF
+			ELSE IF (FileCopy_0.status <> 65535) THEN
+				IF (CSV01.SW.RPS_COPY_AUTO_T OR CSV01.SW.PC_FileCopy_neu_HAND_T OR CSV01.SW.PC_FileCopy_alt_HAND_T = 1) THEN
+					CSV01.IW.PC_FileCopy_FehlerNr = FileCopy_0.status
+					INC(CSV01.IW.PC_FileCopy_FEHLER_Z)
+					CSV01.SW.PC_FileCopy_alt_HAND_T = 0
+					CSV01.SW.PC_FileCopy_neu_HAND_T = 0
+				ELSE IF (CSV01.SW.EXT_FileCopy_neu_HAND_T OR CSV01.SW.EXT_FileCopy_alt_HAND_T = 1) THEN	   
+					CSV01.IW.EXT_FileCopy_FehlerNr = FileCopy_0.status
+					INC(CSV01.IW.EXT_FileCopy_FEHLER_Z)
+					CSV01.SW.EXT_FileCopy_alt_HAND_T = 0
+					CSV01.SW.EXT_FileCopy_neu_HAND_T = 0
+				ENDIF	  
+				CSV01.IW.RPS_CPYDEL_STEP_Nr      = 0							;--> Fehler
+			ENDIF   	
+
+		ENDACTION
+
+		;============================================================================
+		ACTION 7: 			; --> RPS Device: Directory kopieren
+
+			DirCopy_0.enable   = 1 
+			DirCopy_0.pSrcDev  = ADR(CSV01.IW.RPS_Device) 
+			DirCopy_0.pSrcDir  = ADR(CSV01.IW.RPS_Zielpfad) 
+			IF CSV01.SW.PC_DirCopy_HAND_T = 1 THEN
+				DirCopy_0.pDestDev = ADR(CSV01.IW.PC_Device) 
+				DirCopy_0.pDestDir = ADR(CSV01.IW.PC_Zielpfad) 
+			ELSE IF CSV01.SW.EXT_DirCopy_HAND_T = 1 THEN
+				DirCopy_0.pDestDev = ADR(CSV01.IW.EXT_Device) 
+				DirCopy_0.pDestDir = ADR(CSV01.IW.EXT_Zielpfad) 
+			ENDIF   
+			DirCopy_0.option   = fiRECURSIVE		; incl. Unterordner !
+			DirCopy_0 FUB DirCopy()
+		
+			IF (CSV01.SW.PC_DirCopy_HAND_T = 0) AND (CSV01.SW.EXT_DirCopy_HAND_T = 0) THEN
+				CSV01.IW.RPS_CPYDEL_STEP_Nr = 0										;--> Abbruch
+			ENDIF			
+
+			IF (DirCopy_0.status = 0) THEN
+				IF CSV01.SW.PC_DirCopy_HAND_T = 1 THEN
+					CSV01.IW.PC_DirCopy_OK = 1
+					INC(CSV01.IW.PC_DirCopy_OK_Z)
+					CSV01.SW.PC_DirCopy_HAND_T      = 0
+					CSV01.SW.PC_FileCopy_alt_HAND_T = 0
+					CSV01.SW.PC_FileCopy_neu_HAND_T = 0
+				ELSE IF CSV01.SW.EXT_DirCopy_HAND_T = 1 THEN
+					CSV01.IW.EXT_DirCopy_OK = 1
+					INC(CSV01.IW.EXT_DirCopy_OK_Z)
+					hmiButtons.DatenaufzeichnungAufUsb = 0
+					CSV01.SW.EXT_DirCopy_HAND_T      = 0
+					CSV01.SW.EXT_FileCopy_alt_HAND_T = 0
+					CSV01.SW.EXT_FileCopy_neu_HAND_T = 0
+				ENDIF	  	  
+				CSV01.IW.RPS_CPYDEL_STEP_Nr     = 0									;--> fertig
+			ELSE IF (DirCopy_0.status <> 65535) THEN
+				IF CSV01.SW.PC_DirCopy_HAND_T = 1 THEN
+					CSV01.IW.PC_DirCopy_FehlerNr = DirCopy_0.status
+					INC(CSV01.IW.PC_DirCopy_FEHLER_Z)
+					CSV01.SW.PC_DirCopy_HAND_T       = 0
+					CSV01.SW.PC_FileCopy_alt_HAND_T  = 0
+					CSV01.SW.PC_FileCopy_neu_HAND_T  = 0
+				ELSE IF CSV01.SW.EXT_DirCopy_HAND_T = 1 THEN	  
+					CSV01.IW.EXT_DirCopy_FehlerNr = DirCopy_0.status
+					INC(CSV01.IW.EXT_DirCopy_FEHLER_Z)
+					hmiButtons.DatenaufzeichnungAufUsb = 0
+					CSV01.SW.EXT_DirCopy_HAND_T      = 0
+					CSV01.SW.EXT_FileCopy_alt_HAND_T = 0
+					CSV01.SW.EXT_FileCopy_neu_HAND_T = 0
+				ENDIF
+				CSV01.IW.RPS_CPYDEL_STEP_Nr = 0										;--> Fehler
+			ENDIF   	
+
+		ENDACTION
+	
+		;============================================================================
+		ACTION 8: 			; --> RPS Device: ältesten File löschen
+
+			IF M_File_neu = 1 THEN
+				memset(ADR(Str_RPS_File_Name), 0, SIZEOF(Str_RPS_File_Name))
+				strcpy(ADR(Str_RPS_File_Name), ADR(CSV01.IW.RPS_Zielpfad))
+				strcat(ADR(Str_RPS_File_Name), "/")
+				strcat(ADR(Str_RPS_File_Name), ADR(CSV01.IW.DirRead_FileName_neu))
+			ELSE
+				memset(ADR(Str_RPS_File_Name), 0, SIZEOF(Str_RPS_File_Name))
+				strcpy(ADR(Str_RPS_File_Name), ADR(CSV01.IW.RPS_Zielpfad))
+				strcat(ADR(Str_RPS_File_Name), "/")
+				strcat(ADR(Str_RPS_File_Name), ADR(CSV01.IW.DirRead_FileName_alt))
+			ENDIF
+		
+			FileDelete_0.enable  = 1 
+			FileDelete_0.pDevice = ADR(CSV01.IW.RPS_Device) 
+			FileDelete_0.pName   = ADR(Str_RPS_File_Name) 
+			FileDelete_0 FUB FileDelete()
+		
+			IF (FileDelete_0.status = 0) THEN
+				CSV01.IW.RPS_FileDelete_OK = 1
+				INC(CSV01.IW.RPS_FileDelete_OK_Z)
+				CSV01.SW.RPS_FileDelete_alt_HAND_T = 0
+				CSV01.SW.RPS_FileDelete_neu_HAND_T = 0
+				CSV01.IW.RPS_CPYDEL_STEP_Nr        = 0					;--> fertig gelöscht
+			ELSE IF (FileDelete_0.status <> 65535) THEN
+				CSV01.IW.RPS_FileDelete_FehlerNr = FileDelete_0.status
+				INC(CSV01.IW.RPS_FileDelete_FEHLER_Z)
+				CSV01.SW.RPS_FileDelete_alt_HAND_T = 0
+				CSV01.SW.RPS_FileDelete_neu_HAND_T = 0
+				CSV01.IW.RPS_CPYDEL_STEP_Nr = 0							;--> Fehler
+			ENDIF   	
+
+		ENDACTION
+
+		;============================================================================
+		ACTION 9: 			; --> RPS Device: ganzen Ordner löschen
+
+			DirDeleteEx_0.enable  = 1 
+			DirDeleteEx_0.pDevice = ADR(CSV01.IW.RPS_Device) 
+			DirDeleteEx_0.pName   = ADR(CSV01.IW.RPS_Zielpfad) 
+			DirDeleteEx_0 FUB DirDeleteEx()
+		
+			IF CSV01.SW.RPS_DirDeleteEx_HAND_T = 0 THEN
+				CSV01.IW.RPS_CPYDEL_STEP_Nr = 0											;--> Abbruch
+			ENDIF			
+			IF (DirDeleteEx_0.status = 0) THEN
+				CSV01.IW.RPS_DirDeleteEx_OK = 1
+				CSV01.IW.RPS_FileWrite_OK_Z = 0
+				INC(CSV01.IW.RPS_DirDeleteEx_OK_Z)
+				CSV01.SW.RPS_DirDeleteEx_HAND_T    = 0
+				CSV01.SW.RPS_FileDelete_alt_HAND_T = 0
+				CSV01.SW.RPS_FileDelete_neu_HAND_T = 0
+				CSV01.IW.RPS_CPYDEL_STEP_Nr        = 0									;--> fertig
+			ELSE IF (DirDeleteEx_0.status <> 65535) THEN
+				CSV01.IW.RPS_DirDeleteEx_FehlerNr = DirDeleteEx_0.status
+				INC(CSV01.IW.RPS_DirDeleteEx_FEHLER_Z)
+				CSV01.SW.RPS_DirDeleteEx_HAND_T    = 0
+				CSV01.SW.RPS_FileDelete_alt_HAND_T = 0
+				CSV01.SW.RPS_FileDelete_neu_HAND_T = 0
+				CSV01.IW.RPS_CPYDEL_STEP_Nr        = 0									;--> Fehler
+			ENDIF   	
+
+		ENDACTION
+
+	ENDCASE  
+
+	InitOK = 1
+   
+  
+END_PROGRAM
+
+

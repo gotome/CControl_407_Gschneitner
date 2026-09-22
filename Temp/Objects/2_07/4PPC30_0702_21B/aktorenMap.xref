@@ -1,0 +1,3347 @@
+<?xml version="1.0"?>
+<Crossref Scope="IO.aktorenMapping" AppMod="">
+	<Vars>
+		<Var Name="aktorenMap.sekTick" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="13" C="2" PS="Ln:13, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="aktorenMap.fbLascoZdxx_0" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="12" C="2" PS="Ln:12, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="aktorenMap.fbLascoZdxx_0.Q" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="13" C="16" PS="Ln:13, Col:16" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.EntfeuchterVonVent1Abhaengig" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="71" C="33" PS="Ln:71, Col:33" A="R"/>
+				<Pos L="72" C="76" PS="Ln:72, Col:76" A="R"/>
+				<Pos L="133" C="33" PS="Ln:133, Col:33" A="R"/>
+				<Pos L="134" C="76" PS="Ln:134, Col:76" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.EntfeuchterVonVent2Abhaengig" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="71" C="103" PS="Ln:71, Col:103" A="R"/>
+				<Pos L="73" C="24" PS="Ln:73, Col:24" A="R"/>
+				<Pos L="133" C="103" PS="Ln:133, Col:103" A="R"/>
+				<Pos L="135" C="24" PS="Ln:135, Col:24" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.EntfeuchterInselbetrieb" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="73" C="91" PS="Ln:73, Col:91" A="R"/>
+				<Pos L="135" C="91" PS="Ln:135, Col:91" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.FreigabeLuftentfeuchter" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="110" C="90" PS="Ln:110, Col:90" A="R"/>
+				<Pos L="172" C="90" PS="Ln:172, Col:90" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box1Out.BoxAktiv" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="194" C="143" PS="Ln:194, Col:143" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box2Out.BoxAktiv" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="195" C="93" PS="Ln:195, Col:93" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box3Out.BoxAktiv" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="196" C="93" PS="Ln:196, Col:93" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box4Out.BoxAktiv" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="197" C="93" PS="Ln:197, Col:93" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box5Out.BoxAktiv" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="198" C="93" PS="Ln:198, Col:93" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box6Out.BoxAktiv" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="199" C="93" PS="Ln:199, Col:93" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.BypassklVonVent1Abhaengig" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="294" C="54" PS="Ln:294, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.BypassklVonVent2Abhaengig" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="295" C="54" PS="Ln:295, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Boxenkl1VonVent1Abhaengig" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="296" C="54" PS="Ln:296, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Boxenkl2VonVent1Abhaengig" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="297" C="54" PS="Ln:297, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Boxenkl3VonVent1Abhaengig" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="298" C="54" PS="Ln:298, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Boxenkl4VonVent1Abhaengig" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="299" C="54" PS="Ln:299, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Boxenkl5VonVent1Abhaengig" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="300" C="54" PS="Ln:300, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Boxenkl6VonVent1Abhaengig" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="301" C="54" PS="Ln:301, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Boxenkl1VonVent2Abhaengig" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="302" C="54" PS="Ln:302, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Boxenkl2VonVent2Abhaengig" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="303" C="54" PS="Ln:303, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Boxenkl3VonVent2Abhaengig" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="304" C="54" PS="Ln:304, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Boxenkl4VonVent2Abhaengig" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="305" C="54" PS="Ln:305, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Boxenkl5VonVent2Abhaengig" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="306" C="54" PS="Ln:306, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Boxenkl6VonVent2Abhaengig" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="307" C="54" PS="Ln:307, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.OelsumpfheizungModul1.EintrittTemp" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="24" C="2" PS="Ln:24, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.OelsumpfheizungModul1.StatusSensorEintrittOk" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="25" C="2" PS="Ln:25, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.OelsumpfheizungModul1.parTempOelsumpfheizungEin" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="28" C="2" PS="Ln:28, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.OelsumpfheizungModul1.parTempOelsumpfheizungAus" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="29" C="2" PS="Ln:29, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.OelsumpfheizungModul1.OelsumpfheizungEin" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="32" C="40" PS="Ln:32, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.OelsumpfheizungModul2.EintrittTemp" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="45" C="2" PS="Ln:45, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.OelsumpfheizungModul2.StatusSensorEintrittOk" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="46" C="2" PS="Ln:46, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.OelsumpfheizungModul2.parTempOelsumpfheizungEin" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="49" C="2" PS="Ln:49, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.OelsumpfheizungModul2.parTempOelsumpfheizungAus" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="50" C="2" PS="Ln:50, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.OelsumpfheizungModul2.OelsumpfheizungEin" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="53" C="41" PS="Ln:53, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.EintrittFeuchte" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="67" C="2" PS="Ln:67, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.Niederdruck" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="68" C="2" PS="Ln:68, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.Hochdruck" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="69" C="2" PS="Ln:69, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.KlappenumschaltungAkiv" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="70" C="2" PS="Ln:70, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.UmschaltungAktiv" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="70" C="54" PS="Ln:70, Col:54" A="R"/>
+				<Pos L="132" C="54" PS="Ln:132, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.BetriebsmldgVentilator" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="72" C="2" PS="Ln:72, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.BetriebsmldgKompressor" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="74" C="2" PS="Ln:74, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.StatusSensorEintrittOk" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="75" C="2" PS="Ln:75, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.StatusSensorNiederdruckOk" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="76" C="2" PS="Ln:76, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.diHochdruckOk" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="77" C="2" PS="Ln:77, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.diNiederdruckOk" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="78" C="2" PS="Ln:78, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.SicherheitOk" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="79" C="2" PS="Ln:79, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.QuitFehler" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="83" C="2" PS="Ln:83, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.parEinschaltverzAbtau" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="84" C="2" PS="Ln:84, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.parAusschaltverzAbtau" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="85" C="2" PS="Ln:85, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.parEinschaltverzKompressor" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="86" C="2" PS="Ln:86, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.parEinschaltverzMagnetventil" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="87" C="2" PS="Ln:87, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.parFeuchteEin" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="88" C="2" PS="Ln:88, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.parFeuchteAus" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="89" C="2" PS="Ln:89, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.parNiederdruckMin" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="90" C="2" PS="Ln:90, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.parNiederdruckMax" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="91" C="2" PS="Ln:91, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.parNiederdruckPumpdown" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="92" C="2" PS="Ln:92, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.parHochdruckMax" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="93" C="2" PS="Ln:93, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.parVerzStandbyBeiKlappenumsch" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="94" C="2" PS="Ln:94, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.DrehzahlMin" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="95" C="2" PS="Ln:95, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.DrehzahlMax" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="96" C="2" PS="Ln:96, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.RampeUp" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="97" C="2" PS="Ln:97, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.RampeDown" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="98" C="2" PS="Ln:98, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.FreigabeKompressorOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="101" C="35" PS="Ln:101, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.DrehzahlOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="102" C="42" PS="Ln:102, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.MagnetventilOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="103" C="37" PS="Ln:103, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.StoerungOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="108" C="8" PS="Ln:108, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.Automatik" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="110" C="9" PS="Ln:110, Col:9" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.Dauerbetrieb" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="110" C="47" PS="Ln:110, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul1.AbtauungAktiv" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="112" C="8" PS="Ln:112, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.EintrittFeuchte" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="129" C="2" PS="Ln:129, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.Niederdruck" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="130" C="2" PS="Ln:130, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.Hochdruck" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="131" C="2" PS="Ln:131, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.KlappenumschaltungAkiv" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="132" C="2" PS="Ln:132, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.BetriebsmldgVentilator" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="134" C="2" PS="Ln:134, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.BetriebsmldgKompressor" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="136" C="2" PS="Ln:136, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.StatusSensorEintrittOk" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="137" C="2" PS="Ln:137, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.StatusSensorNiederdruckOk" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="138" C="2" PS="Ln:138, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.diHochdruckOk" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="139" C="2" PS="Ln:139, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.diNiederdruckOk" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="140" C="2" PS="Ln:140, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.SicherheitOk" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="141" C="2" PS="Ln:141, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.QuitFehler" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="145" C="2" PS="Ln:145, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.parEinschaltverzAbtau" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="146" C="2" PS="Ln:146, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.parAusschaltverzAbtau" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="147" C="2" PS="Ln:147, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.parEinschaltverzKompressor" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="148" C="2" PS="Ln:148, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.parEinschaltverzMagnetventil" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="149" C="2" PS="Ln:149, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.parFeuchteEin" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="150" C="2" PS="Ln:150, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.parFeuchteAus" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="151" C="2" PS="Ln:151, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.parNiederdruckMin" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="152" C="2" PS="Ln:152, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.parNiederdruckMax" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="153" C="2" PS="Ln:153, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.parNiederdruckPumpdown" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="154" C="2" PS="Ln:154, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.parHochdruckMax" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="155" C="2" PS="Ln:155, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.parVerzStandbyBeiKlappenumsch" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="156" C="2" PS="Ln:156, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.DrehzahlMin" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="157" C="2" PS="Ln:157, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.DrehzahlMax" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="158" C="2" PS="Ln:158, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.RampeUp" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="159" C="2" PS="Ln:159, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.RampeDown" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="160" C="2" PS="Ln:160, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.FreigabeKompressorOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="163" C="35" PS="Ln:163, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.DrehzahlOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="164" C="42" PS="Ln:164, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.MagnetventilOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="165" C="37" PS="Ln:165, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.StoerungOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="170" C="8" PS="Ln:170, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.Automatik" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="172" C="9" PS="Ln:172, Col:9" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.Dauerbetrieb" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="172" C="47" PS="Ln:172, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.KompressorModul2.AbtauungAktiv" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="174" C="8" PS="Ln:174, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.EntfeuchterFremd.BetriebsmldgEntfeuchter" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="191" C="2" PS="Ln:191, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.EntfeuchterFremd.BetriebsmldgVentilator" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="192" C="2" PS="Ln:192, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.EntfeuchterFremd.WitterungIstSchlecht" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="194" C="2" PS="Ln:194, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.EntfeuchterFremd.StoerungIn" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="200" C="2" PS="Ln:200, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.EntfeuchterFremd.parEinschaltverzKompressor" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="203" C="2" PS="Ln:203, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.EntfeuchterFremd.parVerzBetriebEntfeuchter" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="204" C="2" PS="Ln:204, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.EntfeuchterFremd.parVerzStoerung" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="205" C="2" PS="Ln:205, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.EntfeuchterFremd.QuitFehler" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="206" C="2" PS="Ln:206, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.EntfeuchterFremd.FreigabeKompressorOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="209" C="33" PS="Ln:209, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.EntfeuchterFremd.StoerungOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="218" C="8" PS="Ln:218, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftklappe.AbluftFeuchteIst" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="229" C="2" PS="Ln:229, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftklappe.EndlageOffen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="230" C="2" PS="Ln:230, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftklappe.EndlageGeschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="231" C="2" PS="Ln:231, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftklappe.AbluftFeuchteSoll" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="234" C="2" PS="Ln:234, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftklappe.Hysterese" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="235" C="2" PS="Ln:235, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftklappe.Laufzeit" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="236" C="2" PS="Ln:236, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftklappe.Quit" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="237" C="2" PS="Ln:237, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftklappe.OeffnenOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="240" C="34" PS="Ln:240, Col:34" A="R"/>
+				<Pos L="241" C="33" PS="Ln:241, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftklappe.SchliessenOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="240" C="74" PS="Ln:240, Col:74" A="R"/>
+				<Pos L="242" C="35" PS="Ln:242, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftklappe.FehlerLaufzeit" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="249" C="8" PS="Ln:249, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftventilator.AbluftFeuchteIst" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="263" C="2" PS="Ln:263, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftventilator.VentilatorInBetrieb" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="264" C="2" PS="Ln:264, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftventilator.RampeUp" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="265" C="2" PS="Ln:265, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftventilator.RampeDown" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="266" C="2" PS="Ln:266, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftventilator.DrehzahlMin" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="269" C="2" PS="Ln:269, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftventilator.DrehzahlMax" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="270" C="2" PS="Ln:270, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftventilator.AbluftFeuchteSoll" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="271" C="2" PS="Ln:271, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftventilator.Hysterese" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="272" C="2" PS="Ln:272, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftventilator.QuitFehler" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="273" C="2" PS="Ln:273, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftventilator.FreigabeVentilatorOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="276" C="33" PS="Ln:276, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftventilator.DrehzahlVentilatorOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="277" C="40" PS="Ln:277, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Abluftventilator.FehlerOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="283" C="8" PS="Ln:283, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Freigabe" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="293" C="2" PS="Ln:293, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.BypassklVonVent1Abhaengig" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="294" C="2" PS="Ln:294, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.BypassklVonVent2Abhaengig" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="295" C="2" PS="Ln:295, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenkl1VonVent1Abhaengig" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="296" C="2" PS="Ln:296, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenkl2VonVent1Abhaengig" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="297" C="2" PS="Ln:297, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenkl3VonVent1Abhaengig" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="298" C="2" PS="Ln:298, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenkl4VonVent1Abhaengig" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="299" C="2" PS="Ln:299, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenkl5VonVent1Abhaengig" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="300" C="2" PS="Ln:300, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenkl6VonVent1Abhaengig" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="301" C="2" PS="Ln:301, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenkl1VonVent2Abhaengig" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="302" C="2" PS="Ln:302, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenkl2VonVent2Abhaengig" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="303" C="2" PS="Ln:303, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenkl3VonVent2Abhaengig" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="304" C="2" PS="Ln:304, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenkl4VonVent2Abhaengig" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="305" C="2" PS="Ln:305, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenkl5VonVent2Abhaengig" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="306" C="2" PS="Ln:306, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenkl6VonVent2Abhaengig" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="307" C="2" PS="Ln:307, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.UmluftklVonVent1Abhaengig" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="308" C="2" PS="Ln:308, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.UmluftklVonVent2Abhaengig" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="309" C="2" PS="Ln:309, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlBoxenklappe1Geschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="310" C="2" PS="Ln:310, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlBoxenklappe1Offen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="311" C="2" PS="Ln:311, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlBoxenklappe2Geschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="312" C="2" PS="Ln:312, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlBoxenklappe2Offen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="313" C="2" PS="Ln:313, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlBoxenklappe3Geschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="314" C="2" PS="Ln:314, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlBoxenklappe3Offen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="315" C="2" PS="Ln:315, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlBoxenklappe4Geschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="316" C="2" PS="Ln:316, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlBoxenklappe4Offen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="317" C="2" PS="Ln:317, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlBoxenklappe5Geschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="318" C="2" PS="Ln:318, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlBoxenklappe5Offen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="319" C="2" PS="Ln:319, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlBoxenklappe6Geschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="320" C="2" PS="Ln:320, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlBoxenklappe6Offen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="321" C="2" PS="Ln:321, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlBypassGeschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="322" C="2" PS="Ln:322, Col:2" A="W"/>
+				<Pos L="324" C="2" PS="Ln:324, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlBypassOffen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="323" C="2" PS="Ln:323, Col:2" A="W"/>
+				<Pos L="325" C="2" PS="Ln:325, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlUmschaltkl1Geschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="326" C="2" PS="Ln:326, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlUmschaltkl1Offen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="327" C="2" PS="Ln:327, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlUmschaltkl2Geschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="328" C="2" PS="Ln:328, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlUmschaltkl2Offen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="329" C="2" PS="Ln:329, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.LuftaufbereitungInBetrieb" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="330" C="2" PS="Ln:330, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Warmluftofen.WarmluftofenAktiv" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="330" C="104" PS="Ln:330, Col:104" A="R"/>
+				<Pos L="614" C="8" PS="Ln:614, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Scheitholzofen.ScheitholzofenAktiv" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="331" C="2" PS="Ln:331, Col:2" A="R"/>
+				<Pos L="688" C="8" PS="Ln:688, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Ventilator1InBetrieb" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="332" C="2" PS="Ln:332, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Ventilator2InBetrieb" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="333" C="2" PS="Ln:333, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe1Vorhanden" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="334" C="2" PS="Ln:334, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe2Vorhanden" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="338" C="2" PS="Ln:338, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe3Vorhanden" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="342" C="2" PS="Ln:342, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe4Vorhanden" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="346" C="2" PS="Ln:346, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe5Vorhanden" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="350" C="2" PS="Ln:350, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe6Vorhanden" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="354" C="2" PS="Ln:354, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.QuitFehler" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="360" C="2" PS="Ln:360, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.AnlaufverzZweiterVent" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="361" C="2" PS="Ln:361, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.DrehzahlVent1Min" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="362" C="2" PS="Ln:362, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.DrehzahlVent1Max" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="363" C="2" PS="Ln:363, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.RampeVent1Up" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="364" C="2" PS="Ln:364, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.RampeVent1Down" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="365" C="2" PS="Ln:365, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.DrehzahlVent1Umsch" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="366" C="2" PS="Ln:366, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.DrzVent1UmschMitLuftaufb" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="367" C="2" PS="Ln:367, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.DrehzahlVent2Min" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="368" C="2" PS="Ln:368, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.DrehzahlVent2Max" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="369" C="2" PS="Ln:369, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.RampeVent2Up" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="370" C="2" PS="Ln:370, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.RampeVent2Down" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="371" C="2" PS="Ln:371, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.DrehzahlVent2Umsch" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="372" C="2" PS="Ln:372, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.DrzVent2UmschMitLuftaufb" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="373" C="2" PS="Ln:373, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.LaufzeitBypassklappe" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="374" C="2" PS="Ln:374, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.LaufzeitBoxenklappe1" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="375" C="2" PS="Ln:375, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.LaufzeitBoxenklappe2" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="376" C="2" PS="Ln:376, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.LaufzeitBoxenklappe3" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="377" C="2" PS="Ln:377, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.LaufzeitBoxenklappe4" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="378" C="2" PS="Ln:378, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.LaufzeitBoxenklappe5" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="379" C="2" PS="Ln:379, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.LaufzeitBoxenklappe6" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="380" C="2" PS="Ln:380, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.LaufzeitUmschaltklappe1" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="381" C="2" PS="Ln:381, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.LaufzeitUmschaltklappe2" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="382" C="2" PS="Ln:382, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlagenVhdBoxenklappe1" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="383" C="2" PS="Ln:383, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlagenVhdBoxenklappe2" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="384" C="2" PS="Ln:384, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlagenVhdBoxenklappe3" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="385" C="2" PS="Ln:385, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlagenVhdBoxenklappe4" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="386" C="2" PS="Ln:386, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlagenVhdBoxenklappe5" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="387" C="2" PS="Ln:387, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlagenVhdBoxenklappe6" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="388" C="2" PS="Ln:388, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlagenVhdUmschaltklappe1" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="389" C="2" PS="Ln:389, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlagenVhdUmschaltklappe2" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="390" C="2" PS="Ln:390, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.EndlagenVhdBypassklappe" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="391" C="2" PS="Ln:391, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.FreigabeVentilator1Out" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="395" C="30" PS="Ln:395, Col:30" A="R"/>
+				<Pos L="417" C="5" PS="Ln:417, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.FreigabeVentilator2Out" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="396" C="30" PS="Ln:396, Col:30" A="R"/>
+				<Pos L="426" C="5" PS="Ln:426, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.DrehzahlVent1Out" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="397" C="37" PS="Ln:397, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.DrehzahlVent2Out" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="398" C="37" PS="Ln:398, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.BypassOeffnenOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="399" C="34" PS="Ln:399, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.BypassSchliessenOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="400" C="36" PS="Ln:400, Col:36" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Umschaltkl1OeffnenOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="401" C="36" PS="Ln:401, Col:36" A="R"/>
+				<Pos L="402" C="35" PS="Ln:402, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Umschaltkl1SchliessenOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="403" C="37" PS="Ln:403, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Umschaltkl2OeffnenOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="404" C="36" PS="Ln:404, Col:36" A="R"/>
+				<Pos L="405" C="35" PS="Ln:405, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Umschaltkl2SchliessenOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="406" C="37" PS="Ln:406, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe1OeffnenOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="407" C="29" PS="Ln:407, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe2OeffnenOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="408" C="29" PS="Ln:408, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe3OeffnenOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="409" C="29" PS="Ln:409, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe4OeffnenOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="410" C="29" PS="Ln:410, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe5OeffnenOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="411" C="29" PS="Ln:411, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe6OeffnenOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="412" C="29" PS="Ln:412, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.FehlerFuVentilator1" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="419" C="8" PS="Ln:419, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.FehlerFuVentilator2" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="428" C="8" PS="Ln:428, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.BypassklappeIstOffen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="436" C="59" PS="Ln:436, Col:59" A="R"/>
+				<Pos L="440" C="59" PS="Ln:440, Col:59" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.BypassklappeIstGeschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="438" C="69" PS="Ln:438, Col:69" A="R"/>
+				<Pos L="442" C="66" PS="Ln:442, Col:66" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.FehlerLaufzeitBypass" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="444" C="8" PS="Ln:444, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Umschaltklappe1IstOffen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="451" C="64" PS="Ln:451, Col:64" A="R"/>
+				<Pos L="455" C="64" PS="Ln:455, Col:64" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Umschaltklappe1IstGeschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="453" C="74" PS="Ln:453, Col:74" A="R"/>
+				<Pos L="457" C="71" PS="Ln:457, Col:71" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.FehlerLaufzeitUmschaltkl1" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="459" C="8" PS="Ln:459, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Umschaltklappe2IstOffen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="466" C="64" PS="Ln:466, Col:64" A="R"/>
+				<Pos L="470" C="64" PS="Ln:470, Col:64" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Umschaltklappe2IstGeschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="468" C="74" PS="Ln:468, Col:74" A="R"/>
+				<Pos L="472" C="71" PS="Ln:472, Col:71" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.FehlerLaufzeitUmschaltkl2" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="474" C="8" PS="Ln:474, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe1IstOffen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="481" C="44" PS="Ln:481, Col:44" A="R"/>
+				<Pos L="485" C="44" PS="Ln:485, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe1IstGeschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="483" C="54" PS="Ln:483, Col:54" A="R"/>
+				<Pos L="487" C="51" PS="Ln:487, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.FehlerLaufzeitKlappeBox1" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="489" C="8" PS="Ln:489, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe2IstOffen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="496" C="44" PS="Ln:496, Col:44" A="R"/>
+				<Pos L="500" C="44" PS="Ln:500, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe2IstGeschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="498" C="54" PS="Ln:498, Col:54" A="R"/>
+				<Pos L="502" C="51" PS="Ln:502, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.FehlerLaufzeitKlappeBox2" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="504" C="8" PS="Ln:504, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe3IstOffen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="511" C="44" PS="Ln:511, Col:44" A="R"/>
+				<Pos L="515" C="44" PS="Ln:515, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe3IstGeschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="513" C="54" PS="Ln:513, Col:54" A="R"/>
+				<Pos L="517" C="51" PS="Ln:517, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.FehlerLaufzeitKlappeBox3" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="519" C="8" PS="Ln:519, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe4IstOffen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="526" C="44" PS="Ln:526, Col:44" A="R"/>
+				<Pos L="530" C="44" PS="Ln:530, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe4IstGeschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="528" C="54" PS="Ln:528, Col:54" A="R"/>
+				<Pos L="532" C="51" PS="Ln:532, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.FehlerLaufzeitKlappeBox4" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="534" C="8" PS="Ln:534, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe5IstOffen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="541" C="44" PS="Ln:541, Col:44" A="R"/>
+				<Pos L="545" C="44" PS="Ln:545, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe5IstGeschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="543" C="54" PS="Ln:543, Col:54" A="R"/>
+				<Pos L="547" C="51" PS="Ln:547, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.FehlerLaufzeitKlappeBox5" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="549" C="8" PS="Ln:549, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe6IstOffen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="556" C="44" PS="Ln:556, Col:44" A="R"/>
+				<Pos L="560" C="44" PS="Ln:560, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.Boxenklappe6IstGeschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="558" C="54" PS="Ln:558, Col:54" A="R"/>
+				<Pos L="562" C="51" PS="Ln:562, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.VentUndKlappen.FehlerLaufzeitKlappeBox6" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="564" C="8" PS="Ln:564, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Warmluftofen.BetriebsmeldungWarmluftofen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="577" C="3" PS="Ln:577, Col:3" A="W"/>
+				<Pos L="595" C="3" PS="Ln:595, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Warmluftofen.FehlerSensorAussenluft" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="578" C="3" PS="Ln:578, Col:3" A="W"/>
+				<Pos L="596" C="3" PS="Ln:596, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Warmluftofen.FrischluftSattDefizitIst" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="579" C="3" PS="Ln:579, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Warmluftofen.Auskuehlzeit" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="582" C="3" PS="Ln:582, Col:3" A="W"/>
+				<Pos L="600" C="3" PS="Ln:600, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Warmluftofen.FrischluftSattDefizitSoll" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="583" C="3" PS="Ln:583, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Warmluftofen.Hysterese" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="584" C="3" PS="Ln:584, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Warmluftofen.OptionBetriebsmldgVhd" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="585" C="3" PS="Ln:585, Col:3" A="W"/>
+				<Pos L="601" C="3" PS="Ln:601, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Warmluftofen.QuitFehler" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="586" C="3" PS="Ln:586, Col:3" A="W"/>
+				<Pos L="602" C="3" PS="Ln:602, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Warmluftofen.UmschaltverzWitterung" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="587" C="3" PS="Ln:587, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Warmluftofen.VerzBetriebsmeldung" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="588" C="3" PS="Ln:588, Col:3" A="W"/>
+				<Pos L="603" C="3" PS="Ln:603, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Warmluftofen.WarmlufttemperaturVorgabe" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="589" C="3" PS="Ln:589, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Warmluftofen.WetterIstSchlecht" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="597" C="3" PS="Ln:597, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Warmluftofen.FreigabeWarmluftofenOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="608" C="31" PS="Ln:608, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Warmluftofen.WarmlufttempSollOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="609" C="39" PS="Ln:609, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Warmluftofen.FehlerBetriebsmeldungOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="616" C="8" PS="Ln:616, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Warmluftofen.FehlerSensorAussenluftOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="616" C="57" PS="Ln:616, Col:57" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Heizregister.FehlerSensorAussenluft" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="629" C="3" PS="Ln:629, Col:3" A="W"/>
+				<Pos L="654" C="3" PS="Ln:654, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Heizregister.FrischluftSattDefizitIst" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="630" C="3" PS="Ln:630, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Heizregister.DrehzahlHeizregisterSoll" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="633" C="3" PS="Ln:633, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Heizregister.FrischluftSattDefizitSoll" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="634" C="3" PS="Ln:634, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Heizregister.Hysterese" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="635" C="3" PS="Ln:635, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Heizregister.QuitFehler" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="636" C="3" PS="Ln:636, Col:3" A="W"/>
+				<Pos L="658" C="3" PS="Ln:658, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Heizregister.UmschaltverzWitterung" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="637" C="3" PS="Ln:637, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Heizregister.FreigabeHeizregisterOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="646" C="33" PS="Ln:646, Col:33" A="R"/>
+				<Pos L="661" C="32" PS="Ln:661, Col:32" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Heizregister.DrehzahlHeizregisterOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="647" C="41" PS="Ln:647, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Heizregister.WetterIstSchlecht" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="655" C="3" PS="Ln:655, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Heizregister.FehlerOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="667" C="8" PS="Ln:667, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Scheitholzofen.Betriebsmeldung" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="677" C="2" PS="Ln:677, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Scheitholzofen.Freigabe" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="680" C="2" PS="Ln:680, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Scheitholzofen.Auskuehlzeit" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="681" C="2" PS="Ln:681, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Notstromaggregat.BetriebsmldgNotstromaggregat" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="698" C="2" PS="Ln:698, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Notstromaggregat.Freigabe" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="701" C="2" PS="Ln:701, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Notstromaggregat.QuitFehler" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="702" C="2" PS="Ln:702, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Notstromaggregat.VerzBetriebsmeldung" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="703" C="2" PS="Ln:703, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Notstromaggregat.Vorlaufzeit" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="704" C="2" PS="Ln:704, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Notstromaggregat.Nachlaufzeit" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="705" C="2" PS="Ln:705, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Notstromaggregat.FreigabeNotstromaggregatOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="708" C="35" PS="Ln:708, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Notstromaggregat.NotstromBereitOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="711" C="5" PS="Ln:711, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Notstromaggregat.FehlerOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="715" C="8" PS="Ln:715, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Brandschutzklappe.EndlageOffen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="725" C="2" PS="Ln:725, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Brandschutzklappe.EndlageGeschl" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="726" C="2" PS="Ln:726, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Brandschutzklappe.LaufzeitOeffnen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="727" C="2" PS="Ln:727, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Brandschutzklappe.LaufzeitSchliessen" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="728" C="2" PS="Ln:728, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Brandschutzklappe.Stoerung" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="729" C="2" PS="Ln:729, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Brandschutzklappe.QuitFehler" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="732" C="2" PS="Ln:732, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Aktoren.Brandschutzklappe.OeffnenOut" Scope="Global" Type="typAktoren">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="735" C="36" PS="Ln:735, Col:36" A="R"/>
+				<Pos L="738" C="5" PS="Ln:738, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Strombegrenzung.StrombegrenzungEin" Scope="Global" Type="fbTrockStrombegr">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="70" C="97" PS="Ln:70, Col:97" A="R"/>
+				<Pos L="132" C="97" PS="Ln:132, Col:97" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Entfeuchter.IndexType" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="16" C="23" PS="Ln:16, Col:23" A="R"/>
+				<Pos L="16" C="72" PS="Ln:16, Col:72" A="R"/>
+				<Pos L="16" C="121" PS="Ln:16, Col:121" A="R"/>
+				<Pos L="17" C="3" PS="Ln:17, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Entfeuchter.EinschaltverzAbtau" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="84" C="54" PS="Ln:84, Col:54" A="R"/>
+				<Pos L="146" C="54" PS="Ln:146, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Entfeuchter.AusschaltverzAbtau" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="85" C="54" PS="Ln:85, Col:54" A="R"/>
+				<Pos L="147" C="54" PS="Ln:147, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Entfeuchter.EinschaltverzKompressor" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="86" C="58" PS="Ln:86, Col:58" A="R"/>
+				<Pos L="148" C="58" PS="Ln:148, Col:58" A="R"/>
+				<Pos L="203" C="57" PS="Ln:203, Col:57" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.EinschaltverzMagnetventil" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="87" C="59" PS="Ln:87, Col:59" A="R"/>
+				<Pos L="149" C="59" PS="Ln:149, Col:59" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Entfeuchter.EintrittFeuchteEin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="88" C="48" PS="Ln:88, Col:48" A="R"/>
+				<Pos L="150" C="48" PS="Ln:150, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Entfeuchter.EintrittFeuchteAus" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="89" C="48" PS="Ln:89, Col:48" A="R"/>
+				<Pos L="151" C="48" PS="Ln:151, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.NiederdruckMin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="90" C="51" PS="Ln:90, Col:51" A="R"/>
+				<Pos L="152" C="51" PS="Ln:152, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.NiederdruckMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="91" C="51" PS="Ln:91, Col:51" A="R"/>
+				<Pos L="153" C="51" PS="Ln:153, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.NiederdruckPumpDown" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="92" C="55" PS="Ln:92, Col:55" A="R"/>
+				<Pos L="154" C="55" PS="Ln:154, Col:55" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.HochdruckMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="93" C="49" PS="Ln:93, Col:49" A="R"/>
+				<Pos L="155" C="49" PS="Ln:155, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Entfeuchter.VerzStandbyHochdruckMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="94" C="60" PS="Ln:94, Col:60" A="R"/>
+				<Pos L="156" C="60" PS="Ln:156, Col:60" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.DrehzahlMin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="95" C="46" PS="Ln:95, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.DrehzahlMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="96" C="46" PS="Ln:96, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.RampeUp" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="97" C="43" PS="Ln:97, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor1.RampeDown" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="98" C="45" PS="Ln:98, Col:45" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Entfeuchter.AnlaufverzModul2" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="148" C="114" PS="Ln:148, Col:114" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor2.DrehzahlMin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="157" C="46" PS="Ln:157, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor2.DrehzahlMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="158" C="46" PS="Ln:158, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor2.RampeUp" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="159" C="43" PS="Ln:159, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Kompressor2.RampeDown" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="160" C="45" PS="Ln:160, Col:45" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.Luftentfeuchter" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="194" C="96" PS="Ln:194, Col:96" A="R"/>
+				<Pos L="195" C="46" PS="Ln:195, Col:46" A="R"/>
+				<Pos L="196" C="46" PS="Ln:196, Col:46" A="R"/>
+				<Pos L="197" C="46" PS="Ln:197, Col:46" A="R"/>
+				<Pos L="198" C="46" PS="Ln:198, Col:46" A="R"/>
+				<Pos L="199" C="46" PS="Ln:199, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Entfeuchter.VerzBetriebsmeldung" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="204" C="56" PS="Ln:204, Col:56" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Allgemein.VerzoegerungFehler" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="205" C="62" PS="Ln:205, Col:62" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Abluftklappe.AbluftfeuchteMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="234" C="46" PS="Ln:234, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Abluftklappe.Hysterese" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="235" C="40" PS="Ln:235, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Abluftklappe.Laufzeit" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="236" C="39" PS="Ln:236, Col:39" A="R"/>
+				<Pos L="245" C="61" PS="Ln:245, Col:61" A="R"/>
+				<Pos L="247" C="71" PS="Ln:247, Col:71" A="R"/>
+				<Pos L="251" C="60" PS="Ln:251, Col:60" A="R"/>
+				<Pos L="253" C="67" PS="Ln:253, Col:67" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Abluftventilator.DrehzahlMin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="269" C="44" PS="Ln:269, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Abluftventilator.DrehzahlMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="270" C="44" PS="Ln:270, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Abluftventilator.AbluftfeuchteMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="271" C="49" PS="Ln:271, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Abluftventilator.Hysterese" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="272" C="43" PS="Ln:272, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.Vent1AusWennUmschUmluftkl" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="308" C="54" PS="Ln:308, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.Vent2AusWennUmschUmluftkl" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="309" C="54" PS="Ln:309, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.StellungKlappe1" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="334" C="52" PS="Ln:334, Col:52" A="R"/>
+				<Pos L="335" C="3" PS="Ln:335, Col:3" A="R"/>
+				<Pos L="335" C="76" PS="Ln:335, Col:76" A="R"/>
+				<Pos L="336" C="3" PS="Ln:336, Col:3" A="R"/>
+				<Pos L="336" C="76" PS="Ln:336, Col:76" A="R"/>
+				<Pos L="337" C="3" PS="Ln:337, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.StellungKlappe2" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="338" C="52" PS="Ln:338, Col:52" A="R"/>
+				<Pos L="339" C="3" PS="Ln:339, Col:3" A="R"/>
+				<Pos L="339" C="76" PS="Ln:339, Col:76" A="R"/>
+				<Pos L="340" C="3" PS="Ln:340, Col:3" A="R"/>
+				<Pos L="340" C="76" PS="Ln:340, Col:76" A="R"/>
+				<Pos L="341" C="3" PS="Ln:341, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.StellungKlappe3" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="342" C="52" PS="Ln:342, Col:52" A="R"/>
+				<Pos L="343" C="3" PS="Ln:343, Col:3" A="R"/>
+				<Pos L="343" C="76" PS="Ln:343, Col:76" A="R"/>
+				<Pos L="344" C="3" PS="Ln:344, Col:3" A="R"/>
+				<Pos L="344" C="76" PS="Ln:344, Col:76" A="R"/>
+				<Pos L="345" C="3" PS="Ln:345, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.StellungKlappe4" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="346" C="52" PS="Ln:346, Col:52" A="R"/>
+				<Pos L="347" C="3" PS="Ln:347, Col:3" A="R"/>
+				<Pos L="347" C="76" PS="Ln:347, Col:76" A="R"/>
+				<Pos L="348" C="3" PS="Ln:348, Col:3" A="R"/>
+				<Pos L="348" C="76" PS="Ln:348, Col:76" A="R"/>
+				<Pos L="349" C="3" PS="Ln:349, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.StellungKlappe5" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="350" C="52" PS="Ln:350, Col:52" A="R"/>
+				<Pos L="351" C="3" PS="Ln:351, Col:3" A="R"/>
+				<Pos L="351" C="76" PS="Ln:351, Col:76" A="R"/>
+				<Pos L="352" C="3" PS="Ln:352, Col:3" A="R"/>
+				<Pos L="352" C="76" PS="Ln:352, Col:76" A="R"/>
+				<Pos L="353" C="3" PS="Ln:353, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Boxen.StellungKlappe6" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="354" C="52" PS="Ln:354, Col:52" A="R"/>
+				<Pos L="355" C="3" PS="Ln:355, Col:3" A="R"/>
+				<Pos L="355" C="76" PS="Ln:355, Col:76" A="R"/>
+				<Pos L="356" C="3" PS="Ln:356, Col:3" A="R"/>
+				<Pos L="356" C="76" PS="Ln:356, Col:76" A="R"/>
+				<Pos L="357" C="3" PS="Ln:357, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Schrittkette.AnlaufverzZweiterVentilator" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="361" C="51" PS="Ln:361, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.DrehzahlMin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="362" C="48" PS="Ln:362, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.DrehzahlMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="363" C="48" PS="Ln:363, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.ZeitRampeUp" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="364" C="45" PS="Ln:364, Col:45" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.ZeitRampeDown" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="365" C="46" PS="Ln:365, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.DrzUmschaltung" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="366" C="49" PS="Ln:366, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator1.DrzUmschaltungMitLuftaufb" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="367" C="54" PS="Ln:367, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.DrehzahlMin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="368" C="48" PS="Ln:368, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.DrehzahlMax" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="369" C="48" PS="Ln:369, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.ZeitRampeUp" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="370" C="45" PS="Ln:370, Col:45" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.ZeitRampeDown" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="371" C="46" PS="Ln:371, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.DrzUmschaltung" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="372" C="49" PS="Ln:372, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ventilator2.DrzUmschaltungMitLuftaufb" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="373" C="54" PS="Ln:373, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Bypassklappe.Laufzeit" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="374" C="51" PS="Ln:374, Col:51" A="R"/>
+				<Pos L="436" C="109" PS="Ln:436, Col:109" A="R"/>
+				<Pos L="438" C="120" PS="Ln:438, Col:120" A="R"/>
+				<Pos L="440" C="108" PS="Ln:440, Col:108" A="R"/>
+				<Pos L="442" C="116" PS="Ln:442, Col:116" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.KlappenBoxen.Laufzeit" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="375" C="51" PS="Ln:375, Col:51" A="R"/>
+				<Pos L="376" C="51" PS="Ln:376, Col:51" A="R"/>
+				<Pos L="377" C="51" PS="Ln:377, Col:51" A="R"/>
+				<Pos L="378" C="51" PS="Ln:378, Col:51" A="R"/>
+				<Pos L="379" C="51" PS="Ln:379, Col:51" A="R"/>
+				<Pos L="380" C="51" PS="Ln:380, Col:51" A="R"/>
+				<Pos L="481" C="94" PS="Ln:481, Col:94" A="R"/>
+				<Pos L="483" C="105" PS="Ln:483, Col:105" A="R"/>
+				<Pos L="485" C="93" PS="Ln:485, Col:93" A="R"/>
+				<Pos L="487" C="101" PS="Ln:487, Col:101" A="R"/>
+				<Pos L="496" C="94" PS="Ln:496, Col:94" A="R"/>
+				<Pos L="498" C="105" PS="Ln:498, Col:105" A="R"/>
+				<Pos L="500" C="93" PS="Ln:500, Col:93" A="R"/>
+				<Pos L="502" C="101" PS="Ln:502, Col:101" A="R"/>
+				<Pos L="511" C="94" PS="Ln:511, Col:94" A="R"/>
+				<Pos L="513" C="105" PS="Ln:513, Col:105" A="R"/>
+				<Pos L="515" C="93" PS="Ln:515, Col:93" A="R"/>
+				<Pos L="517" C="101" PS="Ln:517, Col:101" A="R"/>
+				<Pos L="526" C="94" PS="Ln:526, Col:94" A="R"/>
+				<Pos L="528" C="105" PS="Ln:528, Col:105" A="R"/>
+				<Pos L="530" C="93" PS="Ln:530, Col:93" A="R"/>
+				<Pos L="532" C="101" PS="Ln:532, Col:101" A="R"/>
+				<Pos L="541" C="94" PS="Ln:541, Col:94" A="R"/>
+				<Pos L="543" C="105" PS="Ln:543, Col:105" A="R"/>
+				<Pos L="545" C="93" PS="Ln:545, Col:93" A="R"/>
+				<Pos L="547" C="101" PS="Ln:547, Col:101" A="R"/>
+				<Pos L="556" C="94" PS="Ln:556, Col:94" A="R"/>
+				<Pos L="558" C="105" PS="Ln:558, Col:105" A="R"/>
+				<Pos L="560" C="93" PS="Ln:560, Col:93" A="R"/>
+				<Pos L="562" C="101" PS="Ln:562, Col:101" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Umschaltklappen.LaufzeitKlappe1" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="381" C="53" PS="Ln:381, Col:53" A="R"/>
+				<Pos L="451" C="117" PS="Ln:451, Col:117" A="R"/>
+				<Pos L="453" C="128" PS="Ln:453, Col:128" A="R"/>
+				<Pos L="455" C="116" PS="Ln:455, Col:116" A="R"/>
+				<Pos L="457" C="124" PS="Ln:457, Col:124" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Umschaltklappen.LaufzeitKlappe2" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="382" C="53" PS="Ln:382, Col:53" A="R"/>
+				<Pos L="466" C="117" PS="Ln:466, Col:117" A="R"/>
+				<Pos L="468" C="128" PS="Ln:468, Col:128" A="R"/>
+				<Pos L="470" C="116" PS="Ln:470, Col:116" A="R"/>
+				<Pos L="472" C="124" PS="Ln:472, Col:124" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.EndlagenVhdBoxenklappe1" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="383" C="53" PS="Ln:383, Col:53" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.EndlagenVhdBoxenklappe2" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="384" C="53" PS="Ln:384, Col:53" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.EndlagenVhdBoxenklappe3" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="385" C="53" PS="Ln:385, Col:53" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.EndlagenVhdBoxenklappe4" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="386" C="53" PS="Ln:386, Col:53" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.EndlagenVhdBoxenklappe5" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="387" C="53" PS="Ln:387, Col:53" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.EndlagenVhdBoxenklappe6" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="388" C="53" PS="Ln:388, Col:53" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.EndlagenVhdUmschaltklappe1" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="389" C="55" PS="Ln:389, Col:55" A="R"/>
+				<Pos L="390" C="55" PS="Ln:390, Col:55" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.EndlagenVhdBypassklappe" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="391" C="53" PS="Ln:391, Col:53" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.Umschaltklappe1" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="451" C="177" PS="Ln:451, Col:177" A="R"/>
+				<Pos L="453" C="188" PS="Ln:453, Col:188" A="R"/>
+				<Pos L="455" C="176" PS="Ln:455, Col:176" A="R"/>
+				<Pos L="457" C="184" PS="Ln:457, Col:184" A="R"/>
+				<Pos L="459" C="61" PS="Ln:459, Col:61" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.Umschaltklappe2" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="466" C="177" PS="Ln:466, Col:177" A="R"/>
+				<Pos L="468" C="188" PS="Ln:468, Col:188" A="R"/>
+				<Pos L="470" C="176" PS="Ln:470, Col:176" A="R"/>
+				<Pos L="472" C="184" PS="Ln:472, Col:184" A="R"/>
+				<Pos L="474" C="61" PS="Ln:474, Col:61" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Warmluftofen.Auskuehlzeit" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="582" C="44" PS="Ln:582, Col:44" A="R"/>
+				<Pos L="600" C="44" PS="Ln:600, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Warmluftofen.SaettigungFrischlEin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="583" C="54" PS="Ln:583, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Warmluftofen.Hysterese" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="584" C="42" PS="Ln:584, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.WarmluftofenBetriebsmldg" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="585" C="51" PS="Ln:585, Col:51" A="R"/>
+				<Pos L="601" C="51" PS="Ln:601, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Warmluftofen.VerzWetterwechsel" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="587" C="51" PS="Ln:587, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Warmluftofen.VerzBetriebsmeldung" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="588" C="49" PS="Ln:588, Col:49" A="R"/>
+				<Pos L="603" C="49" PS="Ln:603, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Warmluftofen.WarmlufttempVorgabeSoll" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="589" C="54" PS="Ln:589, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Heizregister.SaettigungFrischlEin" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="634" C="54" PS="Ln:634, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Heizregister.Hysterese" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="635" C="42" PS="Ln:635, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Heizregister.VerzWetterwechsel" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="637" C="51" PS="Ln:637, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.Scheitholzofen" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="680" C="40" PS="Ln:680, Col:40" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Scheitholzofen.Auskuehlzeit" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="681" C="43" PS="Ln:681, Col:43" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.Notstromaggregat" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="701" C="44" PS="Ln:701, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Notstromaggregat.VerzBetriebsmeldung" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="703" C="52" PS="Ln:703, Col:52" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Notstromaggregat.Vorlaufzeit" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="704" C="46" PS="Ln:704, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Notstromaggregat.Nachlaufzeit" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="705" C="47" PS="Ln:705, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.Brandschutzklappe" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="740" C="8" PS="Ln:740, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gModul2Vorhanden" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="16" C="2" PS="Ln:16, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.Aktor" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="36" C="3" PS="Ln:36, Col:3" A="W"/>
+				<Pos L="38" C="3" PS="Ln:38, Col:3" A="W"/>
+				<Pos L="58" C="3" PS="Ln:58, Col:3" A="W"/>
+				<Pos L="60" C="3" PS="Ln:60, Col:3" A="W"/>
+				<Pos L="107" C="3" PS="Ln:107, Col:3" A="W"/>
+				<Pos L="109" C="3" PS="Ln:109, Col:3" A="W"/>
+				<Pos L="111" C="3" PS="Ln:111, Col:3" A="W"/>
+				<Pos L="113" C="3" PS="Ln:113, Col:3" A="W"/>
+				<Pos L="115" C="3" PS="Ln:115, Col:3" A="W"/>
+				<Pos L="120" C="3" PS="Ln:120, Col:3" A="W"/>
+				<Pos L="122" C="3" PS="Ln:122, Col:3" A="W"/>
+				<Pos L="169" C="3" PS="Ln:169, Col:3" A="W"/>
+				<Pos L="171" C="3" PS="Ln:171, Col:3" A="W"/>
+				<Pos L="173" C="3" PS="Ln:173, Col:3" A="W"/>
+				<Pos L="175" C="3" PS="Ln:175, Col:3" A="W"/>
+				<Pos L="177" C="3" PS="Ln:177, Col:3" A="W"/>
+				<Pos L="182" C="3" PS="Ln:182, Col:3" A="W"/>
+				<Pos L="184" C="3" PS="Ln:184, Col:3" A="W"/>
+				<Pos L="214" C="4" PS="Ln:214, Col:4" A="W"/>
+				<Pos L="216" C="4" PS="Ln:216, Col:4" A="W"/>
+				<Pos L="219" C="3" PS="Ln:219, Col:3" A="W"/>
+				<Pos L="221" C="3" PS="Ln:221, Col:3" A="W"/>
+				<Pos L="246" C="3" PS="Ln:246, Col:3" A="W"/>
+				<Pos L="248" C="3" PS="Ln:248, Col:3" A="W"/>
+				<Pos L="250" C="3" PS="Ln:250, Col:3" A="W"/>
+				<Pos L="252" C="3" PS="Ln:252, Col:3" A="W"/>
+				<Pos L="254" C="3" PS="Ln:254, Col:3" A="W"/>
+				<Pos L="256" C="3" PS="Ln:256, Col:3" A="W"/>
+				<Pos L="282" C="3" PS="Ln:282, Col:3" A="W"/>
+				<Pos L="284" C="3" PS="Ln:284, Col:3" A="W"/>
+				<Pos L="286" C="3" PS="Ln:286, Col:3" A="W"/>
+				<Pos L="418" C="3" PS="Ln:418, Col:3" A="W"/>
+				<Pos L="420" C="3" PS="Ln:420, Col:3" A="W"/>
+				<Pos L="422" C="3" PS="Ln:422, Col:3" A="W"/>
+				<Pos L="427" C="3" PS="Ln:427, Col:3" A="W"/>
+				<Pos L="429" C="3" PS="Ln:429, Col:3" A="W"/>
+				<Pos L="431" C="3" PS="Ln:431, Col:3" A="W"/>
+				<Pos L="437" C="3" PS="Ln:437, Col:3" A="W"/>
+				<Pos L="439" C="3" PS="Ln:439, Col:3" A="W"/>
+				<Pos L="441" C="3" PS="Ln:441, Col:3" A="W"/>
+				<Pos L="443" C="3" PS="Ln:443, Col:3" A="W"/>
+				<Pos L="445" C="3" PS="Ln:445, Col:3" A="W"/>
+				<Pos L="447" C="3" PS="Ln:447, Col:3" A="W"/>
+				<Pos L="452" C="3" PS="Ln:452, Col:3" A="W"/>
+				<Pos L="454" C="3" PS="Ln:454, Col:3" A="W"/>
+				<Pos L="456" C="3" PS="Ln:456, Col:3" A="W"/>
+				<Pos L="458" C="3" PS="Ln:458, Col:3" A="W"/>
+				<Pos L="460" C="3" PS="Ln:460, Col:3" A="W"/>
+				<Pos L="462" C="3" PS="Ln:462, Col:3" A="W"/>
+				<Pos L="467" C="3" PS="Ln:467, Col:3" A="W"/>
+				<Pos L="469" C="3" PS="Ln:469, Col:3" A="W"/>
+				<Pos L="471" C="3" PS="Ln:471, Col:3" A="W"/>
+				<Pos L="473" C="3" PS="Ln:473, Col:3" A="W"/>
+				<Pos L="475" C="3" PS="Ln:475, Col:3" A="W"/>
+				<Pos L="477" C="3" PS="Ln:477, Col:3" A="W"/>
+				<Pos L="482" C="3" PS="Ln:482, Col:3" A="W"/>
+				<Pos L="484" C="3" PS="Ln:484, Col:3" A="W"/>
+				<Pos L="486" C="3" PS="Ln:486, Col:3" A="W"/>
+				<Pos L="488" C="3" PS="Ln:488, Col:3" A="W"/>
+				<Pos L="490" C="3" PS="Ln:490, Col:3" A="W"/>
+				<Pos L="492" C="3" PS="Ln:492, Col:3" A="W"/>
+				<Pos L="497" C="3" PS="Ln:497, Col:3" A="W"/>
+				<Pos L="499" C="3" PS="Ln:499, Col:3" A="W"/>
+				<Pos L="501" C="3" PS="Ln:501, Col:3" A="W"/>
+				<Pos L="503" C="3" PS="Ln:503, Col:3" A="W"/>
+				<Pos L="505" C="3" PS="Ln:505, Col:3" A="W"/>
+				<Pos L="507" C="3" PS="Ln:507, Col:3" A="W"/>
+				<Pos L="512" C="3" PS="Ln:512, Col:3" A="W"/>
+				<Pos L="514" C="3" PS="Ln:514, Col:3" A="W"/>
+				<Pos L="516" C="3" PS="Ln:516, Col:3" A="W"/>
+				<Pos L="518" C="3" PS="Ln:518, Col:3" A="W"/>
+				<Pos L="520" C="3" PS="Ln:520, Col:3" A="W"/>
+				<Pos L="522" C="3" PS="Ln:522, Col:3" A="W"/>
+				<Pos L="527" C="3" PS="Ln:527, Col:3" A="W"/>
+				<Pos L="529" C="3" PS="Ln:529, Col:3" A="W"/>
+				<Pos L="531" C="3" PS="Ln:531, Col:3" A="W"/>
+				<Pos L="533" C="3" PS="Ln:533, Col:3" A="W"/>
+				<Pos L="535" C="3" PS="Ln:535, Col:3" A="W"/>
+				<Pos L="537" C="3" PS="Ln:537, Col:3" A="W"/>
+				<Pos L="542" C="3" PS="Ln:542, Col:3" A="W"/>
+				<Pos L="544" C="3" PS="Ln:544, Col:3" A="W"/>
+				<Pos L="546" C="3" PS="Ln:546, Col:3" A="W"/>
+				<Pos L="548" C="3" PS="Ln:548, Col:3" A="W"/>
+				<Pos L="550" C="3" PS="Ln:550, Col:3" A="W"/>
+				<Pos L="552" C="3" PS="Ln:552, Col:3" A="W"/>
+				<Pos L="557" C="3" PS="Ln:557, Col:3" A="W"/>
+				<Pos L="559" C="3" PS="Ln:559, Col:3" A="W"/>
+				<Pos L="561" C="3" PS="Ln:561, Col:3" A="W"/>
+				<Pos L="563" C="3" PS="Ln:563, Col:3" A="W"/>
+				<Pos L="565" C="3" PS="Ln:565, Col:3" A="W"/>
+				<Pos L="567" C="3" PS="Ln:567, Col:3" A="W"/>
+				<Pos L="613" C="3" PS="Ln:613, Col:3" A="W"/>
+				<Pos L="615" C="3" PS="Ln:615, Col:3" A="W"/>
+				<Pos L="617" C="3" PS="Ln:617, Col:3" A="W"/>
+				<Pos L="619" C="3" PS="Ln:619, Col:3" A="W"/>
+				<Pos L="666" C="3" PS="Ln:666, Col:3" A="W"/>
+				<Pos L="668" C="3" PS="Ln:668, Col:3" A="W"/>
+				<Pos L="670" C="3" PS="Ln:670, Col:3" A="W"/>
+				<Pos L="687" C="3" PS="Ln:687, Col:3" A="W"/>
+				<Pos L="689" C="3" PS="Ln:689, Col:3" A="W"/>
+				<Pos L="691" C="3" PS="Ln:691, Col:3" A="W"/>
+				<Pos L="712" C="3" PS="Ln:712, Col:3" A="W"/>
+				<Pos L="714" C="3" PS="Ln:714, Col:3" A="W"/>
+				<Pos L="716" C="3" PS="Ln:716, Col:3" A="W"/>
+				<Pos L="718" C="3" PS="Ln:718, Col:3" A="W"/>
+				<Pos L="739" C="3" PS="Ln:739, Col:3" A="W"/>
+				<Pos L="741" C="3" PS="Ln:741, Col:3" A="W"/>
+				<Pos L="743" C="3" PS="Ln:743, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.Berechnungen.FrischluftSattDefizit" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="579" C="53" PS="Ln:579, Col:53" A="R"/>
+				<Pos L="630" C="53" PS="Ln:630, Col:53" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.WetterIstSchlecht" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="597" C="48" PS="Ln:597, Col:48" A="R"/>
+				<Pos L="655" C="48" PS="Ln:655, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gCmdAnlage.Leistung.DrehzahlHeizregister" Scope="Global" Type="cmdAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="633" C="53" PS="Ln:633, Col:53" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Echtzeit.Sekunde" Scope="Global" Type="typEchtzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="12" C="23" PS="Ln:12, Col:23" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiStatus.NameSteuerung" Scope="Global" Type="typHmiStatus">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="574" C="6" PS="Ln:574, Col:6" A="R"/>
+				<Pos L="574" C="41" PS="Ln:574, Col:41" A="R"/>
+				<Pos L="626" C="6" PS="Ln:626, Col:6" A="R"/>
+				<Pos L="626" C="41" PS="Ln:626, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiButtons.QuitFehler" Scope="Global" Type="typHmiButtons">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="83" C="46" PS="Ln:83, Col:46" A="R"/>
+				<Pos L="145" C="46" PS="Ln:145, Col:46" A="R"/>
+				<Pos L="206" C="45" PS="Ln:206, Col:45" A="R"/>
+				<Pos L="237" C="36" PS="Ln:237, Col:36" A="R"/>
+				<Pos L="273" C="44" PS="Ln:273, Col:44" A="R"/>
+				<Pos L="360" C="43" PS="Ln:360, Col:43" A="R"/>
+				<Pos L="586" C="43" PS="Ln:586, Col:43" A="R"/>
+				<Pos L="602" C="43" PS="Ln:602, Col:43" A="R"/>
+				<Pos L="636" C="43" PS="Ln:636, Col:43" A="R"/>
+				<Pos L="658" C="43" PS="Ln:658, Col:43" A="R"/>
+				<Pos L="702" C="46" PS="Ln:702, Col:46" A="R"/>
+				<Pos L="732" C="46" PS="Ln:732, Col:46" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doVentilator1Ein" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="72" C="55" PS="Ln:72, Col:55" A="R"/>
+				<Pos L="134" C="55" PS="Ln:134, Col:55" A="R"/>
+				<Pos L="395" C="2" PS="Ln:395, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="doVentilator2Ein" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="73" C="3" PS="Ln:73, Col:3" A="R"/>
+				<Pos L="135" C="3" PS="Ln:135, Col:3" A="R"/>
+				<Pos L="396" C="2" PS="Ln:396, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="doFreigabeBox1" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="407" C="2" PS="Ln:407, Col:2" A="W"/>
+				<Pos L="481" C="5" PS="Ln:481, Col:5" A="R"/>
+				<Pos L="483" C="13" PS="Ln:483, Col:13" A="R"/>
+				<Pos L="485" C="8" PS="Ln:485, Col:8" A="R"/>
+				<Pos L="487" C="13" PS="Ln:487, Col:13" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doFreigabeBox2" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="408" C="2" PS="Ln:408, Col:2" A="W"/>
+				<Pos L="496" C="5" PS="Ln:496, Col:5" A="R"/>
+				<Pos L="498" C="13" PS="Ln:498, Col:13" A="R"/>
+				<Pos L="500" C="8" PS="Ln:500, Col:8" A="R"/>
+				<Pos L="502" C="13" PS="Ln:502, Col:13" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doWarmluftofenEin" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="608" C="2" PS="Ln:608, Col:2" A="W"/>
+				<Pos L="612" C="5" PS="Ln:612, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doHeizregisterEin" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="331" C="48" PS="Ln:331, Col:48" A="R"/>
+				<Pos L="642" C="4" PS="Ln:642, Col:4" A="W"/>
+				<Pos L="646" C="4" PS="Ln:646, Col:4" A="W"/>
+				<Pos L="661" C="3" PS="Ln:661, Col:3" A="W"/>
+				<Pos L="665" C="5" PS="Ln:665, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doFreigabeBox3" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="409" C="2" PS="Ln:409, Col:2" A="W"/>
+				<Pos L="511" C="5" PS="Ln:511, Col:5" A="R"/>
+				<Pos L="513" C="13" PS="Ln:513, Col:13" A="R"/>
+				<Pos L="515" C="8" PS="Ln:515, Col:8" A="R"/>
+				<Pos L="517" C="13" PS="Ln:517, Col:13" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doFreigabeBox4" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="410" C="2" PS="Ln:410, Col:2" A="W"/>
+				<Pos L="526" C="5" PS="Ln:526, Col:5" A="R"/>
+				<Pos L="528" C="13" PS="Ln:528, Col:13" A="R"/>
+				<Pos L="530" C="8" PS="Ln:530, Col:8" A="R"/>
+				<Pos L="532" C="13" PS="Ln:532, Col:13" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doFreigabeBox5" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="411" C="2" PS="Ln:411, Col:2" A="W"/>
+				<Pos L="541" C="5" PS="Ln:541, Col:5" A="R"/>
+				<Pos L="543" C="13" PS="Ln:543, Col:13" A="R"/>
+				<Pos L="545" C="8" PS="Ln:545, Col:8" A="R"/>
+				<Pos L="547" C="13" PS="Ln:547, Col:13" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doFreigabeBox6" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="412" C="2" PS="Ln:412, Col:2" A="W"/>
+				<Pos L="556" C="5" PS="Ln:556, Col:5" A="R"/>
+				<Pos L="558" C="13" PS="Ln:558, Col:13" A="R"/>
+				<Pos L="560" C="8" PS="Ln:560, Col:8" A="R"/>
+				<Pos L="562" C="13" PS="Ln:562, Col:13" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doBrandschutzklappeAuf" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="735" C="2" PS="Ln:735, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="doAbluftventilatorEin" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="276" C="2" PS="Ln:276, Col:2" A="W"/>
+				<Pos L="281" C="5" PS="Ln:281, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doAbluftklappeFreigabe" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="240" C="2" PS="Ln:240, Col:2" A="W"/>
+				<Pos L="245" C="5" PS="Ln:245, Col:5" A="R"/>
+				<Pos L="247" C="13" PS="Ln:247, Col:13" A="R"/>
+				<Pos L="251" C="8" PS="Ln:251, Col:8" A="R"/>
+				<Pos L="253" C="13" PS="Ln:253, Col:13" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doAbluftklappeOeffnen" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="241" C="2" PS="Ln:241, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="doAbluftklappeSchliessen" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="242" C="2" PS="Ln:242, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="doUmluftklappe2Schliessen" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="406" C="2" PS="Ln:406, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="doUmluftklappe2Oeffnen" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="405" C="2" PS="Ln:405, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="doUmluftklappe1Schliessen" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="403" C="2" PS="Ln:403, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="doUmluftklappe1Oeffnen" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="402" C="2" PS="Ln:402, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="doUmluftklappe1Freigabe" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="401" C="2" PS="Ln:401, Col:2" A="W"/>
+				<Pos L="451" C="5" PS="Ln:451, Col:5" A="R"/>
+				<Pos L="453" C="13" PS="Ln:453, Col:13" A="R"/>
+				<Pos L="455" C="8" PS="Ln:455, Col:8" A="R"/>
+				<Pos L="457" C="13" PS="Ln:457, Col:13" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doUmluftklappe2Freigabe" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="404" C="2" PS="Ln:404, Col:2" A="W"/>
+				<Pos L="466" C="5" PS="Ln:466, Col:5" A="R"/>
+				<Pos L="468" C="13" PS="Ln:468, Col:13" A="R"/>
+				<Pos L="470" C="8" PS="Ln:470, Col:8" A="R"/>
+				<Pos L="472" C="13" PS="Ln:472, Col:13" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doNotstromaggregatEin" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="708" C="2" PS="Ln:708, Col:2" A="W"/>
+				<Pos L="713" C="8" PS="Ln:713, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doKompressorEinModul1" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="101" C="2" PS="Ln:101, Col:2" A="W"/>
+				<Pos L="106" C="5" PS="Ln:106, Col:5" A="R"/>
+				<Pos L="110" C="128" PS="Ln:110, Col:128" A="R"/>
+				<Pos L="330" C="54" PS="Ln:330, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doKompressorEinModul2" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="163" C="2" PS="Ln:163, Col:2" A="W"/>
+				<Pos L="168" C="5" PS="Ln:168, Col:5" A="R"/>
+				<Pos L="172" C="128" PS="Ln:172, Col:128" A="R"/>
+				<Pos L="330" C="79" PS="Ln:330, Col:79" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doMagnetventilEinModul1" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="103" C="2" PS="Ln:103, Col:2" A="W"/>
+				<Pos L="119" C="6" PS="Ln:119, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doMagnetventilEinModul2" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="165" C="2" PS="Ln:165, Col:2" A="W"/>
+				<Pos L="181" C="6" PS="Ln:181, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doOelsumpfheizungEinModul1" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="32" C="2" PS="Ln:32, Col:2" A="W"/>
+				<Pos L="35" C="6" PS="Ln:35, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doOelsumpfheizungEinModul2" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="53" C="2" PS="Ln:53, Col:2" A="W"/>
+				<Pos L="57" C="6" PS="Ln:57, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doBypassklappeSchliessen" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="400" C="2" PS="Ln:400, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="doBypassklappeOeffnen" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="399" C="2" PS="Ln:399, Col:2" A="W"/>
+				<Pos L="436" C="5" PS="Ln:436, Col:5" A="R"/>
+				<Pos L="438" C="13" PS="Ln:438, Col:13" A="R"/>
+				<Pos L="440" C="8" PS="Ln:440, Col:8" A="R"/>
+				<Pos L="442" C="13" PS="Ln:442, Col:13" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doEntfFremdFreigabe" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="209" C="2" PS="Ln:209, Col:2" A="W"/>
+				<Pos L="212" C="5" PS="Ln:212, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aoDrehzahlvorgVentilator1" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="397" C="2" PS="Ln:397, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="aoTemperaturvorgWarmluftofen" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="609" C="2" PS="Ln:609, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="aoDrehzahlvorgVentilator2" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="398" C="2" PS="Ln:398, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="aoLeistungsvorgHeizregister" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="643" C="4" PS="Ln:643, Col:4" A="W"/>
+				<Pos L="647" C="4" PS="Ln:647, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="aoDrehzahlvorgAbluftventilator" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="277" C="2" PS="Ln:277, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="aoDrehzahlvorgKompressorModul1" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="102" C="2" PS="Ln:102, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="aoDrehzahlvorgKompressorModul2" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="164" C="2" PS="Ln:164, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="aiAbluftFeuchte" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="229" C="45" PS="Ln:229, Col:45" A="R"/>
+				<Pos L="263" C="48" PS="Ln:263, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiNiederdruckModul2" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="130" C="45" PS="Ln:130, Col:45" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiNiederdruckModul1" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="68" C="45" PS="Ln:68, Col:45" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiHochdruckModul2" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="131" C="44" PS="Ln:131, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiHochdruckModul1" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="69" C="44" PS="Ln:69, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiEintrittTemperatur" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="24" C="52" PS="Ln:24, Col:52" A="R"/>
+				<Pos L="45" C="52" PS="Ln:45, Col:52" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiEintrittFeuchte" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="67" C="48" PS="Ln:67, Col:48" A="R"/>
+				<Pos L="129" C="48" PS="Ln:129, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diEntfeuchterFremdInBetrieb" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="191" C="54" PS="Ln:191, Col:54" A="R"/>
+				<Pos L="213" C="6" PS="Ln:213, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diEntfeuchterFremdStoerung" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="200" C="45" PS="Ln:200, Col:45" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diVentilator1InBetrieb" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="73" C="64" PS="Ln:73, Col:64" A="R"/>
+				<Pos L="135" C="64" PS="Ln:135, Col:64" A="R"/>
+				<Pos L="192" C="54" PS="Ln:192, Col:54" A="R"/>
+				<Pos L="332" C="51" PS="Ln:332, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diBox1Offen" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="311" C="51" PS="Ln:311, Col:51" A="R"/>
+				<Pos L="481" C="29" PS="Ln:481, Col:29" A="R"/>
+				<Pos L="485" C="29" PS="Ln:485, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diBox1Geschl" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="310" C="52" PS="Ln:310, Col:52" A="R"/>
+				<Pos L="483" C="38" PS="Ln:483, Col:38" A="R"/>
+				<Pos L="487" C="35" PS="Ln:487, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diBox2Offen" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="313" C="51" PS="Ln:313, Col:51" A="R"/>
+				<Pos L="496" C="29" PS="Ln:496, Col:29" A="R"/>
+				<Pos L="500" C="29" PS="Ln:500, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diBox2Geschl" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="312" C="52" PS="Ln:312, Col:52" A="R"/>
+				<Pos L="498" C="38" PS="Ln:498, Col:38" A="R"/>
+				<Pos L="502" C="35" PS="Ln:502, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diVentilator2InBetrieb" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="333" C="51" PS="Ln:333, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diDrehzahlbegrVentilator1" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="71" C="3" PS="Ln:71, Col:3" A="R"/>
+				<Pos L="133" C="3" PS="Ln:133, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diDrehzahlbegrVentilator2" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="71" C="73" PS="Ln:71, Col:73" A="R"/>
+				<Pos L="133" C="73" PS="Ln:133, Col:73" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diScheitholzofenInBetrieb" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="677" C="45" PS="Ln:677, Col:45" A="R"/>
+				<Pos L="686" C="5" PS="Ln:686, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diWarmluftofenInBetrieb" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="577" C="55" PS="Ln:577, Col:55" A="R"/>
+				<Pos L="595" C="55" PS="Ln:595, Col:55" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diBox3Offen" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="315" C="51" PS="Ln:315, Col:51" A="R"/>
+				<Pos L="511" C="29" PS="Ln:511, Col:29" A="R"/>
+				<Pos L="515" C="29" PS="Ln:515, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diBox3Geschl" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="314" C="52" PS="Ln:314, Col:52" A="R"/>
+				<Pos L="513" C="38" PS="Ln:513, Col:38" A="R"/>
+				<Pos L="517" C="35" PS="Ln:517, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diBox4Offen" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="317" C="51" PS="Ln:317, Col:51" A="R"/>
+				<Pos L="526" C="29" PS="Ln:526, Col:29" A="R"/>
+				<Pos L="530" C="29" PS="Ln:530, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diBox4Geschl" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="316" C="52" PS="Ln:316, Col:52" A="R"/>
+				<Pos L="528" C="38" PS="Ln:528, Col:38" A="R"/>
+				<Pos L="532" C="35" PS="Ln:532, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diBox5Offen" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="319" C="51" PS="Ln:319, Col:51" A="R"/>
+				<Pos L="541" C="29" PS="Ln:541, Col:29" A="R"/>
+				<Pos L="545" C="29" PS="Ln:545, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diBox5Geschl" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="318" C="52" PS="Ln:318, Col:52" A="R"/>
+				<Pos L="543" C="38" PS="Ln:543, Col:38" A="R"/>
+				<Pos L="547" C="35" PS="Ln:547, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diBox6Offen" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="321" C="51" PS="Ln:321, Col:51" A="R"/>
+				<Pos L="556" C="29" PS="Ln:556, Col:29" A="R"/>
+				<Pos L="560" C="29" PS="Ln:560, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diBox6Geschl" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="320" C="52" PS="Ln:320, Col:52" A="R"/>
+				<Pos L="558" C="38" PS="Ln:558, Col:38" A="R"/>
+				<Pos L="562" C="35" PS="Ln:562, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diAbluftventInBetrieb" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="264" C="50" PS="Ln:264, Col:50" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diAbluftklappeOffen" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="230" C="42" PS="Ln:230, Col:42" A="R"/>
+				<Pos L="245" C="36" PS="Ln:245, Col:36" A="R"/>
+				<Pos L="251" C="36" PS="Ln:251, Col:36" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diAbluftklappeGeschl" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="231" C="43" PS="Ln:231, Col:43" A="R"/>
+				<Pos L="247" C="45" PS="Ln:247, Col:45" A="R"/>
+				<Pos L="253" C="42" PS="Ln:253, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diUmschaltklappe1Offen" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="327" C="51" PS="Ln:327, Col:51" A="R"/>
+				<Pos L="451" C="38" PS="Ln:451, Col:38" A="R"/>
+				<Pos L="455" C="38" PS="Ln:455, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diUmschaltklappe1Geschl" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="326" C="51" PS="Ln:326, Col:51" A="R"/>
+				<Pos L="453" C="47" PS="Ln:453, Col:47" A="R"/>
+				<Pos L="457" C="44" PS="Ln:457, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diUmschaltklappe2Offen" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="329" C="51" PS="Ln:329, Col:51" A="R"/>
+				<Pos L="466" C="38" PS="Ln:466, Col:38" A="R"/>
+				<Pos L="470" C="38" PS="Ln:470, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diUmschaltklappe2Geschl" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="328" C="51" PS="Ln:328, Col:51" A="R"/>
+				<Pos L="468" C="47" PS="Ln:468, Col:47" A="R"/>
+				<Pos L="472" C="44" PS="Ln:472, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diNotstromaggregatInBetrieb" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="698" C="59" PS="Ln:698, Col:59" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diNiederdruckOkModul1" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="78" C="48" PS="Ln:78, Col:48" A="R"/>
+				<Pos L="101" C="110" PS="Ln:101, Col:110" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diNiederdruckOkModul2" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="140" C="48" PS="Ln:140, Col:48" A="R"/>
+				<Pos L="163" C="110" PS="Ln:163, Col:110" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diHochdruckOkModul1" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="77" C="47" PS="Ln:77, Col:47" A="R"/>
+				<Pos L="101" C="86" PS="Ln:101, Col:86" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diHochdruckOkModul2" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="139" C="47" PS="Ln:139, Col:47" A="R"/>
+				<Pos L="163" C="86" PS="Ln:163, Col:86" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diBetriebsmldgKompressorModul1" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="74" C="54" PS="Ln:74, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diBetriebsmldgKompressorModul2" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="136" C="54" PS="Ln:136, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diBypassklappeGeschl" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="322" C="48" PS="Ln:322, Col:48" A="R"/>
+				<Pos L="324" C="48" PS="Ln:324, Col:48" A="R"/>
+				<Pos L="438" C="45" PS="Ln:438, Col:45" A="R"/>
+				<Pos L="442" C="42" PS="Ln:442, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diBypassklappeOffen" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="323" C="47" PS="Ln:323, Col:47" A="R"/>
+				<Pos L="325" C="47" PS="Ln:325, Col:47" A="R"/>
+				<Pos L="436" C="36" PS="Ln:436, Col:36" A="R"/>
+				<Pos L="440" C="36" PS="Ln:440, Col:36" A="R"/>
+			</File>
+		</Var>
+		<Var Name="diHeizregisterFrostschutz" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="640" C="7" PS="Ln:640, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox1.WetterIstSchlecht" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="194" C="53" PS="Ln:194, Col:53" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox2.WetterIstSchlecht" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="195" C="3" PS="Ln:195, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox3.WetterIstSchlecht" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="196" C="3" PS="Ln:196, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox4.WetterIstSchlecht" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="197" C="3" PS="Ln:197, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox5.WetterIstSchlecht" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="198" C="3" PS="Ln:198, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox6.WetterIstSchlecht" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="199" C="3" PS="Ln:199, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="alarmFehler" Scope="Global" Type="BOOL[0..49]">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="25" C="63" PS="Ln:25, Col:63" A="R"/>
+				<Pos L="46" C="63" PS="Ln:46, Col:63" A="R"/>
+				<Pos L="75" C="58" PS="Ln:75, Col:58" A="R"/>
+				<Pos L="76" C="60" PS="Ln:76, Col:60" A="R"/>
+				<Pos L="79" C="50" PS="Ln:79, Col:50" A="R"/>
+				<Pos L="79" C="95" PS="Ln:79, Col:95" A="R"/>
+				<Pos L="79" C="142" PS="Ln:79, Col:142" A="R"/>
+				<Pos L="80" C="2" PS="Ln:80, Col:2" A="R"/>
+				<Pos L="80" C="50" PS="Ln:80, Col:50" A="R"/>
+				<Pos L="80" C="100" PS="Ln:80, Col:100" A="R"/>
+				<Pos L="137" C="58" PS="Ln:137, Col:58" A="R"/>
+				<Pos L="138" C="60" PS="Ln:138, Col:60" A="R"/>
+				<Pos L="141" C="50" PS="Ln:141, Col:50" A="R"/>
+				<Pos L="141" C="95" PS="Ln:141, Col:95" A="R"/>
+				<Pos L="141" C="142" PS="Ln:141, Col:142" A="R"/>
+				<Pos L="142" C="2" PS="Ln:142, Col:2" A="R"/>
+				<Pos L="142" C="50" PS="Ln:142, Col:50" A="R"/>
+				<Pos L="142" C="100" PS="Ln:142, Col:100" A="R"/>
+				<Pos L="578" C="52" PS="Ln:578, Col:52" A="R"/>
+				<Pos L="629" C="52" PS="Ln:629, Col:52" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+		<Enum Name="STATUS_NICHT_VERFUEGBAR" Scope="Global" Type="enumStatus">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="743" C="51" PS="Ln:743, Col:51" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="STATUS_BEREIT" Scope="Global" Type="enumStatus">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="712" C="51" PS="Ln:712, Col:51" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="STATUS_STOERUNG" Scope="Global" Type="enumStatus">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="109" C="51" PS="Ln:109, Col:51" A="R"/>
+				<Pos L="171" C="51" PS="Ln:171, Col:51" A="R"/>
+				<Pos L="219" C="52" PS="Ln:219, Col:52" A="R"/>
+				<Pos L="250" C="48" PS="Ln:250, Col:48" A="R"/>
+				<Pos L="284" C="51" PS="Ln:284, Col:51" A="R"/>
+				<Pos L="420" C="47" PS="Ln:420, Col:47" A="R"/>
+				<Pos L="429" C="47" PS="Ln:429, Col:47" A="R"/>
+				<Pos L="445" C="46" PS="Ln:445, Col:46" A="R"/>
+				<Pos L="460" C="50" PS="Ln:460, Col:50" A="R"/>
+				<Pos L="475" C="50" PS="Ln:475, Col:50" A="R"/>
+				<Pos L="490" C="46" PS="Ln:490, Col:46" A="R"/>
+				<Pos L="505" C="46" PS="Ln:505, Col:46" A="R"/>
+				<Pos L="520" C="46" PS="Ln:520, Col:46" A="R"/>
+				<Pos L="535" C="46" PS="Ln:535, Col:46" A="R"/>
+				<Pos L="550" C="46" PS="Ln:550, Col:46" A="R"/>
+				<Pos L="565" C="46" PS="Ln:565, Col:46" A="R"/>
+				<Pos L="617" C="47" PS="Ln:617, Col:47" A="R"/>
+				<Pos L="668" C="47" PS="Ln:668, Col:47" A="R"/>
+				<Pos L="716" C="51" PS="Ln:716, Col:51" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="STATUS_AKTIV" Scope="Global" Type="enumStatus">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="36" C="54" PS="Ln:36, Col:54" A="R"/>
+				<Pos L="58" C="54" PS="Ln:58, Col:54" A="R"/>
+				<Pos L="107" C="51" PS="Ln:107, Col:51" A="R"/>
+				<Pos L="120" C="52" PS="Ln:120, Col:52" A="R"/>
+				<Pos L="169" C="51" PS="Ln:169, Col:51" A="R"/>
+				<Pos L="182" C="52" PS="Ln:182, Col:52" A="R"/>
+				<Pos L="214" C="53" PS="Ln:214, Col:53" A="R"/>
+				<Pos L="246" C="48" PS="Ln:246, Col:48" A="R"/>
+				<Pos L="248" C="48" PS="Ln:248, Col:48" A="R"/>
+				<Pos L="282" C="51" PS="Ln:282, Col:51" A="R"/>
+				<Pos L="418" C="47" PS="Ln:418, Col:47" A="R"/>
+				<Pos L="427" C="47" PS="Ln:427, Col:47" A="R"/>
+				<Pos L="437" C="46" PS="Ln:437, Col:46" A="R"/>
+				<Pos L="439" C="46" PS="Ln:439, Col:46" A="R"/>
+				<Pos L="452" C="50" PS="Ln:452, Col:50" A="R"/>
+				<Pos L="454" C="50" PS="Ln:454, Col:50" A="R"/>
+				<Pos L="467" C="50" PS="Ln:467, Col:50" A="R"/>
+				<Pos L="469" C="50" PS="Ln:469, Col:50" A="R"/>
+				<Pos L="482" C="46" PS="Ln:482, Col:46" A="R"/>
+				<Pos L="484" C="46" PS="Ln:484, Col:46" A="R"/>
+				<Pos L="497" C="46" PS="Ln:497, Col:46" A="R"/>
+				<Pos L="499" C="46" PS="Ln:499, Col:46" A="R"/>
+				<Pos L="512" C="46" PS="Ln:512, Col:46" A="R"/>
+				<Pos L="514" C="46" PS="Ln:514, Col:46" A="R"/>
+				<Pos L="527" C="46" PS="Ln:527, Col:46" A="R"/>
+				<Pos L="529" C="46" PS="Ln:529, Col:46" A="R"/>
+				<Pos L="542" C="46" PS="Ln:542, Col:46" A="R"/>
+				<Pos L="544" C="46" PS="Ln:544, Col:46" A="R"/>
+				<Pos L="557" C="46" PS="Ln:557, Col:46" A="R"/>
+				<Pos L="559" C="46" PS="Ln:559, Col:46" A="R"/>
+				<Pos L="613" C="47" PS="Ln:613, Col:47" A="R"/>
+				<Pos L="666" C="47" PS="Ln:666, Col:47" A="R"/>
+				<Pos L="687" C="48" PS="Ln:687, Col:48" A="R"/>
+				<Pos L="714" C="51" PS="Ln:714, Col:51" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="STATUS_NICHT_AKTIV" Scope="Global" Type="enumStatus">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="38" C="54" PS="Ln:38, Col:54" A="R"/>
+				<Pos L="60" C="54" PS="Ln:60, Col:54" A="R"/>
+				<Pos L="115" C="51" PS="Ln:115, Col:51" A="R"/>
+				<Pos L="122" C="52" PS="Ln:122, Col:52" A="R"/>
+				<Pos L="177" C="51" PS="Ln:177, Col:51" A="R"/>
+				<Pos L="184" C="52" PS="Ln:184, Col:52" A="R"/>
+				<Pos L="221" C="52" PS="Ln:221, Col:52" A="R"/>
+				<Pos L="256" C="48" PS="Ln:256, Col:48" A="R"/>
+				<Pos L="286" C="51" PS="Ln:286, Col:51" A="R"/>
+				<Pos L="422" C="47" PS="Ln:422, Col:47" A="R"/>
+				<Pos L="431" C="47" PS="Ln:431, Col:47" A="R"/>
+				<Pos L="447" C="46" PS="Ln:447, Col:46" A="R"/>
+				<Pos L="462" C="50" PS="Ln:462, Col:50" A="R"/>
+				<Pos L="477" C="50" PS="Ln:477, Col:50" A="R"/>
+				<Pos L="492" C="46" PS="Ln:492, Col:46" A="R"/>
+				<Pos L="507" C="46" PS="Ln:507, Col:46" A="R"/>
+				<Pos L="522" C="46" PS="Ln:522, Col:46" A="R"/>
+				<Pos L="537" C="46" PS="Ln:537, Col:46" A="R"/>
+				<Pos L="552" C="46" PS="Ln:552, Col:46" A="R"/>
+				<Pos L="567" C="46" PS="Ln:567, Col:46" A="R"/>
+				<Pos L="619" C="47" PS="Ln:619, Col:47" A="R"/>
+				<Pos L="670" C="47" PS="Ln:670, Col:47" A="R"/>
+				<Pos L="691" C="48" PS="Ln:691, Col:48" A="R"/>
+				<Pos L="718" C="51" PS="Ln:718, Col:51" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="STATUS_OFFEN" Scope="Global" Type="enumStatus">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="252" C="48" PS="Ln:252, Col:48" A="R"/>
+				<Pos L="441" C="46" PS="Ln:441, Col:46" A="R"/>
+				<Pos L="456" C="50" PS="Ln:456, Col:50" A="R"/>
+				<Pos L="471" C="50" PS="Ln:471, Col:50" A="R"/>
+				<Pos L="486" C="46" PS="Ln:486, Col:46" A="R"/>
+				<Pos L="501" C="46" PS="Ln:501, Col:46" A="R"/>
+				<Pos L="516" C="46" PS="Ln:516, Col:46" A="R"/>
+				<Pos L="531" C="46" PS="Ln:531, Col:46" A="R"/>
+				<Pos L="546" C="46" PS="Ln:546, Col:46" A="R"/>
+				<Pos L="561" C="46" PS="Ln:561, Col:46" A="R"/>
+				<Pos L="739" C="51" PS="Ln:739, Col:51" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="STATUS_GESCHLOSSEN" Scope="Global" Type="enumStatus">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="254" C="48" PS="Ln:254, Col:48" A="R"/>
+				<Pos L="443" C="46" PS="Ln:443, Col:46" A="R"/>
+				<Pos L="458" C="50" PS="Ln:458, Col:50" A="R"/>
+				<Pos L="473" C="50" PS="Ln:473, Col:50" A="R"/>
+				<Pos L="488" C="46" PS="Ln:488, Col:46" A="R"/>
+				<Pos L="503" C="46" PS="Ln:503, Col:46" A="R"/>
+				<Pos L="518" C="46" PS="Ln:518, Col:46" A="R"/>
+				<Pos L="533" C="46" PS="Ln:533, Col:46" A="R"/>
+				<Pos L="548" C="46" PS="Ln:548, Col:46" A="R"/>
+				<Pos L="563" C="46" PS="Ln:563, Col:46" A="R"/>
+				<Pos L="741" C="51" PS="Ln:741, Col:51" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="STATUS_ENTF_ABTAUUNG" Scope="Global" Type="enumStatus">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="113" C="51" PS="Ln:113, Col:51" A="R"/>
+				<Pos L="175" C="51" PS="Ln:175, Col:51" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="STATUS_AUSKUEHLPHASE" Scope="Global" Type="enumStatus">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="615" C="47" PS="Ln:615, Col:47" A="R"/>
+				<Pos L="689" C="48" PS="Ln:689, Col:48" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="STATUS_ENTF_STANDBY" Scope="Global" Type="enumStatus">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="111" C="51" PS="Ln:111, Col:51" A="R"/>
+				<Pos L="173" C="51" PS="Ln:173, Col:51" A="R"/>
+				<Pos L="216" C="53" PS="Ln:216, Col:53" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FEHLER_HOCHDRUCK_MODUL1" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="79" C="62" PS="Ln:79, Col:62" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FEHLER_HOCHDRUCK_MODUL2" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="141" C="62" PS="Ln:141, Col:62" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FEHLER_NIEDERDRUCK_MODUL1" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="79" C="107" PS="Ln:79, Col:107" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FEHLER_NIEDERDRUCK_MODUL2" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="141" C="107" PS="Ln:141, Col:107" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FEHLER_OELDRUCK_KOMPR_MOD1" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="80" C="14" PS="Ln:80, Col:14" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FEHLER_OELDRUCK_KOMPR_MOD2" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="142" C="14" PS="Ln:142, Col:14" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FEHLER_VOLLSCHUTZ_KOMPR_MOD1" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="79" C="154" PS="Ln:79, Col:154" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FEHLER_VOLLSCHUTZ_KOMPR_MOD2" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="141" C="154" PS="Ln:141, Col:154" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FEHLER_SENSOR_FRISCHLUFT" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="578" C="64" PS="Ln:578, Col:64" A="R"/>
+				<Pos L="629" C="64" PS="Ln:629, Col:64" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FEHLER_SENSOR_EINTRITT" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="25" C="75" PS="Ln:25, Col:75" A="R"/>
+				<Pos L="46" C="75" PS="Ln:46, Col:75" A="R"/>
+				<Pos L="75" C="70" PS="Ln:75, Col:70" A="R"/>
+				<Pos L="137" C="70" PS="Ln:137, Col:70" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FEHLER_SENSOR_NIEDERDRUCK_MOD1" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="76" C="72" PS="Ln:76, Col:72" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FEHLER_SENSOR_NIEDERDRUCK_MOD2" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="138" C="72" PS="Ln:138, Col:72" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FEHLER_EINTRITT_TEMP_ZU_HOCH" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="80" C="62" PS="Ln:80, Col:62" A="R"/>
+				<Pos L="142" C="62" PS="Ln:142, Col:62" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FEHLER_EINTRITT_TEMP_ZU_NIEDRIG" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="80" C="112" PS="Ln:80, Col:112" A="R"/>
+				<Pos L="142" C="112" PS="Ln:142, Col:112" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_OELSUMPFHEIZUNG_MOD1" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="36" C="23" PS="Ln:36, Col:23" A="R"/>
+				<Pos L="38" C="23" PS="Ln:38, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_OELSUMPFHEIZUNG_MOD2" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="58" C="23" PS="Ln:58, Col:23" A="R"/>
+				<Pos L="60" C="23" PS="Ln:60, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_KOMPRESSOR_MOD1" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="107" C="23" PS="Ln:107, Col:23" A="R"/>
+				<Pos L="109" C="23" PS="Ln:109, Col:23" A="R"/>
+				<Pos L="111" C="23" PS="Ln:111, Col:23" A="R"/>
+				<Pos L="113" C="23" PS="Ln:113, Col:23" A="R"/>
+				<Pos L="115" C="23" PS="Ln:115, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_KOMPRESSOR_MOD2" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="169" C="23" PS="Ln:169, Col:23" A="R"/>
+				<Pos L="171" C="23" PS="Ln:171, Col:23" A="R"/>
+				<Pos L="173" C="23" PS="Ln:173, Col:23" A="R"/>
+				<Pos L="175" C="23" PS="Ln:175, Col:23" A="R"/>
+				<Pos L="177" C="23" PS="Ln:177, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_VENTILATOR_1" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="418" C="23" PS="Ln:418, Col:23" A="R"/>
+				<Pos L="420" C="23" PS="Ln:420, Col:23" A="R"/>
+				<Pos L="422" C="23" PS="Ln:422, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_VENTILATOR_2" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="427" C="23" PS="Ln:427, Col:23" A="R"/>
+				<Pos L="429" C="23" PS="Ln:429, Col:23" A="R"/>
+				<Pos L="431" C="23" PS="Ln:431, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_BYPASSKLAPPE" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="437" C="23" PS="Ln:437, Col:23" A="R"/>
+				<Pos L="439" C="23" PS="Ln:439, Col:23" A="R"/>
+				<Pos L="441" C="23" PS="Ln:441, Col:23" A="R"/>
+				<Pos L="443" C="23" PS="Ln:443, Col:23" A="R"/>
+				<Pos L="445" C="23" PS="Ln:445, Col:23" A="R"/>
+				<Pos L="447" C="23" PS="Ln:447, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_UMSCHALTKLAPPE_1" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="452" C="23" PS="Ln:452, Col:23" A="R"/>
+				<Pos L="454" C="23" PS="Ln:454, Col:23" A="R"/>
+				<Pos L="456" C="23" PS="Ln:456, Col:23" A="R"/>
+				<Pos L="458" C="23" PS="Ln:458, Col:23" A="R"/>
+				<Pos L="460" C="23" PS="Ln:460, Col:23" A="R"/>
+				<Pos L="462" C="23" PS="Ln:462, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_UMSCHALTKLAPPE_2" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="467" C="23" PS="Ln:467, Col:23" A="R"/>
+				<Pos L="469" C="23" PS="Ln:469, Col:23" A="R"/>
+				<Pos L="471" C="23" PS="Ln:471, Col:23" A="R"/>
+				<Pos L="473" C="23" PS="Ln:473, Col:23" A="R"/>
+				<Pos L="475" C="23" PS="Ln:475, Col:23" A="R"/>
+				<Pos L="477" C="23" PS="Ln:477, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_MAGNETVENTIL_MOD1" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="120" C="23" PS="Ln:120, Col:23" A="R"/>
+				<Pos L="122" C="23" PS="Ln:122, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_MAGNETVENTIL_MOD2" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="182" C="23" PS="Ln:182, Col:23" A="R"/>
+				<Pos L="184" C="23" PS="Ln:184, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_KLAPPE_BOX_1" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="482" C="23" PS="Ln:482, Col:23" A="R"/>
+				<Pos L="484" C="23" PS="Ln:484, Col:23" A="R"/>
+				<Pos L="486" C="23" PS="Ln:486, Col:23" A="R"/>
+				<Pos L="488" C="23" PS="Ln:488, Col:23" A="R"/>
+				<Pos L="490" C="23" PS="Ln:490, Col:23" A="R"/>
+				<Pos L="492" C="23" PS="Ln:492, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_KLAPPE_BOX_2" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="497" C="23" PS="Ln:497, Col:23" A="R"/>
+				<Pos L="499" C="23" PS="Ln:499, Col:23" A="R"/>
+				<Pos L="501" C="23" PS="Ln:501, Col:23" A="R"/>
+				<Pos L="503" C="23" PS="Ln:503, Col:23" A="R"/>
+				<Pos L="505" C="23" PS="Ln:505, Col:23" A="R"/>
+				<Pos L="507" C="23" PS="Ln:507, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_KLAPPE_BOX_3" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="512" C="23" PS="Ln:512, Col:23" A="R"/>
+				<Pos L="514" C="23" PS="Ln:514, Col:23" A="R"/>
+				<Pos L="516" C="23" PS="Ln:516, Col:23" A="R"/>
+				<Pos L="518" C="23" PS="Ln:518, Col:23" A="R"/>
+				<Pos L="520" C="23" PS="Ln:520, Col:23" A="R"/>
+				<Pos L="522" C="23" PS="Ln:522, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_KLAPPE_BOX_4" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="527" C="23" PS="Ln:527, Col:23" A="R"/>
+				<Pos L="529" C="23" PS="Ln:529, Col:23" A="R"/>
+				<Pos L="531" C="23" PS="Ln:531, Col:23" A="R"/>
+				<Pos L="533" C="23" PS="Ln:533, Col:23" A="R"/>
+				<Pos L="535" C="23" PS="Ln:535, Col:23" A="R"/>
+				<Pos L="537" C="23" PS="Ln:537, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_KLAPPE_BOX_5" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="542" C="23" PS="Ln:542, Col:23" A="R"/>
+				<Pos L="544" C="23" PS="Ln:544, Col:23" A="R"/>
+				<Pos L="546" C="23" PS="Ln:546, Col:23" A="R"/>
+				<Pos L="548" C="23" PS="Ln:548, Col:23" A="R"/>
+				<Pos L="550" C="23" PS="Ln:550, Col:23" A="R"/>
+				<Pos L="552" C="23" PS="Ln:552, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_KLAPPE_BOX_6" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="557" C="23" PS="Ln:557, Col:23" A="R"/>
+				<Pos L="559" C="23" PS="Ln:559, Col:23" A="R"/>
+				<Pos L="561" C="23" PS="Ln:561, Col:23" A="R"/>
+				<Pos L="563" C="23" PS="Ln:563, Col:23" A="R"/>
+				<Pos L="565" C="23" PS="Ln:565, Col:23" A="R"/>
+				<Pos L="567" C="23" PS="Ln:567, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_ABLUFTKLAPPE" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="246" C="23" PS="Ln:246, Col:23" A="R"/>
+				<Pos L="248" C="23" PS="Ln:248, Col:23" A="R"/>
+				<Pos L="250" C="23" PS="Ln:250, Col:23" A="R"/>
+				<Pos L="252" C="23" PS="Ln:252, Col:23" A="R"/>
+				<Pos L="254" C="23" PS="Ln:254, Col:23" A="R"/>
+				<Pos L="256" C="23" PS="Ln:256, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_ABLUFTVENTILATOR" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="282" C="23" PS="Ln:282, Col:23" A="R"/>
+				<Pos L="284" C="23" PS="Ln:284, Col:23" A="R"/>
+				<Pos L="286" C="23" PS="Ln:286, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_WARMLUFTOFEN" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="613" C="23" PS="Ln:613, Col:23" A="R"/>
+				<Pos L="615" C="23" PS="Ln:615, Col:23" A="R"/>
+				<Pos L="617" C="23" PS="Ln:617, Col:23" A="R"/>
+				<Pos L="619" C="23" PS="Ln:619, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_HEIZREGISTER" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="666" C="23" PS="Ln:666, Col:23" A="R"/>
+				<Pos L="668" C="23" PS="Ln:668, Col:23" A="R"/>
+				<Pos L="670" C="23" PS="Ln:670, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_SCHEITHOLZOFEN" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="687" C="23" PS="Ln:687, Col:23" A="R"/>
+				<Pos L="689" C="23" PS="Ln:689, Col:23" A="R"/>
+				<Pos L="691" C="23" PS="Ln:691, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_NOTSTROMAGGREGAT" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="712" C="23" PS="Ln:712, Col:23" A="R"/>
+				<Pos L="714" C="23" PS="Ln:714, Col:23" A="R"/>
+				<Pos L="716" C="23" PS="Ln:716, Col:23" A="R"/>
+				<Pos L="718" C="23" PS="Ln:718, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_BRANDSCHUTZKLAPPE" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="739" C="23" PS="Ln:739, Col:23" A="R"/>
+				<Pos L="741" C="23" PS="Ln:741, Col:23" A="R"/>
+				<Pos L="743" C="23" PS="Ln:743, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="AKTOR_ENTFEUCHTER_FREMD" Scope="Global" Type="enumAktor">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="214" C="24" PS="Ln:214, Col:24" A="R"/>
+				<Pos L="216" C="24" PS="Ln:216, Col:24" A="R"/>
+				<Pos L="219" C="23" PS="Ln:219, Col:23" A="R"/>
+				<Pos L="221" C="23" PS="Ln:221, Col:23" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FBBOX_NICHT_VERWENDET" Scope="Global" Type="enumStellungKlappenBoxen">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="334" C="98" PS="Ln:334, Col:98" A="R"/>
+				<Pos L="335" C="49" PS="Ln:335, Col:49" A="R"/>
+				<Pos L="335" C="122" PS="Ln:335, Col:122" A="R"/>
+				<Pos L="336" C="49" PS="Ln:336, Col:49" A="R"/>
+				<Pos L="336" C="122" PS="Ln:336, Col:122" A="R"/>
+				<Pos L="337" C="49" PS="Ln:337, Col:49" A="R"/>
+				<Pos L="338" C="98" PS="Ln:338, Col:98" A="R"/>
+				<Pos L="339" C="49" PS="Ln:339, Col:49" A="R"/>
+				<Pos L="339" C="122" PS="Ln:339, Col:122" A="R"/>
+				<Pos L="340" C="49" PS="Ln:340, Col:49" A="R"/>
+				<Pos L="340" C="122" PS="Ln:340, Col:122" A="R"/>
+				<Pos L="341" C="49" PS="Ln:341, Col:49" A="R"/>
+				<Pos L="342" C="98" PS="Ln:342, Col:98" A="R"/>
+				<Pos L="343" C="49" PS="Ln:343, Col:49" A="R"/>
+				<Pos L="343" C="122" PS="Ln:343, Col:122" A="R"/>
+				<Pos L="344" C="49" PS="Ln:344, Col:49" A="R"/>
+				<Pos L="344" C="122" PS="Ln:344, Col:122" A="R"/>
+				<Pos L="345" C="49" PS="Ln:345, Col:49" A="R"/>
+				<Pos L="346" C="98" PS="Ln:346, Col:98" A="R"/>
+				<Pos L="347" C="49" PS="Ln:347, Col:49" A="R"/>
+				<Pos L="347" C="122" PS="Ln:347, Col:122" A="R"/>
+				<Pos L="348" C="49" PS="Ln:348, Col:49" A="R"/>
+				<Pos L="348" C="122" PS="Ln:348, Col:122" A="R"/>
+				<Pos L="349" C="49" PS="Ln:349, Col:49" A="R"/>
+				<Pos L="350" C="98" PS="Ln:350, Col:98" A="R"/>
+				<Pos L="351" C="49" PS="Ln:351, Col:49" A="R"/>
+				<Pos L="351" C="122" PS="Ln:351, Col:122" A="R"/>
+				<Pos L="352" C="49" PS="Ln:352, Col:49" A="R"/>
+				<Pos L="352" C="122" PS="Ln:352, Col:122" A="R"/>
+				<Pos L="353" C="49" PS="Ln:353, Col:49" A="R"/>
+				<Pos L="354" C="98" PS="Ln:354, Col:98" A="R"/>
+				<Pos L="355" C="49" PS="Ln:355, Col:49" A="R"/>
+				<Pos L="355" C="122" PS="Ln:355, Col:122" A="R"/>
+				<Pos L="356" C="49" PS="Ln:356, Col:49" A="R"/>
+				<Pos L="356" C="122" PS="Ln:356, Col:122" A="R"/>
+				<Pos L="357" C="49" PS="Ln:357, Col:49" A="R"/>
+			</File>
+		</Enum>
+	</Enums>
+	<Funcs>
+		<Func Name="fbLascoZdxx" Lib="LascoUtil">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\aktorenMapping\Main.st">
+				<Pos L="12" C="2" PS="Ln:12, Col:2"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

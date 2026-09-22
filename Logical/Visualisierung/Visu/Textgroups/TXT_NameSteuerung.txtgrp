@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXT_NameSteuerung">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="7"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="251208" Value="LaTronic CControl 4.07"/>
+    <Text ID="251209" Value="LaTronic CControl 4.07 Plus"/>
+    <Text ID="258329" Value="LaTronic CControl 3.07"/>
+    <Text ID="307034" Value="LaTronic CControl 3.04 Plus"/>
+    <Text ID="307035" Value="LaTronic CControl HB4000"/>
+    <Text ID="307036" Value="LaTronic CControl HB3000"/>
+    <Text ID="320763" Value="LaTronic CControl 2.07"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="251208" Value="LaTronic CControl 4.07"/>
+    <Text ID="251209" Value="LaTronic CControl 4.07 Plus"/>
+    <Text ID="258329" Value="LaTronic CControl 3.07"/>
+    <Text ID="307034" Value="LaTronic CControl 3.04 Plus"/>
+    <Text ID="307035" Value="LaTronic CControl HB4000"/>
+    <Text ID="307036" Value="LaTronic CControl HB3000"/>
+    <Text ID="320763" Value="LaTronic CControl 2.07"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="251208" Value="LaTronic CControl 4.07"/>
+    <Text ID="251209" Value="LaTronic CControl 4.07 Plus"/>
+    <Text ID="258329" Value="LaTronic CControl 3.07"/>
+    <Text ID="307034" Value="LaTronic CControl 3.04 Plus"/>
+    <Text ID="307035" Value="LaTronic CControl HB4000"/>
+    <Text ID="307036" Value="LaTronic CControl HB3000"/>
+    <Text ID="320763" Value="LaTronic CControl 2.07"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-BE">
+    <Text ID="251208" Value="LaTronic CControl 4.07"/>
+    <Text ID="251209" Value="LaTronic CControl 4.07 Plus"/>
+    <Text ID="258329" Value="LaTronic CControl 3.07"/>
+    <Text ID="307034" Value="LaTronic CControl 3.04 Plus"/>
+    <Text ID="307035" Value="LaTronic CControl HB4000"/>
+    <Text ID="307036" Value="LaTronic CControl HB3000"/>
+    <Text ID="320763" Value="LaTronic CControl 2.07"/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="251208" Value="LaTronic CControl 4.07"/>
+    <Text ID="251209" Value="LaTronic CControl 4.07 Plus"/>
+    <Text ID="258329" Value="LaTronic CControl 3.07"/>
+    <Text ID="307034" Value="LaTronic CControl 3.04 Plus"/>
+    <Text ID="307035" Value="LaTronic CControl HB4000"/>
+    <Text ID="307036" Value="LaTronic CControl HB3000"/>
+    <Text ID="320763" Value="LaTronic CControl 2.07"/>
+  </TextLayer>
+  <TextLayer LanguageId="sl">
+    <Text ID="251208" Value="LaTronic CControl 4.07"/>
+    <Text ID="251209" Value="LaTronic CControl 4.07 Plus"/>
+    <Text ID="258329" Value="LaTronic CControl 3.07"/>
+    <Text ID="307034" Value="LaTronic CControl 3.04 Plus"/>
+    <Text ID="307035" Value="LaTronic CControl HB4000"/>
+    <Text ID="307036" Value="LaTronic CControl HB3000"/>
+    <Text ID="320763" Value="LaTronic CControl 2.07"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="251208" Value="0"/>
+    <Index ID="251209" Value="1"/>
+    <Index ID="258329" Value="2"/>
+    <Index ID="307034" Value="3"/>
+    <Index ID="307035" Value="4"/>
+    <Index ID="307036" Value="5"/>
+    <Index ID="320763" Value="6"/>
+  </IndexMap>
+</TextGroup>

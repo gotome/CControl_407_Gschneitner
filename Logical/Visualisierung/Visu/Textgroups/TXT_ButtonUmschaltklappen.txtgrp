@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXT_ButtonUmschaltklappen">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="3"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="241937" Value="AUTOMATIC"/>
+    <Text ID="241938" Value="FRESH-AIR"/>
+    <Text ID="241939" Value="ROOF-AIR"/>
+    <Text ID="241940" Value="RECIRCULATION"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="241937" Value="AUTOMATIK"/>
+    <Text ID="241938" Value="FRISCHLUFT"/>
+    <Text ID="241939" Value="DACHLUFT"/>
+    <Text ID="241940" Value="UMLUFT"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="241937" Value="AUTOMATIQUE"/>
+    <Text ID="241938" Value="AIR NEUF"/>
+    <Text ID="241939" Value="AIR TOITURE"/>
+    <Text ID="241940" Value="AIR RECYCLE"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-BE">
+    <Text ID="241937" Value=""/>
+    <Text ID="241938" Value=""/>
+    <Text ID="241939" Value=""/>
+    <Text ID="241940" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="241937" Value=""/>
+    <Text ID="241938" Value=""/>
+    <Text ID="241939" Value=""/>
+    <Text ID="241940" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sl">
+    <Text ID="241937" Value="AVTOMATIKA"/>
+    <Text ID="241938" Value="SVEŽI ZRAK"/>
+    <Text ID="241939" Value="ZRAK S STREHE"/>
+    <Text ID="241940" Value="CIRKULACIJSKI ZRAK"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="241937" Value="0"/>
+    <Index ID="241938" Value="1"/>
+    <Index ID="241939" Value="2"/>
+    <Index ID="241940" Value="3"/>
+  </IndexMap>
+</TextGroup>

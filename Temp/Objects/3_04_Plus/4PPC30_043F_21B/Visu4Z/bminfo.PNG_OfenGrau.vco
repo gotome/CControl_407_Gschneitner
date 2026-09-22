@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="PNG_OfenGrau" ClsId="0x306" Version="1" TargetIndex="127" Type="GFX" RefString="Source[local].Bitmap[PNG_OfenGrau]">
+        <UInt16 Name="Width">30</UInt16>
+        <UInt16 Name="Height">41</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAAB4AAAApCAYAAAAiT5m3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANESURBVFhHzZdLaBRBEIbXB77xdVBEBD14FMGID1BR8OpN8OpN8CjefKzvRERDYNM9m6DRSLLVQ9ap2khUFHIKePCinjx48hCEBB8RPG1WajKz26ntmWST3eAHxc52Ve3f1bPTXZPJ+f4GDfhUGyprQ5UWW5m1WDOjDD1zBLTUWDOjAKejL180UE4DdrTGKBdqsBbgdKY6E6BcpsUog92xniWMHTIwjbzvb5Jjc6EM3q8TVgbvycA0tMGzHgRn5Hga4ZJLYQ14VwamwRPVBj/L8TQ0UHudsAK6IwOT6B2k7RroO+c9NGat9CcxM1lZsaHbMtBFdnR0pTL4bmaVaEL60+BVXbBw+MjVcsbCMTO8U8a54FWtFwa8JQMlGkoXLVF+9t9XKpVl2lDBM8E5GS/h4uqEFdBNGWijC8FuZfBvbaI0FU34K2+FyuCf7kKwS+bZcHF1wtrQDRloYz/82uBHDTRgVx9NQsk8Gy6uIWFeTgU0aQkPqWJxmwb6MFuYprpGRlbL/BjWqBNWgFkZGKOHhvcKgR+8rL7vr4p2o9rJBsP7ZX6MU1gbvC4DYzxTOmpN8FX4ySdM1Y+Xar/z4tDs7BpcXEPCyg/aokoneo3Zqg352qfzsd/3/RUK6BufOry5zM6u0bBwX9/oGgX0065SEt3v13LcximsDF2TgTbalC5rQ2/lONMZBJs14Dj/F6TPhotrWHhmo8BOD0oHpE9DcMEzwT45LnELA16VgS56DO2xv/OEstnscnssCS5uwcKLwSmsDV6Rgc2Gi/ufhOmJAjzdSmMNl/CSmi08Vt8LN9lYwyE8rw4khrdONjmehrMRmE8HEuMVizsU0G9t8BdfS38STuG5OhAbbxAPVvP8oE36k3AKpzUCEgV0JM7zBvGw9CexeOFCcDzOy/ulY9KfxKKFuwFPxXl8Lf1JONvbRu6xLawLwUnpT8LZ0DfyCsNicZ4HeEL6k3C/wgC1y8AkFnyPnS9tBu/LwCS4tQ1bIaBJvpb+JKLdSy41PpCBaaiBl1u6no9slONpKKBHtnDYEyugT3V7a5Ms7L0B89HrDguX+Yzsq97npTKgx5n+/jfrw3MScHxm/3UENs/KCqgnXyqt+we/sm1Yw9WSNQAAAABJRU5ErkJggg==</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

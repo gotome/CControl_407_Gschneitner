@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <_630_SET_EinstTrocknungsboxen01 ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].VirtualKey[%embVirtualKey_397].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiButtons.changeTrockengutBox2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].VirtualKey[%embVirtualKey_396].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiButtons.changeTrockengutBox1]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[Button_3].Property[TextIndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Boxen[1].Trockengut]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[HotSpot_4].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Box3]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[Bitmap_1].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Box3]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[String_1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Boxen[1].NameBox]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[Numeric_2].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Boxen[1].Grundflaeche]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[Line_6].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Box2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[Text_24].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Box2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[Text_21].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Box2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[Text_14].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Box2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[Line_7].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Box2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[Line_8].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Box2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[Line_9].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Box2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[Text_25].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Box2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[String_2].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Boxen[2].NameBox]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[String_2].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Box2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[Numeric_3].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Boxen[2].Grundflaeche]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[Numeric_3].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Box2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[Button_4].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Allgemein.Box2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_630_SET_EinstTrocknungsboxen01].Layer[Default].Control[Button_4].Property[TextIndexDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Boxen[2].Trockengut]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </_630_SET_EinstTrocknungsboxen01>
+</VCXReferenceList>

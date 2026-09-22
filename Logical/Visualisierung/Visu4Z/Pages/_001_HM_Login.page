@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="_001_HM_Login">
+  <Property Name="Description" Value="Anmeldung"/>
+  <Property Name="Height" Value="272"/>
+  <Property Name="Index" Value="1"/>
+  <Property Name="MoveFocus" Value="Circular"/>
+  <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
+  <Property Name="Width" Value="480"/>
+  <Layers>
+    <Layer Name="Background">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="272"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="480"/>
+      <Property Name="Z-Order" Value="0"/>
+      <TextGroup>
+        <TextLayer LanguageId="en">
+          <Text ID="283659" Value="with dehumidifier"/>
+        </TextLayer>
+        <TextLayer LanguageId="de">
+          <Text ID="283659" Value="mit Entfeuchter"/>
+        </TextLayer>
+        <TextLayer LanguageId="fr">
+          <Text ID="283659" Value="Avec déshumidificateur"/>
+        </TextLayer>
+        <TextLayer LanguageId="nl-BE">
+          <Text ID="283659" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="es">
+          <Text ID="283659" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="sl">
+          <Text ID="283659" Value="z razvlaževalnikom"/>
+        </TextLayer>
+        <IndexMap>
+          <Index ID="283659" Value="2"/>
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001005" Name="Bitmap_1">
+          <Property Name="Bitmap" Value="Source[local].Bitmap[PNG_Loginscreen]"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="272"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="0"/>
+          <Property Name="Width" Value="480"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="Bitmap_2">
+          <Property Name="BackColor" Value="8"/>
+          <Property Name="Bitmap" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="Border" Value="Source[local].Border[FrameOhneGelb]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="148"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="125"/>
+          <Property Name="Width" Value="220"/>
+        </Control>
+        <Control ClassId="0x0000100B" Name="String_1">
+          <Property Name="AlignmentHorizontal" Value="Left"/>
+          <Property Name="BackColor" Value="241"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial16pxBold]"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="339"/>
+          <Property Name="SimulationValue" Value="HT 15.2"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Entfeuchter]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="Top" Value="76"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.EntfeuchterType]"/>
+          <Property Name="Width" Value="141"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="AlignmentHorizontal" Value="Right"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial14px]"/>
+          <Property Name="ForeColor" Value="243"/>
+          <Property Name="Height" Value="25"/>
+          <Property Name="Left" Value="154"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Entfeuchter]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="2"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="76"/>
+          <Property Name="Width" Value="175"/>
+        </Control>
+      </Controls>
+      <KeyMapping/>
+    </Layer>
+    <Layer Name="Default">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="272"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="480"/>
+      <Property Name="Z-Order" Value="1"/>
+      <TextGroup>
+        <TextLayer LanguageId="en">
+          <Text ID="283661" Value="Password entry"/>
+        </TextLayer>
+        <TextLayer LanguageId="de">
+          <Text ID="283661" Value="Passworteingabe"/>
+        </TextLayer>
+        <TextLayer LanguageId="fr">
+          <Text ID="283661" Value="Entrer mot de passe"/>
+        </TextLayer>
+        <TextLayer LanguageId="nl-BE">
+          <Text ID="283661" Value="Paswoord ingave"/>
+        </TextLayer>
+        <TextLayer LanguageId="es">
+          <Text ID="283661" Value=""/>
+        </TextLayer>
+        <TextLayer LanguageId="sl">
+          <Text ID="283661" Value="Vnos gesla"/>
+        </TextLayer>
+        <IndexMap>
+          <Index ID="283661" Value="11"/>
+        </IndexMap>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001004" Name="Text_1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial16pxBold]"/>
+          <Property Name="ForeColor" Value="241"/>
+          <Property Name="Height" Value="29"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.NameSteuerung]"/>
+          <Property Name="Left" Value="156"/>
+          <Property Name="SimulationIndex" Value="1"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[TXT_NameSteuerung]"/>
+          <Property Name="TextIndexOffset" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="37"/>
+          <Property Name="Width" Value="324"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_10">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial8px]"/>
+          <Property Name="ForeColor" Value="47"/>
+          <Property Name="Height" Value="15"/>
+          <Property Name="Left" Value="438"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="V 9.9.9"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.SoftwareVersion]"/>
+          <Property Name="TextSource" Value="SingleString"/>
+          <Property Name="Top" Value="257"/>
+          <Property Name="Width" Value="42"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_1">
+          <Property Name="Border" Value="Source[local].Border[FrameGelb35Dklgr]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="ForeColor" Value="242"/>
+          <Property Name="Height" Value="75"/>
+          <Property Name="Left" Value="148"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="999999"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="171"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.hmiPasswort]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="220"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_2">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial11pxBold]"/>
+          <Property Name="ForeColor" Value="241"/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="Left" Value="148"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="11"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="125"/>
+          <Property Name="Width" Value="220"/>
+        </Control>
+        <Control ClassId="0x00001018" Name="Dropdown_1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="ButtonsBitmapGroup" Value="None"/>
+          <Property Name="ButtonsPressedBitmapGroup" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Arial10pxBold]"/>
+          <Property Name="Height" Value="35"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Allgemein.Sprache]"/>
+          <Property Name="Left" Value="319"/>
+          <Property Name="LeftBitmap" Value="None"/>
+          <Property Name="LeftTextGroup" Value="None"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxIndex" Value="3"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinIndex" Value="0"/>
+          <Property Name="OptionDatapoint" Value="None"/>
+          <Property Name="RightBitmap" Value="None"/>
+          <Property Name="RightTextGroup" Value="None"/>
+          <Property Name="SimulationValue" Value="1"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[DropDown]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[TXT_DropdownSprachen]"/>
+          <Property Name="TextIndexOffset" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="1"/>
+          <Property Name="Width" Value="160"/>
+        </Control>
+      </Controls>
+      <KeyMapping/>
+    </Layer>
+  </Layers>
+  <MovementOrder>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_1]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Dropdown_1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Dropdown_1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Dropdown_1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Dropdown_1]"/>
+    </MovementEntry>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Dropdown_1]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+    </MovementEntry>
+  </MovementOrder>
+  <TabSequence>
+    <TabSeqItem Index="0" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
+    <TabSeqItem Index="1" Value="Source[embedded].Layer[Default].Control[Dropdown_1]"/>
+    <TabSeqItem Index="2" Value="Source[embedded].Layer[Background].Control[String_1]"/>
+  </TabSequence>
+</Page>

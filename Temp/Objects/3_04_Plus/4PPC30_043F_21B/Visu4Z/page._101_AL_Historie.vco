@@ -1,0 +1,745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Layers">
+    <Folder Name="_101_AL_HistorieDefault" TargetIndex="Source[local].Page[_101_AL_Historie].Layer[Default]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ">
+          <Object Name="Alarm_2" ClsId="0x1009" Version="1" Type="CTRL" RefString="Source[local].Page[_101_AL_Historie].Layer[Default].Control[Alarm_2]">
+            <UInt32 Name="Left">11</UInt32>
+            <UInt32 Name="Top">39</UInt32>
+            <UInt32 Name="Right">334</UInt32>
+            <UInt32 Name="Bottom">209</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001009].StyleClass[AlarmCurrentEdit]</Reference>
+            <UInt16 Name="StyleTableSize">239</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="Border">
+              <UInt16 Name="Offset">0</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="BackColor">
+              <UInt16 Name="Offset">12</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">242</UInt32>
+            </Group>
+            <Group Name="Source">
+              <UInt16 Name="Offset">20</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="SortColumn">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="SortOrder">
+              <UInt16 Name="Offset">22</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="InputCancel">
+              <UInt16 Name="Offset">27</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="InputNext">
+              <UInt16 Name="Offset">30</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial8pxBold]</Reference>
+            </Group>
+            <Group Name="InputTouchpad">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="OVL">Source[local].TouchPad[NavigationPad_ver]</Reference>
+            </Group>
+            <Group Name="ControlDatapoint">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.hmiStatus.hmiAlarmFilter]</Reference>
+            </Group>
+            <Group Name="GroupDatapoint">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="DP">Source[global].Variable[DataSource.hmiStatus.hmiSelectAlarmGroup]</Reference>
+            </Group>
+            <Group Name="Cursor_LeftBitmap">
+              <UInt16 Name="Offset">72</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="Cursor_RightBitmap">
+              <UInt16 Name="Offset">80</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="Cursor_LeftTextGroup">
+              <UInt16 Name="Offset">96</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="Cursor_RightTextGroup">
+              <UInt16 Name="Offset">100</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="DateTime_Position">
+              <UInt16 Name="Offset">120</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="DateTime_Alignment">
+              <UInt16 Name="Offset">121</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="DateTime_Width">
+              <UInt16 Name="Offset">122</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">108</UInt16>
+            </Group>
+            <Group Name="DateTime_FormatStringBaseIndex">
+              <UInt16 Name="Offset">126</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">0</UInt16>
+            </Group>
+            <Group Name="DateTime_SeparatorTextGroup">
+              <UInt16 Name="Offset">128</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="DateTime_FormatStringTextGroup">
+              <UInt16 Name="Offset">132</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[global].TextGroup[DateTimeFormats]</Reference>
+            </Group>
+            <Group Name="GroupNumber_Position">
+              <UInt16 Name="Offset">136</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="AlarmNumber_Position">
+              <UInt16 Name="Offset">148</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="AlarmNumber_Alignment">
+              <UInt16 Name="Offset">149</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="AlarmNumber_Width">
+              <UInt16 Name="Offset">150</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">24</UInt16>
+            </Group>
+            <Group Name="AlarmNumber_MinDigits">
+              <UInt16 Name="Offset">152</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">3</UInt16>
+            </Group>
+            <Group Name="AlarmNumber_SeparatorTextGroup">
+              <UInt16 Name="Offset">156</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="Priority_Position">
+              <UInt16 Name="Offset">160</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="AlarmText_Position">
+              <UInt16 Name="Offset">172</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="AlarmText_Alignment">
+              <UInt16 Name="Offset">173</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">0</Byte>
+            </Group>
+            <Group Name="AlarmText_Width">
+              <UInt16 Name="Offset">174</UInt16>
+              <UInt16 Name="Size">2</UInt16>
+              <UInt16 Name="Data">400</UInt16>
+            </Group>
+            <Group Name="AlarmText_SeparatorTextGroup">
+              <UInt16 Name="Offset">180</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="AlarmState_Position">
+              <UInt16 Name="Offset">184</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="AcknowledgeState_Position">
+              <UInt16 Name="Offset">208</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="BypassState_Position">
+              <UInt16 Name="Offset">232</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="Event_Position">
+              <UInt16 Name="Offset">256</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">255</Byte>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Line_2" ClsId="0x100D" Version="1" Type="CTRL" RefString="Source[local].Page[_101_AL_Historie].Layer[Default].Control[Line_2]">
+            <UInt32 Name="StartX">18</UInt32>
+            <UInt32 Name="StartY">30</UInt32>
+            <UInt32 Name="EndX">325</UInt32>
+            <UInt32 Name="EndY">30</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100D].StyleClass[Line]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Dropdown_1" ClsId="0x1018" Version="1" Type="CTRL" RefString="Source[local].Page[_101_AL_Historie].Layer[Default].Control[Dropdown_1]">
+            <UInt32 Name="Left">162</UInt32>
+            <UInt32 Name="Top">210</UInt32>
+            <UInt32 Name="Right">332</UInt32>
+            <UInt32 Name="Bottom">259</UInt32>
+            <UInt32 Name="MinValue">4294967295</UInt32>
+            <UInt32 Name="MaxValue">4294967295</UInt32>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <Int32 Name="TextIndexOffset">0</Int32>
+            <Reference Name="TextGroup" Type="TG">Source[local].TextGroup[TXT_AlarmeGruppe]</Reference>
+            <UInt32 Name="TextDatapoint">4294967295</UInt32>
+            <UInt32 Name="OptionDatapoint">4294967295</UInt32>
+            <Reference Name="IndexDatapoint" Type="DP">Source[global].Variable[DataSource.hmiStatus.hmiSelectAlarmGroup]</Reference>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001018].StyleClass[DropDown]</Reference>
+            <UInt16 Name="StyleTableSize">65</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="LeftBitmap">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="RightBitmap">
+              <UInt16 Name="Offset">52</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="LeftTextGroup">
+              <UInt16 Name="Offset">56</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="RightTextGroup">
+              <UInt16 Name="Offset">60</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">84</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10pxBold]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">95</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">3</Byte>
+            </Group>
+            <Group Name="ButtonsBitmapGroup">
+              <UInt16 Name="Offset">128</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="ButtonsPressedBitmapGroup">
+              <UInt16 Name="Offset">152</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">4294967295</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_22" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[_101_AL_Historie].Layer[Default].Control[Text_22]">
+            <UInt32 Name="Left">19</UInt32>
+            <UInt32 Name="Top">210</UInt32>
+            <UInt32 Name="Right">153</UInt32>
+            <UInt32 Name="Bottom">259</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">41</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial11pxBold]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">3</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[_101_AL_Historie].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_15" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[_101_AL_Historie].Layer[Default].Control[Text_15]">
+            <UInt32 Name="Left">9</UInt32>
+            <UInt32 Name="Top">8</UInt32>
+            <UInt32 Name="Right">335</UInt32>
+            <UInt32 Name="Bottom">29</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">46</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial12pxBold]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">5</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[_101_AL_Historie].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Line_4" ClsId="0x100D" Version="1" Type="CTRL" RefString="Source[local].Page[_101_AL_Historie].Layer[Default].Control[Line_4]">
+            <UInt32 Name="StartX">18</UInt32>
+            <UInt32 Name="StartY">205</UInt32>
+            <UInt32 Name="EndX">325</UInt32>
+            <UInt32 Name="EndY">205</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100D].StyleClass[Line]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_1" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[_101_AL_Historie].Layer[Default].Control[HotSpot_1]">
+            <UInt32 Name="Left">341</UInt32>
+            <UInt32 Name="Top">8</UInt32>
+            <UInt32 Name="Right">400</UInt32>
+            <UInt32 Name="Bottom">67</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_44]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[HotSpot]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="VKeys">
+        <Folder Name="Common" TargetIndex="4294967294">
+          <Object Name="%embVirtualKey_44" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_44]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <UInt32 Name="ActionID">352</UInt32>
+              <UInt32 Name="ActionDataSize">8</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Reference Name="Page" Type="PAGE">Source[local].Page[_100_AL_Aktuelle]</Reference>
+              <UInt16 Name="Target">2</UInt16>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="Default" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[_101_AL_Historie].Layer[Default]">
+          <Reference Name="StatusDP" Type="DP">None</Reference>
+          <UInt32 Name="CtrlCount">7</UInt32>
+          <Reference Name="Alarm_2" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Alarm_2]</Reference>
+          <Reference Name="Line_2" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Line_2]</Reference>
+          <Reference Name="Dropdown_1" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Dropdown_1]</Reference>
+          <Reference Name="Text_22" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Text_22]</Reference>
+          <Reference Name="Text_15" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Text_15]</Reference>
+          <Reference Name="Line_4" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Line_4]</Reference>
+          <Reference Name="HotSpot_1" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[HotSpot_1]</Reference>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="TextGroupBase">
+    <Folder Name="P_101_AL_Historie.LDefault" TargetIndex="Source[local].Page[_101_AL_Historie].Layer[Default].TextGroup[Embedded]">
+      <Object Name="Embedded" ClsId="0x304" Version="1" Type="TG" RefString="Source[local].Page[_101_AL_Historie].Layer[Default].TextGroup[Embedded]">
+        <UInt32 Name="NumberOfTags">0</UInt32>
+        <UInt32 Name="NumberOfTexts">2</UInt32>
+        <Table Name="TextMap" Cols="2">
+          <TableHeader>
+            <Column Name="UserIndex" />
+            <Column Name="TextIndex" />
+          </TableHeader>
+          <TableRow>
+            <UInt32 Name="UserIndex">3</UInt32>
+            <UInt32 Name="TextIndex">283960</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">5</UInt32>
+            <UInt32 Name="TextIndex">283961</UInt32>
+          </TableRow>
+        </Table>
+      </Object>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[_101_AL_Historie].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[_101_AL_Historie].Layer[Default].TextGroup[Embedded].Language[en]">
+            <UInt32 Name="NumberOfTexts">2</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">283960</UInt32>
+                <UInt32 Name="TextOffset">28</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">283961</UInt32>
+                <UInt32 Name="TextOffset">52</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">"Alarm group"</String>
+              <String Name="Text" Encoding="Unicode">"Alarm log"</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="de" TargetIndex="1">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[_101_AL_Historie].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[_101_AL_Historie].Layer[Default].TextGroup[Embedded].Language[de]">
+            <UInt32 Name="NumberOfTexts">2</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">283960</UInt32>
+                <UInt32 Name="TextOffset">28</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">283961</UInt32>
+                <UInt32 Name="TextOffset">52</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">"Alarmgruppe"</String>
+              <String Name="Text" Encoding="Unicode">"Alarmhistorie"</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="fr" TargetIndex="2">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[_101_AL_Historie].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[_101_AL_Historie].Layer[Default].TextGroup[Embedded].Language[fr]">
+            <UInt32 Name="NumberOfTexts">2</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">283960</UInt32>
+                <UInt32 Name="TextOffset">28</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">283961</UInt32>
+                <UInt32 Name="TextOffset">56</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">"Groupe alarme"</String>
+              <String Name="Text" Encoding="Unicode">"Journal d'alarme"</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="nl-BE" TargetIndex="10">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[_101_AL_Historie].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[_101_AL_Historie].Layer[Default].TextGroup[Embedded].Language[nl-BE]">
+            <UInt32 Name="NumberOfTexts">2</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">283960</UInt32>
+                <UInt32 Name="TextOffset">28</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">283961</UInt32>
+                <UInt32 Name="TextOffset">50</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">"Alarmgroep"</String>
+              <String Name="Text" Encoding="Unicode">"Alarmgeschiedenis"</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="es" TargetIndex="12">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[_101_AL_Historie].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[_101_AL_Historie].Layer[Default].TextGroup[Embedded].Language[es]">
+            <UInt32 Name="NumberOfTexts">2</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">283960</UInt32>
+                <UInt32 Name="TextOffset">28</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">283961</UInt32>
+                <UInt32 Name="TextOffset">30</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="sl" TargetIndex="3">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[_101_AL_Historie].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[_101_AL_Historie].Layer[Default].TextGroup[Embedded].Language[sl]">
+            <UInt32 Name="NumberOfTexts">2</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">283960</UInt32>
+                <UInt32 Name="TextOffset">28</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">283961</UInt32>
+                <UInt32 Name="TextOffset">60</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">"Skupina alarmov"</String>
+              <String Name="Text" Encoding="Unicode">"Zgodovina alarmov"</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Forms">
+    <Folder Name="POBJ">
+      <Object Name="_101_AL_Historie" ClsId="0x400" Version="1" TargetIndex="101" Type="PAGE" RefString="Source[local].Page[_101_AL_Historie]">
+        <UInt32 Name="FormLanguage">0</UInt32>
+        <Reference Name="StartControl" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Alarm_2]</Reference>
+        <UInt32 Name="LayerCount">3</UInt32>
+        <UInt32 Name="MoveFocus">1</UInt32>
+        <Group Name="Styleable Properties">
+          <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00000400].StyleClass[default]</Reference>
+          <UInt16 Name="StyleTableSize">4</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="End Marker">
+            <UInt16 Name="Offset">65535</UInt16>
+            <UInt16 Name="Size">0</UInt16>
+          </Group>
+        </Group>
+        <Reference Name="FormLayer0" Type="LAY">Source[local].Layer[NavigationAlarme]</Reference>
+        <Reference Name="FormLayer1" Type="LAY">Source[local].Layer[HintergrundAuf]</Reference>
+        <Reference Name="FormLayer2" Type="LAY">Source[local].Page[_101_AL_Historie].Layer[Default]</Reference>
+        <Group Name="MovementOrder">
+          <UInt32 Name="Count">2</UInt32>
+          <Group Name="Source[local].Page[_101_AL_Historie].Layer[Default].Control[Alarm_2]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Alarm_2]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Dropdown_1]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Dropdown_1]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Dropdown_1]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Dropdown_1]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Dropdown_1]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Dropdown_1]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[_101_AL_Historie].Layer[Default].Control[Dropdown_1]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Dropdown_1]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Alarm_2]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Alarm_2]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Alarm_2]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Alarm_2]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Alarm_2]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[_101_AL_Historie].Layer[Default].Control[Alarm_2]</Reference>
+          </Group>
+        </Group>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

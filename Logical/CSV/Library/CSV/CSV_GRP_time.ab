@@ -1,0 +1,51 @@
+;====================================================================
+;              Eingangswerte Stunde, Minute, Sekunde in einen String für 
+;              Grübl-Reporting (GRP) Format: "hh:mm:ss" umwandeln
+;
+;   !!  Achtung: mindestens String[8] od. USINT[0..8] am Ausgang anhängen !!
+;
+;       (Auffüllung Stunde < 10, Minute < 10, Sekunde < 10 mit vorangestellten "0")
+;        zB.: "05:35:09"
+;
+; 	Author:		Ing. Schmid Herwig
+;	Version:	1.0
+;	Datum:		25.02.2011
+;	geprüft:	25.02.2011 OK
+;
+;====================================================================
+; Aufruf: CSV_GRP_time(Eing_Stunde, Eing_Minute, Eing_Sekunde, adr(Ausg_time), sizeof(Ausg_time), Ausg_Fehler) 
+;
+; EA:    		Eing_Stunde  	  E.. Byte    Stundenwert  0..23
+;              	Eing_Minute	  	  E.. Byte    Minutenwert  0..59
+;              	Eing_Sekunde      E.. UINT    Sekundenwert 0..59
+;              	adr(Ausg_time)	  E.. UDINT   Ausgangsvariable - Adresse String[>=8] od. USINT[>=0..8]
+;               sizeof(Ausg_time) E.. UDINT   Ausgangsvariable - Länge String[>=8] od. USINT[>=0..8]
+;               Ausg_Fehler       A.. BOOL    (= 1 wenn Ausgangsvariable zu klein definiert) 
+;====================================================================
+
+FUNCTION_BLOCK CSV_GRP_time
+
+  memset(adr(M_TIME), 0, sizeof(M_TIME))
+
+  if Ausg_time_len >= sizeof(M_TIME) then
+    
+     CSV_itoa(Eing_Stunde , 2, 0, 0, 0, adr(Str_Stunde) , sizeof(Str_Stunde),  M_Fehler)
+     CSV_itoa(Eing_Minute , 2, 0, 0, 0, adr(Str_Minute) , sizeof(Str_Minute),  M_Fehler)
+     CSV_itoa(Eing_Sekunde, 2, 0, 0, 0, adr(Str_Sekunde), sizeof(Str_Sekunde), M_Fehler)           
+
+     strcpy(adr(M_TIME), adr(Str_Stunde))
+     strcat(adr(M_TIME), ":")
+     strcat(adr(M_TIME), adr(Str_Minute))
+     strcat(adr(M_TIME), ":")
+     strcat(adr(M_TIME), adr(Str_Sekunde))
+
+     memcpy(Ausg_time_adr, adr(M_TIME), Ausg_time_len)
+  
+  else 
+
+    memcpy(Ausg_time_adr, adr(M_TIME), sizeof(M_TIME))
+  	Ausg_Fehler = 1
+	
+  endif
+  
+END_FUNCTION_BLOCK

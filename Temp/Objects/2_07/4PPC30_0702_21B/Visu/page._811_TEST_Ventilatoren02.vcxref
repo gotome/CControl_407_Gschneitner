@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <_811_TEST_Ventilatoren02 ReferenceString="Source[local].Page[_811_TEST_Ventilatoren02]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_811_TEST_Ventilatoren02].Layer[Default].VirtualKey[%embVirtualKey_201].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalOut.doAbluftventilatorEin]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_811_TEST_Ventilatoren02].Layer[Default].Control[Text_4].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalIn.diAbluftventInBetrieb]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_811_TEST_Ventilatoren02].Layer[Default].Control[Numeric_1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.AnalogOut.aoDrehzahlvorgAbluftventilator]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </_811_TEST_Ventilatoren02>
+</VCXReferenceList>

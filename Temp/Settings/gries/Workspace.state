@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
+  <TextEdit ID="C:\SharedFolder\CControl_Gschneitner\Logical\IO\io407\Main.st" CaretLine="243" CaretColumn="3" FirstVisibleLine="237">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\SharedFolder\CControl_Gschneitner\Logical\IO\aktorenMapping\Main.st" CaretLine="640" CaretColumn="38" FirstVisibleLine="627">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\SharedFolder\CControl_Gschneitner\Logical\Visualisierung\hmiMain\Main.st" CaretLine="1053" CaretColumn="54" FirstVisibleLine="1036">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\SharedFolder\CControl_Gschneitner\Logical\Regelung\Leistung\Leistung.st" CaretLine="374" CaretColumn="9" FirstVisibleLine="360">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\SharedFolder\CControl_Gschneitner\Logical\Libraries\LascoBoxen\fbBoxenHeizreg.st" CaretLine="93" CaretColumn="28" FirstVisibleLine="76">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\SharedFolder\CControl_Gschneitner\Logical\Util\Nutzung\Nutzung.st" CaretLine="194" CaretColumn="20" FirstVisibleLine="180">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\SharedFolder\CControl_Gschneitner\Logical\Libraries\LascoBoxen\fbBoxenVentKlappen.st" CaretLine="109" CaretColumn="21" FirstVisibleLine="92">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\SharedFolder\CControl_Gschneitner\Logical\Libraries\LascoBoxen\fbBoxenKlappenanst.st" CaretLine="81" CaretColumn="31" FirstVisibleLine="65">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\SharedFolder\CControl_Gschneitner\Logical\Ablaufsteuerung\Ablaufstrg\actionStillstand.st" CaretLine="82" CaretColumn="61" FirstVisibleLine="68">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\SharedFolder\CControl_Gschneitner\Logical\Ablaufsteuerung\Ablaufstrg\actionBetrieb.st" CaretLine="164" CaretColumn="98" FirstVisibleLine="146">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\SharedFolder\CControl_Gschneitner\Logical\Ablaufsteuerung\Ablaufstrg\actionUpdateStatus.st" CaretLine="25" CaretColumn="28" FirstVisibleLine="19">
+    <Bookmarks />
+  </TextEdit>
+</State>

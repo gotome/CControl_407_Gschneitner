@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.12.9.18 FileVersion="4.9"?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="PC" Type="PC_any" Version="1.1.1.0" OrderNumber="PC">
+    <Connector Name="IF3">
+      <Group ID="Vnc1" />
+      <Parameter ID="VncVcObjectName1" Value="Visu" />
+      <Parameter ID="VncKeyMappingFile1" Value="VC\PS2-Keyboard2.dis" />
+      <Parameter ID="VncRefreshRate1" Value="100" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="LaTronicCcontrolPlus407_Test" />
+    <Parameter ID="RemanentGlobalPvSize" Value="5000" />
+    <Parameter ID="Cyclic1Duration" Value="20000" />
+    <Parameter ID="Cyclic2Duration" Value="50000" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="CF" />
+    <Parameter ID="FileDevicePath1" Value="C:\Users\rlachner\Documents\mappParameter" />
+    <Group ID="FtpUser1" />
+    <Parameter ID="FtpUsername1" Value="lasco" />
+    <Parameter ID="FtpUserPassword1" Value="XXwjkhGq37/etuSmmp0wfzbic2StEj7ZqLjdnjOpFzU=" />
+    <Parameter ID="FtpUserSalt1" Value="ZwaEHSD6" />
+    <Parameter ID="FTPAccessRight1" Value="0" />
+    <Parameter ID="FTPdevice1" Value="ALL" />
+  </Module>
+</Hardware>

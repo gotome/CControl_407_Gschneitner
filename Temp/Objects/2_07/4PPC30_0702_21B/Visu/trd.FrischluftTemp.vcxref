@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <FrischluftTemp ReferenceString="Source[local].TrendData[FrischluftTemp]">
+      <Connection>
+         <Property ReferenceString="Source[local].TrendData[FrischluftTemp].Property[TrendValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.Trendkurven.FrischluftTemp]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </FrischluftTemp>
+</VCXReferenceList>

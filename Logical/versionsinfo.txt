@@ -1,0 +1,228 @@
+##########################################################
+LaTronic CControl 3.07, 4.07 & 4.07 Plus Versionshistorie
+##########################################################
+
+--------------------------------------------------------------------------------------------
+Version 0.0.0	     	Initialversion			2022.05.19					RL
+--------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------
+Version 0.0.1	     	new/change/fix			2022.06.01					RL
+--------------------------------------------------------------------------------------------
+
+Neu:
+****
+- Optionen für Verhalten der Ventilatoren bei Klappenumschaltungen hinzugefügt (Beide oder nur zuständigen Ventilator
+bei Umschaltungen Boxenklappen, Umluftklappen und Bypassklappe).
+- Option "Abluftklappe im Frischluftbetrieb immer offen" hinzugefügt (Abluftklappe öffnet im Frischluftbetrieb unabhängig von der 
+eingestellten Abluftfeuchte, wenn Klappe auf Automatik gestellt).
+- Option "Alle Boxenklappen im Stillstand schließen" hinzugefügt.
+- Trockengut "Mais" und "Getreide" hinzugefügt.
+- VNC-Viewer bei allen Konfigurationen hinzugefügt.
+- "Notbetrieb" für alle Boxen und Ventilatoren hinzugefügt (für Auskühlphase Warmluftofen). Boxenklappen und Ventilatoren bleiben aktiv,
+bis Auskühlphase abgeschlossen ist.
+- Funktion zum Kopieren der XML-Parametersätze auf einen USB-Stick hinzugefügt.
+- Zusatztexte hinzugefügt, wenn Trocknungsgeräte wegen Tarifabschaltung aus sind (Vorlaufzeit Tarifabschaltung).
+- Zoom für Trendkurven hinzugefügt.
+- Hopfen und Kräuter bei Trockengütern hinzugefügt.
+- Automatisches Laden der Werksparameter bei neuen Displays hinzugefügt.
+- Französische Sprache hinzugefügt.
+- Energiemessmodul in allen Hardwarekonfigurationen hinzugefügt.
+- Trockengut "Holz" hinzugefügt (Visualisierung/Visu, hmiMain).
+- Modulüberwachungen für alle Hardwarekonfigurationen hinzugefügt (IO/io307, io407, io407Plus).
+
+Änderungen:
+***********
+- Wenn Strombegrenzung der Ventilatoren aktiv ist (Zeitfenster oder digitaler Eingang), geht der Luftentfeuchter bei Überschreiten 
+des max. Hochdrucks in den Standby-Betrieb (wie bei Klappenumschaltungen).
+- Warnung "Entfeuchter Hochdruck max." wird nur generiert, wenn keine Strombegrenzung oder Klappenumschaltung aktiv ist.
+- Nur Option "Abluftklappe" ODER "Abluftventilator" erlauben, beide Optionen sind nicht möglich.
+- Beim Abschalten der Ventilatoren die Freigabe erst wegschalten, wenn Min-Drehzahl erreicht wurde.
+- Buttons und Slider für Ausstattung und Konfiguration Aktoren Boxen sperren, wenn Benutzerebene < LASCO.
+- Beim Wechsel von Betrieb auf AUS einer Box -> Arrays Zeitfenster Intervallbetrieb und Nachtrockung auf 0 setzen.
+- Entfeuchter, Warmluftofen und Heizregister erst freigeben, wenn zuständiger Ventilator in Betrieb ist.
+- Boxen können auch gestartet werden, wenn Summenfehler aktiv (Sperren Visu entfernt, Wechsel in Betriebsart "BETRIEB" trotz Summenfehler).
+- Signal "cmdAnlage.FehlerStopp" entfernt (Trocknung kann trotz Fehler gestartet werden bzw. wird nicht mehr automatisch gestoppt).
+- Ansteuerung Bypassklappe geändert (actionBetrieb).
+- Skalierung Drehzahlvorgabe Kompressor Modul 1 und 2: Min auf "0" gesetzt. (IO/io307, io407Plus).
+- Drehzahlvorgaben von FU Kompressor angepasst (Libaries/LascoEntfV2/fbEntfKompressor).
+- Doppelmodul nur bei bei den Typen 7, 8, 9 und 10 (10 ist Reserve) (IO/aktorenMapping).
+- Fehlermeldungen Entfeuchter Temperatur Eintritt Min/Max nur ausgeben, wenn Entfeuchter angefordert. (Alarmsystem/Alarm).
+- Drehzahlvorgabe Heizregister auf Min. setzen, wenn Heizregister nicht freigegeben (Regelung/Leistung).
+- Ventilatoren: Wenn eingestellte Drehzahl bei Klappenumschaltungen auf MIN (30%) -> Ventilator ausschalten (Libaries/LascoBoxen/fbBoxenVentKlappen).
+- Automatikbetrieb von Abluftklappe auch im Stillstand aktivieren (Ablaufsteuerung/actionStillstand).
+- Parameter "Hochdruck Max." und "Verzögerung Standy, wenn Hochdruck Max." bereits ab Benutzerebene "LASCO" einstellbar (Visualisierung/Visu).
+
+
+Fehlerbehebungen:
+*****************
+- Indexe für Fehler, Systemmeldungen und Warnungen angepasst (für Filter bei historischen Alarmen).
+- Fehler Laufzeitüberwachungen Boxenklappen nur generieren, wenn Klappe verwendet wird.
+- Min/Max Werte bei Eingabefeldern Detailansicht Klappen hinzugefügt.
+- Struktur "hmiAktuell" remanent deklariert, da ansonsten die Betriebsart der Box nach Stromausfall geändert wird.
+- Taste "Datenaufzeichnung auf USB kopieren" zurücksetzen, wenn Kopiervorgang fertig.
+- Diverse CSV-Variablen in Datencontainer aktualisiert.
+- 4.07Plus: Signalart Luftgeschwindigkeitssensor auf 0-10V geändert.
+- Restlaufzeit Ölsumpfheizung in hmiParameter speichern (war Betriebsparameter).
+- 4.07 Plus: DO Freigabe Ventilator 2 von Ausgang 2 auf 1 geändert.
+- Doppelbelegung von Funktionsbausteinen entfernt (Alarmsystem/Alarm).
+- Zusatztext "Auskühlzeit Scheitholzofen" Fehlerbehebung (Visualisierung/hmiConnect).
+- Zusatztext "Warten bis Entfeuchter im Stillstand" auch anzeigen, wenn Boxen pausiert werden (Visualisierung/hmiConnect).
+- Status Umluftklappen "Aktiv" nur generieren, wenn Klappe in Ausstattung vorhanden (IO/aktorenMapping).
+- Digitale Eingänge "diOeldruckKompressorModul2" und "diKopftemperaturKompressorModul2" ausgetauscht (IO/io407Plus).
+- Eingang "BetriebsmeldungVent" von Kompressor Modul 2 korrigiert (IO/aktorenMapping).
+- "StoerungOut" von Funktionsbaustein "fbEntfKompressor" nicht automatisch rücksetzen, muss manuell quittiert werden (Libaries/LaEntfV2/fbEntfKompressor).
+- Digialen Eingang "BetriebsmldgKompressorMod1" im IO-Test korrigiert (IO/io407Plus).
+- 3.07: Je nach Ausstattung Analogeingänge und Statuseingänge als Dachluft- oder Frischluftsensor skalieren (IO/io307).
+
+
+--------------------------------------------------------------------------------------------
+Version 1.0.0	     	Erstversion Auslieferung		2022.06.22					RL
+--------------------------------------------------------------------------------------------
+
+
+
+--------------------------------------------------------------------------------------------
+Version 1.1.0	     	new/fix/change					2022.09.22					RL
+--------------------------------------------------------------------------------------------
+
+Neu:
+****
+- Slowenische Sprache hinzugefügt (Visualisierung).
+- Laden und Erstellen eines Parametersatzes sperren, wenn Filename "307Werk", "407Werk" oder "407PlusWerk" ist (Visualisierung/Visu).
+
+Änderungen:
+***********
+- Die letzten 100 Ereignisse in der Alarmhistorie werden remanent aufgezeichnet (Visualisierung/Visu).
+
+Fehlerbehebungen:
+*****************
+- Temperatur Austritt Entfeuchter: Falsch angehängten Wert in Visu korrigiert (Visualisierung/hmiMain).
+
+TODO:
+*****
+- Verzögerungszeit Umschaltung Klappen, bis Endlage erreicht wurde?
+
+
+--------------------------------------------------------------------------------------------
+Version 1.1.1	     	fix								2022.09.22					RL
+--------------------------------------------------------------------------------------------
+
+Fehlerbehebungen:
+*****************
+- Bei Anlagen mit Bypassklappe: Freigabe Entfeuchter war von Betrieb des zuständigen Ventilators abhängig. Dadurch war die Freigabe des Kompressors immer nur solange 
+vorhanden, bis die Bypassklappe umgeschaltet wurde (ständiges hin- und herschalten der Klappen). Geändert, dass die Kompressor-Freigabe erhalten bleibt, wenn die Ventilatoren
+kurzzeitig zum Umschalten der Klappen ausgeschaltet werden (Ablaufsteuerung/Ablaufstrg/actionBetrieb).
+
+
+--------------------------------------------------------------------------------------------
+Version 1.1.2	     	new								2023.05.03					RL
+--------------------------------------------------------------------------------------------
+
+Neu:
+****
+- Sensor Kanaldruck für Konfiguration 3.07 hinzugefügt (IO/io307).
+
+
+--------------------------------------------------------------------------------------------
+Version 1.2.0	     	new/change						2023.05.26					RL
+--------------------------------------------------------------------------------------------
+
+Neu:
+****
+- Neue Visualisierung für CControl 3.04 hinzugefügt (PPC30 4 Zoll).
+- Hardwarekonfiguration & IO-mapping für CControl 3.04 hinzugefügt.
+- Ausgänge öffnen/schliessen für Klappenansteuerungen (Umluftklappen, Bypassklappe, Abluftklappe, ...) hinzugefügt.
+- Inselbetrieb für Luftentfeuchter hinzugefügt.
+
+Änderungen:
+***********
+- Statuseingang "rel. Feuchte MAX" bei allen Feuchte/Temperaturfühlern für Fehlergenerierung entfernt (führt ansonsten zu Fehler, wenn rel. Feuchte tatsächlich bei 100% ist) (Alarmsystem/Alarm)
+
+
+--------------------------------------------------------------------------------------------
+Version 2.0.0	     	new/change						2024.07.04					RL
+--------------------------------------------------------------------------------------------
+
+Neu:
+****
+- Konfiguration für HB4000 & HB3000 hinzugefügt.
+- Betriebsmodus "Dauerbetrieb" in "Automatik" umbenannt. Bei Anlagen ohne Luftaufbereitung (Kaltbelüftungen) wechselt die Box
+bei schlechter Witterung in einen Puls/Pausebetrieb (wie bei HB3000/HB4000). Die Bestimmung der Witterungsverhältnisse kann für jede
+Box seperat eingestellt werden.
+- Entfeuchter Fremdgerät hinzugefügt (Ansteuerung von Frigopol/Baier Luftentfeuchtern).
+- Option für Stellung Umluftklappen im Stillstand (Frischluft oder Umluft), wenn Umluftklappen im Automatikbetrieb sind.
+- Option "Endlagen" für alle Klappenantriebe (ausgenommen Abluftklappe) hinzugefügt. Wird die Option ausgeschaltet (keine Endlagen vorhanden), wird über die 
+eingestellte Laufzeit der Klappe die Fahrt simuliert (Ventilator bleibt für die Laufzeit ausgeschaltet/reduziert).
+
+
+Änderungen: 
+***********
+- Im Stillstand Umluftklappen & Abluftklappe nicht automatisch umschalten (Ablaufsteuerung, Ablaufstrg/actionBetrieb).
+- Default-Gateway als DEV1-Port verwenden (war fix auf 10.0.0.1 eingestellt) (Sitemanager/Sitemanager).
+- Parameter "Einschaltverzögerung Entfeuchter" von 30 auf 120 Sekunden im Standardparametersatz aller Entfeuchtersteuerungen geändert (lt. Werner).
+
+
+TODO:
+*****
+- Übersetzungen ergänzen (Aktuell nur Deutsch und Englisch verfügbar)
+- Visu 3.04
+- Standardparameter restliche Steuerungen
+
+
+--------------------------------------------------------------------------------------------
+Version 2.1.0	     	new/change						2024.12.02					RL
+--------------------------------------------------------------------------------------------
+
+Neu:
+****
+- Option Stellung Umluftklappen im Stillstand: Stellung kann für Klappe 1 und 2 separat eingestellt werden.
+- Konfiguration für CControl 2.07 hinzugefügt.
+
+Änderungen: 
+***********
+- Schlechtwetterbetrieb: Anstatt der Boxenlaufzeit (in Stunden) wird die aktuelle Stufe durch die Trockengutfeuchte (%) bestimmt (manuelle Eingabe durch Bediener).
+
+--------------------------------------------------------------------------------------------
+Version 2.1.1	     	new/change						2025.05.07					RIG
+--------------------------------------------------------------------------------------------
+
+Änderungen: 
+***********
+- Bugfix - Bei der Karte X20CM8281f war die Modulueberwachung aktiviert. Dies fuehrte dazu das die Steuerung nicht hochgefahren ist und beim Booten im Servicemodus haengen blieb.
+
+--------------------------------------------------------------------------------------------
+Version 2.1.2	     	new/change						2025.05.15					RIG
+--------------------------------------------------------------------------------------------
+
+Änderungen: 
+***********
+- Bugfix - Fehler Betriebsmeldung "Entfeuchter Fremdgerät" wurde gesetzt obwohl Fremdgeraet nicht aktiviert war 
+
+--------------------------------------------------------------------------------------------
+Version 2.1.3	     	new/change						2025.06.12					RIG
+--------------------------------------------------------------------------------------------
+
+Neu:
+****
+- Parametersaetze fuer 3.04 und 3.07 erstellt. Wurden aus 4.07 kopiert!
+- Registerflache <Property ID="[2]" DataType="REAL" Value="3.3" /> von 3.8 auf 3.3 geaendert. Laut Werner war das schon immer falsch. 
+
+Änderungen: 
+***********
+- Bugfix - Klappenansteuerung Anzugsverzoegerung fuer oeffnen und schliessen der Klappen eingebaut. Dient dazu das andere Relaise abfallen zu lassen bevor das andere geschaltet wird. Verhindert Doppelansteuerung.
+
+--------------------------------------------------------------------------------------------
+Version 2.1.4	     	new/change						2025.01.29					RIG
+--------------------------------------------------------------------------------------------
+
+Neu:
+****
+- Frostschutz Heizregister. Bei sehr kalten Temperaturen schaltet ein Thermostat einen Eingang. Ist dieser aktiv wird die 
+  Kuehlmittelzirkulation aktiviert. Das Heizregister wird so gegen Frostschaeden geschuetzt. 
+
+Änderungen:
+***********
+- Statuseingang Temperaturwaechter hinzugefuegt. Bei aktivem Eingang ist die Frostschutzlogik aktiv. 
+- Die Funktion ist nicht ueber die Visu aktivier/deaktivierbar, ist also immer aktiv wenn der Eingang aktiv ist 
+- Adminkennwort geaendert

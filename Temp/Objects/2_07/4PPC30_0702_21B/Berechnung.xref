@@ -1,0 +1,1097 @@
+<?xml version="1.0"?>
+<Crossref Scope="Berechnung.Berechnung" AppMod="">
+	<Vars>
+		<Var Name="Boxen.Box1In.WetterIstSchlecht" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="76" C="38" PS="Ln:76, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box1Out.BoxBereit" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="76" C="73" PS="Ln:76, Col:73" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box2In.WetterIstSchlecht" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="76" C="102" PS="Ln:76, Col:102" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box2Out.BoxBereit" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="76" C="137" PS="Ln:76, Col:137" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box3In.WetterIstSchlecht" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="77" C="3" PS="Ln:77, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box3Out.BoxBereit" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="77" C="38" PS="Ln:77, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box4In.WetterIstSchlecht" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="77" C="67" PS="Ln:77, Col:67" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box4Out.BoxBereit" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="77" C="102" PS="Ln:77, Col:102" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box5In.WetterIstSchlecht" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="78" C="3" PS="Ln:78, Col:3" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box5Out.BoxBereit" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="78" C="38" PS="Ln:78, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box6In.WetterIstSchlecht" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="78" C="67" PS="Ln:78, Col:67" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Boxen.Box6Out.BoxBereit" Scope="Global" Type="fbBoxenKonfig">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="78" C="102" PS="Ln:78, Col:102" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.SensorFrischluft" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="15" C="37" PS="Ln:15, Col:37" A="R"/>
+				<Pos L="86" C="48" PS="Ln:86, Col:48" A="R"/>
+				<Pos L="114" C="48" PS="Ln:114, Col:48" A="R"/>
+				<Pos L="142" C="48" PS="Ln:142, Col:48" A="R"/>
+				<Pos L="170" C="48" PS="Ln:170, Col:48" A="R"/>
+				<Pos L="198" C="48" PS="Ln:198, Col:48" A="R"/>
+				<Pos L="226" C="48" PS="Ln:226, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Allgemein.StandortHoehe" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="18" C="42" PS="Ln:18, Col:42" A="R"/>
+				<Pos L="29" C="43" PS="Ln:29, Col:43" A="R"/>
+				<Pos L="40" C="40" PS="Ln:40, Col:40" A="R"/>
+				<Pos L="51" C="38" PS="Ln:51, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.SensorTrockenluft" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="26" C="38" PS="Ln:26, Col:38" A="R"/>
+				<Pos L="88" C="49" PS="Ln:88, Col:49" A="R"/>
+				<Pos L="116" C="49" PS="Ln:116, Col:49" A="R"/>
+				<Pos L="144" C="49" PS="Ln:144, Col:49" A="R"/>
+				<Pos L="172" C="49" PS="Ln:172, Col:49" A="R"/>
+				<Pos L="200" C="49" PS="Ln:200, Col:49" A="R"/>
+				<Pos L="228" C="49" PS="Ln:228, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.SensorDachluft" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="37" C="35" PS="Ln:37, Col:35" A="R"/>
+				<Pos L="87" C="47" PS="Ln:87, Col:47" A="R"/>
+				<Pos L="115" C="47" PS="Ln:115, Col:47" A="R"/>
+				<Pos L="143" C="47" PS="Ln:143, Col:47" A="R"/>
+				<Pos L="171" C="47" PS="Ln:171, Col:47" A="R"/>
+				<Pos L="199" C="47" PS="Ln:199, Col:47" A="R"/>
+				<Pos L="227" C="47" PS="Ln:227, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.SensorAbluft" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="48" C="33" PS="Ln:48, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.SensorKanaldruck" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="59" C="74" PS="Ln:59, Col:74" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.SchlechtwetterBoxen.AuswahlSensorGrenzwert" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="82" C="44" PS="Ln:82, Col:44" A="R"/>
+				<Pos L="110" C="44" PS="Ln:110, Col:44" A="R"/>
+				<Pos L="138" C="44" PS="Ln:138, Col:44" A="R"/>
+				<Pos L="166" C="44" PS="Ln:166, Col:44" A="R"/>
+				<Pos L="194" C="44" PS="Ln:194, Col:44" A="R"/>
+				<Pos L="222" C="44" PS="Ln:222, Col:44" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Schrittkette.VerzWetterwechsel" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="89" C="47" PS="Ln:89, Col:47" A="R"/>
+				<Pos L="117" C="47" PS="Ln:117, Col:47" A="R"/>
+				<Pos L="145" C="47" PS="Ln:145, Col:47" A="R"/>
+				<Pos L="173" C="47" PS="Ln:173, Col:47" A="R"/>
+				<Pos L="201" C="47" PS="Ln:201, Col:47" A="R"/>
+				<Pos L="229" C="47" PS="Ln:229, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.SchlechtwetterBoxen.Stufe.MaterialfeuchteStufe" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="91" C="51" PS="Ln:91, Col:51" A="R"/>
+				<Pos L="92" C="51" PS="Ln:92, Col:51" A="R"/>
+				<Pos L="93" C="51" PS="Ln:93, Col:51" A="R"/>
+				<Pos L="94" C="51" PS="Ln:94, Col:51" A="R"/>
+				<Pos L="95" C="51" PS="Ln:95, Col:51" A="R"/>
+				<Pos L="96" C="51" PS="Ln:96, Col:51" A="R"/>
+				<Pos L="119" C="51" PS="Ln:119, Col:51" A="R"/>
+				<Pos L="120" C="51" PS="Ln:120, Col:51" A="R"/>
+				<Pos L="121" C="51" PS="Ln:121, Col:51" A="R"/>
+				<Pos L="122" C="51" PS="Ln:122, Col:51" A="R"/>
+				<Pos L="123" C="51" PS="Ln:123, Col:51" A="R"/>
+				<Pos L="124" C="51" PS="Ln:124, Col:51" A="R"/>
+				<Pos L="147" C="51" PS="Ln:147, Col:51" A="R"/>
+				<Pos L="148" C="51" PS="Ln:148, Col:51" A="R"/>
+				<Pos L="149" C="51" PS="Ln:149, Col:51" A="R"/>
+				<Pos L="150" C="51" PS="Ln:150, Col:51" A="R"/>
+				<Pos L="151" C="51" PS="Ln:151, Col:51" A="R"/>
+				<Pos L="152" C="51" PS="Ln:152, Col:51" A="R"/>
+				<Pos L="175" C="51" PS="Ln:175, Col:51" A="R"/>
+				<Pos L="176" C="51" PS="Ln:176, Col:51" A="R"/>
+				<Pos L="177" C="51" PS="Ln:177, Col:51" A="R"/>
+				<Pos L="178" C="51" PS="Ln:178, Col:51" A="R"/>
+				<Pos L="179" C="51" PS="Ln:179, Col:51" A="R"/>
+				<Pos L="180" C="51" PS="Ln:180, Col:51" A="R"/>
+				<Pos L="203" C="51" PS="Ln:203, Col:51" A="R"/>
+				<Pos L="204" C="51" PS="Ln:204, Col:51" A="R"/>
+				<Pos L="205" C="51" PS="Ln:205, Col:51" A="R"/>
+				<Pos L="206" C="51" PS="Ln:206, Col:51" A="R"/>
+				<Pos L="207" C="51" PS="Ln:207, Col:51" A="R"/>
+				<Pos L="208" C="51" PS="Ln:208, Col:51" A="R"/>
+				<Pos L="231" C="51" PS="Ln:231, Col:51" A="R"/>
+				<Pos L="232" C="51" PS="Ln:232, Col:51" A="R"/>
+				<Pos L="233" C="51" PS="Ln:233, Col:51" A="R"/>
+				<Pos L="234" C="51" PS="Ln:234, Col:51" A="R"/>
+				<Pos L="235" C="51" PS="Ln:235, Col:51" A="R"/>
+				<Pos L="236" C="51" PS="Ln:236, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.SchlechtwetterBoxen.Stufe.Saettigungsdefizit" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="98" C="50" PS="Ln:98, Col:50" A="R"/>
+				<Pos L="126" C="50" PS="Ln:126, Col:50" A="R"/>
+				<Pos L="154" C="50" PS="Ln:154, Col:50" A="R"/>
+				<Pos L="182" C="50" PS="Ln:182, Col:50" A="R"/>
+				<Pos L="210" C="50" PS="Ln:210, Col:50" A="R"/>
+				<Pos L="238" C="50" PS="Ln:238, Col:50" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.SchlechtwetterBoxen.HystereseGrenzwert" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="99" C="48" PS="Ln:99, Col:48" A="R"/>
+				<Pos L="127" C="48" PS="Ln:127, Col:48" A="R"/>
+				<Pos L="155" C="48" PS="Ln:155, Col:48" A="R"/>
+				<Pos L="183" C="48" PS="Ln:183, Col:48" A="R"/>
+				<Pos L="211" C="48" PS="Ln:211, Col:48" A="R"/>
+				<Pos L="239" C="48" PS="Ln:239, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.SchlechtwetterBoxen.MaterialfeuchteIst" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="100" C="48" PS="Ln:100, Col:48" A="R"/>
+				<Pos L="128" C="48" PS="Ln:128, Col:48" A="R"/>
+				<Pos L="156" C="48" PS="Ln:156, Col:48" A="R"/>
+				<Pos L="184" C="48" PS="Ln:184, Col:48" A="R"/>
+				<Pos L="212" C="48" PS="Ln:212, Col:48" A="R"/>
+				<Pos L="240" C="48" PS="Ln:240, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.SchlechtwetterBoxen.Stufe.SchlechtwetterZeitPause" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="103" C="2" PS="Ln:103, Col:2" A="R"/>
+				<Pos L="131" C="2" PS="Ln:131, Col:2" A="R"/>
+				<Pos L="159" C="2" PS="Ln:159, Col:2" A="R"/>
+				<Pos L="187" C="2" PS="Ln:187, Col:2" A="R"/>
+				<Pos L="215" C="2" PS="Ln:215, Col:2" A="R"/>
+				<Pos L="243" C="2" PS="Ln:243, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.SchlechtwetterBoxen.Stufe.SchlechtwetterZeitLauf" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="105" C="2" PS="Ln:105, Col:2" A="R"/>
+				<Pos L="133" C="2" PS="Ln:133, Col:2" A="R"/>
+				<Pos L="161" C="2" PS="Ln:161, Col:2" A="R"/>
+				<Pos L="189" C="2" PS="Ln:189, Col:2" A="R"/>
+				<Pos L="217" C="2" PS="Ln:217, Col:2" A="R"/>
+				<Pos L="245" C="2" PS="Ln:245, Col:2" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.Berechnungen.FrischluftSattDefizit" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="21" C="2" PS="Ln:21, Col:2" A="W"/>
+				<Pos L="83" C="55" PS="Ln:83, Col:55" A="R"/>
+				<Pos L="111" C="55" PS="Ln:111, Col:55" A="R"/>
+				<Pos L="139" C="55" PS="Ln:139, Col:55" A="R"/>
+				<Pos L="167" C="55" PS="Ln:167, Col:55" A="R"/>
+				<Pos L="195" C="55" PS="Ln:195, Col:55" A="R"/>
+				<Pos L="223" C="55" PS="Ln:223, Col:55" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.Berechnungen.TrockenluftSattDefizit" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="32" C="2" PS="Ln:32, Col:2" A="W"/>
+				<Pos L="85" C="56" PS="Ln:85, Col:56" A="R"/>
+				<Pos L="113" C="56" PS="Ln:113, Col:56" A="R"/>
+				<Pos L="141" C="56" PS="Ln:141, Col:56" A="R"/>
+				<Pos L="169" C="56" PS="Ln:169, Col:56" A="R"/>
+				<Pos L="197" C="56" PS="Ln:197, Col:56" A="R"/>
+				<Pos L="225" C="56" PS="Ln:225, Col:56" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.Berechnungen.DachluftSattDefizit" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="43" C="2" PS="Ln:43, Col:2" A="W"/>
+				<Pos L="84" C="54" PS="Ln:84, Col:54" A="R"/>
+				<Pos L="112" C="54" PS="Ln:112, Col:54" A="R"/>
+				<Pos L="140" C="54" PS="Ln:140, Col:54" A="R"/>
+				<Pos L="168" C="54" PS="Ln:168, Col:54" A="R"/>
+				<Pos L="196" C="54" PS="Ln:196, Col:54" A="R"/>
+				<Pos L="224" C="54" PS="Ln:224, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.Berechnungen.AbluftSattDefizit" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="54" C="2" PS="Ln:54, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.Berechnungen.Kanaldruck_mmWs" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="64" C="3" PS="Ln:64, Col:3" A="W"/>
+				<Pos L="66" C="3" PS="Ln:66, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.WetterIstSchlecht" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="76" C="2" PS="Ln:76, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="doVentilator1Ein" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="59" C="32" PS="Ln:59, Col:32" A="R"/>
+				<Pos L="63" C="5" PS="Ln:63, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="doVentilator2Ein" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="59" C="52" PS="Ln:59, Col:52" A="R"/>
+				<Pos L="63" C="25" PS="Ln:63, Col:25" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiFrischluftTemperatur" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="16" C="42" PS="Ln:16, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiFrischluftFeuchte" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="17" C="42" PS="Ln:17, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiTrockenluftTemperatur" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="27" C="42" PS="Ln:27, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiTrockenluftFeuchte" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="28" C="42" PS="Ln:28, Col:42" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiAbluftTemperatur" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="49" C="38" PS="Ln:49, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiAbluftFeuchte" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="50" C="38" PS="Ln:50, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiDachluftTemperatur" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="38" C="39" PS="Ln:38, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiDachluftFeuchte" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="39" C="39" PS="Ln:39, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="aiDifferenzdruck" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="60" C="37" PS="Ln:60, Col:37" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox1.Freigabe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="81" C="2" PS="Ln:81, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox1.AuswahlSensor" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="82" C="2" PS="Ln:82, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox1.FrischluftSaettigungsdefizit" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="83" C="2" PS="Ln:83, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox1.DachluftSaettigungsdefizit" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="84" C="2" PS="Ln:84, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox1.TrockenluftSaettigungsdefizit" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="85" C="2" PS="Ln:85, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox1.SensorFrischluftVhd" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="86" C="2" PS="Ln:86, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox1.SensorDachluftVhd" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="87" C="2" PS="Ln:87, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox1.SensorTrockenluftVhd" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="88" C="2" PS="Ln:88, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox1.VerzWetterwechsel" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="89" C="2" PS="Ln:89, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox1.MaterialfeuchteStufe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="91" C="2" PS="Ln:91, Col:2" A="W"/>
+				<Pos L="92" C="2" PS="Ln:92, Col:2" A="W"/>
+				<Pos L="93" C="2" PS="Ln:93, Col:2" A="W"/>
+				<Pos L="94" C="2" PS="Ln:94, Col:2" A="W"/>
+				<Pos L="95" C="2" PS="Ln:95, Col:2" A="W"/>
+				<Pos L="96" C="2" PS="Ln:96, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox1.GrenzwertStufeAktuell" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="98" C="2" PS="Ln:98, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox1.StufeAktuell" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="98" C="97" PS="Ln:98, Col:97" A="R"/>
+				<Pos L="102" C="52" PS="Ln:102, Col:52" A="R"/>
+				<Pos L="103" C="49" PS="Ln:103, Col:49" A="R"/>
+				<Pos L="104" C="51" PS="Ln:104, Col:51" A="R"/>
+				<Pos L="105" C="49" PS="Ln:105, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox1.HystereseGrenzwert" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="99" C="2" PS="Ln:99, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox1.MaterialfeuchteIst" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="100" C="2" PS="Ln:100, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox1.SchlechtwetterPausezeitStufe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="102" C="2" PS="Ln:102, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox1.SchlechtwetterPulszeitStufe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="104" C="2" PS="Ln:104, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox2.Freigabe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="109" C="2" PS="Ln:109, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox2.AuswahlSensor" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="110" C="2" PS="Ln:110, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox2.FrischluftSaettigungsdefizit" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="111" C="2" PS="Ln:111, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox2.DachluftSaettigungsdefizit" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="112" C="2" PS="Ln:112, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox2.TrockenluftSaettigungsdefizit" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="113" C="2" PS="Ln:113, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox2.SensorFrischluftVhd" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="114" C="2" PS="Ln:114, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox2.SensorDachluftVhd" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="115" C="2" PS="Ln:115, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox2.SensorTrockenluftVhd" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="116" C="2" PS="Ln:116, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox2.VerzWetterwechsel" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="117" C="2" PS="Ln:117, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox2.MaterialfeuchteStufe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="119" C="2" PS="Ln:119, Col:2" A="W"/>
+				<Pos L="120" C="2" PS="Ln:120, Col:2" A="W"/>
+				<Pos L="121" C="2" PS="Ln:121, Col:2" A="W"/>
+				<Pos L="122" C="2" PS="Ln:122, Col:2" A="W"/>
+				<Pos L="123" C="2" PS="Ln:123, Col:2" A="W"/>
+				<Pos L="124" C="2" PS="Ln:124, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox2.GrenzwertStufeAktuell" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="126" C="2" PS="Ln:126, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox2.StufeAktuell" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="126" C="97" PS="Ln:126, Col:97" A="R"/>
+				<Pos L="130" C="52" PS="Ln:130, Col:52" A="R"/>
+				<Pos L="131" C="49" PS="Ln:131, Col:49" A="R"/>
+				<Pos L="132" C="51" PS="Ln:132, Col:51" A="R"/>
+				<Pos L="133" C="49" PS="Ln:133, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox2.HystereseGrenzwert" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="127" C="2" PS="Ln:127, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox2.MaterialfeuchteIst" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="128" C="2" PS="Ln:128, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox2.SchlechtwetterPausezeitStufe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="130" C="2" PS="Ln:130, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox2.SchlechtwetterPulszeitStufe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="132" C="2" PS="Ln:132, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox3.Freigabe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="137" C="2" PS="Ln:137, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox3.AuswahlSensor" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="138" C="2" PS="Ln:138, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox3.FrischluftSaettigungsdefizit" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="139" C="2" PS="Ln:139, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox3.DachluftSaettigungsdefizit" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="140" C="2" PS="Ln:140, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox3.TrockenluftSaettigungsdefizit" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="141" C="2" PS="Ln:141, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox3.SensorFrischluftVhd" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="142" C="2" PS="Ln:142, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox3.SensorDachluftVhd" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="143" C="2" PS="Ln:143, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox3.SensorTrockenluftVhd" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="144" C="2" PS="Ln:144, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox3.VerzWetterwechsel" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="145" C="2" PS="Ln:145, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox3.MaterialfeuchteStufe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="147" C="2" PS="Ln:147, Col:2" A="W"/>
+				<Pos L="148" C="2" PS="Ln:148, Col:2" A="W"/>
+				<Pos L="149" C="2" PS="Ln:149, Col:2" A="W"/>
+				<Pos L="150" C="2" PS="Ln:150, Col:2" A="W"/>
+				<Pos L="151" C="2" PS="Ln:151, Col:2" A="W"/>
+				<Pos L="152" C="2" PS="Ln:152, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox3.GrenzwertStufeAktuell" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="154" C="2" PS="Ln:154, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox3.StufeAktuell" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="154" C="97" PS="Ln:154, Col:97" A="R"/>
+				<Pos L="158" C="52" PS="Ln:158, Col:52" A="R"/>
+				<Pos L="159" C="49" PS="Ln:159, Col:49" A="R"/>
+				<Pos L="160" C="51" PS="Ln:160, Col:51" A="R"/>
+				<Pos L="161" C="49" PS="Ln:161, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox3.HystereseGrenzwert" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="155" C="2" PS="Ln:155, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox3.MaterialfeuchteIst" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="156" C="2" PS="Ln:156, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox3.SchlechtwetterPausezeitStufe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="158" C="2" PS="Ln:158, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox3.SchlechtwetterPulszeitStufe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="160" C="2" PS="Ln:160, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox4.Freigabe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="165" C="2" PS="Ln:165, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox4.AuswahlSensor" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="166" C="2" PS="Ln:166, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox4.FrischluftSaettigungsdefizit" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="167" C="2" PS="Ln:167, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox4.DachluftSaettigungsdefizit" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="168" C="2" PS="Ln:168, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox4.TrockenluftSaettigungsdefizit" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="169" C="2" PS="Ln:169, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox4.SensorFrischluftVhd" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="170" C="2" PS="Ln:170, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox4.SensorDachluftVhd" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="171" C="2" PS="Ln:171, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox4.SensorTrockenluftVhd" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="172" C="2" PS="Ln:172, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox4.VerzWetterwechsel" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="173" C="2" PS="Ln:173, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox4.MaterialfeuchteStufe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="175" C="2" PS="Ln:175, Col:2" A="W"/>
+				<Pos L="176" C="2" PS="Ln:176, Col:2" A="W"/>
+				<Pos L="177" C="2" PS="Ln:177, Col:2" A="W"/>
+				<Pos L="178" C="2" PS="Ln:178, Col:2" A="W"/>
+				<Pos L="179" C="2" PS="Ln:179, Col:2" A="W"/>
+				<Pos L="180" C="2" PS="Ln:180, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox4.GrenzwertStufeAktuell" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="182" C="2" PS="Ln:182, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox4.StufeAktuell" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="182" C="97" PS="Ln:182, Col:97" A="R"/>
+				<Pos L="186" C="52" PS="Ln:186, Col:52" A="R"/>
+				<Pos L="187" C="49" PS="Ln:187, Col:49" A="R"/>
+				<Pos L="188" C="51" PS="Ln:188, Col:51" A="R"/>
+				<Pos L="189" C="49" PS="Ln:189, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox4.HystereseGrenzwert" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="183" C="2" PS="Ln:183, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox4.MaterialfeuchteIst" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="184" C="2" PS="Ln:184, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox4.SchlechtwetterPausezeitStufe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="186" C="2" PS="Ln:186, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox4.SchlechtwetterPulszeitStufe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="188" C="2" PS="Ln:188, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox5.Freigabe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="193" C="2" PS="Ln:193, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox5.AuswahlSensor" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="194" C="2" PS="Ln:194, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox5.FrischluftSaettigungsdefizit" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="195" C="2" PS="Ln:195, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox5.DachluftSaettigungsdefizit" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="196" C="2" PS="Ln:196, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox5.TrockenluftSaettigungsdefizit" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="197" C="2" PS="Ln:197, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox5.SensorFrischluftVhd" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="198" C="2" PS="Ln:198, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox5.SensorDachluftVhd" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="199" C="2" PS="Ln:199, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox5.SensorTrockenluftVhd" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="200" C="2" PS="Ln:200, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox5.VerzWetterwechsel" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="201" C="2" PS="Ln:201, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox5.MaterialfeuchteStufe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="203" C="2" PS="Ln:203, Col:2" A="W"/>
+				<Pos L="204" C="2" PS="Ln:204, Col:2" A="W"/>
+				<Pos L="205" C="2" PS="Ln:205, Col:2" A="W"/>
+				<Pos L="206" C="2" PS="Ln:206, Col:2" A="W"/>
+				<Pos L="207" C="2" PS="Ln:207, Col:2" A="W"/>
+				<Pos L="208" C="2" PS="Ln:208, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox5.GrenzwertStufeAktuell" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="210" C="2" PS="Ln:210, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox5.StufeAktuell" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="210" C="97" PS="Ln:210, Col:97" A="R"/>
+				<Pos L="214" C="52" PS="Ln:214, Col:52" A="R"/>
+				<Pos L="215" C="49" PS="Ln:215, Col:49" A="R"/>
+				<Pos L="216" C="51" PS="Ln:216, Col:51" A="R"/>
+				<Pos L="217" C="49" PS="Ln:217, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox5.HystereseGrenzwert" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="211" C="2" PS="Ln:211, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox5.MaterialfeuchteIst" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="212" C="2" PS="Ln:212, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox5.SchlechtwetterPausezeitStufe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="214" C="2" PS="Ln:214, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox5.SchlechtwetterPulszeitStufe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="216" C="2" PS="Ln:216, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox6.Freigabe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="221" C="2" PS="Ln:221, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox6.AuswahlSensor" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="222" C="2" PS="Ln:222, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox6.FrischluftSaettigungsdefizit" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="223" C="2" PS="Ln:223, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox6.DachluftSaettigungsdefizit" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="224" C="2" PS="Ln:224, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox6.TrockenluftSaettigungsdefizit" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="225" C="2" PS="Ln:225, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox6.SensorFrischluftVhd" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="226" C="2" PS="Ln:226, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox6.SensorDachluftVhd" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="227" C="2" PS="Ln:227, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox6.SensorTrockenluftVhd" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="228" C="2" PS="Ln:228, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox6.VerzWetterwechsel" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="229" C="2" PS="Ln:229, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox6.MaterialfeuchteStufe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="231" C="2" PS="Ln:231, Col:2" A="W"/>
+				<Pos L="232" C="2" PS="Ln:232, Col:2" A="W"/>
+				<Pos L="233" C="2" PS="Ln:233, Col:2" A="W"/>
+				<Pos L="234" C="2" PS="Ln:234, Col:2" A="W"/>
+				<Pos L="235" C="2" PS="Ln:235, Col:2" A="W"/>
+				<Pos L="236" C="2" PS="Ln:236, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox6.GrenzwertStufeAktuell" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="238" C="2" PS="Ln:238, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox6.StufeAktuell" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="238" C="97" PS="Ln:238, Col:97" A="R"/>
+				<Pos L="242" C="52" PS="Ln:242, Col:52" A="R"/>
+				<Pos L="243" C="49" PS="Ln:243, Col:49" A="R"/>
+				<Pos L="244" C="51" PS="Ln:244, Col:51" A="R"/>
+				<Pos L="245" C="49" PS="Ln:245, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox6.HystereseGrenzwert" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="239" C="2" PS="Ln:239, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox6.MaterialfeuchteIst" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="240" C="2" PS="Ln:240, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox6.SchlechtwetterPausezeitStufe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="242" C="2" PS="Ln:242, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="fbSchlechtwetterBox6.SchlechtwetterPulszeitStufe" Scope="Global" Type="fbCControlWitterung">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="244" C="2" PS="Ln:244, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Frischluftsensor.Freigabe" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="15" C="2" PS="Ln:15, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Frischluftsensor.LuftTemperatur" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="16" C="2" PS="Ln:16, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Frischluftsensor.LuftRelFeuchte" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="17" C="2" PS="Ln:17, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Frischluftsensor.MeterUeberAdria" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="18" C="2" PS="Ln:18, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Frischluftsensor" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="19" C="2" PS="Ln:19, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Frischluftsensor.LuftSaettigungsdefizit" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="21" C="54" PS="Ln:21, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Dachluftsensor.Freigabe" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="37" C="2" PS="Ln:37, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Dachluftsensor.LuftTemperatur" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="38" C="2" PS="Ln:38, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Dachluftsensor.LuftRelFeuchte" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="39" C="2" PS="Ln:39, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Dachluftsensor.MeterUeberAdria" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="40" C="2" PS="Ln:40, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Dachluftsensor" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="41" C="2" PS="Ln:41, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Dachluftsensor.LuftSaettigungsdefizit" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="43" C="52" PS="Ln:43, Col:52" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Trockenluftsensor.Freigabe" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="26" C="2" PS="Ln:26, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Trockenluftsensor.LuftTemperatur" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="27" C="2" PS="Ln:27, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Trockenluftsensor.LuftRelFeuchte" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="28" C="2" PS="Ln:28, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Trockenluftsensor.MeterUeberAdria" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="29" C="2" PS="Ln:29, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Trockenluftsensor" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="30" C="2" PS="Ln:30, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Trockenluftsensor.LuftSaettigungsdefizit" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="32" C="55" PS="Ln:32, Col:55" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Abluftsensor.Freigabe" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="48" C="2" PS="Ln:48, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Abluftsensor.LuftTemperatur" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="49" C="2" PS="Ln:49, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Abluftsensor.LuftRelFeuchte" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="50" C="2" PS="Ln:50, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Abluftsensor.MeterUeberAdria" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="51" C="2" PS="Ln:51, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Abluftsensor" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="52" C="2" PS="Ln:52, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Abluftsensor.LuftSaettigungsdefizit" Scope="Global" Type="fbMathLuft">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="54" C="50" PS="Ln:54, Col:50" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Drucksensor.Freigabe" Scope="Global" Type="fbMathTrLftDruck">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="59" C="2" PS="Ln:59, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Drucksensor.TrockenluftDruck" Scope="Global" Type="fbMathTrLftDruck">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="60" C="2" PS="Ln:60, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Drucksensor" Scope="Global" Type="fbMathTrLftDruck">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="61" C="2" PS="Ln:61, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Drucksensor.LuftDruck_mmWS" Scope="Global" Type="fbMathTrLftDruck">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="64" C="49" PS="Ln:64, Col:49" A="R"/>
+			</File>
+		</Var>
+		<Var Name="alarmFehler" Scope="Global" Type="BOOL[0..49]">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="15" C="92" PS="Ln:15, Col:92" A="R"/>
+				<Pos L="26" C="94" PS="Ln:26, Col:94" A="R"/>
+				<Pos L="37" C="88" PS="Ln:37, Col:88" A="R"/>
+				<Pos L="48" C="84" PS="Ln:48, Col:84" A="R"/>
+				<Pos L="59" C="129" PS="Ln:59, Col:129" A="R"/>
+				<Pos L="86" C="103" PS="Ln:86, Col:103" A="R"/>
+				<Pos L="87" C="100" PS="Ln:87, Col:100" A="R"/>
+				<Pos L="88" C="105" PS="Ln:88, Col:105" A="R"/>
+				<Pos L="114" C="103" PS="Ln:114, Col:103" A="R"/>
+				<Pos L="115" C="100" PS="Ln:115, Col:100" A="R"/>
+				<Pos L="116" C="105" PS="Ln:116, Col:105" A="R"/>
+				<Pos L="142" C="103" PS="Ln:142, Col:103" A="R"/>
+				<Pos L="143" C="100" PS="Ln:143, Col:100" A="R"/>
+				<Pos L="144" C="105" PS="Ln:144, Col:105" A="R"/>
+				<Pos L="170" C="103" PS="Ln:170, Col:103" A="R"/>
+				<Pos L="171" C="100" PS="Ln:171, Col:100" A="R"/>
+				<Pos L="172" C="105" PS="Ln:172, Col:105" A="R"/>
+				<Pos L="198" C="103" PS="Ln:198, Col:103" A="R"/>
+				<Pos L="199" C="100" PS="Ln:199, Col:100" A="R"/>
+				<Pos L="200" C="105" PS="Ln:200, Col:105" A="R"/>
+				<Pos L="226" C="103" PS="Ln:226, Col:103" A="R"/>
+				<Pos L="227" C="100" PS="Ln:227, Col:100" A="R"/>
+				<Pos L="228" C="105" PS="Ln:228, Col:105" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+		<Enum Name="FEHLER_SENSOR_FRISCHLUFT" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="15" C="104" PS="Ln:15, Col:104" A="R"/>
+				<Pos L="86" C="115" PS="Ln:86, Col:115" A="R"/>
+				<Pos L="114" C="115" PS="Ln:114, Col:115" A="R"/>
+				<Pos L="142" C="115" PS="Ln:142, Col:115" A="R"/>
+				<Pos L="170" C="115" PS="Ln:170, Col:115" A="R"/>
+				<Pos L="198" C="115" PS="Ln:198, Col:115" A="R"/>
+				<Pos L="226" C="115" PS="Ln:226, Col:115" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FEHLER_SENSOR_DACHLUFT" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="37" C="100" PS="Ln:37, Col:100" A="R"/>
+				<Pos L="87" C="112" PS="Ln:87, Col:112" A="R"/>
+				<Pos L="115" C="112" PS="Ln:115, Col:112" A="R"/>
+				<Pos L="143" C="112" PS="Ln:143, Col:112" A="R"/>
+				<Pos L="171" C="112" PS="Ln:171, Col:112" A="R"/>
+				<Pos L="199" C="112" PS="Ln:199, Col:112" A="R"/>
+				<Pos L="227" C="112" PS="Ln:227, Col:112" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FEHLER_SENSOR_TROCKENLUFT" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="26" C="106" PS="Ln:26, Col:106" A="R"/>
+				<Pos L="88" C="117" PS="Ln:88, Col:117" A="R"/>
+				<Pos L="116" C="117" PS="Ln:116, Col:117" A="R"/>
+				<Pos L="144" C="117" PS="Ln:144, Col:117" A="R"/>
+				<Pos L="172" C="117" PS="Ln:172, Col:117" A="R"/>
+				<Pos L="200" C="117" PS="Ln:200, Col:117" A="R"/>
+				<Pos L="228" C="117" PS="Ln:228, Col:117" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FEHLER_SENSOR_ABLUFT" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="48" C="96" PS="Ln:48, Col:96" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="FEHLER_SENSOR_KANALDRUCK" Scope="Global" Type="enumFehler">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="59" C="141" PS="Ln:59, Col:141" A="R"/>
+			</File>
+		</Enum>
+	</Enums>
+	<Funcs>
+		<Func Name="fbMathLuft" Lib="LascoMath">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="19" C="2" PS="Ln:19, Col:2"/>
+				<Pos L="30" C="2" PS="Ln:30, Col:2"/>
+				<Pos L="41" C="2" PS="Ln:41, Col:2"/>
+				<Pos L="52" C="2" PS="Ln:52, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="fbMathTrLftDruck" Lib="LascoMath">
+			<File Name="C:\SharedFolder\CControl\Logical\Berechnung\Berechnung\Berechnung.st">
+				<Pos L="61" C="2" PS="Ln:61, Col:2"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

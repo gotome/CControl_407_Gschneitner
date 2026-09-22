@@ -1,0 +1,14 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=io304 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=0 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                               cmModul07                                modCM8281    0 "                                                               *"    0   24    1    0    1    1         
+                                    di01                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                                    di02                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                                    di03                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                                    di04                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                                    do01                                     BOOL    3 "                                                           FALSE"    1    1    1    2    0    0         
+                                    do02                                     BOOL    3 "                                                            TRUE"    1    1    1    2    0    0         
+                                    ai01                                      INT    1 "                                                           22427"    1    3    1   10    0    0         
+                                    ao01                                      INT    3 "                                                               0"    1    3    1   10    0    0         
+                           StatusInput01                                    USINT    1 "                                                               0"    1    5    1   10    0    0         
+                                 ModulOk                                     BOOL    1 "                                                            TRUE"    1    1    1    2    0    0         

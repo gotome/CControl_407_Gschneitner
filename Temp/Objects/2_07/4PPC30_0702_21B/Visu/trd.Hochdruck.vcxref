@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <Hochdruck ReferenceString="Source[local].TrendData[Hochdruck]">
+      <Connection>
+         <Property ReferenceString="Source[local].TrendData[Hochdruck].Property[TrendValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.Trendkurven.HochdruckMod1]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </Hochdruck>
+</VCXReferenceList>

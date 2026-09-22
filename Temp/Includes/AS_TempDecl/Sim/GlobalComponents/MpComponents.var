@@ -1,0 +1,3 @@
+VAR
+	gMappRecipeLink : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\SharedFolder\CControl\Physical\Sim\PC\mappServices\Config.mprecipexml" #2"1" #3"1"*)
+END_VAR

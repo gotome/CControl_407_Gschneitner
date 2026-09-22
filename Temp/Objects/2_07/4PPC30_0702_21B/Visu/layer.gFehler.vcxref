@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <gFehler ReferenceString="Source[local].Layer[gFehler]">
+      <Connection>
+         <Property ReferenceString="Source[local].Layer[gFehler].Property[StatusDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiVisibility.Layers.EbeneFehler]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </gFehler>
+</VCXReferenceList>

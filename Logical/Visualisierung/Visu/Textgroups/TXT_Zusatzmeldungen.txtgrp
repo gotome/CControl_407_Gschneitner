@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXT_Zusatzmeldungen">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="60"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="232531" Value="Error! - see alarm page - no start possible"/>
+    <Text ID="232532" Value="IO-test not completed - Start not possible"/>
+    <Text ID="243321" Value="Standstill"/>
+    <Text ID="243322" Value="Waiting for shutdown of dehumidifier…"/>
+    <Text ID="243323" Value="Waiting for emergency generator to be ready…"/>
+    <Text ID="243324" Value="Waiting for shutdown of hot-air generator"/>
+    <Text ID="243325" Value="Waiting for shutdown of split-log heater"/>
+    <Text ID="243326" Value="Startup delay fan 2"/>
+    <Text ID="243327" Value="Startup delay fan 1"/>
+    <Text ID="243328" Value="ESI-shutdown active"/>
+    <Text ID="243329" Value="Power limit active"/>
+    <Text ID="243330" Value="Changing flap positions…"/>
+    <Text ID="243331" Value="Fresh air mode"/>
+    <Text ID="243332" Value="Roof air mode"/>
+    <Text ID="243333" Value="Recirculation mode"/>
+    <Text ID="243334" Value="Waiting for request from box…"/>
+    <Text ID="267014" Value="Error! - see alarm page"/>
+    <Text ID="278136" Value="Fresh air mode - drying devices OFF (lead time ESI)"/>
+    <Text ID="278137" Value="Roof air mode - drying devices OFF (lead time ESI)"/>
+    <Text ID="278138" Value="Recirculation mode - drying devices OFF (lead time ESI)"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="232531" Value="Fehler Anlage! - siehe Alarmseite - kein Start möglich"/>
+    <Text ID="232532" Value="IO-Test nicht abgeschlossen - kein Start möglich"/>
+    <Text ID="243321" Value="Stillstand"/>
+    <Text ID="243322" Value="Warten bis Entfeuchter ausgeschaltet..."/>
+    <Text ID="243323" Value="Warten bis Notstromaggregat bereit..."/>
+    <Text ID="243324" Value="Warten bis Warmluftofen im Stillstand..."/>
+    <Text ID="243325" Value="Warten bis Scheitholzofen im Stillstand..."/>
+    <Text ID="243326" Value="Anlaufverzögerung Ventilator 2"/>
+    <Text ID="243327" Value="Anlaufverzögerung Ventilator 1"/>
+    <Text ID="243328" Value="Tarifabschaltung aktiv"/>
+    <Text ID="243329" Value="Strombegrenzung aktiv"/>
+    <Text ID="243330" Value="Klappen werden umgeschaltet..."/>
+    <Text ID="243331" Value="Frischluftbetrieb"/>
+    <Text ID="243332" Value="Dachabsaugungsbetrieb"/>
+    <Text ID="243333" Value="Umluftbetrieb"/>
+    <Text ID="243334" Value="Warten auf Anforderung Box..."/>
+    <Text ID="267014" Value="Fehler Anlage! siehe Alarmseite"/>
+    <Text ID="278136" Value="Frischluftbetrieb - Trocknungsgeräte AUS (Vorlaufzeit Tarifabschaltung)"/>
+    <Text ID="278137" Value="Dachabsaugungsbetrieb - Trocknungsgeräte AUS (Vorlaufzeit Tarifabschaltung)"/>
+    <Text ID="278138" Value="Umluftbetrieb - Trocknungsgeräte AUS (Vorlaufzeit Tarifabschaltung)"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="232531" Value="Défaut installation ! Voir page alarme"/>
+    <Text ID="232532" Value="Test IO pas terminé - pas de démarrage possible"/>
+    <Text ID="243321" Value="Au repos"/>
+    <Text ID="243322" Value="Attente arrêt déshumidificateur en cours…"/>
+    <Text ID="243323" Value="Attente mise en route groupe électrogène en cours…"/>
+    <Text ID="243324" Value="Attente arrêt GAC en cours…"/>
+    <Text ID="243325" Value="Attente arrêt GAC bois bûche en cours…"/>
+    <Text ID="243326" Value="Retard marche ventilateur 2"/>
+    <Text ID="243327" Value="Retard marche ventilateur 1"/>
+    <Text ID="243328" Value="Coupure tarif activée"/>
+    <Text ID="243329" Value="Limitation courant activée"/>
+    <Text ID="243330" Value="Clapets en cours de commutation…"/>
+    <Text ID="243331" Value="Marche air neuf"/>
+    <Text ID="243332" Value="Marche air toiture"/>
+    <Text ID="243333" Value="Marche air recyclé"/>
+    <Text ID="243334" Value="Attente de la demande d'un box... "/>
+    <Text ID="267014" Value="Installation en défaut ! Voir page alarme"/>
+    <Text ID="278136" Value="Marche air neuf - Appareils séchage OFF (Retard coupure tarif)"/>
+    <Text ID="278137" Value="Marche air toiture - Appareils séchage OFF (Retard coupure tarif)"/>
+    <Text ID="278138" Value="Marche air recyclé - Appareils séchage OFF (Retard coupure tarif)"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-BE">
+    <Text ID="232531" Value="Alarm ! Zie Alarm pagina"/>
+    <Text ID="232532" Value="IO-test niet compleet, kan niet starten"/>
+    <Text ID="243321" Value=""/>
+    <Text ID="243322" Value=""/>
+    <Text ID="243323" Value=""/>
+    <Text ID="243324" Value=""/>
+    <Text ID="243325" Value=""/>
+    <Text ID="243326" Value=""/>
+    <Text ID="243327" Value=""/>
+    <Text ID="243328" Value=""/>
+    <Text ID="243329" Value=""/>
+    <Text ID="243330" Value=""/>
+    <Text ID="243331" Value=""/>
+    <Text ID="243332" Value=""/>
+    <Text ID="243333" Value=""/>
+    <Text ID="243334" Value=""/>
+    <Text ID="267014" Value=""/>
+    <Text ID="278136" Value=""/>
+    <Text ID="278137" Value=""/>
+    <Text ID="278138" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="232531" Value=""/>
+    <Text ID="232532" Value=""/>
+    <Text ID="243321" Value=""/>
+    <Text ID="243322" Value=""/>
+    <Text ID="243323" Value=""/>
+    <Text ID="243324" Value=""/>
+    <Text ID="243325" Value=""/>
+    <Text ID="243326" Value=""/>
+    <Text ID="243327" Value=""/>
+    <Text ID="243328" Value=""/>
+    <Text ID="243329" Value=""/>
+    <Text ID="243330" Value=""/>
+    <Text ID="243331" Value=""/>
+    <Text ID="243332" Value=""/>
+    <Text ID="243333" Value=""/>
+    <Text ID="243334" Value=""/>
+    <Text ID="267014" Value=""/>
+    <Text ID="278136" Value=""/>
+    <Text ID="278137" Value=""/>
+    <Text ID="278138" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sl">
+    <Text ID="232531" Value="Napaka naprave! – Glejte stran z alarmi – zagon ni mogoč"/>
+    <Text ID="232532" Value="Preizkus iz./vh. ni končan – zagon ni mogoč"/>
+    <Text ID="243321" Value="Mirovanje"/>
+    <Text ID="243322" Value="Čakanje na izklop razvlaževalnika ..."/>
+    <Text ID="243323" Value="Čakanje na pripravljenost zasilnega generatorja ..."/>
+    <Text ID="243324" Value="Čakanje na mirovanje kotla na vroči zrak ..."/>
+    <Text ID="243325" Value="Čakanje na mirovanje kotla na polena ..."/>
+    <Text ID="243326" Value="Zakasnitev vklopa ventilatorja 2"/>
+    <Text ID="243327" Value="Zakasnitev vklopa ventilatorja 1"/>
+    <Text ID="243328" Value="Izklop el. tarife je aktiven"/>
+    <Text ID="243329" Value="Omejitev toka je aktivna"/>
+    <Text ID="243330" Value="Preklapljanje loput ..."/>
+    <Text ID="243331" Value="Delovanje s svežim zrakom"/>
+    <Text ID="243332" Value="Delovanje z zrakom s strehe"/>
+    <Text ID="243333" Value="Delovanje s cirkulacijskim zrakom"/>
+    <Text ID="243334" Value="Čakanje na zahtevo komore ..."/>
+    <Text ID="267014" Value="Napaka naprave! Glejte stran z alarmi"/>
+    <Text ID="278136" Value="Delovanje s svežim zrakom – enote za sušenje IZKLOP (čas priprave izklopa el. tarife)"/>
+    <Text ID="278137" Value="Delovanje z zrakom s strehe – enote za sušenje IZKLOP (čas priprave izklopa el. tarife)"/>
+    <Text ID="278138" Value="Delovanje s cirkulacijskim zrakom – enote za sušenje IZKLOP (čas priprave el. tarife)"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="232531" Value="16"/>
+    <Index ID="232532" Value="0"/>
+    <Index ID="243321" Value="2"/>
+    <Index ID="243322" Value="3"/>
+    <Index ID="243323" Value="4"/>
+    <Index ID="243324" Value="5"/>
+    <Index ID="243325" Value="6"/>
+    <Index ID="243326" Value="7"/>
+    <Index ID="243327" Value="8"/>
+    <Index ID="243328" Value="9"/>
+    <Index ID="243329" Value="10"/>
+    <Index ID="243330" Value="11"/>
+    <Index ID="243331" Value="12"/>
+    <Index ID="243332" Value="13"/>
+    <Index ID="243333" Value="14"/>
+    <Index ID="243334" Value="15"/>
+    <Index ID="267014" Value="1"/>
+    <Index ID="278136" Value="17"/>
+    <Index ID="278137" Value="18"/>
+    <Index ID="278138" Value="19"/>
+  </IndexMap>
+</TextGroup>

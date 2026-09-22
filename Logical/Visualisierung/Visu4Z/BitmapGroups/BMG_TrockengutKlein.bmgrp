@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="BMG_TrockengutKlein">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="26"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="533" Value="None"/>
+    <BitmapRef ID="534" Value="None"/>
+    <BitmapRef ID="535" Value="None"/>
+    <BitmapRef ID="536" Value="None"/>
+    <BitmapRef ID="566" Value="None"/>
+    <BitmapRef ID="567" Value="None"/>
+    <BitmapRef ID="568" Value="None"/>
+    <BitmapRef ID="569" Value="None"/>
+    <BitmapRef ID="595" Value="None"/>
+    <BitmapRef ID="596" Value="None"/>
+    <BitmapRef ID="597" Value="None"/>
+    <BitmapRef ID="598" Value="None"/>
+    <BitmapRef ID="648" Value="None"/>
+    <BitmapRef ID="649" Value="None"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="533" Value="9"/>
+    <Index ID="534" Value="8"/>
+    <Index ID="535" Value="10"/>
+    <Index ID="536" Value="11"/>
+    <Index ID="566" Value="14"/>
+    <Index ID="567" Value="12"/>
+    <Index ID="568" Value="13"/>
+    <Index ID="569" Value="15"/>
+    <Index ID="595" Value="16"/>
+    <Index ID="596" Value="17"/>
+    <Index ID="597" Value="18"/>
+    <Index ID="598" Value="19"/>
+    <Index ID="648" Value="20"/>
+    <Index ID="649" Value="21"/>
+  </IndexMap>
+</BitmapGroup>

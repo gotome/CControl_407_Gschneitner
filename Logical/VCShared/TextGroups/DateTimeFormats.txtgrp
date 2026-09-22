@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="DateTimeFormats">
+  <Property Name="Description" Value="Formats for Date and Time"/>
+  <Property Name="Index" Value="10"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="288864" Value="%m/%d/%Y %H:%M:%S"/>
+    <Text ID="288865" Value="%H:%M:%S"/>
+    <Text ID="288866" Value="%H:%M"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="288864" Value="%d.%m.%Y %H:%M:%S"/>
+    <Text ID="288865" Value="%H:%M:%S"/>
+    <Text ID="288866" Value="%H:%M"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="288864" Value="%d.%m.%Y %H:%M:%S"/>
+    <Text ID="288865" Value="%H:%M:%S"/>
+    <Text ID="288866" Value="%H:%M"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-BE">
+    <Text ID="288864" Value=""/>
+    <Text ID="288865" Value=""/>
+    <Text ID="288866" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="288864" Value=""/>
+    <Text ID="288865" Value=""/>
+    <Text ID="288866" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sl">
+    <Text ID="288864" Value="%d.%m.%L %H:%M:%S"/>
+    <Text ID="288865" Value="%H:%M:%S"/>
+    <Text ID="288866" Value="%H:%M"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="288864" Value="0"/>
+    <Index ID="288865" Value="1"/>
+    <Index ID="288866" Value="2"/>
+  </IndexMap>
+</TextGroup>

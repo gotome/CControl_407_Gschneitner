@@ -1,0 +1,49 @@
+(*==========================================================================================================================================================*)
+(*============================================ LOKALE VARIABLEN ============================================================================================*)
+VAR
+	sekTick : BOOL;
+END_VAR
+(*==========================================================================================================================================================*)
+(*============================================ MODULE ======================================================================================================*)
+VAR
+	brModul01 : modBR7300;
+	cmModul02 : modCM8281;
+	cmModul03 : modCM8281;
+	cmModul04 : modCM8281;
+	cmModul05 : modCM8281;
+	cmModul06 : modCM8281;
+	cmModul07 : modCM8281;
+	cmModul08 : modCM8281;
+	cmModul09 : modCM8281;
+	cmModul10 : modCM8281;
+	cmModul11 : modCM8281;
+END_VAR
+(*==========================================================================================================================================================*)
+(*============================================ FUNKTIONSBAUSTEINE =========================================================================================*)
+VAR
+	fbLascoZdxx_0 : fbLascoZdxx;
+	LCRMovAvgFlt_0 : LCRMovAvgFlt;
+	LCRMovAvgFlt_1 : LCRMovAvgFlt;
+	LCRMovAvgFlt_2 : LCRMovAvgFlt;
+	LCRMovAvgFlt_3 : LCRMovAvgFlt;
+	LCRMovAvgFlt_4 : LCRMovAvgFlt;
+	LCRMovAvgFlt_5 : LCRMovAvgFlt;
+	LCRMovAvgFlt_6 : LCRMovAvgFlt;
+	LCRMovAvgFlt_7 : LCRMovAvgFlt;
+	LCRMovAvgFlt_8 : LCRMovAvgFlt;
+	LCRMovAvgFlt_9 : LCRMovAvgFlt;
+	LCRLimScal_0 : LCRLimScal;
+	loc_Erforderl_Mod1 : BOOL;
+	loc_Erforderl_Mod2 : BOOL;
+	loc_Erforderl_Mod3 : BOOL;
+	loc_Erforderl_Mod4 : BOOL;
+	loc_Erforderl_Mod5 : BOOL;
+	loc_Erforderl_Mod6 : BOOL;
+	loc_Erforderl_Mod7 : BOOL;
+	loc_Erforderl_Mod8 : BOOL;
+	loc_Erforderl_Mod9 : BOOL;
+	loc_Erforderl_Mod10 : BOOL;
+	loc_Erforderl_Mod11 : BOOL;
+	loc_Erforderl_Mod12 : BOOL;
+	fbLascoFehl_0 : {REDUND_UNREPLICABLE} fbLascoFehl;
+END_VAR

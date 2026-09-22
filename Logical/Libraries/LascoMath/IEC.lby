@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.3.3.196?>
+<Library Version="1.00.0" Description="Funktionsblöcke für diverse Berechnungen" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exportierte Datentypen">LascoMath.typ</File>
+    <File Description="Exportierte Konstanten">LascoMath.var</File>
+    <File Description="Exportierte Funktionen und Funktionsblöcke">LascoMath.fun</File>
+    <File Description="Berechnungen aus Temperatur, Feuchtigkeit und Meereshöhe (Sättigungsdefizit, Luftdruck, Taupunkttemperatur, etc...)">fbMathLuft.st</File>
+    <File Description="Berechnungen des Trockengutes (spez. Gewicht, Wasserentzug, Gewicht Start, Gewicht Ende...)">fbMathTrGutGew.st</File>
+    <File Description="Berechnungen mit Luftmengenmessung">fbMathTrLftMenge.st</File>
+    <File Description="Berechnungen mit Drucksensor">fbMathTrLftDruck.st</File>
+    <File Description="Auswertung des aktuellen Wetters anhand Rezept und Sättigungsdefizit">fbMathWetter.st</File>
+    <File Description="Berechnungen für Messkanäle mit Messblende">fbMathMessblende.st</File>
+  </Files>
+</Library>

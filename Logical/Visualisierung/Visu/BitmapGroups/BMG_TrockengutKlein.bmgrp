@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="BMG_TrockengutKlein">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="12"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="533" Value="Source[local].Bitmap[PNG_HeuKleinGelb]"/>
+    <BitmapRef ID="534" Value="Source[local].Bitmap[PNG_HeuKleinGrau]"/>
+    <BitmapRef ID="535" Value="Source[local].Bitmap[PNG_RundballenKleinGrau]"/>
+    <BitmapRef ID="536" Value="Source[local].Bitmap[PNG_RundballenKleinGelb]"/>
+    <BitmapRef ID="566" Value="Source[local].Bitmap[PNG_WeizenKleinGrau]"/>
+    <BitmapRef ID="567" Value="Source[local].Bitmap[PNG_MaisKleinGrau]"/>
+    <BitmapRef ID="568" Value="Source[local].Bitmap[PNG_MaisKleinGelb]"/>
+    <BitmapRef ID="569" Value="Source[local].Bitmap[PNG_WeizenKleinGelb]"/>
+    <BitmapRef ID="595" Value="Source[local].Bitmap[PNG_HopfenKleinGrau]"/>
+    <BitmapRef ID="596" Value="Source[local].Bitmap[PNG_HopfenKleinGelb]"/>
+    <BitmapRef ID="597" Value="Source[local].Bitmap[PNG_KraeuterKleinGrau]"/>
+    <BitmapRef ID="598" Value="Source[local].Bitmap[PNG_KraeuterKleinGelb]"/>
+    <BitmapRef ID="648" Value="Source[local].Bitmap[PNG_HolzKleinGrau]"/>
+    <BitmapRef ID="649" Value="Source[local].Bitmap[PNG_HolzKleinGelb]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="533" Value="9"/>
+    <Index ID="534" Value="8"/>
+    <Index ID="535" Value="10"/>
+    <Index ID="536" Value="11"/>
+    <Index ID="566" Value="14"/>
+    <Index ID="567" Value="12"/>
+    <Index ID="568" Value="13"/>
+    <Index ID="569" Value="15"/>
+    <Index ID="595" Value="16"/>
+    <Index ID="596" Value="17"/>
+    <Index ID="597" Value="18"/>
+    <Index ID="598" Value="19"/>
+    <Index ID="648" Value="20"/>
+    <Index ID="649" Value="21"/>
+  </IndexMap>
+</BitmapGroup>

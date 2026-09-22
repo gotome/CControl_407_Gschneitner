@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.7.74 SP?>
+<Library Version="1.00.0" SubType="IEC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported data types">Types.typ</File>
+    <File Description="Exported constants">Constants.var</File>
+    <File Description="Exported functions and function blocks">LascoBoxen.fun</File>
+    <File>fbBoxenKonfig.st</File>
+    <File>fbBoxenVentKlappen.st</File>
+    <File>fbBoxenKlappenanst.st</File>
+    <File>fbBoxenAbluftkl.st</File>
+    <File>fbBoxenAbluftvent.st</File>
+    <File>fbBoxenUmschaltung.st</File>
+    <File>fbBoxenWLO.st</File>
+    <File>fbBoxenHeizreg.st</File>
+    <File>fbBoxenNotstrom.st</File>
+    <File>fbBoxenSHO.st</File>
+    <File>fbBoxenLuftmengen.st</File>
+    <File>fbRestzeit.st</File>
+  </Files>
+</Library>

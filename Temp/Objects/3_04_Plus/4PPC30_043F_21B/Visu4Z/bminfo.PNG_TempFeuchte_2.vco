@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="PNG_TempFeuchte_2" ClsId="0x306" Version="1" TargetIndex="132" Type="GFX" RefString="Source[local].Bitmap[PNG_TempFeuchte_2]">
+        <UInt16 Name="Width">19</UInt16>
+        <UInt16 Name="Height">22</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAABMAAAAWCAYAAAAinad/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAK5SURBVDhPjVRJaxRREI64gPuCC3pQCaigogdR3D1FEeMCRsXdkxLEg4IIIiouqLiEkEzVNBGRhExXPWfSVT1jSNwiXvxZkXo9SaZfjOaDPnT1V1/Xq/dVNTX9BcVKZTWSKrAIsg5hrCdDzrQBpANAurvAeqkrHtiIrHGhpNtC3rSALNUCp4eQ5COS1pDkCrDeD3n/xaORkVnIMlyk5DiSXESWMrCcAJIHYxwk3eecm5nPrCPqT5cXWO8hy23ory0F1s8FSk8VOTkHLJUCyzFkeWhcpOp2ZPmNJC9DHQ+rxnoC5Vpzb+/wfN98Sk8j61kTgzg9iqyPozSdByRf/A9J3hdJDuaEkOQJkkT153knD66wo3kh0jPZZSRHjBe5dH+R0z2WFzm3GFhHup1bkBM0WEVvmefaRyAlZD2PLG3IkiBrC5A+C3MKcXoYSLpyQesZkvTZYx4DkpI1PztqJmZV55LqABIGqm4N4x5ZZRNideO2IOmLkGvoLtfWmX3CuMfUYlPcXtb3qEDpzjA+ScxuNuuZvA65YwCWTcj6IYxnt5SrTNP6MTtDbiPMm7nAe5GFfrBZ2oC1ve61oWzw5bvdXi4hE2nvYV42ScyMaJ4ClrtWXUeSLLG5RNavWK5uQNYfkUvXTvDNf9rf2Te4KCfWVZI1mUF901+Nf8gGf7PNK8TJASB9ZzHvMRaxHtt0ACcXxhMg1tYiyx2ryHzXKOa/k5KNm1Xp38u1Zht2dHoNSD+Njo7OmCDbZmC5aUnWg0YhA5L0+qOS/IyiaHY2IRojS4dzbk6eHCfrfQIlN8LdBZXKSmD5ZnOJrD3ePpxe7inpqkZeDsjqwCU77G/I8sb6VyS9ZUJ+9ZDWphydELYx/IqJtRV5YBc4vW6C3SXd4i+H9WqY80/YzkLWp8j6K3O/DPo1Hid7Q26IPwdoFZbnMqL1AAAAAElFTkSuQmCC</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

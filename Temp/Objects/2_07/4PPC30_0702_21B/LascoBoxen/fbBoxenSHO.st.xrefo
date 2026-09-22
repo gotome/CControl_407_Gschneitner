@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.LascoBoxen" AppMod="">
+	<Vars>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="TOF" Lib="standard">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenSHO.st">
+				<Pos L="7" C="3" PS="Ln:7, Col:3"/>
+				<Pos L="16" C="3" PS="Ln:16, Col:3"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="down_pressed_control" ClsId="0x306" Version="1" TargetIndex="47" Type="GFX" RefString="Source[local].Bitmap[down_pressed_control]">
+        <UInt16 Name="Width">92</UInt16>
+        <UInt16 Name="Height">32</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAAFwAAAAgCAYAAACfDx/iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFrSURBVGhD7do/y4JQFMfxOzv5GnovzW35Ahp6A05Bi1tkgzQkQqQgOLm5Ci1Ozq6Oja6N5+Egz+VmfyDz3ul34QNCnOXL5RCiIBJ0uVwoiiLQhPu2bUvcWiRJQsvlkubzOWjCfdM07YPvdjtyHAc045u+WCxIHA4HWq/XoBkHF0KQCIKAXNcFzWTwMAxps9mAZjI4Pwx/hOkhuGEIbhiCG4bgXyrLcpT/eQT/UlVV9O0pikLOI/gIt9tt2PTtaZrmYRbBR9jv93S/34dtn07XdeR53sMsgo/Uv4T6fI7H49Mcgv/g0z5X97YKwX/0ap8P97YKwX803Oev9rYKwSeg7vNXe1uF4BPhff5ub6sQ3DAENwzBDUNwwxDcMAQ3TAbn/4/b7RY0k8FPpxP5vg+ayeDn85myLAPNZPA4jul6vVJd16AJ9+WPgWzbJsEfGHL0PM9BE45tWRatVqs+OJvNZv2Vh8nxzebY3PkP7mdB6zAnPJUAAAAASUVORK5CYII=</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

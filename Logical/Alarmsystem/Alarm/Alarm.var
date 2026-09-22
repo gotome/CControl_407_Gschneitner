@@ -1,0 +1,51 @@
+(*============================================================================================================================================*)
+(*======================================== FUNKTIONSBAUSTEINE ===============================================================================*)
+VAR
+	eUhr : fbLascoEUhr;
+	fbLascoZdxx_0 : fbLascoZdxx;
+	TON_Fehlerquittierung : TON;
+	fbLascoFehl_0 : fbLascoFehl;
+	fbLascoFehl_1 : fbLascoFehl;
+	fbLascoFehl_2 : fbLascoFehl;
+	fbLascoFehl_3 : fbLascoFehl;
+	fbLascoFehl_4 : fbLascoFehl;
+	fbLascoFehl_5 : fbLascoFehl;
+	fbLascoFehl_6 : fbLascoFehl;
+	fbLascoFehl_7 : fbLascoFehl;
+	fbLascoFehl_8 : fbLascoFehl;
+	fbLascoFehl_9 : fbLascoFehl;
+	fbLascoFehl_10 : fbLascoFehl;
+	fbLascoFehl_11 : fbLascoFehl;
+	fbLascoFehl_12 : fbLascoFehl;
+	fbLascoFehl_13 : fbLascoFehl;
+	fbLascoFehl_14 : fbLascoFehl;
+	fbLascoFehl_15 : fbLascoFehl;
+	fbLascoFehl_16 : fbLascoFehl;
+	fbLascoFehl_17 : fbLascoFehl;
+	fbLascoFehl_18 : fbLascoFehl;
+	fbLascoFehl_19 : fbLascoFehl;
+	fbLascoFehl_20 : fbLascoFehl;
+	fbLascoFehl_21 : fbLascoFehl;
+	fbLascoFehl_22 : fbLascoFehl;
+	fbLascoFehl_23 : fbLascoFehl;
+	fbLascoFehl_24 : fbLascoFehl;
+	fbLascoFehl_25 : fbLascoFehl;
+	fbLascoFehl_26 : fbLascoFehl;
+	fbLascoFehl_27 : fbLascoFehl;
+	fbLascoFehl_28 : fbLascoFehl;
+	fbLascoFehl_29 : fbLascoFehl;
+END_VAR
+(*============================================================================================================================================*)
+(*======================================== LOKALE VARIABLEN ==================================================================================*)
+VAR
+	init : BOOL;
+	sekTick : BOOL;
+	ilen : USINT;
+	i : USINT;
+END_VAR
+(*============================================================================================================================================*)
+(*======================================== KONSTANTEN ==================================================================================*)
+VAR
+	CONST_VERZ_STOERUNG_ENTF_FREMD : {REDUND_UNREPLICABLE} UDINT := 60; (*Verzögerungszeit Störungseingang Entfeuchter Fremd [sek]*)
+	CONST_VERZ_QUIT : {REDUND_UNREPLICABLE} UDINT := 2000; (*Verzögerung, bevor die Fehlerquittierung wieder rückgesetzt wird*)
+END_VAR

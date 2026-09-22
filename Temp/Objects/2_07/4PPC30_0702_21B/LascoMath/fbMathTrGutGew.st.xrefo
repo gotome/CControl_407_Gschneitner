@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.LascoMath" AppMod="">
+	<Vars>
+	</Vars>
+	<Consts>
+		<Const Name="CONST_MATH_MAX_VALUE" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoMath\fbMathTrGutGew.st">
+				<Pos L="42" C="31" PS="Ln:42, Col:31" A="R"/>
+				<Pos L="48" C="65" PS="Ln:48, Col:65" A="R"/>
+				<Pos L="112" C="57" PS="Ln:112, Col:57" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

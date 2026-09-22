@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="PNG_HeizregisterRot" ClsId="0x306" Version="1" TargetIndex="124" Type="GFX" RefString="Source[local].Bitmap[PNG_HeizregisterRot]">
+        <UInt16 Name="Width">30</UInt16>
+        <UInt16 Name="Height">41</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAAB4AAAApCAYAAAAiT5m3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALLSURBVFhHvZhLiI5RGMd/ieQeSlkpKwsLuTUW0xgs2GJh5VpKsbCQ5H6bMYmosUDGJSkWShbWFqbEykYUJQvkEsrO/I8ene/rzPOdM33X+dWpb97nOed3znm/93zPOwhmCG4LRgKETrbouBVgOoI7PqHTzRZqYsU/3goGA5zrRLOxBW+iSySzGKTDCK5UfFWxzconthvBQI1Y0OcTjQALBU8FF3ysUeK214jP+kRDsCnG3/tYowj6c+IzPtEQbG2juC8nPu0TDcE2Lw4wIYnbObBPcE9wV7C+2tlhu9q0WLBX8NFmL7gs+BbjrwWf43ir/TiG7WpOfMonGgG2O/ECwRN7FgV/AjwQrIy5kwQbBFP8OIYtLic+6RMNL06uV7e7XmxxNeIAJ3yiIdiRE6cIJgdYEmCRj6XY4poWC5YH2C2YJpgnOC74muzcc7vuxzHMUSO2AXyiIdjpxLuSyVb6PhZsFuwRDAtW+HGMkviYTzT8iuO1pYJDggOCxaN7lLHFtSRulobEuW91gImVz4K5goOCR4KHgo3Vzo6S+KhPNDIHyH7BF8ElwXXB71hZvBR8iLlr/TiGLa4V8XzBfcEPO7Vi2fT/PtuzLeixx8uPY5TER3yi4cWtYItrRLyl0+LDPtEQrIrn8gsfaxRbXN1iI8Cs9JvcLCXxUIB1nWzRMVo83i1d8bCvhdvdBM9y4mzNVUIwx5q/PhalQiBb+uSIh4idWL/ss4+XKImzFUiO+JtcuV/LfLxEVlwqBHIIupIJd/l4iXaIuxNxt4+XaIe4NxGv8fESpfK2kXucint9vESpoK/7cbKCPenX4+MlSq8w/T6xRAv3OPvSNuATS1j5GuCn4HuplM0RT7Aa8XmfOBYBZgtm+utjIbhYFVf+2yN45c/WdjXbTcFVwbvoGjHxzcosxqsJbpjYXkWGBJ/s/PVJ7WyCv4JrAab+A0NZT3fxnJ39AAAAAElFTkSuQmCC</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

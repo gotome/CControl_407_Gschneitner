@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="System">
+  <Property Name="AcknowledgeImage" Value="None"/>
+  <Property Name="ActiveBackColor" Value="41"/>
+  <Property Name="ActiveForeColor" Value="242"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[DataSource.Alarmsystem.alarmSystem]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="None"/>
+  <Property Name="DefaultBackColor" Value="242"/>
+  <Property Name="DefaultForeColor" Value="243"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="Source[global].Variable[DataSource.gStatusAnlage.Fehler.SummeSystem]"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="1"/>
+  <Property Name="LatchedBackColor" Value="2"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="1"/>
+  <Property Name="QuitBackColor" Value="242"/>
+  <Property Name="QuitForeColor" Value="243"/>
+  <Alarms>
+    <Alarm Index="1">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="False"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="None"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="0">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets/>
+    <TextLayer LanguageId="en">
+      <Text ID="422" Value="Communication between display &amp; IO cards inactive (hardware missing)"/>
+      <Text ID="718" Value="IO-Test not finished - no automatic"/>
+      <Text ID="3027" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="422" Value="Kommunikation zwischen Display und IO-Karten inaktiv (Karten fehlen)"/>
+      <Text ID="718" Value="IO- Test nicht abgeschlossen - keine Automatik"/>
+      <Text ID="3027" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr">
+      <Text ID="422" Value="Communication entre afficheur et modules IO inactive (absence)"/>
+      <Text ID="718" Value="Test IO pas terminé - Automatique impossible"/>
+      <Text ID="3027" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-BE">
+      <Text ID="422" Value="Communicatie tussen scherm en IO-kaarten inactief"/>
+      <Text ID="718" Value="IO-test niet afgesloten-geen automatiek"/>
+      <Text ID="3027" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es">
+      <Text ID="422" Value=""/>
+      <Text ID="718" Value=""/>
+      <Text ID="3027" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sl">
+      <Text ID="422" Value="Komunikacija med zaslonom in iz./vh. kartami ni aktivna (karte manjkajo)"/>
+      <Text ID="718" Value="Preizkus iz./vh. ni končan – brez avtomatike"/>
+      <Text ID="3027" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="422" Value="1"/>
+      <Index ID="718" Value="0"/>
+      <Index ID="3027" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

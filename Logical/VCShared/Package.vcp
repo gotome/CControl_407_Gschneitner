@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.9.18 SP"?>
+<Project xmlns="http://br-automation.co.at/AS/VC/Project">
+  <Property Name="EnableEvents" Value="False"/>
+  <Property Name="SharedTargetResourceRoot" Value=""/>
+  <Property Name="TextIDMax" Value="322465"/>
+  <SourceFiles>
+    <Source File="Languages.vcr"/>
+    <Source File="TextGroups\AlarmEvent.txtgrp"/>
+    <Source File="TextGroups\AlarmState.txtgrp"/>
+    <Source File="TextGroups\DateTimeFormats.txtgrp"/>
+    <Source File="TextGroups\httpURL_SDM.txtgrp"/>
+    <Source File="UnitGroups\Length.vcug"/>
+    <Source File="UnitGroups\Mass.vcug"/>
+    <Source File="UnitGroups\Volume.vcug"/>
+    <Source File="UnitGroups\Power.vcug"/>
+    <Source File="UnitGroups\Memory.vcug"/>
+    <Source File="UnitGroups\Pressure.vcug"/>
+    <Source File="UnitGroups\Temperatures.vcug"/>
+    <Source File="UnitGroups\Energy.vcug"/>
+    <Source File="UnitGroups\UG_GradC_0.vcug"/>
+    <Source File="UnitGroups\UG_GradC_1.vcug"/>
+    <Source File="UnitGroups\UG_MWh.vcug"/>
+    <Source File="UnitGroups\UG_Memory.vcug"/>
+    <Source File="UnitGroups\UG_MinutenMilli_0.vcug"/>
+    <Source File="UnitGroups\UG_MinutenSekunden_0.vcug"/>
+    <Source File="UnitGroups\UG_Minuten_0.vcug"/>
+    <Source File="UnitGroups\UG_Pascal_0.vcug"/>
+    <Source File="UnitGroups\UG_Prozent100_1.vcug"/>
+    <Source File="UnitGroups\UG_Prozent_1.vcug"/>
+    <Source File="UnitGroups\UG_ProzentProMin_1.vcug"/>
+    <Source File="UnitGroups\UG_Prozent_0.vcug"/>
+    <Source File="UnitGroups\UG_SekundenMilli_0.vcug"/>
+    <Source File="UnitGroups\UG_SekundenMilli_1.vcug"/>
+    <Source File="UnitGroups\UG_SekundenProStunde_0.vcug"/>
+    <Source File="UnitGroups\UG_SekundenZehntel_1.vcug"/>
+    <Source File="UnitGroups\UG_Sekunden_0.vcug"/>
+    <Source File="UnitGroups\UG_Sekunden_1.vcug"/>
+    <Source File="UnitGroups\UG_StundenMinuten_0.vcug"/>
+    <Source File="UnitGroups\UG_Stunden_0.vcug"/>
+    <Source File="UnitGroups\UG_GrammProKubik_1.vcug"/>
+    <Source File="UnitGroups\UG_Bar_1.vcug"/>
+    <Source File="UnitGroups\UG_mmH2O_0.vcug"/>
+    <Source File="UnitGroups\UG_MeterProSekunde_1.vcug"/>
+    <Source File="UnitGroups\UG_KubikmeterProH_0.vcug"/>
+    <Source File="UnitGroups\UG_LuftmengeBox.vcug"/>
+    <Source File="UnitGroups\UG_Quadratmeter_1.vcug"/>
+    <Source File="UnitGroups\UG_Meter_0.vcug"/>
+    <Source File="UnitGroups\UG_Quadratmeter_0.vcug"/>
+    <Source File="UnitGroups\UG_Kilowattstunden_1.vcug"/>
+    <Source File="UnitGroups\UG_Kilowatt_1.vcug"/>
+    <Source File="AlarmGroups\AlarmSystem.alcfg"/>
+    <Source File="AlarmGroups\SystemAlarms.algrp"/>
+    <Source File="AlarmGroups\Fehler.algrp"/>
+    <Source File="AlarmGroups\System.algrp"/>
+    <Source File="AlarmGroups\Warnung.algrp"/>
+    <Source File="DataSources\Internal.dso"/>
+    <Source File="DataSources\DataSource.dso"/>
+    <Source File="ControlVersion.cvinfo"/>
+  </SourceFiles>
+</Project>

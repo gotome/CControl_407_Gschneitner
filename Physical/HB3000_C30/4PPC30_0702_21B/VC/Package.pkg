@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.7.74 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Key mapping for 4PPC30.0702-21B">4PPC30_0702_21B.dis</Object>
+    <Object Type="File" Description="Tastenzuordnung für PS2-Keyboard">PS2-Keyboard.dis</Object>
+  </Objects>
+</Package>

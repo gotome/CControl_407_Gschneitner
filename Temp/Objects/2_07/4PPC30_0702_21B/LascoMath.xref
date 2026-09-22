@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.LascoMath" AppMod="">
+  <Vars>
+  </Vars>
+  <Consts>
+    <Const Name="CONST_MATH_DRUCK_MEERESHOEHE" Scope="Global" Type="REAL">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoMath\fbMathLuft.st">
+        <Pos L="20" C="24" PS="Ln:20, Col:24" A="R" />
+      </File>
+    </Const>
+    <Const Name="CONST_MATH_MAX_VALUE" Scope="Global" Type="REAL">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoMath\fbMathLuft.st">
+        <Pos L="26" C="18" PS="Ln:26, Col:18" A="R" />
+        <Pos L="33" C="32" PS="Ln:33, Col:32" A="R" />
+        <Pos L="37" C="33" PS="Ln:37, Col:33" A="R" />
+        <Pos L="40" C="33" PS="Ln:40, Col:33" A="R" />
+        <Pos L="44" C="34" PS="Ln:44, Col:34" A="R" />
+        <Pos L="47" C="31" PS="Ln:47, Col:31" A="R" />
+        <Pos L="52" C="34" PS="Ln:52, Col:34" A="R" />
+        <Pos L="52" C="74" PS="Ln:52, Col:74" A="R" />
+        <Pos L="55" C="32" PS="Ln:55, Col:32" A="R" />
+        <Pos L="62" C="27" PS="Ln:62, Col:27" A="R" />
+        <Pos L="66" C="28" PS="Ln:66, Col:28" A="R" />
+        <Pos L="69" C="26" PS="Ln:69, Col:26" A="R" />
+        <Pos L="73" C="27" PS="Ln:73, Col:27" A="R" />
+        <Pos L="78" C="21" PS="Ln:78, Col:21" A="R" />
+        <Pos L="81" C="21" PS="Ln:81, Col:21" A="R" />
+        <Pos L="87" C="26" PS="Ln:87, Col:26" A="R" />
+        <Pos L="88" C="31" PS="Ln:88, Col:31" A="R" />
+        <Pos L="89" C="31" PS="Ln:89, Col:31" A="R" />
+        <Pos L="90" C="31" PS="Ln:90, Col:31" A="R" />
+        <Pos L="91" C="21" PS="Ln:91, Col:21" A="R" />
+        <Pos L="92" C="22" PS="Ln:92, Col:22" A="R" />
+        <Pos L="93" C="26" PS="Ln:93, Col:26" A="R" />
+        <Pos L="94" C="27" PS="Ln:94, Col:27" A="R" />
+        <Pos L="95" C="30" PS="Ln:95, Col:30" A="R" />
+      </File>
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoMath\fbMathTrGutGew.st">
+        <Pos L="42" C="31" PS="Ln:42, Col:31" A="R" />
+        <Pos L="48" C="65" PS="Ln:48, Col:65" A="R" />
+        <Pos L="112" C="57" PS="Ln:112, Col:57" A="R" />
+      </File>
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoMath\fbMathTrLftMenge.st">
+        <Pos L="52" C="24" PS="Ln:52, Col:24" A="R" />
+        <Pos L="64" C="27" PS="Ln:64, Col:27" A="R" />
+        <Pos L="64" C="73" PS="Ln:64, Col:73" A="R" />
+        <Pos L="67" C="30" PS="Ln:67, Col:30" A="R" />
+        <Pos L="72" C="25" PS="Ln:72, Col:25" A="R" />
+        <Pos L="73" C="29" PS="Ln:73, Col:29" A="R" />
+      </File>
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoMath\fbMathTrLftDruck.st">
+        <Pos L="23" C="20" PS="Ln:23, Col:20" A="R" />
+        <Pos L="24" C="21" PS="Ln:24, Col:21" A="R" />
+        <Pos L="25" C="21" PS="Ln:25, Col:21" A="R" />
+      </File>
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoMath\fbMathMessblende.st">
+        <Pos L="24" C="25" PS="Ln:24, Col:25" A="R" />
+        <Pos L="29" C="57" PS="Ln:29, Col:57" A="R" />
+        <Pos L="32" C="34" PS="Ln:32, Col:34" A="R" />
+      </File>
+    </Const>
+    <Const Name="CONST_MATH_LUFTDRUCK" Scope="Global" Type="REAL">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoMath\fbMathMessblende.st">
+        <Pos L="22" C="25" PS="Ln:22, Col:25" A="R" />
+        <Pos L="45" C="21" PS="Ln:45, Col:21" A="R" />
+      </File>
+    </Const>
+    <Const Name="CONST_MATH_GASKONSTANTE" Scope="Global" Type="REAL">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoMath\fbMathMessblende.st">
+        <Pos L="21" C="7" PS="Ln:21, Col:7" A="R" />
+        <Pos L="22" C="49" PS="Ln:22, Col:49" A="R" />
+        <Pos L="45" C="45" PS="Ln:45, Col:45" A="R" />
+      </File>
+    </Const>
+    <Const Name="CONST_MATH_TEMP_NORM" Scope="Global" Type="REAL">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoMath\fbMathMessblende.st">
+        <Pos L="45" C="78" PS="Ln:45, Col:78" A="R" />
+      </File>
+    </Const>
+    <Const Name="CONST_MATH_FAKTOR_DEBIMO" Scope="Global" Type="REAL">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoMath\fbMathMessblende.st">
+        <Pos L="30" C="34" PS="Ln:30, Col:34" A="R" />
+        <Pos L="48" C="31" PS="Ln:48, Col:31" A="R" />
+      </File>
+    </Const>
+  </Consts>
+  <Enums>
+  </Enums>
+  <Funcs>
+    <Func Name="TON" Lib="standard">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoMath\fbMathWetter.st">
+        <Pos L="29" C="3" PS="Ln:29, Col:3" />
+        <Pos L="38" C="3" PS="Ln:38, Col:3" />
+      </File>
+    </Func>
+    <Func Name="TOF" Lib="standard">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoMath\fbMathWetter.st">
+        <Pos L="33" C="3" PS="Ln:33, Col:3" />
+      </File>
+    </Func>
+  </Funcs>
+  <Actions>
+  </Actions>
+</Crossref>

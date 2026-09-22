@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.CControl" AppMod="">
+	<Vars>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="TON" Lib="standard">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\CControl\fbCControlWitterung.st">
+				<Pos L="53" C="7" PS="Ln:53, Col:7"/>
+				<Pos L="66" C="7" PS="Ln:66, Col:7"/>
+				<Pos L="72" C="6" PS="Ln:72, Col:6"/>
+				<Pos L="84" C="7" PS="Ln:84, Col:7"/>
+				<Pos L="90" C="6" PS="Ln:90, Col:6"/>
+				<Pos L="104" C="4" PS="Ln:104, Col:4"/>
+				<Pos L="116" C="3" PS="Ln:116, Col:3"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

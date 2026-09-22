@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.LascoBoxen" AppMod="">
+	<Vars>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="TON" Lib="standard">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenNotstrom.st">
+				<Pos L="8" C="3" PS="Ln:8, Col:3"/>
+				<Pos L="18" C="3" PS="Ln:18, Col:3"/>
+				<Pos L="31" C="3" PS="Ln:31, Col:3"/>
+				<Pos L="32" C="3" PS="Ln:32, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="TOF" Lib="standard">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenNotstrom.st">
+				<Pos L="12" C="3" PS="Ln:12, Col:3"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="BMG_LuefterKlein">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="22"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="545" Value="None"/>
+    <BitmapRef ID="546" Value="None"/>
+    <BitmapRef ID="547" Value="None"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="545" Value="2"/>
+    <Index ID="546" Value="3"/>
+    <Index ID="547" Value="4"/>
+  </IndexMap>
+</BitmapGroup>

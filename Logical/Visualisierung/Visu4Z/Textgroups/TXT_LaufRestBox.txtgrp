@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXT_LaufRestBox">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="6"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="288904" Value="Running since"/>
+    <Text ID="288905" Value="Running in"/>
+    <Text ID="288906" Value="Pause in"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="288904" Value="Betrieb seit"/>
+    <Text ID="288905" Value="Betrieb in"/>
+    <Text ID="288906" Value="Pause in"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="288904" Value="Marche depuis"/>
+    <Text ID="288905" Value="Marche dans"/>
+    <Text ID="288906" Value="Pause dans"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-BE">
+    <Text ID="288904" Value=""/>
+    <Text ID="288905" Value=""/>
+    <Text ID="288906" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="288904" Value=""/>
+    <Text ID="288905" Value=""/>
+    <Text ID="288906" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sl">
+    <Text ID="288904" Value="Deluje od"/>
+    <Text ID="288905" Value="Deluje v"/>
+    <Text ID="288906" Value="Premor v"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="288904" Value="0"/>
+    <Index ID="288905" Value="1"/>
+    <Index ID="288906" Value="2"/>
+  </IndexMap>
+</TextGroup>

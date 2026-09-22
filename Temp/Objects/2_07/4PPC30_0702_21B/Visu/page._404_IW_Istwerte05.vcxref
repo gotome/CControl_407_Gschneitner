@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <_404_IW_Istwerte05 ReferenceString="Source[local].Page[_404_IW_Istwerte05]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_404_IW_Istwerte05].Layer[Default].VirtualKey[%embVirtualKey_46].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiButtons.ResetEnergieverbrTag]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_404_IW_Istwerte05].Layer[Default].Control[Numeric_1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiNutzungsdaten.Energiemessung.EnergieGesamt]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_404_IW_Istwerte05].Layer[Default].Control[Numeric_2].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiNutzungsdaten.Energiemessung.EnergieTag]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_404_IW_Istwerte05].Layer[Default].Control[Numeric_3].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiNutzungsdaten.Energiemessung.LeistungAktuell]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </_404_IW_Istwerte05>
+</VCXReferenceList>

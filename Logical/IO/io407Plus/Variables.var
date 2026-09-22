@@ -1,0 +1,65 @@
+(*==========================================================================================================================================================*)
+(*============================================ LOKALE VARIABLEN ============================================================================================*)
+VAR
+	sekTick : BOOL;
+END_VAR
+(*==========================================================================================================================================================*)
+(*============================================ MODULE ======================================================================================================*)
+VAR
+	brModul01 : modBR7300;
+	diModul02 : modDIF371;
+	doModul03 : modDO8322;
+	aiModul04 : modAI8321;
+	cmModul05 : modCM8281;
+	cmModul06 : modCM8281;
+	cmModul07 : modCM8281;
+	cmModul08 : modCM8281;
+	cmModul09 : modCM8281;
+	cmModul10 : modCM8281;
+	cmModul11 : modCM8281;
+	cmModul12 : modCM8281;
+	cmModul13 : modCM8281;
+	cmModul14 : modCM8281;
+	cmModul15 : modCM8281;
+END_VAR
+(*==========================================================================================================================================================*)
+(*============================================ FUNKTIONSBAUSTEINE =========================================================================================*)
+VAR
+	fbLascoZdxx_0 : fbLascoZdxx;
+	LCRMovAvgFlt_0 : LCRMovAvgFlt;
+	LCRMovAvgFlt_1 : LCRMovAvgFlt;
+	LCRMovAvgFlt_2 : LCRMovAvgFlt;
+	LCRMovAvgFlt_3 : LCRMovAvgFlt;
+	LCRMovAvgFlt_4 : LCRMovAvgFlt;
+	LCRMovAvgFlt_5 : LCRMovAvgFlt;
+	LCRMovAvgFlt_6 : LCRMovAvgFlt;
+	LCRMovAvgFlt_7 : LCRMovAvgFlt;
+	LCRMovAvgFlt_8 : LCRMovAvgFlt;
+	LCRMovAvgFlt_9 : LCRMovAvgFlt;
+	LCRMovAvgFlt_10 : LCRMovAvgFlt;
+	LCRMovAvgFlt_11 : LCRMovAvgFlt;
+	LCRMovAvgFlt_12 : LCRMovAvgFlt;
+	LCRMovAvgFlt_13 : LCRMovAvgFlt;
+	LCRMovAvgFlt_14 : LCRMovAvgFlt;
+	LCRMovAvgFlt_15 : LCRMovAvgFlt;
+	LCRMovAvgFlt_16 : LCRMovAvgFlt;
+	LCRMovAvgFlt_17 : LCRMovAvgFlt;
+	LCRLimScal_0 : LCRLimScal;
+	loc_Erforderl_Mod1 : BOOL;
+	loc_Erforderl_Mod2 : BOOL;
+	loc_Erforderl_Mod3 : BOOL;
+	loc_Erforderl_Mod4 : BOOL;
+	loc_Erforderl_Mod5 : BOOL;
+	loc_Erforderl_Mod6 : BOOL;
+	loc_Erforderl_Mod7 : BOOL;
+	loc_Erforderl_Mod8 : BOOL;
+	loc_Erforderl_Mod9 : BOOL;
+	loc_Erforderl_Mod10 : BOOL;
+	loc_Erforderl_Mod11 : BOOL;
+	loc_Erforderl_Mod12 : BOOL;
+	loc_Erforderl_Mod13 : BOOL;
+	loc_Erforderl_Mod14 : BOOL;
+	loc_Erforderl_Mod15 : BOOL;
+	loc_Erforderl_Mod16 : BOOL;
+	fbLascoFehl_0 : {REDUND_UNREPLICABLE} fbLascoFehl;
+END_VAR

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=1</DeviceParameters>
+    <ConnectionParameters>/COMT=2500 /RT=1000 /AM=* /SDT=5 /DAIP=172.31.250.2 /REPO=11159 /ANSL=1 /PT=11169</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>C:\SharedFolder\CControl\CControl.apj</ApjFullFileName>
+    <ProjectName>CControl</ProjectName>
+    <ActiveConfigurationName>3_04_Plus</ActiveConfigurationName>
+    <LicenseDataFolder>C:\SharedFolder\CControl\Temp\Objects\3_04_Plus\4PPC30_043F_21B</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

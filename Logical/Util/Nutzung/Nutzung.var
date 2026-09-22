@@ -1,0 +1,150 @@
+(*============================================================================================================================================*)
+(*======================================== FUNKTIONSBAUSTEINE FÜR ZEITTICKS =================================================================*)
+VAR
+	fbLascoZdxx_0 : fbLascoZdxx;
+	fbLascoZdxx_1 : fbLascoZdxx;
+	fbLascoZdxx_2 : fbLascoZdxx;
+	fbLascoZdxx_3 : fbLascoZdxx;
+	fbLascoZdxx_4 : fbLascoZdxx;
+END_VAR
+(*============================================================================================================================================*)
+(*===================================================== ZEITTICKS==============================================================================*)
+VAR
+	sekTick : BOOL;
+	minTick : BOOL;
+	tagTick : BOOL;
+	monatTick : BOOL;
+	jahrTick : BOOL;
+END_VAR
+(*============================================================================================================================================*)
+(*====================================== FUNKTIONSBAUSTEINE BETRIEBSSTUNDEN GESAMT=======================================================*)
+VAR
+	fbMinutenUmluftbetrGes : fbLascoBmin;
+	fbStundenUmluftbetrGes : fbLascoStdMin;
+	fbMinutenFrischluftbetrGes : fbLascoBmin;
+	fbStundenFrischluftbetrGes : fbLascoStdMin;
+	fbMinutenAbluftventGes : fbLascoBmin;
+	fbStundenAbluftventGes : fbLascoStdMin;
+	fbMinutenVentilator1Ges : fbLascoBmin;
+	fbStundenVentilator1Ges : fbLascoStdMin;
+	fbMinutenVentilator2Ges : fbLascoBmin;
+	fbStundenVentilator2Ges : fbLascoStdMin;
+	fbMinutenOelsumpfhGes : fbLascoBmin;
+	fbStundenOelsumpfhGes : fbLascoStdMin;
+	fbMinutenKompressor1Ges : fbLascoBmin;
+	fbStundenKompressor1Ges : fbLascoStdMin;
+	fbMinutenKompressor2Ges : fbLascoBmin;
+	fbStundenKompressor2Ges : fbLascoStdMin;
+	fbMinutenAbtauung1Ges : fbLascoBmin;
+	fbStundenAbtauung1Ges : fbLascoStdMin;
+	fbMinutenAbtauung2Ges : fbLascoBmin;
+	fbStundenAbtauung2Ges : fbLascoStdMin;
+	fbMinutenWarmluftofenGes : fbLascoBmin;
+	fbStundenWarmluftofenGes : fbLascoStdMin;
+	fbMinutenScheitholzofenGes : fbLascoBmin;
+	fbStundenScheitholzofenGes : fbLascoStdMin;
+	fbMinutenHeizregisterGes : fbLascoBmin;
+	fbStundenHeizregisterGes : fbLascoStdMin;
+	fbMinutenBox1Ges : fbLascoBmin;
+	fbStundenBox1Ges : fbLascoStdMin;
+	fbMinutenBox2Ges : fbLascoBmin;
+	fbStundenBox2Ges : fbLascoStdMin;
+	fbMinutenBox3Ges : fbLascoBmin;
+	fbStundenBox3Ges : fbLascoStdMin;
+	fbMinutenBox4Ges : fbLascoBmin;
+	fbStundenBox4Ges : fbLascoStdMin;
+	fbMinutenBox5Ges : fbLascoBmin;
+	fbStundenBox5Ges : fbLascoStdMin;
+	fbMinutenBox6Ges : fbLascoBmin;
+	fbStundenBox6Ges : fbLascoStdMin;
+END_VAR
+(*====================================== FUNKTIONSBAUSTEINE BETRIEBSSTUNDEN ===============================================================*)
+(*============================================================================================================================================*)
+VAR
+	fbMinutenUmluftbetr : fbLascoBmin;
+	fbStundenUmluftbetr : fbLascoStdMin;
+	fbMinutenFrischluftbetr : fbLascoBmin;
+	fbStundenFrischluftbetr : fbLascoStdMin;
+	fbMinutenAbluftvent : fbLascoBmin;
+	fbStundenAbluftvent : fbLascoStdMin;
+	fbMinutenVentilator1 : fbLascoBmin;
+	fbStundenVentilator1 : fbLascoStdMin;
+	fbMinutenVentilator2 : fbLascoBmin;
+	fbStundenVentilator2 : fbLascoStdMin;
+	fbMinutenOelsumpfh : fbLascoBmin;
+	fbStundenOelsumpfh : fbLascoStdMin;
+	fbMinutenKompressor1 : fbLascoBmin;
+	fbStundenKompressor1 : fbLascoStdMin;
+	fbMinutenKompressor2 : fbLascoBmin;
+	fbStundenKompressor2 : fbLascoStdMin;
+	fbMinutenAbtauung1 : fbLascoBmin;
+	fbStundenAbtauung1 : fbLascoStdMin;
+	fbMinutenAbtauung2 : fbLascoBmin;
+	fbStundenAbtauung2 : fbLascoStdMin;
+	fbMinutenWarmluftofen : fbLascoBmin;
+	fbStundenWarmluftofen : fbLascoStdMin;
+	fbMinutenScheitholzofen : fbLascoBmin;
+	fbStundenScheitholzofen : fbLascoStdMin;
+	fbMinutenHeizregister : fbLascoBmin;
+	fbStundenHeizregister : fbLascoStdMin;
+	fbMinutenBox1 : fbLascoBmin;
+	fbStundenBox1 : fbLascoStdMin;
+	fbMinutenVentBox1 : fbLascoBmin;
+	fbStundenVentBox1 : fbLascoStdMin;
+	fbMinutenLuftaufbBox1 : fbLascoBmin;
+	fbStundenLuftaufbBox1 : fbLascoStdMin;
+	fbMinutenVentBox2 : fbLascoBmin;
+	fbStundenVentBox2 : fbLascoStdMin;
+	fbMinutenLuftaufbBox2 : fbLascoBmin;
+	fbStundenLuftaufbBox2 : fbLascoStdMin;
+	fbMinutenVentBox3 : fbLascoBmin;
+	fbStundenVentBox3 : fbLascoStdMin;
+	fbMinutenLuftaufbBox3 : fbLascoBmin;
+	fbStundenLuftaufbBox3 : fbLascoStdMin;
+	fbMinutenVentBox4 : fbLascoBmin;
+	fbStundenVentBox4 : fbLascoStdMin;
+	fbMinutenLuftaufbBox4 : fbLascoBmin;
+	fbStundenLuftaufbBox4 : fbLascoStdMin;
+	fbMinutenVentBox5 : fbLascoBmin;
+	fbStundenVentBox5 : fbLascoStdMin;
+	fbMinutenLuftaufbBox5 : fbLascoBmin;
+	fbStundenLuftaufbBox5 : fbLascoStdMin;
+	fbMinutenVentBox6 : fbLascoBmin;
+	fbStundenVentBox6 : fbLascoStdMin;
+	fbMinutenLuftaufbBox6 : fbLascoBmin;
+	fbStundenLuftaufbBox6 : fbLascoStdMin;
+	fbMinutenBox2 : fbLascoBmin;
+	fbStundenBox2 : fbLascoStdMin;
+	fbMinutenBox3 : fbLascoBmin;
+	fbStundenBox3 : fbLascoStdMin;
+	fbMinutenBox4 : fbLascoBmin;
+	fbStundenBox4 : fbLascoStdMin;
+	fbMinutenBox5 : fbLascoBmin;
+	fbStundenBox5 : fbLascoStdMin;
+	fbMinutenBox6 : fbLascoBmin;
+	fbStundenBox6 : fbLascoStdMin;
+END_VAR
+(*============================================================================================================================================*)
+(*====================================== FUNKTIONSBAUSTEINE SERVICEINTERVALLE==============================================================*)
+VAR
+	fbSrvcUhrzeit : fbLascoSrvcInterv;
+	DTGetTime_0 : DTGetTime;
+	loc_UhrzeitAktuellUdint : UDINT;
+	TON_MinLaufzeitOelsumpfh : TON;
+	loc_MinLaufzeitOelsumpf : UDINT;
+	TON_ResetInit : TON;
+	loc_UhrzeitMEM_Udint : UDINT;
+	initOk : BOOL;
+	stateEntry : BOOL;
+	loc_ZeitStromausfall : UDINT;
+END_VAR
+(*============================================================================================================================================*)
+(*====================================== FUNKTIONSBAUSTEINE RESTZEITEN BOXEN ============================================================*)
+VAR
+	fbRestzeitBox1 : {REDUND_UNREPLICABLE} fbRestzeit;
+	fbRestzeitBox2 : {REDUND_UNREPLICABLE} fbRestzeit;
+	fbRestzeitBox3 : {REDUND_UNREPLICABLE} fbRestzeit;
+	fbRestzeitBox4 : {REDUND_UNREPLICABLE} fbRestzeit;
+	fbRestzeitBox5 : {REDUND_UNREPLICABLE} fbRestzeit;
+	fbRestzeitBox6 : {REDUND_UNREPLICABLE} fbRestzeit;
+END_VAR

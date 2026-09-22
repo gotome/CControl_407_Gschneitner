@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <_830_TEST_Warmluftofen01 ReferenceString="Source[local].Page[_830_TEST_Warmluftofen01]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_830_TEST_Warmluftofen01].Layer[Default].VirtualKey[%embVirtualKey_97].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalOut.doWarmluftofenEin]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_830_TEST_Warmluftofen01].Layer[Default].Control[Text_8].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalIn.diWarmluftofenInBetrieb]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_830_TEST_Warmluftofen01].Layer[Default].Control[Numeric_1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.AnalogOut.aoTemperaturvorgWarmluftofen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_830_TEST_Warmluftofen01].Layer[Default].Control[Text_9].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalIn.diScheitholzofenInBetrieb]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+   </_830_TEST_Warmluftofen01>
+</VCXReferenceList>

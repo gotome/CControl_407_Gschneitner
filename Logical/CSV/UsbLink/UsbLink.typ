@@ -1,0 +1,14 @@
+
+TYPE
+	enumUsbLinkStep : 
+		(
+		WAIT := 0,
+		CREATE_NODE_ID_LIST := 1,
+		READ_DEVICE_DATA := 2,
+		GET_DESCRIPTOR := 3,
+		CREATE_FILE_DEVICE := 4,
+		UNLINK_DEVICE := 5,
+		FINISH := 6,
+		ERROR_CASE := 255
+		);
+END_TYPE

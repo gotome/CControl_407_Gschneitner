@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXT_ParameterUmschaltpunkt">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="2"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="288917" Value="Max. spread extract-air/roof-air"/>
+    <Text ID="288918" Value="Max. spread extract-air/fresh-air"/>
+    <Text ID="288919" Value="Roof-air temperature switchover"/>
+    <Text ID="288920" Value="Fresh-air temperature switchover"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="288917" Value="Max. Differenz Abluft/Dachluft"/>
+    <Text ID="288918" Value="Max. Differenz Abluft/Frischluft"/>
+    <Text ID="288919" Value="Dachluft-Temperatur Umschaltung"/>
+    <Text ID="288920" Value="Frischluft-Temperatur Umschaltung"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="288917" Value="DeltaT max air extrait / air toiture"/>
+    <Text ID="288918" Value="DeltaT max air extrait / air neuf"/>
+    <Text ID="288919" Value="Température commutation air toiture"/>
+    <Text ID="288920" Value="Température commutation air neuf"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-BE">
+    <Text ID="288917" Value=""/>
+    <Text ID="288918" Value=""/>
+    <Text ID="288919" Value=""/>
+    <Text ID="288920" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="288917" Value=""/>
+    <Text ID="288918" Value=""/>
+    <Text ID="288919" Value=""/>
+    <Text ID="288920" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sl">
+    <Text ID="288917" Value="Najv. razlika med izhodnim zrakom/zrakom s strehe"/>
+    <Text ID="288918" Value="Najv. razlika med izhodnim zrakom/svežim zrakom"/>
+    <Text ID="288919" Value="Preklop temperature zraka s strehe"/>
+    <Text ID="288920" Value="Preklop temperature svežega zraka"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="288917" Value="0"/>
+    <Index ID="288918" Value="1"/>
+    <Index ID="288919" Value="2"/>
+    <Index ID="288920" Value="3"/>
+  </IndexMap>
+</TextGroup>

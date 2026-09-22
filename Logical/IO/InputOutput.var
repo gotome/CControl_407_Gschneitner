@@ -1,0 +1,160 @@
+(*Digitale Ausgänge (DO) ===================================================================================================================================================*)
+VAR
+	doVentilator1Ein : BOOL;
+	doVentilator2Ein : BOOL;
+	doTrocknungInBetrieb : BOOL;
+	doFreigabeBox1 : BOOL;
+	doFreigabeBox2 : BOOL;
+	doTrocknungStoerung : BOOL;
+	doWarmluftofenEin : BOOL;
+	doHeizregisterEin : BOOL;
+	doFreigabeBox3 : BOOL;
+	doFreigabeBox4 : BOOL;
+	doFreigabeBox5 : BOOL;
+	doFreigabeBox6 : BOOL;
+	doBrandschutzklappeAuf : BOOL;
+	doAbluftventilatorEin : BOOL;
+	doAbluftklappeFreigabe : BOOL;
+	doAbluftklappeOeffnen : BOOL; (*Nur bei 3.04 in Verwendung*)
+	doAbluftklappeSchliessen : BOOL; (*Nur bei 3.04 in Verwendung*)
+	doUmluftklappe2Schliessen : BOOL; (*Nur bei 3.04 in Verwendung*)
+	doUmluftklappe2Oeffnen : BOOL; (*Nur bei 3.04 in Verwendung*)
+	doUmluftklappe1Schliessen : BOOL; (*Nur bei 3.04 in Verwendung*)
+	doUmluftklappe1Oeffnen : BOOL; (*Nur bei 3.04 in Verwendung*)
+	doUmluftklappe1Freigabe : BOOL;
+	doUmluftklappe2Freigabe : BOOL;
+	doNotstromaggregatEin : BOOL;
+	doKompressorEinModul1 : BOOL;
+	doKompressorEinModul2 : BOOL;
+	doMagnetventilEinModul1 : BOOL;
+	doMagnetventilEinModul2 : BOOL;
+	doOelsumpfheizungEinModul1 : BOOL;
+	doOelsumpfheizungEinModul2 : BOOL;
+	doBypassklappeSchliessen : BOOL; (*Nur bei 3.04 in Verwendung*)
+	doBypassklappeOeffnen : BOOL;
+	doEntfFremdFreigabe : BOOL; (*Nur bei HB4000 in Verwendung*)
+	doLuftentfeuchterStrombegrEin : BOOL; (*Nur bei HB4000 in Verwendung*)
+END_VAR
+(*Analoge Ausgänge (AO) =====================================================================================================================================================*)
+VAR
+	aoDrehzahlvorgVentilator1 : REAL;
+	aoTemperaturvorgWarmluftofen : REAL;
+	aoDrehzahlvorgVentilator2 : REAL;
+	aoLeistungsvorgHeizregister : REAL;
+	aoDrehzahlvorgAbluftventilator : REAL;
+	aoDrehzahlvorgKompressorModul1 : REAL;
+	aoDrehzahlvorgKompressorModul2 : REAL;
+END_VAR
+(*Analoge Eingänge (AI) =====================================================================================================================================================*)
+VAR
+	aiFrischluftTemperatur : REAL;
+	aiFrischluftFeuchte : REAL;
+	aiTrockenluftTemperatur : REAL;
+	aiTrockenluftFeuchte : REAL;
+	aiAbluftTemperatur : REAL;
+	aiAbluftFeuchte : REAL;
+	aiDachluftTemperatur : REAL;
+	aiDachluftFeuchte : REAL;
+	aiLuftgeschwindigkeit : REAL;
+	aiDifferenzdruck : REAL;
+	aiNiederdruckModul2 : REAL;
+	aiNiederdruckModul1 : REAL;
+	aiHochdruckModul2 : REAL;
+	aiHochdruckModul1 : REAL;
+	aiEintrittTemperatur : REAL;
+	aiEintrittFeuchte : REAL;
+	aiAustrittTemperatur : REAL;
+	aiAustrittFeuchte : REAL;
+END_VAR
+(*Digitale Eingänge (DI) =====================================================================================================================================================*)
+VAR
+	di230VACIstOk : BOOL; (*Nur bei HB4000 in Verwendung*)
+	diEntfeuchterFremdInBetrieb : BOOL; (*Nur bei HB4000 in Verwendung*)
+	diEntfeuchterFremdStoerung : BOOL; (*Nur bei HB4000 in Verwendung*)
+	diTasteTrocknungPausieren : BOOL; (*Nur bei HB4000 in Verwendung*)
+	diDrehfeldIstKorrekt : BOOL; (*Nur bei 3.04 in Verwendung*)
+	diVentilator1InBetrieb : BOOL;
+	di24VDCinternIstOk : BOOL;
+	diBox1Offen : BOOL;
+	diBox1Geschl : BOOL;
+	diBox2Offen : BOOL;
+	diBox2Geschl : BOOL;
+	diVentilator2InBetrieb : BOOL;
+	diDrehzahlbegrVentilator1 : BOOL;
+	diDrehzahlbegrVentilator2 : BOOL;
+	diScheitholzofenInBetrieb : BOOL;
+	diWarmluftofenInBetrieb : BOOL;
+	diBox3Offen : BOOL;
+	diBox3Geschl : BOOL;
+	diBox4Offen : BOOL;
+	diBox4Geschl : BOOL;
+	diBox5Offen : BOOL;
+	diBox5Geschl : BOOL;
+	diBox6Offen : BOOL;
+	diBox6Geschl : BOOL;
+	diAbluftventInBetrieb : BOOL;
+	diAbluftklappeOffen : BOOL;
+	diAbluftklappeGeschl : BOOL;
+	diUmschaltklappe1Offen : BOOL;
+	diUmschaltklappe1Geschl : BOOL;
+	diUmschaltklappe2Offen : BOOL;
+	diUmschaltklappe2Geschl : BOOL;
+	diNotstromaggregatInBetrieb : BOOL;
+	diNiederdruckOkModul1 : BOOL;
+	diNiederdruckOkModul2 : BOOL;
+	diHochdruckOkModul1 : BOOL;
+	diHochdruckOkModul2 : BOOL;
+	diKopftempKompressorModul1 : BOOL;
+	diKopftempKompressorModul2 : BOOL;
+	diOeldruckKompressorModul1 : BOOL;
+	diOeldruckKompressorModul2 : BOOL;
+	diVollschutzKompressorModul1 : BOOL;
+	diVollschutzKompressorModul2 : BOOL;
+	diBetriebsmldgKompressorModul1 : BOOL;
+	diBetriebsmldgKompressorModul2 : BOOL;
+	diAnfEntfeuchterExtern : BOOL;
+	diLeistungsvorgKompressorExtMod1 : BOOL;
+	diBypassklappeGeschl : BOOL;
+	diBypassklappeOffen : BOOL;
+	diHeizregisterFrostschutz : BOOL;
+END_VAR
+(*Statuseingänge (DI) =====================================================================================================================================================*)
+VAR
+	diStatusNiederdruckMinMod1 : BOOL;
+	diStatusNiederdruckMaxMod1 : BOOL;
+	diStatusHochdruckMinMod1 : BOOL;
+	diStatusHochdruckMaxMod1 : BOOL;
+	diStatusNiederdruckMinMod2 : BOOL;
+	diStatusNiederdruckMaxMod2 : BOOL;
+	diStatusHochdruckMinMod2 : BOOL;
+	diStatusHochdruckMaxMod2 : BOOL;
+	diStatusDifferenzdruckMax : BOOL;
+	diStatusDifferenzdruckMin : BOOL;
+	diStatusLuftgeschwDrahtbruch : BOOL;
+	diStatusLuftgeschwMax : BOOL;
+	diStatusLuftgeschwMin : BOOL;
+	diStatusEintrittTempMin : BOOL;
+	diStatusEintrittTempMax : BOOL;
+	diStatusEintrittFeuchteMin : BOOL;
+	diStatusEintrittFeuchteMax : BOOL;
+	diStatusAustrittTempMin : BOOL;
+	diStatusAustrittTempMax : BOOL;
+	diStatusAustrittFeuchteMin : BOOL;
+	diStatusAustrittFeuchteMax : BOOL;
+	diStatusFrischluftFeuchteMax : BOOL;
+	diStatusFrischluftFeuchteMin : BOOL;
+	diStatusFrischluftTempMax : BOOL;
+	diStatusFrischluftTempMin : BOOL;
+	diStatusTrockenluftFeuchteMax : BOOL;
+	diStatusTrockenluftFeuchteMin : BOOL;
+	diStatusTrockenluftTempMax : BOOL;
+	diStatusTrockenluftTempMin : BOOL;
+	diStatusDachluftFeuchteMax : BOOL;
+	diStatusDachluftFeuchteMin : BOOL;
+	diStatusDachluftTempMax : BOOL;
+	diStatusDachluftTempMin : BOOL;
+	diStatusAbluftTempMax : BOOL;
+	diStatusAbluftTempMin : BOOL;
+	diStatusAbluftFeuchteMax : BOOL;
+	diStatusAbluftFeuchteMin : BOOL;
+END_VAR

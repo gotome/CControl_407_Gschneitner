@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXT_ButtonAbluftklappe">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="5"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="288880" Value="AUTOMATIC"/>
+    <Text ID="288881" Value="OPEN"/>
+    <Text ID="288882" Value="CLOSE"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="288880" Value="AUTOMATIK"/>
+    <Text ID="288881" Value="AUF"/>
+    <Text ID="288882" Value="ZU"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="288880" Value="AUTOMATIQUE"/>
+    <Text ID="288881" Value="OUVERT"/>
+    <Text ID="288882" Value="FERME"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-BE">
+    <Text ID="288880" Value=""/>
+    <Text ID="288881" Value=""/>
+    <Text ID="288882" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="288880" Value=""/>
+    <Text ID="288881" Value=""/>
+    <Text ID="288882" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sl">
+    <Text ID="288880" Value="AVTOMATIKA"/>
+    <Text ID="288881" Value="ODPRTO"/>
+    <Text ID="288882" Value="ZAPRTO"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="288880" Value="0"/>
+    <Index ID="288881" Value="1"/>
+    <Index ID="288882" Value="2"/>
+  </IndexMap>
+</TextGroup>

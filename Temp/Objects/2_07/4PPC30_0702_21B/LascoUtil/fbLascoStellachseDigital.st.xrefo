@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.LascoUtil" AppMod="">
+	<Vars>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="LCRContinServo" Lib="LoopConR">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoUtil\fbLascoStellachseDigital.st">
+				<Pos L="24" C="2" PS="Ln:24, Col:2"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

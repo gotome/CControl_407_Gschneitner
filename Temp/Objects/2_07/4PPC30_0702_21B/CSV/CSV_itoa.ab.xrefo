@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Crossref Scope="CSV.Library.CSV" AppMod="">
+	<Vars>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="itoa" Lib="asstring">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\Library\CSV\CSV_itoa.ab">
+				<Pos L="41" C="16" PS="Ln:41, Col:16"/>
+				<Pos L="42" C="16" PS="Ln:42, Col:16"/>
+			</File>
+		</Func>
+		<Func Name="memset" Lib="asstring">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\Library\CSV\CSV_itoa.ab">
+				<Pos L="38" C="3" PS="Ln:38, Col:3"/>
+				<Pos L="39" C="3" PS="Ln:39, Col:3"/>
+				<Pos L="40" C="3" PS="Ln:40, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="memcpy" Lib="asstring">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\Library\CSV\CSV_itoa.ab">
+				<Pos L="107" C="6" PS="Ln:107, Col:6"/>
+				<Pos L="109" C="6" PS="Ln:109, Col:6"/>
+			</File>
+		</Func>
+		<Func Name="strcat" Lib="asstring">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\Library\CSV\CSV_itoa.ab">
+				<Pos L="90" C="6" PS="Ln:90, Col:6"/>
+				<Pos L="93" C="9" PS="Ln:93, Col:9"/>
+				<Pos L="95" C="9" PS="Ln:95, Col:9"/>
+				<Pos L="97" C="9" PS="Ln:97, Col:9"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

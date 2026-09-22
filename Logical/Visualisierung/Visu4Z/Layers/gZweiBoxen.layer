@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="gZweiBoxen">
+  <Property Name="BackColor" Value="9"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="272"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Layers.UebersichtZweiBoxen]"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="480"/>
+  <TextGroup>
+    <TextLayer LanguageId="en">
+      <Text ID="283627" Value="Extract-air"/>
+      <Text ID="283628" Value="Extract-air"/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="283627" Value="Abluft"/>
+      <Text ID="283628" Value="Abluft"/>
+    </TextLayer>
+    <TextLayer LanguageId="fr">
+      <Text ID="283627" Value="Air extrait"/>
+      <Text ID="283628" Value="Air extrait"/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-BE">
+      <Text ID="283627" Value=""/>
+      <Text ID="283628" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es">
+      <Text ID="283627" Value=""/>
+      <Text ID="283628" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sl">
+      <Text ID="283627" Value="Izhodni zrak"/>
+      <Text ID="283628" Value="Izhodni zrak"/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="283627" Value="19"/>
+      <Index ID="283628" Value="29"/>
+    </IndexMap>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001005" Name="Bitmap_4">
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[FrameHellgr2Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Height" Value="215"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="10"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box1.HintergrundInaktiv]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="7"/>
+      <Property Name="Width" Value="115"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_9">
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[FrameHellgr2Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Height" Value="215"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="129"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box2.HintergrundInaktiv]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="7"/>
+      <Property Name="Width" Value="115"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_11">
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[FrameGelb2Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Height" Value="215"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="129"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box2.HintergrundAktiv]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="7"/>
+      <Property Name="Width" Value="115"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_3">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="233"/>
+      <Property Name="EndY" Value="29"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="StartX" Value="138"/>
+      <Property Name="StartY" Value="29"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100B" Name="String_2">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="BackColor" Value="241"/>
+      <Property Name="Border" Value="None"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box2.FarbeTextNameBox]"/>
+      <Property Name="ColorMap" Value="Source[local].ColorMap[TextfarbeBackgSw]"/>
+      <Property Name="ColorMapIndexOffset" Value="0"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="Left" Value="131"/>
+      <Property Name="SimulationValue" Value="Trocknungsbox 2"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="Top" Value="11"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Boxen[2].NameBox]"/>
+      <Property Name="Width" Value="110"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_10">
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[FrameGelb2Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Height" Value="215"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="10"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box1.HintergrundAktiv]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="7"/>
+      <Property Name="Width" Value="115"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_1">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="114"/>
+      <Property Name="EndY" Value="29"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="StartX" Value="19"/>
+      <Property Name="StartY" Value="29"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x0000100B" Name="String_1">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="BackColor" Value="241"/>
+      <Property Name="Border" Value="None"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box1.FarbeTextNameBox]"/>
+      <Property Name="ColorMap" Value="Source[local].ColorMap[TextfarbeBackgSw]"/>
+      <Property Name="ColorMapIndexOffset" Value="0"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial9pxBold]"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="Left" Value="12"/>
+      <Property Name="SimulationValue" Value="Trocknungsbox 1"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="Top" Value="11"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiParameter.Boxen[1].NameBox]"/>
+      <Property Name="Width" Value="110"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_6">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Bottom"/>
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[BMG_TrockengutMittel]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="45"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box1.Trockengut]"/>
+      <Property Name="Left" Value="15"/>
+      <Property Name="SimulationValue" Value="18"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="170"/>
+      <Property Name="Width" Value="105"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_2">
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[FrameHellgr1Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Height" Value="45"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="15"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Abluft]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="76"/>
+      <Property Name="Width" Value="105"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_2">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="110"/>
+      <Property Name="EndY" Value="91"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="StartX" Value="25"/>
+      <Property Name="StartY" Value="91"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Abluft]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_1">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial8pxBold]"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="Height" Value="15"/>
+      <Property Name="Left" Value="15"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Abluft]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="19"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="77"/>
+      <Property Name="Width" Value="105"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_1">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="BackColor" Value="241"/>
+      <Property Name="Border" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial8px]"/>
+      <Property Name="Height" Value="10"/>
+      <Property Name="Left" Value="65"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="21"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Abluft]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="94"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiSensoren.AbluftTemp]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="35"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_2">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="BackColor" Value="241"/>
+      <Property Name="Border" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial8px]"/>
+      <Property Name="Height" Value="10"/>
+      <Property Name="Left" Value="65"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="100"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Abluft]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="106"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiSensoren.AbluftFeuchte]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="35"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_3">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[PNG_TempFeuchte_2]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="22"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="37"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Abluft]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="94"/>
+      <Property Name="Width" Value="19"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_12">
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[FrameHellgr1Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Height" Value="45"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="134"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Abluft]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="76"/>
+      <Property Name="Width" Value="105"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_4">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="228"/>
+      <Property Name="EndY" Value="91"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="StartX" Value="143"/>
+      <Property Name="StartY" Value="91"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Abluft]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_6">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial8pxBold]"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="Height" Value="15"/>
+      <Property Name="Left" Value="134"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Abluft]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+      <Property Name="TextIndexOffset" Value="29"/>
+      <Property Name="TextSource" Value="SingleText"/>
+      <Property Name="Top" Value="77"/>
+      <Property Name="Width" Value="105"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_3">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="BackColor" Value="241"/>
+      <Property Name="Border" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial8px]"/>
+      <Property Name="Height" Value="10"/>
+      <Property Name="Left" Value="186"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="21"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Abluft]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="94"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiSensoren.AbluftTemp]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="35"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_6">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="BackColor" Value="241"/>
+      <Property Name="Border" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial8px]"/>
+      <Property Name="Height" Value="10"/>
+      <Property Name="Left" Value="186"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="100"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Abluft]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="106"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiSensoren.AbluftFeuchte]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="35"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_13">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[PNG_TempFeuchte_2]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="22"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="156"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiVisibility.Allgemein.Abluft]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="94"/>
+      <Property Name="Width" Value="19"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_7">
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[FrameHellgr1Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Height" Value="45"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="15"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box1.AnzeigeLaufRestzeit]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="125"/>
+      <Property Name="Width" Value="105"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_19">
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[FrameHellgr2]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="15"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box1.StatusfeldInaktiv]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="37"/>
+      <Property Name="Width" Value="105"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_18">
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[FrameOhneGelb]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="15"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box1.StatusfeldAktiv]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="37"/>
+      <Property Name="Width" Value="105"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_9">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box1.FarbeStatustext]"/>
+      <Property Name="ColorMap" Value="Source[local].ColorMap[Textfarbe]"/>
+      <Property Name="ColorMapIndexOffset" Value="0"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial8pxBold]"/>
+      <Property Name="ForeColor" Value="241"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box1.Statustext]"/>
+      <Property Name="Left" Value="15"/>
+      <Property Name="SimulationIndex" Value="7"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[TXT_Status]"/>
+      <Property Name="TextIndexOffset" Value="0"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="37"/>
+      <Property Name="Width" Value="105"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_14">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Bottom"/>
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[BMG_TrockengutMittel]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="45"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box2.Trockengut]"/>
+      <Property Name="Left" Value="134"/>
+      <Property Name="SimulationValue" Value="21"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="170"/>
+      <Property Name="Width" Value="105"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_20">
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[FrameHellgr2Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="134"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box2.StatusfeldInaktiv]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="37"/>
+      <Property Name="Width" Value="105"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_21">
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[FrameOhneGelb]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="134"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box2.StatusfeldAktiv]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="37"/>
+      <Property Name="Width" Value="105"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_10">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="ColorDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box2.FarbeStatustext]"/>
+      <Property Name="ColorMap" Value="Source[local].ColorMap[Textfarbe]"/>
+      <Property Name="ColorMapIndexOffset" Value="0"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial8pxBold]"/>
+      <Property Name="ForeColor" Value="241"/>
+      <Property Name="Height" Value="35"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box2.Statustext]"/>
+      <Property Name="Left" Value="134"/>
+      <Property Name="SimulationIndex" Value="24"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[TXT_Status]"/>
+      <Property Name="TextIndexOffset" Value="0"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="37"/>
+      <Property Name="Width" Value="105"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_5">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="113"/>
+      <Property Name="EndY" Value="141"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="StartX" Value="28"/>
+      <Property Name="StartY" Value="141"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box1.AnzeigeLaufRestzeit]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_22">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[PNG_Stoppuhr_2]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="23"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box1.AnzeigeLaufRestzeit]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="146"/>
+      <Property Name="Width" Value="15"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_2">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial8pxBold]"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="Height" Value="15"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box1.TextindexLaufzeit]"/>
+      <Property Name="Left" Value="15"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box1.AnzeigeLaufRestzeit]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[TXT_LaufRestBox]"/>
+      <Property Name="TextIndexOffset" Value="0"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="126"/>
+      <Property Name="Width" Value="105"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_4">
+      <Property Name="BackColor" Value="241"/>
+      <Property Name="Border" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial8px]"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="Left" Value="40"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="999"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box1.AnzeigeLaufRestzeit]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="146"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box1.LaufRestzeitStunden]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="30"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_5">
+      <Property Name="BackColor" Value="241"/>
+      <Property Name="Border" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial8px]"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="Left" Value="76"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="59"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box1.AnzeigeLaufRestzeit]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="146"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box1.LaufRestzeitMinuten]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="32"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_8">
+      <Property Name="BackColor" Value="8"/>
+      <Property Name="Bitmap" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="Border" Value="Source[local].Border[FrameHellgr1Schwarz]"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Height" Value="45"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="134"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box2.AnzeigeLaufRestzeit]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="125"/>
+      <Property Name="Width" Value="105"/>
+    </Control>
+    <Control ClassId="0x0000100D" Name="Line_7">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EndX" Value="228"/>
+      <Property Name="EndY" Value="141"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="StartX" Value="143"/>
+      <Property Name="StartY" Value="141"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box2.AnzeigeLaufRestzeit]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Line]"/>
+    </Control>
+    <Control ClassId="0x00001005" Name="Bitmap_23">
+      <Property Name="Bitmap" Value="Source[local].Bitmap[PNG_Stoppuhr_2]"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="142"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box2.AnzeigeLaufRestzeit]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+      <Property Name="Top" Value="146"/>
+      <Property Name="Width" Value="15"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="Text_3">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial8pxBold]"/>
+      <Property Name="ForeColor" Value="243"/>
+      <Property Name="Height" Value="15"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box2.TextindexLaufzeit]"/>
+      <Property Name="Left" Value="134"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value=""/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box2.AnzeigeLaufRestzeit]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[TXT_LaufRestBox]"/>
+      <Property Name="TextIndexOffset" Value="0"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="126"/>
+      <Property Name="Width" Value="105"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_9">
+      <Property Name="BackColor" Value="241"/>
+      <Property Name="Border" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial8px]"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="Left" Value="159"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="999"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box2.AnzeigeLaufRestzeit]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="146"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box2.LaufRestzeitStunden]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="30"/>
+    </Control>
+    <Control ClassId="0x00001007" Name="Numeric_10">
+      <Property Name="BackColor" Value="241"/>
+      <Property Name="Border" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial8px]"/>
+      <Property Name="Height" Value="18"/>
+      <Property Name="Left" Value="196"/>
+      <Property Name="MaxDatapoint" Value="None"/>
+      <Property Name="MaxValue" Value="None"/>
+      <Property Name="MinDatapoint" Value="None"/>
+      <Property Name="MinValue" Value="None"/>
+      <Property Name="SimulationValue" Value="59"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box2.AnzeigeLaufRestzeit]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+      <Property Name="TeachDatapoint" Value="None"/>
+      <Property Name="Top" Value="146"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiStatus.Box2.LaufRestzeitMinuten]"/>
+      <Property Name="ValueMode" Value="Standard"/>
+      <Property Name="Width" Value="32"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="HotSpot_1">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_119]"/>
+      <Property Name="Height" Value="215"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="10"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+      <Property Name="Top" Value="7"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_119]"/>
+      <Property Name="Width" Value="115"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="HotSpot_2">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_264]"/>
+      <Property Name="Height" Value="215"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="129"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
+      <Property Name="Top" Value="7"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_264]"/>
+      <Property Name="Width" Value="115"/>
+    </Control>
+  </Controls>
+  <KeyMapping>
+    <VirtualKey Name="%embVirtualKey_119">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiButtons.showBox1]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+    <VirtualKey Name="%embVirtualKey_264">
+      <Property Name="Description" Value=""/>
+      <Property Name="VirtualKey_LED" Value="False"/>
+      <KeyActions>
+        <KeyAction ClassId="0x00000161">
+          <Property Name="CompletionDatapoint" Value="None"/>
+          <Property Name="CompletionValue" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Locking" Value="Never"/>
+          <Property Name="Name" Value="Action_0"/>
+          <Property Name="SetValue" Value="1"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiButtons.showBox2]"/>
+        </KeyAction>
+      </KeyActions>
+    </VirtualKey>
+  </KeyMapping>
+</Layer>

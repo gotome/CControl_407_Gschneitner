@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <Kanaldruck ReferenceString="Source[local].TrendData[Kanaldruck]">
+      <Connection>
+         <Property ReferenceString="Source[local].TrendData[Kanaldruck].Property[TrendValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.Trendkurven.Kanaldruck]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </Kanaldruck>
+</VCXReferenceList>

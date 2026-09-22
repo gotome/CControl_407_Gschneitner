@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.LascoBoxen" AppMod="">
+	<Vars>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="memcpy" Lib="asstring">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbRestzeit.st">
+				<Pos L="20" C="5" PS="Ln:20, Col:5"/>
+				<Pos L="78" C="5" PS="Ln:78, Col:5"/>
+			</File>
+		</Func>
+		<Func Name="memcmp" Lib="asstring">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbRestzeit.st">
+				<Pos L="15" C="21" PS="Ln:15, Col:21"/>
+				<Pos L="73" C="21" PS="Ln:73, Col:21"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

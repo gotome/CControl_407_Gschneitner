@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <_820_TEST_Klappen01 ReferenceString="Source[local].Page[_820_TEST_Klappen01]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_820_TEST_Klappen01].Layer[Default].VirtualKey[%embVirtualKey_129].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalOut.doBrandschutzklappeAuf]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_820_TEST_Klappen01].Layer[Default].VirtualKey[%embVirtualKey_96].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalOut.doUmluftklappe2Freigabe]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_820_TEST_Klappen01].Layer[Default].VirtualKey[%embVirtualKey_94].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalOut.doUmluftklappe1Freigabe]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_820_TEST_Klappen01].Layer[Default].Control[Text_7].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalIn.diUmschaltklappe1Offen]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_820_TEST_Klappen01].Layer[Default].Control[Text_8].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalIn.diUmschaltklappe1Geschl]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_820_TEST_Klappen01].Layer[Default].Control[Text_9].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalIn.diUmschaltklappe2Offen]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_820_TEST_Klappen01].Layer[Default].Control[Text_10].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalIn.diUmschaltklappe2Geschl]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+   </_820_TEST_Klappen01>
+</VCXReferenceList>

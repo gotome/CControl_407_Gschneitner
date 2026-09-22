@@ -1,0 +1,8 @@
+{
+  global:
+    fbEntfOelsumpfheiz;
+    fbEntfKompressor;
+    fbEntfFremd;
+  local:
+    *;
+ };

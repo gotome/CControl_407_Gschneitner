@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Crossref Scope="CSV.Library.CSV" AppMod="">
+	<Vars>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="memset" Lib="asstring">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\Library\CSV\CSV_QM_timestamp.ab">
+				<Pos L="30" C="3" PS="Ln:30, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="memcpy" Lib="asstring">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\Library\CSV\CSV_QM_timestamp.ab">
+				<Pos L="51" C="6" PS="Ln:51, Col:6"/>
+				<Pos L="55" C="6" PS="Ln:55, Col:6"/>
+			</File>
+		</Func>
+		<Func Name="strcat" Lib="asstring">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\Library\CSV\CSV_QM_timestamp.ab">
+				<Pos L="42" C="6" PS="Ln:42, Col:6"/>
+				<Pos L="43" C="6" PS="Ln:43, Col:6"/>
+				<Pos L="44" C="6" PS="Ln:44, Col:6"/>
+				<Pos L="45" C="6" PS="Ln:45, Col:6"/>
+				<Pos L="46" C="6" PS="Ln:46, Col:6"/>
+				<Pos L="47" C="6" PS="Ln:47, Col:6"/>
+				<Pos L="48" C="6" PS="Ln:48, Col:6"/>
+				<Pos L="49" C="6" PS="Ln:49, Col:6"/>
+			</File>
+		</Func>
+		<Func Name="strcpy" Lib="asstring">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\Library\CSV\CSV_QM_timestamp.ab">
+				<Pos L="41" C="6" PS="Ln:41, Col:6"/>
+			</File>
+		</Func>
+		<Func Name="CSV_itoa" Lib="CSV">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\Library\CSV\CSV_QM_timestamp.ab">
+				<Pos L="34" C="6" PS="Ln:34, Col:6"/>
+				<Pos L="35" C="6" PS="Ln:35, Col:6"/>
+				<Pos L="36" C="6" PS="Ln:36, Col:6"/>
+				<Pos L="38" C="6" PS="Ln:38, Col:6"/>
+				<Pos L="39" C="6" PS="Ln:39, Col:6"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

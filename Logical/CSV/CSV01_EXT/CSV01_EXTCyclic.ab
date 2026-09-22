@@ -1,0 +1,174 @@
+
+
+
+PROGRAM _CYCLIC
+ 
+;+---------------------------------------------------------------------------+
+;¦   TICK                     Zeit-TICK generieren                   TICK    ¦
+;+---------------------------------------------------------------------------+
+
+	RTC_gettime_Status = RTC_gettime(ADR(CSV_Uhr))   
+
+	StdTick  = 0
+	MinTick  = 0
+	SekTick  = 0
+	TagTick  = 0
+	MonTick  = 0
+	JahrTick = 0
+	IF CSV_Uhr.hour <> CSV_Uhr_Sp.hour THEN
+		StdTick = 1
+	ENDIF	 
+	IF CSV_Uhr.minute <> CSV_Uhr_Sp.minute THEN
+		MinTick = 1
+	ENDIF	 
+	IF CSV_Uhr.second <> CSV_Uhr_Sp.second THEN
+		SekTick = 1
+	ENDIF	 
+	IF CSV_Uhr.day <> CSV_Uhr_Sp.day THEN
+		TagTick = 1
+	ENDIF	 
+	IF CSV_Uhr.month <> CSV_Uhr_Sp.month THEN
+		MonTick = 1
+	ENDIF	 
+	IF CSV_Uhr.year <> CSV_Uhr_Sp.year THEN
+		JahrTick = 1
+	ENDIF	 
+	memcpy(ADR(CSV_Uhr_Sp), ADR(CSV_Uhr), SIZEOF(CSV_Uhr))
+
+	;+---------------------------------------------------------------------------+
+	;¦   SW                 Externe Steuervariablen anhängen               SW    ¦
+	;+---------------------------------------------------------------------------+
+
+	; EXT_01) Aufbau der CSV-Datei (Kopf-Daten) :
+	; ===========================================
+	; Grübl-Reporting: Für diese Auswertung sind alle Kopfzeilen und langer Zeitstempel erforderlich !!
+	; QM-Heizwerke   : Für diese Auswertung sind nur 4 Kopfzeilen und kurzer Zeitstempel erforderlich !!
+
+	CSV01.SW.Gruebl_Reporting_T =  1
+	CSV01.SW.QM_HeizW_T         =  0
+  	
+	; EXT_02) Fehler-Quittierung (CSV01.SW.F_Quitt_T)
+	; ==========================
+	CSV01.SW.SPERRE_T = 0
+	
+	//Aktuelle Schritte Copy & Save sowie Anzahl Files und Einträge an Visustruktur übergeben
+	//***************************************************************************************
+	hmiDatenaufzeichnung.AnzahlEintraegeInFile	= CSV01.IW.RPS_FileWrite_OK_Z
+	hmiDatenaufzeichnung.AnzahlFiles			= CSV01.IW.RPS_DirInfo_FileNum
+	hmiDatenaufzeichnung.CopyStepNr				= CSV01.IW.RPS_CPYDEL_STEP_Nr
+	hmiDatenaufzeichnung.SaveStepNr				= CSV01.IW.RPS_SAVE_STEP_Nr
+
+	//Taste auf USB kopieren mit Visustruktur verbinden
+	//**************************************************************
+	CSV01.SW.EXT_DirCopy_HAND_T	= hmiButtons.DatenaufzeichnungAufUsb
+	
+	
+	; EXT_03) Fehler-Quittierung (CSV01.SW.F_Quitt_T)
+	; ==========================
+	IF (hmiButtons.QuitFehler OR CSV01.SW.SPERRE_T OR TagTick = 1) OR (InitOK = 0) THEN
+		CSV01.SW.F_Quitt_T = 1
+	ENDIF
+  
+	; EXT_04) Befehl: "KOPF-WRITE" (CSV01.IW.KOPF_WRITE_T)
+	; ============================ 
+	; -> Neue Datei wird angelegt und die Kopf-Daten geschrieben 
+	IF CSV01.SW.SPERRE_T = 1 THEN
+		CSV01.SW.KOPF_WRITE_T = 0
+	ELSE IF (CSV01.SW.QM_HeizW_T = 1) AND (CSV_Uhr.month = CSV01.SW.QM_HeizW_BetrJahr_Mon) AND (MonTick = 1) THEN
+		CSV01.SW.KOPF_WRITE_T = 1	; -> wird bei Ausführung sofort zurückgesetzt
+	ELSE IF (CSV01.SW.QM_HeizW_T = 0) AND (MonTick = 1) THEN
+		CSV01.SW.KOPF_WRITE_T = 1	; -> wird bei Ausführung sofort zurückgesetzt
+	ENDIF	 
+
+	; EXT_05) Befehl: "DATA-WRITE" (CSV01.SW.DATA_WRITE_T)
+	; ============================ 
+	; -> Aktuelle Datei wird geöffnet und ein komletter Datensatz (Zeile) am Ende angehängt 
+	IF CSV01.SW.SPERRE_T = 1 THEN
+		CSV01.SW.DATA_WRITE_T = 0
+	ELSE IF (CSV01.SW.QM_HeizW_T = 1) AND ((CSV_Uhr.month = 1) OR (CSV_Uhr.month = 6)) AND (MinTick = 1) THEN  	; Jänner + Juni in Minuten-Mittelwerte aufzeichnen
+		CSV01.SW.DATA_WRITE_T = 1    ; -> wird bei Ausführung sofort zurückgesetzt
+	ELSE IF (CSV01.SW.QM_HeizW_T = 1) AND (StdTick = 1) THEN														; Rest des Betriebsjahres Stunden-Mittelwerte
+		CSV01.SW.DATA_WRITE_T = 1    ; -> wird bei Ausführung sofort zurückgesetzt
+	ELSE IF (CSV01.SW.QM_HeizW_T = 0) AND (MinTick = 1) THEN
+		CSV01.SW.DATA_WRITE_T = 1    ; -> wird bei Ausführung sofort zurückgesetzt
+	ENDIF
+  
+	; EXT_06) Befehl: "RPS-AUTO-COPY" (CSV01.SW.RPS_COPY_AUTO_T)
+	; =============================== 
+	; -> Wird diese Variable auf "1" gesetzt, so wird das CF-Verzeichnis ausgelesen, die älteste Datei 
+	;    auf den Zielspeicher am PC kopiert (überschreibend !) und danach gelöscht.
+	;    Dieser Vorgang wird so lange wiederholt, bis nur mehr eine Datei am CF vorhanden ist = aktuelle Datei.
+	;    Diese wird nach jedem neuen Datensatz auf den PC kopiert jedoch nicht gelöscht !
+	;    ACHTUNG: Die Dauer des Kopiervorganges verlängert sich mit der Größe der Datei - 3MB File von CF auf PC braucht ca. 6sek !
+	;    Während des Kopiervorganges kann nicht in die Datei geschrieben werden - Alle in dieser Zeit 
+	;    anfallenden Datensätze werden lokal zwischengepuffert (bis max. 60kByte) und nach dem Kopiervorgang 
+	;    in die aktuelle Datei geschrieben.
+  
+	CSV01.SW.RPS_COPY_AUTO_T = CSV01.SW.RPS_COPY_AUTO_T
+
+	; EXT_07) Befehl: "RPS-AUTO-MEMORY" (CSV01.SW.RPS_MEMORY_AUTO_T, CSV01.SW.RPS_Mem_frei_przN)
+	; ================================= 
+	; -> Wird diese Variable auf "1" gesetzt, so wird bei Unterschreitung des freien Speichers (Grenzwert einstellbar)
+	;    die älteste Datei am CF automatisch gelöscht.
+ 
+	CSV01.SW.RPS_MEMORY_AUTO_T = 1
+	CSV01.SW.RPS_Mem_frei_przN = 30.0	;[%] Grenzwert "Speicher-Reserve"
+
+	; EXT_08) Befehle: "HAND"  
+	; ======================= 
+	CSV01.SW.PC_DirCopy_HAND_T        = CSV01.SW.PC_DirCopy_HAND_T				; kopiert überschreibend das gesamte Verzeichniss vom CF auf den Zielspeicher des im Datenmodul angegebenen Device (PC) - vorhandene Files werden überschrieben
+	CSV01.SW.PC_FileCopy_alt_HAND_T   = CSV01.SW.PC_FileCopy_alt_HAND_T 		; kopiert überschreibend das älteste File auf den Zielspeicher des im Datenmodul angegebenen Device (PC) - vorhandene Files werden überschrieben 
+	CSV01.SW.PC_FileCopy_neu_HAND_T   = CSV01.SW.PC_FileCopy_neu_HAND_T 		; kopiert überschreibend das jüngste (aktuellen) File auf den Zielspeicher des im Datenmodul angegebenen Device (PC) - vorhandene Files werden überschrieben 
+
+	CSV01.SW.EXT_DirCopy_HAND_T       = CSV01.SW.EXT_DirCopy_HAND_T				; kopiert überschreibend das gesamte Verzeichniss vom CF auf den Zielspeicher des im Datenmodul angegebenen Device (z.B.: USB) - vorhandene Files werden überschrieben
+	CSV01.SW.EXT_FileCopy_alt_HAND_T  = CSV01.SW.EXT_FileCopy_alt_HAND_T 		; kopiert überschreibend das älteste File auf den Zielspeicher des im Datenmodul angegebenen Device (z.B.: USB) - vorhandene Files werden überschrieben 
+	CSV01.SW.EXT_FileCopy_neu_HAND_T  = CSV01.SW.EXT_FileCopy_neu_HAND_T 		; kopiert überschreibend das jüngste (aktuellen) File auf den Zielspeicher des im Datenmodul angegebenen Device (z.B.: USB) - vorhandene Files werden überschrieben 
+
+	TON_10ms(hmiButtons.DatenaufzeichnungLoeschen, 2*100, M_DATA_CSV_CLEAR_ALL_T, ET)
+	IF EDGEPOS(M_DATA_CSV_CLEAR_ALL_T) = 1 THEN
+		CSV01.SW.RPS_DirDeleteEx_HAND_T = 1 									; löscht das gesamte Verzeichniss (Ordner + Files !) am CF - kann nicht rückgängig gemacht werden !
+	ENDIF	 
+	CSV01.SW.RPS_FileDelete_alt_HAND_T = CSV01.SW.RPS_FileDelete_alt_HAND_T 	; löscht den ältesten File am CF
+	CSV01.SW.RPS_FileDelete_neu_HAND_T = CSV01.SW.RPS_FileDelete_neu_HAND_T 	; löscht den jüngsten (aktuellen) File am CF
+
+	;+---------------------------------------------------------------------------+
+	;¦   IW     Infovariablen (Istwerte) für externe Verwendung (Visu)     IW    ¦
+	;+---------------------------------------------------------------------------+
+
+	; IW_01) Fehlerbehandlung :
+	; =========================  
+	CSV01.FE = CSV01.FE								; Fehlerstruktur im Detail
+	CSV01.WA = CSV01.WA 							; Warnungsstrktur im Detail
+	CSV01.IW.SFehler_Nr  = CSV01.IW.SFehler_Nr 		; Fehlerindex in Struktur
+	CSV01.IW.SFehler     = CSV01.IW.SFehler			; Summenfehler
+	CSV01.IW.SWarnung_Nr = CSV01.IW.SWarnung_Nr		; Warnungsindex in Struktur
+	CSV01.IW.SWarnung    = CSV01.IW.SWarnung		; Summenwarnung
+	CSV01.IW.DatObj_Tag_ID_ZeileNr       = CSV01.IW.DatObj_Tag_ID_ZeileNr  			; Zeile im Datenobjekt "CSV01_CFG" deren Tag-ID schon vergeben ist
+	CSV01.IW.DatObj_Tag_Variable_ZeileNr = CSV01.IW.DatObj_Tag_Variable_ZeileNr 	; Zeile im Datenobjekt "CSV01_CFG" in der ein nicht vorhandenes Variablenname angegeben wurde
+	CSV01.IW.DatObj_Tag_Datentyp_ZeileNr = CSV01.IW.DatObj_Tag_Datentyp_ZeileNr		; Zeile im Datenobjekt "CSV01_CFG" in der ein Datentyp falsch od. nicht möglich ist
+	CSV01.IW.DatObj_Tag_MIN_ZeileNr      = CSV01.IW.DatObj_Tag_MIN_ZeileNr   		; Zeile im Datenobjekt "CSV01_CFG" in der eine MIN-Angabe falsch eingegeben wurde
+	CSV01.IW.DatObj_Tag_MAX_ZeileNr      = CSV01.IW.DatObj_Tag_MAX_ZeileNr   		; Zeile im Datenobjekt "CSV01_CFG" in der eine MAX-Angabe falsch eingegeben wurde
+  
+	
+	
+	; IW_01) File-/Ordnernamen :
+	; ==========================  
+	CSV01.IW.File_Name            = CSV01.IW.File_Name   							; STRING[100] RPS-Ebene: Aktueller Filenanme
+	CSV01.IW.RPS_File_Name        = CSV01.IW.RPS_File_Name   						; STRING[200] RPS-Ebene: Aktueller Zielpfad incl. Filenanme
+
+	CSV01.IW.PC_Zielpfad          = CSV01.IW.PC_Zielpfad   						; STRING[100] PC-Ebene  : Aktueller Zielpfad ohne Filenanme
+	CSV01.IW.EXT_Zielpfad         = CSV01.IW.EXT_Zielpfad   						; STRING[100] EXT-Device: Aktueller Zielpfad ohne Filenanme
+	CSV01.IW.DirRead_FileName_neu = CSV01.IW.DirRead_FileName_neu  				; STRING[260] RPS-Ebene : Name des neusten (aktuellen) Files im Verzeichnis
+	CSV01.IW.DirRead_FileName_alt = CSV01.IW.DirRead_FileName_alt	    			; STRING[260] RPS-Ebene : Name des ältesten Files im Verzeichnis
+
+	; IW_01) Speicher :
+	; =================  
+	CSV01.IW.RPS_Mem_gesamt   = CSV01.IW.RPS_Mem_gesamt	; RPS-Ebene: Gesamter Speicher CF [Bytes]
+	CSV01.IW.RPS_Mem_frei     = CSV01.IW.RPS_Mem_frei		; RPS-Ebene: Freier Speicher CF   [Bytes]
+	CSV01.IW.RPS_Mem_frei_prz = CSV01.IW.RPS_Mem_frei_prz	; RPS-Ebene: Freier Speicher CF   [%]
+  
+
+    
+	InitOK = 1
+
+END_PROGRAM

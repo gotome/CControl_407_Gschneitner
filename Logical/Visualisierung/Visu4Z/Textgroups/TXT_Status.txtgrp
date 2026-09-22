@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXT_Status">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="63"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="283387" Value="Not available"/>
+    <Text ID="283388" Value="Standstill"/>
+    <Text ID="283389" Value="Test operation"/>
+    <Text ID="283390" Value="Continuous"/>
+    <Text ID="283391" Value="Interval mode run"/>
+    <Text ID="283392" Value="Re-drying pause"/>
+    <Text ID="283393" Value="Ready"/>
+    <Text ID="283394" Value="Failure"/>
+    <Text ID="283395" Value="Active"/>
+    <Text ID="283396" Value="Not active"/>
+    <Text ID="283397" Value="Open"/>
+    <Text ID="283398" Value="Closed"/>
+    <Text ID="283399" Value="No clearance"/>
+    <Text ID="283400" Value="Unknown"/>
+    <Text ID="283401" Value="In motion"/>
+    <Text ID="283402" Value="Interval mode pause"/>
+    <Text ID="283403" Value="Re-drying run"/>
+    <Text ID="283404" Value="Defrosting"/>
+    <Text ID="283405" Value="In operation"/>
+    <Text ID="283406" Value="Cooldown phase"/>
+    <Text ID="283407" Value="Standby"/>
+    <Text ID="283408" Value="Fresh-air"/>
+    <Text ID="283409" Value="Roof-air"/>
+    <Text ID="283410" Value="Recirculation"/>
+    <Text ID="283411" Value="Continuous (paused)"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="283387" Value="Nicht verfügbar"/>
+    <Text ID="283388" Value="Stillstand"/>
+    <Text ID="283389" Value="Testbetrieb"/>
+    <Text ID="283390" Value="Dauerbetrieb"/>
+    <Text ID="283391" Value="Intervallbetrieb Lauf"/>
+    <Text ID="283392" Value="Nachtrocknung Pause"/>
+    <Text ID="283393" Value="Bereit"/>
+    <Text ID="283394" Value="Störung"/>
+    <Text ID="283395" Value="Aktiv"/>
+    <Text ID="283396" Value="Nicht aktiv"/>
+    <Text ID="283397" Value="Offen"/>
+    <Text ID="283398" Value="Geschlossen"/>
+    <Text ID="283399" Value="Nicht freigegeben"/>
+    <Text ID="283400" Value="Unbekannt"/>
+    <Text ID="283401" Value="In Bewegung"/>
+    <Text ID="283402" Value="Intervallbetrieb Pause"/>
+    <Text ID="283403" Value="Nachtrocknung Lauf"/>
+    <Text ID="283404" Value="Abtauung"/>
+    <Text ID="283405" Value="Anlage in Betrieb"/>
+    <Text ID="283406" Value="Auskühlphase"/>
+    <Text ID="283407" Value="Standby"/>
+    <Text ID="283408" Value="Frischluft"/>
+    <Text ID="283409" Value="Dachluft"/>
+    <Text ID="283410" Value="Umluft"/>
+    <Text ID="283411" Value="Dauerbetrieb (pausiert)"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="283387" Value="Non disponible"/>
+    <Text ID="283388" Value="Au repos"/>
+    <Text ID="283389" Value="Marche de test"/>
+    <Text ID="283390" Value="Marche continue"/>
+    <Text ID="283391" Value="Intervalle\n(en marche)"/>
+    <Text ID="283392" Value="Post-séchage\n(en pause)"/>
+    <Text ID="283393" Value="Prêt"/>
+    <Text ID="283394" Value="Défaut"/>
+    <Text ID="283395" Value="Activé"/>
+    <Text ID="283396" Value="Inactif"/>
+    <Text ID="283397" Value="Ouvert"/>
+    <Text ID="283398" Value="Fermé"/>
+    <Text ID="283399" Value="Pas d'autorisation"/>
+    <Text ID="283400" Value="Inconnu"/>
+    <Text ID="283401" Value="En mouvement"/>
+    <Text ID="283402" Value="Intervalle\n(en pause)"/>
+    <Text ID="283403" Value="Post-séchage\n(en marche)"/>
+    <Text ID="283404" Value="Dégivrage"/>
+    <Text ID="283405" Value="En marche"/>
+    <Text ID="283406" Value="Phase refroidissement"/>
+    <Text ID="283407" Value="Au repos"/>
+    <Text ID="283408" Value="Air neuf"/>
+    <Text ID="283409" Value="Air toiture"/>
+    <Text ID="283410" Value="Air recyclé"/>
+    <Text ID="283411" Value="Marche continu\n(en pause)"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-BE">
+    <Text ID="283387" Value="Niet beschikbaar"/>
+    <Text ID="283388" Value="Stilstand"/>
+    <Text ID="283389" Value="Test werking"/>
+    <Text ID="283390" Value=""/>
+    <Text ID="283391" Value=""/>
+    <Text ID="283392" Value=""/>
+    <Text ID="283393" Value="Klaar"/>
+    <Text ID="283394" Value="Storing"/>
+    <Text ID="283395" Value="Actief"/>
+    <Text ID="283396" Value="Niet actief"/>
+    <Text ID="283397" Value="Open"/>
+    <Text ID="283398" Value="Gesloten"/>
+    <Text ID="283399" Value="Geen toestemming"/>
+    <Text ID="283400" Value="Onbekend"/>
+    <Text ID="283401" Value="In beweging"/>
+    <Text ID="283402" Value=""/>
+    <Text ID="283403" Value=""/>
+    <Text ID="283404" Value=""/>
+    <Text ID="283405" Value=""/>
+    <Text ID="283406" Value=""/>
+    <Text ID="283407" Value=""/>
+    <Text ID="283408" Value=""/>
+    <Text ID="283409" Value=""/>
+    <Text ID="283410" Value=""/>
+    <Text ID="283411" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="283387" Value=""/>
+    <Text ID="283388" Value=""/>
+    <Text ID="283389" Value=""/>
+    <Text ID="283390" Value=""/>
+    <Text ID="283391" Value=""/>
+    <Text ID="283392" Value=""/>
+    <Text ID="283393" Value=""/>
+    <Text ID="283394" Value=""/>
+    <Text ID="283395" Value=""/>
+    <Text ID="283396" Value=""/>
+    <Text ID="283397" Value=""/>
+    <Text ID="283398" Value=""/>
+    <Text ID="283399" Value=""/>
+    <Text ID="283400" Value=""/>
+    <Text ID="283401" Value=""/>
+    <Text ID="283402" Value=""/>
+    <Text ID="283403" Value=""/>
+    <Text ID="283404" Value=""/>
+    <Text ID="283405" Value=""/>
+    <Text ID="283406" Value=""/>
+    <Text ID="283407" Value=""/>
+    <Text ID="283408" Value=""/>
+    <Text ID="283409" Value=""/>
+    <Text ID="283410" Value=""/>
+    <Text ID="283411" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sl">
+    <Text ID="283387" Value="Ni na voljo"/>
+    <Text ID="283388" Value="Mirovanje"/>
+    <Text ID="283389" Value="Testi delovanje"/>
+    <Text ID="283390" Value="Neprekinjeno delovanje"/>
+    <Text ID="283391" Value="Intervalno delovanje – v teku"/>
+    <Text ID="283392" Value="Naknadno sušenje – premor"/>
+    <Text ID="283393" Value="Pripravljeno"/>
+    <Text ID="283394" Value="Motnja"/>
+    <Text ID="283395" Value="Aktivno"/>
+    <Text ID="283396" Value="Neaktivno"/>
+    <Text ID="283397" Value="Odprto"/>
+    <Text ID="283398" Value="Zaprto"/>
+    <Text ID="283399" Value="Ni dovoljenja"/>
+    <Text ID="283400" Value="Neznano"/>
+    <Text ID="283401" Value="Se premika"/>
+    <Text ID="283402" Value="Intervalno delovanje – premor"/>
+    <Text ID="283403" Value="Naknadno sušenje – v teku"/>
+    <Text ID="283404" Value="Odmrzovanje"/>
+    <Text ID="283405" Value="Naprava obratuje"/>
+    <Text ID="283406" Value="Faza ohlajenja"/>
+    <Text ID="283407" Value="V pripravljenosti"/>
+    <Text ID="283408" Value="Sveži zrak"/>
+    <Text ID="283409" Value="Zrak s strehe"/>
+    <Text ID="283410" Value="Cirkulacijski zrak"/>
+    <Text ID="283411" Value="Neprekinjeno delovanje (začasno ustavljeno)"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="283387" Value="0"/>
+    <Index ID="283388" Value="1"/>
+    <Index ID="283389" Value="2"/>
+    <Index ID="283390" Value="3"/>
+    <Index ID="283391" Value="4"/>
+    <Index ID="283392" Value="7"/>
+    <Index ID="283393" Value="8"/>
+    <Index ID="283394" Value="9"/>
+    <Index ID="283395" Value="10"/>
+    <Index ID="283396" Value="11"/>
+    <Index ID="283397" Value="12"/>
+    <Index ID="283398" Value="13"/>
+    <Index ID="283399" Value="14"/>
+    <Index ID="283400" Value="15"/>
+    <Index ID="283401" Value="16"/>
+    <Index ID="283402" Value="5"/>
+    <Index ID="283403" Value="6"/>
+    <Index ID="283404" Value="17"/>
+    <Index ID="283405" Value="18"/>
+    <Index ID="283406" Value="19"/>
+    <Index ID="283407" Value="20"/>
+    <Index ID="283408" Value="21"/>
+    <Index ID="283409" Value="22"/>
+    <Index ID="283410" Value="23"/>
+    <Index ID="283411" Value="24"/>
+  </IndexMap>
+</TextGroup>

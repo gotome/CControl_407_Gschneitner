@@ -1,0 +1,10 @@
+VAR
+	apModulEnergie : modAP3131;
+	fbLascoZdxx_1 : fbLascoZdxx;
+	minTick : BOOL;
+	loc_EnergieMinute : REAL;
+	MEM_EnergieGesamt : REAL;
+	loc_LeistungAkt : REAL;
+	loc_EnergieSchein : REAL;
+	loc_EnergieGesamt : REAL;
+END_VAR

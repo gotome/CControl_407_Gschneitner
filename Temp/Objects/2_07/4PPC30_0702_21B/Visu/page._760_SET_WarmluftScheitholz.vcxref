@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <_760_SET_WarmluftScheitholz ReferenceString="Source[local].Page[_760_SET_WarmluftScheitholz]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_760_SET_WarmluftScheitholz].Layer[Default].Control[Numeric_4].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Warmluftofen.VerzBetriebsmeldung]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_760_SET_WarmluftScheitholz].Layer[Default].Control[Numeric_6].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Warmluftofen.Auskuehlzeit]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_760_SET_WarmluftScheitholz].Layer[Default].Control[Numeric_8].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Warmluftofen.VerzWetterwechsel]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_760_SET_WarmluftScheitholz].Layer[Default].Control[Numeric_7].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Scheitholzofen.Auskuehlzeit]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_760_SET_WarmluftScheitholz].Layer[Default].Control[Numeric_9].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Warmluftofen.Hysterese]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </_760_SET_WarmluftScheitholz>
+</VCXReferenceList>

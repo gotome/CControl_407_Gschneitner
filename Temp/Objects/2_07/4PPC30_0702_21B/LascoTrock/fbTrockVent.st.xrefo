@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.LascoTrock" AppMod="">
+	<Vars>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+		<Enum Name="WARTEN_FBTROCK" Scope="Global" Type="enumStepTrockVent">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoTrock\fbTrockVent.st">
+				<Pos L="23" C="4" PS="Ln:23, Col:4" A="R"/>
+				<Pos L="132" C="18" PS="Ln:132, Col:18" A="R"/>
+				<Pos L="138" C="18" PS="Ln:138, Col:18" A="R"/>
+				<Pos L="233" C="21" PS="Ln:233, Col:21" A="R"/>
+				<Pos L="442" C="18" PS="Ln:442, Col:18" A="R"/>
+				<Pos L="479" C="19" PS="Ln:479, Col:19" A="R"/>
+				<Pos L="480" C="19" PS="Ln:480, Col:19" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="VENT_EIN_FBTROCK" Scope="Global" Type="enumStepTrockVent">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoTrock\fbTrockVent.st">
+				<Pos L="58" C="4" PS="Ln:58, Col:4" A="R"/>
+				<Pos L="229" C="21" PS="Ln:229, Col:21" A="R"/>
+				<Pos L="298" C="19" PS="Ln:298, Col:19" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="VENT_AUS_FBTROCK" Scope="Global" Type="enumStepTrockVent">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoTrock\fbTrockVent.st">
+				<Pos L="88" C="21" PS="Ln:88, Col:21" A="R"/>
+				<Pos L="105" C="4" PS="Ln:105, Col:4" A="R"/>
+				<Pos L="332" C="22" PS="Ln:332, Col:22" A="R"/>
+				<Pos L="388" C="22" PS="Ln:388, Col:22" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="KLAPPEN_AUF_FBTROCK" Scope="Global" Type="enumStepTrockVent">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoTrock\fbTrockVent.st">
+				<Pos L="49" C="18" PS="Ln:49, Col:18" A="R"/>
+				<Pos L="92" C="21" PS="Ln:92, Col:21" A="R"/>
+				<Pos L="146" C="4" PS="Ln:146, Col:4" A="R"/>
+				<Pos L="225" C="21" PS="Ln:225, Col:21" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="KLAPPEN_ZU_FBTROCK" Scope="Global" Type="enumStepTrockVent">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoTrock\fbTrockVent.st">
+				<Pos L="46" C="18" PS="Ln:46, Col:18" A="R"/>
+				<Pos L="135" C="18" PS="Ln:135, Col:18" A="R"/>
+				<Pos L="179" C="21" PS="Ln:179, Col:21" A="R"/>
+				<Pos L="191" C="4" PS="Ln:191, Col:4" A="R"/>
+				<Pos L="274" C="22" PS="Ln:274, Col:22" A="R"/>
+				<Pos L="401" C="22" PS="Ln:401, Col:22" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="LA_EIN_VORBEREITUNG_FBTROCK" Scope="Global" Type="enumStepTrockVent">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoTrock\fbTrockVent.st">
+				<Pos L="183" C="21" PS="Ln:183, Col:21" A="R"/>
+				<Pos L="239" C="4" PS="Ln:239, Col:4" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="LA_EIN_FBTROCK" Scope="Global" Type="enumStepTrockVent">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoTrock\fbTrockVent.st">
+				<Pos L="278" C="22" PS="Ln:278, Col:22" A="R"/>
+				<Pos L="286" C="4" PS="Ln:286, Col:4" A="R"/>
+				<Pos L="336" C="22" PS="Ln:336, Col:22" A="R"/>
+				<Pos L="407" C="22" PS="Ln:407, Col:22" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="LA_AUS_VORBEREITUNG_FBTROCK" Scope="Global" Type="enumStepTrockVent">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoTrock\fbTrockVent.st">
+				<Pos L="96" C="21" PS="Ln:96, Col:21" A="R"/>
+				<Pos L="303" C="4" PS="Ln:303, Col:4" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="MESSUNG_FBTROCK" Scope="Global" Type="enumStepTrockVent">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoTrock\fbTrockVent.st">
+				<Pos L="340" C="22" PS="Ln:340, Col:22" A="R"/>
+				<Pos L="346" C="4" PS="Ln:346, Col:4" A="R"/>
+			</File>
+		</Enum>
+		<Enum Name="TARIFABSCHALTUNG_FBTROCK" Scope="Global" Type="enumStepTrockVent">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoTrock\fbTrockVent.st">
+				<Pos L="43" C="18" PS="Ln:43, Col:18" A="R"/>
+				<Pos L="84" C="21" PS="Ln:84, Col:21" A="R"/>
+				<Pos L="129" C="18" PS="Ln:129, Col:18" A="R"/>
+				<Pos L="175" C="21" PS="Ln:175, Col:21" A="R"/>
+				<Pos L="221" C="21" PS="Ln:221, Col:21" A="R"/>
+				<Pos L="270" C="22" PS="Ln:270, Col:22" A="R"/>
+				<Pos L="328" C="22" PS="Ln:328, Col:22" A="R"/>
+				<Pos L="382" C="22" PS="Ln:382, Col:22" A="R"/>
+				<Pos L="415" C="4" PS="Ln:415, Col:4" A="R"/>
+			</File>
+		</Enum>
+	</Enums>
+	<Funcs>
+		<Func Name="TON" Lib="standard">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoTrock\fbTrockVent.st">
+				<Pos L="458" C="3" PS="Ln:458, Col:3"/>
+				<Pos L="459" C="3" PS="Ln:459, Col:3"/>
+				<Pos L="460" C="3" PS="Ln:460, Col:3"/>
+				<Pos L="461" C="3" PS="Ln:461, Col:3"/>
+				<Pos L="462" C="3" PS="Ln:462, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="LCRMovAvgFlt" Lib="LoopConR">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoTrock\fbTrockVent.st">
+				<Pos L="454" C="4" PS="Ln:454, Col:4"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

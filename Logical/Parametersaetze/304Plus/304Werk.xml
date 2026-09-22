@@ -1,0 +1,1114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DATA>
+	<Element Name="hmiParameter" Type="PvParameter">
+		<Group ID="hmiParameter">
+			<Group ID="Allgemein">
+				<Property ID="IPAdresse" DataType="STRING" Value="10.0.0.2" />
+				<Property ID="SubnetMask" DataType="STRING" Value="255.255.255.0" />
+				<Property ID="DefaultGateway" DataType="STRING" Value="10.0.0.1" />
+				<Property ID="HostName" DataType="STRING" Value="lasco" />
+				<Property ID="DatumUhrzeitLetzterBetrieb" DataType="DATE_AND_TIME" Value="0" />
+				<Property ID="VerzoegerungWarnungen" DataType="REAL" Value="100" />
+				<Property ID="VerzoegerungFehler" DataType="REAL" Value="10" />
+				<Property ID="StandortHoehe" DataType="REAL" Value="574" />
+				<Property ID="AnsaugflaecheVent" DataType="REAL" Value="2" />
+				<Property ID="VerzoegerungAenderungKlappen" DataType="UDINT" Value="5000" />
+				<Property ID="LoginTimeout" DataType="UDINT" Value="1800" />
+				<Property ID="VerzUmschBetriebsartBoxen" DataType="UDINT" Value="5000" />
+				<Property ID="DisplayTimeout" DataType="INT" Value="1800" />
+				<Property ID="Sprache" DataType="USINT" Value="1" />
+				<Property ID="PasswortschutzAus" DataType="BOOL" Value="false" />
+				<Property ID="AutoLogoutEin" DataType="BOOL" Value="false" />
+				<Property ID="ParameterVorhanden" DataType="BOOL" Value="true" />
+			</Group>
+			<Group ID="Betrieb">
+				<Property ID="BetriebAutoEin" DataType="BOOL" Value="true" />
+			</Group>
+			<Group ID="Ausstattung">
+				<Property ID="Ventilator1" DataType="BOOL" Value="true" />
+				<Property ID="Ventilator2" DataType="BOOL" Value="false" />
+				<Property ID="Entfeuchter" DataType="BOOL" Value="true" />
+				<Property ID="EntfeuchterFremd" DataType="BOOL" Value="false" />
+				<Property ID="Warmluftofen" DataType="BOOL" Value="false" />
+				<Property ID="WarmluftofenBetriebsmldg" DataType="BOOL" Value="false" />
+				<Property ID="WarmluftofenTempVorgabe" DataType="BOOL" Value="false" />
+				<Property ID="Heizregister" DataType="BOOL" Value="false" />
+				<Property ID="HeizregisterDrehzahlvorgabe" DataType="BOOL" Value="false" />
+				<Property ID="Scheitholzofen" DataType="BOOL" Value="false" />
+				<Property ID="Notstromaggregat" DataType="BOOL" Value="false" />
+				<Property ID="Energiemessung" DataType="BOOL" Value="false" />
+				<Property ID="Bypassklappe" DataType="BOOL" Value="false" />
+				<Property ID="Umschaltklappe1" DataType="BOOL" Value="false" />
+				<Property ID="Umschaltklappe2" DataType="BOOL" Value="false" />
+				<Property ID="Brandschutzklappe" DataType="BOOL" Value="false" />
+				<Property ID="Abluftklappe" DataType="BOOL" Value="false" />
+				<Property ID="Abluftventilator" DataType="BOOL" Value="false" />
+				<Property ID="SensorFrischluft" DataType="BOOL" Value="true" />
+				<Property ID="SensorDachluft" DataType="BOOL" Value="false" />
+				<Property ID="SensorTrockenluft" DataType="BOOL" Value="false" />
+				<Property ID="SensorAbluft" DataType="BOOL" Value="false" />
+				<Property ID="SensorLuftgeschwindigkeit" DataType="BOOL" Value="false" />
+				<Property ID="SensorKanaldruck" DataType="BOOL" Value="false" />
+				<Property ID="Box1" DataType="BOOL" Value="true" />
+				<Property ID="Box2" DataType="BOOL" Value="false" />
+				<Property ID="Box3" DataType="BOOL" Value="false" />
+				<Property ID="Box4" DataType="BOOL" Value="false" />
+				<Property ID="Box5" DataType="BOOL" Value="false" />
+				<Property ID="Box6" DataType="BOOL" Value="false" />
+				<Property ID="AlleBoxenklSchliessenWennAus" DataType="BOOL" Value="false" />
+				<Property ID="MehrereBoxenBelueftbar" DataType="BOOL" Value="false" />
+				<Property ID="LuftmngReglerFrischlVent1" DataType="BOOL" Value="false" />
+				<Property ID="LuftmngReglerUmluftVent1" DataType="BOOL" Value="false" />
+				<Property ID="LuftmngReglerFrischlVent2" DataType="BOOL" Value="false" />
+				<Property ID="LuftmngReglerUmluftVent2" DataType="BOOL" Value="false" />
+				<Property ID="EntfeuchterNurImUmluftbetrieb" DataType="BOOL" Value="true" />
+				<Property ID="BeideVentAusBeiUmschBypasskl" DataType="BOOL" Value="false" />
+				<Property ID="BeideVentAusBeiUmschBoxenkl" DataType="BOOL" Value="false" />
+				<Property ID="Vent1AusWennUmschUmluftkl" DataType="BOOL" Value="true" />
+				<Property ID="Vent2AusWennUmschUmluftkl" DataType="BOOL" Value="true" />
+				<Property ID="AbluftklImFrischlbetrImmerOffen" DataType="BOOL" Value="false" />
+				<Property ID="StellungUmluftklappenStillstand" DataType="BOOL" Value="false" />
+				<Property ID="EndlagenVhdUmschaltklappe1" DataType="BOOL" Value="true" />
+				<Property ID="EndlagenVhdUmschaltklappe2" DataType="BOOL" Value="true" />
+				<Property ID="EndlagenVhdBypassklappe" DataType="BOOL" Value="true" />
+				<Property ID="EndlagenVhdBoxenklappe1" DataType="BOOL" Value="true" />
+				<Property ID="EndlagenVhdBoxenklappe2" DataType="BOOL" Value="true" />
+				<Property ID="EndlagenVhdBoxenklappe3" DataType="BOOL" Value="true" />
+				<Property ID="EndlagenVhdBoxenklappe4" DataType="BOOL" Value="true" />
+				<Property ID="EndlagenVhdBoxenklappe5" DataType="BOOL" Value="true" />
+				<Property ID="EndlagenVhdBoxenklappe6" DataType="BOOL" Value="true" />
+			</Group>
+			<Group ID="Schrittkette">
+				<Property ID="AnlaufverzZweiterVentilator" DataType="UDINT" Value="60000" />
+				<Property ID="VerzWetterwechsel" DataType="UDINT" Value="900000" />
+			</Group>
+			<Group ID="Ventilator1">
+				<Property ID="LuftmengeSollFrischluft" DataType="REAL" Value="400" />
+				<Property ID="LuftmengeSollUmluft" DataType="REAL" Value="400" />
+				<Property ID="LuftmengeBoxMin" DataType="REAL" Value="250" />
+				<Property ID="LuftmengeBoxMax" DataType="REAL" Value="2000" />
+				<Property ID="DrehzahlMin" DataType="REAL" Value="30" />
+				<Property ID="DrehzahlMax" DataType="REAL" Value="100" />
+				<Property ID="DrehzahlBeiAuskuehlphase" DataType="REAL" Value="40" />
+				<Property ID="DrzUmschaltung" DataType="REAL" Value="31" />
+				<Property ID="DrzUmschaltungMitLuftaufb" DataType="REAL" Value="40" />
+				<Property ID="DrehzahlFixUmluft" DataType="REAL" Value="100" />
+				<Property ID="DrehzahlFixFrischluft" DataType="REAL" Value="100" />
+				<Property ID="DrehzahlStrombegrenzung" DataType="REAL" Value="50" />
+				<Property ID="DrehzahlLeistungsreduz" DataType="REAL" Value="50" />
+				<Property ID="P" DataType="REAL" Value="5" />
+				<Property ID="I" DataType="REAL" Value="15" />
+				<Property ID="D" DataType="REAL" Value="4" />
+				<Property ID="D_Filter" DataType="REAL" Value="0" />
+				<Property ID="Hysterese" DataType="REAL" Value="0.10000000149011612" />
+				<Property ID="WindupDaempfung" DataType="REAL" Value="0" />
+				<Property ID="Fehlerverzoegerung" DataType="REAL" Value="0" />
+				<Property ID="ZeitRampeUp" DataType="UDINT" Value="20" />
+				<Property ID="ZeitRampeDown" DataType="UDINT" Value="20" />
+				<Property ID="LuftmengenregUmluftEin" DataType="BOOL" Value="false" />
+				<Property ID="LuftmengenregFrischluftEin" DataType="BOOL" Value="false" />
+			</Group>
+			<Group ID="Ventilator2">
+				<Property ID="LuftmengeSollFrischluft" DataType="REAL" Value="400" />
+				<Property ID="LuftmengeSollUmluft" DataType="REAL" Value="400" />
+				<Property ID="LuftmengeBoxMin" DataType="REAL" Value="250" />
+				<Property ID="LuftmengeBoxMax" DataType="REAL" Value="2000" />
+				<Property ID="DrehzahlMin" DataType="REAL" Value="30" />
+				<Property ID="DrehzahlMax" DataType="REAL" Value="100" />
+				<Property ID="DrehzahlBeiAuskuehlphase" DataType="REAL" Value="40" />
+				<Property ID="DrzUmschaltung" DataType="REAL" Value="31" />
+				<Property ID="DrzUmschaltungMitLuftaufb" DataType="REAL" Value="40" />
+				<Property ID="DrehzahlFixUmluft" DataType="REAL" Value="100" />
+				<Property ID="DrehzahlFixFrischluft" DataType="REAL" Value="100" />
+				<Property ID="DrehzahlStrombegrenzung" DataType="REAL" Value="50" />
+				<Property ID="DrehzahlLeistungsreduz" DataType="REAL" Value="50" />
+				<Property ID="P" DataType="REAL" Value="5" />
+				<Property ID="I" DataType="REAL" Value="15" />
+				<Property ID="D" DataType="REAL" Value="4" />
+				<Property ID="D_Filter" DataType="REAL" Value="0" />
+				<Property ID="Hysterese" DataType="REAL" Value="0.10000000149011612" />
+				<Property ID="WindupDaempfung" DataType="REAL" Value="0" />
+				<Property ID="Fehlerverzoegerung" DataType="REAL" Value="0" />
+				<Property ID="ZeitRampeUp" DataType="UDINT" Value="20" />
+				<Property ID="ZeitRampeDown" DataType="UDINT" Value="20" />
+				<Property ID="LuftmengenregUmluftEin" DataType="BOOL" Value="false" />
+				<Property ID="LuftmengenregFrischluftEin" DataType="BOOL" Value="false" />
+			</Group>
+			<Group ID="Boxen">
+				<Group ID="[1]">
+					<Property ID="StellungKlappe1" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe2" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe3" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe4" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe5" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe6" DataType="DINT" Value="0" />
+					<Property ID="Grundflaeche" DataType="REAL" Value="50" />
+					<Property ID="NameBox" DataType="STRING" Value="Box 1" />
+					<Property ID="Trockengut" DataType="USINT" Value="0" />
+					<Property ID="Aus" DataType="BOOL" Value="true" />
+					<Property ID="DauerbetriebEin" DataType="BOOL" Value="false" />
+					<Property ID="IntervallbetriebEin" DataType="BOOL" Value="false" />
+					<Property ID="NachtrocknungEin" DataType="BOOL" Value="false" />
+					<Property ID="Ventilator1" DataType="BOOL" Value="true" />
+					<Property ID="Ventilator2" DataType="BOOL" Value="false" />
+					<Property ID="Luftentfeuchter" DataType="BOOL" Value="true" />
+					<Property ID="Warmluftofen" DataType="BOOL" Value="false" />
+					<Property ID="Heizregister" DataType="BOOL" Value="false" />
+					<Property ID="Scheitholzofen" DataType="BOOL" Value="false" />
+					<Group ID="IntervallbetriebZeiten">
+						<Property ID="[0]" DataType="BOOL" Value="false" />
+						<Property ID="[1]" DataType="BOOL" Value="false" />
+						<Property ID="[2]" DataType="BOOL" Value="false" />
+						<Property ID="[3]" DataType="BOOL" Value="false" />
+						<Property ID="[4]" DataType="BOOL" Value="false" />
+						<Property ID="[5]" DataType="BOOL" Value="false" />
+						<Property ID="[6]" DataType="BOOL" Value="false" />
+						<Property ID="[7]" DataType="BOOL" Value="false" />
+						<Property ID="[8]" DataType="BOOL" Value="false" />
+						<Property ID="[9]" DataType="BOOL" Value="false" />
+						<Property ID="[10]" DataType="BOOL" Value="false" />
+						<Property ID="[11]" DataType="BOOL" Value="false" />
+						<Property ID="[12]" DataType="BOOL" Value="false" />
+						<Property ID="[13]" DataType="BOOL" Value="false" />
+						<Property ID="[14]" DataType="BOOL" Value="false" />
+						<Property ID="[15]" DataType="BOOL" Value="false" />
+						<Property ID="[16]" DataType="BOOL" Value="false" />
+						<Property ID="[17]" DataType="BOOL" Value="false" />
+						<Property ID="[18]" DataType="BOOL" Value="false" />
+						<Property ID="[19]" DataType="BOOL" Value="false" />
+						<Property ID="[20]" DataType="BOOL" Value="false" />
+						<Property ID="[21]" DataType="BOOL" Value="false" />
+						<Property ID="[22]" DataType="BOOL" Value="false" />
+						<Property ID="[23]" DataType="BOOL" Value="false" />
+					</Group>
+					<Group ID="NachtrocknungZeiten">
+						<Property ID="[0]" DataType="BOOL" Value="false" />
+						<Property ID="[1]" DataType="BOOL" Value="false" />
+						<Property ID="[2]" DataType="BOOL" Value="false" />
+						<Property ID="[3]" DataType="BOOL" Value="false" />
+						<Property ID="[4]" DataType="BOOL" Value="false" />
+						<Property ID="[5]" DataType="BOOL" Value="false" />
+						<Property ID="[6]" DataType="BOOL" Value="false" />
+						<Property ID="[7]" DataType="BOOL" Value="false" />
+						<Property ID="[8]" DataType="BOOL" Value="false" />
+						<Property ID="[9]" DataType="BOOL" Value="false" />
+						<Property ID="[10]" DataType="BOOL" Value="false" />
+						<Property ID="[11]" DataType="BOOL" Value="false" />
+						<Property ID="[12]" DataType="BOOL" Value="false" />
+						<Property ID="[13]" DataType="BOOL" Value="false" />
+						<Property ID="[14]" DataType="BOOL" Value="false" />
+						<Property ID="[15]" DataType="BOOL" Value="false" />
+						<Property ID="[16]" DataType="BOOL" Value="false" />
+						<Property ID="[17]" DataType="BOOL" Value="false" />
+						<Property ID="[18]" DataType="BOOL" Value="false" />
+						<Property ID="[19]" DataType="BOOL" Value="false" />
+						<Property ID="[20]" DataType="BOOL" Value="false" />
+						<Property ID="[21]" DataType="BOOL" Value="false" />
+						<Property ID="[22]" DataType="BOOL" Value="false" />
+						<Property ID="[23]" DataType="BOOL" Value="false" />
+					</Group>
+				</Group>
+				<Group ID="[2]">
+					<Property ID="StellungKlappe1" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe2" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe3" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe4" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe5" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe6" DataType="DINT" Value="0" />
+					<Property ID="Grundflaeche" DataType="REAL" Value="50" />
+					<Property ID="NameBox" DataType="STRING" Value="Box 2" />
+					<Property ID="Trockengut" DataType="USINT" Value="0" />
+					<Property ID="Aus" DataType="BOOL" Value="true" />
+					<Property ID="DauerbetriebEin" DataType="BOOL" Value="false" />
+					<Property ID="IntervallbetriebEin" DataType="BOOL" Value="false" />
+					<Property ID="NachtrocknungEin" DataType="BOOL" Value="false" />
+					<Property ID="Ventilator1" DataType="BOOL" Value="false" />
+					<Property ID="Ventilator2" DataType="BOOL" Value="false" />
+					<Property ID="Luftentfeuchter" DataType="BOOL" Value="false" />
+					<Property ID="Warmluftofen" DataType="BOOL" Value="false" />
+					<Property ID="Heizregister" DataType="BOOL" Value="false" />
+					<Property ID="Scheitholzofen" DataType="BOOL" Value="false" />
+					<Group ID="IntervallbetriebZeiten">
+						<Property ID="[0]" DataType="BOOL" Value="false" />
+						<Property ID="[1]" DataType="BOOL" Value="false" />
+						<Property ID="[2]" DataType="BOOL" Value="false" />
+						<Property ID="[3]" DataType="BOOL" Value="false" />
+						<Property ID="[4]" DataType="BOOL" Value="false" />
+						<Property ID="[5]" DataType="BOOL" Value="false" />
+						<Property ID="[6]" DataType="BOOL" Value="false" />
+						<Property ID="[7]" DataType="BOOL" Value="false" />
+						<Property ID="[8]" DataType="BOOL" Value="false" />
+						<Property ID="[9]" DataType="BOOL" Value="false" />
+						<Property ID="[10]" DataType="BOOL" Value="false" />
+						<Property ID="[11]" DataType="BOOL" Value="false" />
+						<Property ID="[12]" DataType="BOOL" Value="false" />
+						<Property ID="[13]" DataType="BOOL" Value="false" />
+						<Property ID="[14]" DataType="BOOL" Value="false" />
+						<Property ID="[15]" DataType="BOOL" Value="false" />
+						<Property ID="[16]" DataType="BOOL" Value="false" />
+						<Property ID="[17]" DataType="BOOL" Value="false" />
+						<Property ID="[18]" DataType="BOOL" Value="false" />
+						<Property ID="[19]" DataType="BOOL" Value="false" />
+						<Property ID="[20]" DataType="BOOL" Value="false" />
+						<Property ID="[21]" DataType="BOOL" Value="false" />
+						<Property ID="[22]" DataType="BOOL" Value="false" />
+						<Property ID="[23]" DataType="BOOL" Value="false" />
+					</Group>
+					<Group ID="NachtrocknungZeiten">
+						<Property ID="[0]" DataType="BOOL" Value="false" />
+						<Property ID="[1]" DataType="BOOL" Value="false" />
+						<Property ID="[2]" DataType="BOOL" Value="false" />
+						<Property ID="[3]" DataType="BOOL" Value="false" />
+						<Property ID="[4]" DataType="BOOL" Value="false" />
+						<Property ID="[5]" DataType="BOOL" Value="false" />
+						<Property ID="[6]" DataType="BOOL" Value="false" />
+						<Property ID="[7]" DataType="BOOL" Value="false" />
+						<Property ID="[8]" DataType="BOOL" Value="false" />
+						<Property ID="[9]" DataType="BOOL" Value="false" />
+						<Property ID="[10]" DataType="BOOL" Value="false" />
+						<Property ID="[11]" DataType="BOOL" Value="false" />
+						<Property ID="[12]" DataType="BOOL" Value="false" />
+						<Property ID="[13]" DataType="BOOL" Value="false" />
+						<Property ID="[14]" DataType="BOOL" Value="false" />
+						<Property ID="[15]" DataType="BOOL" Value="false" />
+						<Property ID="[16]" DataType="BOOL" Value="false" />
+						<Property ID="[17]" DataType="BOOL" Value="false" />
+						<Property ID="[18]" DataType="BOOL" Value="false" />
+						<Property ID="[19]" DataType="BOOL" Value="false" />
+						<Property ID="[20]" DataType="BOOL" Value="false" />
+						<Property ID="[21]" DataType="BOOL" Value="false" />
+						<Property ID="[22]" DataType="BOOL" Value="false" />
+						<Property ID="[23]" DataType="BOOL" Value="false" />
+					</Group>
+				</Group>
+				<Group ID="[3]">
+					<Property ID="StellungKlappe1" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe2" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe3" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe4" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe5" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe6" DataType="DINT" Value="0" />
+					<Property ID="Grundflaeche" DataType="REAL" Value="50" />
+					<Property ID="NameBox" DataType="STRING" Value="Box 3" />
+					<Property ID="Trockengut" DataType="USINT" Value="0" />
+					<Property ID="Aus" DataType="BOOL" Value="true" />
+					<Property ID="DauerbetriebEin" DataType="BOOL" Value="false" />
+					<Property ID="IntervallbetriebEin" DataType="BOOL" Value="false" />
+					<Property ID="NachtrocknungEin" DataType="BOOL" Value="false" />
+					<Property ID="Ventilator1" DataType="BOOL" Value="false" />
+					<Property ID="Ventilator2" DataType="BOOL" Value="false" />
+					<Property ID="Luftentfeuchter" DataType="BOOL" Value="false" />
+					<Property ID="Warmluftofen" DataType="BOOL" Value="false" />
+					<Property ID="Heizregister" DataType="BOOL" Value="false" />
+					<Property ID="Scheitholzofen" DataType="BOOL" Value="false" />
+					<Group ID="IntervallbetriebZeiten">
+						<Property ID="[0]" DataType="BOOL" Value="false" />
+						<Property ID="[1]" DataType="BOOL" Value="false" />
+						<Property ID="[2]" DataType="BOOL" Value="false" />
+						<Property ID="[3]" DataType="BOOL" Value="false" />
+						<Property ID="[4]" DataType="BOOL" Value="false" />
+						<Property ID="[5]" DataType="BOOL" Value="false" />
+						<Property ID="[6]" DataType="BOOL" Value="false" />
+						<Property ID="[7]" DataType="BOOL" Value="false" />
+						<Property ID="[8]" DataType="BOOL" Value="false" />
+						<Property ID="[9]" DataType="BOOL" Value="false" />
+						<Property ID="[10]" DataType="BOOL" Value="false" />
+						<Property ID="[11]" DataType="BOOL" Value="false" />
+						<Property ID="[12]" DataType="BOOL" Value="false" />
+						<Property ID="[13]" DataType="BOOL" Value="false" />
+						<Property ID="[14]" DataType="BOOL" Value="false" />
+						<Property ID="[15]" DataType="BOOL" Value="false" />
+						<Property ID="[16]" DataType="BOOL" Value="false" />
+						<Property ID="[17]" DataType="BOOL" Value="false" />
+						<Property ID="[18]" DataType="BOOL" Value="false" />
+						<Property ID="[19]" DataType="BOOL" Value="false" />
+						<Property ID="[20]" DataType="BOOL" Value="false" />
+						<Property ID="[21]" DataType="BOOL" Value="false" />
+						<Property ID="[22]" DataType="BOOL" Value="false" />
+						<Property ID="[23]" DataType="BOOL" Value="false" />
+					</Group>
+					<Group ID="NachtrocknungZeiten">
+						<Property ID="[0]" DataType="BOOL" Value="false" />
+						<Property ID="[1]" DataType="BOOL" Value="false" />
+						<Property ID="[2]" DataType="BOOL" Value="false" />
+						<Property ID="[3]" DataType="BOOL" Value="false" />
+						<Property ID="[4]" DataType="BOOL" Value="false" />
+						<Property ID="[5]" DataType="BOOL" Value="false" />
+						<Property ID="[6]" DataType="BOOL" Value="false" />
+						<Property ID="[7]" DataType="BOOL" Value="false" />
+						<Property ID="[8]" DataType="BOOL" Value="false" />
+						<Property ID="[9]" DataType="BOOL" Value="false" />
+						<Property ID="[10]" DataType="BOOL" Value="false" />
+						<Property ID="[11]" DataType="BOOL" Value="false" />
+						<Property ID="[12]" DataType="BOOL" Value="false" />
+						<Property ID="[13]" DataType="BOOL" Value="false" />
+						<Property ID="[14]" DataType="BOOL" Value="false" />
+						<Property ID="[15]" DataType="BOOL" Value="false" />
+						<Property ID="[16]" DataType="BOOL" Value="false" />
+						<Property ID="[17]" DataType="BOOL" Value="false" />
+						<Property ID="[18]" DataType="BOOL" Value="false" />
+						<Property ID="[19]" DataType="BOOL" Value="false" />
+						<Property ID="[20]" DataType="BOOL" Value="false" />
+						<Property ID="[21]" DataType="BOOL" Value="false" />
+						<Property ID="[22]" DataType="BOOL" Value="false" />
+						<Property ID="[23]" DataType="BOOL" Value="false" />
+					</Group>
+				</Group>
+				<Group ID="[4]">
+					<Property ID="StellungKlappe1" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe2" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe3" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe4" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe5" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe6" DataType="DINT" Value="0" />
+					<Property ID="Grundflaeche" DataType="REAL" Value="50" />
+					<Property ID="NameBox" DataType="STRING" Value="Box 4" />
+					<Property ID="Trockengut" DataType="USINT" Value="0" />
+					<Property ID="Aus" DataType="BOOL" Value="true" />
+					<Property ID="DauerbetriebEin" DataType="BOOL" Value="false" />
+					<Property ID="IntervallbetriebEin" DataType="BOOL" Value="false" />
+					<Property ID="NachtrocknungEin" DataType="BOOL" Value="false" />
+					<Property ID="Ventilator1" DataType="BOOL" Value="false" />
+					<Property ID="Ventilator2" DataType="BOOL" Value="false" />
+					<Property ID="Luftentfeuchter" DataType="BOOL" Value="false" />
+					<Property ID="Warmluftofen" DataType="BOOL" Value="false" />
+					<Property ID="Heizregister" DataType="BOOL" Value="false" />
+					<Property ID="Scheitholzofen" DataType="BOOL" Value="false" />
+					<Group ID="IntervallbetriebZeiten">
+						<Property ID="[0]" DataType="BOOL" Value="false" />
+						<Property ID="[1]" DataType="BOOL" Value="false" />
+						<Property ID="[2]" DataType="BOOL" Value="false" />
+						<Property ID="[3]" DataType="BOOL" Value="false" />
+						<Property ID="[4]" DataType="BOOL" Value="false" />
+						<Property ID="[5]" DataType="BOOL" Value="false" />
+						<Property ID="[6]" DataType="BOOL" Value="false" />
+						<Property ID="[7]" DataType="BOOL" Value="false" />
+						<Property ID="[8]" DataType="BOOL" Value="false" />
+						<Property ID="[9]" DataType="BOOL" Value="false" />
+						<Property ID="[10]" DataType="BOOL" Value="false" />
+						<Property ID="[11]" DataType="BOOL" Value="false" />
+						<Property ID="[12]" DataType="BOOL" Value="false" />
+						<Property ID="[13]" DataType="BOOL" Value="false" />
+						<Property ID="[14]" DataType="BOOL" Value="false" />
+						<Property ID="[15]" DataType="BOOL" Value="false" />
+						<Property ID="[16]" DataType="BOOL" Value="false" />
+						<Property ID="[17]" DataType="BOOL" Value="false" />
+						<Property ID="[18]" DataType="BOOL" Value="false" />
+						<Property ID="[19]" DataType="BOOL" Value="false" />
+						<Property ID="[20]" DataType="BOOL" Value="false" />
+						<Property ID="[21]" DataType="BOOL" Value="false" />
+						<Property ID="[22]" DataType="BOOL" Value="false" />
+						<Property ID="[23]" DataType="BOOL" Value="false" />
+					</Group>
+					<Group ID="NachtrocknungZeiten">
+						<Property ID="[0]" DataType="BOOL" Value="false" />
+						<Property ID="[1]" DataType="BOOL" Value="false" />
+						<Property ID="[2]" DataType="BOOL" Value="false" />
+						<Property ID="[3]" DataType="BOOL" Value="false" />
+						<Property ID="[4]" DataType="BOOL" Value="false" />
+						<Property ID="[5]" DataType="BOOL" Value="false" />
+						<Property ID="[6]" DataType="BOOL" Value="false" />
+						<Property ID="[7]" DataType="BOOL" Value="false" />
+						<Property ID="[8]" DataType="BOOL" Value="false" />
+						<Property ID="[9]" DataType="BOOL" Value="false" />
+						<Property ID="[10]" DataType="BOOL" Value="false" />
+						<Property ID="[11]" DataType="BOOL" Value="false" />
+						<Property ID="[12]" DataType="BOOL" Value="false" />
+						<Property ID="[13]" DataType="BOOL" Value="false" />
+						<Property ID="[14]" DataType="BOOL" Value="false" />
+						<Property ID="[15]" DataType="BOOL" Value="false" />
+						<Property ID="[16]" DataType="BOOL" Value="false" />
+						<Property ID="[17]" DataType="BOOL" Value="false" />
+						<Property ID="[18]" DataType="BOOL" Value="false" />
+						<Property ID="[19]" DataType="BOOL" Value="false" />
+						<Property ID="[20]" DataType="BOOL" Value="false" />
+						<Property ID="[21]" DataType="BOOL" Value="false" />
+						<Property ID="[22]" DataType="BOOL" Value="false" />
+						<Property ID="[23]" DataType="BOOL" Value="false" />
+					</Group>
+				</Group>
+				<Group ID="[5]">
+					<Property ID="StellungKlappe1" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe2" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe3" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe4" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe5" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe6" DataType="DINT" Value="0" />
+					<Property ID="Grundflaeche" DataType="REAL" Value="50" />
+					<Property ID="NameBox" DataType="STRING" Value="Box 5" />
+					<Property ID="Trockengut" DataType="USINT" Value="0" />
+					<Property ID="Aus" DataType="BOOL" Value="true" />
+					<Property ID="DauerbetriebEin" DataType="BOOL" Value="false" />
+					<Property ID="IntervallbetriebEin" DataType="BOOL" Value="false" />
+					<Property ID="NachtrocknungEin" DataType="BOOL" Value="false" />
+					<Property ID="Ventilator1" DataType="BOOL" Value="false" />
+					<Property ID="Ventilator2" DataType="BOOL" Value="false" />
+					<Property ID="Luftentfeuchter" DataType="BOOL" Value="false" />
+					<Property ID="Warmluftofen" DataType="BOOL" Value="false" />
+					<Property ID="Heizregister" DataType="BOOL" Value="false" />
+					<Property ID="Scheitholzofen" DataType="BOOL" Value="false" />
+					<Group ID="IntervallbetriebZeiten">
+						<Property ID="[0]" DataType="BOOL" Value="false" />
+						<Property ID="[1]" DataType="BOOL" Value="false" />
+						<Property ID="[2]" DataType="BOOL" Value="false" />
+						<Property ID="[3]" DataType="BOOL" Value="false" />
+						<Property ID="[4]" DataType="BOOL" Value="false" />
+						<Property ID="[5]" DataType="BOOL" Value="false" />
+						<Property ID="[6]" DataType="BOOL" Value="false" />
+						<Property ID="[7]" DataType="BOOL" Value="false" />
+						<Property ID="[8]" DataType="BOOL" Value="false" />
+						<Property ID="[9]" DataType="BOOL" Value="false" />
+						<Property ID="[10]" DataType="BOOL" Value="false" />
+						<Property ID="[11]" DataType="BOOL" Value="false" />
+						<Property ID="[12]" DataType="BOOL" Value="false" />
+						<Property ID="[13]" DataType="BOOL" Value="false" />
+						<Property ID="[14]" DataType="BOOL" Value="false" />
+						<Property ID="[15]" DataType="BOOL" Value="false" />
+						<Property ID="[16]" DataType="BOOL" Value="false" />
+						<Property ID="[17]" DataType="BOOL" Value="false" />
+						<Property ID="[18]" DataType="BOOL" Value="false" />
+						<Property ID="[19]" DataType="BOOL" Value="false" />
+						<Property ID="[20]" DataType="BOOL" Value="false" />
+						<Property ID="[21]" DataType="BOOL" Value="false" />
+						<Property ID="[22]" DataType="BOOL" Value="false" />
+						<Property ID="[23]" DataType="BOOL" Value="false" />
+					</Group>
+					<Group ID="NachtrocknungZeiten">
+						<Property ID="[0]" DataType="BOOL" Value="false" />
+						<Property ID="[1]" DataType="BOOL" Value="false" />
+						<Property ID="[2]" DataType="BOOL" Value="false" />
+						<Property ID="[3]" DataType="BOOL" Value="false" />
+						<Property ID="[4]" DataType="BOOL" Value="false" />
+						<Property ID="[5]" DataType="BOOL" Value="false" />
+						<Property ID="[6]" DataType="BOOL" Value="false" />
+						<Property ID="[7]" DataType="BOOL" Value="false" />
+						<Property ID="[8]" DataType="BOOL" Value="false" />
+						<Property ID="[9]" DataType="BOOL" Value="false" />
+						<Property ID="[10]" DataType="BOOL" Value="false" />
+						<Property ID="[11]" DataType="BOOL" Value="false" />
+						<Property ID="[12]" DataType="BOOL" Value="false" />
+						<Property ID="[13]" DataType="BOOL" Value="false" />
+						<Property ID="[14]" DataType="BOOL" Value="false" />
+						<Property ID="[15]" DataType="BOOL" Value="false" />
+						<Property ID="[16]" DataType="BOOL" Value="false" />
+						<Property ID="[17]" DataType="BOOL" Value="false" />
+						<Property ID="[18]" DataType="BOOL" Value="false" />
+						<Property ID="[19]" DataType="BOOL" Value="false" />
+						<Property ID="[20]" DataType="BOOL" Value="false" />
+						<Property ID="[21]" DataType="BOOL" Value="false" />
+						<Property ID="[22]" DataType="BOOL" Value="false" />
+						<Property ID="[23]" DataType="BOOL" Value="false" />
+					</Group>
+				</Group>
+				<Group ID="[6]">
+					<Property ID="StellungKlappe1" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe2" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe3" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe4" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe5" DataType="DINT" Value="0" />
+					<Property ID="StellungKlappe6" DataType="DINT" Value="0" />
+					<Property ID="Grundflaeche" DataType="REAL" Value="50" />
+					<Property ID="NameBox" DataType="STRING" Value="Box 6" />
+					<Property ID="Trockengut" DataType="USINT" Value="0" />
+					<Property ID="Aus" DataType="BOOL" Value="true" />
+					<Property ID="DauerbetriebEin" DataType="BOOL" Value="false" />
+					<Property ID="IntervallbetriebEin" DataType="BOOL" Value="false" />
+					<Property ID="NachtrocknungEin" DataType="BOOL" Value="false" />
+					<Property ID="Ventilator1" DataType="BOOL" Value="false" />
+					<Property ID="Ventilator2" DataType="BOOL" Value="false" />
+					<Property ID="Luftentfeuchter" DataType="BOOL" Value="false" />
+					<Property ID="Warmluftofen" DataType="BOOL" Value="false" />
+					<Property ID="Heizregister" DataType="BOOL" Value="false" />
+					<Property ID="Scheitholzofen" DataType="BOOL" Value="false" />
+					<Group ID="IntervallbetriebZeiten">
+						<Property ID="[0]" DataType="BOOL" Value="false" />
+						<Property ID="[1]" DataType="BOOL" Value="false" />
+						<Property ID="[2]" DataType="BOOL" Value="false" />
+						<Property ID="[3]" DataType="BOOL" Value="false" />
+						<Property ID="[4]" DataType="BOOL" Value="false" />
+						<Property ID="[5]" DataType="BOOL" Value="false" />
+						<Property ID="[6]" DataType="BOOL" Value="false" />
+						<Property ID="[7]" DataType="BOOL" Value="false" />
+						<Property ID="[8]" DataType="BOOL" Value="false" />
+						<Property ID="[9]" DataType="BOOL" Value="false" />
+						<Property ID="[10]" DataType="BOOL" Value="false" />
+						<Property ID="[11]" DataType="BOOL" Value="false" />
+						<Property ID="[12]" DataType="BOOL" Value="false" />
+						<Property ID="[13]" DataType="BOOL" Value="false" />
+						<Property ID="[14]" DataType="BOOL" Value="false" />
+						<Property ID="[15]" DataType="BOOL" Value="false" />
+						<Property ID="[16]" DataType="BOOL" Value="false" />
+						<Property ID="[17]" DataType="BOOL" Value="false" />
+						<Property ID="[18]" DataType="BOOL" Value="false" />
+						<Property ID="[19]" DataType="BOOL" Value="false" />
+						<Property ID="[20]" DataType="BOOL" Value="false" />
+						<Property ID="[21]" DataType="BOOL" Value="false" />
+						<Property ID="[22]" DataType="BOOL" Value="false" />
+						<Property ID="[23]" DataType="BOOL" Value="false" />
+					</Group>
+					<Group ID="NachtrocknungZeiten">
+						<Property ID="[0]" DataType="BOOL" Value="false" />
+						<Property ID="[1]" DataType="BOOL" Value="false" />
+						<Property ID="[2]" DataType="BOOL" Value="false" />
+						<Property ID="[3]" DataType="BOOL" Value="false" />
+						<Property ID="[4]" DataType="BOOL" Value="false" />
+						<Property ID="[5]" DataType="BOOL" Value="false" />
+						<Property ID="[6]" DataType="BOOL" Value="false" />
+						<Property ID="[7]" DataType="BOOL" Value="false" />
+						<Property ID="[8]" DataType="BOOL" Value="false" />
+						<Property ID="[9]" DataType="BOOL" Value="false" />
+						<Property ID="[10]" DataType="BOOL" Value="false" />
+						<Property ID="[11]" DataType="BOOL" Value="false" />
+						<Property ID="[12]" DataType="BOOL" Value="false" />
+						<Property ID="[13]" DataType="BOOL" Value="false" />
+						<Property ID="[14]" DataType="BOOL" Value="false" />
+						<Property ID="[15]" DataType="BOOL" Value="false" />
+						<Property ID="[16]" DataType="BOOL" Value="false" />
+						<Property ID="[17]" DataType="BOOL" Value="false" />
+						<Property ID="[18]" DataType="BOOL" Value="false" />
+						<Property ID="[19]" DataType="BOOL" Value="false" />
+						<Property ID="[20]" DataType="BOOL" Value="false" />
+						<Property ID="[21]" DataType="BOOL" Value="false" />
+						<Property ID="[22]" DataType="BOOL" Value="false" />
+						<Property ID="[23]" DataType="BOOL" Value="false" />
+					</Group>
+				</Group>
+			</Group>
+			<Group ID="Entfeuchter">
+				<Group ID="Type">
+					<Property ID="[0]" DataType="STRING" Value="HT 1.7" />
+					<Property ID="[1]" DataType="STRING" Value="HT 2.2" />
+					<Property ID="[2]" DataType="STRING" Value="HT 3.3" />
+					<Property ID="[3]" DataType="STRING" Value="HT 3.8" />
+					<Property ID="[4]" DataType="STRING" Value="HT 4.5" />
+					<Property ID="[5]" DataType="STRING" Value="HT 5.5" />
+					<Property ID="[6]" DataType="STRING" Value="HT 7.6" />
+					<Property ID="[7]" DataType="STRING" Value="HT 9.0" />
+					<Property ID="[8]" DataType="STRING" Value="HT 11.0" />
+					<Property ID="[9]" DataType="STRING" Value="HT15.2" />
+					<Property ID="[10]" DataType="STRING" Value="Reserve Doppelmodul" />
+					<Property ID="[11]" DataType="STRING" Value="Reserve 01" />
+					<Property ID="[12]" DataType="STRING" Value="Reserve 02" />
+					<Property ID="[13]" DataType="STRING" Value="Reserve 03" />
+					<Property ID="[14]" DataType="STRING" Value="Reserve 04" />
+				</Group>
+				<Group ID="Registerflaeche">
+					<Property ID="[0]" DataType="REAL" Value="1.7" />
+					<Property ID="[1]" DataType="REAL" Value="2.2" />
+					<Property ID="[2]" DataType="REAL" Value="3.3" />
+					<Property ID="[3]" DataType="REAL" Value="3.8" />
+					<Property ID="[4]" DataType="REAL" Value="4.5" />
+					<Property ID="[5]" DataType="REAL" Value="5.5" />
+					<Property ID="[6]" DataType="REAL" Value="7.6" />
+					<Property ID="[7]" DataType="REAL" Value="9" />
+					<Property ID="[8]" DataType="REAL" Value="11" />
+					<Property ID="[9]" DataType="REAL" Value="15.2" />
+					<Property ID="[10]" DataType="REAL" Value="1.7" />
+					<Property ID="[11]" DataType="REAL" Value="1.7" />
+					<Property ID="[12]" DataType="REAL" Value="1.7" />
+					<Property ID="[13]" DataType="REAL" Value="1.7" />
+					<Property ID="[14]" DataType="REAL" Value="2.2" />
+				</Group>
+				<Property ID="EinschaltverzKompressor" DataType="UDINT" Value="120000" />
+				<Property ID="EinschaltverzAbtau" DataType="UDINT" Value="120000" />
+				<Property ID="MindestlaufzeitOelsumpf" DataType="UDINT" Value="36000000" />
+				<Property ID="MaxZeitStromlos" DataType="UDINT" Value="10800000" />
+				<Property ID="RestzeitLaufzOelsumpf" DataType="UDINT" Value="36000000" />
+				<Property ID="AnlaufverzModul2" DataType="UDINT" Value="10000" />
+				<Property ID="AusschaltverzAbtau" DataType="UDINT" Value="1500000" />
+				<Property ID="LuftgeschwEntfeuchterMin" DataType="REAL" Value="1.5" />
+				<Property ID="LuftgeschwEntfeuchterMax" DataType="REAL" Value="4.5" />
+				<Property ID="EintrittFeuchteEin" DataType="REAL" Value="50" />
+				<Property ID="EintrittFeuchteAus" DataType="REAL" Value="35" />
+				<Property ID="Dauerbetrieb" DataType="BOOL" Value="false" />
+				<Property ID="Automatikbetrieb" DataType="BOOL" Value="true" />
+				<Property ID="Aus" DataType="BOOL" Value="false" />
+				<Property ID="IndexType" DataType="USINT" Value="0" />
+				<Property ID="VerzStandbyHochdruckMax" DataType="UDINT" Value="10000" />
+				<Property ID="VerzBetriebsmeldung" DataType="UDINT" Value="1800000" />
+			</Group>
+			<Group ID="Kompressor1">
+				<Property ID="EinschaltverzMagnetventil" DataType="UDINT" Value="1000" />
+				<Property ID="DrehzahlMin" DataType="REAL" Value="70" />
+				<Property ID="DrehzahlMax" DataType="REAL" Value="100" />
+				<Property ID="NiederdruckMin" DataType="REAL" Value="2.6" />
+				<Property ID="NiederdruckMax" DataType="REAL" Value="3" />
+				<Property ID="RampeDown" DataType="REAL" Value="3" />
+				<Property ID="RampeUp" DataType="REAL" Value="3" />
+				<Property ID="NiederdruckPumpDown" DataType="REAL" Value="2" />
+				<Property ID="DrehzahlFix" DataType="REAL" Value="100" />
+				<Property ID="DrehzahlReduzierung" DataType="REAL" Value="90" />
+				<Property ID="EintrittTempMin" DataType="REAL" Value="8" />
+				<Property ID="EintrittTempMax" DataType="REAL" Value="50" />
+				<Property ID="HochdruckMax" DataType="REAL" Value="25" />
+				<Property ID="NiederdruckSoll" DataType="REAL" Value="3.5" />
+				<Property ID="Hysterese" DataType="REAL" Value="0.1" />
+				<Property ID="P" DataType="REAL" Value="5" />
+				<Property ID="I" DataType="REAL" Value="10" />
+				<Property ID="D" DataType="REAL" Value="2" />
+				<Property ID="DrehzahlregelungEin" DataType="BOOL" Value="false" />
+			</Group>
+			<Group ID="Kompressor2">
+				<Property ID="EinschaltverzMagnetventil" DataType="UDINT" Value="0" />
+				<Property ID="DrehzahlMin" DataType="REAL" Value="70" />
+				<Property ID="DrehzahlMax" DataType="REAL" Value="100" />
+				<Property ID="NiederdruckMin" DataType="REAL" Value="0" />
+				<Property ID="NiederdruckMax" DataType="REAL" Value="0" />
+				<Property ID="RampeDown" DataType="REAL" Value="3" />
+				<Property ID="RampeUp" DataType="REAL" Value="3" />
+				<Property ID="NiederdruckPumpDown" DataType="REAL" Value="0" />
+				<Property ID="DrehzahlFix" DataType="REAL" Value="100" />
+				<Property ID="DrehzahlReduzierung" DataType="REAL" Value="90" />
+				<Property ID="EintrittTempMin" DataType="REAL" Value="0" />
+				<Property ID="EintrittTempMax" DataType="REAL" Value="0" />
+				<Property ID="HochdruckMax" DataType="REAL" Value="25" />
+				<Property ID="NiederdruckSoll" DataType="REAL" Value="3.5" />
+				<Property ID="Hysterese" DataType="REAL" Value="0.10000000149011612" />
+				<Property ID="P" DataType="REAL" Value="5" />
+				<Property ID="I" DataType="REAL" Value="10" />
+				<Property ID="D" DataType="REAL" Value="2" />
+				<Property ID="DrehzahlregelungEin" DataType="BOOL" Value="false" />
+			</Group>
+			<Group ID="Warmluftofen">
+				<Property ID="SaettigungFrischlEin" DataType="REAL" Value="12.5" />
+				<Property ID="WarmlufttempVorgabeSoll" DataType="REAL" Value="60" />
+				<Property ID="Hysterese" DataType="REAL" Value="0.10000000149011612" />
+				<Property ID="Auskuehlzeit" DataType="UDINT" Value="3600000" />
+				<Property ID="VerzBetriebsmeldung" DataType="UDINT" Value="2700000" />
+				<Property ID="VerzWetterwechsel" DataType="UDINT" Value="300000" />
+				<Property ID="DauerbetriebEin" DataType="BOOL" Value="false" />
+				<Property ID="AutomatikbetriebEin" DataType="BOOL" Value="true" />
+				<Property ID="Aus" DataType="BOOL" Value="false" />
+			</Group>
+			<Group ID="Heizregister">
+				<Property ID="VerzWetterwechsel" DataType="UDINT" Value="300000" />
+				<Property ID="SaettigungFrischlEin" DataType="REAL" Value="10" />
+				<Property ID="TrockenluftTempSoll" DataType="REAL" Value="35" />
+				<Property ID="Hysterese" DataType="REAL" Value="0.10000000149011612" />
+				<Property ID="DrehzahlVorgabeMin" DataType="REAL" Value="0" />
+				<Property ID="DrehzahlVorgabeMax" DataType="REAL" Value="100" />
+				<Property ID="P" DataType="REAL" Value="5" />
+				<Property ID="I" DataType="REAL" Value="20" />
+				<Property ID="D" DataType="REAL" Value="2" />
+				<Property ID="Aus" DataType="BOOL" Value="false" />
+				<Property ID="DauerbetriebEin" DataType="BOOL" Value="false" />
+				<Property ID="AutomatikbetriebEin" DataType="BOOL" Value="true" />
+			</Group>
+			<Group ID="Abluftventilator">
+				<Property ID="AbluftfeuchteMax" DataType="REAL" Value="85" />
+				<Property ID="Hysterese" DataType="REAL" Value="1" />
+				<Property ID="DrehzahlMin" DataType="REAL" Value="0" />
+				<Property ID="DrehzahlMax" DataType="REAL" Value="100" />
+				<Property ID="P" DataType="REAL" Value="5" />
+				<Property ID="I" DataType="REAL" Value="20" />
+				<Property ID="D" DataType="REAL" Value="2" />
+				<Property ID="Ein" DataType="BOOL" Value="false" />
+				<Property ID="Automatik" DataType="BOOL" Value="true" />
+			</Group>
+			<Group ID="Abluftklappe">
+				<Property ID="Laufzeit" DataType="UDINT" Value="0" />
+				<Property ID="AbluftfeuchteMax" DataType="REAL" Value="85" />
+				<Property ID="Hysterese" DataType="REAL" Value="1" />
+				<Property ID="Automatik" DataType="BOOL" Value="true" />
+				<Property ID="Oeffnen" DataType="BOOL" Value="false" />
+				<Property ID="Schliessen" DataType="BOOL" Value="false" />
+			</Group>
+			<Group ID="Umschaltklappen">
+				<Property ID="LaufzeitKlappe1" DataType="UDINT" Value="180000" />
+				<Property ID="LaufzeitKlappe2" DataType="UDINT" Value="180000" />
+				<Property ID="TemperaturUmschaltung" DataType="REAL" Value="25" />
+				<Property ID="Hysterese" DataType="REAL" Value="0.5" />
+				<Property ID="Umschaltverzoegerung" DataType="UDINT" Value="300000" />
+				<Property ID="TempDifferenzUmschaltung" DataType="REAL" Value="3" />
+				<Property ID="Automatik" DataType="BOOL" Value="true" />
+				<Property ID="Umluft" DataType="BOOL" Value="false" />
+				<Property ID="Frischluft" DataType="BOOL" Value="false" />
+			</Group>
+			<Group ID="Bypassklappe">
+				<Property ID="Laufzeit" DataType="UDINT" Value="180000" />
+				<Property ID="Automatik" DataType="BOOL" Value="true" />
+				<Property ID="Oeffnen" DataType="BOOL" Value="false" />
+				<Property ID="Schliessen" DataType="BOOL" Value="false" />
+			</Group>
+			<Group ID="KlappenBoxen">
+				<Group ID="[1]">
+					<Property ID="Laufzeit" DataType="UDINT" Value="120000" />
+				</Group>
+				<Group ID="[2]">
+					<Property ID="Laufzeit" DataType="UDINT" Value="120000" />
+				</Group>
+				<Group ID="[3]">
+					<Property ID="Laufzeit" DataType="UDINT" Value="120000" />
+				</Group>
+				<Group ID="[4]">
+					<Property ID="Laufzeit" DataType="UDINT" Value="120000" />
+				</Group>
+				<Group ID="[5]">
+					<Property ID="Laufzeit" DataType="UDINT" Value="120000" />
+				</Group>
+				<Group ID="[6]">
+					<Property ID="Laufzeit" DataType="UDINT" Value="120000" />
+				</Group>
+			</Group>
+			<Group ID="Notstromaggregat">
+				<Property ID="Vorlaufzeit" DataType="UDINT" Value="60000" />
+				<Property ID="VerzBetriebsmeldung" DataType="UDINT" Value="60000" />
+				<Property ID="Nachlaufzeit" DataType="UDINT" Value="30000" />
+			</Group>
+			<Group ID="Sensoren">
+				<Property ID="NiederdruckMessberMin" DataType="REAL" Value="0" />
+				<Property ID="NiederdruckMessberMax" DataType="REAL" Value="30" />
+				<Property ID="HochdruckMessberMin" DataType="REAL" Value="0" />
+				<Property ID="HochdruckMessberMax" DataType="REAL" Value="30" />
+				<Property ID="EintrittTempMessberMin" DataType="REAL" Value="-30" />
+				<Property ID="EintrittTempMessberMax" DataType="REAL" Value="70" />
+				<Property ID="EintrittFeuchteMessberMin" DataType="REAL" Value="0" />
+				<Property ID="EintrittFeuchteMessberMax" DataType="REAL" Value="100" />
+				<Property ID="AustrittTempMessberMin" DataType="REAL" Value="-30" />
+				<Property ID="AustrittTempMessberMax" DataType="REAL" Value="70" />
+				<Property ID="AustrittFeuchteMessberMin" DataType="REAL" Value="0" />
+				<Property ID="AustrittFeuchteMessberMax" DataType="REAL" Value="100" />
+				<Property ID="FrischlTempMessberMin" DataType="REAL" Value="-30" />
+				<Property ID="FrischlTempMessberMax" DataType="REAL" Value="70" />
+				<Property ID="FrischlFeuchteMessberMin" DataType="REAL" Value="0" />
+				<Property ID="FrischlFeuchteMessberMax" DataType="REAL" Value="100" />
+				<Property ID="DachTempMessberMin" DataType="REAL" Value="-30" />
+				<Property ID="DachTempMessberMax" DataType="REAL" Value="70" />
+				<Property ID="DachFeuchteMessberMin" DataType="REAL" Value="0" />
+				<Property ID="DachFeuchteMessberMax" DataType="REAL" Value="100" />
+				<Property ID="TrockenlTempMessberMin" DataType="REAL" Value="-30" />
+				<Property ID="TrockenlTempMessberMax" DataType="REAL" Value="70" />
+				<Property ID="TrockenlFeuchteMessberMin" DataType="REAL" Value="0" />
+				<Property ID="TrockenlFeuchteMessberMax" DataType="REAL" Value="100" />
+				<Property ID="AbluftTempMessberMin" DataType="REAL" Value="-30" />
+				<Property ID="AbluftTempMessberMax" DataType="REAL" Value="70" />
+				<Property ID="AbluftFeuchteMessberMin" DataType="REAL" Value="0" />
+				<Property ID="AbluftFeuchteMessberMax" DataType="REAL" Value="100" />
+				<Property ID="KanaldruckMessberMin" DataType="REAL" Value="0" />
+				<Property ID="KanaldruckMessberMax" DataType="REAL" Value="5000" />
+				<Property ID="LuftgeschwMessberMin" DataType="REAL" Value="0" />
+				<Property ID="LuftgeschwMessberMax" DataType="REAL" Value="20" />
+				<Property ID="OffsetNiederdruckModul1" DataType="REAL" Value="0" />
+				<Property ID="OffsetNiederdruckModul2" DataType="REAL" Value="0" />
+				<Property ID="OffsetHochdruckModul1" DataType="REAL" Value="0" />
+				<Property ID="OffsetHochdruckModul2" DataType="REAL" Value="0" />
+				<Property ID="OffsetEintrittTemp" DataType="REAL" Value="0" />
+				<Property ID="OffsetEintrittFeuchte" DataType="REAL" Value="0" />
+				<Property ID="OffsetAustrittTemp" DataType="REAL" Value="0" />
+				<Property ID="OffsetAustrittFeuchte" DataType="REAL" Value="0" />
+				<Property ID="OffsetFrischluftTemp" DataType="REAL" Value="0" />
+				<Property ID="OffsetFrischluftFeuchte" DataType="REAL" Value="0" />
+				<Property ID="OffsetDachTemp" DataType="REAL" Value="0" />
+				<Property ID="OffsetDachFeuchte" DataType="REAL" Value="0" />
+				<Property ID="OffsetTrockenluftTemp" DataType="REAL" Value="0" />
+				<Property ID="OffsetTrockenluftFeuchte" DataType="REAL" Value="0" />
+				<Property ID="OffsetAbluftTemp" DataType="REAL" Value="0" />
+				<Property ID="OffsetAbluftFeuchte" DataType="REAL" Value="0" />
+				<Property ID="OffsetKanaldruck" DataType="REAL" Value="0" />
+				<Property ID="OffsetLuftgeschw" DataType="REAL" Value="0" />
+				<Property ID="FilterzeitNiederdruck" DataType="UINT" Value="2" />
+				<Property ID="FilterzeitHochdruck" DataType="UINT" Value="2" />
+				<Property ID="FilterzeitEintritt" DataType="UINT" Value="30" />
+				<Property ID="FilterzeitAustritt" DataType="UINT" Value="30" />
+				<Property ID="FilterzeitFrischluft" DataType="UINT" Value="30" />
+				<Property ID="FilterzeitDachluft" DataType="UINT" Value="30" />
+				<Property ID="FilterzeitTrockenluft" DataType="UINT" Value="30" />
+				<Property ID="FilterzeitAbluft" DataType="UINT" Value="30" />
+				<Property ID="FilterzeitKanaldruck" DataType="UINT" Value="20" />
+				<Property ID="FilterzeitLuftgeschwindigkeit" DataType="UINT" Value="10" />
+			</Group>
+			<Group ID="Servicebereich">
+				<Property ID="KontrollintervallUhrzeit" DataType="UDINT" Value="200000" />
+			</Group>
+			<Group ID="Fernalarmierung">
+				<Group ID="MailAdresse">
+					<Property ID="[0]" DataType="STRING" Value="" />
+					<Property ID="[1]" DataType="STRING" Value="" />
+					<Property ID="[2]" DataType="STRING" Value="" />
+					<Property ID="[3]" DataType="STRING" Value="" />
+				</Group>
+				<Property ID="EMailAlarmierungEin" DataType="BOOL" Value="false" />
+			</Group>
+			<Group ID="Scheitholzofen">
+				<Property ID="Auskuehlzeit" DataType="UDINT" Value="3600000" />
+			</Group>
+			<Group ID="Tarifabschaltung">
+				<Group ID="Zeitfenster">
+					<Property ID="StartStd" DataType="USINT" Value="0" />
+					<Property ID="StartMin" DataType="USINT" Value="0" />
+					<Property ID="StoppStd" DataType="USINT" Value="0" />
+					<Property ID="StoppMin" DataType="USINT" Value="0" />
+				</Group>
+				<Property ID="VorlaufzeitAbschaltungLuftaufb" DataType="USINT" Value="30" />
+			</Group>
+			<Group ID="Strombegrenzung">
+				<Group ID="Zeitfenster">
+					<Property ID="StartStd" DataType="USINT" Value="0" />
+					<Property ID="StartMin" DataType="USINT" Value="0" />
+					<Property ID="StoppStd" DataType="USINT" Value="0" />
+					<Property ID="StoppMin" DataType="USINT" Value="0" />
+				</Group>
+			</Group>
+			<Group ID="SchlechtwetterBoxen">
+				<Group ID="[1]">
+					<Group ID="Stufe">
+						<Group ID="[1]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="5" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="0" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="35" />
+						</Group>
+						<Group ID="[2]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="7.5" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="3600000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="30" />
+						</Group>
+						<Group ID="[3]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="9" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="7200000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="25" />
+						</Group>
+						<Group ID="[4]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="12" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="10800000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="20" />
+						</Group>
+						<Group ID="[5]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="15" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="14400000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="15" />
+						</Group>
+						<Group ID="[6]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="18" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="18000000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="12" />
+						</Group>
+					</Group>
+					<Property ID="HystereseGrenzwert" DataType="REAL" Value="0.1" />
+					<Property ID="AuswahlSensorGrenzwert" DataType="USINT" Value="0" />
+					<Property ID="MaterialfeuchteIst" DataType="USINT" Value="35" />
+				</Group>
+				<Group ID="[2]">
+					<Group ID="Stufe">
+						<Group ID="[1]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="5" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="0" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="35" />
+						</Group>
+						<Group ID="[2]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="7.5" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="3600000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="30" />
+						</Group>
+						<Group ID="[3]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="9" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="7200000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="25" />
+						</Group>
+						<Group ID="[4]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="12" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="10800000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="20" />
+						</Group>
+						<Group ID="[5]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="15" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="14400000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="15" />
+						</Group>
+						<Group ID="[6]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="18" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="18000000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="12" />
+						</Group>
+					</Group>
+					<Property ID="HystereseGrenzwert" DataType="REAL" Value="0" />
+					<Property ID="AuswahlSensorGrenzwert" DataType="USINT" Value="0" />
+					<Property ID="MaterialfeuchteIst" DataType="USINT" Value="35" />
+				</Group>
+				<Group ID="[3]">
+					<Group ID="Stufe">
+						<Group ID="[1]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="5" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="0" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="35" />
+						</Group>
+						<Group ID="[2]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="7.5" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="3600000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="30" />
+						</Group>
+						<Group ID="[3]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="9" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="7200000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="25" />
+						</Group>
+						<Group ID="[4]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="12" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="10800000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="20" />
+						</Group>
+						<Group ID="[5]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="15" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="14400000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="15" />
+						</Group>
+						<Group ID="[6]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="18" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="18000000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="12" />
+						</Group>
+					</Group>
+					<Property ID="HystereseGrenzwert" DataType="REAL" Value="0" />
+					<Property ID="AuswahlSensorGrenzwert" DataType="USINT" Value="0" />
+					<Property ID="MaterialfeuchteIst" DataType="USINT" Value="35" />
+				</Group>
+				<Group ID="[4]">
+					<Group ID="Stufe">
+						<Group ID="[1]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="5" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="0" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="35" />
+						</Group>
+						<Group ID="[2]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="7.5" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="3600000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="30" />
+						</Group>
+						<Group ID="[3]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="9" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="7200000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="25" />
+						</Group>
+						<Group ID="[4]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="12" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="10800000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="20" />
+						</Group>
+						<Group ID="[5]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="15" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="14400000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="15" />
+						</Group>
+						<Group ID="[6]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="18" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="18000000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="12" />
+						</Group>
+					</Group>
+					<Property ID="HystereseGrenzwert" DataType="REAL" Value="0" />
+					<Property ID="AuswahlSensorGrenzwert" DataType="USINT" Value="0" />
+					<Property ID="MaterialfeuchteIst" DataType="USINT" Value="35" />
+				</Group>
+				<Group ID="[5]">
+					<Group ID="Stufe">
+						<Group ID="[1]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="5" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="0" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="35" />
+						</Group>
+						<Group ID="[2]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="7.5" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="3600000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="30" />
+						</Group>
+						<Group ID="[3]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="9" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="7200000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="25" />
+						</Group>
+						<Group ID="[4]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="12" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="10800000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="20" />
+						</Group>
+						<Group ID="[5]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="15" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="14400000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="15" />
+						</Group>
+						<Group ID="[6]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="18" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="18000000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="12" />
+						</Group>
+					</Group>
+					<Property ID="HystereseGrenzwert" DataType="REAL" Value="0" />
+					<Property ID="AuswahlSensorGrenzwert" DataType="USINT" Value="0" />
+					<Property ID="MaterialfeuchteIst" DataType="USINT" Value="35" />
+				</Group>
+				<Group ID="[6]">
+					<Group ID="Stufe">
+						<Group ID="[1]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="5" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="0" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="35" />
+						</Group>
+						<Group ID="[2]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="7.5" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="3600000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="30" />
+						</Group>
+						<Group ID="[3]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="9" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="7200000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="25" />
+						</Group>
+						<Group ID="[4]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="12" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="10800000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="20" />
+						</Group>
+						<Group ID="[5]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="15" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="14400000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="15" />
+						</Group>
+						<Group ID="[6]">
+							<Property ID="Saettigungsdefizit" DataType="REAL" Value="18" />
+							<Property ID="SchlechtwetterZeitLauf" DataType="UDINT" Value="3600000" />
+							<Property ID="SchlechtwetterZeitPause" DataType="UDINT" Value="18000000" />
+							<Property ID="MaterialfeuchteStufe" DataType="UINT" Value="12" />
+						</Group>
+					</Group>
+					<Property ID="HystereseGrenzwert" DataType="REAL" Value="0.5" />
+					<Property ID="AuswahlSensorGrenzwert" DataType="USINT" Value="0" />
+					<Property ID="MaterialfeuchteIst" DataType="USINT" Value="35" />
+				</Group>
+			</Group>
+		</Group>
+	</Element>
+</DATA>

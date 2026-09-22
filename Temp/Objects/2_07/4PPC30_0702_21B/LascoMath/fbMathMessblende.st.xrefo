@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.LascoMath" AppMod="">
+	<Vars>
+	</Vars>
+	<Consts>
+		<Const Name="CONST_MATH_MAX_VALUE" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoMath\fbMathMessblende.st">
+				<Pos L="24" C="25" PS="Ln:24, Col:25" A="R"/>
+				<Pos L="29" C="57" PS="Ln:29, Col:57" A="R"/>
+				<Pos L="32" C="34" PS="Ln:32, Col:34" A="R"/>
+			</File>
+		</Const>
+		<Const Name="CONST_MATH_LUFTDRUCK" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoMath\fbMathMessblende.st">
+				<Pos L="22" C="25" PS="Ln:22, Col:25" A="R"/>
+				<Pos L="45" C="21" PS="Ln:45, Col:21" A="R"/>
+			</File>
+		</Const>
+		<Const Name="CONST_MATH_GASKONSTANTE" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoMath\fbMathMessblende.st">
+				<Pos L="21" C="7" PS="Ln:21, Col:7" A="R"/>
+				<Pos L="22" C="49" PS="Ln:22, Col:49" A="R"/>
+				<Pos L="45" C="45" PS="Ln:45, Col:45" A="R"/>
+			</File>
+		</Const>
+		<Const Name="CONST_MATH_TEMP_NORM" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoMath\fbMathMessblende.st">
+				<Pos L="45" C="78" PS="Ln:45, Col:78" A="R"/>
+			</File>
+		</Const>
+		<Const Name="CONST_MATH_FAKTOR_DEBIMO" Scope="Global" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoMath\fbMathMessblende.st">
+				<Pos L="30" C="34" PS="Ln:30, Col:34" A="R"/>
+				<Pos L="48" C="31" PS="Ln:48, Col:31" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

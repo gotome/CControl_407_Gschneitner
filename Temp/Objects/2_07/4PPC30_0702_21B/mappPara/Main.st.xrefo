@@ -1,0 +1,507 @@
+<?xml version="1.0"?>
+<Crossref Scope="Util.mappPara" AppMod="">
+	<Vars>
+		<Var Name="mappPara.MpRecipeXml_0.Enable" Scope="Local" Type="MpRecipeXml">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="5" C="2" PS="Ln:5, Col:2" A="W"/>
+				<Pos L="57" C="5" PS="Ln:57, Col:5" A="W"/>
+				<Pos L="71" C="4" PS="Ln:71, Col:4" A="W"/>
+				<Pos L="116" C="5" PS="Ln:116, Col:5" A="W"/>
+				<Pos L="125" C="4" PS="Ln:125, Col:4" A="W"/>
+				<Pos L="159" C="5" PS="Ln:159, Col:5" A="W"/>
+				<Pos L="167" C="4" PS="Ln:167, Col:4" A="W"/>
+				<Pos L="208" C="5" PS="Ln:208, Col:5" A="W"/>
+				<Pos L="250" C="5" PS="Ln:250, Col:5" A="W"/>
+				<Pos L="260" C="4" PS="Ln:260, Col:4" A="W"/>
+				<Pos L="335" C="2" PS="Ln:335, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeXml_0" Scope="Local" Type="MpRecipeXml">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="6" C="2" PS="Ln:6, Col:2" A="RW"/>
+				<Pos L="59" C="5" PS="Ln:59, Col:5" A="RW"/>
+				<Pos L="75" C="4" PS="Ln:75, Col:4" A="RW"/>
+				<Pos L="117" C="5" PS="Ln:117, Col:5" A="RW"/>
+				<Pos L="130" C="4" PS="Ln:130, Col:4" A="RW"/>
+				<Pos L="160" C="5" PS="Ln:160, Col:5" A="RW"/>
+				<Pos L="171" C="4" PS="Ln:171, Col:4" A="RW"/>
+				<Pos L="209" C="5" PS="Ln:209, Col:5" A="RW"/>
+				<Pos L="251" C="5" PS="Ln:251, Col:5" A="RW"/>
+				<Pos L="279" C="4" PS="Ln:279, Col:4" A="RW"/>
+				<Pos L="313" C="4" PS="Ln:313, Col:4" A="RW"/>
+				<Pos L="336" C="2" PS="Ln:336, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeXml_0.ErrorReset" Scope="Local" Type="MpRecipeXml">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="58" C="5" PS="Ln:58, Col:5" A="W"/>
+				<Pos L="312" C="4" PS="Ln:312, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeXml_0.MpLink" Scope="Local" Type="MpRecipeXml">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="72" C="4" PS="Ln:72, Col:4" A="W"/>
+				<Pos L="127" C="4" PS="Ln:127, Col:4" A="W"/>
+				<Pos L="168" C="4" PS="Ln:168, Col:4" A="W"/>
+				<Pos L="262" C="4" PS="Ln:262, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeXml_0.DeviceName" Scope="Local" Type="MpRecipeXml">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="73" C="4" PS="Ln:73, Col:4" A="W"/>
+				<Pos L="128" C="4" PS="Ln:128, Col:4" A="W"/>
+				<Pos L="169" C="4" PS="Ln:169, Col:4" A="W"/>
+				<Pos L="263" C="4" PS="Ln:263, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeXml_0.FileName" Scope="Local" Type="MpRecipeXml">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="74" C="4" PS="Ln:74, Col:4" A="W"/>
+				<Pos L="129" C="4" PS="Ln:129, Col:4" A="W"/>
+				<Pos L="170" C="4" PS="Ln:170, Col:4" A="W"/>
+				<Pos L="265" C="5" PS="Ln:265, Col:5" A="W"/>
+				<Pos L="267" C="5" PS="Ln:267, Col:5" A="W"/>
+				<Pos L="269" C="5" PS="Ln:269, Col:5" A="W"/>
+				<Pos L="271" C="5" PS="Ln:271, Col:5" A="W"/>
+				<Pos L="273" C="5" PS="Ln:273, Col:5" A="W"/>
+				<Pos L="275" C="5" PS="Ln:275, Col:5" A="W"/>
+				<Pos L="277" C="5" PS="Ln:277, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeXml_0.Error" Scope="Local" Type="MpRecipeXml">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="103" C="10" PS="Ln:103, Col:10" A="R"/>
+				<Pos L="147" C="10" PS="Ln:147, Col:10" A="R"/>
+				<Pos L="194" C="10" PS="Ln:194, Col:10" A="R"/>
+				<Pos L="296" C="10" PS="Ln:296, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeXml_0.Load" Scope="Local" Type="MpRecipeXml">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="137" C="4" PS="Ln:137, Col:4" A="W"/>
+				<Pos L="143" C="5" PS="Ln:143, Col:5" A="W"/>
+				<Pos L="286" C="4" PS="Ln:286, Col:4" A="W"/>
+				<Pos L="292" C="5" PS="Ln:292, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeXml_0.CommandDone" Scope="Local" Type="MpRecipeXml">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="142" C="7" PS="Ln:142, Col:7" A="R"/>
+				<Pos L="189" C="7" PS="Ln:189, Col:7" A="R"/>
+				<Pos L="291" C="7" PS="Ln:291, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeRegPar_0.Enable" Scope="Local" Type="MpRecipeRegPar">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="7" C="2" PS="Ln:7, Col:2" A="W"/>
+				<Pos L="60" C="5" PS="Ln:60, Col:5" A="W"/>
+				<Pos L="78" C="4" PS="Ln:78, Col:4" A="W"/>
+				<Pos L="118" C="5" PS="Ln:118, Col:5" A="W"/>
+				<Pos L="133" C="4" PS="Ln:133, Col:4" A="W"/>
+				<Pos L="161" C="5" PS="Ln:161, Col:5" A="W"/>
+				<Pos L="174" C="4" PS="Ln:174, Col:4" A="W"/>
+				<Pos L="210" C="5" PS="Ln:210, Col:5" A="W"/>
+				<Pos L="252" C="5" PS="Ln:252, Col:5" A="W"/>
+				<Pos L="282" C="4" PS="Ln:282, Col:4" A="W"/>
+				<Pos L="337" C="2" PS="Ln:337, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeRegPar_0" Scope="Local" Type="MpRecipeRegPar">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="8" C="2" PS="Ln:8, Col:2" A="RW"/>
+				<Pos L="62" C="5" PS="Ln:62, Col:5" A="RW"/>
+				<Pos L="80" C="4" PS="Ln:80, Col:4" A="RW"/>
+				<Pos L="119" C="5" PS="Ln:119, Col:5" A="RW"/>
+				<Pos L="135" C="4" PS="Ln:135, Col:4" A="RW"/>
+				<Pos L="162" C="5" PS="Ln:162, Col:5" A="RW"/>
+				<Pos L="176" C="4" PS="Ln:176, Col:4" A="RW"/>
+				<Pos L="211" C="5" PS="Ln:211, Col:5" A="RW"/>
+				<Pos L="253" C="5" PS="Ln:253, Col:5" A="RW"/>
+				<Pos L="284" C="4" PS="Ln:284, Col:4" A="RW"/>
+				<Pos L="316" C="4" PS="Ln:316, Col:4" A="RW"/>
+				<Pos L="338" C="2" PS="Ln:338, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeRegPar_0.ErrorReset" Scope="Local" Type="MpRecipeRegPar">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="61" C="5" PS="Ln:61, Col:5" A="W"/>
+				<Pos L="315" C="4" PS="Ln:315, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeRegPar_0.MpLink" Scope="Local" Type="MpRecipeRegPar">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="77" C="4" PS="Ln:77, Col:4" A="W"/>
+				<Pos L="132" C="4" PS="Ln:132, Col:4" A="W"/>
+				<Pos L="173" C="4" PS="Ln:173, Col:4" A="W"/>
+				<Pos L="281" C="4" PS="Ln:281, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeRegPar_0.PVName" Scope="Local" Type="MpRecipeRegPar">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="79" C="4" PS="Ln:79, Col:4" A="W"/>
+				<Pos L="134" C="4" PS="Ln:134, Col:4" A="W"/>
+				<Pos L="175" C="4" PS="Ln:175, Col:4" A="W"/>
+				<Pos L="283" C="4" PS="Ln:283, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeRegPar_0.Error" Scope="Local" Type="MpRecipeRegPar">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="103" C="33" PS="Ln:103, Col:33" A="R"/>
+				<Pos L="147" C="33" PS="Ln:147, Col:33" A="R"/>
+				<Pos L="194" C="33" PS="Ln:194, Col:33" A="R"/>
+				<Pos L="296" C="33" PS="Ln:296, Col:33" A="R"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeUI_0.Enable" Scope="Local" Type="MpRecipeUI">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="9" C="2" PS="Ln:9, Col:2" A="W"/>
+				<Pos L="63" C="5" PS="Ln:63, Col:5" A="W"/>
+				<Pos L="83" C="4" PS="Ln:83, Col:4" A="W"/>
+				<Pos L="120" C="5" PS="Ln:120, Col:5" A="W"/>
+				<Pos L="163" C="5" PS="Ln:163, Col:5" A="W"/>
+				<Pos L="179" C="4" PS="Ln:179, Col:4" A="W"/>
+				<Pos L="212" C="5" PS="Ln:212, Col:5" A="W"/>
+				<Pos L="254" C="5" PS="Ln:254, Col:5" A="W"/>
+				<Pos L="339" C="2" PS="Ln:339, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeUI_0" Scope="Local" Type="MpRecipeUI">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="10" C="2" PS="Ln:10, Col:2" A="RW"/>
+				<Pos L="65" C="5" PS="Ln:65, Col:5" A="RW"/>
+				<Pos L="86" C="4" PS="Ln:86, Col:4" A="RW"/>
+				<Pos L="121" C="5" PS="Ln:121, Col:5" A="RW"/>
+				<Pos L="164" C="5" PS="Ln:164, Col:5" A="RW"/>
+				<Pos L="182" C="4" PS="Ln:182, Col:4" A="RW"/>
+				<Pos L="213" C="5" PS="Ln:213, Col:5" A="RW"/>
+				<Pos L="255" C="5" PS="Ln:255, Col:5" A="RW"/>
+				<Pos L="319" C="4" PS="Ln:319, Col:4" A="RW"/>
+				<Pos L="340" C="2" PS="Ln:340, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeUI_0.ErrorReset" Scope="Local" Type="MpRecipeUI">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="64" C="5" PS="Ln:64, Col:5" A="W"/>
+				<Pos L="318" C="4" PS="Ln:318, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeUI_0.MpLink" Scope="Local" Type="MpRecipeUI">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="82" C="4" PS="Ln:82, Col:4" A="W"/>
+				<Pos L="178" C="4" PS="Ln:178, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeUI_0.UISetup" Scope="Local" Type="MpRecipeUI">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="84" C="4" PS="Ln:84, Col:4" A="W"/>
+				<Pos L="180" C="4" PS="Ln:180, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeUI_0.UIConnect" Scope="Local" Type="MpRecipeUI">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="85" C="4" PS="Ln:85, Col:4" A="W"/>
+				<Pos L="181" C="4" PS="Ln:181, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.MpRecipeUI_0.Error" Scope="Local" Type="MpRecipeUI">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="103" C="59" PS="Ln:103, Col:59" A="R"/>
+				<Pos L="147" C="59" PS="Ln:147, Col:59" A="R"/>
+				<Pos L="194" C="59" PS="Ln:194, Col:59" A="R"/>
+				<Pos L="296" C="59" PS="Ln:296, Col:59" A="R"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.stateEntry" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="55" C="7" PS="Ln:55, Col:7" A="R"/>
+				<Pos L="56" C="5" PS="Ln:56, Col:5" A="W"/>
+				<Pos L="92" C="5" PS="Ln:92, Col:5" A="W"/>
+				<Pos L="96" C="5" PS="Ln:96, Col:5" A="W"/>
+				<Pos L="100" C="5" PS="Ln:100, Col:5" A="W"/>
+				<Pos L="104" C="5" PS="Ln:104, Col:5" A="W"/>
+				<Pos L="114" C="7" PS="Ln:114, Col:7" A="R"/>
+				<Pos L="115" C="5" PS="Ln:115, Col:5" A="W"/>
+				<Pos L="144" C="5" PS="Ln:144, Col:5" A="W"/>
+				<Pos L="148" C="5" PS="Ln:148, Col:5" A="W"/>
+				<Pos L="157" C="7" PS="Ln:157, Col:7" A="R"/>
+				<Pos L="158" C="5" PS="Ln:158, Col:5" A="W"/>
+				<Pos L="191" C="5" PS="Ln:191, Col:5" A="W"/>
+				<Pos L="195" C="5" PS="Ln:195, Col:5" A="W"/>
+				<Pos L="206" C="7" PS="Ln:206, Col:7" A="R"/>
+				<Pos L="207" C="5" PS="Ln:207, Col:5" A="W"/>
+				<Pos L="233" C="5" PS="Ln:233, Col:5" A="W"/>
+				<Pos L="237" C="5" PS="Ln:237, Col:5" A="W"/>
+				<Pos L="248" C="7" PS="Ln:248, Col:7" A="R"/>
+				<Pos L="249" C="5" PS="Ln:249, Col:5" A="W"/>
+				<Pos L="293" C="5" PS="Ln:293, Col:5" A="W"/>
+				<Pos L="297" C="5" PS="Ln:297, Col:5" A="W"/>
+				<Pos L="308" C="7" PS="Ln:308, Col:7" A="R"/>
+				<Pos L="309" C="5" PS="Ln:309, Col:5" A="W"/>
+				<Pos L="323" C="4" PS="Ln:323, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.FileNameFromUSB" Scope="Local" Type="STRING[80]">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="36" C="90" PS="Ln:36, Col:90" A="R"/>
+				<Pos L="36" C="123" PS="Ln:36, Col:123" A="R"/>
+				<Pos L="36" C="156" PS="Ln:36, Col:156" A="R"/>
+				<Pos L="37" C="4" PS="Ln:37, Col:4" A="R"/>
+				<Pos L="37" C="41" PS="Ln:37, Col:41" A="R"/>
+				<Pos L="37" C="74" PS="Ln:37, Col:74" A="R"/>
+				<Pos L="37" C="110" PS="Ln:37, Col:110" A="R"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.UISetup" Scope="Local" Type="MpRecipeUISetupType">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="84" C="29" PS="Ln:84, Col:29" A="R"/>
+				<Pos L="180" C="29" PS="Ln:180, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.UIConnect.New.FileName" Scope="Local" Type="MpRecipeUIConnectType">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="35" C="6" PS="Ln:35, Col:6" A="R"/>
+				<Pos L="35" C="46" PS="Ln:35, Col:46" A="R"/>
+				<Pos L="35" C="86" PS="Ln:35, Col:86" A="R"/>
+				<Pos L="35" C="126" PS="Ln:35, Col:126" A="R"/>
+				<Pos L="35" C="170" PS="Ln:35, Col:170" A="R"/>
+				<Pos L="36" C="4" PS="Ln:36, Col:4" A="R"/>
+				<Pos L="36" C="47" PS="Ln:36, Col:47" A="R"/>
+				<Pos L="184" C="4" PS="Ln:184, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.UIConnect" Scope="Local" Type="MpRecipeUIConnectType">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="85" C="35" PS="Ln:85, Col:35" A="R"/>
+				<Pos L="181" C="35" PS="Ln:181, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.UIConnect.New.Create" Scope="Local" Type="MpRecipeUIConnectType">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="185" C="4" PS="Ln:185, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.UIConnect.Recipe.Refresh" Scope="Local" Type="MpRecipeUIConnectType">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="190" C="5" PS="Ln:190, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.UIConnect.Recipe.List.SelectedIndex" Scope="Local" Type="MpRecipeUIConnectType">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="219" C="48" PS="Ln:219, Col:48" A="R"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.UIConnect.Recipe.List.Names" Scope="Local" Type="MpRecipeUIConnectType">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="219" C="20" PS="Ln:219, Col:20" A="R"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.step" Scope="Local" Type="USINT">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="47" C="7" PS="Ln:47, Col:7" A="R"/>
+				<Pos L="93" C="5" PS="Ln:93, Col:5" A="W"/>
+				<Pos L="97" C="5" PS="Ln:97, Col:5" A="W"/>
+				<Pos L="101" C="5" PS="Ln:101, Col:5" A="W"/>
+				<Pos L="105" C="5" PS="Ln:105, Col:5" A="W"/>
+				<Pos L="145" C="5" PS="Ln:145, Col:5" A="W"/>
+				<Pos L="149" C="5" PS="Ln:149, Col:5" A="W"/>
+				<Pos L="192" C="5" PS="Ln:192, Col:5" A="W"/>
+				<Pos L="196" C="5" PS="Ln:196, Col:5" A="W"/>
+				<Pos L="234" C="5" PS="Ln:234, Col:5" A="W"/>
+				<Pos L="238" C="5" PS="Ln:238, Col:5" A="W"/>
+				<Pos L="294" C="5" PS="Ln:294, Col:5" A="W"/>
+				<Pos L="298" C="5" PS="Ln:298, Col:5" A="W"/>
+				<Pos L="322" C="4" PS="Ln:322, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.loc_LockNewFile" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="38" C="3" PS="Ln:38, Col:3" A="W"/>
+				<Pos L="40" C="3" PS="Ln:40, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.FileCopy_0.enable" Scope="Local" Type="FileCopy">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="11" C="2" PS="Ln:11, Col:2" A="W"/>
+				<Pos L="214" C="5" PS="Ln:214, Col:5" A="W"/>
+				<Pos L="221" C="4" PS="Ln:221, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.FileCopy_0" Scope="Local" Type="FileCopy">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="12" C="2" PS="Ln:12, Col:2" A="RW"/>
+				<Pos L="215" C="5" PS="Ln:215, Col:5" A="RW"/>
+				<Pos L="227" C="4" PS="Ln:227, Col:4" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.FileCopy_0.option" Scope="Local" Type="FileCopy">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="222" C="4" PS="Ln:222, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.FileCopy_0.pDest" Scope="Local" Type="FileCopy">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="223" C="4" PS="Ln:223, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.FileCopy_0.pDestDev" Scope="Local" Type="FileCopy">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="224" C="4" PS="Ln:224, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.FileCopy_0.pSrc" Scope="Local" Type="FileCopy">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="225" C="4" PS="Ln:225, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.FileCopy_0.pSrcDev" Scope="Local" Type="FileCopy">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="226" C="4" PS="Ln:226, Col:4" A="W"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.FileCopy_0.status" Scope="Local" Type="FileCopy">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="232" C="7" PS="Ln:232, Col:7" A="R"/>
+				<Pos L="236" C="10" PS="Ln:236, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="mappPara.loc_FileName" Scope="Local" Type="STRING[30]">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="219" C="4" PS="Ln:219, Col:4" A="W"/>
+				<Pos L="223" C="28" PS="Ln:223, Col:28" A="R"/>
+				<Pos L="225" C="28" PS="Ln:225, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Allgemein.ParameterVorhanden" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="17" C="10" PS="Ln:17, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gWerksparameterLaden" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="18" C="3" PS="Ln:18, Col:3" A="W"/>
+				<Pos L="99" C="10" PS="Ln:99, Col:10" A="R"/>
+				<Pos L="256" C="5" PS="Ln:256, Col:5" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmiStatus.ParameterFileNameAufUsb" Scope="Global" Type="typHmiStatus">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="14" C="2" PS="Ln:14, Col:2" A="W"/>
+				<Pos L="129" C="35" PS="Ln:129, Col:35" A="R"/>
+				<Pos L="184" C="31" PS="Ln:184, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiStatus.NameSteuerung" Scope="Global" Type="typHmiStatus">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="264" C="7" PS="Ln:264, Col:7" A="R"/>
+				<Pos L="266" C="10" PS="Ln:266, Col:10" A="R"/>
+				<Pos L="268" C="10" PS="Ln:268, Col:10" A="R"/>
+				<Pos L="270" C="10" PS="Ln:270, Col:10" A="R"/>
+				<Pos L="272" C="10" PS="Ln:272, Col:10" A="R"/>
+				<Pos L="274" C="10" PS="Ln:274, Col:10" A="R"/>
+				<Pos L="276" C="10" PS="Ln:276, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiParameter" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="4" C="2" PS="Ln:4, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmiButtons.ParameterAufUsbKopieren" Scope="Global" Type="typHmiButtons">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="66" C="5" PS="Ln:66, Col:5" A="W"/>
+				<Pos L="95" C="10" PS="Ln:95, Col:10" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiButtons.ParameterVonUsbLaden" Scope="Global" Type="typHmiButtons">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="67" C="5" PS="Ln:67, Col:5" A="W"/>
+				<Pos L="91" C="7" PS="Ln:91, Col:7" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gMappRecipeLink" Scope="Global" Type="MpComIdentType">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="72" C="33" PS="Ln:72, Col:33" A="R"/>
+				<Pos L="77" C="36" PS="Ln:77, Col:36" A="R"/>
+				<Pos L="82" C="33" PS="Ln:82, Col:33" A="R"/>
+				<Pos L="127" C="33" PS="Ln:127, Col:33" A="R"/>
+				<Pos L="132" C="36" PS="Ln:132, Col:36" A="R"/>
+				<Pos L="168" C="33" PS="Ln:168, Col:33" A="R"/>
+				<Pos L="173" C="36" PS="Ln:173, Col:36" A="R"/>
+				<Pos L="178" C="33" PS="Ln:178, Col:33" A="R"/>
+				<Pos L="262" C="33" PS="Ln:262, Col:33" A="R"/>
+				<Pos L="281" C="36" PS="Ln:281, Col:36" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+		<Const Name="ERR_FUB_BUSY" Scope="Global" Type="UINT">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="236" C="31" PS="Ln:236, Col:31" A="R"/>
+			</File>
+		</Const>
+		<Const Name="fiOVERWRITE" Scope="Global" Type="USINT">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="222" C="25" PS="Ln:222, Col:25" A="R"/>
+			</File>
+		</Const>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="FileCopy" Lib="FileIO">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="12" C="2" PS="Ln:12, Col:2"/>
+				<Pos L="215" C="5" PS="Ln:215, Col:5"/>
+				<Pos L="227" C="4" PS="Ln:227, Col:4"/>
+			</File>
+		</Func>
+		<Func Name="MpRecipeRegPar" Lib="MpRecipe">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="8" C="2" PS="Ln:8, Col:2"/>
+				<Pos L="62" C="5" PS="Ln:62, Col:5"/>
+				<Pos L="80" C="4" PS="Ln:80, Col:4"/>
+				<Pos L="119" C="5" PS="Ln:119, Col:5"/>
+				<Pos L="135" C="4" PS="Ln:135, Col:4"/>
+				<Pos L="162" C="5" PS="Ln:162, Col:5"/>
+				<Pos L="176" C="4" PS="Ln:176, Col:4"/>
+				<Pos L="211" C="5" PS="Ln:211, Col:5"/>
+				<Pos L="253" C="5" PS="Ln:253, Col:5"/>
+				<Pos L="284" C="4" PS="Ln:284, Col:4"/>
+				<Pos L="316" C="4" PS="Ln:316, Col:4"/>
+				<Pos L="338" C="2" PS="Ln:338, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="MpRecipeXml" Lib="MpRecipe">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="6" C="2" PS="Ln:6, Col:2"/>
+				<Pos L="59" C="5" PS="Ln:59, Col:5"/>
+				<Pos L="75" C="4" PS="Ln:75, Col:4"/>
+				<Pos L="117" C="5" PS="Ln:117, Col:5"/>
+				<Pos L="130" C="4" PS="Ln:130, Col:4"/>
+				<Pos L="160" C="5" PS="Ln:160, Col:5"/>
+				<Pos L="171" C="4" PS="Ln:171, Col:4"/>
+				<Pos L="209" C="5" PS="Ln:209, Col:5"/>
+				<Pos L="251" C="5" PS="Ln:251, Col:5"/>
+				<Pos L="279" C="4" PS="Ln:279, Col:4"/>
+				<Pos L="313" C="4" PS="Ln:313, Col:4"/>
+				<Pos L="336" C="2" PS="Ln:336, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="MpRecipeUI" Lib="MpRecipe">
+			<File Name="C:\SharedFolder\CControl\Logical\Util\mappPara\Main.st">
+				<Pos L="10" C="2" PS="Ln:10, Col:2"/>
+				<Pos L="65" C="5" PS="Ln:65, Col:5"/>
+				<Pos L="86" C="4" PS="Ln:86, Col:4"/>
+				<Pos L="121" C="5" PS="Ln:121, Col:5"/>
+				<Pos L="164" C="5" PS="Ln:164, Col:5"/>
+				<Pos L="182" C="4" PS="Ln:182, Col:4"/>
+				<Pos L="213" C="5" PS="Ln:213, Col:5"/>
+				<Pos L="255" C="5" PS="Ln:255, Col:5"/>
+				<Pos L="319" C="4" PS="Ln:319, Col:4"/>
+				<Pos L="340" C="2" PS="Ln:340, Col:2"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

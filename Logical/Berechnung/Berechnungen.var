@@ -1,0 +1,15 @@
+(*============================================================================================================================================*)
+(*======================================== FUNKTIONSBAUSTEINE FÜR FÜHLERBERECHNUNGEN ====================================================*)
+VAR
+	fbSchlechtwetterBox1 : {REDUND_UNREPLICABLE} fbCControlWitterung;
+	fbSchlechtwetterBox2 : {REDUND_UNREPLICABLE} fbCControlWitterung;
+	fbSchlechtwetterBox3 : {REDUND_UNREPLICABLE} fbCControlWitterung;
+	fbSchlechtwetterBox4 : {REDUND_UNREPLICABLE} fbCControlWitterung;
+	fbSchlechtwetterBox5 : {REDUND_UNREPLICABLE} fbCControlWitterung;
+	fbSchlechtwetterBox6 : {REDUND_UNREPLICABLE} fbCControlWitterung;
+	Frischluftsensor : {REDUND_UNREPLICABLE} fbMathLuft;
+	Dachluftsensor : {REDUND_UNREPLICABLE} fbMathLuft;
+	Trockenluftsensor : {REDUND_UNREPLICABLE} fbMathLuft;
+	Abluftsensor : {REDUND_UNREPLICABLE} fbMathLuft;
+	Drucksensor : {REDUND_UNREPLICABLE} fbMathTrLftDruck;
+END_VAR

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXT_EinAus">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="55"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="232365" Value="OFF"/>
+    <Text ID="232366" Value="ON"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="232365" Value="AUS"/>
+    <Text ID="232366" Value="EIN"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="232365" Value="OFF"/>
+    <Text ID="232366" Value="ON"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-BE">
+    <Text ID="232365" Value="UIT"/>
+    <Text ID="232366" Value="AAN"/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="232365" Value=""/>
+    <Text ID="232366" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sl">
+    <Text ID="232365" Value="IZKLOP"/>
+    <Text ID="232366" Value="VKLOP"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="232365" Value="0"/>
+    <Index ID="232366" Value="1"/>
+  </IndexMap>
+</TextGroup>

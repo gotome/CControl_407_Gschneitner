@@ -1,0 +1,69 @@
+;====================================================================
+; Eingangswerte Tag, Monat, Jahr, Stunde, Minute, Sekunde, MilliSek in einen String für 
+; Grübl-Reporting (GRP) Format: "jjjj-MM-dd hh:mm:ss.nnn" umwandeln
+;
+;   !!  Achtung: mindestens String[23] od. USINT[0..23] am Ausgang anhängen !!
+;
+;       (Auffüllung Tage < 10, Monat < 10, Jahr < 1000 
+;                   Stunde < 10, Minute < 10, Sekunde < 10 milliSek < 10 mit vorangestellten "0")
+;        zB.: "2011-01-01 09:35:27.365"
+;
+; 	Author:		Ing. Schmid Herwig
+;	Version:	1.0
+;	Datum:		25.02.2011
+;	geprüft:	25.02.2011 OK
+;
+;====================================================================
+; Aufruf: CSV_GRP_timestamp(Eing_Tag, Eing_Monat, Eing_Jahr, Eing_Stunde, Eing_Minute, Eing_Sekunde, Eing_MilliSek, adr(Ausg_timestamp), sizeof(Ausg_timestamp), Ausg_Fehler) 
+;
+; EA:    		Eing_Tag  		  	   E.. Byte   Tageswert    1..31
+;              	Eing_Monat	  	  	   E.. Byte   Monatswert   1..12
+;              	Eing_Jahr        	   E.. UINT   Jahreswert   0..9999
+;               Eing_Stunde  	  	   E.. Byte   Stundenwert  0..23
+;              	Eing_Minute	  	  	   E.. Byte   Minutenwert  0..59
+;              	Eing_Sekunde      	   E.. UINT   Sekundenwert 0..59
+;              	Eing_MilliSek     	   E.. UINT   Sekundenwert 0..999
+;              	adr(Ausg_timestamp)	   E.. UDINT  Ausgangsvariable - Adresse String[>=23] od. USINT[>=0..23]
+;               sizeof(Ausg_timestamp) E.. UDINT  Ausgangsvariable - Länge String[>=23] od. USINT[>=0..23]
+;               Ausg_Fehler            A.. BOOL   (= 1 wenn Ausgangsvariable zu klein definiert) 
+;====================================================================
+
+FUNCTION_BLOCK CSV_GRP_timestamp
+
+  memset(adr(M_TIMESTAMP), 0, sizeof(M_TIMESTAMP))
+
+  if Ausg_timestamp_len >= sizeof(M_TIMESTAMP) then
+  	  
+     CSV_itoa(Eing_Tag  , 2, 0, 0, 0, adr(Str_Tag) , sizeof(Str_Tag) , M_Fehler) 
+     CSV_itoa(Eing_Monat, 2, 0, 0, 0, adr(Str_Mon) , sizeof(Str_Mon) , M_Fehler) 
+     CSV_itoa(Eing_Jahr , 4, 0, 0, 0, adr(Str_Jahr), sizeof(Str_Jahr), M_Fehler) 
+
+     CSV_itoa(Eing_Stunde  , 2, 0, 0, 0, adr(Str_Stunde)  , sizeof(Str_Stunde),   M_Fehler)
+     CSV_itoa(Eing_Minute  , 2, 0, 0, 0, adr(Str_Minute)  , sizeof(Str_Minute),   M_Fehler)
+     CSV_itoa(Eing_Sekunde , 2, 0, 0, 0, adr(Str_Sekunde) , sizeof(Str_Sekunde),  M_Fehler)           
+     CSV_itoa(Eing_MilliSek, 3, 0, 0, 0, adr(Str_MilliSek), sizeof(Str_MilliSek), M_Fehler)           
+
+     strcpy(adr(M_TIMESTAMP), adr(Str_Jahr))
+     strcat(adr(M_TIMESTAMP), "-")
+     strcat(adr(M_TIMESTAMP), adr(Str_Mon))
+     strcat(adr(M_TIMESTAMP), "-")
+     strcat(adr(M_TIMESTAMP), adr(Str_Tag))
+     strcat(adr(M_TIMESTAMP), " ")
+     strcat(adr(M_TIMESTAMP), adr(Str_Stunde))
+     strcat(adr(M_TIMESTAMP), ":")
+     strcat(adr(M_TIMESTAMP), adr(Str_Minute))
+     strcat(adr(M_TIMESTAMP), ":")
+     strcat(adr(M_TIMESTAMP), adr(Str_Sekunde))
+     strcat(adr(M_TIMESTAMP), ".")
+     strcat(adr(M_TIMESTAMP), adr(Str_MilliSek))
+
+     memcpy(Ausg_timestamp_adr, adr(M_TIMESTAMP), Ausg_timestamp_len)
+  
+  else 
+
+     memcpy(Ausg_timestamp_adr, adr(M_TIMESTAMP), sizeof(M_TIMESTAMP))
+  	 Ausg_Fehler = 1
+	
+  endif
+
+END_FUNCTION_BLOCK

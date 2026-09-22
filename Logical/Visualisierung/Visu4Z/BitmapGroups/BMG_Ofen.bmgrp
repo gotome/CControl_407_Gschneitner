@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="BMG_Ofen">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="23"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="551" Value="Source[local].Bitmap[PNG_OfenGrau]"/>
+    <BitmapRef ID="552" Value="Source[local].Bitmap[PNG_OfenGelb]"/>
+    <BitmapRef ID="553" Value="Source[local].Bitmap[PNG_OfenRot]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="551" Value="2"/>
+    <Index ID="552" Value="3"/>
+    <Index ID="553" Value="4"/>
+  </IndexMap>
+</BitmapGroup>

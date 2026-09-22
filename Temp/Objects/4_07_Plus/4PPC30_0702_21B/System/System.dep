@@ -1,0 +1,13 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/AsARCfg/AsARCfg.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/LascoUtil/LascoUtil.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun
+$(AS_PROJECT_PATH)/Logical/Util/System/System.var
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/runtime/runtime.var
+$(AS_PROJECT_PATH)/Logical/VisuIO.var
+$(AS_PROJECT_PATH)/Logical/VisuIO.typ
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Enumeration.typ
+$(AS_PROJECT_PATH)/Logical/Global.typ
+$(AS_PROJECT_PATH)/Logical/Parameter.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/LascoBoxen/Types.typ

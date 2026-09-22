@@ -1,0 +1,8 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/LascoUtil/LascoUtil.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/brsystem/brsystem.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/LoopConR/LoopConR.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/LascoUtil/LascoUtil.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/astime/astime.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/IecCheck/IecCheck.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/sys_lib/sys_lib.fun

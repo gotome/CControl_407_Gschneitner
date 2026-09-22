@@ -1,0 +1,29 @@
+VAR
+	TOF_VerzBetriebsartBox : {REDUND_UNREPLICABLE} TOF;
+	TOF_BoxAufgerufen : {REDUND_UNREPLICABLE} TOF;
+	fbLascoZdxx_0 : {REDUND_UNREPLICABLE} fbLascoZdxx;
+	hmilliTick : {REDUND_UNREPLICABLE} BOOL;
+	fbLascoZdxx_1 : {REDUND_UNREPLICABLE} fbLascoZdxx;
+	sekTick : {REDUND_UNREPLICABLE} BOOL;
+	fbLascoZdxx_2 : {REDUND_UNREPLICABLE} fbLascoZdxx;
+	stdTick : {REDUND_UNREPLICABLE} BOOL;
+	fbLascoZdxx_3 : {REDUND_UNREPLICABLE} fbLascoZdxx;
+	tagTick : {REDUND_UNREPLICABLE} BOOL;
+	fbLascoZdxx_5 : {REDUND_UNREPLICABLE} fbLascoZdxx;
+	jahrTick : {REDUND_UNREPLICABLE} BOOL;
+	fbLascoPuge_0 : {REDUND_UNREPLICABLE} fbLascoPuge;
+	hmiBlink : {REDUND_UNREPLICABLE} BOOL;
+	fbLascoPuge_1 : {REDUND_UNREPLICABLE} fbLascoPuge;
+	hmiBlink2 : {REDUND_UNREPLICABLE} BOOL;
+	TOF_VerzUmschaltungBypassklappe : {REDUND_UNREPLICABLE} TOF;
+	TOF_VerzUmschaltungAbluftklappe : {REDUND_UNREPLICABLE} TOF;
+	TOF_VerzUmschaltungAbluftvent : {REDUND_UNREPLICABLE} TOF;
+	TOF_VerzUmschaltungUmluftkl : {REDUND_UNREPLICABLE} TOF;
+	loc_TimePwReset : {REDUND_UNREPLICABLE} UDINT;
+	loc_MsgFalschesDatumAckn : {REDUND_UNREPLICABLE} BOOL;
+	loc_MsgKontrUhrzeitAckn : {REDUND_UNREPLICABLE} BOOL;
+	loc_DisplayTimeout : {REDUND_UNREPLICABLE} INT;
+	loc_RestzeitSchlechtMillisek : {REDUND_UNREPLICABLE} REAL;
+	loc_RestzeitSchlechtStunden : {REDUND_UNREPLICABLE} UDINT;
+	loc_RestzeitSchlechtMinuten : {REDUND_UNREPLICABLE} UINT;
+END_VAR

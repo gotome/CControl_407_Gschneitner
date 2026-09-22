@@ -1,0 +1,10 @@
+_BUR_LOCAL unsigned short RTC_gettime_Status;
+_BUR_LOCAL plcbit StdTick;
+_BUR_LOCAL plcbit MinTick;
+_BUR_LOCAL plcbit SekTick;
+_BUR_LOCAL plcbit TagTick;
+_BUR_LOCAL plcbit MonTick;
+_BUR_LOCAL plcbit JahrTick;
+_BUR_LOCAL plcbit InitOK;
+_BUR_LOCAL plcbit M_DATA_CSV_CLEAR_ALL_T;
+_BUR_LOCAL unsigned long ET;

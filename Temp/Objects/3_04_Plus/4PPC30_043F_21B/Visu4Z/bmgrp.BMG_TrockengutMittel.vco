@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Object Name="BitmapGroup" ClsId="0x0" Version="0" TargetIndex="27" Type="REF" RefString="Source[local].BitmapGroup[BMG_TrockengutMittel]" />
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="BMG_TrockengutMittel" ClsId="0x308" Version="1" TargetIndex="27" Type="BMPG" RefString="Source[local].BitmapGroup[BMG_TrockengutMittel_en]">
+            <UInt32 Name="Count">14</UInt32>
+            <Group Name="PNG_RundballenMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_RundballenMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="PNG_HeuMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HeuMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="PNG_HeuMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HeuMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="PNG_RundballenMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_RundballenMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+            <Group Name="PNG_MaisMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_MaisMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">13</UInt16>
+            </Group>
+            <Group Name="PNG_MaisMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_MaisMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="PNG_WeizenMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_WeizenMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">14</UInt16>
+            </Group>
+            <Group Name="PNG_WeizenMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_WeizenMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">15</UInt16>
+            </Group>
+            <Group Name="PNG_HopfenMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HopfenMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">16</UInt16>
+            </Group>
+            <Group Name="PNG_HopfenMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HopfenMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">17</UInt16>
+            </Group>
+            <Group Name="PNG_KraeuterMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_KraeuterMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">18</UInt16>
+            </Group>
+            <Group Name="PNG_KraeuterMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_KraeuterMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">19</UInt16>
+            </Group>
+            <Group Name="PNG_HolzMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HolzMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">20</UInt16>
+            </Group>
+            <Group Name="PNG_HolzMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HolzMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">21</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="de" TargetIndex="1">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="BMG_TrockengutMittel" ClsId="0x308" Version="1" TargetIndex="27" Type="BMPG" RefString="Source[local].BitmapGroup[BMG_TrockengutMittel_de]">
+            <UInt32 Name="Count">14</UInt32>
+            <Group Name="PNG_RundballenMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_RundballenMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="PNG_HeuMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HeuMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="PNG_HeuMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HeuMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="PNG_RundballenMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_RundballenMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+            <Group Name="PNG_MaisMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_MaisMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">13</UInt16>
+            </Group>
+            <Group Name="PNG_MaisMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_MaisMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="PNG_WeizenMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_WeizenMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">14</UInt16>
+            </Group>
+            <Group Name="PNG_WeizenMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_WeizenMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">15</UInt16>
+            </Group>
+            <Group Name="PNG_HopfenMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HopfenMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">16</UInt16>
+            </Group>
+            <Group Name="PNG_HopfenMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HopfenMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">17</UInt16>
+            </Group>
+            <Group Name="PNG_KraeuterMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_KraeuterMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">18</UInt16>
+            </Group>
+            <Group Name="PNG_KraeuterMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_KraeuterMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">19</UInt16>
+            </Group>
+            <Group Name="PNG_HolzMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HolzMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">20</UInt16>
+            </Group>
+            <Group Name="PNG_HolzMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HolzMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">21</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="fr" TargetIndex="2">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="BMG_TrockengutMittel" ClsId="0x308" Version="1" TargetIndex="27" Type="BMPG" RefString="Source[local].BitmapGroup[BMG_TrockengutMittel_fr]">
+            <UInt32 Name="Count">14</UInt32>
+            <Group Name="PNG_RundballenMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_RundballenMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="PNG_HeuMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HeuMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="PNG_HeuMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HeuMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="PNG_RundballenMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_RundballenMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+            <Group Name="PNG_MaisMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_MaisMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">13</UInt16>
+            </Group>
+            <Group Name="PNG_MaisMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_MaisMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="PNG_WeizenMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_WeizenMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">14</UInt16>
+            </Group>
+            <Group Name="PNG_WeizenMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_WeizenMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">15</UInt16>
+            </Group>
+            <Group Name="PNG_HopfenMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HopfenMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">16</UInt16>
+            </Group>
+            <Group Name="PNG_HopfenMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HopfenMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">17</UInt16>
+            </Group>
+            <Group Name="PNG_KraeuterMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_KraeuterMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">18</UInt16>
+            </Group>
+            <Group Name="PNG_KraeuterMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_KraeuterMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">19</UInt16>
+            </Group>
+            <Group Name="PNG_HolzMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HolzMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">20</UInt16>
+            </Group>
+            <Group Name="PNG_HolzMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HolzMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">21</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="nl-BE" TargetIndex="10">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="BMG_TrockengutMittel" ClsId="0x308" Version="1" TargetIndex="27" Type="BMPG" RefString="Source[local].BitmapGroup[BMG_TrockengutMittel_nl-BE]">
+            <UInt32 Name="Count">14</UInt32>
+            <Group Name="PNG_RundballenMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_RundballenMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="PNG_HeuMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HeuMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="PNG_HeuMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HeuMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="PNG_RundballenMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_RundballenMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+            <Group Name="PNG_MaisMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_MaisMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">13</UInt16>
+            </Group>
+            <Group Name="PNG_MaisMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_MaisMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="PNG_WeizenMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_WeizenMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">14</UInt16>
+            </Group>
+            <Group Name="PNG_WeizenMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_WeizenMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">15</UInt16>
+            </Group>
+            <Group Name="PNG_HopfenMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HopfenMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">16</UInt16>
+            </Group>
+            <Group Name="PNG_HopfenMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HopfenMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">17</UInt16>
+            </Group>
+            <Group Name="PNG_KraeuterMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_KraeuterMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">18</UInt16>
+            </Group>
+            <Group Name="PNG_KraeuterMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_KraeuterMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">19</UInt16>
+            </Group>
+            <Group Name="PNG_HolzMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HolzMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">20</UInt16>
+            </Group>
+            <Group Name="PNG_HolzMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HolzMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">21</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="es" TargetIndex="12">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="BMG_TrockengutMittel" ClsId="0x308" Version="1" TargetIndex="27" Type="BMPG" RefString="Source[local].BitmapGroup[BMG_TrockengutMittel_es]">
+            <UInt32 Name="Count">14</UInt32>
+            <Group Name="PNG_RundballenMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_RundballenMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="PNG_HeuMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HeuMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="PNG_HeuMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HeuMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="PNG_RundballenMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_RundballenMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+            <Group Name="PNG_MaisMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_MaisMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">13</UInt16>
+            </Group>
+            <Group Name="PNG_MaisMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_MaisMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="PNG_WeizenMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_WeizenMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">14</UInt16>
+            </Group>
+            <Group Name="PNG_WeizenMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_WeizenMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">15</UInt16>
+            </Group>
+            <Group Name="PNG_HopfenMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HopfenMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">16</UInt16>
+            </Group>
+            <Group Name="PNG_HopfenMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HopfenMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">17</UInt16>
+            </Group>
+            <Group Name="PNG_KraeuterMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_KraeuterMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">18</UInt16>
+            </Group>
+            <Group Name="PNG_KraeuterMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_KraeuterMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">19</UInt16>
+            </Group>
+            <Group Name="PNG_HolzMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HolzMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">20</UInt16>
+            </Group>
+            <Group Name="PNG_HolzMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HolzMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">21</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="sl" TargetIndex="3">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="BMG_TrockengutMittel" ClsId="0x308" Version="1" TargetIndex="27" Type="BMPG" RefString="Source[local].BitmapGroup[BMG_TrockengutMittel_sl]">
+            <UInt32 Name="Count">14</UInt32>
+            <Group Name="PNG_RundballenMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_RundballenMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">10</UInt16>
+            </Group>
+            <Group Name="PNG_HeuMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HeuMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">8</UInt16>
+            </Group>
+            <Group Name="PNG_HeuMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HeuMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">9</UInt16>
+            </Group>
+            <Group Name="PNG_RundballenMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_RundballenMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">11</UInt16>
+            </Group>
+            <Group Name="PNG_MaisMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_MaisMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">13</UInt16>
+            </Group>
+            <Group Name="PNG_MaisMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_MaisMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">12</UInt16>
+            </Group>
+            <Group Name="PNG_WeizenMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_WeizenMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">14</UInt16>
+            </Group>
+            <Group Name="PNG_WeizenMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_WeizenMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">15</UInt16>
+            </Group>
+            <Group Name="PNG_HopfenMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HopfenMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">16</UInt16>
+            </Group>
+            <Group Name="PNG_HopfenMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HopfenMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">17</UInt16>
+            </Group>
+            <Group Name="PNG_KraeuterMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_KraeuterMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">18</UInt16>
+            </Group>
+            <Group Name="PNG_KraeuterMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_KraeuterMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">19</UInt16>
+            </Group>
+            <Group Name="PNG_HolzMittelGrau">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HolzMittelGrau]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">20</UInt16>
+            </Group>
+            <Group Name="PNG_HolzMittelGelb">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[PNG_HolzMittelGelb]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">21</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

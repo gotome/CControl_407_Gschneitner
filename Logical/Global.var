@@ -1,0 +1,33 @@
+VAR
+	Boxen : {REDUND_UNREPLICABLE} fbBoxenKonfig; (*Baustein Trocknungsboxen*)
+	Aktoren : {REDUND_UNREPLICABLE} typAktoren; (*Funktionsbausteine aller Aktoren (Ventilatoren, Trocknungsgeräte, Klappen, ...)*)
+	Tarifabschaltung : {REDUND_UNREPLICABLE} fbTrockTarifabsch; (*Funktionsbaustein Tarifabschaltung*)
+	Strombegrenzung : {REDUND_UNREPLICABLE} fbTrockStrombegr; (*Funktionsbaustein Strombegrenzung*)
+END_VAR
+VAR RETAIN
+	Betriebsparameter : {REDUND_UNREPLICABLE} parAnlage; (*Betriebsparametersatz*)
+END_VAR
+VAR
+	CONST_ZEIT_TESTPHASE : {REDUND_UNREPLICABLE} USINT := 3; (*max. Betriebsstunden, in denen der Kompressor am Luftentfeuchter gestartet werden kann, ohne dass die Mindestlaufzeit der Ölsumpfheizung abgelaufen ist (Für Inbetriebnahme Kältetechniker)*)
+	gModul2Vorhanden : {REDUND_UNREPLICABLE} BOOL; (*Variable wird gesetzt, wenn eine Luftentfeuchter-Type mit 2 Kompressormodulen ausgewählt wird*)
+	gAktModus : {REDUND_UNREPLICABLE} enumBetriebsmodus; (*Aktueller Schrittkettenzustand*)
+	gStatusAnlage : {REDUND_UNREPLICABLE} statAnlage; (*Anlagenstatus*)
+	gCmdAnlage : {REDUND_UNREPLICABLE} cmdAnlage; (*Anlagenkommandos*)
+END_VAR
+VAR RETAIN
+	Nutzungsdaten : {REDUND_UNREPLICABLE} typNutzungsdaten; (*Struktur Betriebsstunden, Brennstoffleistung, etc...*)
+END_VAR
+VAR
+	Echtzeit : {REDUND_UNREPLICABLE} typEchtzeit; (*Echtzeituhr*)
+	Systeminfo : {REDUND_UNREPLICABLE} typSysteminfo; (*Struktur Systeminformationen (Batteriestatus, Hardwaremodule, etc...)*)
+	DateTime : {REDUND_UNREPLICABLE} DATE_AND_TIME; (*Aktuelle Systemzeit*)
+	VERSION : {REDUND_UNREPLICABLE} STRING[16] := 'V2.1.4'; (*Softwareversion*)
+END_VAR
+VAR RETAIN
+	gMindestlaufzOelsumpfOk : {REDUND_UNREPLICABLE} BOOL; (*Variable wird gesetzt, wenn Mindestlaufzeit der Ölsumpfheiung abgelaufen ist.*)
+END_VAR
+VAR
+	gAktuellesPasswort : {REDUND_UNREPLICABLE} UDINT; (*Aktuelles Passwort in der Visu (Benutzeranmeldung)*)
+	gWerksparameterLaden : {REDUND_UNREPLICABLE} BOOL; (*Befehl Werksparametersatz laden*)
+	gEnergiemessungModulOk : {REDUND_UNREPLICABLE} BOOL; (*Modulüberwachung Energiemessmodul (wird in den IO-Mappings zur Fehlergenerierung verwendet)*)
+END_VAR

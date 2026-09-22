@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.6.114 SP?>
+<Package Version="1.00.1" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC" Description="AsTCP Client Application">Sitemanager</Object>
+  </Objects>
+  <Dependencies>
+    <Dependency ObjectName="astcp" />
+  </Dependencies>
+</Package>

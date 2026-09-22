@@ -1,0 +1,1328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Layers">
+    <Folder Name="_720_SET_Sensoren01Default" TargetIndex="Source[local].Page[_720_SET_Sensoren01].Layer[Default]">
+      <Folder Name="Controls">
+        <Folder Name="POBJ">
+          <Object Name="Text_1" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Text_1]">
+            <UInt32 Name="Left">9</UInt32>
+            <UInt32 Name="Top">8</UInt32>
+            <UInt32 Name="Right">335</UInt32>
+            <UInt32 Name="Bottom">29</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">46</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">21</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial12pxBold]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">0</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_2" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[HotSpot_2]">
+            <UInt32 Name="Left">341</UInt32>
+            <UInt32 Name="Top">8</UInt32>
+            <UInt32 Name="Right">400</UInt32>
+            <UInt32 Name="Bottom">67</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_195]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[HotSpot]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="HotSpot_3" ClsId="0x1003" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[HotSpot_3]">
+            <UInt32 Name="Left">341</UInt32>
+            <UInt32 Name="Top">204</UInt32>
+            <UInt32 Name="Right">400</UInt32>
+            <UInt32 Name="Bottom">263</UInt32>
+            <UInt16 Name="KeyMatrixOffset">65535</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Reference Name="VirtualKey" Type="VKEY">Source[local].VirtualKey[%embVirtualKey_196]</Reference>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001003].StyleClass[HotSpot]</Reference>
+            <UInt16 Name="StyleTableSize">4</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Line_1" ClsId="0x100D" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Line_1]">
+            <UInt32 Name="StartX">18</UInt32>
+            <UInt32 Name="StartY">31</UInt32>
+            <UInt32 Name="EndX">325</UInt32>
+            <UInt32 Name="EndY">31</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100D].StyleClass[Line]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_13" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Text_13]">
+            <UInt32 Name="Left">17</UInt32>
+            <UInt32 Name="Top">37</UInt32>
+            <UInt32 Name="Right">316</UInt32>
+            <UInt32 Name="Bottom">58</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">41</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial11pxBold]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">11</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Line_2" ClsId="0x100D" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Line_2]">
+            <UInt32 Name="StartX">18</UInt32>
+            <UInt32 Name="StartY">59</UInt32>
+            <UInt32 Name="EndX">325</UInt32>
+            <UInt32 Name="EndY">59</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100D].StyleClass[Line]</Reference>
+            <UInt16 Name="StyleTableSize">17</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="LineWidth">
+              <UInt16 Name="Offset">1</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Line_5" ClsId="0x100D" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Line_5]">
+            <UInt32 Name="StartX">18</UInt32>
+            <UInt32 Name="StartY">104</UInt32>
+            <UInt32 Name="EndX">325</UInt32>
+            <UInt32 Name="EndY">104</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100D].StyleClass[Line]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_24" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Text_24]">
+            <UInt32 Name="Left">17</UInt32>
+            <UInt32 Name="Top">139</UInt32>
+            <UInt32 Name="Right">196</UInt32>
+            <UInt32 Name="Bottom">178</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">41</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">15</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Line_6" ClsId="0x100D" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Line_6]">
+            <UInt32 Name="StartX">18</UInt32>
+            <UInt32 Name="StartY">181</UInt32>
+            <UInt32 Name="EndX">325</UInt32>
+            <UInt32 Name="EndY">181</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100D].StyleClass[Line]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_9" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_9]">
+            <UInt32 Name="Left">248</UInt32>
+            <UInt32 Name="Top">62</UInt32>
+            <UInt32 Name="Right">327</UInt32>
+            <UInt32 Name="Bottom">101</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.hmiParameter.Sensoren.OffsetFrischluftFeuchte]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">17</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">26</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial12pxBold]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_14" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Text_14]">
+            <UInt32 Name="Left">17</UInt32>
+            <UInt32 Name="Top">114</UInt32>
+            <UInt32 Name="Right">316</UInt32>
+            <UInt32 Name="Bottom">135</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">41</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial11pxBold]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">18</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Line_7" ClsId="0x100D" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Line_7]">
+            <UInt32 Name="StartX">18</UInt32>
+            <UInt32 Name="StartY">136</UInt32>
+            <UInt32 Name="EndX">325</UInt32>
+            <UInt32 Name="EndY">136</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100D].StyleClass[Line]</Reference>
+            <UInt16 Name="StyleTableSize">17</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="LineWidth">
+              <UInt16 Name="Offset">1</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_27" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Text_27]">
+            <UInt32 Name="Left">17</UInt32>
+            <UInt32 Name="Top">62</UInt32>
+            <UInt32 Name="Right">196</UInt32>
+            <UInt32 Name="Bottom">101</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">41</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">20</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_15" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_15]">
+            <UInt32 Name="Left">165</UInt32>
+            <UInt32 Name="Top">139</UInt32>
+            <UInt32 Name="Right">244</UInt32>
+            <UInt32 Name="Bottom">178</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.hmiParameter.Sensoren.OffsetDachTemp]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">17</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">26</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial12pxBold]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_16" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_16]">
+            <UInt32 Name="Left">248</UInt32>
+            <UInt32 Name="Top">139</UInt32>
+            <UInt32 Name="Right">327</UInt32>
+            <UInt32 Name="Bottom">178</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.hmiParameter.Sensoren.OffsetDachFeuchte]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">17</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">26</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial12pxBold]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_7" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_7]">
+            <UInt32 Name="Left">165</UInt32>
+            <UInt32 Name="Top">62</UInt32>
+            <UInt32 Name="Right">244</UInt32>
+            <UInt32 Name="Bottom">101</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.hmiParameter.Sensoren.OffsetFrischluftTemp]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">17</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">26</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial12pxBold]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_25" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Text_25]">
+            <UInt32 Name="Left">17</UInt32>
+            <UInt32 Name="Top">212</UInt32>
+            <UInt32 Name="Right">196</UInt32>
+            <UInt32 Name="Bottom">251</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">41</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial10px]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">1</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Text_15" ClsId="0x1004" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Text_15]">
+            <UInt32 Name="Left">17</UInt32>
+            <UInt32 Name="Top">187</UInt32>
+            <UInt32 Name="Right">316</UInt32>
+            <UInt32 Name="Bottom">208</UInt32>
+            <UInt32 Name="IndexDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001004].StyleClass[Text]</Reference>
+            <UInt16 Name="StyleTableSize">41</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">8</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">24</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial11pxBold]</Reference>
+            </Group>
+            <Group Name="TextSource">
+              <UInt16 Name="Offset">40</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="TextIndexOffset">
+              <UInt16 Name="Offset">44</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Int32 Name="Data">3</Int32>
+            </Group>
+            <Group Name="TextGroup">
+              <UInt16 Name="Offset">48</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="TG">Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Line_8" ClsId="0x100D" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Line_8]">
+            <UInt32 Name="StartX">18</UInt32>
+            <UInt32 Name="StartY">209</UInt32>
+            <UInt32 Name="EndX">325</UInt32>
+            <UInt32 Name="EndY">209</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100D].StyleClass[Line]</Reference>
+            <UInt16 Name="StyleTableSize">17</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="LineWidth">
+              <UInt16 Name="Offset">1</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">2</Byte>
+            </Group>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_17" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_17]">
+            <UInt32 Name="Left">165</UInt32>
+            <UInt32 Name="Top">212</UInt32>
+            <UInt32 Name="Right">244</UInt32>
+            <UInt32 Name="Bottom">251</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.hmiParameter.Sensoren.OffsetAbluftTemp]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">17</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">26</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial12pxBold]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Numeric_18" ClsId="0x1007" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_18]">
+            <UInt32 Name="Left">248</UInt32>
+            <UInt32 Name="Top">212</UInt32>
+            <UInt32 Name="Right">327</UInt32>
+            <UInt32 Name="Bottom">251</UInt32>
+            <UInt32 Name="ValueMode">0</UInt32>
+            <Reference Name="ValueDatapoint" Type="DP">Source[global].Variable[DataSource.hmiParameter.Sensoren.OffsetAbluftFeuchte]</Reference>
+            <UInt32 Name="MinDatapoint">4294967295</UInt32>
+            <UInt32 Name="MaxDatapoint">4294967295</UInt32>
+            <UInt32 Name="TeachDatapoint">4294967295</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Double Name="MinValue">-1.7976931348623157E+308</Double>
+            <Double Name="MaxValue">1.7976931348623157E+308</Double>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
+            <UInt16 Name="StyleTableSize">17</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">26</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
+            <Group Name="Font">
+              <UInt16 Name="Offset">32</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <Reference Name="Data" Type="FNT">Source[local].Font[Arial12pxBold]</Reference>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="Line_9" ClsId="0x100D" Version="1" Type="CTRL" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Line_9]">
+            <UInt32 Name="StartX">18</UInt32>
+            <UInt32 Name="StartY">254</UInt32>
+            <UInt32 Name="EndX">325</UInt32>
+            <UInt32 Name="EndY">254</UInt32>
+            <UInt32 Name="ControlID">0</UInt32>
+            <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x0000100D].StyleClass[Line]</Reference>
+            <UInt16 Name="StyleTableSize">12</UInt16>
+            <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="ForeColor">
+              <UInt16 Name="Offset">4</UInt16>
+              <UInt16 Name="Size">4</UInt16>
+              <UInt32 Name="Data">243</UInt32>
+            </Group>
+            <Group Name="End Marker">
+              <UInt16 Name="Offset">65535</UInt16>
+              <UInt16 Name="Size">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="VKeys">
+        <Folder Name="Common" TargetIndex="4294967294">
+          <Object Name="%embVirtualKey_195" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_195]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <UInt32 Name="ActionID">352</UInt32>
+              <UInt32 Name="ActionDataSize">8</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Reference Name="Page" Type="PAGE">Source[local].Page[_700_SET_UebersichtServiceber]</Reference>
+              <UInt16 Name="Target">2</UInt16>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+          </Object>
+          <Object Name="%embVirtualKey_196" ClsId="0x0" Version="1" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_196]">
+            <Group Name="LedMapping">
+              <UInt32 Name="Datapoint">4294967295</UInt32>
+              <Byte Name="Mode">0</Byte>
+              <Byte Name="Active">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+            <Group Name="KeyMapping">
+              <UInt32 Name="KeyActionCount">1</UInt32>
+              <UInt32 Name="ActionID">352</UInt32>
+              <UInt32 Name="ActionDataSize">8</UInt32>
+              <Byte Name="Locking">0</Byte>
+              <Byte Name="Reserved">0</Byte>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt32 Name="LockingDatapoint">4294967295</UInt32>
+              <UInt32 Name="LockingLevel">0</UInt32>
+              <Reference Name="Page" Type="PAGE">Source[local].Page[_721_SET_Sensoren02]</Reference>
+              <UInt16 Name="Target">2</UInt16>
+              <UInt16 Name="Reserved">0</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+      <Folder Name="POBJ">
+        <Object Name="Default" ClsId="0x401" Version="1" Type="LAY" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default]">
+          <Reference Name="StatusDP" Type="DP">None</Reference>
+          <UInt32 Name="CtrlCount">22</UInt32>
+          <Reference Name="Text_1" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Text_1]</Reference>
+          <Reference Name="HotSpot_2" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[HotSpot_2]</Reference>
+          <Reference Name="HotSpot_3" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[HotSpot_3]</Reference>
+          <Reference Name="Line_1" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Line_1]</Reference>
+          <Reference Name="Text_13" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Text_13]</Reference>
+          <Reference Name="Line_2" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Line_2]</Reference>
+          <Reference Name="Line_5" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Line_5]</Reference>
+          <Reference Name="Text_24" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Text_24]</Reference>
+          <Reference Name="Line_6" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Line_6]</Reference>
+          <Reference Name="Numeric_9" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_9]</Reference>
+          <Reference Name="Text_14" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Text_14]</Reference>
+          <Reference Name="Line_7" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Line_7]</Reference>
+          <Reference Name="Text_27" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Text_27]</Reference>
+          <Reference Name="Numeric_15" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_15]</Reference>
+          <Reference Name="Numeric_16" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_16]</Reference>
+          <Reference Name="Numeric_7" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_7]</Reference>
+          <Reference Name="Text_25" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Text_25]</Reference>
+          <Reference Name="Text_15" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Text_15]</Reference>
+          <Reference Name="Line_8" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Line_8]</Reference>
+          <Reference Name="Numeric_17" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_17]</Reference>
+          <Reference Name="Numeric_18" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_18]</Reference>
+          <Reference Name="Line_9" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Line_9]</Reference>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="TextGroupBase">
+    <Folder Name="P_720_SET_Sensoren01.LDefault" TargetIndex="Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded]">
+      <Object Name="Embedded" ClsId="0x304" Version="1" Type="TG" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded]">
+        <UInt32 Name="NumberOfTags">0</UInt32>
+        <UInt32 Name="NumberOfTexts">7</UInt32>
+        <Table Name="TextMap" Cols="2">
+          <TableHeader>
+            <Column Name="UserIndex" />
+            <Column Name="TextIndex" />
+          </TableHeader>
+          <TableRow>
+            <UInt32 Name="UserIndex">0</UInt32>
+            <UInt32 Name="TextIndex">284641</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">1</UInt32>
+            <UInt32 Name="TextIndex">290574</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">3</UInt32>
+            <UInt32 Name="TextIndex">290575</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">11</UInt32>
+            <UInt32 Name="TextIndex">284644</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">15</UInt32>
+            <UInt32 Name="TextIndex">284646</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">18</UInt32>
+            <UInt32 Name="TextIndex">284649</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">20</UInt32>
+            <UInt32 Name="TextIndex">284651</UInt32>
+          </TableRow>
+        </Table>
+      </Object>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded].Language[en]">
+            <UInt32 Name="NumberOfTexts">7</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">284641</UInt32>
+                <UInt32 Name="TextOffset">88</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284644</UInt32>
+                <UInt32 Name="TextOffset">120</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284646</UInt32>
+                <UInt32 Name="TextOffset">154</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284649</UInt32>
+                <UInt32 Name="TextOffset">180</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284651</UInt32>
+                <UInt32 Name="TextOffset">212</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">290574</UInt32>
+                <UInt32 Name="TextOffset">238</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">290575</UInt32>
+                <UInt32 Name="TextOffset">264</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">"Sensor settings"</String>
+              <String Name="Text" Encoding="Unicode">"Fresh-air sensor"</String>
+              <String Name="Text" Encoding="Unicode">"Offset value"</String>
+              <String Name="Text" Encoding="Unicode">"Roof-air sensor"</String>
+              <String Name="Text" Encoding="Unicode">"Offset value"</String>
+              <String Name="Text" Encoding="Unicode">"Offset value"</String>
+              <String Name="Text" Encoding="Unicode">"Extract-air sensor"</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="de" TargetIndex="1">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded].Language[de]">
+            <UInt32 Name="NumberOfTexts">7</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">284641</UInt32>
+                <UInt32 Name="TextOffset">88</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284644</UInt32>
+                <UInt32 Name="TextOffset">134</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284646</UInt32>
+                <UInt32 Name="TextOffset">168</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284649</UInt32>
+                <UInt32 Name="TextOffset">192</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284651</UInt32>
+                <UInt32 Name="TextOffset">222</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">290574</UInt32>
+                <UInt32 Name="TextOffset">246</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">290575</UInt32>
+                <UInt32 Name="TextOffset">270</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">"Einstellungen Sensoren"</String>
+              <String Name="Text" Encoding="Unicode">"Frischluftsensor"</String>
+              <String Name="Text" Encoding="Unicode">"Offsetwerte"</String>
+              <String Name="Text" Encoding="Unicode">"Dachluftsensor"</String>
+              <String Name="Text" Encoding="Unicode">"Offsetwerte"</String>
+              <String Name="Text" Encoding="Unicode">"Offsetwerte"</String>
+              <String Name="Text" Encoding="Unicode">"Abluftsensor"</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="fr" TargetIndex="2">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded].Language[fr]">
+            <UInt32 Name="NumberOfTexts">7</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">284641</UInt32>
+                <UInt32 Name="TextOffset">88</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284644</UInt32>
+                <UInt32 Name="TextOffset">124</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284646</UInt32>
+                <UInt32 Name="TextOffset">142</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284649</UInt32>
+                <UInt32 Name="TextOffset">178</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284651</UInt32>
+                <UInt32 Name="TextOffset">202</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">290574</UInt32>
+                <UInt32 Name="TextOffset">238</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">290575</UInt32>
+                <UInt32 Name="TextOffset">274</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">"Réglages capteurs"</String>
+              <String Name="Text" Encoding="Unicode">"Air neuf"</String>
+              <String Name="Text" Encoding="Unicode">"Correction mesure"</String>
+              <String Name="Text" Encoding="Unicode">"Air toiture"</String>
+              <String Name="Text" Encoding="Unicode">"Correction mesure"</String>
+              <String Name="Text" Encoding="Unicode">"Correction mesure"</String>
+              <String Name="Text" Encoding="Unicode">"Sonde air extrait"</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="nl-BE" TargetIndex="10">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded].Language[nl-BE]">
+            <UInt32 Name="NumberOfTexts">7</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">284641</UInt32>
+                <UInt32 Name="TextOffset">88</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284644</UInt32>
+                <UInt32 Name="TextOffset">90</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284646</UInt32>
+                <UInt32 Name="TextOffset">92</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284649</UInt32>
+                <UInt32 Name="TextOffset">94</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284651</UInt32>
+                <UInt32 Name="TextOffset">96</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">290574</UInt32>
+                <UInt32 Name="TextOffset">98</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">290575</UInt32>
+                <UInt32 Name="TextOffset">100</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="es" TargetIndex="12">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded].Language[es]">
+            <UInt32 Name="NumberOfTexts">7</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">284641</UInt32>
+                <UInt32 Name="TextOffset">88</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284644</UInt32>
+                <UInt32 Name="TextOffset">90</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284646</UInt32>
+                <UInt32 Name="TextOffset">92</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284649</UInt32>
+                <UInt32 Name="TextOffset">94</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284651</UInt32>
+                <UInt32 Name="TextOffset">96</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">290574</UInt32>
+                <UInt32 Name="TextOffset">98</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">290575</UInt32>
+                <UInt32 Name="TextOffset">100</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="sl" TargetIndex="3">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded]" Type="TG" RefString="Source[local].Page[_720_SET_Sensoren01].Layer[Default].TextGroup[Embedded].Language[sl]">
+            <UInt32 Name="NumberOfTexts">7</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">284641</UInt32>
+                <UInt32 Name="TextOffset">88</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284644</UInt32>
+                <UInt32 Name="TextOffset">130</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284646</UInt32>
+                <UInt32 Name="TextOffset">172</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284649</UInt32>
+                <UInt32 Name="TextOffset">206</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">284651</UInt32>
+                <UInt32 Name="TextOffset">250</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">290574</UInt32>
+                <UInt32 Name="TextOffset">284</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">290575</UInt32>
+                <UInt32 Name="TextOffset">318</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">"Nastavitve senzorjev"</String>
+              <String Name="Text" Encoding="Unicode">"Senzor svežega zraka"</String>
+              <String Name="Text" Encoding="Unicode">"Vrednosti zamika"</String>
+              <String Name="Text" Encoding="Unicode">"Senzor zraka s strehe"</String>
+              <String Name="Text" Encoding="Unicode">"Vrednosti zamika"</String>
+              <String Name="Text" Encoding="Unicode">"Vrednosti zamika"</String>
+              <String Name="Text" Encoding="Unicode">"Senzor izhodnega zraka"</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Forms">
+    <Folder Name="POBJ">
+      <Object Name="_720_SET_Sensoren01" ClsId="0x400" Version="1" TargetIndex="720" Type="PAGE" RefString="Source[local].Page[_720_SET_Sensoren01]">
+        <UInt32 Name="FormLanguage">0</UInt32>
+        <Reference Name="StartControl" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_7]</Reference>
+        <UInt32 Name="LayerCount">3</UInt32>
+        <UInt32 Name="MoveFocus">1</UInt32>
+        <Group Name="Styleable Properties">
+          <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00000400].StyleClass[default]</Reference>
+          <UInt16 Name="StyleTableSize">4</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="End Marker">
+            <UInt16 Name="Offset">65535</UInt16>
+            <UInt16 Name="Size">0</UInt16>
+          </Group>
+        </Group>
+        <Reference Name="FormLayer0" Type="LAY">Source[local].Layer[NavigationSettings]</Reference>
+        <Reference Name="FormLayer1" Type="LAY">Source[local].Layer[HintergrundAufAb]</Reference>
+        <Reference Name="FormLayer2" Type="LAY">Source[local].Page[_720_SET_Sensoren01].Layer[Default]</Reference>
+        <Group Name="MovementOrder">
+          <UInt32 Name="Count">6</UInt32>
+          <Group Name="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_9]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_9]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_15]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_7]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_7]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_7]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_18]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_16]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_15]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_15]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_16]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_9]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_16]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_16]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_7]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_17]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_16]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_16]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_17]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_15]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_15]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_15]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_9]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_18]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_7]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_7]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_9]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_18]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_9]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_9]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_17]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_15]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_17]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_17]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_18]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_16]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_18]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_18]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_15]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_7]</Reference>
+          </Group>
+          <Group Name="Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_18]">
+            <Reference Name="Control" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_18]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_7]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_17]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_17]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_17]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_16]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[_720_SET_Sensoren01].Layer[Default].Control[Numeric_9]</Reference>
+          </Group>
+        </Group>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <_660_SET_Datenaufzeichnung ReferenceString="Source[local].Page[_660_SET_Datenaufzeichnung]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_660_SET_Datenaufzeichnung].Layer[Default].VirtualKey[%embVirtualKey_67].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiButtons.DatenaufzeichnungAufUsb]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_660_SET_Datenaufzeichnung].Layer[Default].VirtualKey[%embVirtualKey_66].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiButtons.DatenaufzeichnungLoeschen]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_660_SET_Datenaufzeichnung].Layer[Default].Control[Button_1].Property[LockingDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.CurUserLevel]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_660_SET_Datenaufzeichnung].Layer[Default].Control[Numeric_60].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiDatenaufzeichnung.AnzahlFiles]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_660_SET_Datenaufzeichnung].Layer[Default].Control[Numeric_59].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiDatenaufzeichnung.AnzahlEintraegeInFile]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_660_SET_Datenaufzeichnung].Layer[Default].Control[Numeric_65].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiDatenaufzeichnung.SaveStepNr]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_660_SET_Datenaufzeichnung].Layer[Default].Control[Numeric_66].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiDatenaufzeichnung.CopyStepNr]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </_660_SET_Datenaufzeichnung>
+</VCXReferenceList>

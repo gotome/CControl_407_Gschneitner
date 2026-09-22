@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <_841_TEST_Entfeuchter02 ReferenceString="Source[local].Page[_841_TEST_Entfeuchter02]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_841_TEST_Entfeuchter02].Layer[Default].VirtualKey[%embVirtualKey_285].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalOut.doOelsumpfheizungEinModul2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_841_TEST_Entfeuchter02].Layer[Default].VirtualKey[%embVirtualKey_284].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalOut.doMagnetventilEinModul2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_841_TEST_Entfeuchter02].Layer[Default].VirtualKey[%embVirtualKey_283].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalOut.doKompressorEinModul2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_841_TEST_Entfeuchter02].Layer[Default].Control[Text_8].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalIn.diBetriebsmldgKompressorModul2]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_841_TEST_Entfeuchter02].Layer[Default].Control[Numeric_1].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.AnalogOut.aoDrehzahlvorgKompressorModul2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_841_TEST_Entfeuchter02].Layer[Default].Control[Numeric_1].Property[MinDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Kompressor2.DrehzahlMin]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_841_TEST_Entfeuchter02].Layer[Default].Control[Numeric_1].Property[MaxDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiParameter.Kompressor2.DrehzahlMax]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_841_TEST_Entfeuchter02].Layer[Default].Control[Text_12].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalIn.diVollschutzKompressorModul2]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_841_TEST_Entfeuchter02].Layer[Default].Control[Text_13].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalIn.diKopftempKompressorModul2]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_841_TEST_Entfeuchter02].Layer[Default].Control[Text_14].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalIn.diOeldruckKompressorModul2]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_841_TEST_Entfeuchter02].Layer[Default].Control[Numeric_2].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.AnalogIn.aiNiederdruckModul2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_841_TEST_Entfeuchter02].Layer[Default].Control[Text_15].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalIn.diNiederdruckOkModul2]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_841_TEST_Entfeuchter02].Layer[Default].Control[Numeric_3].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.AnalogIn.aiHochdruckModul2]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_841_TEST_Entfeuchter02].Layer[Default].Control[Text_16].Property[ColorDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiIoTest.DigitalIn.diHochdruckOkModul2]</ReferenceString>
+            <AccessRights>R</AccessRights>
+         </DataPoint>
+      </Connection>
+   </_841_TEST_Entfeuchter02>
+</VCXReferenceList>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXT_FrischlDachluft">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="0"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="240456" Value="Fresh air mode"/>
+    <Text ID="240457" Value="Roof air mode"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="240456" Value="Frischluftbetrieb"/>
+    <Text ID="240457" Value="Dachluftbetrieb"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="240456" Value="Marche air neuf"/>
+    <Text ID="240457" Value="Marche air toiture"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-BE">
+    <Text ID="240456" Value=""/>
+    <Text ID="240457" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="240456" Value=""/>
+    <Text ID="240457" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sl">
+    <Text ID="240456" Value="Delovanje s svežim zrakom"/>
+    <Text ID="240457" Value="Delovanje z zrakom s strehe"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="240456" Value="0"/>
+    <Index ID="240457" Value="1"/>
+  </IndexMap>
+</TextGroup>

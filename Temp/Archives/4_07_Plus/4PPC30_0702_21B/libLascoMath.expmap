@@ -1,0 +1,11 @@
+{
+  global:
+    fbMathLuft;
+    fbMathTrGutGew;
+    fbMathTrLftMenge;
+    fbMathTrLftDruck;
+    fbMathWetter;
+    fbMathMessblende;
+  local:
+    *;
+ };

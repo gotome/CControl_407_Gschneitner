@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <TrockenluftTemp ReferenceString="Source[local].TrendData[TrockenluftTemp]">
+      <Connection>
+         <Property ReferenceString="Source[local].TrendData[TrockenluftTemp].Property[TrendValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.Trendkurven.TrockenluftTemp]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </TrockenluftTemp>
+</VCXReferenceList>

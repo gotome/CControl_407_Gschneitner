@@ -1,0 +1,13 @@
+VAR
+	MpRecipeXml_0 : MpRecipeXml;
+	MpRecipeRegPar_0 : MpRecipeRegPar;
+	MpRecipeUI_0 : MpRecipeUI;
+	stateEntry : BOOL := 0;
+	FileNameFromUSB : STRING[80] := 'FileNameAufUSB';
+	UISetup : MpRecipeUISetupType;
+	UIConnect : MpRecipeUIConnectType := (New:=(FileName:='NeuerFileName'));
+	step : USINT := 0;
+	loc_LockNewFile : BOOL := 0;
+	FileCopy_0 : {REDUND_UNREPLICABLE} FileCopy;
+	loc_FileName : {REDUND_UNREPLICABLE} STRING[30];
+END_VAR

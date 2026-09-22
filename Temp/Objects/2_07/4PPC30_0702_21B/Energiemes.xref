@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<Crossref Scope="IO.Energiemessung" AppMod="">
+	<Vars>
+		<Var Name="Energiemes.apModulEnergie.ClearEnergy" Scope="Local" Type="modAP3131">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="6" C="2" PS="Ln:6, Col:2" A="W"/>
+				<Pos L="16" C="3" PS="Ln:16, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Energiemes.apModulEnergie.RBClearEnergy" Scope="Local" Type="modAP3131">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="15" C="5" PS="Ln:15, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Energiemes.apModulEnergie.EnabEnergy" Scope="Local" Type="modAP3131">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="30" C="2" PS="Ln:30, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Energiemes.apModulEnergie.PmeanT" Scope="Local" Type="modAP3131">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="33" C="35" PS="Ln:33, Col:35" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Energiemes.apModulEnergie.SAenergyT" Scope="Local" Type="modAP3131">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="34" C="38" PS="Ln:34, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Energiemes.apModulEnergie.ModulOk" Scope="Local" Type="modAP3131">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="58" C="28" PS="Ln:58, Col:28" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Energiemes.fbLascoZdxx_1" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="21" C="2" PS="Ln:21, Col:2" A="RW"/>
+			</File>
+		</Var>
+		<Var Name="Energiemes.fbLascoZdxx_1.Q" Scope="Local" Type="fbLascoZdxx">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="22" C="16" PS="Ln:22, Col:16" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Energiemes.minTick" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="22" C="2" PS="Ln:22, Col:2" A="W"/>
+				<Pos L="45" C="8" PS="Ln:45, Col:8" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Energiemes.loc_EnergieMinute" Scope="Local" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="43" C="3" PS="Ln:43, Col:3" A="W"/>
+				<Pos L="46" C="3" PS="Ln:46, Col:3" A="W"/>
+				<Pos L="47" C="95" PS="Ln:47, Col:95" A="R"/>
+				<Pos L="48" C="101" PS="Ln:48, Col:101" A="R"/>
+				<Pos L="49" C="51" PS="Ln:49, Col:51" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Energiemes.MEM_EnergieGesamt" Scope="Local" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="5" C="2" PS="Ln:5, Col:2" A="W"/>
+				<Pos L="46" C="51" PS="Ln:46, Col:51" A="R"/>
+				<Pos L="49" C="3" PS="Ln:49, Col:3" A="W"/>
+				<Pos L="49" C="31" PS="Ln:49, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Energiemes.loc_LeistungAkt" Scope="Local" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="33" C="2" PS="Ln:33, Col:2" A="W"/>
+				<Pos L="37" C="54" PS="Ln:37, Col:54" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Energiemes.loc_EnergieSchein" Scope="Local" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="34" C="2" PS="Ln:34, Col:2" A="W"/>
+				<Pos L="38" C="31" PS="Ln:38, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Energiemes.loc_EnergieGesamt" Scope="Local" Type="REAL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="38" C="2" PS="Ln:38, Col:2" A="W"/>
+				<Pos L="46" C="31" PS="Ln:46, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Betriebsparameter.Ausstattung.Energiemessung" Scope="Global" Type="parAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="30" C="31" PS="Ln:30, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.EnergieLeistungAkt" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="53" C="2" PS="Ln:53, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.EnergieverbrGes" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="54" C="2" PS="Ln:54, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="gStatusAnlage.EnergieverbrTag" Scope="Global" Type="statAnlage">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="55" C="2" PS="Ln:55, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="Nutzungsdaten.Energiemessung.LeistungAktuell" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="53" C="41" PS="Ln:53, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzungsdaten.Energiemessung.EnergieGesamt" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="54" C="39" PS="Ln:54, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Nutzungsdaten.Energiemessung.EnergieTag" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="55" C="39" PS="Ln:55, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Echtzeit.Minute" Scope="Global" Type="typEchtzeit">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="21" C="23" PS="Ln:21, Col:23" A="R"/>
+			</File>
+		</Var>
+		<Var Name="gEnergiemessungModulOk" Scope="Global" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="58" C="2" PS="Ln:58, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Energiemessung.LeistungAktuell" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="37" C="2" PS="Ln:37, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Energiemessung.EnergieTag" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="44" C="3" PS="Ln:44, Col:3" A="W"/>
+				<Pos L="47" C="3" PS="Ln:47, Col:3" A="W"/>
+				<Pos L="47" C="50" PS="Ln:47, Col:50" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiNutzungsdaten.Energiemessung.EnergieGesamt" Scope="Global" Type="typNutzungsdaten">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="48" C="3" PS="Ln:48, Col:3" A="W"/>
+				<Pos L="48" C="53" PS="Ln:48, Col:53" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiButtons.ResetEnergieverbrTag" Scope="Global" Type="typHmiButtons">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="41" C="5" PS="Ln:41, Col:5" A="R"/>
+				<Pos L="42" C="3" PS="Ln:42, Col:3" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="fbLascoZdxx" Lib="LascoUtil">
+			<File Name="C:\SharedFolder\CControl\Logical\IO\Energiemessung\Energiemessung.st">
+				<Pos L="21" C="2" PS="Ln:21, Col:2"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

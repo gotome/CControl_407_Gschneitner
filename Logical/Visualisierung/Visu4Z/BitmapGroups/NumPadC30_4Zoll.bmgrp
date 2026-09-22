@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="NumPadC30_4Zoll">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="28"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="446" Value="Source[local].Bitmap[PNG_NumPad4Z_pressed]"/>
+    <BitmapRef ID="447" Value="Source[local].Bitmap[PNG_NumPad4Z_released]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="446" Value="0"/>
+    <Index ID="447" Value="1"/>
+  </IndexMap>
+</BitmapGroup>

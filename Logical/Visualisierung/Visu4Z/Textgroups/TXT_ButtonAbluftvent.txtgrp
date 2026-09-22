@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXT_ButtonAbluftvent">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="4"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="288886" Value="AUTOMATIC"/>
+    <Text ID="288887" Value="ON"/>
+    <Text ID="288888" Value="OFF"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="288886" Value="AUTOMATIK"/>
+    <Text ID="288887" Value="EIN"/>
+    <Text ID="288888" Value="AUS"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="288886" Value="AUTOMATIQUE"/>
+    <Text ID="288887" Value="ON"/>
+    <Text ID="288888" Value="OFF"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-BE">
+    <Text ID="288886" Value=""/>
+    <Text ID="288887" Value=""/>
+    <Text ID="288888" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="288886" Value=""/>
+    <Text ID="288887" Value=""/>
+    <Text ID="288888" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sl">
+    <Text ID="288886" Value="AVTOMATIKA"/>
+    <Text ID="288887" Value="VKLOP"/>
+    <Text ID="288888" Value="IZKLOP"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="288886" Value="0"/>
+    <Index ID="288887" Value="1"/>
+    <Index ID="288888" Value="2"/>
+  </IndexMap>
+</TextGroup>

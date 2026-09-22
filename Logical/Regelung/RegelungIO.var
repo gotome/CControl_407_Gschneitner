@@ -1,0 +1,14 @@
+VAR
+	PidLuftmengeVent1 : typ_PidControl;
+	PidLuftmengeVent2 : typ_PidControl;
+	PidKompressor1 : typ_PidControl;
+	PidKompressor2 : typ_PidControl;
+	PidHeizregister : typ_PidControl;
+	PidAbluftregler : typ_PidControl;
+	fbPidLuftmengeVent1 : fbRegPidReglerAllg;
+	fbPidLuftmengeVent2 : fbRegPidReglerAllg;
+	fbPidKompressor1 : fbRegPidReglerAllg;
+	fbPidKompressor2 : fbRegPidReglerAllg;
+	fbPidHeizregister : fbRegPidReglerAllg;
+	fbPidAbluftregler : fbRegPidReglerAllg;
+END_VAR

@@ -1,0 +1,18 @@
+(********************************************************************
+ * COPYRIGHT -- LASCO Heu- und Forsttechnik GmbH
+ ********************************************************************
+ * Library: LascoMath
+ * Datei: LascoMath.var
+ * Autor: Rudolf Lachner
+ * Erstellt: 3. März 2014
+ ********************************************************************
+ * Konstanten der Library LascoMath
+ ********************************************************************)
+VAR CONSTANT
+	CONST_MATH_DRUCK_MEERESHOEHE : REAL := 1013.25;
+	CONST_MATH_MAX_VALUE : REAL := 9999999.0;
+	CONST_MATH_LUFTDRUCK : REAL := 94520.0;
+	CONST_MATH_GASKONSTANTE : REAL := 287.0;
+	CONST_MATH_TEMP_NORM : REAL := 21.0;
+	CONST_MATH_FAKTOR_DEBIMO : REAL := 0.816;
+END_VAR

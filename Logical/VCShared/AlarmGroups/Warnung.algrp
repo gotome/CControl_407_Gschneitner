@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Warnung">
+  <Property Name="AcknowledgeImage" Value="None"/>
+  <Property Name="ActiveBackColor" Value="41"/>
+  <Property Name="ActiveForeColor" Value="0"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[DataSource.Alarmsystem.alarmWarnung]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="None"/>
+  <Property Name="DefaultBackColor" Value="242"/>
+  <Property Name="DefaultForeColor" Value="243"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="Source[global].Variable[DataSource.gStatusAnlage.Fehler.SummeWarnung]"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="3"/>
+  <Property Name="LatchedBackColor" Value="2"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="2"/>
+  <Property Name="QuitBackColor" Value="41"/>
+  <Property Name="QuitForeColor" Value="0"/>
+  <Alarms>
+    <Alarm Index="0">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="1">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="2">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="3">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets/>
+    <TextLayer LanguageId="en">
+      <Text ID="2964" Value="High pressure module 1 too high (check heat exchanger, inlet temperature and air flow)"/>
+      <Text ID="2965" Value="High pressure module 2 too high (check heat exchanger, inlet temperature and air flow)"/>
+      <Text ID="2966" Value="Error sensor outlet"/>
+      <Text ID="3528" Value="Warning: Heating coil frost protection active. -21A1 DI03"/>
+      <Text ID="3031" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="2964" Value="Hochdruck Modul 1 zu hoch (Register verschmutzt, Ansaugtemperatur zu hoch oder Luftstrom zu gering)"/>
+      <Text ID="2965" Value="Hochdruck Modul 2 zu hoch (Register verschmutzt, Ansaugtemperatur zu hoch oder Luftstrom zu gering)"/>
+      <Text ID="2966" Value="Fehler Sensor Austritt"/>
+      <Text ID="3528" Value="Warnung Heizregister Frostschutz aktiv. -21A1 DI03"/>
+      <Text ID="3031" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr">
+      <Text ID="2964" Value="Pression HP module 1 trop élevée (batterie encrassée, température d'entrée trop élevée ou débit d'air trop faible)"/>
+      <Text ID="2965" Value="Pression HP module 2 trop élevée (batterie encrassée, température d'entrée trop élevée ou débit d'air trop faible)"/>
+      <Text ID="2966" Value="Défaut pas de sonde sortie déshumidificateur"/>
+      <Text ID="3528" Value="Avertissement : protection antigel du registre de chauffage active. -21A1 DI03"/>
+      <Text ID="3031" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-BE">
+      <Text ID="2964" Value="Visok tlak modul 1 pre visok  (preverite izmenjevalnik toplote, vstopno temperaturo in pretok zraka)"/>
+      <Text ID="2965" Value="Visok tlak modul 2 pre visok  (preverite izmenjevalnik toplote, vstopno temperaturo in pretok zraka)"/>
+      <Text ID="2966" Value="Napaka - senzor - vpihna stran"/>
+      <Text ID="3528" Value="Waarschuwing: verwarmingsregister vorstbeveiliging actief. -21A1 DI03"/>
+      <Text ID="3031" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es">
+      <Text ID="2964" Value=""/>
+      <Text ID="2965" Value=""/>
+      <Text ID="2966" Value=""/>
+      <Text ID="3528" Value="Advertencia: registro calefactor, protección anticongelante activa. -21A1 DI03"/>
+      <Text ID="3031" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sl">
+      <Text ID="2964" Value="Visok tlak modula 1 je previsok (umazan register, previsoka sesalna temperatura ali prenizek pretok zraka)"/>
+      <Text ID="2965" Value="Visok tlak modula 2 je previsok (umazan register, previsoka sesalna temperatura ali prenizek pretok zraka)"/>
+      <Text ID="2966" Value="Napaka – senzor – izhod"/>
+      <Text ID="3528" Value="Varovanie: Ochrana proti zamrznutiu vykurovacieho registru aktívna. -21A1 DI03"/>
+      <Text ID="3031" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="2964" Value="0"/>
+      <Index ID="2965" Value="1"/>
+      <Index ID="2966" Value="2"/>
+      <Index ID="3528" Value="3"/>
+      <Index ID="3031" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <Luftgeschw ReferenceString="Source[local].TrendData[Luftgeschw]">
+      <Connection>
+         <Property ReferenceString="Source[local].TrendData[Luftgeschw].Property[TrendValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiStatus.Trendkurven.Luftgeschw]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </Luftgeschw>
+</VCXReferenceList>

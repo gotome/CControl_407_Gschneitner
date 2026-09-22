@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXT_NameSteuerung">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="7"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="288910" Value="LaTronic CControl 4.07"/>
+    <Text ID="288911" Value="LaTronic CControl 4.07 Plus"/>
+    <Text ID="288912" Value="LaTronic CControl 3.07"/>
+    <Text ID="296282" Value="LaTronic CControl 3.04"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="288910" Value="LaTronic CControl 4.07"/>
+    <Text ID="288911" Value="LaTronic CControl 4.07 Plus"/>
+    <Text ID="288912" Value="LaTronic CControl 3.07"/>
+    <Text ID="296282" Value="LaTronic CControl 3.04"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="288910" Value="LaTronic CControl 4.07"/>
+    <Text ID="288911" Value="LaTronic CControl 4.07 Plus"/>
+    <Text ID="288912" Value="LaTronic CControl 3.07"/>
+    <Text ID="296282" Value="LaTronic CControl 3.04"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-BE">
+    <Text ID="288910" Value="LaTronic CControl 4.07"/>
+    <Text ID="288911" Value="LaTronic CControl 4.07 Plus"/>
+    <Text ID="288912" Value="LaTronic CControl 3.07"/>
+    <Text ID="296282" Value="LaTronic CControl 3.04"/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="288910" Value="LaTronic CControl 4.07"/>
+    <Text ID="288911" Value="LaTronic CControl 4.07 Plus"/>
+    <Text ID="288912" Value="LaTronic CControl 3.07"/>
+    <Text ID="296282" Value="LaTronic CControl 3.04"/>
+  </TextLayer>
+  <TextLayer LanguageId="sl">
+    <Text ID="288910" Value="LaTronic CControl 4.07"/>
+    <Text ID="288911" Value="LaTronic CControl 4.07 Plus"/>
+    <Text ID="288912" Value="LaTronic CControl 3.07"/>
+    <Text ID="296282" Value="LaTronic CControl 3.04"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="288910" Value="0"/>
+    <Index ID="288911" Value="1"/>
+    <Index ID="288912" Value="2"/>
+    <Index ID="296282" Value="3"/>
+  </IndexMap>
+</TextGroup>

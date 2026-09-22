@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.7.74 SP?>
+<Physical xmlns="http://br-automation.co.at/AS/Physical">
+  <Objects>
+    <Object Type="Configuration">Sim</Object>
+    <Object Type="Configuration" Description="LaTronic CControl 3.07">3_07</Object>
+    <Object Type="Configuration">4_07</Object>
+    <Object Type="Configuration">4_07_Plus</Object>
+    <Object Type="Configuration">3_04_Plus</Object>
+    <Object Type="Configuration">HB4000_C30</Object>
+    <Object Type="Configuration">HB3000_C30</Object>
+    <Object Type="Configuration">2_07</Object>
+  </Objects>
+</Physical>

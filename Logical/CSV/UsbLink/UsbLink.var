@@ -1,0 +1,14 @@
+VAR
+	step : enumUsbLinkStep;
+	usbCmdCreateUsbDevice : BOOL;
+	UsbNodeListGet_0 : UsbNodeListGet;
+	node_id_buffer : ARRAY[0..4] OF UDINT;
+	UsbNodeGet_0 : UsbNodeGet;
+	node : USINT;
+	usb_data_buffer : ARRAY[0..4] OF usbNode_typ;
+	UsbDescriptorGet_0 : UsbDescriptorGet;
+	device_descriptor : ARRAY[0..4] OF usbDeviceDescr_typ;
+	FileDevice : STRING[80];
+	DevLink_0 : DevLink;
+	DevUnlink_0 : DevUnlink;
+END_VAR

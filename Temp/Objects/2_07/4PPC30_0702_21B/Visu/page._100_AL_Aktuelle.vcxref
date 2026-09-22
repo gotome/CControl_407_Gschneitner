@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VCXReferenceList>
+   <!--Intermediate File for generation of the XReferenceFile-->
+   <_100_AL_Aktuelle ReferenceString="Source[local].Page[_100_AL_Aktuelle]">
+      <Connection>
+         <Property ReferenceString="Source[local].Page[_100_AL_Aktuelle].Layer[Default].VirtualKey[cmdAcknAlarme].Action[Action_0].Property[ValueDatapoint]" />
+         <DataPoint>
+            <ReferenceString>Source[global].Variable[DataSource.hmiButtons.QuitFehler]</ReferenceString>
+            <AccessRights>RW</AccessRights>
+         </DataPoint>
+      </Connection>
+   </_100_AL_Aktuelle>
+</VCXReferenceList>

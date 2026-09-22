@@ -1,0 +1,35 @@
+VAR
+	Sendstring : STRING[350] := '';
+	Client : Client_typ := (0);
+	EMailText : STRING[80] := '';
+END_VAR
+VAR CONSTANT
+	SLASH : STRING[1] := '/';
+	LEFTBRACKET : STRING[1] := '<';
+	RIGHTBRACKET : STRING[1] := '>';
+	COMMA : STRING[1] := ',';
+END_VAR
+VAR
+	EMail : ARRAY[0..3] OF STRING[80] := [4('')];
+	UseComma : BOOL := FALSE;
+	CommaString : STRING[1] := '';
+	Send : BOOL := FALSE;
+	resultString : STRING[350] := '';
+	ErrorText : STRING[80] := '';
+	ErrNr : UINT := 0;
+	IP_PORT : UINT := 0;
+	IP_ADRESS : UDINT := 0;
+END_VAR
+(*VC - Variablen ===============================================================================================================================*)
+VAR
+	VC_HANDLE : UDINT;
+	AlarmString : STRING[100];
+	AlarmLen : DINT;
+	uiAlarmType : UINT;
+	cDateTimeFormat : USINT;
+	cSeparator : USINT;
+	Access_Status : UINT;
+	GetActAlarmList_Status : UINT;
+	loc_FehlerAusgelesen : BOOL;
+	loc_EMailAlarmierungEin : BOOL;
+END_VAR

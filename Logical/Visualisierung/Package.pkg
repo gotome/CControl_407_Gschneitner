@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.7.74 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC" Description="Hauptprogramm Verbindung Visu in schneller Taskklasse">hmiMain</Object>
+    <Object Type="Program" Language="IEC" Description="Nicht zeitkritische Visu-Verbindungen">hmiConnect</Object>
+    <Object Type="DataObject" Language="Vc" Description="800x480 (WVGA)">Visu</Object>
+    <Object Type="DataObject" Language="Vc" Description="Visualsisierung f. 4 Zoll (480x272px)">Visu4Z</Object>
+  </Objects>
+</Package>

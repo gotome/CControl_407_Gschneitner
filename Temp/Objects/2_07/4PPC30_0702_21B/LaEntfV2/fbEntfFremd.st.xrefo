@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.LaEntfV2" AppMod="">
+	<Vars>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="TON" Lib="standard">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LaEntfV2\fbEntfFremd.st">
+				<Pos L="6" C="2" PS="Ln:6, Col:2"/>
+				<Pos L="39" C="5" PS="Ln:39, Col:5"/>
+				<Pos L="40" C="5" PS="Ln:40, Col:5"/>
+				<Pos L="65" C="5" PS="Ln:65, Col:5"/>
+				<Pos L="72" C="4" PS="Ln:72, Col:4"/>
+				<Pos L="98" C="5" PS="Ln:98, Col:5"/>
+				<Pos L="99" C="5" PS="Ln:99, Col:5"/>
+				<Pos L="108" C="4" PS="Ln:108, Col:4"/>
+				<Pos L="131" C="5" PS="Ln:131, Col:5"/>
+				<Pos L="132" C="5" PS="Ln:132, Col:5"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="BMG_TasteEinAusLuftentf">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="9"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="720" Value="Source[local].Bitmap[PNG_TasteEinGesperrt]"/>
+    <BitmapRef ID="721" Value="Source[local].Bitmap[PNG_TasteEinGrau]"/>
+    <BitmapRef ID="722" Value="Source[local].Bitmap[PNG_TasteEinGelb]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="720" Value="22"/>
+    <Index ID="721" Value="23"/>
+    <Index ID="722" Value="24"/>
+  </IndexMap>
+</BitmapGroup>

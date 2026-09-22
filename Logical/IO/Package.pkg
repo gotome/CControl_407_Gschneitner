@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.7.74 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">InputOutput.var</Object>
+    <Object Type="File">InputOutput.typ</Object>
+    <Object Type="Program" Language="IEC">io304</Object>
+    <Object Type="Program" Language="IEC" Description="Konfiguration IO's CControl 3.07">io307</Object>
+    <Object Type="Program" Language="IEC" Description="Konfiguration IO's CControl 4.07">io407</Object>
+    <Object Type="Program" Language="IEC" Description="Konfiguration IO's CControl 4.07 Plus">io407Plus</Object>
+    <Object Type="Program" Language="IEC">ioHB4000</Object>
+    <Object Type="Program" Language="IEC">ioHB3000</Object>
+    <Object Type="Program" Language="IEC" Description="Aufruf Funktionsbausteine aller Aktoren">aktorenMapping</Object>
+    <Object Type="Program" Language="IEC" Description="Programmbaustein zur Energiemessung">Energiemessung</Object>
+    <Object Type="Program" Language="IEC" Description="Aufruf und Verknüpfung Funktionsbaustein Trocknungsboxen">boxenMapping</Object>
+    <Object Type="Program" Language="IEC" Description="Konfiguration IO's CControl 4.07">io207</Object>
+  </Objects>
+</Package>

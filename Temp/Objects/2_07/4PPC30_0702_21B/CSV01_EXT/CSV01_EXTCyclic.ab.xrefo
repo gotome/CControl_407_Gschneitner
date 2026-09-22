@@ -1,0 +1,460 @@
+<?xml version="1.0"?>
+<Crossref Scope="CSV.CSV01_EXT" AppMod="">
+	<Vars>
+		<Var Name="CSV01_EXT.RTC_gettime_Status" Scope="Local" Type="UINT">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="10" C="2" PS="Ln:10, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="CSV01_EXT.StdTick" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="12" C="2" PS="Ln:12, Col:2" A="W"/>
+				<Pos L="19" C="3" PS="Ln:19, Col:3" A="W"/>
+				<Pos L="90" C="41" PS="Ln:90, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01_EXT.MinTick" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="13" C="2" PS="Ln:13, Col:2" A="W"/>
+				<Pos L="22" C="3" PS="Ln:22, Col:3" A="W"/>
+				<Pos L="88" C="90" PS="Ln:88, Col:90" A="R"/>
+				<Pos L="92" C="41" PS="Ln:92, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01_EXT.SekTick" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="14" C="2" PS="Ln:14, Col:2" A="W"/>
+				<Pos L="25" C="3" PS="Ln:25, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="CSV01_EXT.TagTick" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="15" C="2" PS="Ln:15, Col:2" A="W"/>
+				<Pos L="28" C="3" PS="Ln:28, Col:3" A="W"/>
+				<Pos L="68" C="52" PS="Ln:68, Col:52" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01_EXT.MonTick" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="16" C="2" PS="Ln:16, Col:2" A="W"/>
+				<Pos L="31" C="3" PS="Ln:31, Col:3" A="W"/>
+				<Pos L="77" C="94" PS="Ln:77, Col:94" A="R"/>
+				<Pos L="79" C="41" PS="Ln:79, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01_EXT.JahrTick" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="17" C="2" PS="Ln:17, Col:2" A="W"/>
+				<Pos L="34" C="3" PS="Ln:34, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="CSV01_EXT.InitOK" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="68" C="69" PS="Ln:68, Col:69" A="R"/>
+				<Pos L="172" C="2" PS="Ln:172, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="CSV01_EXT.M_DATA_CSV_CLEAR_ALL_T" Scope="Local" Type="BOOL">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="127" C="56" PS="Ln:127, Col:56" A="W"/>
+				<Pos L="128" C="13" PS="Ln:128, Col:13" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01_EXT.ET" Scope="Local" Type="UDINT">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="127" C="80" PS="Ln:127, Col:80" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmiDatenaufzeichnung.AnzahlEintraegeInFile" Scope="Global" Type="typHmiDatenaufzeichnung">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="56" C="2" PS="Ln:56, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmiDatenaufzeichnung.AnzahlFiles" Scope="Global" Type="typHmiDatenaufzeichnung">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="57" C="2" PS="Ln:57, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmiDatenaufzeichnung.CopyStepNr" Scope="Global" Type="typHmiDatenaufzeichnung">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="58" C="2" PS="Ln:58, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmiDatenaufzeichnung.SaveStepNr" Scope="Global" Type="typHmiDatenaufzeichnung">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="59" C="2" PS="Ln:59, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="hmiButtons.DatenaufzeichnungAufUsb" Scope="Global" Type="typHmiButtons">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="63" C="32" PS="Ln:63, Col:32" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiButtons.QuitFehler" Scope="Global" Type="typHmiButtons">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="68" C="6" PS="Ln:68, Col:6" A="R"/>
+			</File>
+		</Var>
+		<Var Name="hmiButtons.DatenaufzeichnungLoeschen" Scope="Global" Type="typHmiButtons">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="127" C="11" PS="Ln:127, Col:11" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.Gruebl_Reporting_T" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="47" C="2" PS="Ln:47, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.QM_HeizW_T" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="48" C="2" PS="Ln:48, Col:2" A="W"/>
+				<Pos L="77" C="11" PS="Ln:77, Col:11" A="R"/>
+				<Pos L="79" C="11" PS="Ln:79, Col:11" A="R"/>
+				<Pos L="88" C="11" PS="Ln:88, Col:11" A="R"/>
+				<Pos L="90" C="11" PS="Ln:90, Col:11" A="R"/>
+				<Pos L="92" C="11" PS="Ln:92, Col:11" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.SPERRE_T" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="52" C="2" PS="Ln:52, Col:2" A="W"/>
+				<Pos L="68" C="31" PS="Ln:68, Col:31" A="R"/>
+				<Pos L="75" C="5" PS="Ln:75, Col:5" A="R"/>
+				<Pos L="86" C="5" PS="Ln:86, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.RPS_FileWrite_OK_Z" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="56" C="47" PS="Ln:56, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.RPS_DirInfo_FileNum" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="57" C="39" PS="Ln:57, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.RPS_CPYDEL_STEP_Nr" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="58" C="39" PS="Ln:58, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.RPS_SAVE_STEP_Nr" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="59" C="39" PS="Ln:59, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.EXT_DirCopy_HAND_T" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="63" C="2" PS="Ln:63, Col:2" A="W"/>
+				<Pos L="123" C="2" PS="Ln:123, Col:2" A="W"/>
+				<Pos L="123" C="38" PS="Ln:123, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.F_Quitt_T" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="69" C="3" PS="Ln:69, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.KOPF_WRITE_T" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="76" C="3" PS="Ln:76, Col:3" A="W"/>
+				<Pos L="78" C="3" PS="Ln:78, Col:3" A="W"/>
+				<Pos L="80" C="3" PS="Ln:80, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.QM_HeizW_BetrJahr_Mon" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="77" C="57" PS="Ln:77, Col:57" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.DATA_WRITE_T" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="87" C="3" PS="Ln:87, Col:3" A="W"/>
+				<Pos L="89" C="3" PS="Ln:89, Col:3" A="W"/>
+				<Pos L="91" C="3" PS="Ln:91, Col:3" A="W"/>
+				<Pos L="93" C="3" PS="Ln:93, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.RPS_COPY_AUTO_T" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="107" C="2" PS="Ln:107, Col:2" A="W"/>
+				<Pos L="107" C="29" PS="Ln:107, Col:29" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.RPS_MEMORY_AUTO_T" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="114" C="2" PS="Ln:114, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.RPS_Mem_frei_przN" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="115" C="2" PS="Ln:115, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.PC_DirCopy_HAND_T" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="119" C="2" PS="Ln:119, Col:2" A="W"/>
+				<Pos L="119" C="38" PS="Ln:119, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.PC_FileCopy_alt_HAND_T" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="120" C="2" PS="Ln:120, Col:2" A="W"/>
+				<Pos L="120" C="38" PS="Ln:120, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.PC_FileCopy_neu_HAND_T" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="121" C="2" PS="Ln:121, Col:2" A="W"/>
+				<Pos L="121" C="38" PS="Ln:121, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.EXT_FileCopy_alt_HAND_T" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="124" C="2" PS="Ln:124, Col:2" A="W"/>
+				<Pos L="124" C="38" PS="Ln:124, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.EXT_FileCopy_neu_HAND_T" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="125" C="2" PS="Ln:125, Col:2" A="W"/>
+				<Pos L="125" C="38" PS="Ln:125, Col:38" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.RPS_DirDeleteEx_HAND_T" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="129" C="3" PS="Ln:129, Col:3" A="W"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.RPS_FileDelete_alt_HAND_T" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="131" C="2" PS="Ln:131, Col:2" A="W"/>
+				<Pos L="131" C="39" PS="Ln:131, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.SW.RPS_FileDelete_neu_HAND_T" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="132" C="2" PS="Ln:132, Col:2" A="W"/>
+				<Pos L="132" C="39" PS="Ln:132, Col:39" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.FE" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="140" C="2" PS="Ln:140, Col:2" A="W"/>
+				<Pos L="140" C="13" PS="Ln:140, Col:13" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.WA" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="141" C="2" PS="Ln:141, Col:2" A="W"/>
+				<Pos L="141" C="13" PS="Ln:141, Col:13" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.SFehler_Nr" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="142" C="2" PS="Ln:142, Col:2" A="W"/>
+				<Pos L="142" C="25" PS="Ln:142, Col:25" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.SFehler" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="143" C="2" PS="Ln:143, Col:2" A="W"/>
+				<Pos L="143" C="25" PS="Ln:143, Col:25" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.SWarnung_Nr" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="144" C="2" PS="Ln:144, Col:2" A="W"/>
+				<Pos L="144" C="25" PS="Ln:144, Col:25" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.SWarnung" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="145" C="2" PS="Ln:145, Col:2" A="W"/>
+				<Pos L="145" C="25" PS="Ln:145, Col:25" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.DatObj_Tag_ID_ZeileNr" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="146" C="2" PS="Ln:146, Col:2" A="W"/>
+				<Pos L="146" C="41" PS="Ln:146, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.DatObj_Tag_Variable_ZeileNr" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="147" C="2" PS="Ln:147, Col:2" A="W"/>
+				<Pos L="147" C="41" PS="Ln:147, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.DatObj_Tag_Datentyp_ZeileNr" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="148" C="2" PS="Ln:148, Col:2" A="W"/>
+				<Pos L="148" C="41" PS="Ln:148, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.DatObj_Tag_MIN_ZeileNr" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="149" C="2" PS="Ln:149, Col:2" A="W"/>
+				<Pos L="149" C="41" PS="Ln:149, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.DatObj_Tag_MAX_ZeileNr" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="150" C="2" PS="Ln:150, Col:2" A="W"/>
+				<Pos L="150" C="41" PS="Ln:150, Col:41" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.File_Name" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="156" C="2" PS="Ln:156, Col:2" A="W"/>
+				<Pos L="156" C="34" PS="Ln:156, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.RPS_File_Name" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="157" C="2" PS="Ln:157, Col:2" A="W"/>
+				<Pos L="157" C="34" PS="Ln:157, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.PC_Zielpfad" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="159" C="2" PS="Ln:159, Col:2" A="W"/>
+				<Pos L="159" C="34" PS="Ln:159, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.EXT_Zielpfad" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="160" C="2" PS="Ln:160, Col:2" A="W"/>
+				<Pos L="160" C="34" PS="Ln:160, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.DirRead_FileName_neu" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="161" C="2" PS="Ln:161, Col:2" A="W"/>
+				<Pos L="161" C="34" PS="Ln:161, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.DirRead_FileName_alt" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="162" C="2" PS="Ln:162, Col:2" A="W"/>
+				<Pos L="162" C="34" PS="Ln:162, Col:34" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.RPS_Mem_gesamt" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="166" C="2" PS="Ln:166, Col:2" A="W"/>
+				<Pos L="166" C="30" PS="Ln:166, Col:30" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.RPS_Mem_frei" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="167" C="2" PS="Ln:167, Col:2" A="W"/>
+				<Pos L="167" C="30" PS="Ln:167, Col:30" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV01.IW.RPS_Mem_frei_prz" Scope="Global" Type="CSV_typ">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="168" C="2" PS="Ln:168, Col:2" A="W"/>
+				<Pos L="168" C="30" PS="Ln:168, Col:30" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV_Uhr" Scope="Global" Type="DTStructure">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="10" C="39" PS="Ln:10, Col:39" A="R"/>
+				<Pos L="36" C="30" PS="Ln:36, Col:30" A="R"/>
+				<Pos L="36" C="47" PS="Ln:36, Col:47" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV_Uhr.hour" Scope="Global" Type="DTStructure">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="18" C="5" PS="Ln:18, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV_Uhr.minute" Scope="Global" Type="DTStructure">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="21" C="5" PS="Ln:21, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV_Uhr.second" Scope="Global" Type="DTStructure">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="24" C="5" PS="Ln:24, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV_Uhr.day" Scope="Global" Type="DTStructure">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="27" C="5" PS="Ln:27, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV_Uhr.month" Scope="Global" Type="DTStructure">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="30" C="5" PS="Ln:30, Col:5" A="R"/>
+				<Pos L="77" C="41" PS="Ln:77, Col:41" A="R"/>
+				<Pos L="88" C="42" PS="Ln:88, Col:42" A="R"/>
+				<Pos L="88" C="65" PS="Ln:88, Col:65" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV_Uhr.year" Scope="Global" Type="DTStructure">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="33" C="5" PS="Ln:33, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV_Uhr_Sp.hour" Scope="Global" Type="DTStructure">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="18" C="21" PS="Ln:18, Col:21" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV_Uhr_Sp.minute" Scope="Global" Type="DTStructure">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="21" C="23" PS="Ln:21, Col:23" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV_Uhr_Sp.second" Scope="Global" Type="DTStructure">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="24" C="23" PS="Ln:24, Col:23" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV_Uhr_Sp.day" Scope="Global" Type="DTStructure">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="27" C="20" PS="Ln:27, Col:20" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV_Uhr_Sp.month" Scope="Global" Type="DTStructure">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="30" C="22" PS="Ln:30, Col:22" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV_Uhr_Sp.year" Scope="Global" Type="DTStructure">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="33" C="21" PS="Ln:33, Col:21" A="R"/>
+			</File>
+		</Var>
+		<Var Name="CSV_Uhr_Sp" Scope="Global" Type="DTStructure">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="36" C="13" PS="Ln:36, Col:13" A="R"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="TON_10ms" Lib="standard">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="127" C="2" PS="Ln:127, Col:2"/>
+			</File>
+		</Func>
+		<Func Name="RTC_gettime" Lib="sys_lib">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="10" C="23" PS="Ln:10, Col:23"/>
+			</File>
+		</Func>
+		<Func Name="memcpy" Lib="asstring">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\CSV01_EXT\CSV01_EXTCyclic.ab">
+				<Pos L="36" C="2" PS="Ln:36, Col:2"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

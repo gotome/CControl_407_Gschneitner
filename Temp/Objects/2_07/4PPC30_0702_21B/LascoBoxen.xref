@@ -1,0 +1,582 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.LascoBoxen" AppMod="">
+  <Vars>
+  </Vars>
+  <Consts>
+  </Consts>
+  <Enums>
+    <Enum Name="FBBOX_NICHT_VERWENDET" Scope="Global" Type="enumStellungKlappenBoxen">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenKonfig.st">
+        <Pos L="266" C="32" PS="Ln:266, Col:32" A="R" />
+        <Pos L="283" C="32" PS="Ln:283, Col:32" A="R" />
+        <Pos L="300" C="32" PS="Ln:300, Col:32" A="R" />
+        <Pos L="317" C="32" PS="Ln:317, Col:32" A="R" />
+        <Pos L="334" C="32" PS="Ln:334, Col:32" A="R" />
+        <Pos L="351" C="32" PS="Ln:351, Col:32" A="R" />
+        <Pos L="372" C="32" PS="Ln:372, Col:32" A="R" />
+        <Pos L="389" C="32" PS="Ln:389, Col:32" A="R" />
+        <Pos L="406" C="32" PS="Ln:406, Col:32" A="R" />
+        <Pos L="423" C="32" PS="Ln:423, Col:32" A="R" />
+        <Pos L="440" C="32" PS="Ln:440, Col:32" A="R" />
+        <Pos L="457" C="32" PS="Ln:457, Col:32" A="R" />
+        <Pos L="477" C="32" PS="Ln:477, Col:32" A="R" />
+        <Pos L="494" C="32" PS="Ln:494, Col:32" A="R" />
+        <Pos L="511" C="32" PS="Ln:511, Col:32" A="R" />
+        <Pos L="528" C="32" PS="Ln:528, Col:32" A="R" />
+        <Pos L="545" C="32" PS="Ln:545, Col:32" A="R" />
+        <Pos L="562" C="32" PS="Ln:562, Col:32" A="R" />
+        <Pos L="583" C="32" PS="Ln:583, Col:32" A="R" />
+        <Pos L="600" C="32" PS="Ln:600, Col:32" A="R" />
+        <Pos L="617" C="32" PS="Ln:617, Col:32" A="R" />
+        <Pos L="634" C="32" PS="Ln:634, Col:32" A="R" />
+        <Pos L="651" C="32" PS="Ln:651, Col:32" A="R" />
+        <Pos L="668" C="32" PS="Ln:668, Col:32" A="R" />
+        <Pos L="689" C="32" PS="Ln:689, Col:32" A="R" />
+        <Pos L="706" C="32" PS="Ln:706, Col:32" A="R" />
+        <Pos L="723" C="32" PS="Ln:723, Col:32" A="R" />
+        <Pos L="740" C="32" PS="Ln:740, Col:32" A="R" />
+        <Pos L="757" C="32" PS="Ln:757, Col:32" A="R" />
+        <Pos L="774" C="32" PS="Ln:774, Col:32" A="R" />
+        <Pos L="795" C="32" PS="Ln:795, Col:32" A="R" />
+        <Pos L="812" C="32" PS="Ln:812, Col:32" A="R" />
+        <Pos L="829" C="32" PS="Ln:829, Col:32" A="R" />
+        <Pos L="846" C="32" PS="Ln:846, Col:32" A="R" />
+        <Pos L="863" C="32" PS="Ln:863, Col:32" A="R" />
+        <Pos L="880" C="32" PS="Ln:880, Col:32" A="R" />
+        <Pos L="906" C="33" PS="Ln:906, Col:33" A="R" />
+        <Pos L="915" C="33" PS="Ln:915, Col:33" A="R" />
+        <Pos L="924" C="33" PS="Ln:924, Col:33" A="R" />
+        <Pos L="933" C="33" PS="Ln:933, Col:33" A="R" />
+        <Pos L="942" C="33" PS="Ln:942, Col:33" A="R" />
+        <Pos L="951" C="33" PS="Ln:951, Col:33" A="R" />
+        <Pos L="966" C="33" PS="Ln:966, Col:33" A="R" />
+        <Pos L="975" C="33" PS="Ln:975, Col:33" A="R" />
+        <Pos L="984" C="33" PS="Ln:984, Col:33" A="R" />
+        <Pos L="993" C="33" PS="Ln:993, Col:33" A="R" />
+        <Pos L="1002" C="33" PS="Ln:1002, Col:33" A="R" />
+        <Pos L="1011" C="33" PS="Ln:1011, Col:33" A="R" />
+        <Pos L="1025" C="33" PS="Ln:1025, Col:33" A="R" />
+        <Pos L="1034" C="33" PS="Ln:1034, Col:33" A="R" />
+        <Pos L="1043" C="33" PS="Ln:1043, Col:33" A="R" />
+        <Pos L="1052" C="33" PS="Ln:1052, Col:33" A="R" />
+        <Pos L="1061" C="33" PS="Ln:1061, Col:33" A="R" />
+        <Pos L="1070" C="33" PS="Ln:1070, Col:33" A="R" />
+        <Pos L="1084" C="33" PS="Ln:1084, Col:33" A="R" />
+        <Pos L="1093" C="33" PS="Ln:1093, Col:33" A="R" />
+        <Pos L="1102" C="33" PS="Ln:1102, Col:33" A="R" />
+        <Pos L="1111" C="33" PS="Ln:1111, Col:33" A="R" />
+        <Pos L="1120" C="33" PS="Ln:1120, Col:33" A="R" />
+        <Pos L="1129" C="33" PS="Ln:1129, Col:33" A="R" />
+        <Pos L="1143" C="33" PS="Ln:1143, Col:33" A="R" />
+        <Pos L="1152" C="33" PS="Ln:1152, Col:33" A="R" />
+        <Pos L="1161" C="33" PS="Ln:1161, Col:33" A="R" />
+        <Pos L="1170" C="33" PS="Ln:1170, Col:33" A="R" />
+        <Pos L="1179" C="33" PS="Ln:1179, Col:33" A="R" />
+        <Pos L="1188" C="33" PS="Ln:1188, Col:33" A="R" />
+        <Pos L="1202" C="33" PS="Ln:1202, Col:33" A="R" />
+        <Pos L="1211" C="33" PS="Ln:1211, Col:33" A="R" />
+        <Pos L="1220" C="33" PS="Ln:1220, Col:33" A="R" />
+        <Pos L="1229" C="33" PS="Ln:1229, Col:33" A="R" />
+        <Pos L="1238" C="33" PS="Ln:1238, Col:33" A="R" />
+        <Pos L="1247" C="33" PS="Ln:1247, Col:33" A="R" />
+        <Pos L="1262" C="34" PS="Ln:1262, Col:34" A="R" />
+        <Pos L="1266" C="34" PS="Ln:1266, Col:34" A="R" />
+        <Pos L="1270" C="34" PS="Ln:1270, Col:34" A="R" />
+        <Pos L="1274" C="34" PS="Ln:1274, Col:34" A="R" />
+        <Pos L="1278" C="34" PS="Ln:1278, Col:34" A="R" />
+        <Pos L="1282" C="34" PS="Ln:1282, Col:34" A="R" />
+        <Pos L="1290" C="34" PS="Ln:1290, Col:34" A="R" />
+        <Pos L="1294" C="34" PS="Ln:1294, Col:34" A="R" />
+        <Pos L="1298" C="34" PS="Ln:1298, Col:34" A="R" />
+        <Pos L="1302" C="34" PS="Ln:1302, Col:34" A="R" />
+        <Pos L="1306" C="34" PS="Ln:1306, Col:34" A="R" />
+        <Pos L="1310" C="34" PS="Ln:1310, Col:34" A="R" />
+        <Pos L="1318" C="34" PS="Ln:1318, Col:34" A="R" />
+        <Pos L="1322" C="34" PS="Ln:1322, Col:34" A="R" />
+        <Pos L="1326" C="34" PS="Ln:1326, Col:34" A="R" />
+        <Pos L="1330" C="34" PS="Ln:1330, Col:34" A="R" />
+        <Pos L="1334" C="34" PS="Ln:1334, Col:34" A="R" />
+        <Pos L="1338" C="34" PS="Ln:1338, Col:34" A="R" />
+        <Pos L="1346" C="34" PS="Ln:1346, Col:34" A="R" />
+        <Pos L="1350" C="34" PS="Ln:1350, Col:34" A="R" />
+        <Pos L="1354" C="34" PS="Ln:1354, Col:34" A="R" />
+        <Pos L="1358" C="34" PS="Ln:1358, Col:34" A="R" />
+        <Pos L="1362" C="34" PS="Ln:1362, Col:34" A="R" />
+        <Pos L="1366" C="34" PS="Ln:1366, Col:34" A="R" />
+        <Pos L="1374" C="34" PS="Ln:1374, Col:34" A="R" />
+        <Pos L="1378" C="34" PS="Ln:1378, Col:34" A="R" />
+        <Pos L="1382" C="34" PS="Ln:1382, Col:34" A="R" />
+        <Pos L="1386" C="34" PS="Ln:1386, Col:34" A="R" />
+        <Pos L="1390" C="34" PS="Ln:1390, Col:34" A="R" />
+        <Pos L="1394" C="34" PS="Ln:1394, Col:34" A="R" />
+        <Pos L="1402" C="34" PS="Ln:1402, Col:34" A="R" />
+        <Pos L="1406" C="34" PS="Ln:1406, Col:34" A="R" />
+        <Pos L="1410" C="34" PS="Ln:1410, Col:34" A="R" />
+        <Pos L="1414" C="34" PS="Ln:1414, Col:34" A="R" />
+        <Pos L="1418" C="34" PS="Ln:1418, Col:34" A="R" />
+        <Pos L="1422" C="34" PS="Ln:1422, Col:34" A="R" />
+        <Pos L="1434" C="33" PS="Ln:1434, Col:33" A="R" />
+        <Pos L="1443" C="33" PS="Ln:1443, Col:33" A="R" />
+        <Pos L="1452" C="33" PS="Ln:1452, Col:33" A="R" />
+        <Pos L="1461" C="33" PS="Ln:1461, Col:33" A="R" />
+        <Pos L="1470" C="33" PS="Ln:1470, Col:33" A="R" />
+        <Pos L="1479" C="33" PS="Ln:1479, Col:33" A="R" />
+        <Pos L="1494" C="33" PS="Ln:1494, Col:33" A="R" />
+        <Pos L="1503" C="33" PS="Ln:1503, Col:33" A="R" />
+        <Pos L="1512" C="33" PS="Ln:1512, Col:33" A="R" />
+        <Pos L="1521" C="33" PS="Ln:1521, Col:33" A="R" />
+        <Pos L="1530" C="33" PS="Ln:1530, Col:33" A="R" />
+        <Pos L="1539" C="33" PS="Ln:1539, Col:33" A="R" />
+        <Pos L="1554" C="33" PS="Ln:1554, Col:33" A="R" />
+        <Pos L="1563" C="33" PS="Ln:1563, Col:33" A="R" />
+        <Pos L="1572" C="33" PS="Ln:1572, Col:33" A="R" />
+        <Pos L="1581" C="33" PS="Ln:1581, Col:33" A="R" />
+        <Pos L="1590" C="33" PS="Ln:1590, Col:33" A="R" />
+        <Pos L="1599" C="33" PS="Ln:1599, Col:33" A="R" />
+        <Pos L="1614" C="33" PS="Ln:1614, Col:33" A="R" />
+        <Pos L="1623" C="33" PS="Ln:1623, Col:33" A="R" />
+        <Pos L="1632" C="33" PS="Ln:1632, Col:33" A="R" />
+        <Pos L="1641" C="33" PS="Ln:1641, Col:33" A="R" />
+        <Pos L="1650" C="33" PS="Ln:1650, Col:33" A="R" />
+        <Pos L="1659" C="33" PS="Ln:1659, Col:33" A="R" />
+        <Pos L="1674" C="33" PS="Ln:1674, Col:33" A="R" />
+        <Pos L="1683" C="33" PS="Ln:1683, Col:33" A="R" />
+        <Pos L="1692" C="33" PS="Ln:1692, Col:33" A="R" />
+        <Pos L="1701" C="33" PS="Ln:1701, Col:33" A="R" />
+        <Pos L="1710" C="33" PS="Ln:1710, Col:33" A="R" />
+        <Pos L="1719" C="33" PS="Ln:1719, Col:33" A="R" />
+        <Pos L="1734" C="33" PS="Ln:1734, Col:33" A="R" />
+        <Pos L="1743" C="33" PS="Ln:1743, Col:33" A="R" />
+        <Pos L="1752" C="33" PS="Ln:1752, Col:33" A="R" />
+        <Pos L="1761" C="33" PS="Ln:1761, Col:33" A="R" />
+        <Pos L="1770" C="33" PS="Ln:1770, Col:33" A="R" />
+        <Pos L="1779" C="33" PS="Ln:1779, Col:33" A="R" />
+        <Pos L="1794" C="34" PS="Ln:1794, Col:34" A="R" />
+        <Pos L="1798" C="34" PS="Ln:1798, Col:34" A="R" />
+        <Pos L="1802" C="34" PS="Ln:1802, Col:34" A="R" />
+        <Pos L="1806" C="34" PS="Ln:1806, Col:34" A="R" />
+        <Pos L="1810" C="34" PS="Ln:1810, Col:34" A="R" />
+        <Pos L="1814" C="34" PS="Ln:1814, Col:34" A="R" />
+        <Pos L="1822" C="34" PS="Ln:1822, Col:34" A="R" />
+        <Pos L="1826" C="34" PS="Ln:1826, Col:34" A="R" />
+        <Pos L="1830" C="34" PS="Ln:1830, Col:34" A="R" />
+        <Pos L="1834" C="34" PS="Ln:1834, Col:34" A="R" />
+        <Pos L="1838" C="34" PS="Ln:1838, Col:34" A="R" />
+        <Pos L="1842" C="34" PS="Ln:1842, Col:34" A="R" />
+        <Pos L="1850" C="34" PS="Ln:1850, Col:34" A="R" />
+        <Pos L="1854" C="34" PS="Ln:1854, Col:34" A="R" />
+        <Pos L="1858" C="34" PS="Ln:1858, Col:34" A="R" />
+        <Pos L="1862" C="34" PS="Ln:1862, Col:34" A="R" />
+        <Pos L="1866" C="34" PS="Ln:1866, Col:34" A="R" />
+        <Pos L="1870" C="34" PS="Ln:1870, Col:34" A="R" />
+        <Pos L="1878" C="34" PS="Ln:1878, Col:34" A="R" />
+        <Pos L="1882" C="34" PS="Ln:1882, Col:34" A="R" />
+        <Pos L="1886" C="34" PS="Ln:1886, Col:34" A="R" />
+        <Pos L="1890" C="34" PS="Ln:1890, Col:34" A="R" />
+        <Pos L="1894" C="34" PS="Ln:1894, Col:34" A="R" />
+        <Pos L="1898" C="34" PS="Ln:1898, Col:34" A="R" />
+        <Pos L="1906" C="34" PS="Ln:1906, Col:34" A="R" />
+        <Pos L="1910" C="34" PS="Ln:1910, Col:34" A="R" />
+        <Pos L="1914" C="34" PS="Ln:1914, Col:34" A="R" />
+        <Pos L="1918" C="34" PS="Ln:1918, Col:34" A="R" />
+        <Pos L="1922" C="34" PS="Ln:1922, Col:34" A="R" />
+        <Pos L="1926" C="34" PS="Ln:1926, Col:34" A="R" />
+        <Pos L="1934" C="34" PS="Ln:1934, Col:34" A="R" />
+        <Pos L="1938" C="34" PS="Ln:1938, Col:34" A="R" />
+        <Pos L="1942" C="34" PS="Ln:1942, Col:34" A="R" />
+        <Pos L="1946" C="34" PS="Ln:1946, Col:34" A="R" />
+        <Pos L="1950" C="34" PS="Ln:1950, Col:34" A="R" />
+        <Pos L="1954" C="34" PS="Ln:1954, Col:34" A="R" />
+        <Pos L="3000" C="82" PS="Ln:3000, Col:82" A="R" />
+        <Pos L="3001" C="53" PS="Ln:3001, Col:53" A="R" />
+        <Pos L="3001" C="131" PS="Ln:3001, Col:131" A="R" />
+        <Pos L="3002" C="53" PS="Ln:3002, Col:53" A="R" />
+        <Pos L="3002" C="131" PS="Ln:3002, Col:131" A="R" />
+        <Pos L="3003" C="53" PS="Ln:3003, Col:53" A="R" />
+        <Pos L="3006" C="82" PS="Ln:3006, Col:82" A="R" />
+        <Pos L="3007" C="53" PS="Ln:3007, Col:53" A="R" />
+        <Pos L="3007" C="131" PS="Ln:3007, Col:131" A="R" />
+        <Pos L="3008" C="53" PS="Ln:3008, Col:53" A="R" />
+        <Pos L="3008" C="131" PS="Ln:3008, Col:131" A="R" />
+        <Pos L="3009" C="53" PS="Ln:3009, Col:53" A="R" />
+        <Pos L="3012" C="82" PS="Ln:3012, Col:82" A="R" />
+        <Pos L="3013" C="53" PS="Ln:3013, Col:53" A="R" />
+        <Pos L="3013" C="131" PS="Ln:3013, Col:131" A="R" />
+        <Pos L="3014" C="53" PS="Ln:3014, Col:53" A="R" />
+        <Pos L="3014" C="131" PS="Ln:3014, Col:131" A="R" />
+        <Pos L="3015" C="53" PS="Ln:3015, Col:53" A="R" />
+        <Pos L="3018" C="82" PS="Ln:3018, Col:82" A="R" />
+        <Pos L="3019" C="53" PS="Ln:3019, Col:53" A="R" />
+        <Pos L="3019" C="131" PS="Ln:3019, Col:131" A="R" />
+        <Pos L="3020" C="53" PS="Ln:3020, Col:53" A="R" />
+        <Pos L="3020" C="131" PS="Ln:3020, Col:131" A="R" />
+        <Pos L="3021" C="53" PS="Ln:3021, Col:53" A="R" />
+        <Pos L="3024" C="82" PS="Ln:3024, Col:82" A="R" />
+        <Pos L="3025" C="53" PS="Ln:3025, Col:53" A="R" />
+        <Pos L="3025" C="131" PS="Ln:3025, Col:131" A="R" />
+        <Pos L="3026" C="53" PS="Ln:3026, Col:53" A="R" />
+        <Pos L="3026" C="131" PS="Ln:3026, Col:131" A="R" />
+        <Pos L="3027" C="53" PS="Ln:3027, Col:53" A="R" />
+        <Pos L="3030" C="82" PS="Ln:3030, Col:82" A="R" />
+        <Pos L="3031" C="53" PS="Ln:3031, Col:53" A="R" />
+        <Pos L="3031" C="131" PS="Ln:3031, Col:131" A="R" />
+        <Pos L="3032" C="53" PS="Ln:3032, Col:53" A="R" />
+        <Pos L="3032" C="131" PS="Ln:3032, Col:131" A="R" />
+        <Pos L="3033" C="53" PS="Ln:3033, Col:53" A="R" />
+        <Pos L="3036" C="82" PS="Ln:3036, Col:82" A="R" />
+        <Pos L="3037" C="53" PS="Ln:3037, Col:53" A="R" />
+        <Pos L="3037" C="131" PS="Ln:3037, Col:131" A="R" />
+        <Pos L="3038" C="53" PS="Ln:3038, Col:53" A="R" />
+        <Pos L="3038" C="131" PS="Ln:3038, Col:131" A="R" />
+        <Pos L="3039" C="53" PS="Ln:3039, Col:53" A="R" />
+        <Pos L="3042" C="82" PS="Ln:3042, Col:82" A="R" />
+        <Pos L="3043" C="53" PS="Ln:3043, Col:53" A="R" />
+        <Pos L="3043" C="131" PS="Ln:3043, Col:131" A="R" />
+        <Pos L="3044" C="53" PS="Ln:3044, Col:53" A="R" />
+        <Pos L="3044" C="131" PS="Ln:3044, Col:131" A="R" />
+        <Pos L="3045" C="53" PS="Ln:3045, Col:53" A="R" />
+        <Pos L="3048" C="82" PS="Ln:3048, Col:82" A="R" />
+        <Pos L="3049" C="53" PS="Ln:3049, Col:53" A="R" />
+        <Pos L="3049" C="131" PS="Ln:3049, Col:131" A="R" />
+        <Pos L="3050" C="53" PS="Ln:3050, Col:53" A="R" />
+        <Pos L="3050" C="131" PS="Ln:3050, Col:131" A="R" />
+        <Pos L="3051" C="53" PS="Ln:3051, Col:53" A="R" />
+        <Pos L="3054" C="82" PS="Ln:3054, Col:82" A="R" />
+        <Pos L="3055" C="53" PS="Ln:3055, Col:53" A="R" />
+        <Pos L="3055" C="131" PS="Ln:3055, Col:131" A="R" />
+        <Pos L="3056" C="53" PS="Ln:3056, Col:53" A="R" />
+        <Pos L="3056" C="131" PS="Ln:3056, Col:131" A="R" />
+        <Pos L="3057" C="53" PS="Ln:3057, Col:53" A="R" />
+        <Pos L="3060" C="82" PS="Ln:3060, Col:82" A="R" />
+        <Pos L="3061" C="53" PS="Ln:3061, Col:53" A="R" />
+        <Pos L="3061" C="131" PS="Ln:3061, Col:131" A="R" />
+        <Pos L="3062" C="53" PS="Ln:3062, Col:53" A="R" />
+        <Pos L="3062" C="131" PS="Ln:3062, Col:131" A="R" />
+        <Pos L="3063" C="53" PS="Ln:3063, Col:53" A="R" />
+        <Pos L="3066" C="82" PS="Ln:3066, Col:82" A="R" />
+        <Pos L="3067" C="53" PS="Ln:3067, Col:53" A="R" />
+        <Pos L="3067" C="131" PS="Ln:3067, Col:131" A="R" />
+        <Pos L="3068" C="53" PS="Ln:3068, Col:53" A="R" />
+        <Pos L="3068" C="131" PS="Ln:3068, Col:131" A="R" />
+        <Pos L="3069" C="53" PS="Ln:3069, Col:53" A="R" />
+      </File>
+    </Enum>
+    <Enum Name="FBBOX_GESCHLOSSEN" Scope="Global" Type="enumStellungKlappenBoxen">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenKonfig.st">
+        <Pos L="268" C="33" PS="Ln:268, Col:33" A="R" />
+        <Pos L="274" C="33" PS="Ln:274, Col:33" A="R" />
+        <Pos L="285" C="33" PS="Ln:285, Col:33" A="R" />
+        <Pos L="291" C="33" PS="Ln:291, Col:33" A="R" />
+        <Pos L="302" C="33" PS="Ln:302, Col:33" A="R" />
+        <Pos L="308" C="33" PS="Ln:308, Col:33" A="R" />
+        <Pos L="319" C="33" PS="Ln:319, Col:33" A="R" />
+        <Pos L="325" C="33" PS="Ln:325, Col:33" A="R" />
+        <Pos L="336" C="33" PS="Ln:336, Col:33" A="R" />
+        <Pos L="342" C="33" PS="Ln:342, Col:33" A="R" />
+        <Pos L="353" C="33" PS="Ln:353, Col:33" A="R" />
+        <Pos L="359" C="33" PS="Ln:359, Col:33" A="R" />
+        <Pos L="374" C="33" PS="Ln:374, Col:33" A="R" />
+        <Pos L="380" C="33" PS="Ln:380, Col:33" A="R" />
+        <Pos L="391" C="33" PS="Ln:391, Col:33" A="R" />
+        <Pos L="397" C="33" PS="Ln:397, Col:33" A="R" />
+        <Pos L="408" C="33" PS="Ln:408, Col:33" A="R" />
+        <Pos L="414" C="33" PS="Ln:414, Col:33" A="R" />
+        <Pos L="425" C="33" PS="Ln:425, Col:33" A="R" />
+        <Pos L="431" C="33" PS="Ln:431, Col:33" A="R" />
+        <Pos L="442" C="33" PS="Ln:442, Col:33" A="R" />
+        <Pos L="448" C="33" PS="Ln:448, Col:33" A="R" />
+        <Pos L="459" C="33" PS="Ln:459, Col:33" A="R" />
+        <Pos L="465" C="33" PS="Ln:465, Col:33" A="R" />
+        <Pos L="479" C="33" PS="Ln:479, Col:33" A="R" />
+        <Pos L="485" C="33" PS="Ln:485, Col:33" A="R" />
+        <Pos L="496" C="33" PS="Ln:496, Col:33" A="R" />
+        <Pos L="502" C="33" PS="Ln:502, Col:33" A="R" />
+        <Pos L="513" C="33" PS="Ln:513, Col:33" A="R" />
+        <Pos L="519" C="33" PS="Ln:519, Col:33" A="R" />
+        <Pos L="530" C="33" PS="Ln:530, Col:33" A="R" />
+        <Pos L="536" C="33" PS="Ln:536, Col:33" A="R" />
+        <Pos L="547" C="33" PS="Ln:547, Col:33" A="R" />
+        <Pos L="553" C="33" PS="Ln:553, Col:33" A="R" />
+        <Pos L="564" C="33" PS="Ln:564, Col:33" A="R" />
+        <Pos L="570" C="33" PS="Ln:570, Col:33" A="R" />
+        <Pos L="585" C="33" PS="Ln:585, Col:33" A="R" />
+        <Pos L="591" C="33" PS="Ln:591, Col:33" A="R" />
+        <Pos L="602" C="33" PS="Ln:602, Col:33" A="R" />
+        <Pos L="608" C="33" PS="Ln:608, Col:33" A="R" />
+        <Pos L="619" C="33" PS="Ln:619, Col:33" A="R" />
+        <Pos L="625" C="33" PS="Ln:625, Col:33" A="R" />
+        <Pos L="636" C="33" PS="Ln:636, Col:33" A="R" />
+        <Pos L="642" C="33" PS="Ln:642, Col:33" A="R" />
+        <Pos L="653" C="33" PS="Ln:653, Col:33" A="R" />
+        <Pos L="659" C="33" PS="Ln:659, Col:33" A="R" />
+        <Pos L="670" C="33" PS="Ln:670, Col:33" A="R" />
+        <Pos L="676" C="33" PS="Ln:676, Col:33" A="R" />
+        <Pos L="691" C="33" PS="Ln:691, Col:33" A="R" />
+        <Pos L="697" C="33" PS="Ln:697, Col:33" A="R" />
+        <Pos L="708" C="33" PS="Ln:708, Col:33" A="R" />
+        <Pos L="714" C="33" PS="Ln:714, Col:33" A="R" />
+        <Pos L="725" C="33" PS="Ln:725, Col:33" A="R" />
+        <Pos L="731" C="33" PS="Ln:731, Col:33" A="R" />
+        <Pos L="742" C="33" PS="Ln:742, Col:33" A="R" />
+        <Pos L="748" C="33" PS="Ln:748, Col:33" A="R" />
+        <Pos L="759" C="33" PS="Ln:759, Col:33" A="R" />
+        <Pos L="765" C="33" PS="Ln:765, Col:33" A="R" />
+        <Pos L="776" C="33" PS="Ln:776, Col:33" A="R" />
+        <Pos L="782" C="33" PS="Ln:782, Col:33" A="R" />
+        <Pos L="797" C="33" PS="Ln:797, Col:33" A="R" />
+        <Pos L="803" C="33" PS="Ln:803, Col:33" A="R" />
+        <Pos L="814" C="33" PS="Ln:814, Col:33" A="R" />
+        <Pos L="820" C="33" PS="Ln:820, Col:33" A="R" />
+        <Pos L="831" C="33" PS="Ln:831, Col:33" A="R" />
+        <Pos L="837" C="33" PS="Ln:837, Col:33" A="R" />
+        <Pos L="848" C="33" PS="Ln:848, Col:33" A="R" />
+        <Pos L="854" C="33" PS="Ln:854, Col:33" A="R" />
+        <Pos L="865" C="33" PS="Ln:865, Col:33" A="R" />
+        <Pos L="871" C="33" PS="Ln:871, Col:33" A="R" />
+        <Pos L="882" C="33" PS="Ln:882, Col:33" A="R" />
+        <Pos L="888" C="33" PS="Ln:888, Col:33" A="R" />
+        <Pos L="907" C="33" PS="Ln:907, Col:33" A="R" />
+        <Pos L="916" C="33" PS="Ln:916, Col:33" A="R" />
+        <Pos L="925" C="33" PS="Ln:925, Col:33" A="R" />
+        <Pos L="934" C="33" PS="Ln:934, Col:33" A="R" />
+        <Pos L="943" C="33" PS="Ln:943, Col:33" A="R" />
+        <Pos L="952" C="33" PS="Ln:952, Col:33" A="R" />
+        <Pos L="967" C="33" PS="Ln:967, Col:33" A="R" />
+        <Pos L="976" C="33" PS="Ln:976, Col:33" A="R" />
+        <Pos L="985" C="33" PS="Ln:985, Col:33" A="R" />
+        <Pos L="994" C="33" PS="Ln:994, Col:33" A="R" />
+        <Pos L="1003" C="33" PS="Ln:1003, Col:33" A="R" />
+        <Pos L="1012" C="33" PS="Ln:1012, Col:33" A="R" />
+        <Pos L="1026" C="33" PS="Ln:1026, Col:33" A="R" />
+        <Pos L="1035" C="33" PS="Ln:1035, Col:33" A="R" />
+        <Pos L="1044" C="33" PS="Ln:1044, Col:33" A="R" />
+        <Pos L="1053" C="33" PS="Ln:1053, Col:33" A="R" />
+        <Pos L="1062" C="33" PS="Ln:1062, Col:33" A="R" />
+        <Pos L="1071" C="33" PS="Ln:1071, Col:33" A="R" />
+        <Pos L="1085" C="33" PS="Ln:1085, Col:33" A="R" />
+        <Pos L="1094" C="33" PS="Ln:1094, Col:33" A="R" />
+        <Pos L="1103" C="33" PS="Ln:1103, Col:33" A="R" />
+        <Pos L="1112" C="33" PS="Ln:1112, Col:33" A="R" />
+        <Pos L="1121" C="33" PS="Ln:1121, Col:33" A="R" />
+        <Pos L="1130" C="33" PS="Ln:1130, Col:33" A="R" />
+        <Pos L="1144" C="33" PS="Ln:1144, Col:33" A="R" />
+        <Pos L="1153" C="33" PS="Ln:1153, Col:33" A="R" />
+        <Pos L="1162" C="33" PS="Ln:1162, Col:33" A="R" />
+        <Pos L="1171" C="33" PS="Ln:1171, Col:33" A="R" />
+        <Pos L="1180" C="33" PS="Ln:1180, Col:33" A="R" />
+        <Pos L="1189" C="33" PS="Ln:1189, Col:33" A="R" />
+        <Pos L="1203" C="33" PS="Ln:1203, Col:33" A="R" />
+        <Pos L="1212" C="33" PS="Ln:1212, Col:33" A="R" />
+        <Pos L="1221" C="33" PS="Ln:1221, Col:33" A="R" />
+        <Pos L="1230" C="33" PS="Ln:1230, Col:33" A="R" />
+        <Pos L="1239" C="33" PS="Ln:1239, Col:33" A="R" />
+        <Pos L="1248" C="33" PS="Ln:1248, Col:33" A="R" />
+        <Pos L="1435" C="33" PS="Ln:1435, Col:33" A="R" />
+        <Pos L="1444" C="33" PS="Ln:1444, Col:33" A="R" />
+        <Pos L="1453" C="33" PS="Ln:1453, Col:33" A="R" />
+        <Pos L="1462" C="33" PS="Ln:1462, Col:33" A="R" />
+        <Pos L="1471" C="33" PS="Ln:1471, Col:33" A="R" />
+        <Pos L="1480" C="33" PS="Ln:1480, Col:33" A="R" />
+        <Pos L="1495" C="33" PS="Ln:1495, Col:33" A="R" />
+        <Pos L="1504" C="33" PS="Ln:1504, Col:33" A="R" />
+        <Pos L="1513" C="33" PS="Ln:1513, Col:33" A="R" />
+        <Pos L="1522" C="33" PS="Ln:1522, Col:33" A="R" />
+        <Pos L="1531" C="33" PS="Ln:1531, Col:33" A="R" />
+        <Pos L="1540" C="33" PS="Ln:1540, Col:33" A="R" />
+        <Pos L="1555" C="33" PS="Ln:1555, Col:33" A="R" />
+        <Pos L="1564" C="33" PS="Ln:1564, Col:33" A="R" />
+        <Pos L="1573" C="33" PS="Ln:1573, Col:33" A="R" />
+        <Pos L="1582" C="33" PS="Ln:1582, Col:33" A="R" />
+        <Pos L="1591" C="33" PS="Ln:1591, Col:33" A="R" />
+        <Pos L="1600" C="33" PS="Ln:1600, Col:33" A="R" />
+        <Pos L="1615" C="33" PS="Ln:1615, Col:33" A="R" />
+        <Pos L="1624" C="33" PS="Ln:1624, Col:33" A="R" />
+        <Pos L="1633" C="33" PS="Ln:1633, Col:33" A="R" />
+        <Pos L="1642" C="33" PS="Ln:1642, Col:33" A="R" />
+        <Pos L="1651" C="33" PS="Ln:1651, Col:33" A="R" />
+        <Pos L="1660" C="33" PS="Ln:1660, Col:33" A="R" />
+        <Pos L="1675" C="33" PS="Ln:1675, Col:33" A="R" />
+        <Pos L="1684" C="33" PS="Ln:1684, Col:33" A="R" />
+        <Pos L="1693" C="33" PS="Ln:1693, Col:33" A="R" />
+        <Pos L="1702" C="33" PS="Ln:1702, Col:33" A="R" />
+        <Pos L="1711" C="33" PS="Ln:1711, Col:33" A="R" />
+        <Pos L="1720" C="33" PS="Ln:1720, Col:33" A="R" />
+        <Pos L="1735" C="33" PS="Ln:1735, Col:33" A="R" />
+        <Pos L="1744" C="33" PS="Ln:1744, Col:33" A="R" />
+        <Pos L="1753" C="33" PS="Ln:1753, Col:33" A="R" />
+        <Pos L="1762" C="33" PS="Ln:1762, Col:33" A="R" />
+        <Pos L="1771" C="33" PS="Ln:1771, Col:33" A="R" />
+        <Pos L="1780" C="33" PS="Ln:1780, Col:33" A="R" />
+      </File>
+    </Enum>
+  </Enums>
+  <Funcs>
+    <Func Name="fbLascoPugeV2" Lib="LascoUtil">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenKonfig.st">
+        <Pos L="32" C="2" PS="Ln:32, Col:2" />
+        <Pos L="41" C="2" PS="Ln:41, Col:2" />
+        <Pos L="50" C="2" PS="Ln:50, Col:2" />
+        <Pos L="59" C="2" PS="Ln:59, Col:2" />
+        <Pos L="68" C="2" PS="Ln:68, Col:2" />
+        <Pos L="77" C="2" PS="Ln:77, Col:2" />
+      </File>
+    </Func>
+    <Func Name="memset" Lib="asstring">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenKonfig.st">
+        <Pos L="2284" C="3" PS="Ln:2284, Col:3" />
+        <Pos L="2285" C="3" PS="Ln:2285, Col:3" />
+        <Pos L="2286" C="3" PS="Ln:2286, Col:3" />
+        <Pos L="2287" C="3" PS="Ln:2287, Col:3" />
+        <Pos L="2288" C="3" PS="Ln:2288, Col:3" />
+        <Pos L="2289" C="3" PS="Ln:2289, Col:3" />
+        <Pos L="2291" C="3" PS="Ln:2291, Col:3" />
+        <Pos L="2292" C="3" PS="Ln:2292, Col:3" />
+        <Pos L="2293" C="3" PS="Ln:2293, Col:3" />
+        <Pos L="2294" C="3" PS="Ln:2294, Col:3" />
+        <Pos L="2295" C="3" PS="Ln:2295, Col:3" />
+        <Pos L="2296" C="3" PS="Ln:2296, Col:3" />
+        <Pos L="2957" C="3" PS="Ln:2957, Col:3" />
+        <Pos L="2958" C="3" PS="Ln:2958, Col:3" />
+        <Pos L="2963" C="3" PS="Ln:2963, Col:3" />
+        <Pos L="2964" C="3" PS="Ln:2964, Col:3" />
+        <Pos L="2969" C="3" PS="Ln:2969, Col:3" />
+        <Pos L="2970" C="3" PS="Ln:2970, Col:3" />
+        <Pos L="2975" C="3" PS="Ln:2975, Col:3" />
+        <Pos L="2976" C="3" PS="Ln:2976, Col:3" />
+        <Pos L="2981" C="3" PS="Ln:2981, Col:3" />
+        <Pos L="2982" C="3" PS="Ln:2982, Col:3" />
+        <Pos L="2987" C="3" PS="Ln:2987, Col:3" />
+        <Pos L="2988" C="3" PS="Ln:2988, Col:3" />
+      </File>
+    </Func>
+    <Func Name="TON" Lib="standard">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenVentKlappen.st">
+        <Pos L="407" C="5" PS="Ln:407, Col:5" />
+        <Pos L="490" C="7" PS="Ln:490, Col:7" />
+      </File>
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenKlappenanst.st">
+        <Pos L="26" C="6" PS="Ln:26, Col:6" />
+        <Pos L="27" C="6" PS="Ln:27, Col:6" />
+        <Pos L="72" C="6" PS="Ln:72, Col:6" />
+        <Pos L="73" C="6" PS="Ln:73, Col:6" />
+        <Pos L="82" C="5" PS="Ln:82, Col:5" />
+        <Pos L="83" C="5" PS="Ln:83, Col:5" />
+        <Pos L="104" C="6" PS="Ln:104, Col:6" />
+        <Pos L="105" C="6" PS="Ln:105, Col:6" />
+        <Pos L="114" C="5" PS="Ln:114, Col:5" />
+        <Pos L="115" C="5" PS="Ln:115, Col:5" />
+      </File>
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenAbluftkl.st">
+        <Pos L="16" C="6" PS="Ln:16, Col:6" />
+        <Pos L="53" C="6" PS="Ln:53, Col:6" />
+        <Pos L="57" C="5" PS="Ln:57, Col:5" />
+        <Pos L="84" C="6" PS="Ln:84, Col:6" />
+        <Pos L="87" C="5" PS="Ln:87, Col:5" />
+      </File>
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenUmschaltung.st">
+        <Pos L="88" C="5" PS="Ln:88, Col:5" />
+        <Pos L="89" C="5" PS="Ln:89, Col:5" />
+        <Pos L="129" C="5" PS="Ln:129, Col:5" />
+        <Pos L="130" C="5" PS="Ln:130, Col:5" />
+        <Pos L="172" C="5" PS="Ln:172, Col:5" />
+        <Pos L="173" C="5" PS="Ln:173, Col:5" />
+        <Pos L="210" C="5" PS="Ln:210, Col:5" />
+        <Pos L="211" C="5" PS="Ln:211, Col:5" />
+      </File>
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenWLO.st">
+        <Pos L="33" C="6" PS="Ln:33, Col:6" />
+        <Pos L="53" C="6" PS="Ln:53, Col:6" />
+        <Pos L="66" C="5" PS="Ln:66, Col:5" />
+        <Pos L="67" C="5" PS="Ln:67, Col:5" />
+        <Pos L="82" C="5" PS="Ln:82, Col:5" />
+        <Pos L="111" C="6" PS="Ln:111, Col:6" />
+        <Pos L="119" C="5" PS="Ln:119, Col:5" />
+      </File>
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenHeizreg.st">
+        <Pos L="54" C="5" PS="Ln:54, Col:5" />
+        <Pos L="55" C="5" PS="Ln:55, Col:5" />
+      </File>
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenNotstrom.st">
+        <Pos L="8" C="3" PS="Ln:8, Col:3" />
+        <Pos L="18" C="3" PS="Ln:18, Col:3" />
+        <Pos L="31" C="3" PS="Ln:31, Col:3" />
+        <Pos L="32" C="3" PS="Ln:32, Col:3" />
+      </File>
+    </Func>
+    <Func Name="fbLascoEUhr" Lib="LascoUtil">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenVentKlappen.st">
+        <Pos L="8" C="3" PS="Ln:8, Col:3" />
+      </File>
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenAbluftvent.st">
+        <Pos L="8" C="3" PS="Ln:8, Col:3" />
+      </File>
+    </Func>
+    <Func Name="fbLascoZdxx" Lib="LascoUtil">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenVentKlappen.st">
+        <Pos L="9" C="3" PS="Ln:9, Col:3" />
+      </File>
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenAbluftvent.st">
+        <Pos L="9" C="3" PS="Ln:9, Col:3" />
+      </File>
+    </Func>
+    <Func Name="fbLascoFU" Lib="LascoUtil">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenVentKlappen.st">
+        <Pos L="68" C="3" PS="Ln:68, Col:3" />
+        <Pos L="82" C="3" PS="Ln:82, Col:3" />
+        <Pos L="648" C="3" PS="Ln:648, Col:3" />
+        <Pos L="651" C="3" PS="Ln:651, Col:3" />
+      </File>
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenAbluftvent.st">
+        <Pos L="21" C="3" PS="Ln:21, Col:3" />
+      </File>
+    </Func>
+    <Func Name="fbBoxenKlappenanst" Lib="LascoBoxen">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenVentKlappen.st">
+        <Pos L="95" C="3" PS="Ln:95, Col:3" />
+        <Pos L="109" C="3" PS="Ln:109, Col:3" />
+        <Pos L="123" C="3" PS="Ln:123, Col:3" />
+        <Pos L="137" C="3" PS="Ln:137, Col:3" />
+        <Pos L="157" C="3" PS="Ln:157, Col:3" />
+        <Pos L="177" C="3" PS="Ln:177, Col:3" />
+        <Pos L="197" C="3" PS="Ln:197, Col:3" />
+        <Pos L="217" C="3" PS="Ln:217, Col:3" />
+        <Pos L="237" C="3" PS="Ln:237, Col:3" />
+        <Pos L="654" C="3" PS="Ln:654, Col:3" />
+        <Pos L="657" C="3" PS="Ln:657, Col:3" />
+        <Pos L="660" C="3" PS="Ln:660, Col:3" />
+        <Pos L="663" C="3" PS="Ln:663, Col:3" />
+        <Pos L="666" C="3" PS="Ln:666, Col:3" />
+        <Pos L="669" C="3" PS="Ln:669, Col:3" />
+        <Pos L="672" C="3" PS="Ln:672, Col:3" />
+        <Pos L="675" C="3" PS="Ln:675, Col:3" />
+        <Pos L="678" C="3" PS="Ln:678, Col:3" />
+      </File>
+    </Func>
+    <Func Name="TOF" Lib="standard">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenWLO.st">
+        <Pos L="6" C="2" PS="Ln:6, Col:2" />
+      </File>
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenNotstrom.st">
+        <Pos L="12" C="3" PS="Ln:12, Col:3" />
+      </File>
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenSHO.st">
+        <Pos L="7" C="3" PS="Ln:7, Col:3" />
+        <Pos L="16" C="3" PS="Ln:16, Col:3" />
+      </File>
+    </Func>
+    <Func Name="memcpy" Lib="asstring">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbRestzeit.st">
+        <Pos L="20" C="5" PS="Ln:20, Col:5" />
+        <Pos L="78" C="5" PS="Ln:78, Col:5" />
+      </File>
+    </Func>
+    <Func Name="memcmp" Lib="asstring">
+      <File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbRestzeit.st">
+        <Pos L="15" C="21" PS="Ln:15, Col:21" />
+        <Pos L="73" C="21" PS="Ln:73, Col:21" />
+      </File>
+    </Func>
+  </Funcs>
+  <Actions>
+  </Actions>
+</Crossref>

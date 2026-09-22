@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.9.18 SP"?>
+<EnvironmentSettings xmlns="http://br-automation.co.at/AS/VC/Project">
+  <Visual_Components_Frames>
+    <Property Name="ActiveFrame" Value="3"/>
+    <Property Name="SaveFrameLimit" Value="4"/>
+    <Property Name="ShowCmd" Value="3"/>
+    <Frame>
+      <Property Name="ActiveView" Value="0"/>
+      <Property Name="FrameMinPtX" Value="-1"/>
+      <Property Name="FrameMinPtY" Value="-1"/>
+      <Property Name="ParentObjectName" Value="gDetailsBox"/>
+      <Property Name="ParentObjectType" Value="Layer"/>
+      <Property Name="ShowCmd" Value="3"/>
+      <Property Name="WndPosBottom" Value="821"/>
+      <Property Name="WndPosLeft" Value="176"/>
+      <Property Name="WndPosRight" Value="817"/>
+      <Property Name="WndPosTop" Value="176"/>
+      <Views>
+        <View>
+          <Property Name="ID" Value="268435456"/>
+          <Property Name="Scalecx" Value="4"/>
+          <Property Name="Scalecy" Value="4"/>
+          <Property Name="ScrollPositionX" Value="0"/>
+          <Property Name="ScrollPositionY" Value="0"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="-2147483648"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="0"/>
+        </View>
+      </Views>
+    </Frame>
+    <Frame>
+      <Property Name="ActiveView" Value="0"/>
+      <Property Name="FrameMinPtX" Value="-1"/>
+      <Property Name="FrameMinPtY" Value="-1"/>
+      <Property Name="ParentObjectName" Value="gDetailsKlappen"/>
+      <Property Name="ParentObjectType" Value="Layer"/>
+      <Property Name="ShowCmd" Value="3"/>
+      <Property Name="WndPosBottom" Value="777"/>
+      <Property Name="WndPosLeft" Value="132"/>
+      <Property Name="WndPosRight" Value="773"/>
+      <Property Name="WndPosTop" Value="132"/>
+      <Views>
+        <View>
+          <Property Name="ID" Value="268435456"/>
+          <Property Name="Scalecx" Value="100"/>
+          <Property Name="Scalecy" Value="100"/>
+          <Property Name="ScrollPositionX" Value="0"/>
+          <Property Name="ScrollPositionY" Value="0"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="-2147483648"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="0"/>
+        </View>
+      </Views>
+    </Frame>
+    <Frame>
+      <Property Name="ActiveView" Value="0"/>
+      <Property Name="FrameMinPtX" Value="-1"/>
+      <Property Name="FrameMinPtY" Value="-1"/>
+      <Property Name="ParentObjectName" Value="UG_Bar_1"/>
+      <Property Name="ParentObjectType" Value="UnitGroup"/>
+      <Property Name="ShowCmd" Value="3"/>
+      <Property Name="WndPosBottom" Value="733"/>
+      <Property Name="WndPosLeft" Value="88"/>
+      <Property Name="WndPosRight" Value="729"/>
+      <Property Name="WndPosTop" Value="88"/>
+      <Views>
+        <View>
+          <Property Name="ID" Value="67108864"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="33554432"/>
+        </View>
+      </Views>
+    </Frame>
+    <Frame>
+      <Property Name="ActiveView" Value="0"/>
+      <Property Name="FrameMinPtX" Value="-1"/>
+      <Property Name="FrameMinPtY" Value="-1"/>
+      <Property Name="ParentObjectName" Value="BypassState"/>
+      <Property Name="ParentObjectType" Value="BitmapGroup"/>
+      <Property Name="ShowCmd" Value="3"/>
+      <Property Name="WndPosBottom" Value="689"/>
+      <Property Name="WndPosLeft" Value="44"/>
+      <Property Name="WndPosRight" Value="685"/>
+      <Property Name="WndPosTop" Value="44"/>
+      <Views>
+        <View>
+          <Property Name="ID" Value="65536"/>
+        </View>
+        <View>
+          <Property Name="ID" Value="131072"/>
+          <Property Name="Scalecx" Value="10"/>
+          <Property Name="Scalecy" Value="10"/>
+          <Property Name="ScrollPositionX" Value="0"/>
+          <Property Name="ScrollPositionY" Value="0"/>
+        </View>
+      </Views>
+    </Frame>
+  </Visual_Components_Frames>
+  <StyleSheets>
+    <Property Name="ActiveStyleSheet" Value="Color"/>
+  </StyleSheets>
+  <Languages>
+    <Property Name="ActiveLanguage" Value="de"/>
+  </Languages>
+  <VisualComponentOptions>
+    <Property Name="AllowTextClipboard" Value="1"/>
+    <Property Name="DefaultFont" Value="Arial10pxBold"/>
+    <Property Name="ExtGraphicEditor" Value="mspaint.exe"/>
+  </VisualComponentOptions>
+</EnvironmentSettings>

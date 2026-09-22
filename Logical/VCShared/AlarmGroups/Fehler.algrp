@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Fehler">
+  <Property Name="AcknowledgeImage" Value="None"/>
+  <Property Name="ActiveBackColor" Value="51"/>
+  <Property Name="ActiveForeColor" Value="242"/>
+  <Property Name="AlarmImage" Value="Source[global].Variable[DataSource.Alarmsystem.alarmFehler]"/>
+  <Property Name="BypassBackColor" Value="14"/>
+  <Property Name="BypassForeColor" Value="0"/>
+  <Property Name="BypassImage" Value="None"/>
+  <Property Name="DefaultBackColor" Value="242"/>
+  <Property Name="DefaultForeColor" Value="243"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="GroupAlarm" Value="Source[global].Variable[DataSource.gStatusAnlage.Fehler.SummeFehler]"/>
+  <Property Name="ImageOffset" Value="0"/>
+  <Property Name="Index" Value="2"/>
+  <Property Name="LatchedBackColor" Value="2"/>
+  <Property Name="LatchedForeColor" Value="0"/>
+  <Property Name="Priority" Value="1"/>
+  <Property Name="QuitBackColor" Value="242"/>
+  <Property Name="QuitForeColor" Value="243"/>
+  <Alarms>
+    <Alarm Index="0">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="1">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="2">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="3">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="4">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="6">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="5">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="7">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="8">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="9">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="10">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="11">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="12">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="13">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="14">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="15">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="16">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="17">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="18">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="19">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="20">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="21">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="22">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="23">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="24">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="25">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="26">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="27">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="28">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="29">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="30">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="31">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="32">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="33">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="34">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="35">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="36">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="37">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="38">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="39">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="40">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="41">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="42">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="43">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="44">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="45">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="46">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="47">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="48">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+      <Property Name="TriggerGroupAlarm" Value="False"/>
+    </Alarm>
+    <Alarm Index="Group">
+      <Property Name="Acknowledge" Value="Possible"/>
+      <Property Name="AcknowledgeActive" Value="Enabled"/>
+      <Property Name="Bypass" Value="Enabled"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Latched" Value="False"/>
+      <Property Name="RecordAcknowledge" Value="True"/>
+      <Property Name="RecordBypass" Value="All"/>
+      <Property Name="RecordReset" Value="All"/>
+      <Property Name="RecordTrigger" Value="True"/>
+    </Alarm>
+  </Alarms>
+  <TextGroup>
+    <TextSnippets/>
+    <TextLayer LanguageId="en">
+      <Text ID="2902" Value="Error PCB 24VDC"/>
+      <Text ID="2903" Value="Error Inverter compressor module 1"/>
+      <Text ID="2904" Value="Error Inverter compressor module 2"/>
+      <Text ID="2905" Value="Error operating signal Inverter compressor module 1"/>
+      <Text ID="2906" Value="Error operating signal Inverter compressor module 2"/>
+      <Text ID="2907" Value="No operating signal from fan 2"/>
+      <Text ID="2908" Value="No operating signal from fan 1"/>
+      <Text ID="2909" Value="No operating signal from extract air fan"/>
+      <Text ID="2910" Value="Error high pressure module 1 - sensor has to be reset manually"/>
+      <Text ID="2911" Value="Error high pressure module 2 - sensor has to be reset manually"/>
+      <Text ID="2912" Value="Error low pressure module 1 - sensor has to be reset manually"/>
+      <Text ID="2913" Value="Error low pressure module 2 - sensor has to be reset manually"/>
+      <Text ID="2914" Value="Error oil pressure compressor module 1  - sensor has to be reset manually"/>
+      <Text ID="2915" Value="Error oil pressure compressor module 2 - sensor has to be reset manually"/>
+      <Text ID="2916" Value="Error compressor temperature module 1"/>
+      <Text ID="2917" Value="Error compressor temperature module 2"/>
+      <Text ID="2918" Value="Error inherent protection compressor module 1"/>
+      <Text ID="2919" Value="Error inherent protection compressor module 2"/>
+      <Text ID="2920" Value="No operating signal from hot-air generator"/>
+      <Text ID="2921" Value="No operating signal from emergency generator"/>
+      <Text ID="2922" Value="Error sensor fresh air"/>
+      <Text ID="2923" Value="Error sensor roof air"/>
+      <Text ID="2924" Value="Error sensor dry air"/>
+      <Text ID="2925" Value="Error sensor extract air"/>
+      <Text ID="2926" Value="Error sensor inlet"/>
+      <Text ID="2927" Value="Error sensor outlet"/>
+      <Text ID="2928" Value="Error sensor air speed"/>
+      <Text ID="2929" Value="Error sensor channel pressure"/>
+      <Text ID="2930" Value="Error sensor low pressure module 1"/>
+      <Text ID="2931" Value="Error sensor low pressure module 2"/>
+      <Text ID="2932" Value="Error sensor high pressure module 1"/>
+      <Text ID="2933" Value="Error sensor high pressure module 2"/>
+      <Text ID="2934" Value="Error end position monitoring bypass flap"/>
+      <Text ID="2935" Value="Error end position monitoring recirculation flap 1"/>
+      <Text ID="2936" Value="Error end position monitoring recirculation flap 2"/>
+      <Text ID="2937" Value="Error end position monitoring box flap 1"/>
+      <Text ID="2938" Value="Error end position monitoring box flap 2"/>
+      <Text ID="2939" Value="Error end position monitoring box flap 3"/>
+      <Text ID="2940" Value="Error end position monitoring box flap 4"/>
+      <Text ID="2941" Value="Error end position monitoring box flap 5"/>
+      <Text ID="2942" Value="Error end position monitoring box flap 6"/>
+      <Text ID="2943" Value="Error end position monitoring extract air flap"/>
+      <Text ID="2944" Value="Inlet temperature too high - start of dehumidifier not possible"/>
+      <Text ID="2945" Value="Inlet temperature too low - start of dehumidifier not possible"/>
+      <Text ID="2946" Value="Error watchdog-timer pumpdown compressor module 1 - Please contact service"/>
+      <Text ID="2947" Value="Error watchdog-timer pumpdown compressor module 2 - Please contact service"/>
+      <Text ID="3036" Value="Phase sequence protection triggered"/>
+      <Text ID="3513" Value="Error signal from dehumidifier"/>
+      <Text ID="3514" Value="Error: No operating signal from dryer"/>
+      <Text ID="2979" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="de">
+      <Text ID="2902" Value="Fehler Absicherung 24VDC"/>
+      <Text ID="2903" Value="Fehler FU Kompressor Modul 1"/>
+      <Text ID="2904" Value="Fehler FU Kompressor Modul 2"/>
+      <Text ID="2905" Value="Fehler Betriebsmeldung FU Kompressor Modul 1"/>
+      <Text ID="2906" Value="Fehler Betriebsmeldung FU Kompressor Modul 2"/>
+      <Text ID="2907" Value="Keine Betriebsmeldung von Ventilator 2"/>
+      <Text ID="2908" Value="Keine Betriebsmeldung von Ventilator 1"/>
+      <Text ID="2909" Value="Keine Betriebsmeldung von Abluftventilator"/>
+      <Text ID="2910" Value="Fehler Hochdruck Modul 1 - Schalter muss manuell zurückgesetzt werden"/>
+      <Text ID="2911" Value="Fehler Hochdruck Modul 2 - Schalter muss manuell zurückgesetzt werden"/>
+      <Text ID="2912" Value="Fehler Niederdruck Modul 1 - Schalter muss manuell zurückgesetzt werden"/>
+      <Text ID="2913" Value="Fehler Niederdruck Modul 2 - Schalter muss manuell zurückgesetzt werden"/>
+      <Text ID="2914" Value="Fehler Oeldruck Kompressor Modul 1 - Schalter muss manuell am Kompressor zurückgesetzt werden"/>
+      <Text ID="2915" Value="Fehler Oeldruck Kompressor Modul 2 - Schalter muss manuell am Kompressor zurückgesetzt werden"/>
+      <Text ID="2916" Value="Fehler Kopftemperatur Kompressor Modul 1"/>
+      <Text ID="2917" Value="Fehler Kopftemperatur Kompressor Modul 2"/>
+      <Text ID="2918" Value="Fehler Vollschutz Kompressor Modul 1"/>
+      <Text ID="2919" Value="Fehler Vollschutz Kompressor Modul 2"/>
+      <Text ID="2920" Value="Keine Betriebsmeldung von Warmluftofen"/>
+      <Text ID="2921" Value="Keine Betriebsmeldung von Notstromaggregat"/>
+      <Text ID="2922" Value="Fehler Sensor Frischluft"/>
+      <Text ID="2923" Value="Fehler Sensor Dachluft"/>
+      <Text ID="2924" Value="Fehler Sensor Trockenluft"/>
+      <Text ID="2925" Value="Fehler Sensor Abluft"/>
+      <Text ID="2926" Value="Fehler Sensor Eintritt "/>
+      <Text ID="2927" Value="Fehler Sensor Austritt"/>
+      <Text ID="2928" Value="Fehler Sensor Luftgeschwindigkeit"/>
+      <Text ID="2929" Value="Fehler Sensor Kanaldruck"/>
+      <Text ID="2930" Value="Fehler Sensor Niederdruck Modul 1"/>
+      <Text ID="2931" Value="Fehler Sensor Niederdruck Modul 2"/>
+      <Text ID="2932" Value="Fehler Sensor Hochdruck Modul 1"/>
+      <Text ID="2933" Value="Fehler Sensor Hochdruck Modul 2"/>
+      <Text ID="2934" Value="Fehler Endlagenueberwachung Bypassklappe"/>
+      <Text ID="2935" Value="Fehler Endlagenueberwachung Umluftklappe 1"/>
+      <Text ID="2936" Value="Fehler Endlagenueberwachung Umluftklappe 2"/>
+      <Text ID="2937" Value="Fehler Endlagenüberwachung Boxenklappe 1"/>
+      <Text ID="2938" Value="Fehler Endlagenüberwachung Boxenklappe 2"/>
+      <Text ID="2939" Value="Fehler Endlagenüberwachung Boxenklappe 3"/>
+      <Text ID="2940" Value="Fehler Endlagenüberwachung Boxenklappe 4"/>
+      <Text ID="2941" Value="Fehler Endlagenüberwachung Boxenklappe 5"/>
+      <Text ID="2942" Value="Fehler Endlagenüberwachung Boxenklappe 6"/>
+      <Text ID="2943" Value="Fehler Endlagenueberwachung Abluftklappe"/>
+      <Text ID="2944" Value="Fehler Temperatur Eintritt zu hoch - Betrieb Entfeuchter nicht moeglich"/>
+      <Text ID="2945" Value="Fehler Temperatur Eintritt zu niedrig - Betrieb Entfeuchter nicht moeglich"/>
+      <Text ID="2946" Value="Fehler Laufzeit Pumpdown Kompressor Modul 1 - Bitte Service kontaktieren"/>
+      <Text ID="2947" Value="Fehler Laufzeit Pumpdown Kompressor Modul 2 - Bitte Service kontaktieren"/>
+      <Text ID="3036" Value="Drehfeldüberwachung ausgelöst"/>
+      <Text ID="3513" Value="Störmeldung von Luftentfeuchter"/>
+      <Text ID="3514" Value="Fehler: Keine Betriebsmeldung von Luftentfeuchter"/>
+      <Text ID="2979" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="fr">
+      <Text ID="2902" Value="Défaut disjonction 24VDC"/>
+      <Text ID="2903" Value="Défaut VAR compresseur module 1"/>
+      <Text ID="2904" Value="Défaut VAR compresseur module 2"/>
+      <Text ID="2905" Value="Défaut retour de marche VAR compresseur module 1"/>
+      <Text ID="2906" Value="Défaut retour de marche VAR compresseur module 2"/>
+      <Text ID="2907" Value="Aucun retour de marche ventilateur 2"/>
+      <Text ID="2908" Value="Aucun retour de marche ventilateur 1"/>
+      <Text ID="2909" Value="Aucun retour de marche ventilateur extraction d'air"/>
+      <Text ID="2910" Value="Défaut HP module 1 - Reseter manuellement le pressostat"/>
+      <Text ID="2911" Value="Défaut HP module 2 - Reseter manuellement le pressostat"/>
+      <Text ID="2912" Value="Défaut BP module 1 - Reseter manuellement le pressostat"/>
+      <Text ID="2913" Value="Défaut BP module 2 - Reseter manuellement le pressostat"/>
+      <Text ID="2914" Value="Défaut pression d'huile module 1 - Reseter manuellement le pressostat"/>
+      <Text ID="2915" Value="Défaut pression d'huile module 2 - Reseter manuellement le pressostat"/>
+      <Text ID="2916" Value="Défaut temp refoulement compresseur module 1"/>
+      <Text ID="2917" Value="Défaut temp refoulement compresseur module 2"/>
+      <Text ID="2918" Value="Défaut protection INT compresseur module 1"/>
+      <Text ID="2919" Value="Défaut protection INT compresseur module 2"/>
+      <Text ID="2920" Value="Aucun retour de marche du GAC"/>
+      <Text ID="2921" Value="Aucun retour de marche du groupe électrogène"/>
+      <Text ID="2922" Value="Défaut sonde air neuf"/>
+      <Text ID="2923" Value="Défaut sonde air toiture"/>
+      <Text ID="2924" Value="Défaut sonde air sec"/>
+      <Text ID="2925" Value="Défaut sonde air extrait"/>
+      <Text ID="2926" Value="Défaut sonde entrée déshu. "/>
+      <Text ID="2927" Value="Défaut sonde sortie déshu. "/>
+      <Text ID="2928" Value="Défaut sonde vitesse d'air"/>
+      <Text ID="2929" Value="Défaut capteur pression canal"/>
+      <Text ID="2930" Value="Défaut capteur BP module 1"/>
+      <Text ID="2931" Value="Défaut capteur BP module 2"/>
+      <Text ID="2932" Value="Défaut capteur HP module 1"/>
+      <Text ID="2933" Value="Défaut capteur HP module 2"/>
+      <Text ID="2934" Value="Défaut fin de course clapet bypass"/>
+      <Text ID="2935" Value="Défaut fin de course clapet air neuf 1"/>
+      <Text ID="2936" Value="Défaut fin de course clapet air neuf 2"/>
+      <Text ID="2937" Value="Défaut fin de course clapet box 1"/>
+      <Text ID="2938" Value="Défaut fin de course clapet box 2"/>
+      <Text ID="2939" Value="Défaut fin de course clapet box 3"/>
+      <Text ID="2940" Value="Défaut fin de course clapet box 4"/>
+      <Text ID="2941" Value="Défaut fin de course clapet box 5"/>
+      <Text ID="2942" Value="Défaut fin de course clapet box 6"/>
+      <Text ID="2943" Value="Défaut fin de course clapet air extrait"/>
+      <Text ID="2944" Value="Défaut température entrée déshu. trop élevée - Marche déshu. impossible"/>
+      <Text ID="2945" Value="Défaut température entrée déshu. trop faible - Marche déshu. impossible"/>
+      <Text ID="2946" Value="Défaut durée pumpdown compresseur module 1 - Contacter votre frigoriste"/>
+      <Text ID="2947" Value="Défaut durée pumpdown compresseur module 2 - Contacter votre frigoriste"/>
+      <Text ID="3036" Value="Surveillance champ tournant"/>
+      <Text ID="3513" Value="Défaut du déshumidificateur"/>
+      <Text ID="3514" Value="Défaut: Pas de retour de marche du déshumidificateur"/>
+      <Text ID="2979" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="nl-BE">
+      <Text ID="2902" Value="Napaka - PCB 24VDC"/>
+      <Text ID="2903" Value="Napaka - FP kompresor modul 1"/>
+      <Text ID="2904" Value="Napaka - FP kompresor modul 2"/>
+      <Text ID="2905" Value="Napaka - delovanja FP kopresor modul 1"/>
+      <Text ID="2906" Value="Napaka - delovanja FP kopresor modul 1 2"/>
+      <Text ID="2907" Value="Ni signala delovanja ventilatorja 2"/>
+      <Text ID="2908" Value="Ni signala delovanja ventilatorja 1"/>
+      <Text ID="2909" Value="Ni signala delovanja ventilatorja odpadnega zraka"/>
+      <Text ID="2910" Value="Napaka - visok tlak  modula 1 - stikalo je potrebno ročno sprostiti"/>
+      <Text ID="2911" Value="Napaka - visok tlak  modula 2 - stikalo je potrebno ročno sprostiti"/>
+      <Text ID="2912" Value="Napaka - nizek tlak  modula 1 - stikalo je potrebno ročno sprostiti"/>
+      <Text ID="2913" Value="Napaka - nizek tlak  modula 2 - stikalo je potrebno ročno sprostiti"/>
+      <Text ID="2914" Value="Napaka - tlaka olja v kompresorju modul 1 - senzor je treba ponastaviti sprostiti"/>
+      <Text ID="2915" Value="Napaka -  tlaka olja v kompresorju modul 2 - senzor je treba ponastaviti sprostiti"/>
+      <Text ID="2916" Value="Napaka - temperatura kompresorja, kompresurski modul 1"/>
+      <Text ID="2917" Value="Napaka - temperatura kompresorja, kompresurski  modul 2"/>
+      <Text ID="2918" Value="Napaka - polne zaščite kompresorskega modula 1"/>
+      <Text ID="2919" Value="Napaka - polne zaščite kompresorskega modula 2"/>
+      <Text ID="2920" Value=""/>
+      <Text ID="2921" Value=""/>
+      <Text ID="2922" Value=""/>
+      <Text ID="2923" Value="Napaka - senzor - strešni kanal"/>
+      <Text ID="2924" Value=""/>
+      <Text ID="2925" Value="Napaka - senzor- odpadni zrak"/>
+      <Text ID="2926" Value="Napaka - senzor - sesalna stran"/>
+      <Text ID="2927" Value="Napaka - senzor - vpihna stran"/>
+      <Text ID="2928" Value="Napaka - senzor- hitrost zraka"/>
+      <Text ID="2929" Value=""/>
+      <Text ID="2930" Value="Napaka - senzor - niski tlak modul 1"/>
+      <Text ID="2931" Value="Napaka - senzor - niski tlak modul 2"/>
+      <Text ID="2932" Value="Napaka - senzor - visok tlak modul 1"/>
+      <Text ID="2933" Value="Napaka - senzor - visok tlak modul 2"/>
+      <Text ID="2934" Value="Napaka - končni položaja obvodne lopute"/>
+      <Text ID="2935" Value="Napaka - končni položaja obtočne  lopute 1"/>
+      <Text ID="2936" Value="Napaka - končni položaja obtočne  lopute 2"/>
+      <Text ID="2937" Value=""/>
+      <Text ID="2938" Value=""/>
+      <Text ID="2939" Value=""/>
+      <Text ID="2940" Value=""/>
+      <Text ID="2941" Value=""/>
+      <Text ID="2942" Value=""/>
+      <Text ID="2943" Value="Napaka - končni položaja  lopute - odpadni zrak"/>
+      <Text ID="2944" Value="Napaka - Vhodna temperatura previsoka - zagon razvlaževalca ni mogoč"/>
+      <Text ID="2945" Value="Napaka - Vhodna temperatura prenizka - zagon razvlaževalca ni mogoč"/>
+      <Text ID="2946" Value="Error watchdog-timer pumpdown compressor module 1 - Please contact service"/>
+      <Text ID="2947" Value="Error watchdog-timer pumpdown compressor module 2 - Please contact service"/>
+      <Text ID="3036" Value=""/>
+      <Text ID="3513" Value="Storing van luchtontvochtiger"/>
+      <Text ID="3514" Value="Fout: Geen operationeel signaal van luchtontvochtiger"/>
+      <Text ID="2979" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="es">
+      <Text ID="2902" Value=""/>
+      <Text ID="2903" Value=""/>
+      <Text ID="2904" Value=""/>
+      <Text ID="2905" Value=""/>
+      <Text ID="2906" Value=""/>
+      <Text ID="2907" Value=""/>
+      <Text ID="2908" Value=""/>
+      <Text ID="2909" Value=""/>
+      <Text ID="2910" Value=""/>
+      <Text ID="2911" Value=""/>
+      <Text ID="2912" Value=""/>
+      <Text ID="2913" Value=""/>
+      <Text ID="2914" Value=""/>
+      <Text ID="2915" Value=""/>
+      <Text ID="2916" Value=""/>
+      <Text ID="2917" Value=""/>
+      <Text ID="2918" Value=""/>
+      <Text ID="2919" Value=""/>
+      <Text ID="2920" Value=""/>
+      <Text ID="2921" Value=""/>
+      <Text ID="2922" Value=""/>
+      <Text ID="2923" Value=""/>
+      <Text ID="2924" Value=""/>
+      <Text ID="2925" Value=""/>
+      <Text ID="2926" Value=""/>
+      <Text ID="2927" Value=""/>
+      <Text ID="2928" Value=""/>
+      <Text ID="2929" Value=""/>
+      <Text ID="2930" Value=""/>
+      <Text ID="2931" Value=""/>
+      <Text ID="2932" Value=""/>
+      <Text ID="2933" Value=""/>
+      <Text ID="2934" Value=""/>
+      <Text ID="2935" Value=""/>
+      <Text ID="2936" Value=""/>
+      <Text ID="2937" Value=""/>
+      <Text ID="2938" Value=""/>
+      <Text ID="2939" Value=""/>
+      <Text ID="2940" Value=""/>
+      <Text ID="2941" Value=""/>
+      <Text ID="2942" Value=""/>
+      <Text ID="2943" Value=""/>
+      <Text ID="2944" Value=""/>
+      <Text ID="2945" Value=""/>
+      <Text ID="2946" Value=""/>
+      <Text ID="2947" Value=""/>
+      <Text ID="3036" Value=""/>
+      <Text ID="3513" Value=""/>
+      <Text ID="3514" Value=""/>
+      <Text ID="2979" Value=""/>
+    </TextLayer>
+    <TextLayer LanguageId="sl">
+      <Text ID="2902" Value="Napaka – PCB 24VDC"/>
+      <Text ID="2903" Value="Napaka – FP kompresor modul 1"/>
+      <Text ID="2904" Value="Napaka – FP kompresor modul 2"/>
+      <Text ID="2905" Value="Napaka – delovanja FP kompresor modul 1"/>
+      <Text ID="2906" Value="Napaka – delovanja FP kompresor modul 2"/>
+      <Text ID="2907" Value="Ni signala delovanja ventilatorja 2"/>
+      <Text ID="2908" Value="Ni signala delovanja ventilatorja 1"/>
+      <Text ID="2909" Value="Ni signala delovanja ventilatorja odpadnega zraka"/>
+      <Text ID="2910" Value="Napaka – visok tlak modula 1 – stikalo je potrebno ročno sprostiti"/>
+      <Text ID="2911" Value="Napaka – visok tlak modula 2 – stikalo je potrebno ročno sprostiti"/>
+      <Text ID="2912" Value="Napaka – nizek tlak modula 1 – stikalo je potrebno ročno sprostiti"/>
+      <Text ID="2913" Value="Napaka – nizek tlak modula 2 – stikalo je potrebno ročno sprostiti"/>
+      <Text ID="2914" Value="Napaka – tlak olja v kompresorju modula 1 – stikalo je treba ročno ponastaviti na kompresorju"/>
+      <Text ID="2915" Value="Napaka – tlak olja v kompresorju modula 2 – stikalo je treba ročno ponastaviti na kompresorju"/>
+      <Text ID="2916" Value="Napaka – temperatura kompresorja, kompresorski modul 1"/>
+      <Text ID="2917" Value="Napaka – temperatura kompresorja, kompresorski modul 2"/>
+      <Text ID="2918" Value="Napaka – polne zaščite kompresorskega modula 1"/>
+      <Text ID="2919" Value="Napaka – polne zaščite kompresorskega modula 2"/>
+      <Text ID="2920" Value="Ni signala delovanja kotla na vroči zrak"/>
+      <Text ID="2921" Value="Ni signala delovanja zasilnega generatorja"/>
+      <Text ID="2922" Value="Napaka – senzor svežega zraka"/>
+      <Text ID="2923" Value="Napaka – senzor zraka s strehe"/>
+      <Text ID="2924" Value="Napaka – senzor suhega zraka"/>
+      <Text ID="2925" Value="Napaka – senzor – odpadni zrak"/>
+      <Text ID="2926" Value="Napaka – senzor – vhod "/>
+      <Text ID="2927" Value="Napaka – senzor – izhod"/>
+      <Text ID="2928" Value="Napaka – senzor – hitrost zraka"/>
+      <Text ID="2929" Value="Napaka – senzor – tlaka kanala"/>
+      <Text ID="2930" Value="Napaka – senzor – nizki tlak modula 1"/>
+      <Text ID="2931" Value="Napaka – senzor – nizki tlak modula 2"/>
+      <Text ID="2932" Value="Napaka – senzor – visoki tlak modula 1"/>
+      <Text ID="2933" Value="Napaka – senzor – visoki tlak modula 2"/>
+      <Text ID="2934" Value="Napaka – končni položaj lopute obvoda"/>
+      <Text ID="2935" Value="Napaka – končni položaj lopute za cirkulacijo zraka 1"/>
+      <Text ID="2936" Value="Napaka – končni položaj lopute za cirkulacijo zraka 2"/>
+      <Text ID="2937" Value="Napaka – končni položaj lopute komore 1"/>
+      <Text ID="2938" Value="Napaka – končni položaj lopute komore 2"/>
+      <Text ID="2939" Value="Napaka – končni položaj lopute komore 3"/>
+      <Text ID="2940" Value="Napaka – končni položaj lopute komore 4"/>
+      <Text ID="2941" Value="Napaka – končni položaj lopute komore 5"/>
+      <Text ID="2942" Value="Napaka – končni položaj lopute komore 6"/>
+      <Text ID="2943" Value="Napaka – končni položaj lopute – odpadni zrak"/>
+      <Text ID="2944" Value="Napaka – vhodna temperatura previsoka – zagon razvlaževalnika ni mogoč"/>
+      <Text ID="2945" Value="Napaka – vhodna temperatura prenizka – zagon razvlaževalnika ni mogoč"/>
+      <Text ID="2946" Value="Napaka – delovanje zaustavitve kompresorskega modula 1 – obvestite servis"/>
+      <Text ID="2947" Value="Napaka – delovanje zaustavitve kompresorskega modula 2 – obvestite servis"/>
+      <Text ID="3036" Value="Sprožena zaščita zaporedja faz"/>
+      <Text ID="3513" Value=""/>
+      <Text ID="3514" Value=""/>
+      <Text ID="2979" Value=""/>
+    </TextLayer>
+    <IndexMap>
+      <Index ID="2902" Value="0"/>
+      <Index ID="2903" Value="1"/>
+      <Index ID="2904" Value="2"/>
+      <Index ID="2905" Value="3"/>
+      <Index ID="2906" Value="4"/>
+      <Index ID="2907" Value="6"/>
+      <Index ID="2908" Value="5"/>
+      <Index ID="2909" Value="7"/>
+      <Index ID="2910" Value="8"/>
+      <Index ID="2911" Value="9"/>
+      <Index ID="2912" Value="10"/>
+      <Index ID="2913" Value="11"/>
+      <Index ID="2914" Value="12"/>
+      <Index ID="2915" Value="13"/>
+      <Index ID="2916" Value="14"/>
+      <Index ID="2917" Value="15"/>
+      <Index ID="2918" Value="16"/>
+      <Index ID="2919" Value="17"/>
+      <Index ID="2920" Value="18"/>
+      <Index ID="2921" Value="19"/>
+      <Index ID="2922" Value="20"/>
+      <Index ID="2923" Value="21"/>
+      <Index ID="2924" Value="22"/>
+      <Index ID="2925" Value="23"/>
+      <Index ID="2926" Value="24"/>
+      <Index ID="2927" Value="25"/>
+      <Index ID="2928" Value="26"/>
+      <Index ID="2929" Value="27"/>
+      <Index ID="2930" Value="28"/>
+      <Index ID="2931" Value="29"/>
+      <Index ID="2932" Value="30"/>
+      <Index ID="2933" Value="31"/>
+      <Index ID="2934" Value="32"/>
+      <Index ID="2935" Value="33"/>
+      <Index ID="2936" Value="34"/>
+      <Index ID="2937" Value="35"/>
+      <Index ID="2938" Value="36"/>
+      <Index ID="2939" Value="37"/>
+      <Index ID="2940" Value="38"/>
+      <Index ID="2941" Value="39"/>
+      <Index ID="2942" Value="40"/>
+      <Index ID="2943" Value="41"/>
+      <Index ID="2944" Value="42"/>
+      <Index ID="2945" Value="43"/>
+      <Index ID="2946" Value="44"/>
+      <Index ID="2947" Value="45"/>
+      <Index ID="3036" Value="46"/>
+      <Index ID="3513" Value="47"/>
+      <Index ID="3514" Value="48"/>
+      <Index ID="2979" Value="Group"/>
+    </IndexMap>
+  </TextGroup>
+</AlarmGroup>

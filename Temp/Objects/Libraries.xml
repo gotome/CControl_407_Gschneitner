@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.9.18 SP"?>
+<LibraryInfos>
+  <Library
+    Name="AsARCfg"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsBrStr"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsIecCon"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="asstring"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsTCP"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="astime"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="AsUSB"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="brsystem"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="CControl"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="CSV"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="1.00.0" />
+  <Library
+    Name="DataObj"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="dvframe"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="FileIO"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="IecCheck"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="LaEntfV2"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="1.00.0" />
+  <Library
+    Name="LascoBoxen"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="1.00.0" />
+  <Library
+    Name="LascoMath"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="1.00.0" />
+  <Library
+    Name="LascoReg"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="1.00.0" />
+  <Library
+    Name="LascoTrock"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="1.00.0" />
+  <Library
+    Name="LascoUtil"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="1.00.0" />
+  <Library
+    Name="LoopConR"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="4.10.0" />
+  <Library
+    Name="MpBase"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.24.1" />
+  <Library
+    Name="MpFile"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.24.6" />
+  <Library
+    Name="MpRecipe"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.24.6" />
+  <Library
+    Name="operator"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="runtime"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="standard"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="sys_lib"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="visapi"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+</LibraryInfos>

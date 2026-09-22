@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="PNG_IconHochdruck" ClsId="0x306" Version="1" TargetIndex="107" Type="GFX" RefString="Source[local].Bitmap[PNG_IconHochdruck]">
+        <UInt16 Name="Width">19</UInt16>
+        <UInt16 Name="Height">26</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAABMAAAAaCAYAAABVX2cEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANLSURBVEhLjVVfqFRlEN+sjEipKIr+aEkFBhHZDSyLjOjFgv5Ahn+IxMeonpLAl4X7EgSS4u7MrlcwTPfMfNzdM3P2Il4KpF7ypYQIy6gHwx5Ki0oKMnTj952zm/vde80fHPac+X7zOzNzZmZrtXnQPljczFK8Tmofs/oPJP4HiZ1itT5r8TbOU585GAwGV5DaVlb7ldVmWX0jSf8BVh80O/4giW1g9cOs9ntL/E3wU42I+pEjV5H6ARL7ltQ+J/XtQzurh3a7fTWem+rvsPoXpH6CxT6o1+uLUq0aie9g8WNIAdGQFq8Oz/bvn71ueM9imxHl7l7vJoiy+LsjEaDVsdUkdgEpjh1UYMmfTW0AB9/C6udbUjz8nxGFFZ9hsZ95un/fmEcZ9c7U1sp690R+/Cg2HY3tEK4n8b9b3e5tO1SvTZ0AFvsqtQHgw4/F/2qEsKTGWf4UipkShyhfZhcu1Q4k9nU7FE8ghfVlK/hHY7lXQIHRGvhA6Rl1bBX8SPwXzvwF1OslFv8GolMdv3WOQ3yZ/0iab5pz1u3egnNE1lR7robPjEIu2ID/A/ix+E/NrHd/LYRwJYmdbGb5GoQaQlicOswHNDH4JP4oRm4UDInV4/ypn2hMz9yVOs6HPeorqvJgbuujAzo4cyOiI/XX8IwRWSht2IcjhCnBAsAXHyO1xJ4k8d+aUrzI6m+wGI0RKrB4g9TeIrXn0QXwSzkRTS3WktppEvuT1V+BLdZGfTBsaFZ7OZ6LnyGxZ1KNMbRDsZzVp0pBm2Xx9yBW/tpsKWQf7u7Y7anvgtjT7d6JIY5C1UXq51j7d6TcywKL/XOxGIufTTmXDdTk4gtznHLGQCGfQGvgvqF+L2f53XHrhnxir9lS2HcdOnQNiz+OvTZMEzzwowZaK+QTtWqI10eCWp/E9lVbFDV6GrUj9e+whki8h26vpmYfdmAUK+d3EMVYbDKmofZZKoa+YvXjiBaOw1/wSP1o9BObHImR+JdxlZQ9Ni6mlpNat4zcP0WjNkL+UClmp6sVBP+R2IJpkto2NGh7uliJ2sDe6tgj86cp9j1lxbrqzVNozvfz/AbYW1o8hi3C4ruwZvB/SeqfNLN8GXgktjeKZcU68P8F94m6Ajzy7DAAAAAASUVORK5CYII=</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

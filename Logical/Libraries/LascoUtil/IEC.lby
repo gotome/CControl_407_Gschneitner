@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.7.74 SP?>
+<Library Version="1.00.0" SubType="IEC" Description="Eine neue Quellbibliothek" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exportierte Datentypen">LascoUtil.typ</File>
+    <File Description="Exportierte Konstanten">LascoUtil.var</File>
+    <File Description="Exportierte Funktionen und Funktionsblöcke">LascoUtil.fun</File>
+    <File Description="Echtzeituhr auslesen">fbLascoEUhr.st</File>
+    <File Description="Einschaltverzögerung">fbLascoTON.st</File>
+    <File Description="Ausschaltverzögerung">fbLascoTOF.st</File>
+    <File Description="Toggle- Funktion">fbLascoTOG.st</File>
+    <File>funLascoMinss.st</File>
+    <File Description="Tickausgabe bei Zustandsänderung des Einganges">fbLascoZdxx.st</File>
+    <File Description="Zeitfenster Freigabe">fbLascoZbFrg.st</File>
+    <File Description="Betriebsstundenzähler auf Minutenbasis">fbLascoBstd.st</File>
+    <File Description="Wochenprogramm">fbLascoWoPrg.st</File>
+    <File Description="Drehzahlüberwachung eines Motors">fbLascoDrzuebw.st</File>
+    <File Description="Fehlerverzögerung und Quittierungsverhalten">fbLascoFehl.st</File>
+    <File Description="Fehlergenerierung PT100- Eingang">fbLascoFept.st</File>
+    <File Description="Pulsgenerator">fbLascoPuge.st</File>
+    <File Description="Leistungssteller">fbLascoLstgStell.st</File>
+    <File Description="Funktionsblock Zündgebläse">fbLascoZund.st</File>
+    <File Description="Ansteuerung Frequenzumrichter">fbLascoFU.st</File>
+    <File Description="Ansteuerung Zweipunktachse">fbLascoZweiPunktAchse.st</File>
+    <File Description="Ansteuerung Stellachsen">fbLascoStellachse.st</File>
+    <File Description="Ansteuerung von analogen Stellachsen">fbLascoStellachseAnalog.st</File>
+    <File Description="Ansteuerung von Stellachsen ohne Positionsrückmeldung">fbLascoStellachseDigital.st</File>
+    <File Description="Ansteuerung Warmluftgebläse mit Kühlreduzierung">fbLascoWarmluftsteller.st</File>
+    <File Description="Freilauffunktion für blockierende Motoren">fbLascoFreilauf.st</File>
+    <File Description="Berechnung der Brennstoffleistung">fbLascoBrStfLst.st</File>
+    <File Description="Überwachung von Fuellstandssensoren">fbLascoFuellst.st</File>
+    <File Description="Ansteuerung für Warmluftgebläse ohne Drehzahlvorgabe">fbLascoWlg.st</File>
+    <File Description="Betriebsdauer in Minuten zählen">fbLascoBmin.st</File>
+    <File Description="Angehängte Betriebsdauer von Minuten in Stunden umwandeln">fbLascoStdMin.st</File>
+    <File Description="Funktionsbaustein für Serviceintervalle">fbLascoSrvcInterv.st</File>
+    <File Description="Rampenfunktion, Leistungsanstieg pro Minute">fbLascoLstRamp.st</File>
+    <File Description="Funktionsbaustein zur Ansteuerung von federrückgestellten Klappenantrieben">fbLascoBsk.st</File>
+    <File Description="Trenderkennung eines Eingangswertes innerhalb einer Zeitspanne (steigend/fallend)">fbLascoTrend.st</File>
+    <File Description="Timer mit Hand-Funktionen">fbLascoTimerHand.st</File>
+    <File Description="Ansteuerung Brandschutzklappe mit Laufzeitüberwachung und Freiräumung">fbLascoBskUeberw.st</File>
+    <File Description="Automatische Rücklauffunktion für Motoren">fbLascoAutoRuecklauf.st</File>
+    <File>fbLascoPugeV2.st</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="LoopConR" />
+  </Dependencies>
+</Library>

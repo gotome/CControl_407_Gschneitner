@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXT_KlappenBoxen">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="56"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="232370" Value="n.a."/>
+    <Text ID="232371" Value="closed"/>
+    <Text ID="232372" Value="open"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="232370" Value="n.v."/>
+    <Text ID="232371" Value="zu"/>
+    <Text ID="232372" Value="offen"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="232370" Value="n.a."/>
+    <Text ID="232371" Value="fermé"/>
+    <Text ID="232372" Value="ouvert"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-BE">
+    <Text ID="232370" Value=""/>
+    <Text ID="232371" Value=""/>
+    <Text ID="232372" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="232370" Value=""/>
+    <Text ID="232371" Value=""/>
+    <Text ID="232372" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sl">
+    <Text ID="232370" Value="ne velja"/>
+    <Text ID="232371" Value="zaprto"/>
+    <Text ID="232372" Value="odprto"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="232370" Value="0"/>
+    <Index ID="232371" Value="1"/>
+    <Index ID="232372" Value="2"/>
+  </IndexMap>
+</TextGroup>

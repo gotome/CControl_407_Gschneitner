@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Crossref Scope="CSV.Library.CSV" AppMod="">
+	<Vars>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="memset" Lib="asstring">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\Library\CSV\CSV_GRP_time.ab">
+				<Pos L="28" C="3" PS="Ln:28, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="memcpy" Lib="asstring">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\Library\CSV\CSV_GRP_time.ab">
+				<Pos L="42" C="6" PS="Ln:42, Col:6"/>
+				<Pos L="46" C="5" PS="Ln:46, Col:5"/>
+			</File>
+		</Func>
+		<Func Name="strcat" Lib="asstring">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\Library\CSV\CSV_GRP_time.ab">
+				<Pos L="37" C="6" PS="Ln:37, Col:6"/>
+				<Pos L="38" C="6" PS="Ln:38, Col:6"/>
+				<Pos L="39" C="6" PS="Ln:39, Col:6"/>
+				<Pos L="40" C="6" PS="Ln:40, Col:6"/>
+			</File>
+		</Func>
+		<Func Name="strcpy" Lib="asstring">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\Library\CSV\CSV_GRP_time.ab">
+				<Pos L="36" C="6" PS="Ln:36, Col:6"/>
+			</File>
+		</Func>
+		<Func Name="CSV_itoa" Lib="CSV">
+			<File Name="C:\SharedFolder\CControl\Logical\CSV\Library\CSV\CSV_GRP_time.ab">
+				<Pos L="32" C="6" PS="Ln:32, Col:6"/>
+				<Pos L="33" C="6" PS="Ln:33, Col:6"/>
+				<Pos L="34" C="6" PS="Ln:34, Col:6"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

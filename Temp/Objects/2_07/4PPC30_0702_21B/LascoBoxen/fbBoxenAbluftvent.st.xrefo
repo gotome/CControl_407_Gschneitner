@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Crossref Scope="Libraries.LascoBoxen" AppMod="">
+	<Vars>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+		<Func Name="fbLascoEUhr" Lib="LascoUtil">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenAbluftvent.st">
+				<Pos L="8" C="3" PS="Ln:8, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="fbLascoZdxx" Lib="LascoUtil">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenAbluftvent.st">
+				<Pos L="9" C="3" PS="Ln:9, Col:3"/>
+			</File>
+		</Func>
+		<Func Name="fbLascoFU" Lib="LascoUtil">
+			<File Name="C:\SharedFolder\CControl\Logical\Libraries\LascoBoxen\fbBoxenAbluftvent.st">
+				<Pos L="21" C="3" PS="Ln:21, Col:3"/>
+			</File>
+		</Func>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

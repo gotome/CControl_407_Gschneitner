@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="AlarmEvent">
+  <Property Name="Description" Value="Texts for the event of an alarm - index  0-1 long, index 10-11 short"/>
+  <Property Name="Index" Value="151"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="288841" Value="Triggered"/>
+    <Text ID="288842" Value="Reset"/>
+    <Text ID="288843" Value="Bypassed"/>
+    <Text ID="288844" Value="Not Bypassed"/>
+    <Text ID="288845" Value="Reset Acknowledged"/>
+    <Text ID="288846" Value="Achnowledged Reset"/>
+    <Text ID="288847" Value="T"/>
+    <Text ID="288848" Value="R"/>
+    <Text ID="288849" Value="B"/>
+    <Text ID="288850" Value="nB"/>
+    <Text ID="288851" Value="RA"/>
+    <Text ID="288852" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="288841" Value="Gekommen"/>
+    <Text ID="288842" Value="Gegangen"/>
+    <Text ID="288843" Value="Gebrückt"/>
+    <Text ID="288844" Value="Entbrückt"/>
+    <Text ID="288845" Value="Resetiert Quittiert"/>
+    <Text ID="288846" Value="Quittiert Resetiert"/>
+    <Text ID="288847" Value="T"/>
+    <Text ID="288848" Value="R"/>
+    <Text ID="288849" Value="B"/>
+    <Text ID="288850" Value="nB"/>
+    <Text ID="288851" Value="RA"/>
+    <Text ID="288852" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="288841" Value="Déclenché"/>
+    <Text ID="288842" Value="Reseté"/>
+    <Text ID="288843" Value="Bypassé"/>
+    <Text ID="288844" Value="Non bypassé"/>
+    <Text ID="288845" Value="Reseté Acquitté"/>
+    <Text ID="288846" Value="Acquitté Reseté"/>
+    <Text ID="288847" Value="T"/>
+    <Text ID="288848" Value="R"/>
+    <Text ID="288849" Value="B"/>
+    <Text ID="288850" Value="nB"/>
+    <Text ID="288851" Value="RA"/>
+    <Text ID="288852" Value="AR"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-BE">
+    <Text ID="288841" Value=""/>
+    <Text ID="288842" Value=""/>
+    <Text ID="288843" Value=""/>
+    <Text ID="288844" Value=""/>
+    <Text ID="288845" Value=""/>
+    <Text ID="288846" Value=""/>
+    <Text ID="288847" Value=""/>
+    <Text ID="288848" Value=""/>
+    <Text ID="288849" Value=""/>
+    <Text ID="288850" Value=""/>
+    <Text ID="288851" Value=""/>
+    <Text ID="288852" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="288841" Value=""/>
+    <Text ID="288842" Value=""/>
+    <Text ID="288843" Value=""/>
+    <Text ID="288844" Value=""/>
+    <Text ID="288845" Value=""/>
+    <Text ID="288846" Value=""/>
+    <Text ID="288847" Value=""/>
+    <Text ID="288848" Value=""/>
+    <Text ID="288849" Value=""/>
+    <Text ID="288850" Value=""/>
+    <Text ID="288851" Value=""/>
+    <Text ID="288852" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sl">
+    <Text ID="288841" Value="Sproženo"/>
+    <Text ID="288842" Value="Odpravljeno"/>
+    <Text ID="288843" Value="Premoščeno"/>
+    <Text ID="288844" Value="Ni premoščeno"/>
+    <Text ID="288845" Value="Ponastavitev je potrjena"/>
+    <Text ID="288846" Value="Potrjena ponastavitev"/>
+    <Text ID="288847" Value="T"/>
+    <Text ID="288848" Value="R"/>
+    <Text ID="288849" Value="B"/>
+    <Text ID="288850" Value="nB"/>
+    <Text ID="288851" Value="RA"/>
+    <Text ID="288852" Value="AR"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="288841" Value="0"/>
+    <Index ID="288842" Value="1"/>
+    <Index ID="288843" Value="2"/>
+    <Index ID="288844" Value="3"/>
+    <Index ID="288845" Value="4"/>
+    <Index ID="288846" Value="5"/>
+    <Index ID="288847" Value="10"/>
+    <Index ID="288848" Value="11"/>
+    <Index ID="288849" Value="12"/>
+    <Index ID="288850" Value="13"/>
+    <Index ID="288851" Value="14"/>
+    <Index ID="288852" Value="15"/>
+  </IndexMap>
+</TextGroup>

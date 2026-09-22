@@ -1,0 +1,43 @@
+(*============================================================================================================================================*)
+(*======================================== FUNKTIONSBAUSTEINE FÜR TICKS =====================================================================*)
+VAR
+	fbLascoZdxx_0 : fbLascoZdxx;
+	fbLascoZdxx_1 : fbLascoZdxx;
+END_VAR
+(*============================================================================================================================================*)
+(*====================================================== TICKS ================================================================================*)
+VAR
+	bildTick : BOOL;
+	sekTick : BOOL;
+END_VAR
+(*============================================================================================================================================*)
+(*====================================================== ANDERE ==============================================================================*)
+VAR
+	Device : STRING[16];
+	loc_GetEthernet : BOOL;
+	TON_10ms_0 : TON_10ms;
+END_VAR
+(*============================================================================================================================================*)
+(*======================================== FUNKTIONSBAUSTEINE SETZEN ETHERNET=============================================================*)
+VAR
+	CfgSetIPAddr_status : UINT;
+	CfgSetDefaultGateway_status : UINT;
+	CfgSetSubnetMask_status : UINT;
+	CfgSetHostName_status : UINT;
+	CfgSetIPAddr_0 : CfgSetIPAddr;
+	CfgSetSubnetMask_0 : CfgSetSubnetMask;
+	CfgSetDefaultGateway_0 : CfgSetDefaultGateway;
+	CfgSetHostName_0 : CfgSetHostName;
+END_VAR
+(*============================================================================================================================================*)
+(*======================================== FUNKTIONSBAUSTEINE LESEN ETHERNET===============================================================*)
+VAR
+	CfgGetIPAddr_status : UINT;
+	CfgGetSubnetMask_status : UINT;
+	CfgGetDefaultGateway_status : UINT;
+	CfgGetHostName_status : UINT;
+	CfgGetIPAddr_0 : CfgGetIPAddr;
+	CfgGetSubnetMask_0 : CfgGetSubnetMask;
+	CfgGetDefaultGateway_0 : CfgGetDefaultGateway;
+	CfgGetHostName_0 : CfgGetHostName;
+END_VAR

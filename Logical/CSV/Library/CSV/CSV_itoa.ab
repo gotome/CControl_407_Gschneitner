@@ -1,0 +1,112 @@
+;====================================================================
+;                  DINT-Wert wird in ASCII gewandelt
+;     Vorzeichenoption, Vor-Nachkommastellen, Kommazeichen können
+;     definiert werden. Damit können genau formatierte Strings erzeugt werden
+;       z.B.: Eing_DINT =     1, Eing_Anz_NK = 3, Eing_Anz_VK = 4, Eing_Vorz_Plus = 0, Eing_Komma_Punkt = 1  :  Ausg = "0000.001"       
+;       z.B.: Eing_DINT =   123, Eing_Anz_NK = 1, Eing_Anz_VK = 0, Eing_Vorz_Plus = 0, Eing_Komma_Punkt = 1  :  Ausg = "12.3"       
+;       z.B.: Eing_DINT = -1234, Eing_Anz_NK = 2, Eing_Anz_VK = 5, Eing_Vorz_Plus = 1, Eing_Komma_Punkt = 0  :  Ausg = "-00012,34"
+;       z.B.: Eing_DINT =    -4, Eing_Anz_NK = 2, Eing_Anz_VK = 3, Eing_Vorz_Plus = 1, Eing_Komma_Punkt = 0  :  Ausg = "+000,04"
+;       z.B.: Eing_DINT =  1234, Eing_Anz_NK = 2, Eing_Anz_VK = 1, Eing_Vorz_Plus = 1, Eing_Komma_Punkt = 0  :  Ausg = "+2,34"       
+;
+;   !!  Achtung: Angeschlossener String muß mindestens die Zeichen der angegebenen Stellen incl. Vorzeichen + Komma haben ansonsten wird ein Fehler ausgegeben
+;                String[12] bzw. USINT[0..12] notwendig für DINT z.B.: -214748364.8 
+;
+; 	Author:		Ing. Schmid Herwig
+;	Version:	1.0
+;	Datum:		08.03.2011
+;	geprüft:	08.03.2011 OK
+;
+;====================================================================
+; Aufruf: CSV_itoa(Eing_DINT, Eing_Anz_VK, Eing_Anz_NK, Eing_Vorz_Plus, Eing_Komma_Punkt, adr(Ausg_ASCII), sizeof(Ausg_ASCII), Ausg_Fehler) 
+;
+; EA:    		Eing_DINT 		  	  E.. DINT Eingangswert -2147483648..+2147483647
+;               Eing_Anz_NK           E.. USINT <=9  Anzahl der Nachkomma-Stellen (sind am Eingang weniger Stellen vorhanden als Nachkomma definiert, so wird nach dem Komma mit "0" aufgefüllt) 
+;               Eing_Anz_VK           E.. USINT <=10 Anzahl der Vorkomma-Stellen  (bleiben weniger Vorkomma über als hier angegeben, so wird vorne mit "0" aufgefüllt) 
+;               Eing_Vorz_Plus        E.. BOOL (1= bei positiven Zahlen wird "+" vorangestellt)
+;               Eing_Komma_Punkt      E.. BOOL Definition des Kommazeichens (0=, 1=.)
+;              	adr(Ausg_ASCII)	  	  E.. Adresse von USINT[>=0..10] od. STRING[>=10]
+;              	sizeof(Ausg_ASCII) 	  E.. Länge von USINT[>=0..10] od. STRING[>=10]
+;              	Ausg_Fehler           A.. BOOL (= 1 wenn String od. USINT zu klein definiert) 
+;====================================================================
+
+
+FUNCTION_BLOCK CSV_itoa
+
+; Vor- und Nachkommazahl trennen und in String wandeln:
+  Eing_DINT_VK = Eing_DINT / DINT(EXPT(10, Eing_Anz_NK))
+  Eing_DINT_NK = Eing_DINT - Eing_DINT_VK * DINT(EXPT(10, Eing_Anz_NK))
+  memset(adr(Str_VK) , 0, sizeof(Str_VK))
+  memset(adr(Str_NK) , 0, sizeof(Str_NK))
+  memset(adr(M_ASCII), 0, sizeof(M_ASCII))
+  Str_VK_len = itoa(ABS(Eing_DINT_VK), adr(Str_VK)) ; Vorzeichen weglassen
+  Str_NK_len = itoa(ABS(Eing_DINT_NK), adr(Str_NK)) ; Vorzeichen weglassen
+
+  if Eing_Anz_VK >= Str_VK_len then
+     Str_Ges_len = UINT(Eing_Anz_VK + Eing_Anz_NK)
+  else
+     Str_Ges_len = UINT(Str_VK_len + Eing_Anz_NK)
+  endif	 
+  if (Eing_Anz_NK > 0) then	
+     Str_Ges_len = Str_Ges_len + 1	; zusätzliche Stelle für Komma
+  endif
+  if (Eing_Vorz_Plus = 1) or (Eing_DINT < 0) then
+     Str_Ges_len = Str_Ges_len + 1	; zusätzliche Stelle für Vorzeichen
+  endif
+  
+  if (Str_Ges_len <= Ausg_ASCII_len) and (Eing_Anz_VK <= 10) and (Eing_Anz_NK <= 9) then   ; max 12 Stellen erlaubt bzw. möglich: z.B.: -214748364.7
+  	
+	Ausg_Fehler = 0
+
+; Nachkomma-String: Bei Bedarf restliche Stellen vorne mit "0" auffüllen:
+     if Str_NK_len < Eing_Anz_NK then
+        loop i = Eing_Anz_NK-1 downto 0 do
+             if i >= Eing_Anz_NK-Str_NK_len then
+		        Str_NK[i] = Str_NK[i-(Eing_Anz_NK-Str_NK_len)]
+	         else
+		        Str_NK[i] = 48
+		     endif	 
+        endloop	
+     endif
+
+; Vorkomma-String: Bei Bedarf restliche Stellen vorne mit "0" auffüllen:
+     if Str_VK_len < Eing_Anz_VK then
+        loop i = Eing_Anz_VK-1 downto 0 do
+             if i >= Eing_Anz_VK-Str_VK_len then
+		        Str_VK[i] = Str_VK[i-(Eing_Anz_VK-Str_VK_len)]
+	         else
+		        Str_VK[i] = 48
+		     endif	 
+        endloop	
+     endif
+  
+; Vorzeichen je nach Modus hizufügen:
+     if (Eing_DINT < 0) then
+        M_ASCII[0] = 45  ;"-"
+     else if (Eing_Vorz_Plus = 1)  then
+        M_ASCII[0] = 43  ;"+"	
+     endif	  	
+
+; ASCII-String zusammenfügen und bei Bedarf Komma "," od. "." setzen:
+     strcat(adr(M_ASCII), adr(Str_VK))
+     if Eing_Anz_NK > 0 then
+        if Eing_Komma_Punkt = 1 then
+	       strcat(adr(M_ASCII), ".")
+	    else
+	       strcat(adr(M_ASCII), ",")
+        endif     	
+        strcat(adr(M_ASCII), adr(Str_NK))
+     endif	 
+
+  else
+
+  	Ausg_Fehler = 1
+
+  endif	
+
+  if Ausg_ASCII_len >= sizeof(M_ASCII) then
+     memcpy(Ausg_ASCII_adr, adr(M_ASCII), sizeof(M_ASCII))	
+  else
+     memcpy(Ausg_ASCII_adr, adr(M_ASCII), Ausg_ASCII_len)	
+  endif	
+  
+END_FUNCTION_BLOCK

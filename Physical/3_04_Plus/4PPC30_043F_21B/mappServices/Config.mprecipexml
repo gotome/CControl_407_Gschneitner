@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gMappRecipeLink" Type="mprecipexml">
+    <Group ID="mapp.Recipe.Xml">
+      <Property ID="PassPhrase" Value="" />
+    </Group>
+  </Element>
+</Configuration>

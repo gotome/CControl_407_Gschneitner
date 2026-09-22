@@ -1,0 +1,25 @@
+(*==================================================================================================================================================================*)
+(*===================================================   FUNKTIONSBAUSTEINE =========================================================================================*)
+VAR
+	zdxxSekunden : {REDUND_UNREPLICABLE} fbLascoZdxx;
+	zdxxMinuten : {REDUND_UNREPLICABLE} fbLascoZdxx;
+	zdxxTage : {REDUND_UNREPLICABLE} fbLascoZdxx;
+	zdxxStunden : {REDUND_UNREPLICABLE} fbLascoZdxx;
+END_VAR
+(*==================================================================================================================================================================*)
+(*===================================================   ZEITTICKS  ====================================================================================================*)
+VAR
+	sekTick : {REDUND_UNREPLICABLE} BOOL;
+	minTick : {REDUND_UNREPLICABLE} BOOL;
+	stdTick : {REDUND_UNREPLICABLE} BOOL;
+	TagTick : {REDUND_UNREPLICABLE} BOOL;
+END_VAR
+(*==================================================================================================================================================================*)
+(*===================================================   SONSTIGE  ====================================================================================================*)
+VAR
+	nextModus : {REDUND_UNREPLICABLE} enumBetriebsmodus;
+	stateEntry : {REDUND_UNREPLICABLE} BOOL;
+	fbEntfUmschaltung_0 : {REDUND_UNREPLICABLE} fbBoxenUmschaltung;
+	loc_StrombegrStart1 : {REDUND_UNREPLICABLE} UINT;
+	loc_StrombegrStopp1 : {REDUND_UNREPLICABLE} UINT;
+END_VAR

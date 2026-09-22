@@ -1,0 +1,51 @@
+;====================================================================
+;                  UDINT-Wert wird in ASCII gewandelt
+;   !!  Achtung: mindestens String[10] od. USINT[0..10] am Ausgang anhängen !!
+;
+; 	Author:		Ing. Schmid Herwig
+;	Version:	1.0
+;	Datum:		07.03.2011
+;	geprüft:	07.03.2011 OK
+;
+;====================================================================
+; Aufruf: CSV_UDINTtoa(Eing_UDINT, adr(Ausg_ASCII), sizeof(Ausg_ASCII), Ausg_Fehler) 
+;
+; EA:    		Eing_UDINT 		  	  E.. UDINT Eingangswert 0..4 294 967 295
+;              	adr(Ausg_ASCII)	  	  E.. Adresse von USINT[>=0..10] od. STRING[>=10]
+;              	sizeof(Ausg_ASCII) 	  E.. Länge von USINT[>=0..10] od. STRING[>=10]
+;              	Ausg_Fehler           A.. BOOL (= 1 wenn String od. USINT zu klein definiert) 
+;====================================================================
+
+FUNCTION_BLOCK CSV_UDINTtoa
+
+
+  memset(adr(Ausg_ASCII), 0, sizeof(Ausg_ASCII))
+  Ausg_ASCII[0] = 48  													; mit "0" vorbelegen falls Eing_UDINT = 0
+
+  if Ausg_ASCII_len >= sizeof(Ausg_ASCII) then							; Kontrolle ob angeschlossene String/USINT-Variable groß genug definiert ist
+ 
+     i           = 0
+     M_Start     = 0
+     Ausg_Fehler = 0
+
+     loop ii = 9 downto 0 do                            				; UDINT hat max 10 Stellen (0..4 294 967 295)
+          if Eing_UDINT / UDINT(EXPT(10,ii)) > 0 then   				; 1.Ziffer > 0 gefunden
+             M_Start = 1
+	      endif	  
+	      if M_Start = 1 then
+		     Ausg_ASCII[i] = USINT(Eing_UDINT / UDINT(EXPT(10,ii)) + 48)
+   	         Eing_UDINT = Eing_UDINT - UDINT(Ausg_ASCII[i] - 48) * UDINT(EXPT(10,ii))
+		     inc(i)
+	      endif 	 
+     endloop
+
+	  memcpy(Ausg_ASCII_adr, adr(Ausg_ASCII), sizeof(Ausg_ASCII))
+
+  else
+
+  	 Ausg_Fehler   = 1   												; angeschlossene Variable zu klein definiert (STRING, USINT)
+     memcpy(Ausg_ASCII_adr, adr(Ausg_ASCII), sizeof(Ausg_ASCII_len))  	; "0" ausgeben
+
+  endif   
+
+END_FUNCTION_BLOCK

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.7.74 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Package">304Plus</Object>
+    <Object Type="Package">307</Object>
+    <Object Type="Package">407</Object>
+    <Object Type="Package">407Plus</Object>
+    <Object Type="Package">HB3000</Object>
+    <Object Type="Package">HB4000</Object>
+    <Object Type="Package">207</Object>
+  </Objects>
+</Package>

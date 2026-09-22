@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TXT_DropdownSprachen">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="55"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="283313" Value="English"/>
+    <Text ID="283314" Value="German"/>
+    <Text ID="283315" Value="French"/>
+    <Text ID="283316" Value="Dutch"/>
+    <Text ID="283317" Value="Slovenian"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="283313" Value="Englisch"/>
+    <Text ID="283314" Value="Deutsch"/>
+    <Text ID="283315" Value="Französisch"/>
+    <Text ID="283316" Value="Niederländisch"/>
+    <Text ID="283317" Value="Slowenisch"/>
+  </TextLayer>
+  <TextLayer LanguageId="fr">
+    <Text ID="283313" Value="Anglais"/>
+    <Text ID="283314" Value="Allemand "/>
+    <Text ID="283315" Value="Français"/>
+    <Text ID="283316" Value="Hollandais"/>
+    <Text ID="283317" Value="slovène"/>
+  </TextLayer>
+  <TextLayer LanguageId="nl-BE">
+    <Text ID="283313" Value="Engels"/>
+    <Text ID="283314" Value="Duits"/>
+    <Text ID="283315" Value="Frans"/>
+    <Text ID="283316" Value="Hollands"/>
+    <Text ID="283317" Value="Sloveens"/>
+  </TextLayer>
+  <TextLayer LanguageId="es">
+    <Text ID="283313" Value=""/>
+    <Text ID="283314" Value=""/>
+    <Text ID="283315" Value=""/>
+    <Text ID="283316" Value=""/>
+    <Text ID="283317" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="sl">
+    <Text ID="283313" Value="Angleško"/>
+    <Text ID="283314" Value="Nemško"/>
+    <Text ID="283315" Value="Francosko"/>
+    <Text ID="283316" Value="Nizozemsko"/>
+    <Text ID="283317" Value="Slovenščina"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="283313" Value="0"/>
+    <Index ID="283314" Value="1"/>
+    <Index ID="283315" Value="2"/>
+    <Index ID="283316" Value="4"/>
+    <Index ID="283317" Value="3"/>
+  </IndexMap>
+</TextGroup>

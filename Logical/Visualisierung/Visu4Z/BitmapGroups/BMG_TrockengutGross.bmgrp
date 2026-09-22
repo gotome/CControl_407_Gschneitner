@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.7.7.74 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="BMG_TrockengutGross">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="25"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="525" Value="Source[local].Bitmap[PNG_HeuGrossGelb]"/>
+    <BitmapRef ID="526" Value="Source[local].Bitmap[PNG_HeuGrossGrau]"/>
+    <BitmapRef ID="527" Value="Source[local].Bitmap[PNG_RundballenGrossGrau]"/>
+    <BitmapRef ID="531" Value="Source[local].Bitmap[PNG_RundballenGrossGelb]"/>
+    <BitmapRef ID="558" Value="Source[local].Bitmap[PNG_WeizenGrossGrau]"/>
+    <BitmapRef ID="559" Value="Source[local].Bitmap[PNG_WeizenGrossGelb]"/>
+    <BitmapRef ID="560" Value="Source[local].Bitmap[PNG_MaisGrossGelb]"/>
+    <BitmapRef ID="561" Value="Source[local].Bitmap[PNG_MaisGrossGrau]"/>
+    <BitmapRef ID="603" Value="Source[local].Bitmap[PNG_HopfenGrossGrau]"/>
+    <BitmapRef ID="604" Value="Source[local].Bitmap[PNG_HopfenGrossGelb]"/>
+    <BitmapRef ID="605" Value="Source[local].Bitmap[PNG_KraeuterGrossGrau]"/>
+    <BitmapRef ID="606" Value="Source[local].Bitmap[PNG_KraeuterGrossGelb]"/>
+    <BitmapRef ID="652" Value="Source[local].Bitmap[PNG_HolzGrossGrau]"/>
+    <BitmapRef ID="653" Value="Source[local].Bitmap[PNG_HolzGrossGelb]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="525" Value="9"/>
+    <Index ID="526" Value="8"/>
+    <Index ID="527" Value="10"/>
+    <Index ID="531" Value="11"/>
+    <Index ID="558" Value="14"/>
+    <Index ID="559" Value="15"/>
+    <Index ID="560" Value="13"/>
+    <Index ID="561" Value="12"/>
+    <Index ID="603" Value="16"/>
+    <Index ID="604" Value="17"/>
+    <Index ID="605" Value="18"/>
+    <Index ID="606" Value="19"/>
+    <Index ID="652" Value="20"/>
+    <Index ID="653" Value="21"/>
+  </IndexMap>
+</BitmapGroup>

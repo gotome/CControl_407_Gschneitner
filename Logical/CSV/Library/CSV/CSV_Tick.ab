@@ -1,0 +1,27 @@
+FUNCTION_BLOCK CSV_Tick
+;====================================================================
+;                   FUB: CSV_Tick
+;
+;	Aufruf:	CSV_Tick ( Enable, Wert,   Ausg  )
+;				       Bool    Real   Bool
+;
+; 	Author:		Ing. Schmid Herwig
+;	Version:	1.0
+;	Datum:	    24.02.2011
+;	geprüft:	24.02.2011 OK
+;====================================================================
+;
+; Fkt:	Gibt bei Enable = 1 und einer Wertänderung von "Wert" EINEN Impuls "Ausg" aus
+;====================================================================
+
+  if Enable = 0 then
+	SpWert = Wert
+	Ausg = 0
+  else If (Wert <> SpWert) then
+	Ausg = 1
+	SpWert = Wert
+  else
+	Ausg = 0
+  endif
+  
+END_FUNCTION_BLOCK

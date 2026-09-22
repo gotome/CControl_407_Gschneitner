@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="PNG_HeizregisterGrau" ClsId="0x306" Version="1" TargetIndex="123" Type="GFX" RefString="Source[local].Bitmap[PNG_HeizregisterGrau]">
+        <UInt16 Name="Width">30</UInt16>
+        <UInt16 Name="Height">41</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAAB4AAAApCAYAAAAiT5m3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANVSURBVFhHvZhJaBRREEAHUcQdFQRPgicPHkTFBdzxoFf14MkVBEE8CILiMu4LEjQ4qT/jviZVTZKpakPEk3hQBPHiRRQUxIOKCyp4MyrVmR7a6t8hM5nJgw+drvr/9f89/bs6uUIQjHfINxxJnyP52+TWpy515oDkpiehqU2dOUD+U/njlUMpOOQzzWlSAOTXkQv5T656JSiFXJNxyBD7EmI+YxMbDRCfTYmB+JRNVKCzZyaQPAKUFhurlWjJrdghn7SJCmC4vhJ/Y2O14lBOp8SAcsImKg55U6PEuqopsSM5bhMVINlsxfl8fkR8fIV5AhDvBuR2ILlTJFlT7WzQVa1b7Eh2Acr76OpRWh3Kl/4V45dA/DHK7SivsOMouqppMfIxm6i4QLYkxYXOnhmAfF+fRUD+5UgCR90LNFYqlUZBR7i2hWiMHUfRyaXEgHLUJipWHJNc7sGik0uJHckRm6i0IW/1iZO09vaOLgTlOaXOcJaNJdHJ1S0utvN8CGTHrVsPxkFX1zRAzgPx5+rKkTzV83YcRR0psQ5gExUg3pYUO5LtiYuNZaEj3gAkOwH5iV6cHUfxih3xYZuo2BkrRQznOpT9QLwX8N7s/3tko5MbkrheahL7ftX5hw9HxscXu7unQsD7HIoASnexQ9ZVOxu8YiA5ZBMVu4EUifc4lE+AcsGRXAaUn1pZAPFzQH5XGWuVHUfRydUv7uqaDsjkiL/prqXVRHyf9dluo3C5Pl52HMUvRj5oExUrHgo6ucGLkTc2VeyID9hEpUjh4mhfJnlmY7Wikxu0WCkFwaTkL7leMsRyDZBXN7Opwyce1pYUP07Xwo1tuo/7xN4KJIvLRFO02fMDUVMF4qN/E9Edi3/osY1n4RVnVSA+9LVX7ReU59l4Fl5xViHgA1AWxf2K7bzQxrMYurijvDTuVwrCJTaexZDFbcgr4356bONZeOvqWu5xUpxVQ/vwfklkfcL4UFncr4i8zMaz8H476UmbmEW99zjaSKxYv11tYhb9Za18B5SvWaWsD//3MfI5mzgQcLdncuvt3on2/EA44vNJcfTfHkB5YffWRrVopsglQH5bEffpO/J69T4PV0O5mtNPkeg9ifyhUjGmExvUAOU3oFwqheHYf1bmph8R1phMAAAAAElFTkSuQmCC</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

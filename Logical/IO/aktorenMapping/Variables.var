@@ -1,0 +1,4 @@
+VAR
+	sekTick : BOOL;
+	fbLascoZdxx_0 : fbLascoZdxx;
+END_VAR

@@ -1,0 +1,12 @@
+VAR
+	RTC_gettime_Status : UINT;
+	StdTick : BOOL;
+	MinTick : BOOL;
+	SekTick : BOOL;
+	TagTick : BOOL;
+	MonTick : BOOL;
+	JahrTick : BOOL;
+	InitOK : BOOL;
+	M_DATA_CSV_CLEAR_ALL_T : BOOL;
+	ET : UDINT;
+END_VAR
