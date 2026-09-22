@@ -1,6 +1,0 @@
-$(AS_PROJECT_PATH)/Logical/Libraries/LascoTrock/LascoTrock.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/LascoTrock/LascoTrock.typ
-$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/LoopConR/LoopConR.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/LascoUtil/LascoUtil.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/IecCheck/IecCheck.fun
