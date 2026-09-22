@@ -1062,9 +1062,9 @@ PROGRAM _CYCLIC
 	//0= Automatik, 1= Frischluft, 2= Umluft
 	//Kunde Gschneitner, keine Umluftklappenlogik aktiv, mit den HMI Buttons wird direkt der Ausgang der Klappe geschaltet!
 	(*
-	TOF_VerzUmschaltungUmluftkl(IN:= (EDGEPOS(hmiButtons.changeBetrArtUmluftklappen)), PT:= hmiParameter.Allgemein.VerzoegerungAenderungKlappen);
-	IF hmiButtons.changeBetrArtUmluftklappen THEN
-		hmiButtons.changeBetrArtUmluftklappen := FALSE;
+	TOF_VerzUmschaltungUmluftkl(IN:= (EDGEPOS(hmiButtons.changeWarmluftVent1)), PT:= hmiParameter.Allgemein.VerzoegerungAenderungKlappen);
+	IF hmiButtons.changeWarmluftVent1 THEN
+		hmiButtons.changeWarmluftVent1 := FALSE;
 		IF hmiStatus.Umluftklappen.IndexBetriebsart < 2 THEN
 			hmiStatus.Umluftklappen.IndexBetriebsart := hmiStatus.Umluftklappen.IndexBetriebsart + 1;
 		ELSE
@@ -1298,9 +1298,9 @@ PROGRAM _CYCLIC
 	//0= Automatik, 1= Auf, 2= Zu
 	//Kunde Gschneitner, keine Umluftklappenlogik aktiv, mit den HMI Buttons wird direkt der Ausgang der Klappe geschaltet!
 	(*
-	TOF_VerzUmschaltungBypassklappe(IN:= (EDGEPOS(hmiButtons.changeBetrArtBypassklappe)), PT:= hmiParameter.Allgemein.VerzoegerungAenderungKlappen);
-	IF hmiButtons.changeBetrArtBypassklappe THEN
-		hmiButtons.changeBetrArtBypassklappe := FALSE;
+	TOF_VerzUmschaltungBypassklappe(IN:= (EDGEPOS(hmiButtons.changeWarmluftVent2)), PT:= hmiParameter.Allgemein.VerzoegerungAenderungKlappen);
+	IF hmiButtons.changeWarmluftVent2 THEN
+		hmiButtons.changeWarmluftVent2 := FALSE;
 		IF hmiStatus.Bypassklappe.IndexBetriebsart < 2 THEN
 			hmiStatus.Bypassklappe.IndexBetriebsart := hmiStatus.Bypassklappe.IndexBetriebsart + 1;
 		ELSE

@@ -893,7 +893,7 @@
           <Property Name="Locking" Value="Never"/>
           <Property Name="Name" Value="Action_0"/>
           <Property Name="SetValue" Value="1"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiButtons.changeBetrArtUmluftklappen]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiButtons.changeWarmluftVent1]"/>
         </KeyAction>
       </KeyActions>
     </VirtualKey>
@@ -923,7 +923,7 @@
           <Property Name="Locking" Value="Never"/>
           <Property Name="Name" Value="Action_0"/>
           <Property Name="SetValue" Value="1"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiButtons.changeBetrArtBypassklappe]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.hmiButtons.changeWarmluftVent2]"/>
         </KeyAction>
       </KeyActions>
     </VirtualKey>

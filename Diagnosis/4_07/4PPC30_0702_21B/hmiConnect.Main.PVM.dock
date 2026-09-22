@@ -1,0 +1,10 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=hmiConnect 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=4 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                           hmiVisibility                         typHmiVisibility    0 "                                                               *"    0   24    1    0    0    1         
+                                   Trend                    typHmiVisibilityTrend    0 "                                                               *"    1   24    1    0    0    1         
+                           AbluftFeuchte                                     DINT    0 "                                                               1"    2    4    1   10    0    0 e,0,ICON
+
+                               hmiStatus                             typHmiStatus    0 "                                                               *"    0   24    1    0    0    1         
+                         SoftwareVersion                               STRING[16]    0 "                                                        'V2.1.5'"    1    9   17    1    0    0         
+                                 VERSION                               STRING[16]    0 "                                                        'V2.1.5'"    0    9   17    1    0    0         

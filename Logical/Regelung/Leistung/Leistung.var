@@ -7,8 +7,4 @@ VAR
 	loc_LuftgeschwSollVent2 : {REDUND_UNREPLICABLE} REAL;
 	fbBoxenLuftmengen_0 : {REDUND_UNREPLICABLE} fbBoxenLuftmengen;
 	loc_Ansaugflaeche : {REDUND_UNREPLICABLE} REAL;
-	loc_LuftmengeSollKaltVent1 : {REDUND_UNREPLICABLE} REAL; (*Kunde Gschneitner: Soll-Luftmenge Ventilator 1 mit den Frischluft-Parametern (Kaltluft)*)
-	loc_LuftmengeSollKaltVent2 : {REDUND_UNREPLICABLE} REAL; (*Kunde Gschneitner: Soll-Luftmenge Ventilator 2 mit den Frischluft-Parametern (Kaltluft)*)
-	loc_LuftmengeSollWarmVent1 : {REDUND_UNREPLICABLE} REAL; (*Kunde Gschneitner: Soll-Luftmenge Ventilator 1 mit den Umluft-Parametern (Warmluft)*)
-	loc_LuftmengeSollWarmVent2 : {REDUND_UNREPLICABLE} REAL; (*Kunde Gschneitner: Soll-Luftmenge Ventilator 2 mit den Umluft-Parametern (Warmluft)*)
 END_VAR

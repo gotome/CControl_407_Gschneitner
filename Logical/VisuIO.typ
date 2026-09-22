@@ -547,10 +547,10 @@ TYPE
 		ButtonsKlappeBox4 : {REDUND_UNREPLICABLE} typHmiButtonsKlappenBoxen;
 		ButtonsKlappeBox5 : {REDUND_UNREPLICABLE} typHmiButtonsKlappenBoxen;
 		ButtonsKlappeBox6 : {REDUND_UNREPLICABLE} typHmiButtonsKlappenBoxen;
-		changeBetrArtBypassklappe : {REDUND_UNREPLICABLE} BOOL;
+		changeWarmluftVent2 : {REDUND_UNREPLICABLE} BOOL; (*Kunde Gschneitner: Button Warmluft/Kaltluft Ventilator 2 (frueher Betriebsart Bypassklappe), TRUE = Warmluft*)
 		changeBetrArtAbluftvent : {REDUND_UNREPLICABLE} BOOL;
 		changeBetrArtAbluftklappe : {REDUND_UNREPLICABLE} BOOL;
-		changeBetrArtUmluftklappen : {REDUND_UNREPLICABLE} BOOL;
+		changeWarmluftVent1 : {REDUND_UNREPLICABLE} BOOL; (*Kunde Gschneitner: Button Warmluft/Kaltluft Ventilator 1 (frueher Betriebsart Umluftklappen), TRUE = Warmluft*)
 		ParameterVonUsbLaden : {REDUND_UNREPLICABLE} BOOL;
 		ParameterAufUsbKopieren : {REDUND_UNREPLICABLE} BOOL;
 		TrocknungsbilanzOk : {REDUND_UNREPLICABLE} BOOL;

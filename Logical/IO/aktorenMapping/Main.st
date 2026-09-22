@@ -401,10 +401,10 @@ PROGRAM _CYCLIC
 	aoDrehzahlvorgVentilator2							:= Aktoren.VentUndKlappen.DrehzahlVent2Out;
 	doBypassklappeOeffnen								:= Aktoren.VentUndKlappen.BypassOeffnenOut;
 	doBypassklappeSchliessen							:= Aktoren.VentUndKlappen.BypassSchliessenOut;
-	doUmluftklappe1Freigabe								:= hmiButtons.changeBetrArtUmluftklappen; //Kunde Gschneitner, Klappe von HMI aus bedienen //Aktoren.VentUndKlappen.Umschaltkl1OeffnenOut;
+	doUmluftklappe1Freigabe								:= hmiButtons.changeWarmluftVent1; //Kunde Gschneitner, Klappe von HMI aus bedienen //Aktoren.VentUndKlappen.Umschaltkl1OeffnenOut;
 	doUmluftklappe1Oeffnen								:= Aktoren.VentUndKlappen.Umschaltkl1OeffnenOut;
 	doUmluftklappe1Schliessen							:= Aktoren.VentUndKlappen.Umschaltkl1SchliessenOut;
-	doUmluftklappe2Freigabe								:= hmiButtons.changeBetrArtBypassklappe; //Kunde Gschneitner, Klappe von HMI aus bedienen //Aktoren.VentUndKlappen.Umschaltkl2OeffnenOut;
+	doUmluftklappe2Freigabe								:= hmiButtons.changeWarmluftVent2; //Kunde Gschneitner, Klappe von HMI aus bedienen //Aktoren.VentUndKlappen.Umschaltkl2OeffnenOut;
 	doUmluftklappe2Oeffnen								:= Aktoren.VentUndKlappen.Umschaltkl2OeffnenOut;
 	doUmluftklappe2Schliessen							:= Aktoren.VentUndKlappen.Umschaltkl2SchliessenOut;
 	doFreigabeBox1										:= Aktoren.VentUndKlappen.Boxenklappe1OeffnenOut;

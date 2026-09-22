@@ -91,21 +91,7 @@ PROGRAM _CYCLIC
 	fbBoxenLuftmengen_0.Box6.Ventilator1		:= Betriebsparameter.Boxen[6].Ventilator1;
 	fbBoxenLuftmengen_0.Box6.Ventilator2		:= Betriebsparameter.Boxen[6].Ventilator2;
 	
-	//Kunde Gschneitner: Warmluft entspricht dem frueheren Umluftbetrieb, Kaltluft dem Frischluftbetrieb.
-	//Die beiden Ventilatoren koennen unterschiedlich stehen, der Baustein kennt aber nur eine gemeinsame
-	//Betriebsart. Er wird deshalb zweimal aufgerufen (er ist rein kombinatorisch, hat also keinen Zustand)
-	//und beide Ergebnisse werden zwischengespeichert.
-	fbBoxenLuftmengen_0.FrischluftbetriebAktiv			:= TRUE;
-	fbBoxenLuftmengen_0.UmluftbetriebAktiv				:= FALSE;
 	fbBoxenLuftmengen_0();
-	loc_LuftmengeSollKaltVent1							:= fbBoxenLuftmengen_0.LuftmengeSollVent1Out;
-	loc_LuftmengeSollKaltVent2							:= fbBoxenLuftmengen_0.LuftmengeSollVent2Out;
-	
-	fbBoxenLuftmengen_0.FrischluftbetriebAktiv			:= FALSE;
-	fbBoxenLuftmengen_0.UmluftbetriebAktiv				:= TRUE;
-	fbBoxenLuftmengen_0();
-	loc_LuftmengeSollWarmVent1							:= fbBoxenLuftmengen_0.LuftmengeSollVent1Out;
-	loc_LuftmengeSollWarmVent2							:= fbBoxenLuftmengen_0.LuftmengeSollVent2Out;
 	
 		
 	//Erforderliche Luftmengen Ventilator 1 & 2 in Luftgeschwindigkeit umrechnen
@@ -118,28 +104,21 @@ PROGRAM _CYCLIC
 		loc_Ansaugflaeche	:= Betriebsparameter.Allgemein.AnsaugflaecheVent;
 	END_IF
 		
-	//Kunde Gschneitner: Sollwert je nach Stellung der Warmluft-/Kaltluftumschaltung des jeweiligen Ventilators.
-	//Warmluft verwendet den Umluft-Parametersatz (LuftmengeSollUmluft), Kaltluft den Frischluft-Parametersatz.
+	//Kunde Gschneitner: die Anlage kennt nur den Frischluftbetrieb, es gilt daher immer der Frischluft-Parametersatz.
+	//Die Luftmengenregelung ist nur im Warmluftbetrieb aktiv (Umschaltklappe des Ventilators steht auf Warmluft),
+	//im Kaltluftbetrieb wird die Luftmenge nicht geregelt.
 	
 	//Ventilator 1
-	IF gStatusAnlage.Warmluft1 AND Betriebsparameter.Ventilator1.LuftmengenregUmluftEin THEN
+	IF gStatusAnlage.Warmluft1 AND Betriebsparameter.Ventilator1.LuftmengenregFrischluftEin THEN
 		IF loc_Ansaugflaeche <> 0 THEN
-			loc_LuftgeschwSollVent1	:= loc_LuftmengeSollWarmVent1 / loc_Ansaugflaeche / 3600;
-		END_IF
-	ELSIF (NOT gStatusAnlage.Warmluft1) AND Betriebsparameter.Ventilator1.LuftmengenregFrischluftEin THEN
-		IF loc_Ansaugflaeche <> 0 THEN
-			loc_LuftgeschwSollVent1	:= loc_LuftmengeSollKaltVent1 / loc_Ansaugflaeche / 3600;
+			loc_LuftgeschwSollVent1	:= fbBoxenLuftmengen_0.LuftmengeSollVent1Out / loc_Ansaugflaeche / 3600;
 		END_IF
 	END_IF
 	
 	//Ventilator 2
-	IF gStatusAnlage.Warmluft2 AND Betriebsparameter.Ventilator2.LuftmengenregUmluftEin THEN
+	IF gStatusAnlage.Warmluft2 AND Betriebsparameter.Ventilator2.LuftmengenregFrischluftEin THEN
 		IF loc_Ansaugflaeche <> 0 THEN
-			loc_LuftgeschwSollVent2	:= loc_LuftmengeSollWarmVent2 / loc_Ansaugflaeche / 3600;
-		END_IF
-	ELSIF (NOT gStatusAnlage.Warmluft2) AND Betriebsparameter.Ventilator2.LuftmengenregFrischluftEin THEN
-		IF loc_Ansaugflaeche <> 0 THEN
-			loc_LuftgeschwSollVent2	:= loc_LuftmengeSollKaltVent2 / loc_Ansaugflaeche / 3600;
+			loc_LuftgeschwSollVent2	:= fbBoxenLuftmengen_0.LuftmengeSollVent2Out / loc_Ansaugflaeche / 3600;
 		END_IF
 	END_IF
 	
@@ -404,30 +383,22 @@ PROGRAM _CYCLIC
 		
 		
 		//*** Luftmengenregler Eingänge *** 
-		//Kunde Gschneitner: Warmluft entspricht dem frueheren Umluftbetrieb. Die Luftmengenregelung ist deshalb
-		//je Klappenstellung getrennt waehlbar: bei Warmluft ueber 'Luftmengenregelung Umluft', bei Kaltluft ueber
-		//'Luftmengenregelung Frischluft' (beide auf der Ventilator-Detailseite in der Visu).
-		IF gStatusAnlage.Warmluft1 THEN
-			PidLuftmengeVent1.Enable	:= Betriebsparameter.Ventilator1.LuftmengenregUmluftEin;
-		ELSE
-			PidLuftmengeVent1.Enable	:= Betriebsparameter.Ventilator1.LuftmengenregFrischluftEin;
-		END_IF
-		
-		IF gStatusAnlage.Warmluft2 THEN
-			PidLuftmengeVent2.Enable	:= Betriebsparameter.Ventilator2.LuftmengenregUmluftEin;
-		ELSE
-			PidLuftmengeVent2.Enable	:= Betriebsparameter.Ventilator2.LuftmengenregFrischluftEin;
-		END_IF
+		//Kunde Gschneitner: die Anlage laeuft immer im Frischluftbetrieb, freigegeben wird die Luftmengenregelung
+		//ueber 'Luftmengenregelung Frischluft' auf der Ventilator-Detailseite in der Visu.
+		//Geregelt wird aber nur, wenn die Umschaltklappe des jeweiligen Ventilators auf Warmluft steht;
+		//im Kaltluftbetrieb ist der Regler aus und der Ventilator laeuft mit der Drehzahlvorgabe.
+		PidLuftmengeVent1.Enable	:= gStatusAnlage.Warmluft1 AND Betriebsparameter.Ventilator1.LuftmengenregFrischluftEin;
+		PidLuftmengeVent2.Enable	:= gStatusAnlage.Warmluft2 AND Betriebsparameter.Ventilator2.LuftmengenregFrischluftEin;
 		
 		//Originallogik (Frischluft-/Umluftbetrieb) - fuer Kunde Gschneitner nicht in Verwendung:
 		(*
 		//*** Luftmengenregler Eingänge *** 
 		IF gStatusAnlage.FrischluftbetriebAktiv AND Betriebsparameter.Ventilator1.LuftmengenregFrischluftEin THEN
 			PidLuftmengeVent1.Enable	:= TRUE;
-		//ELSIF (gStatusAnlage.UmluftbetriebAktiv AND Betriebsparameter.Ventilator1.LuftmengenregUmluftEin) AND NOT hmiButtons.changeBetrArtUmluftklappen THEN
+		//ELSIF (gStatusAnlage.UmluftbetriebAktiv AND Betriebsparameter.Ventilator1.LuftmengenregUmluftEin) AND NOT hmiButtons.changeWarmluftVent1 THEN
 		//	PidLuftmengeVent1.Enable	:= TRUE;
 		//Kunde Gschneitner wenn Warmluftbetrieb Ventilator 1 aktiv dann Luftmengenregler aktivieren
-		ELSIF hmiButtons.changeBetrArtUmluftklappen THEN
+		ELSIF hmiButtons.changeWarmluftVent1 THEN
 			PidLuftmengeVent1.Enable	:= TRUE;
 		ELSE
 			PidLuftmengeVent1.Enable	:= FALSE;
@@ -435,10 +406,10 @@ PROGRAM _CYCLIC
 		
 		IF gStatusAnlage.FrischluftbetriebAktiv AND Betriebsparameter.Ventilator2.LuftmengenregFrischluftEin THEN
 			PidLuftmengeVent2.Enable	:= TRUE;
-		//ELSIF (gStatusAnlage.UmluftbetriebAktiv AND Betriebsparameter.Ventilator2.LuftmengenregUmluftEin) AND NOT hmiButtons.changeBetrArtBypassklappe THEN
+		//ELSIF (gStatusAnlage.UmluftbetriebAktiv AND Betriebsparameter.Ventilator2.LuftmengenregUmluftEin) AND NOT hmiButtons.changeWarmluftVent2 THEN
 		//	PidLuftmengeVent2.Enable	:= TRUE;
 		//Kunde Gschneitner wenn Warmluftbetrieb Ventilator 2 aktiv dann Luftmengenregler aktivieren
-		ELSIF hmiButtons.changeBetrArtBypassklappe THEN
+		ELSIF hmiButtons.changeWarmluftVent2 THEN
 			PidLuftmengeVent2.Enable	:= TRUE;
 		ELSE
 			PidLuftmengeVent2.Enable	:= FALSE;

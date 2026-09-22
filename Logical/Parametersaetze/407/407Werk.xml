@@ -57,10 +57,10 @@
 				<Property ID="Box6" DataType="BOOL" Value="false" />
 				<Property ID="AlleBoxenklSchliessenWennAus" DataType="BOOL" Value="false" />
 				<Property ID="MehrereBoxenBelueftbar" DataType="BOOL" Value="false" />
-				<Property ID="LuftmngReglerFrischlVent1" DataType="BOOL" Value="false" />
-				<Property ID="LuftmngReglerUmluftVent1" DataType="BOOL" Value="true" />
-				<Property ID="LuftmngReglerFrischlVent2" DataType="BOOL" Value="false" />
-				<Property ID="LuftmngReglerUmluftVent2" DataType="BOOL" Value="true" />
+				<Property ID="LuftmngReglerFrischlVent1" DataType="BOOL" Value="true" />
+				<Property ID="LuftmngReglerUmluftVent1" DataType="BOOL" Value="false" />
+				<Property ID="LuftmngReglerFrischlVent2" DataType="BOOL" Value="true" />
+				<Property ID="LuftmngReglerUmluftVent2" DataType="BOOL" Value="false" />
 				<Property ID="EntfeuchterNurImUmluftbetrieb" DataType="BOOL" Value="true" />
 				<Property ID="BeideVentAusBeiUmschBypasskl" DataType="BOOL" Value="false" />
 				<Property ID="BeideVentAusBeiUmschBoxenkl" DataType="BOOL" Value="false" />

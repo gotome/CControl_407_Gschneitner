@@ -21,7 +21,7 @@ VAR
 	Echtzeit : {REDUND_UNREPLICABLE} typEchtzeit; (*Echtzeituhr*)
 	Systeminfo : {REDUND_UNREPLICABLE} typSysteminfo; (*Struktur Systeminformationen (Batteriestatus, Hardwaremodule, etc...)*)
 	DateTime : {REDUND_UNREPLICABLE} DATE_AND_TIME; (*Aktuelle Systemzeit*)
-	VERSION : {REDUND_UNREPLICABLE} STRING[16] := 'V2.1.4'; (*Softwareversion*)
+	VERSION : {REDUND_UNREPLICABLE} STRING[16] := 'V2.1.5'; (*Softwareversion*)
 END_VAR
 VAR RETAIN
 	gMindestlaufzOelsumpfOk : {REDUND_UNREPLICABLE} BOOL; (*Variable wird gesetzt, wenn Mindestlaufzeit der Ölsumpfheiung abgelaufen ist.*)

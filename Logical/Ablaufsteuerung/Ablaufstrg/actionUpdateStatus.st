@@ -51,8 +51,8 @@ ACTION actionUpdateStatus:
 	//Status Warmluftanforderung (Kunde Gschneitner) ***************************************************************************************************************************
 	//Warmluft = Umluftklappe des jeweiligen Ventilators angesteuert (dig. Ausgang logisch 1), Kaltluft = Klappe stromlos (logisch 0).
 	//Es zaehlen nur laufende Ventilatoren: steht kein laufender Ventilator auf Warmluft, wird das Heizregister wie im Stillstand behandelt.
-	gStatusAnlage.Warmluft1 := hmiButtons.changeBetrArtUmluftklappen;
-	gStatusAnlage.Warmluft2 := hmiButtons.changeBetrArtBypassklappe;
+	gStatusAnlage.Warmluft1 := hmiButtons.changeWarmluftVent1;
+	gStatusAnlage.Warmluft2 := hmiButtons.changeWarmluftVent2;
 	gStatusAnlage.WarmluftAnforderung := (Aktoren.VentUndKlappen.FreigabeVentilator1Out AND gStatusAnlage.Warmluft1) OR
 	(Aktoren.VentUndKlappen.FreigabeVentilator2Out AND gStatusAnlage.Warmluft2);
 	
