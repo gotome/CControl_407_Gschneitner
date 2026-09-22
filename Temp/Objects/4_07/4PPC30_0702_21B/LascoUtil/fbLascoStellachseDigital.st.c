@@ -1,8 +1,8 @@
 #define _DEFAULT_INCLUDE
 #include <bur\plctypes.h>
-#include "C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoStellachseDigitalst.h"
-#line 1 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoUtil/fbLascoStellachseDigital.nodebug"
-#line 13 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoUtil/fbLascoStellachseDigital.st"
+#include "C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoStellachseDigitalst.h"
+#line 1 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoUtil/fbLascoStellachseDigital.nodebug"
+#line 13 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoUtil/fbLascoStellachseDigital.st"
 void fbLascoStellachseDigital(struct fbLascoStellachseDigital* inst){struct fbLascoStellachseDigital* __inst__=inst;{
 
 
@@ -54,7 +54,7 @@ if(__inst__->ReferenzAktiv){
 
 
 }imp1_else3_5:imp1_end3_0:;}
-#line 63 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoUtil/fbLascoStellachseDigital.nodebug"
+#line 63 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoUtil/fbLascoStellachseDigital.nodebug"
 
 void __AS__ImplInitfbLascoStellachseDigital_st(void){}
 
@@ -144,8 +144,8 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/dvframe/dvframe.var\\\" scope \\
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/CControl/Constants.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoStellachseDigital.st.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoStellachseDigital.st.c\\\" \\\"C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoUtil/fbLascoStellachseDigital.st\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoStellachseDigital.st.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoStellachseDigital.st.c\\\" \\\"C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoUtil/fbLascoStellachseDigital.st\\\"\\n\"");
 __asm__(".ascii \"plcexport \\\"fbLascoAutoRuecklauf\\\" FUB\\n\"");
 __asm__(".ascii \"plcexport \\\"fbLascoBskUeberw\\\" FUB\\n\"");
 __asm__(".ascii \"plcexport \\\"fbLascoEUhr\\\" FUB\\n\"");

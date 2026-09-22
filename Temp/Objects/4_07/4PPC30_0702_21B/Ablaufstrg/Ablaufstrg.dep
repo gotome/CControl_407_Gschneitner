@@ -15,8 +15,8 @@ $(AS_PROJECT_PATH)/Logical/Global.typ
 $(AS_PROJECT_PATH)/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.var
 $(AS_PROJECT_PATH)/Logical/IO/InputOutput.var
 $(AS_PROJECT_PATH)/Logical/Berechnung/Berechnungen.var
-$(AS_PROJECT_PATH)/Logical/Enumeration.typ
 $(AS_PROJECT_PATH)/Logical/VisuIO.var
-$(AS_PROJECT_PATH)/Logical/Alarmsystem/Alarmsys.var
 $(AS_PROJECT_PATH)/Logical/VisuIO.typ
+$(AS_PROJECT_PATH)/Logical/Enumeration.typ
+$(AS_PROJECT_PATH)/Logical/Alarmsystem/Alarmsys.var
 $(AS_PROJECT_PATH)/Logical/Parameter.typ

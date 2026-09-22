@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1781697446_25_
-#define _BUR_1781697446_25_
+#ifndef _BUR_1790103064_25_
+#define _BUR_1790103064_25_
 
 #include <bur/plctypes.h>
 
@@ -19,5 +19,5 @@ __asm__(".ascii \"iecfile \\\"Logical/IO/Energiemessung/Energiemessung.typ\\\" s
 __asm__(".previous");
 
 
-#endif /* _BUR_1781697446_25_ */
+#endif /* _BUR_1790103064_25_ */
 

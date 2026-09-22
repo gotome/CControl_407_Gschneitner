@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1781697225_22_
-#define _BUR_1781697225_22_
+#ifndef _BUR_1790103064_22_
+#define _BUR_1790103064_22_
 
 #include <bur/plctypes.h>
 
@@ -67,5 +67,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/LoopConR/LoopConR.fun\\\" scope 
 __asm__(".previous");
 
 
-#endif /* _BUR_1781697225_22_ */
+#endif /* _BUR_1790103064_22_ */
 

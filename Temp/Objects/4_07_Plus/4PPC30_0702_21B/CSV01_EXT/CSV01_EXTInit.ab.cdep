@@ -1,5 +1,0 @@
-$(AS_CPU_PATH)/csv01_ext/csv01_extinit.ab.o:
-$(AS_CPU_PATH)/csv01_ext/csv01_extinit.ab.c
-$(AS_GNU_INST_PATH)/arm-elf/include/bur/plctypes.h
-$(AS_GNU_INST_PATH)/arm-elf/include/bur/plc.h
-$(AS_CPU_PATH)/csv01_ext/csv01_extinitab.h

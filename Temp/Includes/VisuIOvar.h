@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1781697446_6_
-#define _BUR_1781697446_6_
+#ifndef _BUR_1790103064_6_
+#define _BUR_1790103064_6_
 
 #include <bur/plctypes.h>
 
@@ -39,5 +39,5 @@ __asm__(".ascii \"iecfile \\\"Logical/VisuIO.var\\\" scope \\\"global\\\"\\n\"")
 __asm__(".previous");
 
 
-#endif /* _BUR_1781697446_6_ */
+#endif /* _BUR_1790103064_6_ */
 

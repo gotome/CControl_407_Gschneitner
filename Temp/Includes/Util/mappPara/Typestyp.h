@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1781697446_19_
-#define _BUR_1781697446_19_
+#ifndef _BUR_1790103064_19_
+#define _BUR_1790103064_19_
 
 #include <bur/plctypes.h>
 
@@ -19,5 +19,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Util/mappPara/Types.typ\\\" scope \\\"loca
 __asm__(".previous");
 
 
-#endif /* _BUR_1781697446_19_ */
+#endif /* _BUR_1790103064_19_ */
 

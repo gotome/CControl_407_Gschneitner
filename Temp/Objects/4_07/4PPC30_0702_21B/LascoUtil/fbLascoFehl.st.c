@@ -1,8 +1,8 @@
 #define _DEFAULT_INCLUDE
 #include <bur\plctypes.h>
-#include "C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoFehlst.h"
-#line 1 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoUtil/fbLascoFehl.nodebug"
-#line 13 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoUtil/fbLascoFehl.st"
+#include "C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoFehlst.h"
+#line 1 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoUtil/fbLascoFehl.nodebug"
+#line 13 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoUtil/fbLascoFehl.st"
 void fbLascoFehl(struct fbLascoFehl* inst){struct fbLascoFehl* __inst__=inst;{
 
 
@@ -77,7 +77,7 @@ if(((__inst__->Quit&__inst__->FehlerOut)|(__inst__->FehlerIn^1))){
 
 
 }imp1_end5_0:imp1_else0_4:imp1_end0_0:;}
-#line 86 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoUtil/fbLascoFehl.nodebug"
+#line 86 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoUtil/fbLascoFehl.nodebug"
 
 void __AS__ImplInitfbLascoFehl_st(void){}
 
@@ -167,8 +167,8 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/dvframe/dvframe.var\\\" scope \\
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/CControl/Constants.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoFehl.st.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoFehl.st.c\\\" \\\"C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoUtil/fbLascoFehl.st\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoFehl.st.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoFehl.st.c\\\" \\\"C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoUtil/fbLascoFehl.st\\\"\\n\"");
 __asm__(".ascii \"plcexport \\\"fbLascoAutoRuecklauf\\\" FUB\\n\"");
 __asm__(".ascii \"plcexport \\\"fbLascoBskUeberw\\\" FUB\\n\"");
 __asm__(".ascii \"plcexport \\\"fbLascoEUhr\\\" FUB\\n\"");

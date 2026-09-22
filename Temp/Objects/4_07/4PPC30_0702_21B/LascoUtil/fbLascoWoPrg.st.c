@@ -1,8 +1,8 @@
 #define _DEFAULT_INCLUDE
 #include <bur\plctypes.h>
-#include "C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoWoPrgst.h"
-#line 1 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoUtil/fbLascoWoPrg.nodebug"
-#line 13 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoUtil/fbLascoWoPrg.st"
+#include "C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoWoPrgst.h"
+#line 1 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoUtil/fbLascoWoPrg.nodebug"
+#line 13 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoUtil/fbLascoWoPrg.st"
 void fbLascoWoPrg(struct fbLascoWoPrg* inst){struct fbLascoWoPrg* __inst__=inst;{
 
 
@@ -58,7 +58,7 @@ if((((unsigned long)(unsigned char)__inst__->Freigabe==(unsigned long)(unsigned 
 }
 
 }imp1_end6_0:;}
-#line 67 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoUtil/fbLascoWoPrg.nodebug"
+#line 67 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoUtil/fbLascoWoPrg.nodebug"
 
 void __AS__ImplInitfbLascoWoPrg_st(void){}
 
@@ -148,8 +148,8 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/dvframe/dvframe.var\\\" scope \\
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/CControl/Constants.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoWoPrg.st.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoWoPrg.st.c\\\" \\\"C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoUtil/fbLascoWoPrg.st\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoWoPrg.st.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoWoPrg.st.c\\\" \\\"C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoUtil/fbLascoWoPrg.st\\\"\\n\"");
 __asm__(".ascii \"plcexport \\\"fbLascoAutoRuecklauf\\\" FUB\\n\"");
 __asm__(".ascii \"plcexport \\\"fbLascoBskUeberw\\\" FUB\\n\"");
 __asm__(".ascii \"plcexport \\\"fbLascoEUhr\\\" FUB\\n\"");

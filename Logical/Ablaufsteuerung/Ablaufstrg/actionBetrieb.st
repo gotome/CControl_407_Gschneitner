@@ -91,6 +91,14 @@ ACTION actionBetrieb:
 	Aktoren.Heizregister.Dauerbetrieb				:= Betriebsparameter.Heizregister.DauerbetriebEin;
 	Aktoren.Heizregister.DrehzahlHeizregisterSoll	:= gCmdAnlage.Leistung.DrehzahlHeizregister;
 	
+	//Kunde Gschneitner: Heizregister abschalten, wenn kein laufender Ventilator auf Warmluft steht.
+	//Der Baustein wird dabei exakt wie im Stillstand versorgt -> FreigabeHeizregisterOut = FALSE und DrehzahlHeizregisterOut = 0.0.
+	IF NOT gStatusAnlage.WarmluftAnforderung THEN
+		Aktoren.Heizregister.Automatikbetrieb			:= FALSE;
+		Aktoren.Heizregister.Dauerbetrieb				:= FALSE;
+		Aktoren.Heizregister.DrehzahlHeizregisterSoll	:= 0.0;
+	END_IF
+	
 	//Abluftklappe freigeben, wenn in Ausstattung vorhanden
 	Aktoren.Abluftklappe.Freigabe			:= Betriebsparameter.Ausstattung.Abluftklappe;
 	Aktoren.Abluftklappe.Automatik			:= Betriebsparameter.Abluftklappe.Automatik AND NOT 
@@ -145,6 +153,25 @@ ACTION actionBetrieb:
 	*)
 	
 	//Umschaltklappen je nach Betriebsart umschalten
+	//Kunde Gschneitner: die Umschaltklappen werden als Warmluft-/Kaltluftumschaltung verwendet und direkt vom Bediener geschaltet.
+	//Die Betriebsart ist fest auf Frischluft gestellt, deshalb entfaellt die witterungsgefuehrte Umschaltung.
+	//Die Klappenbausteine werden hier mit der tatsaechlichen Stellung versorgt, damit Laufzeit-/Endlagenueberwachung und
+	//die Statusanzeigen in der Visu mit dem realen Ausgang zusammenpassen.
+	IF Betriebsparameter.Ausstattung.Umschaltklappe1 OR Betriebsparameter.Ausstattung.Umschaltklappe2 THEN
+		Aktoren.VentUndKlappen.Umschaltkl1Oeffnen		:= Betriebsparameter.Ausstattung.Umschaltklappe1 AND gStatusAnlage.Warmluft1;
+		Aktoren.VentUndKlappen.Umschaltkl1Schliessen	:= Betriebsparameter.Ausstattung.Umschaltklappe1 AND NOT gStatusAnlage.Warmluft1;
+		Aktoren.VentUndKlappen.Umschaltkl2Oeffnen		:= Betriebsparameter.Ausstattung.Umschaltklappe2 AND gStatusAnlage.Warmluft2;
+		Aktoren.VentUndKlappen.Umschaltkl2Schliessen	:= Betriebsparameter.Ausstattung.Umschaltklappe2 AND NOT gStatusAnlage.Warmluft2;
+	ELSE
+		Aktoren.VentUndKlappen.Umschaltkl1Schliessen		:= FALSE;
+		Aktoren.VentUndKlappen.Umschaltkl2Schliessen		:= FALSE;
+		Aktoren.VentUndKlappen.Umschaltkl1Oeffnen			:= FALSE;
+		Aktoren.VentUndKlappen.Umschaltkl2Oeffnen			:= FALSE;
+	END_IF
+	
+	//Originallogik (Betriebsart Automatik/Frischluft/Umluft) - fuer Kunde Gschneitner nicht in Verwendung:
+	(*
+	//Umschaltklappen je nach Betriebsart umschalten
 	IF Betriebsparameter.Ausstattung.Umschaltklappe1 OR Betriebsparameter.Ausstattung.Umschaltklappe2 THEN
 		//Konfiguration HB3000 und HB4000 -> Umschaltklappen nach Witterung umschalten (Kein eigener Schaltpunkt)
 		IF (hmiStatus.NameSteuerung = 4) OR (hmiStatus.NameSteuerung = 5) THEN
@@ -176,6 +203,7 @@ ACTION actionBetrieb:
 		Aktoren.VentUndKlappen.Umschaltkl1Oeffnen			:= FALSE;
 		Aktoren.VentUndKlappen.Umschaltkl2Oeffnen			:= FALSE;
 	END_IF
+	*)
 	
 	
 END_ACTION

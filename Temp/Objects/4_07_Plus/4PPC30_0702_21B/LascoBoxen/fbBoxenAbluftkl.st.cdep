@@ -1,5 +1,0 @@
-$(AS_CPU_PATH)/lascoboxen/fbboxenabluftkl.st.o:
-$(AS_CPU_PATH)/lascoboxen/fbboxenabluftkl.st.c
-$(AS_GNU_INST_PATH)/arm-elf/include/bur/plctypes.h
-$(AS_GNU_INST_PATH)/arm-elf/include/bur/plc.h
-$(AS_CPU_PATH)/lascoboxen/fbboxenabluftklst.h

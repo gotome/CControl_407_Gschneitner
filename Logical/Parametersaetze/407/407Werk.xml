@@ -38,8 +38,8 @@
 				<Property ID="Notstromaggregat" DataType="BOOL" Value="false" />
 				<Property ID="Energiemessung" DataType="BOOL" Value="false" />
 				<Property ID="Bypassklappe" DataType="BOOL" Value="false" />
-				<Property ID="Umschaltklappe1" DataType="BOOL" Value="false" />
-				<Property ID="Umschaltklappe2" DataType="BOOL" Value="false" />
+				<Property ID="Umschaltklappe1" DataType="BOOL" Value="true" />
+				<Property ID="Umschaltklappe2" DataType="BOOL" Value="true" />
 				<Property ID="Brandschutzklappe" DataType="BOOL" Value="false" />
 				<Property ID="Abluftklappe" DataType="BOOL" Value="false" />
 				<Property ID="Abluftventilator" DataType="BOOL" Value="false" />
@@ -58,9 +58,9 @@
 				<Property ID="AlleBoxenklSchliessenWennAus" DataType="BOOL" Value="false" />
 				<Property ID="MehrereBoxenBelueftbar" DataType="BOOL" Value="false" />
 				<Property ID="LuftmngReglerFrischlVent1" DataType="BOOL" Value="false" />
-				<Property ID="LuftmngReglerUmluftVent1" DataType="BOOL" Value="false" />
+				<Property ID="LuftmngReglerUmluftVent1" DataType="BOOL" Value="true" />
 				<Property ID="LuftmngReglerFrischlVent2" DataType="BOOL" Value="false" />
-				<Property ID="LuftmngReglerUmluftVent2" DataType="BOOL" Value="false" />
+				<Property ID="LuftmngReglerUmluftVent2" DataType="BOOL" Value="true" />
 				<Property ID="EntfeuchterNurImUmluftbetrieb" DataType="BOOL" Value="true" />
 				<Property ID="BeideVentAusBeiUmschBypasskl" DataType="BOOL" Value="false" />
 				<Property ID="BeideVentAusBeiUmschBoxenkl" DataType="BOOL" Value="false" />
@@ -720,9 +720,9 @@
 				<Property ID="Hysterese" DataType="REAL" Value="0.5" />
 				<Property ID="Umschaltverzoegerung" DataType="UDINT" Value="300000" />
 				<Property ID="TempDifferenzUmschaltung" DataType="REAL" Value="3" />
-				<Property ID="Automatik" DataType="BOOL" Value="true" />
+				<Property ID="Automatik" DataType="BOOL" Value="false" />
 				<Property ID="Umluft" DataType="BOOL" Value="false" />
-				<Property ID="Frischluft" DataType="BOOL" Value="false" />
+				<Property ID="Frischluft" DataType="BOOL" Value="true" />
 			</Group>
 			<Group ID="Bypassklappe">
 				<Property ID="Laufzeit" DataType="UDINT" Value="180000" />

@@ -47,3 +47,7 @@ _BUR_LOCAL float loc_LuftgeschwSollVent1;
 _BUR_LOCAL float loc_LuftgeschwSollVent2;
 _BUR_LOCAL struct fbBoxenLuftmengen fbBoxenLuftmengen_0;
 _BUR_LOCAL float loc_Ansaugflaeche;
+_BUR_LOCAL float loc_LuftmengeSollKaltVent1;
+_BUR_LOCAL float loc_LuftmengeSollKaltVent2;
+_BUR_LOCAL float loc_LuftmengeSollWarmVent1;
+_BUR_LOCAL float loc_LuftmengeSollWarmVent2;

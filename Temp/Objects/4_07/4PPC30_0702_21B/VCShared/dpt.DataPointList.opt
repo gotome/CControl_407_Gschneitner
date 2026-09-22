@@ -1,6 +1,6 @@
 <BuildOptions>
   <BuildOption>
-    <SourceFile Value="C:/SharedFolder/CControl_Gschneitner/Physical/4_07/4PPC30_0702_21B/Cpu.sw" />
+    <SourceFile Value="C:/SharedFolder/CControl_407_Gschneitner/Physical/4_07/4PPC30_0702_21B/Cpu.sw" />
     <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
     <Xml>
       <Task Name="eUhr" Source="Util.eUhr.prg" />

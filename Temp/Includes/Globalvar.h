@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1781697446_5_
-#define _BUR_1781697446_5_
+#ifndef _BUR_1790103064_5_
+#define _BUR_1790103064_5_
 
 #include <bur/plctypes.h>
 
@@ -49,5 +49,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/LascoBoxen/LascoBoxen.fun\\\" sc
 __asm__(".previous");
 
 
-#endif /* _BUR_1781697446_5_ */
+#endif /* _BUR_1790103064_5_ */
 

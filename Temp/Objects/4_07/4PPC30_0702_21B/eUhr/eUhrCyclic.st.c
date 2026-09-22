@@ -1,8 +1,8 @@
 #define _DEFAULT_INCLUDE
 #include <bur\plctypes.h>
-#include "C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/eUhr/eUhrCyclicst.h"
-#line 1 "C:/SharedFolder/CControl_Gschneitner/Logical/Util/eUhr/eUhrCyclic.nodebug"
-#line 3 "C:/SharedFolder/CControl_Gschneitner/Logical/Util/eUhr/eUhrCyclic.st"
+#include "C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/eUhr/eUhrCyclicst.h"
+#line 1 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Util/eUhr/eUhrCyclic.nodebug"
+#line 3 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Util/eUhr/eUhrCyclic.st"
 void _CYCLIC __BUR__ENTRY_CYCLIC_FUNCT__(void){{
 
 
@@ -23,7 +23,7 @@ DTGetTime(&DTGetTime_0);
 
 
 }}
-#line 22 "C:/SharedFolder/CControl_Gschneitner/Logical/Util/eUhr/eUhrCyclic.nodebug"
+#line 22 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Util/eUhr/eUhrCyclic.nodebug"
 
 void __AS__ImplIniteUhrCyclic_st(void){}
 
@@ -129,6 +129,6 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.var\\\" scope \\\"gl
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/CControl/Constants.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Util/eUhr/eUhr.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/eUhr/eUhrCyclic.st.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/eUhr/eUhrCyclic.st.c\\\" \\\"C:/SharedFolder/CControl_Gschneitner/Logical/Util/eUhr/eUhrCyclic.st\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/eUhr/eUhrCyclic.st.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/eUhr/eUhrCyclic.st.c\\\" \\\"C:/SharedFolder/CControl_407_Gschneitner/Logical/Util/eUhr/eUhrCyclic.st\\\"\\n\"");
 __asm__(".previous");

@@ -586,72 +586,6 @@ typedef enum enumBetriebsmodus
 } enumBetriebsmodus;
 #endif
 
-#ifndef __AS__TYPE_typHmiButtonsKlappenBoxen
-#define __AS__TYPE_typHmiButtonsKlappenBoxen
-typedef struct typHmiButtonsKlappenBoxen
-{	plcbit Klappe1;
-	plcbit Klappe2;
-	plcbit Klappe3;
-	plcbit Klappe4;
-	plcbit Klappe5;
-	plcbit Klappe6;
-} typHmiButtonsKlappenBoxen;
-#endif
-
-#ifndef __AS__TYPE_typHmiButtons
-#define __AS__TYPE_typHmiButtons
-typedef struct typHmiButtons
-{	plcbit IntervallEinstellenBoxAktuell;
-	plcbit NachtrocknEinstellenAktuell;
-	plcbit hideDetailansichtBox;
-	plcbit hideZeitfenster;
-	plcbit showBox1;
-	plcbit showBox2;
-	plcbit showBox3;
-	plcbit showBox4;
-	plcbit showBox5;
-	plcbit showBox6;
-	plcbit showVentilatoren;
-	plcbit showEntfeuchterFremd;
-	plcbit showEntfeuchter;
-	plcbit showOfen;
-	plcbit showHeizregister;
-	plcbit showKlappen;
-	plcbit showSensoren;
-	plcbit QuitFehler;
-	plcbit TestbetriebEin;
-	plcbit TestbetriebAbbrechen;
-	plcbit TestbetriebAbschliessen;
-	plcbit IpParameterSetzen;
-	plcbit DatenaufzeichnungAufUsb;
-	plcbit DatenaufzeichnungLoeschen;
-	plcbit Logout;
-	plcbit TouchKalibrieren;
-	plcbit SicherheitshinweisOk;
-	plcbit ResetEnergieverbrTag;
-	plcbit ResetServiceUhrzeit;
-	typHmiButtonsKlappenBoxen ButtonsKlappeBox1;
-	typHmiButtonsKlappenBoxen ButtonsKlappeBox2;
-	typHmiButtonsKlappenBoxen ButtonsKlappeBox3;
-	typHmiButtonsKlappenBoxen ButtonsKlappeBox4;
-	typHmiButtonsKlappenBoxen ButtonsKlappeBox5;
-	typHmiButtonsKlappenBoxen ButtonsKlappeBox6;
-	plcbit changeBetrArtBypassklappe;
-	plcbit changeBetrArtAbluftvent;
-	plcbit changeBetrArtAbluftklappe;
-	plcbit changeBetrArtUmluftklappen;
-	plcbit ParameterVonUsbLaden;
-	plcbit ParameterAufUsbKopieren;
-	plcbit TrocknungsbilanzOk;
-	plcbit changeTrockengutBox1;
-	plcbit changeTrockengutBox2;
-	plcbit changeTrockengutBox3;
-	plcbit changeTrockengutBox4;
-	plcbit changeTrockengutBox5;
-	plcbit changeTrockengutBox6;
-} typHmiButtons;
-#endif
-
 #ifndef __AS__TYPE_cmdLeistung
 #define __AS__TYPE_cmdLeistung
 typedef struct cmdLeistung
@@ -753,6 +687,9 @@ typedef struct statAnlage
 	float LuftmengeAktuell;
 	plcbit UmluftbetriebAktiv;
 	plcbit FrischluftbetriebAktiv;
+	plcbit Warmluft1;
+	plcbit Warmluft2;
+	plcbit WarmluftAnforderung;
 	float EnergieverbrTag;
 	float EnergieLeistungAkt;
 	float EnergieverbrGes;
@@ -1752,6 +1689,10 @@ _BUR_LOCAL float loc_LuftgeschwSollVent1;
 _BUR_LOCAL float loc_LuftgeschwSollVent2;
 _BUR_LOCAL struct fbBoxenLuftmengen fbBoxenLuftmengen_0;
 _BUR_LOCAL float loc_Ansaugflaeche;
+_BUR_LOCAL float loc_LuftmengeSollKaltVent1;
+_BUR_LOCAL float loc_LuftmengeSollKaltVent2;
+_BUR_LOCAL float loc_LuftmengeSollWarmVent1;
+_BUR_LOCAL float loc_LuftmengeSollWarmVent2;
 _GLOBAL struct fbBoxenKonfig Boxen;
 _GLOBAL typAktoren Aktoren;
 _GLOBAL struct fbTrockStrombegr Strombegrenzung;
@@ -1760,7 +1701,6 @@ _GLOBAL enumBetriebsmodus gAktModus;
 _GLOBAL statAnlage gStatusAnlage;
 _GLOBAL cmdAnlage gCmdAnlage;
 _GLOBAL typEchtzeit Echtzeit;
-_GLOBAL typHmiButtons hmiButtons;
 _GLOBAL plcbit diEntfeuchterFremdInBetrieb;
 _GLOBAL plcbit diDrehzahlbegrVentilator1;
 _GLOBAL plcbit diDrehzahlbegrVentilator2;

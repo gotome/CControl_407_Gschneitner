@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1781697446_20_
-#define _BUR_1781697446_20_
+#ifndef _BUR_1790103064_20_
+#define _BUR_1790103064_20_
 
 #include <bur/plctypes.h>
 
@@ -41,5 +41,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpRecipe/MpRecipe.fun\\\" scope 
 __asm__(".previous");
 
 
-#endif /* _BUR_1781697446_20_ */
+#endif /* _BUR_1790103064_20_ */
 

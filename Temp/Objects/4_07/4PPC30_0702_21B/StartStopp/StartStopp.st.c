@@ -1,8 +1,8 @@
 #define _DEFAULT_INCLUDE
 #include <bur\plctypes.h>
-#include "C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/StartStopp/StartStoppst.h"
-#line 1 "C:/SharedFolder/CControl_Gschneitner/Logical/Steuerung/StartStopp/StartStopp.nodebug"
-#line 3 "C:/SharedFolder/CControl_Gschneitner/Logical/Steuerung/StartStopp/StartStopp.st"
+#include "C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/StartStopp/StartStoppst.h"
+#line 1 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Steuerung/StartStopp/StartStopp.nodebug"
+#line 3 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Steuerung/StartStopp/StartStopp.st"
 void _CYCLIC __BUR__ENTRY_CYCLIC_FUNCT__(void){{
 
 
@@ -92,7 +92,7 @@ if((gStatusAnlage.Betrieb&(doVentilator1Ein|doVentilator2Ein))){
 
 
 }}
-#line 91 "C:/SharedFolder/CControl_Gschneitner/Logical/Steuerung/StartStopp/StartStopp.nodebug"
+#line 91 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Steuerung/StartStopp/StartStopp.nodebug"
 
 void __AS__ImplInitStartStopp_st(void){}
 
@@ -198,6 +198,6 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.var\\\" scope \\\"gl
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/CControl/Constants.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Steuerung/StartStopp/StartStopp.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/StartStopp/StartStopp.st.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/StartStopp/StartStopp.st.c\\\" \\\"C:/SharedFolder/CControl_Gschneitner/Logical/Steuerung/StartStopp/StartStopp.st\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/StartStopp/StartStopp.st.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/StartStopp/StartStopp.st.c\\\" \\\"C:/SharedFolder/CControl_407_Gschneitner/Logical/Steuerung/StartStopp/StartStopp.st\\\"\\n\"");
 __asm__(".previous");

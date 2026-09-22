@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1781697446_39_
-#define _BUR_1781697446_39_
+#ifndef _BUR_1790103064_39_
+#define _BUR_1790103064_39_
 
 #include <bur/plctypes.h>
 
@@ -42,5 +42,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsUSB/AsUSB.fun\\\" scope \\\"gl
 __asm__(".previous");
 
 
-#endif /* _BUR_1781697446_39_ */
+#endif /* _BUR_1790103064_39_ */
 

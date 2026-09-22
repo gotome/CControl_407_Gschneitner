@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1781697446_10_
-#define _BUR_1781697446_10_
+#ifndef _BUR_1790103064_10_
+#define _BUR_1790103064_10_
 
 #include <bur/plctypes.h>
 
@@ -41,5 +41,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/CControl/CControl.fun\\\" scope 
 __asm__(".previous");
 
 
-#endif /* _BUR_1781697446_10_ */
+#endif /* _BUR_1790103064_10_ */
 

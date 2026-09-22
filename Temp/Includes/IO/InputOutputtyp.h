@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1781697446_9_
-#define _BUR_1781697446_9_
+#ifndef _BUR_1790103064_9_
+#define _BUR_1790103064_9_
 
 #include <bur/plctypes.h>
 
@@ -155,5 +155,5 @@ __asm__(".ascii \"iecfile \\\"Logical/IO/InputOutput.typ\\\" scope \\\"global\\\
 __asm__(".previous");
 
 
-#endif /* _BUR_1781697446_9_ */
+#endif /* _BUR_1790103064_9_ */
 

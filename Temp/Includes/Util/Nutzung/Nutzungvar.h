@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1781697446_17_
-#define _BUR_1781697446_17_
+#ifndef _BUR_1790103064_17_
+#define _BUR_1790103064_17_
 
 #include <bur/plctypes.h>
 
@@ -158,5 +158,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/LascoUtil/LascoUtil.fun\\\" scop
 __asm__(".previous");
 
 
-#endif /* _BUR_1781697446_17_ */
+#endif /* _BUR_1790103064_17_ */
 

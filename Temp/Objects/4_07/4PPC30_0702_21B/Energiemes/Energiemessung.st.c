@@ -1,16 +1,16 @@
 #define _DEFAULT_INCLUDE
 #include <bur\plctypes.h>
-#include "C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Energiemes/Energiemessungst.h"
-#line 1 "C:/SharedFolder/CControl_Gschneitner/Logical/IO/Energiemessung/Energiemessung.nodebug"
-#line 3 "C:/SharedFolder/CControl_Gschneitner/Logical/IO/Energiemessung/Energiemessung.st"
+#include "C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Energiemes/Energiemessungst.h"
+#line 1 "C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/Energiemessung/Energiemessung.nodebug"
+#line 3 "C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/Energiemessung/Energiemessung.st"
 void __BUR__ENTRY_INIT_FUNCT__(void){{
 
 (MEM_EnergieGesamt=(0.00000000000000000000E+00));
 (apModulEnergie.ClearEnergy=1);
 
 }}
-#line 8 "C:/SharedFolder/CControl_Gschneitner/Logical/IO/Energiemessung/Energiemessung.nodebug"
-#line 11 "C:/SharedFolder/CControl_Gschneitner/Logical/IO/Energiemessung/Energiemessung.st"
+#line 8 "C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/Energiemessung/Energiemessung.nodebug"
+#line 11 "C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/Energiemessung/Energiemessung.st"
 void _CYCLIC __BUR__ENTRY_CYCLIC_FUNCT__(void){{
 
 
@@ -62,7 +62,7 @@ if(hmiButtons.ResetEnergieverbrTag){
 
 
 }}
-#line 61 "C:/SharedFolder/CControl_Gschneitner/Logical/IO/Energiemessung/Energiemessung.nodebug"
+#line 61 "C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/Energiemessung/Energiemessung.nodebug"
 
 void __AS__ImplInitEnergiemessung_st(void){__BUR__ENTRY_INIT_FUNCT__();}
 
@@ -169,6 +169,6 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/CControl/Constants.var\\\" scope
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/IO/Energiemessung/Energiemessung.typ\\\" scope \\\"local\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/IO/Energiemessung/Energiemessung.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Energiemes/Energiemessung.st.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Energiemes/Energiemessung.st.c\\\" \\\"C:/SharedFolder/CControl_Gschneitner/Logical/IO/Energiemessung/Energiemessung.st\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Energiemes/Energiemessung.st.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Energiemes/Energiemessung.st.c\\\" \\\"C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/Energiemessung/Energiemessung.st\\\"\\n\"");
 __asm__(".previous");

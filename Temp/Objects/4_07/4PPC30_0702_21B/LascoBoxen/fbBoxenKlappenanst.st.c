@@ -1,8 +1,8 @@
 #define _DEFAULT_INCLUDE
 #include <bur\plctypes.h>
-#include "C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoBoxen/fbBoxenKlappenanstst.h"
-#line 1 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoBoxen/fbBoxenKlappenanst.nodebug"
-#line 3 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoBoxen/fbBoxenKlappenanst.st"
+#include "C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoBoxen/fbBoxenKlappenanstst.h"
+#line 1 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoBoxen/fbBoxenKlappenanst.nodebug"
+#line 3 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoBoxen/fbBoxenKlappenanst.st"
 void fbBoxenKlappenanst(struct fbBoxenKlappenanst* inst){struct fbBoxenKlappenanst* __inst__=inst;{
 
 if((__inst__->Stoerung^1)){
@@ -150,7 +150,7 @@ if((__inst__->TON_Laufzeit.Q&(((unsigned long)__inst__->LaufzeitSchliessen!=(uns
 
 
 }imp1_end0_0:;}
-#line 149 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoBoxen/fbBoxenKlappenanst.nodebug"
+#line 149 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoBoxen/fbBoxenKlappenanst.nodebug"
 
 void __AS__ImplInitfbBoxenKlappenanst_st(void){}
 
@@ -240,8 +240,8 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/dvframe/dvframe.var\\\" scope \\
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/CControl/Constants.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoBoxen/fbBoxenKlappenanst.st.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoBoxen/fbBoxenKlappenanst.st.c\\\" \\\"C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoBoxen/fbBoxenKlappenanst.st\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoBoxen/fbBoxenKlappenanst.st.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoBoxen/fbBoxenKlappenanst.st.c\\\" \\\"C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoBoxen/fbBoxenKlappenanst.st\\\"\\n\"");
 __asm__(".ascii \"plcexport \\\"fbBoxenKonfig\\\" FUB\\n\"");
 __asm__(".ascii \"plcexport \\\"fbBoxenVentKlappen\\\" FUB\\n\"");
 __asm__(".ascii \"plcexport \\\"fbBoxenKlappenanst\\\" FUB\\n\"");

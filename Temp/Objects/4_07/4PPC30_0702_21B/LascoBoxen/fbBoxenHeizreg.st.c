@@ -1,8 +1,8 @@
 #define _DEFAULT_INCLUDE
 #include <bur\plctypes.h>
-#include "C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoBoxen/fbBoxenHeizregst.h"
-#line 1 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoBoxen/fbBoxenHeizreg.nodebug"
-#line 3 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoBoxen/fbBoxenHeizreg.st"
+#include "C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoBoxen/fbBoxenHeizregst.h"
+#line 1 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoBoxen/fbBoxenHeizreg.nodebug"
+#line 3 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoBoxen/fbBoxenHeizreg.st"
 void fbBoxenHeizreg(struct fbBoxenHeizreg* inst){struct fbBoxenHeizreg* __inst__=inst;{
 
 if(__inst__->Freigabe){
@@ -126,7 +126,7 @@ if(__inst__->Automatikbetrieb){
 
 
 }imp1_end0_0:;}
-#line 125 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoBoxen/fbBoxenHeizreg.nodebug"
+#line 125 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoBoxen/fbBoxenHeizreg.nodebug"
 
 void __AS__ImplInitfbBoxenHeizreg_st(void){}
 
@@ -216,8 +216,8 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/dvframe/dvframe.var\\\" scope \\
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/CControl/Constants.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoBoxen/fbBoxenHeizreg.st.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoBoxen/fbBoxenHeizreg.st.c\\\" \\\"C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoBoxen/fbBoxenHeizreg.st\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoBoxen/fbBoxenHeizreg.st.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoBoxen/fbBoxenHeizreg.st.c\\\" \\\"C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoBoxen/fbBoxenHeizreg.st\\\"\\n\"");
 __asm__(".ascii \"plcexport \\\"fbBoxenKonfig\\\" FUB\\n\"");
 __asm__(".ascii \"plcexport \\\"fbBoxenVentKlappen\\\" FUB\\n\"");
 __asm__(".ascii \"plcexport \\\"fbBoxenKlappenanst\\\" FUB\\n\"");

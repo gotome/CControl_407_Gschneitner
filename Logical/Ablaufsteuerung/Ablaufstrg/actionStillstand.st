@@ -73,6 +73,23 @@ ACTION actionStillstand:
 	Aktoren.VentUndKlappen.BypassklappeSchliessen	:= Betriebsparameter.Ausstattung.Bypassklappe AND Betriebsparameter.Bypassklappe.Schliessen;
 	
 	//Umschaltklappen Handbetrieb
+	//Kunde Gschneitner: Warmluft-/Kaltluftumschaltung bleibt auch im Stillstand in der vom Bediener gewaehlten Stellung,
+	//weil der digitale Ausgang der Klappe unveraendert dem HMI-Button folgt.
+	IF Betriebsparameter.Ausstattung.Umschaltklappe1 OR Betriebsparameter.Ausstattung.Umschaltklappe2 THEN
+		Aktoren.VentUndKlappen.Umschaltkl1Oeffnen		:= Betriebsparameter.Ausstattung.Umschaltklappe1 AND gStatusAnlage.Warmluft1;
+		Aktoren.VentUndKlappen.Umschaltkl1Schliessen	:= Betriebsparameter.Ausstattung.Umschaltklappe1 AND NOT gStatusAnlage.Warmluft1;
+		Aktoren.VentUndKlappen.Umschaltkl2Oeffnen		:= Betriebsparameter.Ausstattung.Umschaltklappe2 AND gStatusAnlage.Warmluft2;
+		Aktoren.VentUndKlappen.Umschaltkl2Schliessen	:= Betriebsparameter.Ausstattung.Umschaltklappe2 AND NOT gStatusAnlage.Warmluft2;
+	ELSE
+		Aktoren.VentUndKlappen.Umschaltkl1Schliessen		:= FALSE;
+		Aktoren.VentUndKlappen.Umschaltkl2Schliessen		:= FALSE;
+		Aktoren.VentUndKlappen.Umschaltkl1Oeffnen			:= FALSE;
+		Aktoren.VentUndKlappen.Umschaltkl2Oeffnen			:= FALSE;
+	END_IF
+	
+	//Originallogik (Stellung je nach Betriebsart / Ausstattungsmenue) - fuer Kunde Gschneitner nicht in Verwendung:
+	(*
+	//Umschaltklappen Handbetrieb
 	IF Betriebsparameter.Ausstattung.Umschaltklappe1 OR Betriebsparameter.Ausstattung.Umschaltklappe2 THEN
 		//Stellung Umluftklappen je nach Einstellung im Ausstattungsmenü
 		IF Betriebsparameter.Umschaltklappen.Automatik THEN
@@ -97,5 +114,6 @@ ACTION actionStillstand:
 		Aktoren.VentUndKlappen.Umschaltkl1Oeffnen			:= FALSE;
 		Aktoren.VentUndKlappen.Umschaltkl2Oeffnen			:= FALSE;
 	END_IF
+	*)
 	
 END_ACTION

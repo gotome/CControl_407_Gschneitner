@@ -1,16 +1,16 @@
 #define _DEFAULT_INCLUDE
 #include <bur\plctypes.h>
-#include "C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Ablaufstrg/Ablaufstrgst.h"
-#line 1 "C:/SharedFolder/CControl_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.nodebug"
-#line 3 "C:/SharedFolder/CControl_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.st"
+#include "C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Ablaufstrg/Ablaufstrgst.h"
+#line 1 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.nodebug"
+#line 3 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.st"
 void __BUR__ENTRY_INIT_FUNCT__(void){{
 
 (stateEntry=1);
 (nextModus=0);
 
 }}
-#line 8 "C:/SharedFolder/CControl_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.nodebug"
-#line 11 "C:/SharedFolder/CControl_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.st"
+#line 8 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.nodebug"
+#line 11 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.st"
 void _CYCLIC __BUR__ENTRY_CYCLIC_FUNCT__(void){{
 
 
@@ -191,8 +191,8 @@ fbTrockStrombegr(&Strombegrenzung);
 
 
 }}
-#line 190 "C:/SharedFolder/CControl_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.nodebug"
-#line 2 "C:/SharedFolder/CControl_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/actionUpdateStatus.st"
+#line 190 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.nodebug"
+#line 2 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/actionUpdateStatus.st"
 static void __AS__Action__actionUpdateStatus(void){
 {
 
@@ -243,9 +243,17 @@ if(((((unsigned long)(unsigned char)hmiStatus.NameSteuerung!=(unsigned long)(uns
 }
 
 
-}imp3_end1_0:;}
-#line 190 "C:/SharedFolder/CControl_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.nodebug"
-#line 2 "C:/SharedFolder/CControl_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/actionStillstand.st"
+
+
+(gStatusAnlage.Warmluft1=hmiButtons.changeBetrArtUmluftklappen);
+(gStatusAnlage.Warmluft2=hmiButtons.changeBetrArtBypassklappe);
+
+(gStatusAnlage.WarmluftAnforderung=((Aktoren.VentUndKlappen.FreigabeVentilator1Out&gStatusAnlage.Warmluft1)|(Aktoren.VentUndKlappen.FreigabeVentilator2Out&gStatusAnlage.Warmluft2)));
+
+
+}}
+#line 190 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.nodebug"
+#line 2 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/actionStillstand.st"
 static void __AS__Action__actionStillstand(void){
 {
 (gStatusAnlage.Aktor[CheckBounds(0,0,39)]=1);
@@ -320,24 +328,13 @@ if((Aktoren.Notstromaggregat.NotstromBereitOut|(Betriebsparameter.Ausstattung.No
 (Aktoren.VentUndKlappen.BypassklappeSchliessen=(Betriebsparameter.Ausstattung.Bypassklappe&Betriebsparameter.Bypassklappe.Schliessen));
 
 
-if((Betriebsparameter.Ausstattung.Umschaltklappe1|Betriebsparameter.Ausstattung.Umschaltklappe2)){
 
-if(Betriebsparameter.Umschaltklappen.Automatik){
-(Aktoren.VentUndKlappen.Umschaltkl1Schliessen=(Betriebsparameter.Ausstattung.Umschaltklappe1&Betriebsparameter.Ausstattung.StellungUmluftklappe1Stillstand));
-(Aktoren.VentUndKlappen.Umschaltkl2Schliessen=(Betriebsparameter.Ausstattung.Umschaltklappe2&Betriebsparameter.Ausstattung.StellungUmluftklappe2Stillstand));
-(Aktoren.VentUndKlappen.Umschaltkl1Oeffnen=(Betriebsparameter.Ausstattung.Umschaltklappe1&(Betriebsparameter.Ausstattung.StellungUmluftklappe1Stillstand^1)));
-(Aktoren.VentUndKlappen.Umschaltkl2Oeffnen=(Betriebsparameter.Ausstattung.Umschaltklappe2&(Betriebsparameter.Ausstattung.StellungUmluftklappe2Stillstand^1)));
-}else if(Betriebsparameter.Umschaltklappen.Frischluft){
-(Aktoren.VentUndKlappen.Umschaltkl1Schliessen=Betriebsparameter.Ausstattung.Umschaltklappe1);
-(Aktoren.VentUndKlappen.Umschaltkl2Schliessen=Betriebsparameter.Ausstattung.Umschaltklappe2);
-(Aktoren.VentUndKlappen.Umschaltkl1Oeffnen=0);
-(Aktoren.VentUndKlappen.Umschaltkl2Oeffnen=0);
-}else if(Betriebsparameter.Umschaltklappen.Umluft){
-(Aktoren.VentUndKlappen.Umschaltkl1Schliessen=0);
-(Aktoren.VentUndKlappen.Umschaltkl2Schliessen=0);
-(Aktoren.VentUndKlappen.Umschaltkl1Oeffnen=Betriebsparameter.Ausstattung.Umschaltklappe1);
-(Aktoren.VentUndKlappen.Umschaltkl2Oeffnen=Betriebsparameter.Ausstattung.Umschaltklappe2);
-}
+
+if((Betriebsparameter.Ausstattung.Umschaltklappe1|Betriebsparameter.Ausstattung.Umschaltklappe2)){
+(Aktoren.VentUndKlappen.Umschaltkl1Oeffnen=(Betriebsparameter.Ausstattung.Umschaltklappe1&gStatusAnlage.Warmluft1));
+(Aktoren.VentUndKlappen.Umschaltkl1Schliessen=(Betriebsparameter.Ausstattung.Umschaltklappe1&(gStatusAnlage.Warmluft1^1)));
+(Aktoren.VentUndKlappen.Umschaltkl2Oeffnen=(Betriebsparameter.Ausstattung.Umschaltklappe2&gStatusAnlage.Warmluft2));
+(Aktoren.VentUndKlappen.Umschaltkl2Schliessen=(Betriebsparameter.Ausstattung.Umschaltklappe2&(gStatusAnlage.Warmluft2^1)));
 }else{
 (Aktoren.VentUndKlappen.Umschaltkl1Schliessen=0);
 (Aktoren.VentUndKlappen.Umschaltkl2Schliessen=0);
@@ -345,9 +342,38 @@ if(Betriebsparameter.Umschaltklappen.Automatik){
 (Aktoren.VentUndKlappen.Umschaltkl2Oeffnen=0);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }imp2_end2_0:;}
-#line 190 "C:/SharedFolder/CControl_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.nodebug"
-#line 2 "C:/SharedFolder/CControl_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/actionBetrieb.st"
+#line 190 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.nodebug"
+#line 2 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/actionBetrieb.st"
 static void __AS__Action__actionBetrieb(void){
 {
 (gStatusAnlage.Aktor[CheckBounds(0,0,39)]=18);
@@ -441,6 +467,14 @@ if((Aktoren.Notstromaggregat.NotstromBereitOut|(Betriebsparameter.Ausstattung.No
 (Aktoren.Heizregister.DrehzahlHeizregisterSoll=gCmdAnlage.Leistung.DrehzahlHeizregister);
 
 
+
+if((gStatusAnlage.WarmluftAnforderung^1)){
+(Aktoren.Heizregister.Automatikbetrieb=0);
+(Aktoren.Heizregister.Dauerbetrieb=0);
+(Aktoren.Heizregister.DrehzahlHeizregisterSoll=(0.00000000000000000000E+00));
+}
+
+
 (Aktoren.Abluftklappe.Freigabe=Betriebsparameter.Ausstattung.Abluftklappe);
 
 (Aktoren.Abluftklappe.Automatik=(Betriebsparameter.Abluftklappe.Automatik&((gStatusAnlage.FrischluftbetriebAktiv&Betriebsparameter.Ausstattung.AbluftklImFrischlbetrImmerOffen)^1)));
@@ -494,31 +528,15 @@ if((Aktoren.EntfeuchterFremd.Freigabe^1)){
 
 
 
-if((Betriebsparameter.Ausstattung.Umschaltklappe1|Betriebsparameter.Ausstattung.Umschaltklappe2)){
 
-if(((((unsigned long)(unsigned char)hmiStatus.NameSteuerung==(unsigned long)(unsigned char)4))|(((unsigned long)(unsigned char)hmiStatus.NameSteuerung==(unsigned long)(unsigned char)5)))){
-if((Betriebsparameter.Umschaltklappen.Frischluft|(Betriebsparameter.Umschaltklappen.Automatik&(gStatusAnlage.WetterIstSchlecht^1)))){
-(Aktoren.VentUndKlappen.Umschaltkl1Schliessen=Betriebsparameter.Ausstattung.Umschaltklappe1);
-(Aktoren.VentUndKlappen.Umschaltkl2Schliessen=Betriebsparameter.Ausstattung.Umschaltklappe2);
-(Aktoren.VentUndKlappen.Umschaltkl1Oeffnen=0);
-(Aktoren.VentUndKlappen.Umschaltkl2Oeffnen=0);
-}else if((Betriebsparameter.Umschaltklappen.Umluft|(Betriebsparameter.Umschaltklappen.Automatik&gStatusAnlage.WetterIstSchlecht))){
-(Aktoren.VentUndKlappen.Umschaltkl1Schliessen=0);
-(Aktoren.VentUndKlappen.Umschaltkl2Schliessen=0);
-(Aktoren.VentUndKlappen.Umschaltkl1Oeffnen=Betriebsparameter.Ausstattung.Umschaltklappe1);
-(Aktoren.VentUndKlappen.Umschaltkl2Oeffnen=Betriebsparameter.Ausstattung.Umschaltklappe2);
-}
-}else if((Betriebsparameter.Umschaltklappen.Frischluft|(Betriebsparameter.Umschaltklappen.Automatik&gStatusAnlage.FrischluftbetriebAktiv))){
-(Aktoren.VentUndKlappen.Umschaltkl1Schliessen=Betriebsparameter.Ausstattung.Umschaltklappe1);
-(Aktoren.VentUndKlappen.Umschaltkl2Schliessen=Betriebsparameter.Ausstattung.Umschaltklappe2);
-(Aktoren.VentUndKlappen.Umschaltkl1Oeffnen=0);
-(Aktoren.VentUndKlappen.Umschaltkl2Oeffnen=0);
-}else if((Betriebsparameter.Umschaltklappen.Umluft|(Betriebsparameter.Umschaltklappen.Automatik&gStatusAnlage.UmluftbetriebAktiv))){
-(Aktoren.VentUndKlappen.Umschaltkl1Schliessen=0);
-(Aktoren.VentUndKlappen.Umschaltkl2Schliessen=0);
-(Aktoren.VentUndKlappen.Umschaltkl1Oeffnen=Betriebsparameter.Ausstattung.Umschaltklappe1);
-(Aktoren.VentUndKlappen.Umschaltkl2Oeffnen=Betriebsparameter.Ausstattung.Umschaltklappe2);
-}
+
+
+
+if((Betriebsparameter.Ausstattung.Umschaltklappe1|Betriebsparameter.Ausstattung.Umschaltklappe2)){
+(Aktoren.VentUndKlappen.Umschaltkl1Oeffnen=(Betriebsparameter.Ausstattung.Umschaltklappe1&gStatusAnlage.Warmluft1));
+(Aktoren.VentUndKlappen.Umschaltkl1Schliessen=(Betriebsparameter.Ausstattung.Umschaltklappe1&(gStatusAnlage.Warmluft1^1)));
+(Aktoren.VentUndKlappen.Umschaltkl2Oeffnen=(Betriebsparameter.Ausstattung.Umschaltklappe2&gStatusAnlage.Warmluft2));
+(Aktoren.VentUndKlappen.Umschaltkl2Schliessen=(Betriebsparameter.Ausstattung.Umschaltklappe2&(gStatusAnlage.Warmluft2^1)));
 }else{
 (Aktoren.VentUndKlappen.Umschaltkl1Schliessen=0);
 (Aktoren.VentUndKlappen.Umschaltkl2Schliessen=0);
@@ -527,8 +545,44 @@ if((Betriebsparameter.Umschaltklappen.Frischluft|(Betriebsparameter.Umschaltklap
 }
 
 
-}imp1_end7_0:;}
-#line 190 "C:/SharedFolder/CControl_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.nodebug"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}imp1_end8_0:;}
+#line 190 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.nodebug"
 
 void __AS__ImplInitAblaufstrg_st(void){__BUR__ENTRY_INIT_FUNCT__();}
 
@@ -634,6 +688,6 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.var\\\" scope \\\"gl
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/CControl/Constants.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Ablaufstrg/Ablaufstrg.st.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Ablaufstrg/Ablaufstrg.st.c\\\" \\\"C:/SharedFolder/CControl_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.st\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Ablaufstrg/Ablaufstrg.st.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Ablaufstrg/Ablaufstrg.st.c\\\" \\\"C:/SharedFolder/CControl_407_Gschneitner/Logical/Ablaufsteuerung/Ablaufstrg/Ablaufstrg.st\\\"\\n\"");
 __asm__(".previous");

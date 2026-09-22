@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1782306733_2_
-#define _BUR_1782306733_2_
+#ifndef _BUR_1790103064_4_
+#define _BUR_1790103064_4_
 
 #include <bur/plctypes.h>
 
@@ -186,6 +186,9 @@ typedef struct statAnlage
 	float LuftmengeAktuell;
 	plcbit UmluftbetriebAktiv;
 	plcbit FrischluftbetriebAktiv;
+	plcbit Warmluft1;
+	plcbit Warmluft2;
+	plcbit WarmluftAnforderung;
 	float EnergieverbrTag;
 	float EnergieLeistungAkt;
 	float EnergieverbrGes;
@@ -255,5 +258,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Global.typ\\\" scope \\\"global\\\"\\n\"")
 __asm__(".previous");
 
 
-#endif /* _BUR_1782306733_2_ */
+#endif /* _BUR_1790103064_4_ */
 

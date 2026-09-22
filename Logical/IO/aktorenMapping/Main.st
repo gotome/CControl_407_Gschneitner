@@ -305,8 +305,11 @@ PROGRAM _CYCLIC
 	Aktoren.VentUndKlappen.Boxenkl4VonVent2Abhaengig	:= Boxen.Boxenkl4VonVent2Abhaengig;
 	Aktoren.VentUndKlappen.Boxenkl5VonVent2Abhaengig	:= Boxen.Boxenkl5VonVent2Abhaengig;
 	Aktoren.VentUndKlappen.Boxenkl6VonVent2Abhaengig	:= Boxen.Boxenkl6VonVent2Abhaengig;
-	Aktoren.VentUndKlappen.UmluftklVonVent1Abhaengig	:= Betriebsparameter.Ausstattung.Vent1AusWennUmschUmluftkl;
-	Aktoren.VentUndKlappen.UmluftklVonVent2Abhaengig	:= Betriebsparameter.Ausstattung.Vent2AusWennUmschUmluftkl;
+	//Kunde Gschneitner: die Umluftklappen sind die Warmluft-/Kaltluftumschaltung und werden vom Bediener direkt geschaltet.
+	//Eine Ventilatorabschaltung waehrend der Klappenumschaltung ist dabei nicht erwuenscht -> Abhaengigkeit fest deaktiviert.
+	//Original: := Betriebsparameter.Ausstattung.Vent1AusWennUmschUmluftkl; bzw. Vent2AusWennUmschUmluftkl;
+	Aktoren.VentUndKlappen.UmluftklVonVent1Abhaengig	:= FALSE;
+	Aktoren.VentUndKlappen.UmluftklVonVent2Abhaengig	:= FALSE;
 	Aktoren.VentUndKlappen.EndlBoxenklappe1Geschl		:= diBox1Geschl;
 	Aktoren.VentUndKlappen.EndlBoxenklappe1Offen		:= diBox1Offen;
 	Aktoren.VentUndKlappen.EndlBoxenklappe2Geschl		:= diBox2Geschl;
@@ -641,10 +644,12 @@ PROGRAM _CYCLIC
 			//Frostschutz aktiv Heizregister Freigabe ein und volle Leistung
 			doHeizregisterEin									:= TRUE;
 			aoLeistungsvorgHeizregister							:= 100.0;
-		//Kunde Gschneitner, wenn beide Ventilatoren in Frischluftbetrieb dann Heizregister AUS
-		ELSIF (gStatusAnlage.FrischluftbetriebAktiv AND Betriebsparameter.Ventilator1.LuftmengenregFrischluftEin AND Betriebsparameter.Ventilator2.LuftmengenregFrischluftEin) THEN
+		//Kunde Gschneitner: steht kein laufender Ventilator auf Warmluft, darf das Heizregister weder Freigabe
+		//noch ein 0-10V Signal bekommen. Der Baustein Aktoren.Heizregister wird dafuer in Ablaufstrg/actionBetrieb
+		//bereits wie im Stillstand versorgt; diese Abfrage klemmt die Ausgaenge zusaetzlich unabhaengig davon ab.
+		ELSIF NOT gStatusAnlage.WarmluftAnforderung THEN
 			doHeizregisterEin									:= FALSE;
-			aoLeistungsvorgHeizregister							:= 0.0;					
+			aoLeistungsvorgHeizregister							:= 0.0;
 		ELSE
 			//Normalbetrieb - Ausgaenge von Regler uebernehmen
 			doHeizregisterEin									:= Aktoren.Heizregister.FreigabeHeizregisterOut;

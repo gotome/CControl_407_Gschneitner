@@ -1125,6 +1125,72 @@ typedef struct typHmiStatus
 } typHmiStatus;
 #endif
 
+#ifndef __AS__TYPE_typHmiButtonsKlappenBoxen
+#define __AS__TYPE_typHmiButtonsKlappenBoxen
+typedef struct typHmiButtonsKlappenBoxen
+{	plcbit Klappe1;
+	plcbit Klappe2;
+	plcbit Klappe3;
+	plcbit Klappe4;
+	plcbit Klappe5;
+	plcbit Klappe6;
+} typHmiButtonsKlappenBoxen;
+#endif
+
+#ifndef __AS__TYPE_typHmiButtons
+#define __AS__TYPE_typHmiButtons
+typedef struct typHmiButtons
+{	plcbit IntervallEinstellenBoxAktuell;
+	plcbit NachtrocknEinstellenAktuell;
+	plcbit hideDetailansichtBox;
+	plcbit hideZeitfenster;
+	plcbit showBox1;
+	plcbit showBox2;
+	plcbit showBox3;
+	plcbit showBox4;
+	plcbit showBox5;
+	plcbit showBox6;
+	plcbit showVentilatoren;
+	plcbit showEntfeuchterFremd;
+	plcbit showEntfeuchter;
+	plcbit showOfen;
+	plcbit showHeizregister;
+	plcbit showKlappen;
+	plcbit showSensoren;
+	plcbit QuitFehler;
+	plcbit TestbetriebEin;
+	plcbit TestbetriebAbbrechen;
+	plcbit TestbetriebAbschliessen;
+	plcbit IpParameterSetzen;
+	plcbit DatenaufzeichnungAufUsb;
+	plcbit DatenaufzeichnungLoeschen;
+	plcbit Logout;
+	plcbit TouchKalibrieren;
+	plcbit SicherheitshinweisOk;
+	plcbit ResetEnergieverbrTag;
+	plcbit ResetServiceUhrzeit;
+	typHmiButtonsKlappenBoxen ButtonsKlappeBox1;
+	typHmiButtonsKlappenBoxen ButtonsKlappeBox2;
+	typHmiButtonsKlappenBoxen ButtonsKlappeBox3;
+	typHmiButtonsKlappenBoxen ButtonsKlappeBox4;
+	typHmiButtonsKlappenBoxen ButtonsKlappeBox5;
+	typHmiButtonsKlappenBoxen ButtonsKlappeBox6;
+	plcbit changeBetrArtBypassklappe;
+	plcbit changeBetrArtAbluftvent;
+	plcbit changeBetrArtAbluftklappe;
+	plcbit changeBetrArtUmluftklappen;
+	plcbit ParameterVonUsbLaden;
+	plcbit ParameterAufUsbKopieren;
+	plcbit TrocknungsbilanzOk;
+	plcbit changeTrockengutBox1;
+	plcbit changeTrockengutBox2;
+	plcbit changeTrockengutBox3;
+	plcbit changeTrockengutBox4;
+	plcbit changeTrockengutBox5;
+	plcbit changeTrockengutBox6;
+} typHmiButtons;
+#endif
+
 #ifndef __AS__TYPE_typNutzungAllgemein
 #define __AS__TYPE_typNutzungAllgemein
 typedef struct typNutzungAllgemein
@@ -1339,6 +1405,9 @@ typedef struct statAnlage
 	float LuftmengeAktuell;
 	plcbit UmluftbetriebAktiv;
 	plcbit FrischluftbetriebAktiv;
+	plcbit Warmluft1;
+	plcbit Warmluft2;
+	plcbit WarmluftAnforderung;
 	float EnergieverbrTag;
 	float EnergieLeistungAkt;
 	float EnergieverbrGes;
@@ -2249,6 +2318,7 @@ _GLOBAL typEchtzeit Echtzeit;
 _GLOBAL_RETAIN plcbit gMindestlaufzOelsumpfOk;
 _GLOBAL typHmiStatus hmiStatus;
 _GLOBAL typNutzungsdaten hmiNutzungsdaten;
+_GLOBAL typHmiButtons hmiButtons;
 _GLOBAL float aoDrehzahlvorgVentilator1;
 _GLOBAL float aoDrehzahlvorgVentilator2;
 _GLOBAL float aoDrehzahlvorgKompressorModul1;

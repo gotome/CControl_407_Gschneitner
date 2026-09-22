@@ -1,8 +1,8 @@
 #define _DEFAULT_INCLUDE
 #include <bur\plctypes.h>
-#include "C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoFuellstst.h"
-#line 1 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoUtil/fbLascoFuellst.nodebug"
-#line 13 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoUtil/fbLascoFuellst.st"
+#include "C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoFuellstst.h"
+#line 1 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoUtil/fbLascoFuellst.nodebug"
+#line 13 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoUtil/fbLascoFuellst.st"
 void fbLascoFuellst(struct fbLascoFuellst* inst){struct fbLascoFuellst* __inst__=inst;{
 
 if((__inst__->Fuellstand^__inst__->zzEdge00000&1?((__inst__->zzEdge00000=__inst__->Fuellstand&1),1):((__inst__->zzEdge00000=__inst__->Fuellstand&1),0))){
@@ -19,7 +19,7 @@ if(__inst__->Quit){
 }
 
 }imp1_else1_1:imp1_end1_0:;}
-#line 28 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoUtil/fbLascoFuellst.nodebug"
+#line 28 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoUtil/fbLascoFuellst.nodebug"
 
 void __AS__ImplInitfbLascoFuellst_st(void){}
 
@@ -109,8 +109,8 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/dvframe/dvframe.var\\\" scope \\
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/CControl/Constants.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoFuellst.st.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoFuellst.st.c\\\" \\\"C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoUtil/fbLascoFuellst.st\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoFuellst.st.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoUtil/fbLascoFuellst.st.c\\\" \\\"C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoUtil/fbLascoFuellst.st\\\"\\n\"");
 __asm__(".ascii \"plcexport \\\"fbLascoAutoRuecklauf\\\" FUB\\n\"");
 __asm__(".ascii \"plcexport \\\"fbLascoBskUeberw\\\" FUB\\n\"");
 __asm__(".ascii \"plcexport \\\"fbLascoEUhr\\\" FUB\\n\"");

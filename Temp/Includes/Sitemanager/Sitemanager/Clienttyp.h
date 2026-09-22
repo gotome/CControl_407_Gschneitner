@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1781697446_42_
-#define _BUR_1781697446_42_
+#ifndef _BUR_1790103064_42_
+#define _BUR_1790103064_42_
 
 #include <bur/plctypes.h>
 
@@ -33,5 +33,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Sitemanager/Sitemanager/Client.typ\\\" sco
 __asm__(".previous");
 
 
-#endif /* _BUR_1781697446_42_ */
+#endif /* _BUR_1790103064_42_ */
 

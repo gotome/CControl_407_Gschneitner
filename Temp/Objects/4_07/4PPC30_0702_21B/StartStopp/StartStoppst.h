@@ -808,6 +808,9 @@ typedef struct statAnlage
 	float LuftmengeAktuell;
 	plcbit UmluftbetriebAktiv;
 	plcbit FrischluftbetriebAktiv;
+	plcbit Warmluft1;
+	plcbit Warmluft2;
+	plcbit WarmluftAnforderung;
 	float EnergieverbrTag;
 	float EnergieLeistungAkt;
 	float EnergieverbrGes;

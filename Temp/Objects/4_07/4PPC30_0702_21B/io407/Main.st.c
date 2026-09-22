@@ -1,15 +1,15 @@
 #define _DEFAULT_INCLUDE
 #include <bur\plctypes.h>
-#include "C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/io407/Mainst.h"
-#line 1 "C:/SharedFolder/CControl_Gschneitner/Logical/IO/io407/Main.nodebug"
-#line 2 "C:/SharedFolder/CControl_Gschneitner/Logical/IO/io407/Main.st"
+#include "C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/io407/Mainst.h"
+#line 1 "C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/io407/Main.nodebug"
+#line 2 "C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/io407/Main.st"
 void __BUR__ENTRY_INIT_FUNCT__(void){{
 
 (hmiStatus.NameSteuerung=0);
 
 }}
-#line 6 "C:/SharedFolder/CControl_Gschneitner/Logical/IO/io407/Main.nodebug"
-#line 10 "C:/SharedFolder/CControl_Gschneitner/Logical/IO/io407/Main.st"
+#line 6 "C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/io407/Main.nodebug"
+#line 10 "C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/io407/Main.st"
 void _CYCLIC __BUR__ENTRY_CYCLIC_FUNCT__(void){{
 
 
@@ -890,13 +890,13 @@ fbLascoFehl(&fbLascoFehl_0);
 
 
 }}
-#line 889 "C:/SharedFolder/CControl_Gschneitner/Logical/IO/io407/Main.nodebug"
-#line 895 "C:/SharedFolder/CControl_Gschneitner/Logical/IO/io407/Main.st"
+#line 889 "C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/io407/Main.nodebug"
+#line 895 "C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/io407/Main.st"
 void _EXIT __BUR__ENTRY_EXIT_FUNCT__(void){{
 
 
 }}
-#line 898 "C:/SharedFolder/CControl_Gschneitner/Logical/IO/io407/Main.nodebug"
+#line 898 "C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/io407/Main.nodebug"
 
 void __AS__ImplInitMain_st(void){__BUR__ENTRY_INIT_FUNCT__();}
 
@@ -1003,8 +1003,8 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/CControl/Constants.var\\\" scope
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/IO/io407/Types.typ\\\" scope \\\"local\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/IO/io407/Variables.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/io407/Main.st.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/io407/Main.st.c\\\" \\\"C:/SharedFolder/CControl_Gschneitner/Logical/IO/io407/Main.st\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/io407/Main.st.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/io407/Main.st.c\\\" \\\"C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/io407/Main.st\\\"\\n\"");
 __asm__(".previous");
 
 __asm__(".section \".plciec\"");

@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1781697446_33_
-#define _BUR_1781697446_33_
+#ifndef _BUR_1790103064_33_
+#define _BUR_1790103064_33_
 
 #include <bur/plctypes.h>
 
@@ -13,6 +13,10 @@
 
 
 /* Variables */
+_BUR_LOCAL float loc_LuftmengeSollWarmVent2;
+_BUR_LOCAL float loc_LuftmengeSollWarmVent1;
+_BUR_LOCAL float loc_LuftmengeSollKaltVent2;
+_BUR_LOCAL float loc_LuftmengeSollKaltVent1;
 _BUR_LOCAL float loc_Ansaugflaeche;
 _BUR_LOCAL struct fbBoxenLuftmengen fbBoxenLuftmengen_0;
 _BUR_LOCAL float loc_LuftgeschwSollVent2;
@@ -38,5 +42,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/LascoUtil/LascoUtil.fun\\\" scop
 __asm__(".previous");
 
 
-#endif /* _BUR_1781697446_33_ */
+#endif /* _BUR_1790103064_33_ */
 

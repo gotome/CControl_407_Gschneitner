@@ -1,8 +1,8 @@
 #define _DEFAULT_INCLUDE
 #include <bur\plctypes.h>
-#include "C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/hmiMain/Mainst.h"
-#line 1 "C:/SharedFolder/CControl_Gschneitner/Logical/Visualisierung/hmiMain/Main.nodebug"
-#line 2 "C:/SharedFolder/CControl_Gschneitner/Logical/Visualisierung/hmiMain/Main.st"
+#include "C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/hmiMain/Mainst.h"
+#line 1 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Visualisierung/hmiMain/Main.nodebug"
+#line 2 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Visualisierung/hmiMain/Main.st"
 void __BUR__ENTRY_INIT_FUNCT__(void){{
 
 
@@ -44,8 +44,8 @@ if(hmiParameter.Umschaltklappen.Automatik){
 
 
 }}
-#line 42 "C:/SharedFolder/CControl_Gschneitner/Logical/Visualisierung/hmiMain/Main.nodebug"
-#line 46 "C:/SharedFolder/CControl_Gschneitner/Logical/Visualisierung/hmiMain/Main.st"
+#line 42 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Visualisierung/hmiMain/Main.nodebug"
+#line 46 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Visualisierung/hmiMain/Main.st"
 void _CYCLIC __BUR__ENTRY_CYCLIC_FUNCT__(void){int __AS__Local0_00000;plcstring* __AS__Local3_00000;plcstring* __AS__Local4_00000;{
 
 
@@ -1050,6 +1050,16 @@ if((((unsigned long)(unsigned char)hmiStatus.Umluftklappen.IndexBetriebsart==(un
 (hmiStatus.Umluftklappen.EingabeTempDifferenzSperre=1);
 (hmiStatus.Umluftklappen.EingabeTempSchaltpunktSperre=1);
 }
+
+
+
+
+
+(hmiParameter.Umschaltklappen.Automatik=0);
+(hmiParameter.Umschaltklappen.Frischluft=1);
+(hmiParameter.Umschaltklappen.Umluft=0);
+(hmiStatus.Umluftklappen.IndexBetriebsart=1);
+(hmiStatus.Umluftklappen.TextindexButton=1);
 
 
 
@@ -3626,7 +3636,7 @@ if(((hmiButtons.TestbetriebAbbrechen&~Edge0000100058&1?((Edge0000100058=hmiButto
 
 
 }imp1_else356_0:imp1_end356_0:;}
-#line 3625 "C:/SharedFolder/CControl_Gschneitner/Logical/Visualisierung/hmiMain/Main.nodebug"
+#line 3635 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Visualisierung/hmiMain/Main.nodebug"
 
 void __AS__ImplInitMain_st(void){__BUR__ENTRY_INIT_FUNCT__();}
 
@@ -3736,8 +3746,8 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/CControl/Constants.var\\\" scope
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Visualisierung/hmiMain/Types.typ\\\" scope \\\"local\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Visualisierung/hmiMain/Variables.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/hmiMain/Main.st.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/hmiMain/Main.st.c\\\" \\\"C:/SharedFolder/CControl_Gschneitner/Logical/Visualisierung/hmiMain/Main.st\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/hmiMain/Main.st.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/hmiMain/Main.st.c\\\" \\\"C:/SharedFolder/CControl_407_Gschneitner/Logical/Visualisierung/hmiMain/Main.st\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Temp/Objects/4_07/4PPC30_0702_21B/hmiMain/Main.st.var\\\" scope \\\"local\\\"\\n\"");
 __asm__(".previous");
 

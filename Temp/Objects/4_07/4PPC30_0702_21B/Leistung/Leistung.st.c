@@ -1,8 +1,8 @@
 #define _DEFAULT_INCLUDE
 #include <bur\plctypes.h>
-#include "C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Leistung/Leistungst.h"
-#line 1 "C:/SharedFolder/CControl_Gschneitner/Logical/Regelung/Leistung/Leistung.nodebug"
-#line 2 "C:/SharedFolder/CControl_Gschneitner/Logical/Regelung/Leistung/Leistung.st"
+#include "C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Leistung/Leistungst.h"
+#line 1 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Regelung/Leistung/Leistung.nodebug"
+#line 2 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Regelung/Leistung/Leistung.st"
 void __BUR__ENTRY_INIT_FUNCT__(void){{
 
 
@@ -32,8 +32,8 @@ fbRegPidReglerAllg(&fbPidHeizregister);
 fbRegPidReglerAllg(&fbPidAbluftregler);
 
 }}
-#line 30 "C:/SharedFolder/CControl_Gschneitner/Logical/Regelung/Leistung/Leistung.nodebug"
-#line 34 "C:/SharedFolder/CControl_Gschneitner/Logical/Regelung/Leistung/Leistung.st"
+#line 30 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Regelung/Leistung/Leistung.nodebug"
+#line 34 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Regelung/Leistung/Leistung.st"
 void _CYCLIC __BUR__ENTRY_CYCLIC_FUNCT__(void){{
 
 
@@ -94,7 +94,21 @@ if(Betriebsparameter.Ausstattung.EntfeuchterFremd){
 (fbBoxenLuftmengen_0.Box6.Ventilator1=Betriebsparameter.Boxen[CheckBounds(6,1,6)-1].Ventilator1);
 (fbBoxenLuftmengen_0.Box6.Ventilator2=Betriebsparameter.Boxen[CheckBounds(6,1,6)-1].Ventilator2);
 
+
+
+
+
+(fbBoxenLuftmengen_0.FrischluftbetriebAktiv=1);
+(fbBoxenLuftmengen_0.UmluftbetriebAktiv=0);
 fbBoxenLuftmengen(&fbBoxenLuftmengen_0);
+(loc_LuftmengeSollKaltVent1=fbBoxenLuftmengen_0.LuftmengeSollVent1Out);
+(loc_LuftmengeSollKaltVent2=fbBoxenLuftmengen_0.LuftmengeSollVent2Out);
+
+(fbBoxenLuftmengen_0.FrischluftbetriebAktiv=0);
+(fbBoxenLuftmengen_0.UmluftbetriebAktiv=1);
+fbBoxenLuftmengen(&fbBoxenLuftmengen_0);
+(loc_LuftmengeSollWarmVent1=fbBoxenLuftmengen_0.LuftmengeSollVent1Out);
+(loc_LuftmengeSollWarmVent2=fbBoxenLuftmengen_0.LuftmengeSollVent2Out);
 
 
 
@@ -108,28 +122,56 @@ if(Betriebsparameter.Ausstattung.Entfeuchter){
 }
 
 
-if((gStatusAnlage.FrischluftbetriebAktiv&Betriebsparameter.Ventilator1.LuftmengenregFrischluftEin)){
-if(((loc_Ansaugflaeche!=0))){
-(loc_LuftgeschwSollVent1=((fbBoxenLuftmengen_0.LuftmengeSollVent1Out/CheckDivReal(loc_Ansaugflaeche))/CheckDivReal(3600)));
-}
-
-}else if((gStatusAnlage.UmluftbetriebAktiv&Betriebsparameter.Ventilator1.LuftmengenregUmluftEin)){
-if(((loc_Ansaugflaeche!=0))){
-(loc_LuftgeschwSollVent1=((fbBoxenLuftmengen_0.LuftmengeSollVent1Out/CheckDivReal(loc_Ansaugflaeche))/CheckDivReal(3600)));
-}
-}
 
 
-if((gStatusAnlage.FrischluftbetriebAktiv&Betriebsparameter.Ventilator2.LuftmengenregFrischluftEin)){
+
+if((gStatusAnlage.Warmluft1&Betriebsparameter.Ventilator1.LuftmengenregUmluftEin)){
 if(((loc_Ansaugflaeche!=0))){
-(loc_LuftgeschwSollVent2=((fbBoxenLuftmengen_0.LuftmengeSollVent2Out/CheckDivReal(loc_Ansaugflaeche))/CheckDivReal(3600)));
+(loc_LuftgeschwSollVent1=((loc_LuftmengeSollWarmVent1/CheckDivReal(loc_Ansaugflaeche))/CheckDivReal(3600)));
+}
+}else if(((gStatusAnlage.Warmluft1^1)&Betriebsparameter.Ventilator1.LuftmengenregFrischluftEin)){
+if(((loc_Ansaugflaeche!=0))){
+(loc_LuftgeschwSollVent1=((loc_LuftmengeSollKaltVent1/CheckDivReal(loc_Ansaugflaeche))/CheckDivReal(3600)));
+}
 }
 
-}else if((gStatusAnlage.UmluftbetriebAktiv&Betriebsparameter.Ventilator2.LuftmengenregUmluftEin)){
+
+if((gStatusAnlage.Warmluft2&Betriebsparameter.Ventilator2.LuftmengenregUmluftEin)){
 if(((loc_Ansaugflaeche!=0))){
-(loc_LuftgeschwSollVent2=((fbBoxenLuftmengen_0.LuftmengeSollVent2Out/CheckDivReal(loc_Ansaugflaeche))/CheckDivReal(3600)));
+(loc_LuftgeschwSollVent2=((loc_LuftmengeSollWarmVent2/CheckDivReal(loc_Ansaugflaeche))/CheckDivReal(3600)));
+}
+}else if(((gStatusAnlage.Warmluft2^1)&Betriebsparameter.Ventilator2.LuftmengenregFrischluftEin)){
+if(((loc_Ansaugflaeche!=0))){
+(loc_LuftgeschwSollVent2=((loc_LuftmengeSollKaltVent2/CheckDivReal(loc_Ansaugflaeche))/CheckDivReal(3600)));
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -365,34 +407,57 @@ if(PidAbluftregler.Enable){
 
 
 
-if((gStatusAnlage.FrischluftbetriebAktiv&Betriebsparameter.Ventilator1.LuftmengenregFrischluftEin)){
-(PidLuftmengeVent1.Enable=1);
 
 
 
-}else if(hmiButtons.changeBetrArtUmluftklappen){
-(PidLuftmengeVent1.Enable=1);
+if(gStatusAnlage.Warmluft1){
+(PidLuftmengeVent1.Enable=Betriebsparameter.Ventilator1.LuftmengenregUmluftEin);
 }else{
-(PidLuftmengeVent1.Enable=0);
+(PidLuftmengeVent1.Enable=Betriebsparameter.Ventilator1.LuftmengenregFrischluftEin);
 }
 
-if((gStatusAnlage.FrischluftbetriebAktiv&Betriebsparameter.Ventilator2.LuftmengenregFrischluftEin)){
-(PidLuftmengeVent2.Enable=1);
-
-
-
-}else if(hmiButtons.changeBetrArtBypassklappe){
-(PidLuftmengeVent2.Enable=1);
+if(gStatusAnlage.Warmluft2){
+(PidLuftmengeVent2.Enable=Betriebsparameter.Ventilator2.LuftmengenregUmluftEin);
 }else{
-(PidLuftmengeVent2.Enable=0);
+(PidLuftmengeVent2.Enable=Betriebsparameter.Ventilator2.LuftmengenregFrischluftEin);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 (PidKompressor1.Enable=Betriebsparameter.Kompressor1.DrehzahlregelungEin);
 (PidKompressor2.Enable=Betriebsparameter.Kompressor2.DrehzahlregelungEin);
 
 
-(PidHeizregister.Enable=(Betriebsparameter.Ausstattung.Heizregister&(diHeizregisterFrostschutz^1)));
+
+
+
+(PidHeizregister.Enable=(Betriebsparameter.Ausstattung.Heizregister&(diHeizregisterFrostschutz^1)&gStatusAnlage.WarmluftAnforderung));
 
 
 (PidAbluftregler.Enable=Betriebsparameter.Abluftventilator.Automatik);
@@ -663,7 +728,7 @@ fbRegPidReglerAllg(&fbPidAbluftregler);
 
 
 }}
-#line 662 "C:/SharedFolder/CControl_Gschneitner/Logical/Regelung/Leistung/Leistung.nodebug"
+#line 727 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Regelung/Leistung/Leistung.nodebug"
 
 void __AS__ImplInitLeistung_st(void){__BUR__ENTRY_INIT_FUNCT__();}
 
@@ -769,8 +834,8 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.var\\\" scope \\\"gl
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/CControl/Constants.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Regelung/Leistung/Leistung.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Leistung/Leistung.st.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Leistung/Leistung.st.c\\\" \\\"C:/SharedFolder/CControl_Gschneitner/Logical/Regelung/Leistung/Leistung.st\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Leistung/Leistung.st.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Leistung/Leistung.st.c\\\" \\\"C:/SharedFolder/CControl_407_Gschneitner/Logical/Regelung/Leistung/Leistung.st\\\"\\n\"");
 __asm__(".previous");
 
 __asm__(".section \".plciec\"");

@@ -1,4 +1,0 @@
-$(AS_PROJECT_PATH)/Logical/CSV/Library/CSV/CSV.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/IecCheck/IecCheck.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/runtime/runtime.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.fun

@@ -161,6 +161,9 @@ TYPE
 		LuftmengeAktuell : {REDUND_UNREPLICABLE} REAL;
 		UmluftbetriebAktiv : {REDUND_UNREPLICABLE} BOOL;
 		FrischluftbetriebAktiv : {REDUND_UNREPLICABLE} BOOL;
+		Warmluft1 : {REDUND_UNREPLICABLE} BOOL; (*Kunde Gschneitner: Umschaltklappe 1 / Ventilator 1 steht auf Warmluft (sonst Kaltluft)*)
+		Warmluft2 : {REDUND_UNREPLICABLE} BOOL; (*Kunde Gschneitner: Umschaltklappe 2 / Ventilator 2 steht auf Warmluft (sonst Kaltluft)*)
+		WarmluftAnforderung : {REDUND_UNREPLICABLE} BOOL; (*Kunde Gschneitner: mind. ein laufender Ventilator steht auf Warmluft*)
 		EnergieverbrTag : {REDUND_UNREPLICABLE} REAL;
 		EnergieLeistungAkt : {REDUND_UNREPLICABLE} REAL;
 		EnergieverbrGes : {REDUND_UNREPLICABLE} REAL;

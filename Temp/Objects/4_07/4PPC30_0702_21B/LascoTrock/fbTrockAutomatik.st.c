@@ -1,8 +1,8 @@
 #define _DEFAULT_INCLUDE
 #include <bur\plctypes.h>
-#include "C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoTrock/fbTrockAutomatikst.h"
-#line 1 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoTrock/fbTrockAutomatik.nodebug"
-#line 13 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoTrock/fbTrockAutomatik.st"
+#include "C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoTrock/fbTrockAutomatikst.h"
+#line 1 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoTrock/fbTrockAutomatik.nodebug"
+#line 13 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoTrock/fbTrockAutomatik.st"
 void fbTrockAutomatik(struct fbTrockAutomatik* inst){struct fbTrockAutomatik* __inst__=inst;{
 
 if((((unsigned long)(unsigned char)__inst__->Freigabe==(unsigned long)(unsigned char)1))){
@@ -32,7 +32,7 @@ fbTrockLaufPause(&__inst__->fbLaufPause);
 }
 
 }imp1_end0_0:;}
-#line 41 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoTrock/fbTrockAutomatik.nodebug"
+#line 41 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoTrock/fbTrockAutomatik.nodebug"
 
 void __AS__ImplInitfbTrockAutomatik_st(void){}
 
@@ -122,8 +122,8 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/dvframe/dvframe.var\\\" scope \\
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/CControl/Constants.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoTrock/fbTrockAutomatik.st.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoTrock/fbTrockAutomatik.st.c\\\" \\\"C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoTrock/fbTrockAutomatik.st\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoTrock/fbTrockAutomatik.st.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoTrock/fbTrockAutomatik.st.c\\\" \\\"C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoTrock/fbTrockAutomatik.st\\\"\\n\"");
 __asm__(".ascii \"plcexport \\\"fbTrockZeitprogramm\\\" FUB\\n\"");
 __asm__(".ascii \"plcexport \\\"fbTrockLaufPause\\\" FUB\\n\"");
 __asm__(".ascii \"plcexport \\\"fbTrockNachtrock\\\" FUB\\n\"");

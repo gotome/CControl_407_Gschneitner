@@ -15,8 +15,6 @@ $(AS_PROJECT_PATH)/Logical/Regelung/Leistung/Leistung.var
 $(AS_PROJECT_PATH)/Logical/Libraries/LascoTrock/LascoTrock.fun
 $(AS_PROJECT_PATH)/Logical/IO/InputOutput.var
 $(AS_PROJECT_PATH)/Logical/Libraries/LascoReg/LascoReg.var
-$(AS_PROJECT_PATH)/Logical/VisuIO.var
-$(AS_PROJECT_PATH)/Logical/VisuIO.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/LascoUtil/LascoUtil.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/astime/astime.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/LaEntfV2/LaEntfV2.fun

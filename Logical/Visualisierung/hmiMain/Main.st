@@ -1048,6 +1048,16 @@ PROGRAM _CYCLIC
 		hmiStatus.Umluftklappen.EingabeTempSchaltpunktSperre	:= TRUE;
 	END_IF
 	
+	//Kunde Gschneitner: die Umluftklappen sind die Warmluft-/Kaltluftumschaltung, eine witterungsgefuehrte
+	//Umschaltung darf es nicht geben. Die Betriebsart wird deshalb fest auf Frischluft gestellt, auch wenn die
+	//Umschaltklappen in der Ausstattung aktiviert sind (noetig fuer die HMI-Ansichten der Klappen).
+	//Folge: gStatusAnlage.FrischluftbetriebAktiv ist immer TRUE, gStatusAnlage.UmluftbetriebAktiv immer FALSE.
+	hmiParameter.Umschaltklappen.Automatik		:= FALSE;
+	hmiParameter.Umschaltklappen.Frischluft		:= TRUE;
+	hmiParameter.Umschaltklappen.Umluft			:= FALSE;
+	hmiStatus.Umluftklappen.IndexBetriebsart	:= 1;
+	hmiStatus.Umluftklappen.TextindexButton		:= 1;
+	
 	//Betriebsart Umluftklappen umschalten (Automatik, Frischluft, Umluft) inkl. Verzögerungszeit
 	//0= Automatik, 1= Frischluft, 2= Umluft
 	//Kunde Gschneitner, keine Umluftklappenlogik aktiv, mit den HMI Buttons wird direkt der Ausgang der Klappe geschaltet!

@@ -1,14 +1,14 @@
 #define _DEFAULT_INCLUDE
 #include <bur\plctypes.h>
-#include "C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/aktorenMap/Mainst.h"
-#line 1 "C:/SharedFolder/CControl_Gschneitner/Logical/IO/aktorenMapping/Main.nodebug"
-#line 2 "C:/SharedFolder/CControl_Gschneitner/Logical/IO/aktorenMapping/Main.st"
+#include "C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/aktorenMap/Mainst.h"
+#line 1 "C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/aktorenMapping/Main.nodebug"
+#line 2 "C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/aktorenMapping/Main.st"
 void __BUR__ENTRY_INIT_FUNCT__(void){{
 
 
 }}
-#line 5 "C:/SharedFolder/CControl_Gschneitner/Logical/IO/aktorenMapping/Main.nodebug"
-#line 8 "C:/SharedFolder/CControl_Gschneitner/Logical/IO/aktorenMapping/Main.st"
+#line 5 "C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/aktorenMapping/Main.nodebug"
+#line 8 "C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/aktorenMapping/Main.st"
 void _CYCLIC __BUR__ENTRY_CYCLIC_FUNCT__(void){{
 
 
@@ -309,8 +309,11 @@ if(doAbluftventilatorEin){
 (Aktoren.VentUndKlappen.Boxenkl4VonVent2Abhaengig=Boxen.Boxenkl4VonVent2Abhaengig);
 (Aktoren.VentUndKlappen.Boxenkl5VonVent2Abhaengig=Boxen.Boxenkl5VonVent2Abhaengig);
 (Aktoren.VentUndKlappen.Boxenkl6VonVent2Abhaengig=Boxen.Boxenkl6VonVent2Abhaengig);
-(Aktoren.VentUndKlappen.UmluftklVonVent1Abhaengig=Betriebsparameter.Ausstattung.Vent1AusWennUmschUmluftkl);
-(Aktoren.VentUndKlappen.UmluftklVonVent2Abhaengig=Betriebsparameter.Ausstattung.Vent2AusWennUmschUmluftkl);
+
+
+
+(Aktoren.VentUndKlappen.UmluftklVonVent1Abhaengig=0);
+(Aktoren.VentUndKlappen.UmluftklVonVent2Abhaengig=0);
 (Aktoren.VentUndKlappen.EndlBoxenklappe1Geschl=diBox1Geschl);
 (Aktoren.VentUndKlappen.EndlBoxenklappe1Offen=diBox1Offen);
 (Aktoren.VentUndKlappen.EndlBoxenklappe2Geschl=diBox2Geschl);
@@ -646,7 +649,9 @@ if(diHeizregisterFrostschutz){
 (doHeizregisterEin=1);
 (aoLeistungsvorgHeizregister=(1.00000000000000000000E+02));
 
-}else if((gStatusAnlage.FrischluftbetriebAktiv&Betriebsparameter.Ventilator1.LuftmengenregFrischluftEin&Betriebsparameter.Ventilator2.LuftmengenregFrischluftEin)){
+
+
+}else if((gStatusAnlage.WarmluftAnforderung^1)){
 (doHeizregisterEin=0);
 (aoLeistungsvorgHeizregister=(0.00000000000000000000E+00));
 }else{
@@ -754,7 +759,7 @@ if(Aktoren.Brandschutzklappe.OeffnenOut){
 
 
 }imp1_end28_0:;}
-#line 752 "C:/SharedFolder/CControl_Gschneitner/Logical/IO/aktorenMapping/Main.nodebug"
+#line 757 "C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/aktorenMapping/Main.nodebug"
 
 void __AS__ImplInitMain_st(void){__BUR__ENTRY_INIT_FUNCT__();}
 
@@ -861,6 +866,6 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/CControl/Constants.var\\\" scope
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/IO/aktorenMapping/Variables.var\\\" scope \\\"local\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/IO/aktorenMapping/Types.typ\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/aktorenMap/Main.st.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/aktorenMap/Main.st.c\\\" \\\"C:/SharedFolder/CControl_Gschneitner/Logical/IO/aktorenMapping/Main.st\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/aktorenMap/Main.st.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/aktorenMap/Main.st.c\\\" \\\"C:/SharedFolder/CControl_407_Gschneitner/Logical/IO/aktorenMapping/Main.st\\\"\\n\"");
 __asm__(".previous");

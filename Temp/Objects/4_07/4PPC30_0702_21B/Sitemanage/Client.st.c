@@ -1,8 +1,8 @@
 #define _DEFAULT_INCLUDE
 #include <bur\plctypes.h>
-#include "C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Sitemanage/Clientst.h"
-#line 1 "C:/SharedFolder/CControl_Gschneitner/Logical/Sitemanager/Sitemanager/Client.nodebug"
-#line 7 "C:/SharedFolder/CControl_Gschneitner/Logical/Sitemanager/Sitemanager/Client.st"
+#include "C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Sitemanage/Clientst.h"
+#line 1 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Sitemanager/Sitemanager/Client.nodebug"
+#line 7 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Sitemanager/Sitemanager/Client.st"
 void _CYCLIC __BUR__ENTRY_CYCLIC_FUNCT__(void){int __AS__Local0_00000;plcstring* __AS__Local3_00000;plcstring* __AS__Local4_00000;{
 
 
@@ -238,7 +238,7 @@ case 32600:{__AS__Local3_00000=(plcstring*)ErrorText; __AS__Local4_00000=(plcstr
 
 
 }imp1_case15_6:imp1_endcase15_0:;}
-#line 241 "C:/SharedFolder/CControl_Gschneitner/Logical/Sitemanager/Sitemanager/Client.nodebug"
+#line 241 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Sitemanager/Sitemanager/Client.nodebug"
 
 void __AS__ImplInitClient_st(void){}
 
@@ -348,8 +348,8 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/CControl/Constants.var\\\" scope
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Sitemanager/Sitemanager/Client.typ\\\" scope \\\"local\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Sitemanager/Sitemanager/Client.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Sitemanage/Client.st.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Sitemanage/Client.st.c\\\" \\\"C:/SharedFolder/CControl_Gschneitner/Logical/Sitemanager/Sitemanager/Client.st\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Sitemanage/Client.st.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/Sitemanage/Client.st.c\\\" \\\"C:/SharedFolder/CControl_407_Gschneitner/Logical/Sitemanager/Sitemanager/Client.st\\\"\\n\"");
 __asm__(".previous");
 
 __asm__(".section \".plciec\"");

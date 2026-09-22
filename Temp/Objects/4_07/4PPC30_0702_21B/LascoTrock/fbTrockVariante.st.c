@@ -1,8 +1,8 @@
 #define _DEFAULT_INCLUDE
 #include <bur\plctypes.h>
-#include "C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoTrock/fbTrockVariantest.h"
-#line 1 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoTrock/fbTrockVariante.nodebug"
-#line 13 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoTrock/fbTrockVariante.st"
+#include "C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoTrock/fbTrockVariantest.h"
+#line 1 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoTrock/fbTrockVariante.nodebug"
+#line 13 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoTrock/fbTrockVariante.st"
 void fbTrockVariante(struct fbTrockVariante* inst){struct fbTrockVariante* __inst__=inst;{
 
 if(__inst__->Freigabe){
@@ -263,7 +263,7 @@ if((__inst__->Ventilator1&(__inst__->Ventilator2^1)&(__inst__->Luftentfeuchter^1
 
 
 }imp1_end0_0:;}
-#line 272 "C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoTrock/fbTrockVariante.nodebug"
+#line 272 "C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoTrock/fbTrockVariante.nodebug"
 
 void __AS__ImplInitfbTrockVariante_st(void){}
 
@@ -353,8 +353,8 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/dvframe/dvframe.var\\\" scope \\
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsTCP/AsTCP.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/CControl/Constants.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/MpBase/MpBase.var\\\" scope \\\"global\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoTrock/fbTrockVariante.st.var\\\" scope \\\"local\\\"\\n\"");
-__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoTrock/fbTrockVariante.st.c\\\" \\\"C:/SharedFolder/CControl_Gschneitner/Logical/Libraries/LascoTrock/fbTrockVariante.st\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoTrock/fbTrockVariante.st.var\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"plcreplace \\\"C:/SharedFolder/CControl_407_Gschneitner/Temp/Objects/4_07/4PPC30_0702_21B/LascoTrock/fbTrockVariante.st.c\\\" \\\"C:/SharedFolder/CControl_407_Gschneitner/Logical/Libraries/LascoTrock/fbTrockVariante.st\\\"\\n\"");
 __asm__(".ascii \"plcexport \\\"fbTrockZeitprogramm\\\" FUB\\n\"");
 __asm__(".ascii \"plcexport \\\"fbTrockLaufPause\\\" FUB\\n\"");
 __asm__(".ascii \"plcexport \\\"fbTrockNachtrock\\\" FUB\\n\"");
