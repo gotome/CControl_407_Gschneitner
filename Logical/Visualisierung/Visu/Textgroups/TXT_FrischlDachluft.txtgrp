@@ -9,7 +9,7 @@
     <Text ID="240457" Value="Roof air mode"/>
   </TextLayer>
   <TextLayer LanguageId="de">
-    <Text ID="240456" Value="Frischluftbetrieb"/>
+    <Text ID="240456" Value="Kaltluftbetrieb"/>
     <Text ID="240457" Value="Dachluftbetrieb"/>
   </TextLayer>
   <TextLayer LanguageId="fr">

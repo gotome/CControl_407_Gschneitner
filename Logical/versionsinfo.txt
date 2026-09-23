@@ -258,8 +258,19 @@ Aenderungen:
   (Ablaufsteuerung/Ablaufstrg/actionBetrieb, IO/aktorenMapping, Regelung/Leistung).
 - Ventilatorabschaltung waehrend der Umschaltung der Umluftklappen deaktiviert, da die Klappen vom Bediener
   geschaltet werden (IO/aktorenMapping).
-- Luftmengenregelung ist nur im Warmluftbetrieb aktiv, im Kaltluftbetrieb laeuft der Ventilator ungeregelt.
-  Freigabe weiterhin ueber 'Luftmengenregelung Frischluft' auf der Ventilator-Detailseite (Regelung/Leistung).
+- Ventilatorregelung folgt der Warmluft-/Kaltluftumschaltung des jeweiligen Ventilators: Kaltluft verwendet
+  die bisherige Frischluftlogik (Fixdrehzahl DrehzahlFixFrischluft), Warmluft die bisherige Umluftlogik
+  (Fixdrehzahl DrehzahlFixUmluft oder Luftmengenregelung, je nach Einstellung des Bedieners im
+  Ventilator-Popup). Die Variablennamen wurden nicht umbenannt, die Zuordnung ist im Code kommentiert
+  (Regelung/Leistung).
+- Soll-Luftmenge wird fuer beide Parametersaetze berechnet, da die zwei Ventilatoren unterschiedlich stehen
+  koennen und fbBoxenLuftmengen nur eine gemeinsame Betriebsart kennt (Regelung/Leistung).
+- Fixdrehzahlvorgabe Ventilator 1 und 2 haengt jetzt an Warmluft1/Warmluft2 statt am anlagenweiten
+  Frischluft-/Umluftstatus. Bisher wurde immer DrehzahlFixFrischluft verwendet, der Umluftwert war wirkungslos.
+  Gilt fuer alle Zweige: Normalbetrieb, Leistungsreduzierung und Strombegrenzung (Regelung/Leistung).
+- Ventilator-Detailansicht umbenannt (nur deutscher Textlayer, Visualisierung/Visu): 'Frischluftbetrieb' ->
+  'Kaltluftbetrieb' (TXT_FrischlDachluft) und 'Umluftbetrieb' -> 'Warmluftbetrieb' (gDetailsVentilatoren).
+  Anlagenstatus, Betriebsstundenzaehler und Ausstattungsseiten behalten ihre Bezeichnungen.
 - Parametersatz 407Werk angepasst: Umschaltklappe 1 und 2 in der Ausstattung aktiviert, Luftmengenregler
-  Frischluft fuer Ventilator 1 und 2 freigegeben, Betriebsart Umschaltklappen von Automatik auf Frischluft
-  (Parametersaetze/407/407Werk.xml).
+  Umluft fuer Ventilator 1 und 2 freigegeben (Kaltluft nur Fixdrehzahl), Betriebsart Umschaltklappen von
+  Automatik auf Frischluft (Parametersaetze/407/407Werk.xml).

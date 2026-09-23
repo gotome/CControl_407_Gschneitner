@@ -220,13 +220,13 @@
       <Property Name="Description" Value=""/>
       <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_443]"/>
       <Property Name="Font" Value="Source[local].Font[Arial12pxBold]"/>
-      <Property Name="ForeColor" Value="47"/>
       <Property Name="Height" Value="50"/>
       <Property Name="KeyMatrixOffset" Value="None"/>
       <Property Name="Left" Value="149"/>
       <Property Name="PressedBackColor" Value="15"/>
       <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
       <Property Name="PressedBorder" Value="Source[local].Border[FrameHellgr2Schwarz]"/>
+      <Property Name="PressedForeColor" Value="243"/>
       <Property Name="PressedTextGroup" Value="Source[embedded].TextGroup"/>
       <Property Name="PressedTextIndex" Value="15"/>
       <Property Name="PressedTextSource" Value="SingleText"/>
@@ -264,13 +264,13 @@
       <Property Name="Description" Value=""/>
       <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_444]"/>
       <Property Name="Font" Value="Source[local].Font[Arial12pxBold]"/>
-      <Property Name="ForeColor" Value="47"/>
       <Property Name="Height" Value="50"/>
       <Property Name="KeyMatrixOffset" Value="None"/>
       <Property Name="Left" Value="149"/>
       <Property Name="PressedBackColor" Value="15"/>
       <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
       <Property Name="PressedBorder" Value="Source[local].Border[FrameHellgr2Schwarz]"/>
+      <Property Name="PressedForeColor" Value="243"/>
       <Property Name="PressedTextGroup" Value="Source[embedded].TextGroup"/>
       <Property Name="PressedTextIndex" Value="22"/>
       <Property Name="PressedTextSource" Value="SingleText"/>

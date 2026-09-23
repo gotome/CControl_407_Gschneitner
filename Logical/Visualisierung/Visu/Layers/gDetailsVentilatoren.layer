@@ -38,7 +38,7 @@
       <Text ID="240452" Value="Fixdrehzahl"/>
       <Text ID="240453" Value="Luftmengen-\nregelung"/>
       <Text ID="240454" Value="1"/>
-      <Text ID="240458" Value="Umluftbetrieb"/>
+      <Text ID="240458" Value="Warmluftbetrieb"/>
       <Text ID="240459" Value="Ventilatoren"/>
       <Text ID="240467" Value="Fixdrehzahl"/>
       <Text ID="240468" Value="Luftmengen-\nregelung"/>
@@ -47,7 +47,7 @@
       <Text ID="240471" Value="Fixdrehzahl"/>
       <Text ID="240472" Value="Luftmengen-\nregelung"/>
       <Text ID="240473" Value="2"/>
-      <Text ID="240475" Value="Umluftbetrieb"/>
+      <Text ID="240475" Value="Warmluftbetrieb"/>
     </TextLayer>
     <TextLayer LanguageId="fr">
       <Text ID="240429" Value="Vitesse fixe"/>
